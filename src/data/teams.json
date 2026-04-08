@@ -90,7 +90,7 @@
     "conference": "AFC",
     "division": "AFC East",
     "colors": {
-      "primary": "#002244",
+      "primary": "#C60C30",
       "secondary": "#C60C30",
       "tertiary": "#FFFFFF",
       "background": "#001428"
@@ -171,7 +171,7 @@
     "conference": "AFC",
     "division": "AFC North",
     "colors": {
-      "primary": "#241773",
+      "primary": "#9E7C0C",
       "secondary": "#000000",
       "tertiary": "#9E7C0C",
       "background": "#130c3d"
@@ -330,7 +330,7 @@
     "conference": "AFC",
     "division": "AFC South",
     "colors": {
-      "primary": "#03202F",
+      "primary": "#A71930",
       "secondary": "#A71930",
       "tertiary": "#FFFFFF",
       "background": "#01111a"
@@ -566,7 +566,7 @@
     "conference": "AFC",
     "division": "AFC West",
     "colors": {
-      "primary": "#000000",
+      "primary": "#A5ACAF",
       "secondary": "#A5ACAF",
       "tertiary": "#FFFFFF",
       "background": "#0a0a0a"
@@ -684,7 +684,7 @@
     "conference": "NFC",
     "division": "NFC East",
     "colors": {
-      "primary": "#0B2265",
+      "primary": "#A71930",
       "secondary": "#A71930",
       "tertiary": "#FFFFFF",
       "background": "#061540"
@@ -803,7 +803,7 @@
     "conference": "NFC",
     "division": "NFC North",
     "colors": {
-      "primary": "#0B162A",
+      "primary": "#C83803",
       "secondary": "#C83803",
       "tertiary": "#FFFFFF",
       "background": "#060d1a"
@@ -1195,7 +1195,7 @@
     "conference": "NFC",
     "division": "NFC West",
     "colors": {
-      "primary": "#002244",
+      "primary": "#69BE28",
       "secondary": "#69BE28",
       "tertiary": "#A5ACAF",
       "background": "#001428"
