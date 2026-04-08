@@ -357,3 +357,11 @@
 .draftCompleteIcon {
   font-size: 14px;
 }
+
+@media (max-width: 767px) {
+  .panel {
+    width: 100%;
+    min-width: 0;
+    border-right: none;
+  }
+}
