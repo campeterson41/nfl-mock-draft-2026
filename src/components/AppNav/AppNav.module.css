@@ -1,0 +1,106 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 42px;
+  padding: 0 16px;
+  background: #0f0f12;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  flex-shrink: 0;
+  z-index: 200;
+  position: relative;
+}
+
+/* ── Left: logo/wordmark ── */
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.homeBtn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.homeLogo {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  border: 1px solid rgba(212, 168, 67, 0.4);
+  padding: 2px 7px;
+  border-radius: 2px;
+}
+
+.homeYear {
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  color: #d4a843;
+  line-height: 1;
+}
+
+.homeNfl {
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  color: #fafafa;
+  line-height: 1;
+}
+
+.homeLabel {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  color: #a1a1aa;
+  text-transform: uppercase;
+  transition: color 150ms;
+}
+
+.homeBtn:hover .homeLabel {
+  color: #fafafa;
+}
+
+/* ── Right: nav actions ── */
+.right {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.navBtn {
+  display: inline-flex;
+  align-items: center;
+  height: 26px;
+  padding: 0 12px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #71717a;
+  font-family: inherit;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: color 120ms, border-color 120ms;
+  white-space: nowrap;
+}
+
+.navBtn:hover {
+  color: #d4a843;
+  border-color: rgba(212, 168, 67, 0.5);
+}
+
+.navBtnHome {
+  border-color: rgba(255, 255, 255, 0.07);
+}
+
+.navBtnHome:hover {
+  color: #fafafa;
+  border-color: rgba(255, 255, 255, 0.2);
+}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 80" fill="none">
+  <path d="M32 2C18 2 6 10 6 10v38c0 12 26 28 26 28s26-16 26-28V10S46 2 32 2z" fill="#09090b" stroke="#d4a843" stroke-width="2.5"/>
+  <text x="32" y="34" text-anchor="middle" font-family="system-ui" font-weight="900" font-size="11" fill="#d4a843" letter-spacing="1">2026</text>
+  <text x="32" y="52" text-anchor="middle" font-family="system-ui" font-weight="900" font-size="18" fill="#fafafa" letter-spacing="1">NFL</text>
+</svg>

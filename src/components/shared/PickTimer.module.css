@@ -1,0 +1,53 @@
+.wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 88px;
+  height: 88px;
+}
+
+.svg {
+  display: block;
+}
+
+.track {
+  stroke: rgba(255, 255, 255, 0.08);
+}
+
+.progress {
+  will-change: stroke-dashoffset;
+}
+
+.label {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.sublabel {
+  fill: var(--text-muted);
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 7px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Urgent pulse glow */
+.urgentGlow {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  animation: urgentPulse 600ms ease-in-out infinite alternate;
+  pointer-events: none;
+}
+
+@keyframes urgentPulse {
+  from { box-shadow: 0 0 0 0 rgba(224, 49, 49, 0); }
+  to   { box-shadow: 0 0 20px 6px rgba(224, 49, 49, 0.35); }
+}
+
+.urgent .svg {
+  filter: drop-shadow(0 0 8px rgba(224, 49, 49, 0.5));
+}

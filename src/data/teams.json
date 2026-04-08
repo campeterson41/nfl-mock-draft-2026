@@ -1,0 +1,1267 @@
+{
+  "BUF": {
+    "id": "BUF",
+    "fullName": "Buffalo Bills",
+    "city": "Buffalo",
+    "nickname": "Bills",
+    "abbreviation": "BUF",
+    "conference": "AFC",
+    "division": "AFC East",
+    "colors": {
+      "primary": "#00338D",
+      "secondary": "#C60C30",
+      "tertiary": "#FFFFFF",
+      "background": "#00194a"
+    },
+    "needs": [
+      "EDGE",
+      "S",
+      "LB",
+      "IOL",
+      "WR",
+      "CB",
+      "DT"
+    ],
+    "needWeights": {
+      "EDGE": 2.5,
+      "S": 2.2,
+      "LB": 2.2,
+      "IOL": 2,
+      "WR": 1.8,
+      "CB": 1.5,
+      "DT": 1.2,
+      "OT": 1,
+      "QB": 0.5,
+      "RB": 0.8,
+      "TE": 0.8
+    },
+    "gm": "Brandon Beane",
+    "hc": "Joe Brady",
+    "regimeId": "buf-beane-brady",
+    "beatWriterIds": []
+  },
+  "MIA": {
+    "id": "MIA",
+    "fullName": "Miami Dolphins",
+    "city": "Miami",
+    "nickname": "Dolphins",
+    "abbreviation": "MIA",
+    "conference": "AFC",
+    "division": "AFC East",
+    "colors": {
+      "primary": "#008E97",
+      "secondary": "#FC4C02",
+      "tertiary": "#FFFFFF",
+      "background": "#005a61"
+    },
+    "needs": [
+      "WR",
+      "CB",
+      "EDGE",
+      "DT",
+      "OT",
+      "S",
+      "IOL"
+    ],
+    "needWeights": {
+      "WR": 2.8,
+      "CB": 2.5,
+      "EDGE": 2.2,
+      "DT": 2,
+      "OT": 1.8,
+      "S": 1.5,
+      "IOL": 1.5,
+      "LB": 1,
+      "QB": 0.8,
+      "RB": 0.8,
+      "TE": 0.8
+    },
+    "gm": "New Sullivan",
+    "hc": "Jeff Hafley",
+    "regimeId": "mia-sullivan-hafley",
+    "beatWriterIds": []
+  },
+  "NE": {
+    "id": "NE",
+    "fullName": "New England Patriots",
+    "city": "New England",
+    "nickname": "Patriots",
+    "abbreviation": "NE",
+    "conference": "AFC",
+    "division": "AFC East",
+    "colors": {
+      "primary": "#002244",
+      "secondary": "#C60C30",
+      "tertiary": "#FFFFFF",
+      "background": "#001428"
+    },
+    "needs": [
+      "EDGE",
+      "DT",
+      "OT",
+      "TE",
+      "IOL",
+      "WR",
+      "LB"
+    ],
+    "needWeights": {
+      "EDGE": 2.5,
+      "DT": 2.2,
+      "OT": 2,
+      "TE": 2,
+      "IOL": 1.8,
+      "WR": 1.5,
+      "LB": 1.2,
+      "CB": 1,
+      "S": 1,
+      "QB": 0.5,
+      "RB": 0.8
+    },
+    "gm": "Eliot Wolf",
+    "hc": "Mike Vrabel",
+    "regimeId": "ne-wolf-vrabel",
+    "beatWriterIds": []
+  },
+  "NYJ": {
+    "id": "NYJ",
+    "fullName": "New York Jets",
+    "city": "New York",
+    "nickname": "Jets",
+    "abbreviation": "NYJ",
+    "conference": "AFC",
+    "division": "AFC East",
+    "colors": {
+      "primary": "#125740",
+      "secondary": "#000000",
+      "tertiary": "#FFFFFF",
+      "background": "#0a3828"
+    },
+    "needs": [
+      "EDGE",
+      "WR",
+      "QB",
+      "CB",
+      "OT",
+      "S"
+    ],
+    "needWeights": {
+      "EDGE": 2.8,
+      "WR": 2.5,
+      "QB": 2.2,
+      "CB": 2,
+      "OT": 1.5,
+      "S": 1.5,
+      "IOL": 1.2,
+      "DT": 1,
+      "LB": 1,
+      "RB": 0.8,
+      "TE": 0.8
+    },
+    "gm": "TBD",
+    "hc": "Aaron Glenn",
+    "regimeId": "nyj-glenn",
+    "beatWriterIds": []
+  },
+  "BAL": {
+    "id": "BAL",
+    "fullName": "Baltimore Ravens",
+    "city": "Baltimore",
+    "nickname": "Ravens",
+    "abbreviation": "BAL",
+    "conference": "AFC",
+    "division": "AFC North",
+    "colors": {
+      "primary": "#241773",
+      "secondary": "#000000",
+      "tertiary": "#9E7C0C",
+      "background": "#130c3d"
+    },
+    "needs": [
+      "IOL",
+      "WR",
+      "EDGE",
+      "DT",
+      "CB"
+    ],
+    "needWeights": {
+      "IOL": 2.8,
+      "WR": 2.2,
+      "EDGE": 2,
+      "DT": 1.8,
+      "CB": 1.5,
+      "OT": 1.2,
+      "LB": 1,
+      "S": 1,
+      "QB": 0.5,
+      "RB": 0.8,
+      "TE": 0.8
+    },
+    "gm": "Eric DeCosta",
+    "hc": "Jesse Minter",
+    "regimeId": "bal-decosta-minter",
+    "beatWriterIds": []
+  },
+  "CIN": {
+    "id": "CIN",
+    "fullName": "Cincinnati Bengals",
+    "city": "Cincinnati",
+    "nickname": "Bengals",
+    "abbreviation": "CIN",
+    "conference": "AFC",
+    "division": "AFC North",
+    "colors": {
+      "primary": "#FB4F14",
+      "secondary": "#000000",
+      "tertiary": "#FFFFFF",
+      "background": "#7a2408"
+    },
+    "needs": [
+      "LB",
+      "DT",
+      "S",
+      "OT",
+      "WR",
+      "CB"
+    ],
+    "needWeights": {
+      "LB": 2.5,
+      "DT": 2.5,
+      "S": 2,
+      "OT": 1.8,
+      "WR": 1.5,
+      "CB": 1.5,
+      "EDGE": 1.2,
+      "IOL": 1.2,
+      "QB": 0.5,
+      "RB": 0.8,
+      "TE": 0.8
+    },
+    "gm": "Duke Tobin",
+    "hc": "Zac Taylor",
+    "regimeId": "cin-tobin-taylor",
+    "beatWriterIds": []
+  },
+  "CLE": {
+    "id": "CLE",
+    "fullName": "Cleveland Browns",
+    "city": "Cleveland",
+    "nickname": "Browns",
+    "abbreviation": "CLE",
+    "conference": "AFC",
+    "division": "AFC North",
+    "colors": {
+      "primary": "#FF3C00",
+      "secondary": "#311D00",
+      "tertiary": "#FFFFFF",
+      "background": "#1a0f00"
+    },
+    "needs": [
+      "OT",
+      "WR",
+      "QB",
+      "CB",
+      "EDGE",
+      "IOL"
+    ],
+    "needWeights": {
+      "OT": 2.8,
+      "WR": 2.5,
+      "QB": 2.2,
+      "CB": 1.8,
+      "EDGE": 1.5,
+      "IOL": 1.2,
+      "DT": 1,
+      "LB": 1,
+      "S": 1,
+      "RB": 0.8,
+      "TE": 0.8
+    },
+    "gm": "Andrew Berry",
+    "hc": "Todd Monken",
+    "regimeId": "cle-berry-monken",
+    "beatWriterIds": []
+  },
+  "PIT": {
+    "id": "PIT",
+    "fullName": "Pittsburgh Steelers",
+    "city": "Pittsburgh",
+    "nickname": "Steelers",
+    "abbreviation": "PIT",
+    "conference": "AFC",
+    "division": "AFC North",
+    "colors": {
+      "primary": "#FFB612",
+      "secondary": "#101820",
+      "tertiary": "#FFFFFF",
+      "background": "#0a1014"
+    },
+    "needs": [
+      "WR",
+      "OT",
+      "IOL",
+      "S",
+      "QB",
+      "LB"
+    ],
+    "needWeights": {
+      "WR": 2.5,
+      "OT": 2.2,
+      "IOL": 2,
+      "S": 2,
+      "QB": 1.8,
+      "LB": 1.5,
+      "CB": 1.2,
+      "EDGE": 1,
+      "DT": 1,
+      "RB": 0.8,
+      "TE": 0.8
+    },
+    "gm": "Omar Khan",
+    "hc": "Mike McCarthy",
+    "regimeId": "pit-khan-mccarthy",
+    "beatWriterIds": []
+  },
+  "HOU": {
+    "id": "HOU",
+    "fullName": "Houston Texans",
+    "city": "Houston",
+    "nickname": "Texans",
+    "abbreviation": "HOU",
+    "conference": "AFC",
+    "division": "AFC South",
+    "colors": {
+      "primary": "#03202F",
+      "secondary": "#A71930",
+      "tertiary": "#FFFFFF",
+      "background": "#01111a"
+    },
+    "needs": [
+      "IOL",
+      "DT",
+      "LB",
+      "CB",
+      "EDGE",
+      "OT"
+    ],
+    "needWeights": {
+      "IOL": 2.5,
+      "DT": 2.2,
+      "LB": 2,
+      "CB": 1.8,
+      "EDGE": 1.5,
+      "OT": 1.2,
+      "S": 1,
+      "WR": 0.8,
+      "QB": 0.5,
+      "RB": 0.8,
+      "TE": 0.8
+    },
+    "gm": "Nick Caserio",
+    "hc": "DeMeco Ryans",
+    "regimeId": "hou-caserio-ryans",
+    "beatWriterIds": []
+  },
+  "IND": {
+    "id": "IND",
+    "fullName": "Indianapolis Colts",
+    "city": "Indianapolis",
+    "nickname": "Colts",
+    "abbreviation": "IND",
+    "conference": "AFC",
+    "division": "AFC South",
+    "colors": {
+      "primary": "#003087",
+      "secondary": "#A2AAAD",
+      "tertiary": "#FFFFFF",
+      "background": "#001a4d"
+    },
+    "needs": [
+      "LB",
+      "S",
+      "EDGE",
+      "WR",
+      "OT"
+    ],
+    "needWeights": {
+      "LB": 2.5,
+      "S": 2.2,
+      "EDGE": 2,
+      "WR": 2,
+      "OT": 1.5,
+      "IOL": 1.2,
+      "CB": 1.2,
+      "DT": 1,
+      "QB": 0.8,
+      "RB": 0.8,
+      "TE": 0.8
+    },
+    "gm": "Chris Ballard",
+    "hc": "Shane Steichen",
+    "regimeId": "ind-ballard-steichen",
+    "beatWriterIds": []
+  },
+  "JAX": {
+    "id": "JAX",
+    "fullName": "Jacksonville Jaguars",
+    "city": "Jacksonville",
+    "nickname": "Jaguars",
+    "abbreviation": "JAX",
+    "conference": "AFC",
+    "division": "AFC South",
+    "colors": {
+      "primary": "#006778",
+      "secondary": "#D7A22A",
+      "tertiary": "#101820",
+      "background": "#003d47"
+    },
+    "needs": [
+      "DT",
+      "LB",
+      "EDGE",
+      "S",
+      "OT"
+    ],
+    "needWeights": {
+      "DT": 2.5,
+      "LB": 2.5,
+      "EDGE": 2.2,
+      "S": 1.8,
+      "OT": 1.5,
+      "IOL": 1.2,
+      "CB": 1,
+      "WR": 1,
+      "QB": 0.5,
+      "RB": 1,
+      "TE": 0.8
+    },
+    "gm": "James Gladstone",
+    "hc": "Liam Coen",
+    "regimeId": "jax-gladstone-coen",
+    "beatWriterIds": []
+  },
+  "TEN": {
+    "id": "TEN",
+    "fullName": "Tennessee Titans",
+    "city": "Tennessee",
+    "nickname": "Titans",
+    "abbreviation": "TEN",
+    "conference": "AFC",
+    "division": "AFC South",
+    "colors": {
+      "primary": "#4B92DB",
+      "secondary": "#C8102E",
+      "tertiary": "#FFFFFF",
+      "background": "#1a4a7a"
+    },
+    "needs": [
+      "EDGE",
+      "IOL",
+      "WR",
+      "RB",
+      "OT",
+      "LB"
+    ],
+    "needWeights": {
+      "EDGE": 2.5,
+      "IOL": 2.5,
+      "WR": 2.2,
+      "RB": 2,
+      "OT": 1.5,
+      "LB": 1.5,
+      "CB": 1,
+      "S": 1,
+      "DT": 1,
+      "QB": 0.5,
+      "TE": 0.8
+    },
+    "gm": "Mike Borgonzi",
+    "hc": "Robert Saleh",
+    "regimeId": "ten-borgonzi-saleh",
+    "beatWriterIds": []
+  },
+  "DEN": {
+    "id": "DEN",
+    "fullName": "Denver Broncos",
+    "city": "Denver",
+    "nickname": "Broncos",
+    "abbreviation": "DEN",
+    "conference": "AFC",
+    "division": "AFC West",
+    "colors": {
+      "primary": "#FB4F14",
+      "secondary": "#002244",
+      "tertiary": "#FFFFFF",
+      "background": "#7a2408"
+    },
+    "needs": [
+      "TE",
+      "DT",
+      "CB",
+      "LB",
+      "EDGE"
+    ],
+    "needWeights": {
+      "TE": 2.5,
+      "DT": 2.2,
+      "CB": 2,
+      "LB": 1.8,
+      "EDGE": 1.5,
+      "IOL": 1,
+      "S": 1,
+      "OT": 0.8,
+      "WR": 0.8,
+      "QB": 0.5,
+      "RB": 0.8
+    },
+    "gm": "George Paton",
+    "hc": "Sean Payton",
+    "regimeId": "den-paton-payton",
+    "beatWriterIds": []
+  },
+  "KC": {
+    "id": "KC",
+    "fullName": "Kansas City Chiefs",
+    "city": "Kansas City",
+    "nickname": "Chiefs",
+    "abbreviation": "KC",
+    "conference": "AFC",
+    "division": "AFC West",
+    "colors": {
+      "primary": "#E31837",
+      "secondary": "#FFB81C",
+      "tertiary": "#FFFFFF",
+      "background": "#7a0c1d"
+    },
+    "needs": [
+      "CB",
+      "EDGE",
+      "WR",
+      "DT",
+      "LB"
+    ],
+    "needWeights": {
+      "CB": 2.8,
+      "EDGE": 2.2,
+      "WR": 2.2,
+      "DT": 2,
+      "LB": 1.5,
+      "IOL": 1.2,
+      "S": 1,
+      "OT": 1,
+      "QB": 0.5,
+      "RB": 1,
+      "TE": 0.8
+    },
+    "gm": "Brett Veach",
+    "hc": "Andy Reid",
+    "regimeId": "kc-veach-reid",
+    "beatWriterIds": []
+  },
+  "LV": {
+    "id": "LV",
+    "fullName": "Las Vegas Raiders",
+    "city": "Las Vegas",
+    "nickname": "Raiders",
+    "abbreviation": "LV",
+    "conference": "AFC",
+    "division": "AFC West",
+    "colors": {
+      "primary": "#000000",
+      "secondary": "#A5ACAF",
+      "tertiary": "#FFFFFF",
+      "background": "#0a0a0a"
+    },
+    "needs": [
+      "QB",
+      "DT",
+      "WR",
+      "CB",
+      "IOL",
+      "OT"
+    ],
+    "needWeights": {
+      "QB": 3.5,
+      "DT": 2.5,
+      "WR": 2.2,
+      "CB": 2,
+      "IOL": 1.8,
+      "OT": 1.5,
+      "EDGE": 1.2,
+      "S": 1,
+      "LB": 1,
+      "RB": 0.8,
+      "TE": 0.5
+    },
+    "gm": "John Spytek",
+    "hc": "Klint Kubiak",
+    "regimeId": "lv-spytek-kubiak",
+    "beatWriterIds": []
+  },
+  "LAC": {
+    "id": "LAC",
+    "fullName": "Los Angeles Chargers",
+    "city": "Los Angeles",
+    "nickname": "Chargers",
+    "abbreviation": "LAC",
+    "conference": "AFC",
+    "division": "AFC West",
+    "colors": {
+      "primary": "#0080C6",
+      "secondary": "#FFC20E",
+      "tertiary": "#FFFFFF",
+      "background": "#004a75"
+    },
+    "needs": [
+      "IOL",
+      "EDGE",
+      "DT",
+      "WR",
+      "CB"
+    ],
+    "needWeights": {
+      "IOL": 2.8,
+      "EDGE": 2.2,
+      "DT": 2,
+      "WR": 1.8,
+      "CB": 1.5,
+      "OT": 1.2,
+      "LB": 1,
+      "S": 1,
+      "QB": 0.5,
+      "RB": 0.8,
+      "TE": 0.8
+    },
+    "gm": "Joe Hortiz",
+    "hc": "Jim Harbaugh",
+    "regimeId": "lac-hortiz-harbaugh",
+    "beatWriterIds": []
+  },
+  "DAL": {
+    "id": "DAL",
+    "fullName": "Dallas Cowboys",
+    "city": "Dallas",
+    "nickname": "Cowboys",
+    "abbreviation": "DAL",
+    "conference": "NFC",
+    "division": "NFC East",
+    "colors": {
+      "primary": "#003594",
+      "secondary": "#041E42",
+      "tertiary": "#869397",
+      "background": "#001f5c"
+    },
+    "needs": [
+      "LB",
+      "CB",
+      "EDGE",
+      "DT",
+      "S"
+    ],
+    "needWeights": {
+      "LB": 2.5,
+      "CB": 2.5,
+      "EDGE": 2.2,
+      "DT": 2,
+      "S": 1.8,
+      "IOL": 1.2,
+      "OT": 1,
+      "WR": 1,
+      "QB": 1.3,
+      "RB": 0.8,
+      "TE": 0.8
+    },
+    "gm": "Jerry Jones",
+    "hc": "Brian Schottenheimer",
+    "regimeId": "dal-jones-schottenheimer",
+    "beatWriterIds": []
+  },
+  "NYG": {
+    "id": "NYG",
+    "fullName": "New York Giants",
+    "city": "New York",
+    "nickname": "Giants",
+    "abbreviation": "NYG",
+    "conference": "NFC",
+    "division": "NFC East",
+    "colors": {
+      "primary": "#0B2265",
+      "secondary": "#A71930",
+      "tertiary": "#FFFFFF",
+      "background": "#061540"
+    },
+    "needs": [
+      "DT",
+      "IOL",
+      "LB",
+      "WR",
+      "CB",
+      "OT"
+    ],
+    "needWeights": {
+      "DT": 2.8,
+      "IOL": 2.5,
+      "LB": 2.2,
+      "WR": 2,
+      "CB": 2,
+      "OT": 1.5,
+      "EDGE": 1.2,
+      "S": 1,
+      "QB": 0.5,
+      "RB": 0.8,
+      "TE": 0.8
+    },
+    "gm": "Joe Schoen",
+    "hc": "John Harbaugh",
+    "regimeId": "nyg-schoen-harbaugh",
+    "beatWriterIds": []
+  },
+  "PHI": {
+    "id": "PHI",
+    "fullName": "Philadelphia Eagles",
+    "city": "Philadelphia",
+    "nickname": "Eagles",
+    "abbreviation": "PHI",
+    "conference": "NFC",
+    "division": "NFC East",
+    "colors": {
+      "primary": "#004C54",
+      "secondary": "#A5ACAF",
+      "tertiary": "#FFFFFF",
+      "background": "#002d33"
+    },
+    "needs": [
+      "EDGE",
+      "OT",
+      "WR",
+      "S",
+      "TE",
+      "IOL"
+    ],
+    "needWeights": {
+      "EDGE": 2.5,
+      "OT": 2.2,
+      "WR": 2,
+      "S": 1.8,
+      "TE": 1.5,
+      "IOL": 1.5,
+      "CB": 1,
+      "LB": 1,
+      "DT": 1,
+      "QB": 0.5,
+      "RB": 0.8
+    },
+    "gm": "Howie Roseman",
+    "hc": "Nick Sirianni",
+    "regimeId": "phi-roseman-sirianni",
+    "beatWriterIds": []
+  },
+  "WAS": {
+    "id": "WAS",
+    "fullName": "Washington Commanders",
+    "city": "Washington",
+    "nickname": "Commanders",
+    "abbreviation": "WAS",
+    "conference": "NFC",
+    "division": "NFC East",
+    "colors": {
+      "primary": "#5A1414",
+      "secondary": "#FFB612",
+      "tertiary": "#FFFFFF",
+      "background": "#360c0c"
+    },
+    "needs": [
+      "WR",
+      "CB",
+      "EDGE",
+      "DT",
+      "IOL"
+    ],
+    "needWeights": {
+      "WR": 2.5,
+      "CB": 2.2,
+      "EDGE": 2,
+      "DT": 1.8,
+      "IOL": 1.5,
+      "OT": 1.2,
+      "LB": 1,
+      "S": 1,
+      "QB": 0.5,
+      "RB": 1,
+      "TE": 0.8
+    },
+    "gm": "Adam Peters",
+    "hc": "Dan Quinn",
+    "regimeId": "was-peters-quinn",
+    "beatWriterIds": []
+  },
+  "CHI": {
+    "id": "CHI",
+    "fullName": "Chicago Bears",
+    "city": "Chicago",
+    "nickname": "Bears",
+    "abbreviation": "CHI",
+    "conference": "NFC",
+    "division": "NFC North",
+    "colors": {
+      "primary": "#0B162A",
+      "secondary": "#C83803",
+      "tertiary": "#FFFFFF",
+      "background": "#060d1a"
+    },
+    "needs": [
+      "EDGE",
+      "S",
+      "IOL",
+      "DT",
+      "WR"
+    ],
+    "needWeights": {
+      "EDGE": 2.5,
+      "S": 2.5,
+      "IOL": 2,
+      "DT": 1.8,
+      "WR": 1.5,
+      "CB": 1.2,
+      "LB": 1,
+      "OT": 1.5,
+      "QB": 0.5,
+      "RB": 0.8,
+      "TE": 0.8
+    },
+    "gm": "Ryan Poles",
+    "hc": "Ben Johnson",
+    "regimeId": "chi-poles-johnson",
+    "beatWriterIds": []
+  },
+  "DET": {
+    "id": "DET",
+    "fullName": "Detroit Lions",
+    "city": "Detroit",
+    "nickname": "Lions",
+    "abbreviation": "DET",
+    "conference": "NFC",
+    "division": "NFC North",
+    "colors": {
+      "primary": "#0076B6",
+      "secondary": "#B0B7BC",
+      "tertiary": "#FFFFFF",
+      "background": "#004a75"
+    },
+    "needs": [
+      "OT",
+      "EDGE",
+      "LB",
+      "CB",
+      "S"
+    ],
+    "needWeights": {
+      "OT": 2.8,
+      "EDGE": 2.5,
+      "LB": 2,
+      "CB": 2,
+      "S": 1.5,
+      "DT": 1.2,
+      "IOL": 1,
+      "WR": 0.8,
+      "QB": 0.5,
+      "RB": 1,
+      "TE": 0.8
+    },
+    "gm": "Brad Holmes",
+    "hc": "Dan Campbell",
+    "regimeId": "det-holmes-campbell",
+    "beatWriterIds": []
+  },
+  "GB": {
+    "id": "GB",
+    "fullName": "Green Bay Packers",
+    "city": "Green Bay",
+    "nickname": "Packers",
+    "abbreviation": "GB",
+    "conference": "NFC",
+    "division": "NFC North",
+    "colors": {
+      "primary": "#203731",
+      "secondary": "#FFB612",
+      "tertiary": "#FFFFFF",
+      "background": "#121f1c"
+    },
+    "needs": [
+      "EDGE",
+      "DT",
+      "CB",
+      "IOL",
+      "RB"
+    ],
+    "needWeights": {
+      "EDGE": 2.5,
+      "DT": 2.2,
+      "CB": 2.2,
+      "IOL": 2,
+      "RB": 1.5,
+      "OT": 1.2,
+      "LB": 1,
+      "S": 1,
+      "WR": 0.8,
+      "QB": 0.5,
+      "TE": 0.8
+    },
+    "gm": "Brian Gutekunst",
+    "hc": "Matt LaFleur",
+    "regimeId": "gb-gutekunst-lafleur",
+    "beatWriterIds": []
+  },
+  "MIN": {
+    "id": "MIN",
+    "fullName": "Minnesota Vikings",
+    "city": "Minnesota",
+    "nickname": "Vikings",
+    "abbreviation": "MIN",
+    "conference": "NFC",
+    "division": "NFC North",
+    "colors": {
+      "primary": "#4F2683",
+      "secondary": "#FFC62F",
+      "tertiary": "#FFFFFF",
+      "background": "#2e1650"
+    },
+    "needs": [
+      "DT",
+      "IOL",
+      "S",
+      "WR",
+      "CB"
+    ],
+    "needWeights": {
+      "DT": 2.5,
+      "IOL": 2.2,
+      "S": 2.2,
+      "WR": 1.8,
+      "CB": 1.5,
+      "OT": 1.2,
+      "LB": 1,
+      "EDGE": 1,
+      "QB": 0.8,
+      "RB": 0.8,
+      "TE": 0.8
+    },
+    "gm": "Interim (Rob Brzezinski)",
+    "hc": "Kevin O'Connell",
+    "regimeId": "min-interim-oconnell",
+    "beatWriterIds": []
+  },
+  "ATL": {
+    "id": "ATL",
+    "fullName": "Atlanta Falcons",
+    "city": "Atlanta",
+    "nickname": "Falcons",
+    "abbreviation": "ATL",
+    "conference": "NFC",
+    "division": "NFC South",
+    "colors": {
+      "primary": "#A71930",
+      "secondary": "#000000",
+      "tertiary": "#A5ACAF",
+      "background": "#5c0d1a"
+    },
+    "needs": [
+      "WR",
+      "LB",
+      "CB",
+      "DT",
+      "EDGE"
+    ],
+    "needWeights": {
+      "WR": 2.5,
+      "LB": 2.5,
+      "CB": 2.2,
+      "DT": 1.8,
+      "EDGE": 1.5,
+      "S": 1.2,
+      "IOL": 1,
+      "OT": 1,
+      "QB": 0.8,
+      "RB": 0.8,
+      "TE": 0.8
+    },
+    "gm": "Ian Cunningham",
+    "hc": "Kevin Stefanski",
+    "regimeId": "atl-cunningham-stefanski",
+    "beatWriterIds": []
+  },
+  "CAR": {
+    "id": "CAR",
+    "fullName": "Carolina Panthers",
+    "city": "Carolina",
+    "nickname": "Panthers",
+    "abbreviation": "CAR",
+    "conference": "NFC",
+    "division": "NFC South",
+    "colors": {
+      "primary": "#0085CA",
+      "secondary": "#101820",
+      "tertiary": "#BFC0BF",
+      "background": "#004d78"
+    },
+    "needs": [
+      "S",
+      "LB",
+      "IOL",
+      "WR",
+      "EDGE",
+      "CB"
+    ],
+    "needWeights": {
+      "S": 2.5,
+      "LB": 2.2,
+      "IOL": 2.2,
+      "WR": 2,
+      "EDGE": 1.8,
+      "CB": 1.5,
+      "OT": 1.5,
+      "DT": 1.2,
+      "QB": 1.2,
+      "RB": 1,
+      "TE": 1
+    },
+    "gm": "Dan Morgan",
+    "hc": "Dave Canales",
+    "regimeId": "car-morgan-canales",
+    "beatWriterIds": []
+  },
+  "NO": {
+    "id": "NO",
+    "fullName": "New Orleans Saints",
+    "city": "New Orleans",
+    "nickname": "Saints",
+    "abbreviation": "NO",
+    "conference": "NFC",
+    "division": "NFC South",
+    "colors": {
+      "primary": "#D3BC8D",
+      "secondary": "#101820",
+      "tertiary": "#FFFFFF",
+      "background": "#0d0f12"
+    },
+    "needs": [
+      "WR",
+      "DT",
+      "EDGE",
+      "CB",
+      "OT"
+    ],
+    "needWeights": {
+      "WR": 2.8,
+      "DT": 2.2,
+      "EDGE": 2.2,
+      "CB": 2,
+      "OT": 1.5,
+      "IOL": 1.2,
+      "LB": 1,
+      "S": 1,
+      "QB": 1.5,
+      "RB": 0.8,
+      "TE": 0.8
+    },
+    "gm": "TBD",
+    "hc": "Kellen Moore",
+    "regimeId": "no-moore",
+    "beatWriterIds": []
+  },
+  "TB": {
+    "id": "TB",
+    "fullName": "Tampa Bay Buccaneers",
+    "city": "Tampa Bay",
+    "nickname": "Buccaneers",
+    "abbreviation": "TB",
+    "conference": "NFC",
+    "division": "NFC South",
+    "colors": {
+      "primary": "#D50A0A",
+      "secondary": "#34302B",
+      "tertiary": "#FF7900",
+      "background": "#6b0505"
+    },
+    "needs": [
+      "EDGE",
+      "LB",
+      "TE",
+      "DT",
+      "CB"
+    ],
+    "needWeights": {
+      "EDGE": 2.5,
+      "LB": 2.5,
+      "TE": 2,
+      "DT": 1.8,
+      "CB": 1.5,
+      "S": 1.2,
+      "IOL": 1,
+      "OT": 1,
+      "WR": 0.8,
+      "QB": 0.5,
+      "RB": 0.8
+    },
+    "gm": "Jason Licht",
+    "hc": "Todd Bowles",
+    "regimeId": "tb-licht-bowles",
+    "beatWriterIds": []
+  },
+  "ARI": {
+    "id": "ARI",
+    "fullName": "Arizona Cardinals",
+    "city": "Arizona",
+    "nickname": "Cardinals",
+    "abbreviation": "ARI",
+    "conference": "NFC",
+    "division": "NFC West",
+    "colors": {
+      "primary": "#97233F",
+      "secondary": "#000000",
+      "tertiary": "#FFB612",
+      "background": "#4d1220"
+    },
+    "needs": [
+      "OT",
+      "QB",
+      "LB",
+      "S",
+      "EDGE",
+      "DT"
+    ],
+    "needWeights": {
+      "OT": 2.8,
+      "QB": 2.5,
+      "LB": 2.2,
+      "S": 2,
+      "EDGE": 1.8,
+      "DT": 1.5,
+      "IOL": 1.2,
+      "CB": 1,
+      "WR": 1,
+      "RB": 0.8,
+      "TE": 0.8
+    },
+    "gm": "Monti Ossenfort",
+    "hc": "Mike LaFleur",
+    "regimeId": "ari-ossenfort-lafleur",
+    "beatWriterIds": []
+  },
+  "LAR": {
+    "id": "LAR",
+    "fullName": "Los Angeles Rams",
+    "city": "Los Angeles",
+    "nickname": "Rams",
+    "abbreviation": "LAR",
+    "conference": "NFC",
+    "division": "NFC West",
+    "colors": {
+      "primary": "#003594",
+      "secondary": "#FFA300",
+      "tertiary": "#FFFFFF",
+      "background": "#001f5c"
+    },
+    "needs": [
+      "WR",
+      "OT",
+      "LB",
+      "CB",
+      "EDGE"
+    ],
+    "needWeights": {
+      "WR": 2.2,
+      "OT": 2,
+      "LB": 2,
+      "CB": 1.8,
+      "EDGE": 1.5,
+      "IOL": 1.2,
+      "DT": 1,
+      "S": 1,
+      "QB": 0.5,
+      "RB": 0.8,
+      "TE": 0.8
+    },
+    "gm": "Les Snead",
+    "hc": "Sean McVay",
+    "regimeId": "lar-snead-mcvay",
+    "beatWriterIds": []
+  },
+  "SEA": {
+    "id": "SEA",
+    "fullName": "Seattle Seahawks",
+    "city": "Seattle",
+    "nickname": "Seahawks",
+    "abbreviation": "SEA",
+    "conference": "NFC",
+    "division": "NFC West",
+    "colors": {
+      "primary": "#002244",
+      "secondary": "#69BE28",
+      "tertiary": "#A5ACAF",
+      "background": "#001428"
+    },
+    "needs": [
+      "RB",
+      "IOL",
+      "S",
+      "EDGE",
+      "CB"
+    ],
+    "needWeights": {
+      "RB": 2.5,
+      "IOL": 2.2,
+      "S": 2,
+      "EDGE": 2,
+      "CB": 1.8,
+      "OT": 1.5,
+      "WR": 1.2,
+      "LB": 1,
+      "DT": 1,
+      "QB": 0.8,
+      "TE": 0.8
+    },
+    "gm": "TBD",
+    "hc": "TBD",
+    "regimeId": "sea-2026",
+    "beatWriterIds": []
+  },
+  "SF": {
+    "id": "SF",
+    "fullName": "San Francisco 49ers",
+    "city": "San Francisco",
+    "nickname": "49ers",
+    "abbreviation": "SF",
+    "conference": "NFC",
+    "division": "NFC West",
+    "colors": {
+      "primary": "#AA0000",
+      "secondary": "#B3995D",
+      "tertiary": "#FFFFFF",
+      "background": "#550000"
+    },
+    "needs": [
+      "DT",
+      "EDGE",
+      "IOL",
+      "OT",
+      "WR"
+    ],
+    "needWeights": {
+      "DT": 2.5,
+      "EDGE": 2.2,
+      "IOL": 2,
+      "OT": 1.8,
+      "WR": 1.5,
+      "CB": 1.2,
+      "S": 1.5,
+      "LB": 1,
+      "QB": 0.5,
+      "RB": 0.8,
+      "TE": 0.8
+    },
+    "gm": "John Lynch",
+    "hc": "Kyle Shanahan",
+    "regimeId": "sf-lynch-shanahan",
+    "beatWriterIds": []
+  }
+}

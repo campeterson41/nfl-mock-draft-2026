@@ -1,0 +1,4973 @@
+{
+  "bw-ten-wyatt": {
+    "id": "bw-ten-wyatt",
+    "teamId": "TEN",
+    "writer": "Jim Wyatt",
+    "outlet": "Titans.com",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@jwyattsports",
+    "accessLevel": "Team official — organizational pipeline. Treat his stated preferences and visit highlights as team-sanctioned signals.",
+    "playerLinks": [
+      {
+        "playerId": "jeremiyah-love",
+        "strength": 45,
+        "isInsiderLanguage": true,
+        "quote": "14 of 20 analysts in Wyatt's mock roundup project Jeremiyah Love to Titans. Wyatt: 'I love Jeremiyah Love myself. Bain is a beast, I don't care what his arm length is.' HC Robert Saleh (per Wyatt): 'You can never add enough edge rushers.'",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "david-bailey",
+        "strength": 38,
+        "isInsiderLanguage": true,
+        "quote": "Top-30 visit confirmed per Wyatt's tracking. Titans sent scouts to Texas Tech per Davenport.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "rueben-bain-jr",
+        "strength": 38,
+        "isInsiderLanguage": true,
+        "quote": "Top-30 visit confirmed. GM Borgonzi (per Wyatt): 'Bain is more of your power guy. He can slip down inside if need be. It's not a concern at all' (on arm length).",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "arvell-reese",
+        "strength": 32,
+        "isInsiderLanguage": true,
+        "quote": "Top-30 visit confirmed per Wyatt.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "carnell-tate",
+        "strength": 30,
+        "isInsiderLanguage": true,
+        "quote": "Top-30 visit confirmed per Wyatt. Paul Kuharsky article titled 'If Not Edge or Jeremiyah Love, Carnell Tate Fits Titans Cleanly.'",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "makai-lemon",
+        "strength": 25,
+        "isInsiderLanguage": true,
+        "quote": "Top-30 visit confirmed per Wyatt tracking.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "mansoor-delane",
+        "strength": 20,
+        "isInsiderLanguage": true,
+        "quote": "Top-30 visit confirmed — underreported signal for Titans.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "kc-concepcion",
+        "strength": 18,
+        "isInsiderLanguage": true,
+        "quote": "Top-30 visit confirmed per Wyatt.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-ten-davenport": {
+    "id": "bw-ten-davenport",
+    "teamId": "TEN",
+    "writer": "Turron Davenport",
+    "outlet": "ESPN",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@TDavenport_NFL",
+    "accessLevel": "ESPN national reporter with strong Titans access. Regularly breaks organizational news and scout movement.",
+    "playerLinks": [
+      {
+        "playerId": "david-bailey",
+        "strength": 42,
+        "isInsiderLanguage": true,
+        "quote": "Titans sent a group to Texas Tech to watch David Bailey — confirmed organizational scouting interest per Davenport.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "rueben-bain-jr",
+        "strength": 38,
+        "isInsiderLanguage": true,
+        "quote": "Titans were at Miami's pro day to watch Rueben Bain Jr. — per Davenport. Top-30 visit hosted.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "arvell-reese",
+        "strength": 30,
+        "isInsiderLanguage": false,
+        "quote": "Davenport noted Reese's versatility fits Saleh's scheme. Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "jeremiyah-love",
+        "strength": 35,
+        "isInsiderLanguage": false,
+        "quote": "Love is in the mix at Pick 4. Davenport reported Saleh: 'I love our running back room right now' — possible smokescreen.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-ten-kuharsky": {
+    "id": "bw-ten-kuharsky",
+    "teamId": "TEN",
+    "writer": "Paul Kuharsky",
+    "outlet": "PaulKuharsky.com",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@PaulKuharsky",
+    "accessLevel": "Veteran AFC South beat writer. Independent site with strong sourcing; aggregates intel from multiple outlets and adds historical context.",
+    "playerLinks": [
+      {
+        "playerId": "jeremiyah-love",
+        "strength": 30,
+        "isInsiderLanguage": false,
+        "quote": "Kuharsky aggregated Brugler/Prisco/Breer intel on Titans draft. Has deep historical context.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "carnell-tate",
+        "strength": 28,
+        "isInsiderLanguage": false,
+        "quote": "Kuharsky published 'If Not Edge or Jeremiyah Love, Carnell Tate Fits Titans Cleanly' — suggests strong organizational fit narrative.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "david-bailey",
+        "strength": 25,
+        "isInsiderLanguage": false,
+        "quote": "Covered Bailey, Bain, Reese combine traits at length; senior bowl coverage.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-ten-mccormick": {
+    "id": "bw-ten-mccormick",
+    "teamId": "TEN",
+    "writer": "Terry McCormick",
+    "outlet": "TitanInsider.com",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@terrymc9",
+    "accessLevel": "Independent Titans insider. Tracks combine and pro day attendance, GM meetings, and organizational signals.",
+    "playerLinks": [
+      {
+        "playerId": "david-bailey",
+        "strength": 22,
+        "isInsiderLanguage": false,
+        "quote": "Covered Bailey at combine. Reported GM Borgonzi met with all three EDGE prospects.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "rueben-bain-jr",
+        "strength": 22,
+        "isInsiderLanguage": false,
+        "quote": "Covered Bain at combine. Reported Borgonzi meeting.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "arvell-reese",
+        "strength": 20,
+        "isInsiderLanguage": false,
+        "quote": "Covered Reese at combine — Reese quote: 'I killed it. I went in and just approached everything with the right mindset.'",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-hou-wilson": {
+    "id": "bw-hou-wilson",
+    "teamId": "HOU",
+    "writer": "Aaron Wilson",
+    "outlet": "KPRC2 / Click2Houston",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@AaronWilson_NFL",
+    "accessLevel": "Prolific NFL insider with deep Texans sourcing. Regularly breaks visit news with 'per a league source' attribution. Treat visit reports as confirmed organizational signals.",
+    "playerLinks": [
+      {
+        "playerId": "kayden-mcdonald",
+        "strength": 45,
+        "isInsiderLanguage": true,
+        "quote": "Ohio State DT Kayden McDonald to visit Texans — 'per a league source' (Aaron Wilson, March 25 2026). Multiple teams also visiting including Patriots, Ravens, Dolphins, Commanders, Bears, Bengals.",
+        "date": "2026-03"
+      },
+      {
+        "playerId": "keionte-scott",
+        "strength": 40,
+        "isInsiderLanguage": true,
+        "quote": "Texans hosting Miami CB Keionte Scott for visit — 'per a league source' (Aaron Wilson, April 6 2026). 4.37 40-yard dash, 2nd-team All-ACC.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "kadyn-proctor",
+        "strength": 30,
+        "isInsiderLanguage": true,
+        "quote": "Texans hosting Alabama OT Kadyn Proctor for top-30 visit — per Wilson reporting.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-hou-alexander": {
+    "id": "bw-hou-alexander",
+    "teamId": "HOU",
+    "writer": "Jonathan M. Alexander",
+    "outlet": "Houston Chronicle",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@JAlexanderHTX",
+    "accessLevel": "Houston Chronicle Texans beat writer. Covers organizational priorities and positional needs; less visit-level access than Wilson.",
+    "playerLinks": [
+      {
+        "playerId": "kayden-mcdonald",
+        "strength": 20,
+        "isInsiderLanguage": false,
+        "quote": "Alexander: 'I expect the Texans will try and target a defensive tackle and a guard at some point in the draft.' DT is the top priority.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-ind-holder": {
+    "id": "bw-ind-holder",
+    "teamId": "IND",
+    "writer": "Stephen Holder",
+    "outlet": "ESPN",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@HolderStephen",
+    "accessLevel": "ESPN Colts beat writer with strong organizational access. Regularly breaks news on Colts draft strategy and positional priorities.",
+    "playerLinks": [
+      {
+        "playerId": "josiah-trotter",
+        "strength": 28,
+        "isInsiderLanguage": false,
+        "quote": "Holder specifically named Josiah Trotter (Missouri LB) as a 'dream fit in coordinator Lou Anarumo's scheme — a big-time hitter between the tackles with great closing speed when working downhill.' Also: 'Bolster Pass Rush With UCF EDGE Rusher' (ESPN draft projection).",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-ind-bowen": {
+    "id": "bw-ind-bowen",
+    "teamId": "IND",
+    "writer": "Kevin Bowen",
+    "outlet": "107.5 The Fan Indianapolis",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@KevinBowen1075",
+    "accessLevel": "Indianapolis radio host with Colts organizational access. Provides context on team strategy and draft philosophy.",
+    "playerLinks": []
+  },
+  "bw-jax-oehser": {
+    "id": "bw-jax-oehser",
+    "teamId": "JAX",
+    "writer": "John Oehser",
+    "outlet": "Jaguars.com",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@johnOehser",
+    "accessLevel": "Team official — organizational pipeline. O-Zone column regularly signals team draft preferences and positional priorities with team-sanctioned framing.",
+    "playerLinks": [
+      {
+        "playerId": "jacob-rodriguez",
+        "strength": 32,
+        "isInsiderLanguage": false,
+        "quote": "Oehser O-Zone (March 20 2026): Predicts Jacob Rodriguez (Texas Tech, LB) at pick 56 if available. 'The position means too much.' If Rodriguez not available: Christen Miller (Georgia, DT) or Domonique Orange (Iowa State, DT).",
+        "date": "2026-03"
+      }
+    ]
+  },
+  "bw-den-klis": {
+    "id": "bw-den-klis",
+    "teamId": "DEN",
+    "writer": "Mike Klis",
+    "outlet": "9News Denver",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@mikeklis",
+    "accessLevel": "Primary Broncos insider at 9News. Organizational sourcing without explicit attribution is a Klis signature — treat as credible team intel.",
+    "playerLinks": [
+      {
+        "playerId": "jeremiyah-love",
+        "strength": 22,
+        "isInsiderLanguage": true,
+        "quote": "Klis: 'Draftniks are saying running back and defensive tackle are the positions of greatest depth in this year's draft, and it would be a surprise if the Broncos didn't nab one.' Also: 'The Broncos would use one of their first three picks in this year's draft on a running back.' Organizational sourcing without explicit attribution. Note: Love is RB1 — round 1 value only; Broncos pick at 62 makes Love unlikely here.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "jadarian-price",
+        "strength": 30,
+        "isInsiderLanguage": true,
+        "quote": "Klis projected RB in top three picks for Broncos. Jadarian Price (RB, Notre Dame, RB2) is likely Day 2 target given Broncos pick at 62.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-den-allbright": {
+    "id": "bw-den-allbright",
+    "teamId": "DEN",
+    "writer": "Benjamin Allbright",
+    "outlet": "KOA Radio Denver",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@AllbrightNFL",
+    "accessLevel": "Denver radio insider known for steering fans toward inside knowledge without citing sources. Treat player-specific recommendations as organizational signals — his signature style is indirect insider disclosure.",
+    "playerLinks": [
+      {
+        "playerId": "oscar-delp",
+        "strength": 42,
+        "isInsiderLanguage": true,
+        "quote": "Allbright on X (Feb 25 2026): 'I think Broncos fans might be looking at the wrong TEs in the draft. Take a look at Delp when you get a chance.' This is Allbright's signature style — steering fans toward inside knowledge without citing sources. Oscar Delp (Georgia, TE) is Allbright's specific insider call.",
+        "date": "2026-02"
+      }
+    ]
+  },
+  "bw-kc-taylor": {
+    "id": "bw-kc-taylor",
+    "teamId": "KC",
+    "writer": "Nate Taylor",
+    "outlet": "ESPN",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@NateTaylorNFL",
+    "accessLevel": "Primary Chiefs ESPN reporter with best organizational sourcing. Breaks visit news and draft board signals for Kansas City.",
+    "playerLinks": [
+      {
+        "playerId": "david-bailey",
+        "strength": 38,
+        "isInsiderLanguage": true,
+        "quote": "Chiefs hosting David Bailey for top-30 visit — confirmed by Ian Rapoport: 'Texas Tech edge David Bailey...spent this week visiting the Cowboys (12th) and Chiefs (9th).' Nate Taylor is the primary Chiefs ESPN reporter with best sourcing.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "carnell-tate",
+        "strength": 35,
+        "isInsiderLanguage": true,
+        "quote": "Chiefs hosted Carnell Tate for top-30 visit. Chiefs attended Ohio State Pro Day. Tate also visited Titans — dual team signal.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "makai-lemon",
+        "strength": 30,
+        "isInsiderLanguage": true,
+        "quote": "Chiefs hosted Makai Lemon for top-30 visit. Chiefs at OSU Pro Day.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "arvell-reese",
+        "strength": 28,
+        "isInsiderLanguage": true,
+        "quote": "Chiefs hosted Arvell Reese for top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "chris-johnson",
+        "strength": 25,
+        "isInsiderLanguage": true,
+        "quote": "Chris Johnson (CB, San Diego State) visited Chiefs — CB need is top priority after losing Trent McDuffie and Jaylen Watson.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-kc-teicher": {
+    "id": "bw-kc-teicher",
+    "teamId": "KC",
+    "writer": "Adam Teicher",
+    "outlet": "ESPN",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@adamteicher",
+    "accessLevel": "ESPN Chiefs secondary reporter. Covers positional needs and organizational philosophy with less insider sourcing than Taylor.",
+    "playerLinks": [
+      {
+        "playerId": "rueben-bain-jr",
+        "strength": 22,
+        "isInsiderLanguage": false,
+        "quote": "Teicher noted CB is top priority but most analysts mock Bain or Fano to Chiefs at 9. Rueben Bain fits Spagnuolo's scheme.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-lv-bonsignore": {
+    "id": "bw-lv-bonsignore",
+    "teamId": "LV",
+    "writer": "Vincent Bonsignore",
+    "outlet": "Las Vegas Review-Journal",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@VinnyBonsignore",
+    "accessLevel": "Primary Raiders beat writer at the Review-Journal. Uses 'a source with knowledge of the situation' regularly for Raiders breaking news. One of the closest reporters to Raiders organizational decision-making.",
+    "playerLinks": [
+      {
+        "playerId": "fernando-mendoza",
+        "strength": 50,
+        "isInsiderLanguage": true,
+        "quote": "Bonsignore: 'Raiders should keep the No. 1 pick in the NFL draft' — argued for selecting Mendoza. Free agency moves (Linderbaum signing, Kirk Cousins acquisition) confirm organizational commitment to QB. Bonsignore uses 'a source with knowledge of the situation' regularly for Raiders breaking news.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "denzel-boston",
+        "strength": 30,
+        "isInsiderLanguage": false,
+        "quote": "Bonsignore's draft preview listed Day 2 targets including WR; Denzel Boston was a primary name in WR context.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-lv-henderson": {
+    "id": "bw-lv-henderson",
+    "teamId": "LV",
+    "writer": "Brady Henderson",
+    "outlet": "ESPN",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@BradyHenderson",
+    "accessLevel": "ESPN Raiders beat writer. Breaks organizational news and confirmed visit reporting. Strong access to Raiders front office direction.",
+    "playerLinks": [
+      {
+        "playerId": "fernando-mendoza",
+        "strength": 48,
+        "isInsiderLanguage": true,
+        "quote": "Henderson confirmed Raiders organizational direction toward Mendoza. Raiders have taken all pre-draft steps consistent with selecting Mendoza #1.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "denzel-boston",
+        "strength": 38,
+        "isInsiderLanguage": true,
+        "quote": "Henderson broke news: 'The Raiders were interested enough in Boston to host him on a pre-draft 30 visit on March 22.' Direct organizational intent signal. Denzel Boston (WR, Washington) is Day 2 target.",
+        "date": "2026-03"
+      }
+    ]
+  },
+  "bw-lv-gutierrez": {
+    "id": "bw-lv-gutierrez",
+    "teamId": "LV",
+    "writer": "Paul Gutierrez",
+    "outlet": "ESPN",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@PGutierrezESPN",
+    "accessLevel": "ESPN Raiders reporter covering organizational philosophy and coaching staff signals. Supplements Henderson's breaking news with contextual analysis.",
+    "playerLinks": [
+      {
+        "playerId": "fernando-mendoza",
+        "strength": 40,
+        "isInsiderLanguage": true,
+        "quote": "Gutierrez reported HC Klint Kubiak 'is consistent about wanting a rookie quarterback to sit and learn from a veteran rather than starting Week 1' — organizational philosophy leaked. Mendoza #1 is near-certain.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-lac-popper": {
+    "id": "bw-lac-popper",
+    "teamId": "LAC",
+    "writer": "Daniel Popper",
+    "outlet": "The Athletic",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@danielrpopper",
+    "accessLevel": "The Athletic Chargers beat writer. Mock draft consistency across multiple versions strongly suggests organizational knowledge — treat repeated mocks as soft insider signals.",
+    "playerLinks": [
+      {
+        "playerId": "olaivavega-ioane",
+        "strength": 38,
+        "isInsiderLanguage": false,
+        "quote": "Popper mocked Olaivavega Ioane (OG, Penn State) to Chargers at #22 in BOTH his Mock 1.0 and Mock 2.0 — consistency across multiple mocks from a team beat writer strongly suggests organizational knowledge. Note: GM Hortiz and HC Harbaugh have never taken a defensive player in their first two rounds.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "keldric-faulk",
+        "strength": 22,
+        "isInsiderLanguage": false,
+        "quote": "Popper mocked Keldric Faulk (EDGE, Auburn) in one mock version — secondary option if IOL is already gone.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-atl-kendall": {
+    "id": "bw-atl-kendall",
+    "teamId": "ATL",
+    "writer": "Josh Kendall",
+    "outlet": "The Athletic",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@JoshKendallNFL",
+    "accessLevel": "The Athletic Falcons beat writer. Tracks positional needs and mock trends for Atlanta; no Round 1 pick in 2026.",
+    "playerLinks": [
+      {
+        "playerId": "caleb-banks",
+        "strength": 32,
+        "isInsiderLanguage": false,
+        "quote": "Kendall final mock (April 6, 2026): Falcons target DT. Linked to either Christen Miller (Georgia DT, his earlier mocks) or Kayden McDonald. Field Yates (ESPN): 'has top-20 talent but was limited to just 90 snaps in 2025.'",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "kayden-mcdonald",
+        "strength": 28,
+        "isInsiderLanguage": false,
+        "quote": "Jordan Reid (ESPN): 'Nose tackle is a clear need for the Falcons. McDonald is a stout presence on the interior who led the country in run stop win rate.' Kendall also considered McDonald.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "lee-hunter",
+        "strength": 22,
+        "isInsiderLanguage": false,
+        "quote": "Eric Edholm (NFL.com): 'really could use more bulk up front, along with a true nose tackle.' Lee Hunter (DT, Texas Tech) linked to Falcons.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "zion-young",
+        "strength": 20,
+        "isInsiderLanguage": true,
+        "quote": "Zion Young (EDGE, Missouri) confirmed top-30 visit with Falcons.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-car-person": {
+    "id": "bw-car-person",
+    "teamId": "CAR",
+    "writer": "Joseph Person",
+    "outlet": "The Athletic",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@josephperson",
+    "accessLevel": "The Athletic Panthers beat writer. Multiple mock versions and confirmed visit tracking make him the primary signal source for Carolina at #19.",
+    "playerLinks": [
+      {
+        "playerId": "akheem-mesidor",
+        "strength": 35,
+        "isInsiderLanguage": false,
+        "quote": "Person Mock 1.0: Akheem Mesidor (EDGE, Miami) at #19. Then had buyer's remorse: 'I immediately experienced buyer's remorse after making this pick because of the age concerns. I'll consider this my warm-up mock.'",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "kadyn-proctor",
+        "strength": 30,
+        "isInsiderLanguage": false,
+        "quote": "Person Mock 2.0: Kadyn Proctor (OT, Alabama) at #19. 'Given the uncertainty surrounding Ikem Ekwonu after his knee surgery and Rasheed Walker's one-year deal, an offensive tackle still makes sense here.'",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "kc-concepcion",
+        "strength": 38,
+        "isInsiderLanguage": false,
+        "quote": "Person's latest (Mock 6.0, April 6 2026): KC Concepcion (WR, Texas A&M) to Panthers at #19. Confirmed top-30 visit. HC Canales: 'We're changing things in our offense to fit Bryce, and we're trying to bring players that will complement what Bryce does.'",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "omar-cooper-jr",
+        "strength": 35,
+        "isInsiderLanguage": true,
+        "quote": "Omar Cooper Jr. (WR, Indiana) confirmed top-30 visit with Panthers per Ryan Fowler/Pete Nakos/NBC Sports PFT.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-car-gantt": {
+    "id": "bw-car-gantt",
+    "teamId": "CAR",
+    "writer": "Darin Gantt",
+    "outlet": "Panthers.com",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@daringantt",
+    "accessLevel": "Team official site — organizational pipeline. HC Canales quotes and positional priority signals are team-sanctioned. WR is the leading position signal from Panthers.com.",
+    "playerLinks": [
+      {
+        "playerId": "kc-concepcion",
+        "strength": 25,
+        "isInsiderLanguage": false,
+        "quote": "Gantt (official site): HC Canales floated WR, TE, and safety as possibilities at #19. 'At this point, with the 19th pick, we really have an opportunity to bring a player in that can help us immediately.' WR is the leading position signal from Panthers.com.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "oscar-delp",
+        "strength": 22,
+        "isInsiderLanguage": true,
+        "quote": "Oscar Delp (TE, Georgia) confirmed top-30 visit with Panthers.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "aj-haulcy",
+        "strength": 20,
+        "isInsiderLanguage": true,
+        "quote": "AJ Haulcy (S, LSU) confirmed top-30 visit with Panthers.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-no-underhill": {
+    "id": "bw-no-underhill",
+    "teamId": "NO",
+    "writer": "Nick Underhill",
+    "outlet": "NewOrleans.Football",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@nick_underhill",
+    "accessLevel": "Primary Saints independent insider. 'What we're hearing...' series is explicit insider framing — treat as highest-credibility organizational signal. Ohio State dinner reporting and GM-level access are hallmarks.",
+    "playerLinks": [
+      {
+        "playerId": "carnell-tate",
+        "strength": 48,
+        "isInsiderLanguage": true,
+        "quote": "Saints hosted Ohio State dinner with 8 Buckeyes including Carnell Tate (per Underhill/NOF, March 25 2026). Top-30 visit also confirmed. Underhill's 'What we're hearing...' series (Jan 29, Feb 24, Feb 26 2026) is explicit insider framing. Saints hosted Carnell Tate for top-30 visit per Daniel Oyefusi (ESPN, direct from Tate).",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "arvell-reese",
+        "strength": 42,
+        "isInsiderLanguage": true,
+        "quote": "Arvell Reese attended Saints Ohio State dinner (per Underhill/NOF). 'What we're hearing at the combine' (Feb 24) and 'What we're hearing about Saints plans' (Jan 29) suggest organizational interest in versatile defenders.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "sonny-styles",
+        "strength": 38,
+        "isInsiderLanguage": true,
+        "quote": "Sonny Styles attended Saints Ohio State dinner per Nick Underhill. Saints brass hosted Ohio State players at dinner before pro day.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "caleb-downs",
+        "strength": 32,
+        "isInsiderLanguage": true,
+        "quote": "Caleb Downs attended Saints Ohio State dinner per Underhill/NOF.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "kayden-mcdonald",
+        "strength": 30,
+        "isInsiderLanguage": true,
+        "quote": "Kayden McDonald attended Saints Ohio State dinner per Underhill/NOF.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "mansoor-delane",
+        "strength": 42,
+        "isInsiderLanguage": true,
+        "quote": "Mickey Loomis had 'an extended chat' with Mansoor Delane at LSU Pro Day (multiple outlets). Top-30 visit also confirmed. GM-level direct engagement is the highest possible signal.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "makai-lemon",
+        "strength": 35,
+        "isInsiderLanguage": true,
+        "quote": "Makai Lemon top-30 visit confirmed with Saints per John Sigler (Saints Wire).",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "rueben-bain-jr",
+        "strength": 32,
+        "isInsiderLanguage": true,
+        "quote": "HC Kellen Moore personally attended Miami Pro Day to scout Rueben Bain Jr. (confirmed by Arye Pulli, SI). This is organizational-level direct scouting by the head coach.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "akheem-mesidor",
+        "strength": 28,
+        "isInsiderLanguage": true,
+        "quote": "HC Kellen Moore personally at Miami Pro Day to scout Akheem Mesidor among others (Arye Pulli, SI).",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-no-terrell": {
+    "id": "bw-no-terrell",
+    "teamId": "NO",
+    "writer": "Katherine Terrell",
+    "outlet": "ESPN",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@Kat_Terrell",
+    "accessLevel": "ESPN Saints beat writer. Covers positional needs and organizational priorities; supplements Underhill's insider reporting with broader context.",
+    "playerLinks": [
+      {
+        "playerId": "jeremiyah-love",
+        "strength": 28,
+        "isInsiderLanguage": false,
+        "quote": "Terrell identified Jeremiyah Love as a potential #8 pick despite cap complications with Travis Etienne and Kamara. Named Love as 'one of this draft's top players' — possible RB despite Saints having two backs.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "rueben-bain-jr",
+        "strength": 25,
+        "isInsiderLanguage": false,
+        "quote": "Multiple analysts and Terrell coverage point to EDGE as the Saints' biggest need at pick 8.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-tb-auman": {
+    "id": "bw-tb-auman",
+    "teamId": "TB",
+    "writer": "Greg Auman",
+    "outlet": "FOX Sports",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@gregauman",
+    "accessLevel": "FOX Sports Buccaneers beat writer with strong organizational access. Explicit mock commentary and positional need analysis reflect direct FO conversations.",
+    "playerLinks": [
+      {
+        "playerId": "jacob-rodriguez",
+        "strength": 38,
+        "isInsiderLanguage": false,
+        "quote": "Auman explicitly: 'I think Jacob Rodriguez is someone Bucs fans would be excited about as the pick at 46.' Rodriguez 'checks a lot of boxes as someone that would fill a huge need at a non-premium position, which lines up well with second round.' 255 tackles, 21.5 TFL, 6 sacks, 5 INTs in final two seasons at Texas Tech.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "cashius-howell",
+        "strength": 35,
+        "isInsiderLanguage": false,
+        "quote": "Auman: 'Cashius Howell could step in as a starter for Tampa Bay opposite Yaya Diaby, giving them a more consistent source of pressure' at pick #15.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "cj-allen",
+        "strength": 28,
+        "isInsiderLanguage": false,
+        "quote": "Auman: 'if the preferred edge rusher is gone, the Bucs could slide down a few spots and take Georgia linebacker C.J. Allen.'",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "akheem-mesidor",
+        "strength": 30,
+        "isInsiderLanguage": false,
+        "quote": "Multiple mocks (Buccaneers.com official 7-round mock 7.0, Pewter Report 4.0) project Akheem Mesidor to Bucs at #15.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "zion-young",
+        "strength": 25,
+        "isInsiderLanguage": true,
+        "quote": "Zion Young (EDGE, Missouri) confirmed top-30 visit with Buccaneers.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "tj-parker",
+        "strength": 25,
+        "isInsiderLanguage": false,
+        "quote": "Trevor Sikkema (PFF): TJ Parker projected to Bucs in trade-down scenario. Three consecutive mocks by Sikkema are all EDGE rushers.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-tb-sikkema": {
+    "id": "bw-tb-sikkema",
+    "teamId": "TB",
+    "writer": "Trevor Sikkema",
+    "outlet": "Pro Football Focus",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@TampaBaySikkema",
+    "accessLevel": "PFF Buccaneers analyst. Three consecutive mocks landing on EDGE rushers at #15 signal a strong organizational read on positional need.",
+    "playerLinks": [
+      {
+        "playerId": "cashius-howell",
+        "strength": 32,
+        "isInsiderLanguage": false,
+        "quote": "Sikkema Mock 1 (Feb 2): Cashius Howell at #15. 'Bucs' lack of pass rush was a major reason their defense fell flat. Howell earned elite 90.0-plus PFF pass-rush grades in each of the past three seasons.'",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "akheem-mesidor",
+        "strength": 35,
+        "isInsiderLanguage": false,
+        "quote": "Sikkema Mock 2 (Mar 2): Akheem Mesidor at #15. 'one of the best pass rushers in college football with an elite 92.5 PFF pass-rush grade, and would immediately be Tampa Bay's best edge rusher.'",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "tj-parker",
+        "strength": 28,
+        "isInsiderLanguage": false,
+        "quote": "Sikkema Mock 3: TJ Parker at #15 (post-trade-down scenario). Three straight mocks = EDGE rusher at #15.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-ari-weinfuss": {
+    "id": "bw-ari-weinfuss",
+    "teamId": "ARI",
+    "writer": "Josh Weinfuss",
+    "outlet": "ESPN",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@jweinfuss",
+    "accessLevel": "ESPN Cardinals beat writer with strong organizational access. Front-office sentiment attribution and combine meeting reporting are hallmarks of his insider access at #3.",
+    "playerLinks": [
+      {
+        "playerId": "ty-simpson",
+        "strength": 40,
+        "isInsiderLanguage": true,
+        "quote": "Weinfuss reported 'the Cardinals internally liked Alabama QB Ty Simpson before the end of the regular season' — front-office sentiment attribution. Cardinals met with Simpson at NFL Combine. Multiple QBs visiting = QB is genuinely in play at #3.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "david-bailey",
+        "strength": 32,
+        "isInsiderLanguage": true,
+        "quote": "Ian Rapoport/Mike Garafolo (NFL Network, April 3 2026): David Bailey and Arvell Reese confirmed top-30 visits with Cardinals. Weinfuss covers Arizona; OT, QB, Safety are named as top 3 needs.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "francis-mauigoa",
+        "strength": 28,
+        "isInsiderLanguage": false,
+        "quote": "Most analysts (75 of 212 mocks per ArizonaSports tracker) project Mauigoa to Cardinals. OT is listed as the #1 need by Weinfuss.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "arvell-reese",
+        "strength": 28,
+        "isInsiderLanguage": true,
+        "quote": "Arvell Reese top-30 visit confirmed with Cardinals by Ian Rapoport.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-ari-drake": {
+    "id": "bw-ari-drake",
+    "teamId": "ARI",
+    "writer": "Tyler Drake",
+    "outlet": "Arizona Sports 98.7",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@Tdrake4sports",
+    "accessLevel": "ArizonaSports.com Cardinals beat writer. Compiled 212-mock tracker provides the broadest consensus view of Cardinals #3 pick projections.",
+    "playerLinks": [
+      {
+        "playerId": "francis-mauigoa",
+        "strength": 20,
+        "isInsiderLanguage": false,
+        "quote": "ArizonaSports.com mock tracker (212 mocks compiled): Francis Mauigoa leads (75 of 212), David Bailey 2nd (36 of 212), Arvell Reese 3rd (29 of 212), Spencer Fano 4th (20 of 212), Rueben Bain Jr. 5th (16 of 212).",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "david-bailey",
+        "strength": 18,
+        "isInsiderLanguage": false,
+        "quote": "David Bailey is 2nd most common mock pick to Cardinals across 212 mocks. Cardinals-Cowboys trade buzz (McShay, Feldman) would send Bailey to Dallas — Cardinals may be a trade partner.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-lar-jackson": {
+    "id": "bw-lar-jackson",
+    "teamId": "LAR",
+    "writer": "Stu Jackson",
+    "outlet": "TheRams.com",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@StuJacksonRams",
+    "accessLevel": "Team official site — organizational pipeline. Top-30 visit leaks are significant because GM Les Snead publicly claims Rams don't conduct such visits; any confirmed leak reflects elevated organizational intent.",
+    "playerLinks": [
+      {
+        "playerId": "makai-lemon",
+        "strength": 38,
+        "isInsiderLanguage": false,
+        "quote": "Multiple confirmed top-30 visits with Rams (Carnell Tate, Makai Lemon) — notable because GM Les Snead claims Rams 'don't conduct top-30 visits.' This makes the leak more significant. Snead (March 31, via Jackson): 'If it's some of the players that come right now, they're gone, maybe you could move back.' Trade-back is Snead's stated priority.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "carnell-tate",
+        "strength": 35,
+        "isInsiderLanguage": true,
+        "quote": "Carnell Tate confirmed top-30 visit with Rams (reported despite Rams' claimed policy against visits). McVay: 'You can never have enough guys that move forward and rush the quarterback, and you can never have enough guys that make plays with the ball in their hands.'",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "omar-cooper-jr",
+        "strength": 32,
+        "isInsiderLanguage": false,
+        "quote": "Daniel Jeremiah (NFL.com Mock 3.0): Omar Cooper Jr. to Rams at #13 — 'He's the Ramsiest WR in the draft.' Chad Reuter (NFL.com) also has Cooper to Rams.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "jadarian-price",
+        "strength": 20,
+        "isInsiderLanguage": false,
+        "quote": "Nate Davis/Ayrton Ostly (USA Today) mock Jadarian Price (RB, Notre Dame) to Rams.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-sea-dugar": {
+    "id": "bw-sea-dugar",
+    "teamId": "SEA",
+    "writer": "Michael-Shawn Dugar",
+    "outlet": "The Athletic",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@MikeDugar",
+    "accessLevel": "The Athletic Seahawks beat writer. Explicit mock picks and confirmed visit tracking. Primary signal source for Seattle at #32.",
+    "playerLinks": [
+      {
+        "playerId": "chris-johnson",
+        "strength": 42,
+        "isInsiderLanguage": false,
+        "quote": "Dugar's explicit mock pick: Chris Johnson (CB, San Diego State) at #32. Top-30 visit confirmed. 'The Seahawks still have all three starting CBs from the Super Bowl team but losing Riq Woolen is a blow to depth.' Brock Huard (Seattle Sports Radio): named Chris Johnson as someone fans should 'keep an eye on.'",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "jadarian-price",
+        "strength": 28,
+        "isInsiderLanguage": false,
+        "quote": "Dugar listed Jadarian Price (RB, Notre Dame) as one of the primary options at #32 alongside Chris Johnson.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-sea-staton": {
+    "id": "bw-sea-staton",
+    "teamId": "SEA",
+    "writer": "Rob Staton",
+    "outlet": "SeahawksDraftBlog.com",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@robstaton",
+    "accessLevel": "Independent Seahawks draft insider. Paywalled 'What I'm Hearing About the 2026 NFL Draft' series with named-source attribution is the highest-credibility signal format for Seattle.",
+    "playerLinks": [
+      {
+        "playerId": "jadarian-price",
+        "strength": 40,
+        "isInsiderLanguage": true,
+        "quote": "Staton's 'What I'm Hearing About the 2026 NFL Draft' (explicit article title, March 26 2026 — paywalled). Staton: 'A highly respected talent evaluator in the league who thinks [Jadarian] Price is capable of outplaying Jeremiyah Love at the next level.' Named source + insider language = high signal.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "mike-washington-jr",
+        "strength": 25,
+        "isInsiderLanguage": true,
+        "quote": "Mike Washington Jr. (RB, Arkansas) confirmed top-30 visit with Seahawks per Jordan Schultz. Brady Henderson (ESPN): 'according to a source close to the situation' — sourced note on RB interest.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-sea-condotta": {
+    "id": "bw-sea-condotta",
+    "teamId": "SEA",
+    "writer": "Bob Condotta",
+    "outlet": "Seattle Times",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@bcondotta",
+    "accessLevel": "Seattle Times Seahawks beat writer. Covers organizational activity and draft pick volume; supplements Dugar and Staton with mainstream beat coverage.",
+    "playerLinks": [
+      {
+        "playerId": "jadarian-price",
+        "strength": 20,
+        "isInsiderLanguage": false,
+        "quote": "Condotta: 'They have 10 draft picks to use.' Confirms Seahawks will be active. Eric Edholm (NFL.com) and Daniel Jeremiah both mock Jadarian Price to Seahawks at #32.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-sf-barrows": {
+    "id": "bw-sf-barrows",
+    "teamId": "SF",
+    "writer": "Matt Barrows",
+    "outlet": "The Athletic",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@mattbarrows",
+    "accessLevel": "The Athletic 49ers beat writer with direct FO access. Articulates organizational draft philosophy in ways that reflect front-office conversations. Primary signal source for San Francisco at #27.",
+    "playerLinks": [
+      {
+        "playerId": "akheem-mesidor",
+        "strength": 42,
+        "isInsiderLanguage": false,
+        "quote": "Barrows explicit mock pick: Akheem Mesidor (EDGE, Miami) at #27. '12.5 sacks and 17.5 tackles for loss last season, made biggest marks against top-end talent in the playoffs.' Akheem Mesidor confirmed combine meeting with 49ers. Barrows articulated 49ers OL philosophy in way reflecting direct FO conversations: 'They just think that the difference between a playmaker you can get in round one is so much greater... They don't think that the gap between that guy and the round four guys is all that great. So that's where they put their emphasis.'",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "kc-concepcion",
+        "strength": 32,
+        "isInsiderLanguage": true,
+        "quote": "KC Concepcion (WR, Texas A&M) confirmed top-30 visit with 49ers per Ryan Fowler. 49ers had 4 WR top-30 visits vs. only 1 EDGE visit — WR is the leading position signal despite most mocks projecting EDGE.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "omar-cooper-jr",
+        "strength": 30,
+        "isInsiderLanguage": true,
+        "quote": "Omar Cooper Jr. (WR, Indiana) confirmed top-30 visit with 49ers per Ryan Fowler. Shanahan's YAC-focused system makes Cooper a natural fit.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "denzel-boston",
+        "strength": 28,
+        "isInsiderLanguage": true,
+        "quote": "Denzel Boston (WR, Washington) confirmed top-30 visit with 49ers per Field Yates (ESPN).",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "kenyon-sadiq",
+        "strength": 25,
+        "isInsiderLanguage": false,
+        "quote": "Daniel Jeremiah Mocks 1.0 and 3.0 both have Kenyon Sadiq going to 49ers at #27. 'Amazing new toy for Kyle Shanahan.'",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-sf-lombardi": {
+    "id": "bw-sf-lombardi",
+    "teamId": "SF",
+    "writer": "David Lombardi",
+    "outlet": "SF Standard",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@LombardiHimself",
+    "accessLevel": "SF Standard 49ers beat writer. Covers organizational strategy and comp pick philosophy; exclusive intel on 49ers compensatory pick structure supplements Barrows' FO access.",
+    "playerLinks": [
+      {
+        "playerId": "akheem-mesidor",
+        "strength": 35,
+        "isInsiderLanguage": false,
+        "quote": "Lombardi participated in SF Standard 'Section 415' podcast discussing Kyle Shanahan's draft plans. EDGE is a major organizational need (league-low 20 sacks in 2025).",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "kc-concepcion",
+        "strength": 25,
+        "isInsiderLanguage": false,
+        "quote": "49ers compensatory pick strategy (Lombardi exclusive intel on comp picks) means they may have flexibility. Four WR visits signal WR interest.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-buf-buscaglia": {
+    "id": "bw-buf-buscaglia",
+    "teamId": "BUF",
+    "writer": "Joe Buscaglia",
+    "outlet": "The Athletic",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@JoeBuscaglia",
+    "accessLevel": "The Athletic Bills beat writer. Uses 'league source' language in transactions; draft analysis is analytically framed with combine data.",
+    "playerLinks": [
+      {
+        "playerId": "cashius-howell",
+        "strength": 38,
+        "isInsiderLanguage": false,
+        "quote": "Buscaglia mock pick at #26: Cashius Howell (EDGE, Texas A&M). 'Howell changes that immediately. He tied for the quickest 10-yard split at the 2026 NFL Combine among edge rushers at 1.58 seconds.' Uses 'league source' language in transactions; draft analysis is analytically framed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-buf-capaccio": {
+    "id": "bw-buf-capaccio",
+    "teamId": "BUF",
+    "writer": "Sal Capaccio",
+    "outlet": "WGR 550",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@SalSports",
+    "accessLevel": "WGR 550 Bills radio reporter. Covers organizational philosophy and positional flexibility; WR remains viable at No. 26 alongside defensive options.",
+    "playerLinks": [
+      {
+        "playerId": "kc-concepcion",
+        "strength": 22,
+        "isInsiderLanguage": false,
+        "quote": "Capaccio (March 25, 2026): 'I don't take WR off table in Rd 1 for Bills even after trading for DJ Moore simply because of financials. Rookie WR contracts can create so much more flexibility.' WR remains viable at No. 26 alongside defensive options.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-buf-getzenberg": {
+    "id": "bw-buf-getzenberg",
+    "teamId": "BUF",
+    "writer": "Alaina Getzenberg",
+    "outlet": "ESPN",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@agetzenberg",
+    "accessLevel": "ESPN Bills beat writer. Reported GM Brandon Beane organizational quotes directly — EDGE/LB identified as strong option in first round.",
+    "playerLinks": [
+      {
+        "playerId": "cashius-howell",
+        "strength": 25,
+        "isInsiderLanguage": true,
+        "quote": "Getzenberg reported GM Brandon Beane specifically called 2026 'a good draft for linebackers.' EDGE rusher identified as 'strong option in first round' for Bills. Beane organizational quote signals LB/EDGE is the focus.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "makai-lemon",
+        "strength": 18,
+        "isInsiderLanguage": false,
+        "quote": "WR remains secondary option per Getzenberg's needs analysis.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-buf-skurski": {
+    "id": "bw-buf-skurski",
+    "teamId": "BUF",
+    "writer": "Jay Skurski",
+    "outlet": "Buffalo News",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@JaySkurski",
+    "accessLevel": "Buffalo News Bills beat writer. Editorial mock projections reflect positional need analysis; WR is his Round 1 projection despite defensive needs.",
+    "playerLinks": [
+      {
+        "playerId": "kc-concepcion",
+        "strength": 20,
+        "isInsiderLanguage": false,
+        "quote": "Skurski published a WR mock for Bills Round 1 — headlined 'Targeting a wide receiver with the Bills' first-round pick.' WR is his editorial projection despite defensive needs.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-mia-jackson": {
+    "id": "bw-mia-jackson",
+    "teamId": "MIA",
+    "writer": "Barry Jackson",
+    "outlet": "Miami Herald",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@flasportsbuzz",
+    "accessLevel": "Miami Herald Dolphins beat writer. Primary visit-tracker for Miami — his reports are original sourcing. Schad mock ecosystem is covered through his draft reporting.",
+    "playerLinks": [
+      {
+        "playerId": "zion-young",
+        "strength": 35,
+        "isInsiderLanguage": true,
+        "quote": "Barry Jackson confirmed Dolphins hosted Zion Young (EDGE, Missouri) at facility for pre-draft visit (April 6, 2026). Jackson is the primary visit-tracker for Miami — his reports are original sourcing.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "mansoor-delane",
+        "strength": 28,
+        "isInsiderLanguage": false,
+        "quote": "Schad Mock 1.0 and 2.0 (via Jackson's draft ecosystem): Mansoor Delane (CB, LSU) projected at Pick 11. Jackson reported Sullivan: 'this is a really good draft for wide receivers in the second, third, and fourth rounds.'",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "ty-simpson",
+        "strength": 22,
+        "isInsiderLanguage": true,
+        "quote": "Ty Simpson (QB, Alabama) top-30 visit with Dolphins confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "francis-mauigoa",
+        "strength": 25,
+        "isInsiderLanguage": false,
+        "quote": "Schad Mock 3.0: Francis Mauigoa (OT/G, Miami) projected at Pick 11. Jackson covers the Miami ecosystem and the trench-player preference aligns with Sullivan's organizational messaging.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-mia-wolfe": {
+    "id": "bw-mia-wolfe",
+    "teamId": "MIA",
+    "writer": "Cameron Wolfe",
+    "outlet": "NFL Network",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@CameronWolfe",
+    "accessLevel": "NFL Network Dolphins reporter. Uses 'from the conversations I've had' insider framing — confirmed organizational direction on QB and WR strategy.",
+    "playerLinks": [
+      {
+        "playerId": "ty-simpson",
+        "strength": 42,
+        "isInsiderLanguage": true,
+        "quote": "Wolfe (March 28, 2026): 'From the conversations I've had... don't be surprised if they draft a quarterback in April.' Direct insider language — Wolfe confirmed Dolphins gave Malik Willis 'a heads up' before Waddle trade via 'conversations I've had' with organization.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "carnell-tate",
+        "strength": 18,
+        "isInsiderLanguage": false,
+        "quote": "WR needs remain relevant for Dolphins rebuild. Carnell Tate visited in draft ecosystem.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-ne-perry": {
+    "id": "bw-ne-perry",
+    "teamId": "NE",
+    "writer": "Phil Perry",
+    "outlet": "NBC Sports Boston",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@PhilAPerry",
+    "accessLevel": "NBC Sports Boston Patriots beat writer. Uses 'fans inside One Patriot Place' and 'intel from coaches and scouts' insider framing — primary signal source for New England at #31.",
+    "playerLinks": [
+      {
+        "playerId": "kc-concepcion",
+        "strength": 48,
+        "isInsiderLanguage": true,
+        "quote": "Perry (April 3, 2026): 'Concepcion has fans inside One Patriot Place, and he was reportedly scheduled to take a 30 visit to Foxboro.' EXPLICIT INSIDER LANGUAGE: 'fans inside One Patriot Place' + 'intel from coaches and scouts' used in his analysis. The KC Concepcion signal is the strongest specific player-team insider connection for New England.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "zion-young",
+        "strength": 28,
+        "isInsiderLanguage": false,
+        "quote": "Perry Mock 3.0: Zion Young (EDGE, Missouri) at Pick 31. 'Mike Vrabel and Eliot Wolf value' EDGE rusher development.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "blake-miller",
+        "strength": 30,
+        "isInsiderLanguage": false,
+        "quote": "Perry Mock 4.0 and Evan Lazar official site mock both agree: Blake Miller (OT, Clemson) at Pick 31 in multiple versions. Lazar: 'give Drake Maye the best offensive line depth they've had in years.'",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-ne-lazar": {
+    "id": "bw-ne-lazar",
+    "teamId": "NE",
+    "writer": "Evan Lazar",
+    "outlet": "Patriots.com",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@ezlazar",
+    "accessLevel": "Team official site — organizational pipeline. 'Draft-and-stash first-round picks' theme reflects organizational framing from Vrabel/Wolf.",
+    "playerLinks": [
+      {
+        "playerId": "blake-miller",
+        "strength": 30,
+        "isInsiderLanguage": false,
+        "quote": "Lazar official site Mock 1.0: Blake Miller (OT, Clemson) at Pick 31. 'Draft-and-stash first-round picks' theme. Lazar is official team site — reflects organizational framing.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "kenyon-sadiq",
+        "strength": 22,
+        "isInsiderLanguage": false,
+        "quote": "Lazar Mock 1.0 Round 3: Oscar Delp (TE, Georgia) — TE is a need. Vrabel confirmed 'We need a third arm' AND 'We need a young TE.'",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-ne-curran": {
+    "id": "bw-ne-curran",
+    "teamId": "NE",
+    "writer": "Tom Curran",
+    "outlet": "NBC Sports Boston",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@tomecurran",
+    "accessLevel": "NBC Sports Boston Patriots reporter. Co-hosts 'The Next Pats Podcast' with Perry; organizational direction per Vrabel/Wolf access on WR and positional needs.",
+    "playerLinks": [
+      {
+        "playerId": "kc-concepcion",
+        "strength": 25,
+        "isInsiderLanguage": false,
+        "quote": "Curran co-discusses with Perry on 'The Next Pats Podcast.' Organizational direction per Vrabel/Wolf access. No 'true No. 1 wideout' — WR need confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-nyj-cimini": {
+    "id": "bw-nyj-cimini",
+    "teamId": "NYJ",
+    "writer": "Rich Cimini",
+    "outlet": "ESPN",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@RichCimini",
+    "accessLevel": "ESPN Jets beat writer with direct organizational access. Uses 'I've heard some rumblings' and 'I came away with' insider framing from league meetings.",
+    "playerLinks": [
+      {
+        "playerId": "kenyon-sadiq",
+        "strength": 42,
+        "isInsiderLanguage": true,
+        "quote": "Cimini (2026): 'I've heard some rumblings' about Kenyon Sadiq and the Jets — EXPLICIT insider language. Also: 'I came away with [from the Annual League Meetings]' — direct source framing.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "arvell-reese",
+        "strength": 30,
+        "isInsiderLanguage": false,
+        "quote": "Jets are 'really high on AD Mitchell' per Cimini, and WR need is secondary to the No. 2 pick. Arvell Reese is the consensus mock for Jets at No. 2 per 75% of analysts. Cimini's organizational access at league meetings confirms defensive need.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "jeremiyah-love",
+        "strength": 20,
+        "isInsiderLanguage": false,
+        "quote": "Cimini covered the Jets-Love breakfast meeting from Costello's break. Secondary interest only — Hall is on franchise tag.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-nyj-hughes": {
+    "id": "bw-nyj-hughes",
+    "teamId": "NYJ",
+    "writer": "Connor Hughes",
+    "outlet": "SNY",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@Connor_J_Hughes",
+    "accessLevel": "SNY Jets reporter. Uses 'I was told' and 'from speaking to multiple sources who met with the Jets' explicit insider framing on QB evaluation.",
+    "playerLinks": [
+      {
+        "playerId": "arvell-reese",
+        "strength": 35,
+        "isInsiderLanguage": false,
+        "quote": "Jets are 'open to moving back' per GM Darren Mougey (Hughes reported). Arvell Reese or David Bailey most commonly mocked to Jets at No. 2.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "ty-simpson",
+        "strength": 32,
+        "isInsiderLanguage": true,
+        "quote": "Hughes (March 23, 2026): 'I was told they came away pretty impressed' after Drew Allar private workout. 'From speaking to multiple sources who met with the Jets' — EXPLICIT insider language on QB evaluation. Ty Simpson and multiple QBs visited at Pick 16 for Jets.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "david-bailey",
+        "strength": 25,
+        "isInsiderLanguage": false,
+        "quote": "David Bailey is one of the top players Jets are evaluating at No. 2. Bailey and Reese are the two options most discussed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-nyj-costello": {
+    "id": "bw-nyj-costello",
+    "teamId": "NYJ",
+    "writer": "Brian Costello",
+    "outlet": "NY Post",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@BrianCoz",
+    "accessLevel": "NY Post Jets beat writer. 'First to report' attribution signals direct organizational sourcing — breakfast meeting break is original insider reporting.",
+    "playerLinks": [
+      {
+        "playerId": "jeremiyah-love",
+        "strength": 25,
+        "isInsiderLanguage": true,
+        "quote": "Costello was 'first to report' that Jets had breakfast meeting with Jeremiyah Love the morning of Notre Dame's Pro Day. Costello's 'first to report' framing = direct sourcing. Jets standard due diligence but the meeting itself is signal.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-bal-zrebiec": {
+    "id": "bw-bal-zrebiec",
+    "teamId": "BAL",
+    "writer": "Jeff Zrebiec",
+    "outlet": "The Athletic",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@jeffzrebiec",
+    "accessLevel": "The Athletic Ravens beat writer. Multiple mock versions with explicit organizational framing — interior OL and offensive playmaker needs are primary signals for Baltimore at #14.",
+    "playerLinks": [
+      {
+        "playerId": "jeremiyah-love",
+        "strength": 35,
+        "isInsiderLanguage": false,
+        "quote": "Zrebiec Mock 1.0: Jeremiyah Love (RB, Notre Dame) at Pick 14. 'Remember the last time the Ravens were picking at 14 and one of the best players in the draft fell into their laps because of positional value? That was Kyle Hamilton in 2022... Love is a home run hitter who will bring juice to an offense that will have a new look with Declan Doyle directing the show.'",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "olaivavega-ioane",
+        "strength": 38,
+        "isInsiderLanguage": false,
+        "quote": "Zrebiec Mock 2.0: Vega Ioane (G, Penn State) at Pick 14. 'The top guard in the draft and has Pro Bowl upside... The Ravens could plug him in from Day 1 and not have to worry about that spot for at least five years.' Ravens top need is interior OL — Linderbaum gone.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "makai-lemon",
+        "strength": 22,
+        "isInsiderLanguage": false,
+        "quote": "Zrebiec flagged WR addition need for Lamar Jackson. 'Addressing WR might be difficult' in Round 1 — organizational level assessment.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-bal-hensley": {
+    "id": "bw-bal-hensley",
+    "teamId": "BAL",
+    "writer": "Jamison Hensley",
+    "outlet": "ESPN",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@jamisonhensley",
+    "accessLevel": "ESPN Ravens beat writer. Covers organizational priorities and WR/OL need analysis for Baltimore; interior OL is the top need per his coverage.",
+    "playerLinks": [
+      {
+        "playerId": "olaivavega-ioane",
+        "strength": 28,
+        "isInsiderLanguage": false,
+        "quote": "Hensley confirmed WR need from organizational perspective — other receivers combined for 51 catches vs. Zay Flowers' 86. Interior OL is the top need per Hensley's coverage.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "jeremiyah-love",
+        "strength": 22,
+        "isInsiderLanguage": false,
+        "quote": "Game-breaking offensive weapon need confirmed by Hensley. Love would address both RB succession and big-play ability.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-bal-shaffer": {
+    "id": "bw-bal-shaffer",
+    "teamId": "BAL",
+    "writer": "Jonas Shaffer",
+    "outlet": "Baltimore Banner",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@jonas_shaffer",
+    "accessLevel": "Baltimore Banner Ravens beat writer. OL is the clear consensus pick for Ravens per Shaffer's mock analysis — Penn State pipeline and athleticism emphasis noted.",
+    "playerLinks": [
+      {
+        "playerId": "olaivavega-ioane",
+        "strength": 30,
+        "isInsiderLanguage": false,
+        "quote": "Shaffer Mock 2.0: Vega Ioane (G, Penn State) at Pick 14. 'The team has a need, it has shown a pattern of drafting Penn Staters in recent years, and it emphasizes athleticism.' OL is the clear consensus pick for Ravens.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-cin-dehner": {
+    "id": "bw-cin-dehner",
+    "teamId": "CIN",
+    "writer": "Paul Dehner Jr.",
+    "outlet": "The Athletic",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@pauldehnerjr",
+    "accessLevel": "The Athletic Bengals beat writer. Softened insider signal: 'It wouldn't be shocking' framing signals defensive-heavy organizational approach at Pick 10.",
+    "playerLinks": [
+      {
+        "playerId": "sonny-styles",
+        "strength": 38,
+        "isInsiderLanguage": false,
+        "quote": "Dehner mock pick: Sonny Styles (LB, Ohio State) at Pick 10. 'Styles would be a slam dunk to drop in the middle of the defense.' Dehner: 'It wouldn't be shocking to see the Bengals take defensive backs with two of their first three draft picks.' SOFTENED INSIDER SIGNAL.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "mansoor-delane",
+        "strength": 32,
+        "isInsiderLanguage": false,
+        "quote": "Dehner: Mansoor Delane was the alternative to Styles at Pick 10. 'A very defensive-heavy draft, especially at the top' — organizational philosophy signal.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "caleb-downs",
+        "strength": 22,
+        "isInsiderLanguage": false,
+        "quote": "Secondary depth is a theme. Caleb Downs (S, Ohio State) also fits the Bengals' secondary-need profile per Dehner's assessment.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-cin-hobson": {
+    "id": "bw-cin-hobson",
+    "teamId": "CIN",
+    "writer": "Geoff Hobson",
+    "outlet": "Bengals.com",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@GeoffHobson",
+    "accessLevel": "Team official site — organizational pipeline. Invokes 'The Law of Whit' (Andrew Whitworth Rule) — take best player at premium position. Defense-heavy approach confirmed.",
+    "playerLinks": [
+      {
+        "playerId": "mansoor-delane",
+        "strength": 35,
+        "isInsiderLanguage": false,
+        "quote": "Hobson team-site mock: Mansoor Delane (CB, LSU) at Pick 10. 'An elite prospect at a premium position who is plug-and-play on a depth chart.' Invokes 'The Law of Whit' (Andrew Whitworth Rule) — take best player at premium position.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "sonny-styles",
+        "strength": 25,
+        "isInsiderLanguage": false,
+        "quote": "Hobson noted Styles as an alternative 'in the Bengals mix.' Defense-heavy approach confirmed by both Hobson and Dehner.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-cle-cabot": {
+    "id": "bw-cle-cabot",
+    "teamId": "CLE",
+    "writer": "Mary Kay Cabot",
+    "outlet": "Cleveland.com / Plain Dealer",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@MaryKayCabot",
+    "accessLevel": "Primary visit news-breaker for Cleveland. Uses 'source tells clevelanddotcom' and 'first reported' attribution — 5+ WR visits signals WR at No. 6 is primary direction.",
+    "playerLinks": [
+      {
+        "playerId": "carnell-tate",
+        "strength": 48,
+        "isInsiderLanguage": true,
+        "quote": "Cabot confirmed top-30 visit with Browns. Multiple sources reported: 'The belief is that, barring a trade down, the Browns will select Carnell Tate at No. 6.' Cabot is the primary visit news-breaker for Cleveland — uses 'source tells clevelanddotcom' language. HIGHEST SIGNAL for Browns.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "makai-lemon",
+        "strength": 42,
+        "isInsiderLanguage": true,
+        "quote": "Cabot 'first reported' Makai Lemon (WR, USC) top-30 visit with Browns — explicit 'first reported' attribution = original sourcing.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "germie-bernard",
+        "strength": 38,
+        "isInsiderLanguage": true,
+        "quote": "Cabot: 'source tells clevelanddotcom' on Germie Bernard (WR, Alabama) top-30 visit. EXPLICIT 'source' language = insider confirmation.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "jordyn-tyson",
+        "strength": 32,
+        "isInsiderLanguage": true,
+        "quote": "Browns hosted Jordyn Tyson (WR, Arizona State) for formal interview — confirmed by Cabot.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "omar-cooper-jr",
+        "strength": 30,
+        "isInsiderLanguage": true,
+        "quote": "Omar Cooper Jr. (WR, Indiana) in Browns' visit pool — confirmed. 5+ WR visits signals WR at No. 6 is primary direction.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "denzel-boston",
+        "strength": 28,
+        "isInsiderLanguage": true,
+        "quote": "Denzel Boston (WR, Washington) confirmed visit with Browns.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "ty-simpson",
+        "strength": 20,
+        "isInsiderLanguage": true,
+        "quote": "Ty Simpson (QB, Alabama) top-30 visit confirmed — contingency QB evaluation by Browns.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-cle-grossi": {
+    "id": "bw-cle-grossi",
+    "teamId": "CLE",
+    "writer": "Tony Grossi",
+    "outlet": "ESPN Cleveland",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@TonyGrossi",
+    "accessLevel": "ESPN Cleveland Browns beat writer. Trade-down to Cowboys flagged as 'most likely' scenario; double-WR strategy projected across Picks 6 and 24.",
+    "playerLinks": [
+      {
+        "playerId": "carnell-tate",
+        "strength": 38,
+        "isInsiderLanguage": false,
+        "quote": "Grossi mock pick at No. 6: Carnell Tate (WR, Ohio State). Alternate: Denzel Boston. 'The decision between the two receivers would likely be very close.' Berry: 'I don't know that we're going to be picking six.' Trade-down to Cowboys flagged as 'most likely' scenario.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "omar-cooper-jr",
+        "strength": 30,
+        "isInsiderLanguage": false,
+        "quote": "Grossi mock pick at No. 24: Omar Cooper Jr. (WR, Indiana). Double-WR strategy — two WRs in Round 1 per Grossi's projection.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-pit-kaboly": {
+    "id": "bw-pit-kaboly",
+    "teamId": "PIT",
+    "writer": "Mark Kaboly",
+    "outlet": "The Athletic / 93.7 The Fan",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@MarkKaboly",
+    "accessLevel": "The Athletic / 93.7 The Fan Steelers reporter. Uses direct insider framing — 'It's gonna break towards wide receiver' and 'pretty much hell-bent' are explicit organizational direction signals. Adam Henry coaching connection to Cooper flagged.",
+    "playerLinks": [
+      {
+        "playerId": "omar-cooper-jr",
+        "strength": 48,
+        "isInsiderLanguage": true,
+        "quote": "Kaboly (April 6, 2026): 'It's gonna break towards wide receiver.' Also: 'pretty much hell-bent on adding [a WR] over the next week.' Adam Henry (new WR coach, formerly at Indiana) coaching connection to Omar Cooper Jr. flagged by Kaboly as making Cooper a 'logical target.' Tony Pauline separately confirmed Cooper is 'in play.' HIGHEST insider signal for Steelers WR direction.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "carnell-tate",
+        "strength": 30,
+        "isInsiderLanguage": false,
+        "quote": "Kaboly: WR is primary Round 1 target. Tate in the pool alongside Cooper, Tyson, Boston.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "dillon-thieneman",
+        "strength": 20,
+        "isInsiderLanguage": false,
+        "quote": "Kaboly sees QB in draft as 'hard to believe.' Safety is mentioned as secondary option.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-pit-dulac": {
+    "id": "bw-pit-dulac",
+    "teamId": "PIT",
+    "writer": "Gerry Dulac",
+    "outlet": "Pittsburgh Post-Gazette",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@gerrydulac",
+    "accessLevel": "Pittsburgh Post-Gazette Steelers beat writer. 'It wouldn't surprise me' framing signals safety as a potential trade-up target — insider hint on Thieneman to Steelers.",
+    "playerLinks": [
+      {
+        "playerId": "dillon-thieneman",
+        "strength": 42,
+        "isInsiderLanguage": true,
+        "quote": "Dulac (March 27, 2026 fan chat): 'It wouldn't surprise me' if Pittsburgh took Dillon Thieneman at Pick 21. Dulac described as 'trying to speak Thieneman winding up with the Steelers into existence.' Also: 'Now safety....?' — EXPLICIT HINT that safety is the position for a potential trade-up. INSIDER SIGNAL.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "ty-simpson",
+        "strength": 25,
+        "isInsiderLanguage": true,
+        "quote": "Dulac (April 1, 2026): 'The Steelers believe there is only one QB worthy of a first-round pick' (Fernando Mendoza, going to Raiders). This suggests Steelers NOT taking QB in Round 1 — contradicts Florio's insider claim.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-pit-fittipaldo": {
+    "id": "bw-pit-fittipaldo",
+    "teamId": "PIT",
+    "writer": "Ray Fittipaldo",
+    "outlet": "Pittsburgh Post-Gazette",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@rayfitt1",
+    "accessLevel": "Pittsburgh Post-Gazette Steelers beat writer. WR is the first-round priority per updated post-free-agency assessment — OT being considered for Days 2-3.",
+    "playerLinks": [
+      {
+        "playerId": "carnell-tate",
+        "strength": 28,
+        "isInsiderLanguage": false,
+        "quote": "Fittipaldo (March 13, 2026): WR remains primary Round 1 focus for Steelers after free agency. 'Met with some guys (OTs) at Combine' — OT being considered for Days 2-3. Wide receiver is the first-round priority per updated post-free-agency assessment.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "omar-cooper-jr",
+        "strength": 25,
+        "isInsiderLanguage": false,
+        "quote": "WR pool for Steelers includes Cooper, Tate, Tyson, Boston. Fittipaldo confirms WR is the direction.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-dal-machota": {
+    "id": "bw-dal-machota",
+    "teamId": "DAL",
+    "writer": "Jon Machota",
+    "outlet": "The Athletic",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@jonmachota",
+    "accessLevel": "The Athletic Cowboys beat writer. Primary signal source for Dallas draft direction at Picks #12 and #20. Big board analysis reflects BPA thinking within organizational framework.",
+    "playerLinks": [
+      {
+        "playerId": "mansoor-delane",
+        "strength": 38,
+        "isInsiderLanguage": false,
+        "quote": "Machota beat writer mock pick at #12: Mansoor Delane (CB, LSU). 'Fits a major area of need, giving Dallas a Day 1 starting cornerback to pair with DaRon Bland, Shavon Revel.' Machota's Big Board: Arvell Reese #1, Caleb Downs #2, David Bailey #3 — suggests BPA thinking for Dallas.",
+        "date": "2026-02"
+      },
+      {
+        "playerId": "cj-allen",
+        "strength": 30,
+        "isInsiderLanguage": false,
+        "quote": "Machota mock pick at #20 (via GB): CJ Allen (LB, Georgia). 'Would instantly upgrade the linebacker group as their starting middle linebacker.' The 2025 Cowboys defense was 'arguably the worst in franchise history.'",
+        "date": "2026-02"
+      },
+      {
+        "playerId": "arvell-reese",
+        "strength": 25,
+        "isInsiderLanguage": false,
+        "quote": "Reese is #1 on Machota's big board — 'best defender in this class.' Could fall to Cowboys at #12 if available.",
+        "date": "2026-02"
+      }
+    ]
+  },
+  "bw-dal-hillclarence": {
+    "id": "bw-dal-hillclarence",
+    "teamId": "DAL",
+    "writer": "Clarence Hill Jr.",
+    "outlet": "DLLS Sports / alldlls.com",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@clarencehillnfl",
+    "accessLevel": "Primary Cowboys insider. Dinner with HC Schottenheimer is the strongest possible pre-draft signal. Confirmed top-30 visits across multiple defensive prospects.",
+    "playerLinks": [
+      {
+        "playerId": "anthony-hill-jr",
+        "strength": 47,
+        "isInsiderLanguage": true,
+        "quote": "Hill (April 2026): 'The Cowboys had dinner with Texas LB Anthony Hill Jr. Monday night in Austin ahead of today's Pro Day.' Front office including HC Schottenheimer attended. Also: 'too much smoke around this pick for it not to happen' on Jonathon Brooks (2nd round). KEY INSIDER: Dinner with HC is the strongest possible pre-draft signal.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "arvell-reese",
+        "strength": 38,
+        "isInsiderLanguage": true,
+        "quote": "Clarence Hill confirmed Cowboys completed formal top-30 visit with Arvell Reese. Also scheduled visits with Caleb Downs and Sonny Styles. Reese is viewed as the Cowboys' top defensive value on the board.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "caleb-downs",
+        "strength": 32,
+        "isInsiderLanguage": true,
+        "quote": "Clarence Hill confirmed Cowboys scheduled top-30 visit with Caleb Downs. Cowboys need S after DaRon Bland/Shavon Revel injury concerns.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-dal-archer": {
+    "id": "bw-dal-archer",
+    "teamId": "DAL",
+    "writer": "Todd Archer",
+    "outlet": "ESPN",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@toddarcher",
+    "accessLevel": "ESPN Cowboys beat writer. Identifies positional needs and organizational priorities for Dallas; LB and CB are top-2 needs per Archer's coverage.",
+    "playerLinks": [
+      {
+        "playerId": "mansoor-delane",
+        "strength": 25,
+        "isInsiderLanguage": false,
+        "quote": "Archer identifies LB and CB as top-2 needs for Cowboys. Defense-heavy approach expected across both first-round picks.",
+        "date": "2026-02"
+      },
+      {
+        "playerId": "cj-allen",
+        "strength": 22,
+        "isInsiderLanguage": false,
+        "quote": "Archer sees LB and edge as 1A and 1B needs for Dallas entering draft.",
+        "date": "2026-02"
+      }
+    ]
+  },
+  "bw-nyg-stapleton": {
+    "id": "bw-nyg-stapleton",
+    "teamId": "NYG",
+    "writer": "Art Stapleton",
+    "outlet": "NorthJersey.com / The Record",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@art_stapleton",
+    "accessLevel": "Primary Giants insider. Multiple sourced reports from Combine suite meetings. Three scouts gave identical answer on Sonny Styles — the strongest insider signal for Giants at #5.",
+    "playerLinks": [
+      {
+        "playerId": "sonny-styles",
+        "strength": 50,
+        "isInsiderLanguage": true,
+        "quote": "Stapleton (Feb. 25, 2026 X/Twitter): 'I'm told Ohio State LB Sonny Styles met with the Giants last night and was very impressive, per sources.' Also: 'Sources tell NorthJersey.com and The Record that the Ohio State star met with the Giants on Tuesday night and impressed.' Three different scouts gave Stapleton the same answer when asked who was most impressive at Combine — all said Sonny Styles. THE STRONGEST INSIDER SIGNAL FOR GIANTS.",
+        "date": "2026-02"
+      },
+      {
+        "playerId": "anthony-hill-jr",
+        "strength": 40,
+        "isInsiderLanguage": true,
+        "quote": "Stapleton (Feb. 26): 'I'm told the Giants met with Texas linebacker Anthony Hill and Clemson defensive tackle Peter Woods.' 'Sounds like Hill won over the room inside the Giants' suite at Lucas Oil Stadium.' Direct insider sourcing from Combine suite meetings.",
+        "date": "2026-02"
+      },
+      {
+        "playerId": "caleb-downs",
+        "strength": 35,
+        "isInsiderLanguage": false,
+        "quote": "Stapleton included Caleb Downs in top-3 picks discussion at #5 alongside Love and Reese.",
+        "date": "2026-02"
+      }
+    ]
+  },
+  "bw-nyg-raanan": {
+    "id": "bw-nyg-raanan",
+    "teamId": "NYG",
+    "writer": "Jordan Raanan",
+    "outlet": "ESPN",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@JordanRaanan",
+    "accessLevel": "ESPN Giants beat writer. HC Harbaugh Pro Day attendance is a major organizational interest signal — not always a regular at Pro Days. Confirmed top-30 visits with multiple players.",
+    "playerLinks": [
+      {
+        "playerId": "caleb-downs",
+        "strength": 48,
+        "isInsiderLanguage": true,
+        "quote": "Raanan (X post, March 25, 2026): 'Giants coach John Harbaugh and area scout Brendan Prophet had an extended conversation with Caleb Downs at Ohio State's Pro Day. The standout safety is in the discussion for the fifth pick.' Notable: Harbaugh attended despite 'not always being a regular at Pro Days in recent years' — major organizational interest signal. HC + GM + owner at OSU Pro Day.",
+        "date": "2026-03"
+      },
+      {
+        "playerId": "sonny-styles",
+        "strength": 38,
+        "isInsiderLanguage": false,
+        "quote": "Raanan noted Harbaugh's Ohio State Pro Day attendance was 'notable' given multiple top-5 options from OSU. Also covered Carnell Tate top-30 visit confirmation.",
+        "date": "2026-03"
+      },
+      {
+        "playerId": "carnell-tate",
+        "strength": 22,
+        "isInsiderLanguage": true,
+        "quote": "Tate confirmed top-30 visits to Giants — Raanan tracking.",
+        "date": "2026-03"
+      },
+      {
+        "playerId": "mansoor-delane",
+        "strength": 28,
+        "isInsiderLanguage": true,
+        "quote": "Mansoor Delane confirmed top-30 visit with Giants per Raanan (following Rapoport's initial report of visiting Dolphins then Giants).",
+        "date": "2026-03"
+      }
+    ]
+  },
+  "bw-nyg-duggan": {
+    "id": "bw-nyg-duggan",
+    "teamId": "NYG",
+    "writer": "Dan Duggan",
+    "outlet": "The Athletic",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@DDuggan21",
+    "accessLevel": "The Athletic Giants beat writer. 'Expect more chatter' framing reflects organizational knowledge of team's thinking on CB need.",
+    "playerLinks": [
+      {
+        "playerId": "mansoor-delane",
+        "strength": 38,
+        "isInsiderLanguage": false,
+        "quote": "Duggan (The Athletic): 'Based on the state of the position, expect more chatter about the Giants using the fifth pick on a corner such as LSU's Mansoor Delane.' CB described as 'underrated need.' FLAG: 'expect more chatter' framing reflects organizational knowledge of team's thinking.",
+        "date": "2026-02"
+      },
+      {
+        "playerId": "sonny-styles",
+        "strength": 32,
+        "isInsiderLanguage": false,
+        "quote": "Duggan participated in Athletic beat writers' mock — Styles pick. 'Would be a monster playing behind the Giants' dynamic front line.'",
+        "date": "2026-02"
+      }
+    ]
+  },
+  "bw-phi-mclane": {
+    "id": "bw-phi-mclane",
+    "teamId": "PHI",
+    "writer": "Jeff McLane",
+    "outlet": "Philadelphia Inquirer",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@Jeff_McLane",
+    "accessLevel": "Philadelphia Inquirer Eagles beat writer. Organizational intel on Landon Dickerson uncertainty signals IOL could be a Round 1 need alongside TE at #23.",
+    "playerLinks": [
+      {
+        "playerId": "kenyon-sadiq",
+        "strength": 40,
+        "isInsiderLanguage": false,
+        "quote": "McLane Mock 1.0 (Feb. 9, 2026): Kenyon Sadiq (TE, Oregon) at #23. 'Would fit a Mannion scheme that has Sean McVay and Kyle Shanahan influences.' Also considered Kadyn Proctor at second pick. McLane also reported insider intel: 'Landon Dickerson returning to the Eagles next season is an uncertainty' (podcast) — signals IOL could be a Round 1 need.",
+        "date": "2026-02"
+      },
+      {
+        "playerId": "olaivavega-ioane",
+        "strength": 28,
+        "isInsiderLanguage": false,
+        "quote": "McLane flagged interior OL uncertainty (Dickerson) as potential draft target.",
+        "date": "2026-02"
+      }
+    ]
+  },
+  "bw-phi-mcmanus": {
+    "id": "bw-phi-mcmanus",
+    "teamId": "PHI",
+    "writer": "Tim McManus",
+    "outlet": "ESPN",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@Tim_McManus",
+    "accessLevel": "ESPN Eagles beat writer. Co-authored Hurts bombshell report — signals organizational flux entering draft. Covers comp pick awards and roster construction.",
+    "playerLinks": [
+      {
+        "playerId": "kenyon-sadiq",
+        "strength": 22,
+        "isInsiderLanguage": false,
+        "quote": "McManus confirmed comp pick awards: Eagles have Rounds 3-6 comp picks. Co-authored bombshell Hurts report (April 1) — signals Eagles front office is in organizational flux entering draft.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-phi-frank": {
+    "id": "bw-phi-frank",
+    "teamId": "PHI",
+    "writer": "Reuben Frank",
+    "outlet": "NBC Sports Philadelphia",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@ReubenFrank9",
+    "accessLevel": "NBC Sports Philadelphia Eagles beat writer. Multiple mock roundups (1.0-6.0) consistently surface OT and TE as top Round 1 options at #23.",
+    "playerLinks": [
+      {
+        "playerId": "max-iheanachor",
+        "strength": 25,
+        "isInsiderLanguage": false,
+        "quote": "Frank's multiple mock roundups (1.0-6.0): Max Iheanachor (OT, Arizona State) appearing frequently at #23. 'High-upside right tackle who could provide a succession plan.'",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "kenyon-sadiq",
+        "strength": 22,
+        "isInsiderLanguage": false,
+        "quote": "TE need flagged in Frank's roundups. Sadiq appears in Eagles context given Goedert departure.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-was-jhabvala": {
+    "id": "bw-was-jhabvala",
+    "teamId": "WAS",
+    "writer": "Nicki Jhabvala",
+    "outlet": "The Athletic",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@NickiJhabvala",
+    "accessLevel": "The Athletic Commanders beat writer. Reported defensive line coach meetings with specific prospects — unit-level scouting is the most specific organizational signal. Primary signal source for Washington at #7.",
+    "playerLinks": [
+      {
+        "playerId": "rueben-bain-jr",
+        "strength": 42,
+        "isInsiderLanguage": false,
+        "quote": "Jhabvala's beat writer mock pick at #7: Rueben Bain Jr. (Edge, Miami). 'The game-wrecker Washington sorely needs.' Had '83 FBS-leading pressures in 2025' — 'Almost impossible for hulking offensive tackles to block.' Jhabvala also reported the Commanders met with Louisville DT Rene Konga — specifically 'with Washington's defensive line coaches, Eric Henderson and Darryl Tapp.' Jayden Daniels, Terry McLaurin, Trey Amos are the 'only true locks' on Commanders roster per Jhabvala (Feb. 13).",
+        "date": "2026-02"
+      },
+      {
+        "playerId": "jeremiyah-love",
+        "strength": 30,
+        "isInsiderLanguage": false,
+        "quote": "Jhabvala: if Love is available at #7, Washington 'would have no reason to hesitate in grabbing him.'",
+        "date": "2026-02"
+      },
+      {
+        "playerId": "david-bailey",
+        "strength": 25,
+        "isInsiderLanguage": false,
+        "quote": "David Bailey referenced as a major candidate — Commanders 'could justifiably use #7 on nearly any position besides QB or OT.' Bailey visit to Commanders confirmed.",
+        "date": "2026-02"
+      }
+    ]
+  },
+  "bw-was-standig": {
+    "id": "bw-was-standig",
+    "teamId": "WAS",
+    "writer": "Ben Standig",
+    "outlet": "The Athletic / LastManStandig.com",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@BenStandig",
+    "accessLevel": "The Athletic / LastManStandig.com Commanders insider. Confirmed top-30 visits and RAS threshold analysis signal organizational targeting criteria for Washington at #7.",
+    "playerLinks": [
+      {
+        "playerId": "carnell-tate",
+        "strength": 35,
+        "isInsiderLanguage": false,
+        "quote": "Standig: 'Commanders really showing Carnell Tate attention at Ohio State Pro Day.' Tate top-30 visit confirmed with Commanders. Standig's RAS analysis: Peters prioritizes 'athleticism everywhere' and the RAS thresholds narrow #7 candidates to Sonny Styles, David Bailey, Mansoor Delane primarily.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "sonny-styles",
+        "strength": 38,
+        "isInsiderLanguage": true,
+        "quote": "Standig confirmed Sonny Styles top-30 visit with Commanders. John Keim (ESPN) quoted 'one team source' on potential trade-back scenario. Quinn on Styles at Combine: 'The versatility of him being an on-the-ball and off-the-ball player, that's a big deal.' Styles meets all of Peters' RAS thresholds.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "denzel-boston",
+        "strength": 25,
+        "isInsiderLanguage": true,
+        "quote": "Standig reported Denzel Boston top-30 visit confirmed with Commanders.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "makai-lemon",
+        "strength": 22,
+        "isInsiderLanguage": true,
+        "quote": "Makai Lemon top-30 visit + workout with Commanders confirmed per Standig.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-was-keim": {
+    "id": "bw-was-keim",
+    "teamId": "WAS",
+    "writer": "John Keim",
+    "outlet": "ESPN",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@john_keim",
+    "accessLevel": "ESPN Commanders beat writer. 'One team source' attribution on trade-back scenario is the highest-credibility insider signal for Washington. Quinn quotes from Combine confirm Styles evaluation at the organizational level.",
+    "playerLinks": [
+      {
+        "playerId": "sonny-styles",
+        "strength": 30,
+        "isInsiderLanguage": true,
+        "quote": "Keim (ESPN): 'One team source pointed out' potential trade-back from #7 — rare direct team attribution in Keim's Ohio State analysis. Quinn quote on Styles: 'The versatility of him being an on-the-ball and off-the-ball player, that's a big deal.' Keim noted Commanders have 'only 53 players under contract — among the lowest in the league.'",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "arvell-reese",
+        "strength": 22,
+        "isInsiderLanguage": false,
+        "quote": "Quinn (via Keim): 'It's unusual to have that type of talent' on Arvell Reese. Ohio State defensive players are major Commanders focus.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-chi-biggs": {
+    "id": "bw-chi-biggs",
+    "teamId": "CHI",
+    "writer": "Brad Biggs",
+    "outlet": "Chicago Tribune",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@BradBiggs",
+    "accessLevel": "Chicago Tribune Bears beat writer. EXPLICIT insider confidence signal: 'I'm feeling pretty confident that it's gonna be a pick that's made on the defensive side of the ball.' Primary signal source for Chicago at #25.",
+    "playerLinks": [
+      {
+        "playerId": "dillon-thieneman",
+        "strength": 42,
+        "isInsiderLanguage": true,
+        "quote": "Biggs mock: Dillon Thieneman (S, Oregon) at #25. 'Very intriguing if available as the Bears would have a dynamic young player to pair with Coby Bryant.' Formal Combine interview confirmed. Biggs on 104.3 The Score: 'I'm feeling pretty confident that it's gonna be a pick that's made on the defensive side of the ball.' — EXPLICIT insider confidence signal. Also: 'The Bears are much higher on young defensive end Austin Booker than people realize' — signals edge rusher may NOT be drafted in Round 1 despite being biggest need.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "kayden-mcdonald",
+        "strength": 30,
+        "isInsiderLanguage": false,
+        "quote": "Biggs considered McDonald as alternative at #25. 'Pass rush remains biggest need but Booker development reduces urgency for Round 1 edge.'",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-chi-finley": {
+    "id": "bw-chi-finley",
+    "teamId": "CHI",
+    "writer": "Patrick Finley",
+    "outlet": "Chicago Sun-Times",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@patrickfinley",
+    "accessLevel": "Chicago Sun-Times Bears beat writer. Direct HC quote on openness to DT = organizational signal for interior defensive line at #25.",
+    "playerLinks": [
+      {
+        "playerId": "kayden-mcdonald",
+        "strength": 35,
+        "isInsiderLanguage": false,
+        "quote": "Finley Mock 2.0: Kayden McDonald (DT, Ohio State) at #25. 'Ben Johnson said he'd be open to drafting an interior defensive lineman in Round 1. McDonald turns 21 in mid-March and was the anchor of a dominant OSU line.' Top-30 visit confirmed (April 1, Sun-Times). Direct HC quote on openness to DT = organizational signal.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "dillon-thieneman",
+        "strength": 25,
+        "isInsiderLanguage": false,
+        "quote": "Thieneman also in Bears mix per Finley's coverage. Formal Combine interview confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-chi-cronin": {
+    "id": "bw-chi-cronin",
+    "teamId": "CHI",
+    "writer": "Courtney Cronin",
+    "outlet": "ESPN",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@CourtneyRCronin",
+    "accessLevel": "ESPN Bears beat writer. Confirmed Poles involvement in Maxx Crosby trade conversations — establishes edge rush urgency as organizational priority entering draft.",
+    "playerLinks": [
+      {
+        "playerId": "kayden-mcdonald",
+        "strength": 28,
+        "isInsiderLanguage": true,
+        "quote": "Cronin reported 'Poles confirmed Bears were involved in conversations' regarding Maxx Crosby trade — fell through, creating edge urgency. Cronin: 'edge rusher remains Chicago's biggest need.' McDonald as interior DL is compromise pick — fits Ben Johnson's stated openness.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "dillon-thieneman",
+        "strength": 22,
+        "isInsiderLanguage": false,
+        "quote": "Safety is secondary Round 1 option per Cronin's Bears coverage.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-det-birkett": {
+    "id": "bw-det-birkett",
+    "teamId": "DET",
+    "writer": "Dave Birkett",
+    "outlet": "Detroit Free Press",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@davebirkett",
+    "accessLevel": "Detroit Free Press Lions beat writer. Top Lions reporter. OT is consensus top need (Taylor Decker succession) — Monroe Freeling is the near-consensus Round 1 pick at #17.",
+    "playerLinks": [
+      {
+        "playerId": "monroe-freeling",
+        "strength": 38,
+        "isInsiderLanguage": false,
+        "quote": "Birkett is the top Lions reporter. Monroe Freeling consensus at #17 — 'exceptional measurables: 9.99 RAS, 6-7, 315 lbs, No. 2 OT RAS score since 1987.' OT is consensus top need (Taylor Decker succession, Decker at 31 with 2 more years). Birkett's content frequently behind paywall limiting surface-level sourced quote visibility.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "akheem-mesidor",
+        "strength": 22,
+        "isInsiderLanguage": false,
+        "quote": "Akheem Mesidor as Edge alternative. Lions 'not having many pass rushers on roster' — Birkett context.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-det-twentyman": {
+    "id": "bw-det-twentyman",
+    "teamId": "DET",
+    "writer": "Tim Twentyman",
+    "outlet": "DetroitLions.com",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@ttwentyman",
+    "accessLevel": "Team official site — organizational pipeline. 'Meet the Prospect' features curated on DetroitLions.com signal genuine organizational evaluation. Spencer Fano dedicated feature is the key insider signal.",
+    "playerLinks": [
+      {
+        "playerId": "monroe-freeling",
+        "strength": 35,
+        "isInsiderLanguage": false,
+        "quote": "Twentyman official site Mock 3.0: Monroe Freeling at #17. 'He'd give Detroit arguably two of the most athletic bookend tackles in the league.' Also evaluated Mesidor, Proctor, Lomu, McNeil-Warren, TJ Parker, Young, Miller, Howell.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "blake-miller",
+        "strength": 22,
+        "isInsiderLanguage": false,
+        "quote": "Blake Miller noted as 'particularly intriguing' with 54 starts at Clemson. OT is clear priority.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-gb-schneidman": {
+    "id": "bw-gb-schneidman",
+    "teamId": "GB",
+    "writer": "Matt Schneidman",
+    "outlet": "The Athletic",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@mattschneidman",
+    "accessLevel": "The Athletic Packers beat writer. Track record verified: accurately predicted Rashan Gary trade before it happened. 'Some buzz about the Packers really liking Zion Young' is the key insider signal for Green Bay's Day 2 approach.",
+    "playerLinks": [
+      {
+        "playerId": "zion-young",
+        "strength": 40,
+        "isInsiderLanguage": true,
+        "quote": "Schneidman (The Athletic): 'Some buzz about the Packers really liking Zion Young.' — INDIRECT SOURCED insider signal. Also: Schneidman accurately predicted the Rashan Gary trade before it happened (Feb. 16: 'options on the table'; Gary traded shortly after). His read on organizational direction is verified by track record.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "tj-parker",
+        "strength": 28,
+        "isInsiderLanguage": false,
+        "quote": "TJ Parker (EDGE, Clemson) in Packers Day 2 discussion per Schneidman. OL depth also a need after departures.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-gb-silverstein": {
+    "id": "bw-gb-silverstein",
+    "teamId": "GB",
+    "writer": "Tom Silverstein",
+    "outlet": "Milwaukee Journal Sentinel",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@TomSilverstein",
+    "accessLevel": "Milwaukee Journal Sentinel Packers beat writer. Tracks all Packers visits from 'information from sources and published reports.' Day 2 edge rush is the primary organizational focus given no Round 1 pick.",
+    "playerLinks": [
+      {
+        "playerId": "zion-young",
+        "strength": 25,
+        "isInsiderLanguage": false,
+        "quote": "Silverstein tracking all Packers visits — 'information from sources and published reports.' Day 2 edge rushers (Young, Parker, Jacas) are the primary focus given no Round 1 pick.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-gb-demovsky": {
+    "id": "bw-gb-demovsky",
+    "teamId": "GB",
+    "writer": "Rob Demovsky",
+    "outlet": "ESPN",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@RobDemovsky",
+    "accessLevel": "ESPN Packers beat writer. Covers organizational needs and confirmed top-30 visits. Gutekunst direct access confirmed via Combine coverage.",
+    "playerLinks": [
+      {
+        "playerId": "zion-young",
+        "strength": 22,
+        "isInsiderLanguage": false,
+        "quote": "Demovsky covered Romello Height as 'Gary replacement' following confirmed top-30 visit. Height (EDGE, Texas Tech) is Round 2-3 target. Day 2 edge rush is the core organizational need per Demovsky's coverage.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "keldric-faulk",
+        "strength": 18,
+        "isInsiderLanguage": false,
+        "quote": "Keldric Faulk in the Day 2 edge pool for Packers. Gutekunst direct access confirmed via Combine coverage.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-gb-hodkiewicz": {
+    "id": "bw-gb-hodkiewicz",
+    "teamId": "GB",
+    "writer": "Wes Hodkiewicz",
+    "outlet": "Packers.com",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@WesHodkiewicz",
+    "accessLevel": "Team official site — organizational pipeline. 'Day 2 Edge Primer' feature curated on Packers.com signals genuine organizational evaluation of multiple edge prospects for Picks #52 and #84.",
+    "playerLinks": [
+      {
+        "playerId": "zion-young",
+        "strength": 20,
+        "isInsiderLanguage": false,
+        "quote": "Packers.com 'Day 2 Edge Primer' features TJ Parker, Gabe Jacas, LT Overton, and Zion Young — all realistic #52 or #84 targets. Official team site curating these features signals genuine organizational evaluation.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-min-goessling": {
+    "id": "bw-min-goessling",
+    "teamId": "MIN",
+    "writer": "Ben Goessling",
+    "outlet": "Star Tribune",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@BenGoessling",
+    "accessLevel": "Star Tribune Vikings beat writer. EXPLICIT organizational signal: published 7-round mock that 'includes, yes, one quarterback' — Vikings are drafting a QB. Thieneman is near-consensus pick at #18 per external tracker.",
+    "playerLinks": [
+      {
+        "playerId": "dillon-thieneman",
+        "strength": 45,
+        "isInsiderLanguage": false,
+        "quote": "60% of external mock submissions to Vikings tracker have Thieneman at #18. Goessling's coverage makes Thieneman the near-consensus pick. Harrison Smith at 37 drives safety urgency.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "ty-simpson",
+        "strength": 30,
+        "isInsiderLanguage": true,
+        "quote": "Goessling published 7-round mock that 'includes, yes, one quarterback' — EXPLICIT organizational signal that Vikings are drafting a QB. 'Two-year process has only drawn Vikings closer to this QB draft class' (podcast title). Vikings signed Kyler Murray for depth/competition, suggesting QB succession is live.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-min-krammer": {
+    "id": "bw-min-krammer",
+    "teamId": "MIN",
+    "writer": "Andrew Krammer",
+    "outlet": "Star Tribune",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@Andrew_Krammer",
+    "accessLevel": "Star Tribune Vikings co-beat writer alongside Goessling. Tracks top-30 visits and positional needs. Safety is the primary Round 1 direction per joint coverage.",
+    "playerLinks": [
+      {
+        "playerId": "dillon-thieneman",
+        "strength": 38,
+        "isInsiderLanguage": false,
+        "quote": "Krammer and Goessling are co-equals on Vikings beat. Both point to safety as top need with Harrison Smith aging. Thieneman and Emmanuel McNeil-Warren are the two most-discussed options at #18.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "anthony-hill-jr",
+        "strength": 25,
+        "isInsiderLanguage": true,
+        "quote": "Vikings scheduled top-30 visit with Anthony Hill Jr. (LB, Texas). LB is secondary need after safety.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-jax-long": {
+    "id": "bw-jax-long",
+    "teamId": "JAX",
+    "writer": "Mark Long",
+    "outlet": "AP",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@APMarkLong",
+    "accessLevel": "AP's primary Jaguars reporter with strong access",
+    "playerLinks": []
+  },
+  "bw-jax-heilman": {
+    "id": "bw-jax-heilman",
+    "teamId": "JAX",
+    "writer": "Phillip Heilman",
+    "outlet": "The Athletic",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@PhillipHeilman",
+    "accessLevel": "The Athletic Jaguars reporter; appears at official media roundtables",
+    "playerLinks": []
+  },
+  "bw-jax-frenette": {
+    "id": "bw-jax-frenette",
+    "teamId": "JAX",
+    "writer": "Gene Frenette",
+    "outlet": "Florida Times-Union",
+    "signalStrength": "LOW",
+    "twitterHandle": "@GFrenette_TU",
+    "accessLevel": "Veteran Jacksonville columnist",
+    "playerLinks": []
+  },
+  "bw-jax-carboni": {
+    "id": "bw-jax-carboni",
+    "teamId": "JAX",
+    "writer": "Nick Carboni",
+    "outlet": "WJXT",
+    "signalStrength": "LOW",
+    "twitterHandle": "@NickCarboni",
+    "accessLevel": "Local Jacksonville TV reporter",
+    "playerLinks": []
+  },
+  "bw-lac-manzano": {
+    "id": "bw-lac-manzano",
+    "teamId": "LAC",
+    "writer": "Gilbert Manzano",
+    "outlet": "Sports Illustrated",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@GManzano24",
+    "accessLevel": "Former OC Register beat writer; Chargers mock: Denzel Boston at #22 for Herbert",
+    "playerLinks": []
+  },
+  "bw-lac-miller": {
+    "id": "bw-lac-miller",
+    "teamId": "LAC",
+    "writer": "Jeff Miller",
+    "outlet": "LA Times",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@JeffMillerLATi",
+    "accessLevel": "LA Times Chargers reporter",
+    "playerLinks": []
+  },
+  "bw-lac-krasovic": {
+    "id": "bw-lac-krasovic",
+    "teamId": "LAC",
+    "writer": "Tom Krasovic",
+    "outlet": "San Diego Union-Tribune",
+    "signalStrength": "LOW",
+    "twitterHandle": "@sdutKrasovic",
+    "accessLevel": "Veteran Chargers coverage",
+    "playerLinks": []
+  },
+  "bw-lac-henne": {
+    "id": "bw-lac-henne",
+    "teamId": "LAC",
+    "writer": "Ricky Henne",
+    "outlet": "Chargers.com",
+    "signalStrength": "LOW",
+    "twitterHandle": "@RickyHenne",
+    "accessLevel": "Official Chargers.com reporter",
+    "playerLinks": []
+  },
+  "bw-atl-ledbetter": {
+    "id": "bw-atl-ledbetter",
+    "teamId": "ATL",
+    "writer": "D. Orlando Ledbetter",
+    "outlet": "Atlanta Journal-Constitution",
+    "signalStrength": "LOW",
+    "twitterHandle": "@dorlandoajc",
+    "accessLevel": "Veteran AJC Falcons reporter; mocked Antonio Williams WR at #48",
+    "playerLinks": []
+  },
+  "bw-atl-mcelhaney": {
+    "id": "bw-atl-mcelhaney",
+    "teamId": "ATL",
+    "writer": "Tori McElhaney",
+    "outlet": "AtlantaFalcons.com",
+    "signalStrength": "LOW",
+    "twitterHandle": "@tori_mcelhaney",
+    "accessLevel": "Official Falcons.com reporter; published multiple 7-round mocks",
+    "playerLinks": []
+  },
+  "bw-atl-rothstein": {
+    "id": "bw-atl-rothstein",
+    "teamId": "ATL",
+    "writer": "Michael Rothstein",
+    "outlet": "ESPN",
+    "signalStrength": "LOW",
+    "twitterHandle": "@MikeRothstein",
+    "accessLevel": "Formerly ESPN Falcons beat; now enterprise but still covers team",
+    "playerLinks": []
+  },
+  "bw-atl-butt": {
+    "id": "bw-atl-butt",
+    "teamId": "ATL",
+    "writer": "Jason Butt",
+    "outlet": "formerly The Athletic",
+    "signalStrength": "LOW",
+    "twitterHandle": "@JasonHButt",
+    "accessLevel": "Former Athletic Falcons writer",
+    "playerLinks": []
+  },
+  "bw-lar-klein": {
+    "id": "bw-lar-klein",
+    "teamId": "LAR",
+    "writer": "Gary Klein",
+    "outlet": "LA Times",
+    "signalStrength": "LOW",
+    "twitterHandle": "@LATimesklein",
+    "accessLevel": "LA Times primary Rams reporter",
+    "playerLinks": []
+  },
+  "bw-lar-thiry": {
+    "id": "bw-lar-thiry",
+    "teamId": "LAR",
+    "writer": "Lindsey Thiry",
+    "outlet": "ESPN",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@LindseyThiry",
+    "accessLevel": "ESPN national NFL reporter formerly on Rams beat; still covers team",
+    "playerLinks": []
+  },
+  "bw-lar-dasilva": {
+    "id": "bw-lar-dasilva",
+    "teamId": "LAR",
+    "writer": "Cameron DaSilva",
+    "outlet": "USA Today Rams Wire",
+    "signalStrength": "LOW",
+    "twitterHandle": "@CameronDaSilva",
+    "accessLevel": "USA Today Rams Wire reporter",
+    "playerLinks": []
+  },
+  "bw-lar-beacham": {
+    "id": "bw-lar-beacham",
+    "teamId": "LAR",
+    "writer": "Greg Beacham",
+    "outlet": "AP",
+    "signalStrength": "LOW",
+    "twitterHandle": "@gregbeacham",
+    "accessLevel": "AP Rams/NFL West reporter",
+    "playerLinks": []
+  },
+  "bw-kc-sweeney": {
+    "id": "bw-kc-sweeney",
+    "teamId": "KC",
+    "writer": "Pete Sweeney",
+    "outlet": "Arrowhead Pride",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@pgsween",
+    "accessLevel": "Editor-in-chief ArrowheadPride; KSHB41 analyst; chiefs mailbag with draft analysis",
+    "playerLinks": []
+  },
+  "bw-kc-mcdowell": {
+    "id": "bw-kc-mcdowell",
+    "teamId": "KC",
+    "writer": "Sam McDowell",
+    "outlet": "Kansas City Star",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@SamMcDowell11",
+    "accessLevel": "KC Star primary Chiefs reporter; strong org access; tracked combine meetings including Dom Orange DT to Chiefs",
+    "playerLinks": []
+  },
+  "bw-kc-teope": {
+    "id": "bw-kc-teope",
+    "teamId": "KC",
+    "writer": "Herbie Teope",
+    "outlet": "NFL.com",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@HerbieTeope",
+    "accessLevel": "NFL.com Chiefs reporter; tracked combine formal meetings including Lander Barton LB",
+    "playerLinks": []
+  },
+  "bw-kc-kissel": {
+    "id": "bw-kc-kissel",
+    "teamId": "KC",
+    "writer": "BJ Kissel",
+    "outlet": "Chiefs.com",
+    "signalStrength": "LOW",
+    "twitterHandle": "@BJ_Kissel",
+    "accessLevel": "Official Chiefs.com reporter",
+    "playerLinks": []
+  },
+  "bw-den-ohalloran": {
+    "id": "bw-den-ohalloran",
+    "teamId": "DEN",
+    "writer": "Ryan O'Halloran",
+    "outlet": "Denver Post",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@ryanohalloran",
+    "accessLevel": "Denver Post primary Broncos reporter",
+    "playerLinks": []
+  },
+  "bw-den-renck": {
+    "id": "bw-den-renck",
+    "teamId": "DEN",
+    "writer": "Troy Renck",
+    "outlet": "Denver7",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@TroyRenck",
+    "accessLevel": "Denver7 TV Broncos reporter; 14+ years covering the team",
+    "playerLinks": []
+  },
+  "bw-den-newman": {
+    "id": "bw-den-newman",
+    "teamId": "DEN",
+    "writer": "Kyle Newman",
+    "outlet": "Denver Post",
+    "signalStrength": "LOW",
+    "twitterHandle": "@KyleNewmanDP",
+    "accessLevel": "Denver Post Broncos coverage",
+    "playerLinks": []
+  },
+  "bw-no-just": {
+    "id": "bw-no-just",
+    "teamId": "NO",
+    "writer": "Amie Just",
+    "outlet": "Times-Picayune",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@amiejust",
+    "accessLevel": "Times-Picayune Saints beat writer",
+    "playerLinks": []
+  },
+  "bw-no-duncan": {
+    "id": "bw-no-duncan",
+    "teamId": "NO",
+    "writer": "Jeff Duncan",
+    "outlet": "Times-Picayune",
+    "signalStrength": "LOW",
+    "twitterHandle": "@JeffDuncanTP",
+    "accessLevel": "Veteran Saints columnist",
+    "playerLinks": []
+  },
+  "bw-no-triplett": {
+    "id": "bw-no-triplett",
+    "teamId": "NO",
+    "writer": "Mike Triplett",
+    "outlet": "NewOrleans.Football",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@MikeTriplett",
+    "accessLevel": "Co-authors 'What we're hearing' series with Nick Underhill; same insider tier",
+    "playerLinks": [
+      {
+        "playerId": "carnell-tate",
+        "strength": 35,
+        "isInsiderLanguage": true,
+        "quote": "Triplett co-authored 'What we're hearing at the combine' with Underhill (Feb 24 + 26 2026). Ohio State dinner attendees included Tate, Reese, Styles, Downs, McDonald — multiple top-30 visit confirmations.",
+        "date": "2026-02"
+      },
+      {
+        "playerId": "arvell-reese",
+        "strength": 30,
+        "isInsiderLanguage": true,
+        "quote": "Saints hosted Ohio State dinner before pro day (per Underhill/Triplett). Reese attended.",
+        "date": "2026-02"
+      }
+    ]
+  },
+  "bw-tb-stroud": {
+    "id": "bw-tb-stroud",
+    "teamId": "TB",
+    "writer": "Rick Stroud",
+    "outlet": "Tampa Bay Times",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@NFLSTROUD",
+    "accessLevel": "Legendary Bucs insider; decades of access; breaks transactions; primary visit-tracker for Tampa Bay",
+    "playerLinks": [
+      {
+        "playerId": "zion-young",
+        "strength": 25,
+        "isInsiderLanguage": true,
+        "quote": "Stroud confirmed Buccaneers hosted Zion Young (EDGE, Missouri) for top-30 visit. Stroud is the authoritative Bucs visit tracker.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "r-mason-thomas",
+        "strength": 22,
+        "isInsiderLanguage": true,
+        "quote": "R. Mason Thomas (EDGE, Oklahoma) confirmed Bucs top-30 visit per tracking.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-tb-vitali": {
+    "id": "bw-tb-vitali",
+    "teamId": "TB",
+    "writer": "Carmen Vitali",
+    "outlet": "Buccaneers.com",
+    "signalStrength": "LOW",
+    "twitterHandle": "@CarmenVitali",
+    "accessLevel": "Official Buccaneers.com reporter",
+    "playerLinks": []
+  },
+  "bw-tb-knight": {
+    "id": "bw-tb-knight",
+    "teamId": "TB",
+    "writer": "Joey Knight",
+    "outlet": "Tampa Bay Times",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@TBTimes_Bucs",
+    "accessLevel": "Tampa Bay Times secondary Bucs reporter",
+    "playerLinks": []
+  },
+  "bw-hou-kubena": {
+    "id": "bw-hou-kubena",
+    "teamId": "HOU",
+    "writer": "Brooks Kubena",
+    "outlet": "Houston Chronicle",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@BKubena",
+    "accessLevel": "Houston Chronicle Texans beat writer alongside Alexander",
+    "playerLinks": []
+  },
+  "bw-hou-dougherty": {
+    "id": "bw-hou-dougherty",
+    "teamId": "HOU",
+    "writer": "Drew Dougherty",
+    "outlet": "Texans.com",
+    "signalStrength": "LOW",
+    "twitterHandle": "@drewdougherty8",
+    "accessLevel": "Official Texans.com reporter",
+    "playerLinks": []
+  },
+  "bw-hou-berman": {
+    "id": "bw-hou-berman",
+    "teamId": "HOU",
+    "writer": "Mark Berman",
+    "outlet": "Fox 26 Houston",
+    "signalStrength": "LOW",
+    "twitterHandle": "@MarkBermanFox26",
+    "accessLevel": "Local Houston TV Texans reporter",
+    "playerLinks": []
+  },
+  "bw-mia-kelly": {
+    "id": "bw-mia-kelly",
+    "teamId": "MIA",
+    "writer": "Omar Kelly",
+    "outlet": "Miami Herald",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@OmarKelly",
+    "accessLevel": "Miami Herald Dolphins beat writer alongside Barry Jackson",
+    "playerLinks": []
+  },
+  "bw-mia-furones": {
+    "id": "bw-mia-furones",
+    "teamId": "MIA",
+    "writer": "David Furones",
+    "outlet": "Sun Sentinel",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@DavidFurones",
+    "accessLevel": "Sun Sentinel Dolphins reporter; published first mock draft for Miami 2026",
+    "playerLinks": []
+  },
+  "bw-mia-schad": {
+    "id": "bw-mia-schad",
+    "teamId": "MIA",
+    "writer": "Joe Schad",
+    "outlet": "Yahoo Sports",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@schadjoe",
+    "accessLevel": "Veteran Dolphins reporter with multiple team-specific mocks",
+    "playerLinks": [
+      {
+        "playerId": "francis-mauigoa",
+        "strength": 28,
+        "isInsiderLanguage": false,
+        "quote": "Schad Mock 3.0 (April 3): 'The Miami Dolphins would love a trench player in Round 1. In this mock, they tab T/G Francis Mauigoa of Miami.'",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "mansoor-delane",
+        "strength": 22,
+        "isInsiderLanguage": false,
+        "quote": "Schad Mock 1.0 and 2.0: Mansoor Delane (CB, LSU) projected to Dolphins at #11.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-cin-baby": {
+    "id": "bw-cin-baby",
+    "teamId": "CIN",
+    "writer": "Ben Baby",
+    "outlet": "ESPN",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@ESPNbenbaby",
+    "accessLevel": "ESPN Bengals beat reporter; covers defensive needs coverage",
+    "playerLinks": []
+  },
+  "bw-cin-goldsmith": {
+    "id": "bw-cin-goldsmith",
+    "teamId": "CIN",
+    "writer": "Charlie Goldsmith",
+    "outlet": "FOX19/Substack",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@CharlieG__",
+    "accessLevel": "Former Cincinnati Enquirer Bengals reporter; 'Charlie's Chalkboard' newsletter",
+    "playerLinks": []
+  },
+  "bw-cin-dragon": {
+    "id": "bw-cin-dragon",
+    "teamId": "CIN",
+    "writer": "Tyler Dragon",
+    "outlet": "Cincinnati Enquirer",
+    "signalStrength": "LOW",
+    "twitterHandle": "@TheTylerDragon",
+    "accessLevel": "Cincinnati Enquirer Bengals reporter",
+    "playerLinks": []
+  },
+  "bw-cle-labbe": {
+    "id": "bw-cle-labbe",
+    "teamId": "CLE",
+    "writer": "Dan Labbe",
+    "outlet": "Cleveland.com",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@danlabbe",
+    "accessLevel": "Cleveland.com Browns reporter alongside Cabot",
+    "playerLinks": []
+  },
+  "bw-cle-petrak": {
+    "id": "bw-cle-petrak",
+    "teamId": "CLE",
+    "writer": "Scott Petrak",
+    "outlet": "Chronicle-Telegram/BrownsZone",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@ScottPetrak",
+    "accessLevel": "BrownsZone.com; 10+ picks analysis; OT as gaping hole; youth movement",
+    "playerLinks": [
+      {
+        "playerId": "carnell-tate",
+        "strength": 25,
+        "isInsiderLanguage": false,
+        "quote": "Petrak identified Browns' 'youth movement' approach. OT at #6 or #24 noted as 'gaping hole remaining' but WR visits suggest WR at #6.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-cle-justice": {
+    "id": "bw-cle-justice",
+    "teamId": "CLE",
+    "writer": "Camryn Justice",
+    "outlet": "WEWS News 5",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@camrynjustice",
+    "accessLevel": "TV reporter; confirmed Browns have R1 picks at 6 and 24 set",
+    "playerLinks": []
+  },
+  "bw-min-coller": {
+    "id": "bw-min-coller",
+    "teamId": "MIN",
+    "writer": "Matthew Coller",
+    "outlet": "Purple Insider",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@MatthewColler",
+    "accessLevel": "Purple Insider Substack; mocked Chris Brazzell II WR and Emmett Johnson RB for Vikings",
+    "playerLinks": []
+  },
+  "bw-min-graff": {
+    "id": "bw-min-graff",
+    "teamId": "MIN",
+    "writer": "Chad Graff",
+    "outlet": "The Athletic",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@ChadGraff",
+    "accessLevel": "The Athletic Vikings reporter; Combine access",
+    "playerLinks": []
+  },
+  "bw-min-hasan": {
+    "id": "bw-min-hasan",
+    "teamId": "MIN",
+    "writer": "Arif Hasan",
+    "outlet": "The Athletic/PFN",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@ArfHasan",
+    "accessLevel": "Analytics-focused Vikings coverage; built Consensus Big Board used by league teams; mocked Vikings trading back from #18",
+    "playerLinks": []
+  },
+  "bw-det-meinke": {
+    "id": "bw-det-meinke",
+    "teamId": "DET",
+    "writer": "Kyle Meinke",
+    "outlet": "MLive",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@kmeinke",
+    "accessLevel": "MLive senior Lions reporter; OT at #17 consensus coverage",
+    "playerLinks": []
+  },
+  "bw-det-niyo": {
+    "id": "bw-det-niyo",
+    "teamId": "DET",
+    "writer": "John Niyo",
+    "outlet": "Detroit News",
+    "signalStrength": "LOW",
+    "twitterHandle": "@JohnNiyo",
+    "accessLevel": "Detroit News Lions coverage",
+    "playerLinks": []
+  },
+  "bw-det-seidel": {
+    "id": "bw-det-seidel",
+    "teamId": "DET",
+    "writer": "Jeff Seidel",
+    "outlet": "Detroit Free Press",
+    "signalStrength": "LOW",
+    "twitterHandle": "@jeffseidel",
+    "accessLevel": "Detroit Free Press Lions reporter",
+    "playerLinks": []
+  },
+  "bw-sf-inman": {
+    "id": "bw-sf-inman",
+    "teamId": "SF",
+    "writer": "Cam Inman",
+    "outlet": "Bay Area News Group",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@CamInman",
+    "accessLevel": "Veteran 49ers reporter; appears on 49ers.com Saloon podcast",
+    "playerLinks": []
+  },
+  "bw-sf-wagoner": {
+    "id": "bw-sf-wagoner",
+    "teamId": "SF",
+    "writer": "Nick Wagoner",
+    "outlet": "ESPN",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@nwagoner",
+    "accessLevel": "ESPN 49ers beat reporter since 2016",
+    "playerLinks": []
+  },
+  "bw-sf-branch": {
+    "id": "bw-sf-branch",
+    "teamId": "SF",
+    "writer": "Eric Branch",
+    "outlet": "SF Chronicle",
+    "signalStrength": "LOW",
+    "twitterHandle": "@Eric_Branch",
+    "accessLevel": "SF Chronicle 49ers coverage",
+    "playerLinks": []
+  },
+  "bw-sea-henderson": {
+    "id": "bw-sea-henderson",
+    "teamId": "SEA",
+    "writer": "Brady Henderson",
+    "outlet": "ESPN",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@BradyHenderson",
+    "accessLevel": "ESPN AFC West reporter; broke Raiders' Denzel Boston visit; covers Seahawks",
+    "playerLinks": [
+      {
+        "playerId": "mike-washington-jr",
+        "strength": 25,
+        "isInsiderLanguage": true,
+        "quote": "Jordan Schultz (insider): Mike Washington Jr. (RB, Arkansas) confirmed top-30 visit with Seahawks.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-sea-bell": {
+    "id": "bw-sea-bell",
+    "teamId": "SEA",
+    "writer": "Gregg Bell",
+    "outlet": "The News Tribune",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@GreggyB206",
+    "accessLevel": "Tacoma News Tribune/veteran Seahawks beat reporter",
+    "playerLinks": []
+  },
+  "bw-ne-reiss": {
+    "id": "bw-ne-reiss",
+    "teamId": "NE",
+    "writer": "Mike Reiss",
+    "outlet": "ESPN",
+    "signalStrength": "HIGH",
+    "twitterHandle": "@MikeReiss",
+    "accessLevel": "ESPN primary Patriots reporter; on Official Patriots Draft Countdown show; Vrabel: 'We need a third arm' (developmental QB)",
+    "playerLinks": [
+      {
+        "playerId": "blake-miller",
+        "strength": 22,
+        "isInsiderLanguage": false,
+        "quote": "Reiss confirmed Vrabel organizational philosophy: EDGE is 'obvious' need. Wolf/Vrabel attended combine meetings. Multiple analysts mock Blake Miller to Patriots at #31.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-ne-callahan": {
+    "id": "bw-ne-callahan",
+    "teamId": "NE",
+    "writer": "Andrew Callahan",
+    "outlet": "Boston Herald",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@_AndrewCallahan",
+    "accessLevel": "Boston Herald Patriots reporter; highlighted Max Iheanachor OT as target",
+    "playerLinks": []
+  },
+  "bw-nyj-staley": {
+    "id": "bw-nyj-staley",
+    "teamId": "NYJ",
+    "writer": "Antwan Staley",
+    "outlet": "NY Daily News",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@AntStaley",
+    "accessLevel": "NY Daily News Jets reporter; QB advocacy pieces; Mendoza fits Glenn/Engstrand system",
+    "playerLinks": []
+  },
+  "bw-nyj-waszak": {
+    "id": "bw-nyj-waszak",
+    "teamId": "NYJ",
+    "writer": "Dennis Waszak Jr.",
+    "outlet": "AP",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@denwaszak",
+    "accessLevel": "AP Jets beat reporter",
+    "playerLinks": []
+  },
+  "bw-bal-mink": {
+    "id": "bw-bal-mink",
+    "teamId": "BAL",
+    "writer": "Ryan Mink",
+    "outlet": "Ravens.com",
+    "signalStrength": "LOW",
+    "twitterHandle": "@ryanmink",
+    "accessLevel": "Official Ravens.com content reporter; team-approved messaging",
+    "playerLinks": []
+  },
+  "bw-bal-jones": {
+    "id": "bw-bal-jones",
+    "teamId": "BAL",
+    "writer": "Luke Jones",
+    "outlet": "WNST BaltimorePositive",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@lukejonesbmore",
+    "accessLevel": "Independent Ravens reporter; historical draft pick context analysis",
+    "playerLinks": []
+  },
+  "bw-pit-rutter": {
+    "id": "bw-pit-rutter",
+    "teamId": "PIT",
+    "writer": "Joe Rutter",
+    "outlet": "TribLIVE",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@tribjoerutter",
+    "accessLevel": "TribLIVE Steelers co-reporter; mocked DT in Round 1 not WR",
+    "playerLinks": []
+  },
+  "bw-pit-adamski": {
+    "id": "bw-pit-adamski",
+    "teamId": "PIT",
+    "writer": "Chris Adamski",
+    "outlet": "TribLIVE",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@chrisbadamski",
+    "accessLevel": "TribLIVE: 'Run-stopping DT is priority, so QB will have to wait' — mocked Kenneth Grant DT at #21",
+    "playerLinks": [
+      {
+        "playerId": "kayden-mcdonald",
+        "strength": 25,
+        "isInsiderLanguage": false,
+        "quote": "Adamski mock: 'Run-stopping DT is priority, so QB will have to wait.' Mocked Kenneth Grant DT Michigan (similar player type to McDonald) at #21.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-dal-walker": {
+    "id": "bw-dal-walker",
+    "teamId": "DAL",
+    "writer": "Patrik Walker",
+    "outlet": "Cowboys.com/CBS",
+    "signalStrength": "LOW",
+    "twitterHandle": "@therealPatrikW",
+    "accessLevel": "Official Cowboys.com and CBS Sports Duals role",
+    "playerLinks": []
+  },
+  "bw-nyg-vacchiano": {
+    "id": "bw-nyg-vacchiano",
+    "teamId": "NYG",
+    "writer": "Ralph Vacchiano",
+    "outlet": "Fox Sports",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@RVacchianoSNY",
+    "accessLevel": "Veteran Giants reporter; NFL Confidential series uses anonymous scout/exec sourcing",
+    "playerLinks": []
+  },
+  "bw-nyg-schwartz": {
+    "id": "bw-nyg-schwartz",
+    "teamId": "NYG",
+    "writer": "Paul Schwartz",
+    "outlet": "NY Post",
+    "signalStrength": "LOW",
+    "twitterHandle": "@NYPost_Schwartz",
+    "accessLevel": "NY Post longtime Giants beat writer",
+    "playerLinks": []
+  },
+  "bw-phi-zangaro": {
+    "id": "bw-phi-zangaro",
+    "teamId": "PHI",
+    "writer": "Dave Zangaro",
+    "outlet": "NBC Sports Philadelphia",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@DaveZangaro",
+    "accessLevel": "NBC Sports Philadelphia Eagles reporter",
+    "playerLinks": []
+  },
+  "bw-phi-kempski": {
+    "id": "bw-phi-kempski",
+    "teamId": "PHI",
+    "writer": "Jimmy Kempski",
+    "outlet": "PhillyVoice",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@JimmyKempski",
+    "accessLevel": "PhillyVoice Eagles analyst; prolific draft roundup coverage",
+    "playerLinks": []
+  },
+  "bw-was-fortier": {
+    "id": "bw-was-fortier",
+    "teamId": "WAS",
+    "writer": "Sam Fortier",
+    "outlet": "Washington Post",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@Sam_Fortier",
+    "accessLevel": "Washington Post Commanders beat reporter",
+    "playerLinks": []
+  },
+  "bw-chi-wiederer": {
+    "id": "bw-chi-wiederer",
+    "teamId": "CHI",
+    "writer": "Dan Wiederer",
+    "outlet": "Chicago Tribune",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@danwiederer",
+    "accessLevel": "Chicago Tribune Bears reporter alongside Biggs",
+    "playerLinks": []
+  },
+  "bw-chi-jahns": {
+    "id": "bw-chi-jahns",
+    "teamId": "CHI",
+    "writer": "Adam Jahns",
+    "outlet": "CHGO Sports",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@adamjahns",
+    "accessLevel": "CHGO Sports; direct GM Poles podcast access; BPA philosophy confirmed",
+    "playerLinks": []
+  },
+  "bw-ten-bacharach": {
+    "id": "bw-ten-bacharach",
+    "teamId": "TEN",
+    "writer": "Erik Bacharach",
+    "outlet": "The Tennessean",
+    "signalStrength": "LOW",
+    "twitterHandle": "@ErikBacharach",
+    "accessLevel": "Tennessean Titans secondary reporter",
+    "playerLinks": []
+  },
+  "bw-buf-graham": {
+    "id": "bw-buf-graham",
+    "teamId": "BUF",
+    "writer": "Tim Graham",
+    "outlet": "The Athletic",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@TimGraham",
+    "accessLevel": "The Athletic Bills writer; co-bylines with Buscaglia; analytical coverage",
+    "playerLinks": []
+  },
+  "bw-gb-nagler": {
+    "id": "bw-gb-nagler",
+    "teamId": "GB",
+    "writer": "Aaron Nagler",
+    "outlet": "Cheesehead TV",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@AaronNagler",
+    "accessLevel": "Cheesehead TV Packers analyst; community-trusted draft coverage",
+    "playerLinks": []
+  },
+  "bw-ind-erickson": {
+    "id": "bw-ind-erickson",
+    "teamId": "IND",
+    "writer": "Joel Erickson",
+    "outlet": "Indianapolis Star",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@JoelAErickson",
+    "accessLevel": "Colts beat writer; covers combine and draft visits",
+    "playerLinks": []
+  },
+  "bw-ind-atkins": {
+    "id": "bw-ind-atkins",
+    "teamId": "IND",
+    "writer": "Nate Atkins",
+    "outlet": "Indianapolis Star",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@NateAtkins11",
+    "accessLevel": "Co-insider with Erickson; covers Colts systematically",
+    "playerLinks": []
+  },
+  "bw-ind-keefer": {
+    "id": "bw-ind-keefer",
+    "teamId": "IND",
+    "writer": "Zak Keefer",
+    "outlet": "The Athletic",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@zkeefer",
+    "accessLevel": "National NFL writer; former Colts beat; locker room credibility",
+    "playerLinks": []
+  },
+  "bw-lv-tafur": {
+    "id": "bw-lv-tafur",
+    "teamId": "LV",
+    "writer": "Vic Tafur",
+    "outlet": "The Athletic",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@VicTafur",
+    "accessLevel": "The Athletic senior Raiders writer; co-hosts State of the Nation podcast",
+    "playerLinks": []
+  },
+  "bw-lv-reed": {
+    "id": "bw-lv-reed",
+    "teamId": "LV",
+    "writer": "Tashan Reed",
+    "outlet": "The Athletic",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "@tashanreed",
+    "accessLevel": "The Athletic Raiders reporter alongside Tafur",
+    "playerLinks": []
+  },
+  "bw-car-jones": {
+    "id": "bw-car-jones",
+    "teamId": "CAR",
+    "writer": "Jonathan Jones",
+    "outlet": "CBS Sports",
+    "signalStrength": "LOW",
+    "twitterHandle": "@jjones9",
+    "accessLevel": "National CBS reporter; Panthers coverage secondary",
+    "playerLinks": []
+  },
+  "bw-car-henson": {
+    "id": "bw-car-henson",
+    "teamId": "CAR",
+    "writer": "Max Henson",
+    "outlet": "Panthers.com",
+    "signalStrength": "LOW",
+    "twitterHandle": "@PanthersMaxH",
+    "accessLevel": "Official Panthers.com reporter; Dave Canales messaging",
+    "playerLinks": []
+  },
+  "bw-car-voth": {
+    "id": "bw-car-voth",
+    "teamId": "CAR",
+    "writer": "Bill Voth",
+    "outlet": "Panthers.com",
+    "signalStrength": "LOW",
+    "twitterHandle": "@PanthersWrap",
+    "accessLevel": "Panthers.com veteran reporter",
+    "playerLinks": []
+  },
+  "bw-ari-somers": {
+    "id": "bw-ari-somers",
+    "teamId": "ARI",
+    "writer": "Kent Somers",
+    "outlet": "Arizona Sports 98.7",
+    "signalStrength": "LOW",
+    "twitterHandle": "@Kent_Somers",
+    "accessLevel": "Veteran Cardinals reporter; moved to radio",
+    "playerLinks": []
+  },
+  "bw-ari-grialou": {
+    "id": "bw-ari-grialou",
+    "teamId": "ARI",
+    "writer": "Craig Grialou",
+    "outlet": "Arizona Sports 98.7",
+    "signalStrength": "LOW",
+    "twitterHandle": "@CraigGrialou",
+    "accessLevel": "Arizona Sports Cardinals radio reporter",
+    "playerLinks": []
+  },
+  "bw-ari-weinfuss-2": {
+    "id": "bw-ari-weinfuss-2",
+    "teamId": "ARI",
+    "writer": "Josh Weinfuss",
+    "outlet": "ESPN",
+    "signalStrength": "MEDIUM-HIGH",
+    "twitterHandle": "@jweinfuss",
+    "accessLevel": "ESPN Cardinals beat; reported Cardinals internally liked Ty Simpson; OT/QB/S as top 3 needs",
+    "playerLinks": [
+      {
+        "playerId": "ty-simpson",
+        "strength": 40,
+        "isInsiderLanguage": true,
+        "quote": "ESPN Josh Weinfuss reported before end of regular season the Cardinals internally liked Alabama QB Ty Simpson. Also confirmed Ty Simpson top-30 visit. Cardinals also met with Simpson at NFL Combine.",
+        "date": "2026-03"
+      }
+    ]
+  },
+  "bw-ten-r2r3": {
+    "id": "bw-ten-r2r3",
+    "teamId": "TEN",
+    "writer": "R2-R3 Intel (Yahoo Sports/TitanInsider)",
+    "outlet": "Multiple",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "",
+    "accessLevel": "R2-R3 confirmed targets from official combine interviews and visit tracking",
+    "playerLinks": [
+      {
+        "playerId": "germie-bernard",
+        "strength": 25,
+        "isInsiderLanguage": false,
+        "quote": "WalterFootball R2 mock: Titans select Germie Bernard WR at pick 35. WR is primary R2 target if EDGE goes R1."
+      },
+      {
+        "playerId": "zion-young",
+        "strength": 22,
+        "isInsiderLanguage": true,
+        "quote": "Zion Young (EDGE, Missouri) — TEN top-30 visit confirmed. Also fits Saleh defensive philosophy."
+      }
+    ]
+  },
+  "bw-ne-r2r3": {
+    "id": "bw-ne-r2r3",
+    "teamId": "NE",
+    "writer": "R2-R3 Intel (Pats Pulpit/NBC Sports Boston/98.5)",
+    "outlet": "Multiple",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Patriots EDGE targets Derrick Moore and Gabe Jacas are primary R2-R3 links per beat reporters",
+    "playerLinks": [
+      {
+        "playerId": "gabe-jacas",
+        "strength": 35,
+        "isInsiderLanguage": false,
+        "quote": "Gabe Jacas (EDGE, Illinois) — full target profile published by Pats Pulpit; NBC Sports Boston mocked Jacas to NE with possible trade-up. Also Oscar Delp (TE) has a Pats Pulpit target profile."
+      },
+      {
+        "playerId": "oscar-delp",
+        "strength": 25,
+        "isInsiderLanguage": false,
+        "quote": "Oscar Delp (TE, Georgia) — Pats Pulpit published full scouting/target report. Patriots addressed TE need in Vrabel's stated priorities."
+      }
+    ]
+  },
+  "bw-gb-r2r3": {
+    "id": "bw-gb-r2r3",
+    "teamId": "GB",
+    "writer": "R2-R3 Intel (Acme Packing Company/Packers.com)",
+    "outlet": "Multiple",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Packers Day 2 EDGE targets confirmed by official Packers.com and Acme Packing Company",
+    "playerLinks": [
+      {
+        "playerId": "gabe-jacas",
+        "strength": 32,
+        "isInsiderLanguage": false,
+        "quote": "Packers.com official Day 2 EDGE article lists Gabe Jacas (EDGE, Illinois) as R2-R3 target. Packers desperately need EDGE after Rashan Gary trade."
+      },
+      {
+        "playerId": "zion-young",
+        "strength": 28,
+        "isInsiderLanguage": true,
+        "quote": "Schneidman (The Athletic): \"some buzz about the Packers really liking Zion Young.\" Primary R2 option."
+      }
+    ]
+  },
+  "bw-lac-r2r3": {
+    "id": "bw-lac-r2r3",
+    "teamId": "LAC",
+    "writer": "R2-R3 Intel (Bolts From The Blue/Pro Football Rumors)",
+    "outlet": "Multiple",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Chargers confirmed top-30 visits with Gabe Jacas and Chase Bisontis for Day 2",
+    "playerLinks": [
+      {
+        "playerId": "gabe-jacas",
+        "strength": 40,
+        "isInsiderLanguage": true,
+        "quote": "Bolts From The Blue and Yahoo Sports confirmed Chargers hosted Gabe Jacas (EDGE, Illinois) for formal top-30 visit. Khalil Mack succession need."
+      }
+    ]
+  },
+  "bw-pit-r2r3": {
+    "id": "bw-pit-r2r3",
+    "teamId": "PIT",
+    "writer": "R2-R3 Intel (Steelers Depot)",
+    "outlet": "Multiple",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Steelers confirmed visits with Carson Beck and Harold Perkins for R3 targets",
+    "playerLinks": []
+  },
+  "bw-min-r2r3": {
+    "id": "bw-min-r2r3",
+    "teamId": "MIN",
+    "writer": "R2-R3 Intel (Purple Insider/Vikings Territory)",
+    "outlet": "Multiple",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Vikings confirmed RB need with Emmett Johnson visit and WR need with Brazzell link",
+    "playerLinks": [
+      {
+        "playerId": "emmett-johnson",
+        "strength": 38,
+        "isInsiderLanguage": true,
+        "quote": "Vikings Territory and RoundTable.io confirmed Emmett Johnson (RB, Nebraska) pre-draft visit. Johnson said \"would love the Vikings to bring him home.\" Multiple sources say \"very good chance\" Vikings use early pick on RB."
+      },
+      {
+        "playerId": "mike-washington-jr",
+        "strength": 22,
+        "isInsiderLanguage": false,
+        "quote": "Mike Washington Jr. (RB, Arkansas) had Vikings top-30 visit. WalterFootball R2 mock has MIN selecting Washington at pick 49."
+      }
+    ]
+  },
+  "bw-car-r2r3": {
+    "id": "bw-car-r2r3",
+    "teamId": "CAR",
+    "writer": "R2-R3 Intel (Pro Football Rumors)",
+    "outlet": "Multiple",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "",
+    "accessLevel": "Panthers confirmed Chase Bisontis visit for OL need",
+    "playerLinks": [
+      {
+        "playerId": "gabe-jacas",
+        "strength": 25,
+        "isInsiderLanguage": false,
+        "quote": "NFL.com Chad Reuter mock: CAR selects Gabe Jacas (EDGE, Illinois) at pick 83."
+      }
+    ]
+  },
+  "bw-ind-r2r3": {
+    "id": "bw-ind-r2r3",
+    "teamId": "IND",
+    "writer": "R2-R3 Intel (A to Z Sports/Combine reports)",
+    "outlet": "Multiple",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "",
+    "accessLevel": "Colts confirmed formal Combine interview with Josiah Trotter",
+    "playerLinks": [
+      {
+        "playerId": "josiah-trotter",
+        "strength": 35,
+        "isInsiderLanguage": true,
+        "quote": "Stephen Holder (ESPN): Josiah Trotter is a \"dream fit in coordinator Lou Anarumo's scheme.\" Formal Combine interview confirmed with Colts. One mock explicitly projects Trotter to IND at pick 78."
+      },
+      {
+        "playerId": "anthony-hill-jr",
+        "strength": 25,
+        "isInsiderLanguage": true,
+        "quote": "Anthony Hill Jr. (LB, Texas) — Colts top-30 visit confirmed. WalterFootball R2 mock has IND selecting Hill at pick 47."
+      }
+    ]
+  },
+  "bw-den-r2r3": {
+    "id": "bw-den-r2r3",
+    "teamId": "DEN",
+    "writer": "R2-R3 Intel (Allbright/Mile High Report)",
+    "outlet": "Multiple",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Allbright insider call on Oscar Delp; Max Klare formal top-30 visit confirmed",
+    "playerLinks": [
+      {
+        "playerId": "oscar-delp",
+        "strength": 42,
+        "isInsiderLanguage": true,
+        "quote": "Benjamin Allbright (KOA Radio, Denver insider): \"I think Broncos fans might be looking at the wrong TEs in the draft. Take a look at Delp when you get a chance.\" Broncos also met formally with Delp at Combine per Mile High Report."
+      }
+    ]
+  },
+  "bw-buf-r2r3": {
+    "id": "bw-buf-r2r3",
+    "teamId": "BUF",
+    "writer": "R2-R3 Intel (SI Bills/Yahoo Sports)",
+    "outlet": "Multiple",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "",
+    "accessLevel": "Bills scouted Mike Washington Jr. specifically at Arkansas pro day",
+    "playerLinks": [
+      {
+        "playerId": "mike-washington-jr",
+        "strength": 30,
+        "isInsiderLanguage": true,
+        "quote": "SI Bills and Yahoo Sports Bills: Bills sent scouts to Arkansas pro day specifically to watch Mike Washington Jr. (RB, Arkansas). Could be targeted at pick 91."
+      },
+      {
+        "playerId": "josiah-trotter",
+        "strength": 28,
+        "isInsiderLanguage": true,
+        "quote": "Josiah Trotter (LB, Missouri) — Bills scouting report filed. WalterFootball visits tracker confirms Bills hosted Trotter for top-30 visit."
+      }
+    ]
+  },
+  "bw-was-r2r3": {
+    "id": "bw-was-r2r3",
+    "teamId": "WAS",
+    "writer": "R2-R3 Intel (Commanders.com/SI)",
+    "outlet": "Multiple",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "",
+    "accessLevel": "Commanders listed Dani Dennis-Sutton and Romello Height as pass-rush targets in official content",
+    "playerLinks": []
+  },
+  "bw-dal-r2r3": {
+    "id": "bw-dal-r2r3",
+    "teamId": "DAL",
+    "writer": "R2-R3 Intel (The Landry Hat)",
+    "outlet": "Multiple",
+    "signalStrength": "MEDIUM",
+    "twitterHandle": "",
+    "accessLevel": "Cowboys confirmed Josiah Trotter top-30 visit for R3 LB target",
+    "playerLinks": [
+      {
+        "playerId": "josiah-trotter",
+        "strength": 35,
+        "isInsiderLanguage": true,
+        "quote": "The Landry Hat confirmed Cowboys hosted Josiah Trotter (LB, Missouri) for top-30 visit ahead of his Texas pro day. Multiple LB visits signal Day 2 LB priority."
+      }
+    ]
+  },
+  "bw-ten-visits-2026": {
+    "id": "bw-ten-visits-2026",
+    "teamId": "TEN",
+    "writer": "Titans Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for Tennessee Titans (Picks #35 R2, #66 R3).",
+    "playerLinks": [
+      {
+        "playerId": "david-bailey",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "rueben-bain-jr",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "caleb-banks",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "kc-concepcion",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "mansoor-delane",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "makai-lemon",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "jeremiyah-love",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "arvell-reese",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "eli-stowers",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Local visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "carnell-tate",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "zion-young",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-nyj-visits-2026": {
+    "id": "bw-nyj-visits-2026",
+    "teamId": "NYJ",
+    "writer": "Jets Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for New York Jets (Pick #33 R2, #44 R3 via DAL).",
+    "playerLinks": [
+      {
+        "playerId": "jeremiyah-love",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "sonny-styles",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "arvell-reese",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Pro day attendance confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "makai-lemon",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "ty-simpson",
+        "strength": 18,
+        "isInsiderLanguage": false,
+        "quote": "Workout confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "kc-concepcion",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "zion-young",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-ari-visits-2026": {
+    "id": "bw-ari-visits-2026",
+    "teamId": "ARI",
+    "writer": "Cardinals Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for Arizona Cardinals (Pick #34 R2, #65 R3).",
+    "playerLinks": [
+      {
+        "playerId": "david-bailey",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "caleb-banks",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "ty-simpson",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "arvell-reese",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "kc-concepcion",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "max-iheanachor",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-lv-visits-2026": {
+    "id": "bw-lv-visits-2026",
+    "teamId": "LV",
+    "writer": "Raiders Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for Las Vegas Raiders (Pick #36 R2, #67 R3).",
+    "playerLinks": [
+      {
+        "playerId": "kc-concepcion",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "omar-cooper-jr",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "zion-young",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-nyg-visits-2026": {
+    "id": "bw-nyg-visits-2026",
+    "teamId": "NYG",
+    "writer": "Giants Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for New York Giants (Pick #37 R2).",
+    "playerLinks": [
+      {
+        "playerId": "arvell-reese",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "sonny-styles",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Pro day attendance confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "caleb-downs",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Pro day attendance confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "jeremiyah-love",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "mansoor-delane",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "makai-lemon",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "kc-concepcion",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "carnell-tate",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-cle-visits-2026": {
+    "id": "bw-cle-visits-2026",
+    "teamId": "CLE",
+    "writer": "Browns Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for Cleveland Browns (Pick #39 R2, #70 R3).",
+    "playerLinks": [
+      {
+        "playerId": "carnell-tate",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "makai-lemon",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "omar-cooper-jr",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "denzel-boston",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "germie-bernard",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "kc-concepcion",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "ty-simpson",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "oscar-delp",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-was-visits-2026": {
+    "id": "bw-was-visits-2026",
+    "teamId": "WAS",
+    "writer": "Commanders Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for Washington Commanders.",
+    "playerLinks": [
+      {
+        "playerId": "denzel-boston",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "mansoor-delane",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "makai-lemon",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "carnell-tate",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "kc-concepcion",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "sonny-styles",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "keionte-scott",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-no-visits-2026": {
+    "id": "bw-no-visits-2026",
+    "teamId": "NO",
+    "writer": "Saints Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for New Orleans Saints (Pick #42 R2, #73 R3).",
+    "playerLinks": [
+      {
+        "playerId": "carnell-tate",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "makai-lemon",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "mansoor-delane",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "arvell-reese",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Pro day attendance confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "denzel-boston",
+        "strength": 18,
+        "isInsiderLanguage": false,
+        "quote": "Workout confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-kc-visits-2026": {
+    "id": "bw-kc-visits-2026",
+    "teamId": "KC",
+    "writer": "Chiefs Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for Kansas City Chiefs (Pick #40 R2, #74 R3).",
+    "playerLinks": [
+      {
+        "playerId": "david-bailey",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "caleb-banks",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "arvell-reese",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "carnell-tate",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "makai-lemon",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "kc-concepcion",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "oscar-delp",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "chris-johnson",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "eli-stowers",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-cin-visits-2026": {
+    "id": "bw-cin-visits-2026",
+    "teamId": "CIN",
+    "writer": "Bengals Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for Cincinnati Bengals (Pick #41 R2, #72 R3).",
+    "playerLinks": [
+      {
+        "playerId": "jeremiyah-love",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "sonny-styles",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Local visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "kc-concepcion",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "caleb-banks",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "aj-haulcy",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-mia-visits-2026": {
+    "id": "bw-mia-visits-2026",
+    "teamId": "MIA",
+    "writer": "Dolphins Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for Miami Dolphins (Pick #43 R2, #75 R3, #87, #90, #94).",
+    "playerLinks": [
+      {
+        "playerId": "mansoor-delane",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "makai-lemon",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "kc-concepcion",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "aj-haulcy",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "denzel-boston",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Pro day attendance confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "ty-simpson",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "caleb-banks",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-dal-visits-2026": {
+    "id": "bw-dal-visits-2026",
+    "teamId": "DAL",
+    "writer": "Cowboys Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for Dallas Cowboys (Picks #76, #92 R3).",
+    "playerLinks": [
+      {
+        "playerId": "mansoor-delane",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "caleb-downs",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "sonny-styles",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "arvell-reese",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "keionte-scott",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "omar-cooper-jr",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "eli-stowers",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "jacob-rodriguez",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "josiah-trotter",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "david-bailey",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Local visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "zion-young",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Pro day attendance confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-lar-visits-2026": {
+    "id": "bw-lar-visits-2026",
+    "teamId": "LAR",
+    "writer": "Rams Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for Los Angeles Rams (Pick #61 R2, #93 R3).",
+    "playerLinks": [
+      {
+        "playerId": "carnell-tate",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "makai-lemon",
+        "strength": 18,
+        "isInsiderLanguage": false,
+        "quote": "Workout confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "kc-concepcion",
+        "strength": 18,
+        "isInsiderLanguage": false,
+        "quote": "Workout confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-bal-visits-2026": {
+    "id": "bw-bal-visits-2026",
+    "teamId": "BAL",
+    "writer": "Ravens Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for Baltimore Ravens (Pick #45 R2, #80 R3).",
+    "playerLinks": [
+      {
+        "playerId": "aj-haulcy",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "kc-concepcion",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-tb-visits-2026": {
+    "id": "bw-tb-visits-2026",
+    "teamId": "TB",
+    "writer": "Buccaneers Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for Tampa Bay Buccaneers (Pick #46 R2, #77 R3).",
+    "playerLinks": [
+      {
+        "playerId": "zion-young",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "r-mason-thomas",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "oscar-delp",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-det-visits-2026": {
+    "id": "bw-det-visits-2026",
+    "teamId": "DET",
+    "writer": "Lions Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for Detroit Lions (Pick #50 R2, #81 via JAX R3).",
+    "playerLinks": [
+      {
+        "playerId": "caleb-banks",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "zion-young",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Pro day attendance confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-min-visits-2026": {
+    "id": "bw-min-visits-2026",
+    "teamId": "MIN",
+    "writer": "Vikings Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for Minnesota Vikings (Pick #49 R2, #82 R3, #97 comp).",
+    "playerLinks": [
+      {
+        "playerId": "anthony-hill-jr",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "emmett-johnson",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-gb-visits-2026": {
+    "id": "bw-gb-visits-2026",
+    "teamId": "GB",
+    "writer": "Packers Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for Green Bay Packers (Pick #52 R2, #84 R3).",
+    "playerLinks": [
+      {
+        "playerId": "gabe-jacas",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "mike-washington-jr",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-pit-visits-2026": {
+    "id": "bw-pit-visits-2026",
+    "teamId": "PIT",
+    "writer": "Steelers Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for Pittsburgh Steelers (Picks #53, #76, #85, #99 R3).",
+    "playerLinks": [
+      {
+        "playerId": "denzel-boston",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "germie-bernard",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "jacob-rodriguez",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "carnell-tate",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-phi-visits-2026": {
+    "id": "bw-phi-visits-2026",
+    "teamId": "PHI",
+    "writer": "Eagles Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for Philadelphia Eagles (Pick #54 R2, #98 comp).",
+    "playerLinks": [
+      {
+        "playerId": "dani-dennis-sutton",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "max-iheanachor",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "omar-cooper-jr",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "eli-stowers",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "olaivavega-ioane",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Local visit confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-lac-visits-2026": {
+    "id": "bw-lac-visits-2026",
+    "teamId": "LAC",
+    "writer": "Chargers Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for Los Angeles Chargers (Pick #55 R2, #86 R3).",
+    "playerLinks": [
+      {
+        "playerId": "kc-concepcion",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "gabe-jacas",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "caleb-lomu",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "r-mason-thomas",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "zion-young",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Pro day attendance confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-jax-visits-2026": {
+    "id": "bw-jax-visits-2026",
+    "teamId": "JAX",
+    "writer": "Jaguars Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for Jacksonville Jaguars (Pick #56 R2, #88 R3).",
+    "playerLinks": [
+      {
+        "playerId": "eli-stowers",
+        "strength": 10,
+        "isInsiderLanguage": false,
+        "quote": "Combine meeting confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-chi-visits-2026": {
+    "id": "bw-chi-visits-2026",
+    "teamId": "CHI",
+    "writer": "Bears Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for Chicago Bears (Picks #57, #60 via BUF, #89 R3).",
+    "playerLinks": [
+      {
+        "playerId": "kayden-mcdonald",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "keionte-scott",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-sf-visits-2026": {
+    "id": "bw-sf-visits-2026",
+    "teamId": "SF",
+    "writer": "49ers Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for San Francisco 49ers (Pick #58 R2, #92 via DAL R3).",
+    "playerLinks": [
+      {
+        "playerId": "denzel-boston",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "kc-concepcion",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "omar-cooper-jr",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-hou-visits-2026": {
+    "id": "bw-hou-visits-2026",
+    "teamId": "HOU",
+    "writer": "Texans Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for Houston Texans (Picks #38, #59 R2, #69 via NYG R3, #106 R4).",
+    "playerLinks": [
+      {
+        "playerId": "kayden-mcdonald",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "keionte-scott",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "kadyn-proctor",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-buf-visits-2026": {
+    "id": "bw-buf-visits-2026",
+    "teamId": "BUF",
+    "writer": "Bills Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for Buffalo Bills (Pick #91 R3).",
+    "playerLinks": [
+      {
+        "playerId": "kc-concepcion",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "denzel-boston",
+        "strength": 18,
+        "isInsiderLanguage": false,
+        "quote": "Workout confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-ne-visits-2026": {
+    "id": "bw-ne-visits-2026",
+    "teamId": "NE",
+    "writer": "Patriots Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for New England Patriots (Pick #63 R2, #95 R3).",
+    "playerLinks": [
+      {
+        "playerId": "max-iheanachor",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "kc-concepcion",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-sea-visits-2026": {
+    "id": "bw-sea-visits-2026",
+    "teamId": "SEA",
+    "writer": "Seahawks Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for Seattle Seahawks (Pick #64 R2, #96 R3).",
+    "playerLinks": [
+      {
+        "playerId": "chris-johnson",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "mike-washington-jr",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "aj-haulcy",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "zion-young",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "kayden-mcdonald",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-den-visits-2026": {
+    "id": "bw-den-visits-2026",
+    "teamId": "DEN",
+    "writer": "Broncos Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for Denver Broncos (Pick #62 R2, #94 via MIA R3).",
+    "playerLinks": [
+      {
+        "playerId": "oscar-delp",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "eli-stowers",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "josiah-trotter",
+        "strength": 10,
+        "isInsiderLanguage": false,
+        "quote": "Combine meeting confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "bw-ind-visits-2026": {
+    "id": "bw-ind-visits-2026",
+    "teamId": "IND",
+    "writer": "Colts Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for Indianapolis Colts (Pick #47 R2, #78 R3).",
+    "playerLinks": []
+  },
+  "bw-atl-visits-2026": {
+    "id": "bw-atl-visits-2026",
+    "teamId": "ATL",
+    "writer": "Falcons Top-30 Visit Tracker",
+    "outlet": "Aggregate",
+    "signalStrength": "HIGH",
+    "twitterHandle": "",
+    "accessLevel": "Aggregated top-30 visit signals for Atlanta Falcons (Pick #48 R2, #79 R3).",
+    "playerLinks": [
+      {
+        "playerId": "mike-washington-jr",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      },
+      {
+        "playerId": "caleb-banks",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top-30 visit confirmed.",
+        "date": "2026-04"
+      }
+    ]
+  },
+  "CAR-visit-tracker-2026": {
+    "id": "CAR-visit-tracker-2026",
+    "writer": "Panthers Visit Tracker 2026",
+    "outlet": "@panthersbreakd / @wassupdoug336 / @thaRBW",
+    "teamId": "CAR",
+    "tier": "beat",
+    "signalStrength": "high",
+    "notes": "83 players tracked across all meeting types — Top 30 visits, local visits, combine, pro days, all-star bowls. Source: Google Sheets tracker via multiple Panthers beat accounts.",
+    "playerLinks": [
+      {
+        "playerId": "kaleb-proctor",
+        "strength": 10,
+        "isInsiderLanguage": false,
+        "quote": "Shrine Bowl"
+      },
+      {
+        "playerId": "tristan-leigh",
+        "strength": 18,
+        "isInsiderLanguage": false,
+        "quote": "Shrine Bowl, Pro Day (6th Round projection)"
+      },
+      {
+        "playerId": "landon-robinson",
+        "strength": 10,
+        "isInsiderLanguage": false,
+        "quote": "Shrine Bowl"
+      },
+      {
+        "playerId": "jalen-huskey",
+        "strength": 10,
+        "isInsiderLanguage": false,
+        "quote": "Shrine Bowl"
+      },
+      {
+        "playerId": "andre-fuller",
+        "strength": 10,
+        "isInsiderLanguage": false,
+        "quote": "Shrine Bowl"
+      },
+      {
+        "playerId": "brandon-cleveland",
+        "strength": 10,
+        "isInsiderLanguage": false,
+        "quote": "Shrine Bowl"
+      },
+      {
+        "playerId": "mason-reiger",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Shrine Bowl, Combine (5th Round projection)"
+      },
+      {
+        "playerId": "justin-joly",
+        "strength": 14,
+        "isInsiderLanguage": false,
+        "quote": "Senior Bowl (3rd Round projection)"
+      },
+      {
+        "playerId": "kage-casey",
+        "strength": 14,
+        "isInsiderLanguage": false,
+        "quote": "Senior Bowl (4th Round projection)"
+      },
+      {
+        "playerId": "brian-parker-ii",
+        "strength": 10,
+        "isInsiderLanguage": false,
+        "quote": "Shrine Bowl (2nd Round projection)"
+      },
+      {
+        "playerId": "austin-barber",
+        "strength": 14,
+        "isInsiderLanguage": false,
+        "quote": "Senior Bowl (3rd Round projection)"
+      },
+      {
+        "playerId": "derrick-moore",
+        "strength": 14,
+        "isInsiderLanguage": false,
+        "quote": "Senior Bowl (3rd Round projection)"
+      },
+      {
+        "playerId": "romello-height",
+        "strength": 14,
+        "isInsiderLanguage": false,
+        "quote": "Senior Bowl (2nd Round projection)"
+      },
+      {
+        "playerId": "kyle-louis",
+        "strength": 14,
+        "isInsiderLanguage": false,
+        "quote": "Senior Bowl (5th Round projection)"
+      },
+      {
+        "playerId": "ted-hurst",
+        "strength": 14,
+        "isInsiderLanguage": false,
+        "quote": "Senior Bowl (5th Round projection)"
+      },
+      {
+        "playerId": "jude-bowry",
+        "strength": 14,
+        "isInsiderLanguage": false,
+        "quote": "Senior Bowl (4th Round projection)"
+      },
+      {
+        "playerId": "adam-randall",
+        "strength": 14,
+        "isInsiderLanguage": false,
+        "quote": "Senior Bowl"
+      },
+      {
+        "playerId": "gabe-jacas",
+        "strength": 14,
+        "isInsiderLanguage": false,
+        "quote": "Senior Bowl (3rd Round projection)"
+      },
+      {
+        "playerId": "caleb-banks",
+        "strength": 14,
+        "isInsiderLanguage": false,
+        "quote": "Senior Bowl (2nd Round projection)"
+      },
+      {
+        "playerId": "jacob-rodriguez",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Senior Bowl, Combine, Pro Day (2nd Round projection)"
+      },
+      {
+        "playerId": "darrell-jackson-jr",
+        "strength": 10,
+        "isInsiderLanguage": false,
+        "quote": "Shrine Bowl (3rd Round projection)"
+      },
+      {
+        "playerId": "jalon-kilgore",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Senior Bowl, Top 30 (4th Round projection)"
+      },
+      {
+        "playerId": "travis-burke",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Virtual, Top 30 (UDFA projection)"
+      },
+      {
+        "playerId": "emmett-johnson",
+        "strength": 12,
+        "isInsiderLanguage": false,
+        "quote": "Virtual (3rd Round projection)"
+      },
+      {
+        "playerId": "blake-miller",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Pro Day (1st Round projection)"
+      },
+      {
+        "playerId": "kaleb-elarms-orr",
+        "strength": 18,
+        "isInsiderLanguage": false,
+        "quote": "Combine (2nd Round projection)"
+      },
+      {
+        "playerId": "keldric-faulk",
+        "strength": 18,
+        "isInsiderLanguage": false,
+        "quote": "Combine (1st Round projection)"
+      },
+      {
+        "playerId": "sawyer-robertson",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Combine, Virtual (3rd Round projection)"
+      },
+      {
+        "playerId": "genesis-smith",
+        "strength": 18,
+        "isInsiderLanguage": false,
+        "quote": "Combine (3rd Round projection)"
+      },
+      {
+        "playerId": "daylen-everette",
+        "strength": 18,
+        "isInsiderLanguage": false,
+        "quote": "Combine (2nd Round projection)"
+      },
+      {
+        "playerId": "sonny-styles",
+        "strength": 18,
+        "isInsiderLanguage": false,
+        "quote": "Combine (1st Round projection)"
+      },
+      {
+        "playerId": "anthony-hill-jr",
+        "strength": 18,
+        "isInsiderLanguage": false,
+        "quote": "Unofficial, Pro Day"
+      },
+      {
+        "playerId": "carver-willis",
+        "strength": 12,
+        "isInsiderLanguage": false,
+        "quote": "Virtual (UDFA projection)"
+      },
+      {
+        "playerId": "spencer-fano",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Pro Day (1st Round projection)"
+      },
+      {
+        "playerId": "oscar-delp",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Unofficial, Top 30 (4th Round projection)"
+      },
+      {
+        "playerId": "collin-wright",
+        "strength": 12,
+        "isInsiderLanguage": false,
+        "quote": "Virtual"
+      },
+      {
+        "playerId": "kc-concepcion",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Local Visit"
+      },
+      {
+        "playerId": "malik-benson",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Pro Day (5th Round projection)"
+      },
+      {
+        "playerId": "kaelon-black",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top 30"
+      },
+      {
+        "playerId": "malik-muhammad",
+        "strength": 17,
+        "isInsiderLanguage": false,
+        "quote": "Virtual, Unofficial (3rd Round projection)"
+      },
+      {
+        "playerId": "eli-raridon",
+        "strength": 14,
+        "isInsiderLanguage": false,
+        "quote": "Senior Bowl (4th Round projection)"
+      },
+      {
+        "playerId": "john-michael-gyllenborg",
+        "strength": 14,
+        "isInsiderLanguage": false,
+        "quote": "Senior Bowl (7th Round projection)"
+      },
+      {
+        "playerId": "jordan-hudson",
+        "strength": 14,
+        "isInsiderLanguage": false,
+        "quote": "Senior Bowl (UDFA projection)"
+      },
+      {
+        "playerId": "keylan-rutledge",
+        "strength": 14,
+        "isInsiderLanguage": false,
+        "quote": "Senior Bowl (4th Round projection)"
+      },
+      {
+        "playerId": "caleb-douglas",
+        "strength": 10,
+        "isInsiderLanguage": false,
+        "quote": "Unofficial (UDFA projection)"
+      },
+      {
+        "playerId": "lee-hunter",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Pro Day (2nd Round projection)"
+      },
+      {
+        "playerId": "chase-bisontis",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top 30 (2nd Round projection)"
+      },
+      {
+        "playerId": "tyler-onyedim",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top 30 (UDFA projection)"
+      },
+      {
+        "playerId": "kadyn-proctor",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Pro Day (1st Round projection)"
+      },
+      {
+        "playerId": "parker-brailsford",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Pro Day (4th Round projection)"
+      },
+      {
+        "playerId": "omar-cooper-jr",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top 30 (2nd Round projection)"
+      },
+      {
+        "playerId": "behren-morton",
+        "strength": 15,
+        "isInsiderLanguage": false,
+        "quote": "Top 30 (UDFA projection)"
+      }
+    ]
+  }
+}

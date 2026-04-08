@@ -1,0 +1,367 @@
+/* BigBoard.module.css — flat sports analytics aesthetic */
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;       /* grow to fill remaining space, can shrink */
+  min-height: 200px; /* always show at least a few players */
+  background: var(--bg-secondary);
+  overflow: hidden;
+}
+
+/* ── Header — stacks vertically: title row → search → filter bar ── */
+.header {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerTitle {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  line-height: 1;
+}
+
+.headerCount {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Search ── */
+.searchWrap {
+  position: relative;
+  flex-shrink: 0;
+  padding: 10px 14px 0;
+}
+
+.searchInput {
+  width: 100%;
+  box-sizing: border-box;
+  background: #222228;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 4px;
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 12px;
+  padding: 8px 30px 8px 12px;
+  outline: none;
+  transition: border-color 120ms ease;
+}
+
+.searchInput::placeholder {
+  color: #52525b;
+}
+
+.searchInput:focus {
+  border-color: var(--accent-gold);
+  background: #26262c;
+}
+
+.searchClear {
+  position: absolute;
+  right: 22px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 11px;
+  cursor: pointer;
+  padding: 2px 4px;
+  line-height: 1;
+  margin-top: 5px;
+}
+
+.searchClear:hover {
+  color: var(--text-secondary);
+}
+
+/* ── Position filter chips — single scrollable row, never wraps ── */
+.filterBar {
+  flex-shrink: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 4px;
+  padding: 7px 12px;
+  border-bottom: 1px solid var(--border-subtle);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.filterBar::-webkit-scrollbar { display: none; }
+
+.filterChip,
+.filterBtn {
+  flex-shrink: 0;
+  padding: 3px 10px;
+  border-radius: 12px;
+  background: transparent;
+  border: 1px solid var(--border-subtle);
+  color: var(--text-muted);
+  font-family: inherit;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 120ms ease, border-color 120ms ease;
+  line-height: 1.4;
+}
+
+.filterBtn:hover {
+  color: var(--text-secondary);
+  border-color: var(--border-medium);
+}
+
+.filterChipActive,
+.filterBtnActive {
+  composes: filterBtn;
+  color: var(--accent-gold);
+  border-color: var(--accent-gold);
+}
+
+/* ── Player list ── */
+.playerList {
+  flex: 1 1 0;
+  min-height: 0;     /* critical — without this flex child won't scroll */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.playerList::-webkit-scrollbar { width: 4px; }
+.playerList::-webkit-scrollbar-track { background: transparent; }
+.playerList::-webkit-scrollbar-thumb { background: var(--border-subtle); border-radius: 2px; }
+
+/* Row: 36px tall, tabular data layout */
+.playerRow {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 36px;
+  padding: 0 14px;
+  border-bottom: 1px solid var(--border-subtle);
+  overflow: hidden;
+  transition: background 100ms ease;
+}
+
+.playerRow:last-child {
+  border-bottom: none;
+}
+
+.playerRowClickable {
+  composes: playerRow;
+  cursor: pointer;
+}
+
+.playerRowClickable:hover {
+  background: var(--bg-card-hover);
+  border-left: 2px solid var(--accent-gold);
+  padding-left: 12px;
+}
+
+.playerRowSelected {
+  composes: playerRow;
+  background: rgba(212, 168, 67, 0.07);
+  border-left: 2px solid var(--accent-gold);
+  padding-left: 12px;
+}
+
+/* Rank — fixed 28px, right-aligned */
+.rankNum {
+  width: 28px;
+  flex-shrink: 0;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  z-index: 1;
+}
+
+/* Position badge — colored background, small */
+.posBadge,
+.posTag {
+  flex-shrink: 0;
+  display: inline-block;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  z-index: 1;
+}
+
+.playerInfo {
+  flex: 1;
+  min-width: 0;
+  z-index: 1;
+}
+
+.playerName {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.2;
+  transition: color 100ms ease;
+}
+
+.playerSchool {
+  font-size: 10px;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1;
+  margin-top: 1px;
+}
+
+/* Desire score strip — faint bar behind the row content */
+.scoreBar {
+  position: absolute;
+  inset: 0 auto 0 0;
+  height: 100%;
+  background: rgba(47, 158, 68, 0.06);
+  pointer-events: none;
+  transition: width 400ms ease;
+}
+
+/* ── Bottom CTA banner — isUserTurn ── */
+.ctaBanner {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  background: var(--accent-gold);
+  border-top: 1px solid var(--accent-gold);
+  cursor: default;
+}
+
+.ctaBannerText {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #09090b;
+}
+
+.clickable { cursor: pointer; }
+.clickable:hover {
+  background: var(--bg-card-hover);
+  border-left: 2px solid var(--accent-gold);
+  padding-left: 12px;
+}
+
+.selected {
+  background: rgba(212, 168, 67, 0.07);
+  border-left: 2px solid var(--accent-gold);
+  padding-left: 12px;
+}
+
+.desireBar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(34, 197, 94, 0.08);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.desireScore {
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+  min-width: 28px;
+  text-align: right;
+  z-index: 1;
+  flex-shrink: 0;
+}
+/* ── Scrollable player list ── */
+.listWrapper {
+  flex: 1 1 0;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.listWrapper::-webkit-scrollbar { width: 4px; }
+.listWrapper::-webkit-scrollbar-track { background: transparent; }
+.listWrapper::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 2px; }
+
+/* Search input container */
+.searchWrapper {
+  position: relative;
+  flex-shrink: 0;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.searchIcon {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+  font-size: 12px;
+  pointer-events: none;
+}
+
+/* "YOUR PICK" strip at bottom */
+.userTurnBanner {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+  background: var(--accent-gold);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #09090b;
+  cursor: default;
+}
+
+/* Title row — BIG BOARD label + available count side by side */
+.titleRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.title {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  line-height: 1;
+}
+
+.availableCount {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Empty state */
+.empty {
+  padding: 24px 14px;
+  font-size: 12px;
+  color: var(--text-muted);
+  text-align: center;
+}

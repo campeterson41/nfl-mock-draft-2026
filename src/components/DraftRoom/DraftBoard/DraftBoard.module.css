@@ -1,0 +1,169 @@
+/* DraftBoard.module.css — flat sports analytics aesthetic */
+
+.board {
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.board::-webkit-scrollbar { width: 4px; }
+.board::-webkit-scrollbar-track { background: transparent; }
+.board::-webkit-scrollbar-thumb { background: var(--border-subtle); border-radius: 2px; }
+
+/* ── Round strip — no background, just label + scrollable picks ── */
+.roundStrip {
+  display: flex;
+  align-items: stretch;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.roundStrip:last-child {
+  border-bottom: none;
+}
+
+/* Round label — 32px wide, uppercase text-muted, right-aligned */
+.roundLabel {
+  flex-shrink: 0;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  border-right: 1px solid var(--border-subtle);
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  padding: 8px 0;
+}
+
+/* Horizontally scrollable pick row */
+.roundRow {
+  display: flex;
+  flex: 1;
+  overflow-x: auto;
+  gap: 0;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  cursor: grab;
+  /* Disable smooth scroll during drag so it keeps up with the mouse */
+}
+
+.roundRow::-webkit-scrollbar { display: none; }
+
+/* ── Individual pick cell — 100px × 56px ── */
+.pickCell {
+  flex-shrink: 0;
+  width: 130px;
+  min-width: 130px;
+  height: 70px;
+  padding: 6px 10px;
+  border-right: 1px solid var(--border-subtle);
+  background: var(--bg-card);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  position: relative;
+  transition: background 100ms ease;
+}
+
+.pickCell:last-child {
+  border-right: none;
+}
+
+/* Filled pick — slightly elevated */
+.filled {
+  background: var(--bg-card-hover);
+}
+
+/* Empty pick — base bg, dimmed text */
+.empty {
+  background: var(--bg-card);
+  opacity: 0.55;
+}
+
+/* Clickable (filled) */
+.clickable {
+  cursor: pointer;
+}
+
+.clickable:hover {
+  background: var(--bg-elevated) !important;
+  opacity: 1 !important;
+}
+
+.clickable:hover .playerName {
+  color: var(--accent-gold);
+}
+
+/* Current pick — 1px gold border + very faint gold glow */
+.current {
+  border: 1px solid var(--accent-gold) !important;
+  box-shadow: inset 0 0 8px rgba(212, 168, 67, 0.08);
+  background: var(--bg-card) !important;
+  opacity: 1 !important;
+}
+
+/* User team picks — 2px left border in team primary color */
+.userTeam {
+  border-left: 2px solid var(--team-color, var(--accent-gold));
+  padding-left: 6px;
+}
+
+.userTeam.empty {
+  opacity: 0.7;
+}
+
+/* ── Cell contents ── */
+.pickNum {
+  font-size: 9px;
+  font-weight: 600;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.teamAbbr {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  line-height: 1;
+}
+
+.playerName {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.2;
+  transition: color 100ms ease;
+}
+
+/* Tiny 8px position pill */
+.posBadge {
+  display: inline-block;
+  align-self: flex-start;
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 1px;
+}
+
+.emptyLabel {
+  font-size: 11px;
+  color: var(--text-muted);
+  line-height: 1;
+}

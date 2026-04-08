@@ -1,0 +1,5684 @@
+{
+  "_meta": {
+    "description": "Complete source database: 15 national analysts + 320+ beat writers across all 32 teams. All platforms tracked: Twitter, podcast RSS, YouTube, Substack, websites.",
+    "lastUpdated": "2026-04-07",
+    "totalAnalysts": 15,
+    "totalBeatWriters": 309,
+    "note": "Beat writer entries appended as research agents complete. Analysts section is final."
+  },
+  "nationalAnalysts": [
+    {
+      "id": "analyst-jeremiah",
+      "name": "Daniel Jeremiah",
+      "role": "National Analyst / Scout",
+      "outlet": "NFL Network / NFL.com",
+      "twitter": "@MoveTheSticks",
+      "podcast": {
+        "name": "NFL: Move the Sticks with Daniel Jeremiah & Bucky Brooks",
+        "rss": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/0e61fe66-e985-446f-bc46-ae27003599da/c1b3eaa8-db6b-4865-ac29-ae27003599f6/podcast.rss",
+        "spotify": "https://open.spotify.com/show/2Qz0oKIT6cy67F0hjjvMiw",
+        "apple": "https://podcasts.apple.com/us/podcast/nfl-move-the-sticks-with-daniel-jeremiah-bucky-brooks/id915544088",
+        "iheart": "https://www.iheart.com/podcast/1157-nfl-move-the-sticks-with-29925588/",
+        "transcripts": "iHeart episode pages have full auto-transcripts — fetch individual episode URLs",
+        "frequency": "Mon/Tue/Thu during draft season"
+      },
+      "youtube": "https://www.youtube.com/@NFLNetwork",
+      "substack": null,
+      "website": "https://www.nfl.com/author/daniel-jeremiah",
+      "tier": "ELITE",
+      "notes": "Former NFL scout. Publishes 3+ mock drafts per season with genuine scouting intel. One of two most-sourced analysts nationally. iHeart episode pages have FULL transcripts — best text source."
+    },
+    {
+      "id": "analyst-brugler",
+      "name": "Dane Brugler",
+      "role": "National Draft Analyst",
+      "outlet": "The Athletic",
+      "twitter": "@dpbrugler",
+      "podcast": {
+        "name": "Prospects to Pros with Dane Brugler & Lance Zierlein",
+        "rss": "https://feeds.acast.com/public/shows/6838c1c65b56407fa4adb43f",
+        "spotify": "https://open.spotify.com/show/6pPAJgAFHn5ODtDNUESJ8i",
+        "apple": "https://podcasts.apple.com/us/podcast/prospects-to-pros-with-dane-brugler-lance-zierlein/id1477652461",
+        "youtube": "https://www.youtube.com/@TAFootballShow",
+        "frequency": "Weekly Wednesdays during draft season"
+      },
+      "website": "https://theathletic.com/author/dane-brugler/",
+      "tier": "ELITE",
+      "notes": "Author of 'The Beast' — most comprehensive pre-draft guide. YouTube channel @TAFootballShow has auto-captions. Paywalled at The Athletic."
+    },
+    {
+      "id": "analyst-schrager",
+      "name": "Peter Schrager",
+      "role": "National NFL Analyst",
+      "outlet": "ESPN (left NFL Network/GMFB March 31 2025, joined ESPN April 1 2025)",
+      "twitter": "@PSchrags",
+      "podcast": {
+        "name": "The Schrager Hour",
+        "spotify": "https://open.spotify.com/show/0EgKWqqyLULGMacTjKOpnu",
+        "apple": "https://podcasts.apple.com/us/podcast/the-schrager-hour/id1835003907",
+        "frequency": "Weekly Wednesdays",
+        "notes": "Launched Sept 2025 with Peyton Manning's Omaha Productions and ESPN"
+      },
+      "youtube": "https://www.youtube.com/@ESPN",
+      "website": "https://espnpressroom.com/us/bios/peter-schrager/",
+      "tier": "ELITE",
+      "notes": "CRITICAL: Left NFL Network/Good Morning Football. Now at ESPN. Mocks 'based on what I'm hearing' — strong sourcing. MNF sideline reporter."
+    },
+    {
+      "id": "analyst-rapoport",
+      "name": "Ian Rapoport",
+      "role": "NFL Insider / Breaking News",
+      "outlet": "NFL Network / NFL.com",
+      "twitter": "@RapSheet",
+      "podcast": {
+        "name": "NFL: The Insiders",
+        "rss": "https://omny.fm/shows/nfl-the-insiders/playlists/podcast.rss",
+        "spotify": "https://open.spotify.com/show/1PwO8ajcCP9L43Nimdb38n",
+        "apple": "https://podcasts.apple.com/us/podcast/nfl-the-insiders/id1543090622",
+        "iheart": "https://www.iheart.com/podcast/1157-nfl-the-insiders-75251109/",
+        "transcripts": "iHeart episode pages have full auto-transcripts — same system as Move the Sticks",
+        "frequency": "Multiple times per week / near-daily"
+      },
+      "website": "https://www.nfl.com/network/on-air-talent/ian-rapoport-talent",
+      "tier": "ELITE",
+      "notes": "Primary breaking news reporter for NFL Network. Not a draft analyst but covers all transactions. iHeart transcripts confirmed available."
+    },
+    {
+      "id": "analyst-pelissero",
+      "name": "Tom Pelissero",
+      "role": "NFL Insider / Breaking News",
+      "outlet": "NFL Network / NFL.com",
+      "twitter": "@TomPelissero",
+      "podcast": {
+        "name": "NFL: The Insiders",
+        "rss": "https://omny.fm/shows/nfl-the-insiders/playlists/podcast.rss",
+        "spotify": "https://open.spotify.com/show/1PwO8ajcCP9L43Nimdb38n",
+        "apple": "https://podcasts.apple.com/us/podcast/nfl-the-insiders/id1543090622",
+        "iheart": "https://www.iheart.com/podcast/1157-nfl-the-insiders-75251109/"
+      },
+      "personalSite": "https://tompelissero.com/",
+      "website": "https://www.nfl.com/network/on-air-talent/tom-pelissero-talent",
+      "tier": "ELITE",
+      "notes": "Co-host of The Insiders. Regular Rich Eisen Show fill-in. Strong agent and front office contacts."
+    },
+    {
+      "id": "analyst-schefter",
+      "name": "Adam Schefter",
+      "role": "Senior NFL Insider / Breaking News",
+      "outlet": "ESPN",
+      "twitter": "@AdamSchefter",
+      "podcast": {
+        "name": "The Adam Schefter Podcast",
+        "rss": "https://feeds.megaphone.fm/ESP3620980398",
+        "spotify": "https://open.spotify.com/show/42oVKqEPuf4kFZrXCO7Oh9",
+        "apple": "https://podcasts.apple.com/us/podcast/the-adam-schefter-podcast/id1190094109",
+        "rephonic": "https://rephonic.com/podcasts/the-adam-schefter-podcast",
+        "transcripts": "Rephonic has transcripts for most (not all) episodes — search by keyword",
+        "frequency": "Weekly"
+      },
+      "website": "https://www.espn.com/contributor/adam-schefter",
+      "tier": "ELITE",
+      "notes": "ESPN's primary NFL insider. 442+ episodes. Rephonic keyword-searchable transcripts available."
+    },
+    {
+      "id": "analyst-breer",
+      "name": "Albert Breer",
+      "role": "Senior NFL Reporter / MMQB Columnist",
+      "outlet": "Sports Illustrated / The MMQB",
+      "twitter": "@AlbertBreer",
+      "podcast": {
+        "name": "The Albert Breer Show",
+        "rss": "https://feeds.megaphone.fm/CAD9245580015",
+        "spotify": "https://open.spotify.com/show/4JnkpLZxyTXom1MgyzVEBI",
+        "apple": "https://podcasts.apple.com/us/podcast/the-albert-breer-show/id1150965112",
+        "iheart": "https://www.iheart.com/podcast/274-the-albert-breer-show-27926512/",
+        "frequency": "Weekly"
+      },
+      "newsletter": {
+        "name": "Monday Morning Quarterback (MMQB)",
+        "url": "https://www.si.com/author/albert-breer"
+      },
+      "website": "https://www.si.com/author/albert-breer",
+      "tier": "ELITE",
+      "notes": "Runs MMQB franchise at SI. Weekly column. Strong front office sourcing. Boston radio regular (Toucher & Hardy, 98.5 The Sports Hub)."
+    },
+    {
+      "id": "analyst-mcshay",
+      "name": "Todd McShay",
+      "role": "National Draft Analyst",
+      "outlet": "The Ringer (left ESPN 2023)",
+      "twitter": "@McShay13",
+      "podcast": {
+        "name": "The McShay Show",
+        "rss": "https://feeds.megaphone.fm/todd-mcshay",
+        "spotify": "https://open.spotify.com/show/6b22qPe8Q4uV8YB9QbKuEr",
+        "apple": "https://podcasts.apple.com/us/podcast/the-mcshay-show/id1775492884",
+        "iheart": "https://www.iheart.com/podcast/1333-the-mcshay-show-230233640/",
+        "youtube": "https://www.youtube.com/@TheRinger",
+        "frequency": "3x per week Mon/Wed/Fri"
+      },
+      "newsletter": {
+        "name": "The McShay Report",
+        "url": "https://www.theringer.com/2025/02/20/nfl-draft/todd-mcshay-nfl-mock-draft-newsletter-subscribe"
+      },
+      "website": "https://www.theringer.com/creator/todd-mcshay",
+      "tier": "ELITE",
+      "notes": "CRITICAL: Now at The Ringer, NOT ESPN. Launched Oct 2024. Has Big Board database and newsletter at The Ringer."
+    },
+    {
+      "id": "analyst-campbell",
+      "name": "Charlie Campbell",
+      "role": "National Draft Analyst",
+      "outlet": "WalterFootball.com",
+      "twitter": "@DraftCampbell",
+      "podcast": {
+        "name": "WalterFootball Podcast",
+        "rss": "https://walterfootball.libsyn.com/rss",
+        "apple": "https://podcasts.apple.com/us/podcast/walterfootball-podcast/id1038951404",
+        "frequency": "Sporadic, draft-season focused"
+      },
+      "keyPages": {
+        "rumors": "https://walterfootball.com/NFLRumorsTeamDraft2026.php",
+        "mockR1a": "https://walterfootball.com/draft2026charlie.php",
+        "mockR1b": "https://walterfootball.com/draft2026charlie_1.php",
+        "mockR2": "https://walterfootball.com/draft2026charlie_2.php",
+        "fullMock": "https://walterfootball.com/draft2026.php"
+      },
+      "website": "https://walterfootball.com",
+      "tier": "HIGH",
+      "notes": "Led all NFL media for mock draft accuracy 2024, 2022, 2019, 2017. ALL CONTENT IS TEXT — no transcripts needed, just scrape pages directly. Independent site, no paywall."
+    },
+    {
+      "id": "analyst-zierlein",
+      "name": "Lance Zierlein",
+      "role": "National Draft Analyst / Radio Host",
+      "outlet": "NFL.com / NFL Network",
+      "twitter": "@LanceZierlein",
+      "podcast": {
+        "name": "Prospects to Pros with Dane Brugler & Lance Zierlein",
+        "rss": "https://feeds.acast.com/public/shows/6838c1c65b56407fa4adb43f",
+        "spotify": "https://open.spotify.com/show/6pPAJgAFHn5ODtDNUESJ8i",
+        "apple": "https://podcasts.apple.com/us/podcast/prospects-to-pros-with-dane-brugler-lance-zierlein/id1477652461"
+      },
+      "radio": {
+        "show": "The Bench",
+        "station": "ESPN 97.5 Houston",
+        "notes": "Morning drive co-host. Texas Radio Hall of Fame 2024."
+      },
+      "website": "https://www.nfl.com/author/lance-zierlein-0ap3000000458453",
+      "tier": "HIGH",
+      "notes": "NFL.com analyst since 2014. Writes 500+ prospect profiles per season. Fills in on Move the Sticks regularly."
+    },
+    {
+      "id": "analyst-shook",
+      "name": "Nick Shook",
+      "role": "NFL Draft Writer",
+      "outlet": "NFL.com / NFL Network",
+      "twitter": "@TheNickShook",
+      "bluesky": "@thenickshook.bsky.social",
+      "podcast": {
+        "name": "NFL Daily with Gregg Rosenthal (regular panelist)",
+        "notes": "No dedicated solo podcast"
+      },
+      "website": "https://www.nfl.com/author/nick-shook-0ap3000000923713",
+      "personalSite": "https://bynickshook.com/",
+      "tier": "MID",
+      "notes": "NFL.com writer since 2014. Publishes mock drafts. Around the NFL contributor."
+    },
+    {
+      "id": "analyst-cdavis",
+      "name": "Charles Davis",
+      "role": "NFL Draft Analyst / Game Analyst",
+      "outlet": "NFL Network / NFL on CBS (transitioning to CBS lead CFB analyst 2026)",
+      "twitter": "@charl3s13",
+      "podcast": {
+        "notes": "No dedicated podcast. Regular guest on team podcasts."
+      },
+      "website": "https://www.nfl.com/network/on-air-talent/charles-davis",
+      "tier": "HIGH",
+      "notes": "NFL Media analyst since 2006. Publishes mock drafts on NFL.com. Transitioning to CBS lead college football role in 2026."
+    },
+    {
+      "id": "analyst-mmiller",
+      "name": "Matt Miller",
+      "role": "NFL Draft Analyst",
+      "outlet": "ESPN",
+      "twitter": "@nfldraftscout",
+      "substack": {
+        "name": "The Draft Scout",
+        "url": "https://www.thedraftscout.com/",
+        "profile": "https://substack.com/@mattmiller",
+        "notes": "Independent newsletter ALONGSIDE ESPN role — rare. News, rankings, mock drafts."
+      },
+      "website": "https://espnpressroom.com/us/bios/matt-miller/",
+      "tier": "HIGH",
+      "notes": "Joined ESPN 2021. Formerly Bleacher Report lead draft writer 2010-2021. Has independent Substack thedraftscout.com — most accessible free content. Top 600 rankings published annually."
+    },
+    {
+      "id": "analyst-jreid",
+      "name": "Jordan Reid",
+      "role": "NFL Draft Analyst",
+      "outlet": "ESPN",
+      "twitter": "@Jordan_Reid",
+      "podcast": {
+        "notes": "No dedicated podcast. Guest on team/regional shows."
+      },
+      "website": "https://espnpressroom.com/us/bios/jordan-reid/",
+      "tier": "HIGH",
+      "notes": "Re-signed ESPN multi-year deal Jan 2025. Former football coach (NCCU). Publishes top 350 rankings and 7-round mocks on ESPN.com/ESPN+."
+    },
+    {
+      "id": "analyst-prisco",
+      "name": "Pete Prisco",
+      "role": "Senior NFL Writer / Analyst",
+      "outlet": "CBS Sports",
+      "twitter": "@PriscoCBS",
+      "podcast": {
+        "name": "Pick Six NFL Podcast / Pushing the Pile (regular contributor)",
+        "rss": "https://feeds.megaphone.fm/picksix",
+        "spotify": "https://open.spotify.com/show/2RFkEgdbFxbPBDU5F5xEjJ",
+        "apple": "https://podcasts.apple.com/us/podcast/pushing-the-pile-a-cbs-sports-nfl-podcast/id1263289980",
+        "notes": "Regular contributor, not primary host. Daily during NFL season."
+      },
+      "website": "https://www.cbssports.com/writers/pete-prisco/",
+      "tier": "HIGH",
+      "notes": "30+ year NFL veteran. Multiple mock drafts per season on CBS Sports. CBS Sports HQ contributor."
+    }
+  ],
+  "beatWriters": [
+    {
+      "id": "bw-atl-ledbetter",
+      "name": "D. Orlando Ledbetter",
+      "team": "ATL",
+      "outlet": "Atlanta Journal-Constitution",
+      "twitter": "@DOrlandoAJC",
+      "podcast": {
+        "name": "Bow Tie Chronicles",
+        "platforms": [
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "ajc.com",
+      "tier": "HIGH",
+      "notes": "Longest-tenured Falcons beat writer. Bill Nunn Jr. Award winner 2024."
+    },
+    {
+      "id": "bw-atl-kendall",
+      "name": "Josh Kendall",
+      "team": "ATL",
+      "outlet": "The Athletic",
+      "twitter": "@JoshTheAthletic",
+      "podcast": null,
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "HIGH",
+      "notes": "Primary Falcons beat for The Athletic."
+    },
+    {
+      "id": "bw-atl-butt",
+      "name": "Jason Butt",
+      "team": "ATL",
+      "outlet": "The Athletic",
+      "twitter": "@JasonHButt",
+      "podcast": {
+        "name": "Guest on various ATL radio",
+        "platforms": []
+      },
+      "substack": "Active (Muck Rack confirmed)",
+      "website": "theathletic.com",
+      "tier": "HIGH",
+      "notes": "Also contributes to Washington Post and Substack."
+    },
+    {
+      "id": "bw-atl-raimondi",
+      "name": "Marc Raimondi",
+      "team": "ATL",
+      "outlet": "ESPN",
+      "twitter": "@marcraimondi",
+      "podcast": null,
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "ESPN's current primary Falcons beat reporter since 2024."
+    },
+    {
+      "id": "bw-atl-mcelhaney",
+      "name": "Tori McElhaney",
+      "team": "ATL",
+      "outlet": "Falcons.com",
+      "twitter": "@tori_mcelhaney",
+      "podcast": {
+        "name": "Rise Up Tonight (Fox 5 Atlanta)",
+        "platforms": [
+          "Fox 5"
+        ]
+      },
+      "substack": null,
+      "website": "atlantafalcons.com",
+      "tier": "MEDIUM",
+      "notes": "Team-side. Co-hosts Rise Up Tonight."
+    },
+    {
+      "id": "bw-atl-bair",
+      "name": "Scott Bair",
+      "team": "ATL",
+      "outlet": "Falcons.com",
+      "twitter": "@ScottBairNFL",
+      "podcast": {
+        "name": "FalconCast (Falcons.com)",
+        "platforms": [
+          "Falcons.com",
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "atlantafalcons.com",
+      "tier": "MEDIUM",
+      "notes": "15+ years NFL coverage. Formerly NBC Sports Bay Area."
+    },
+    {
+      "id": "bw-atl-klein",
+      "name": "Zach Klein",
+      "team": "ATL",
+      "outlet": "WSB-TV Channel 2 Atlanta",
+      "twitter": "@ZachKleinWSB",
+      "podcast": null,
+      "youtube": "WSB-TV sports",
+      "substack": null,
+      "website": "wsbtv.com",
+      "tier": "MEDIUM",
+      "notes": "Sports Director WSB-TV. Multiple Emmy winner. GA Sportscaster of the Year."
+    },
+    {
+      "id": "bw-atl-rothstein",
+      "name": "Michael Rothstein",
+      "team": "ATL",
+      "outlet": "ESPN",
+      "twitter": "@mikerothstein",
+      "podcast": null,
+      "substack": null,
+      "website": "espn.com",
+      "tier": "MEDIUM",
+      "notes": "Former primary ESPN Falcons beat; now broader NFL role."
+    },
+    {
+      "id": "bw-atl-freeman",
+      "name": "Aaron Freeman",
+      "team": "ATL",
+      "outlet": "Locked On Podcast Network",
+      "twitter": "@lockedonfalcons",
+      "podcast": {
+        "name": "Locked On Falcons",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "iHeart",
+          "Amazon"
+        ]
+      },
+      "youtube": "Locked On Falcons",
+      "substack": null,
+      "website": "lockedonpodcasts.com",
+      "tier": "MEDIUM",
+      "notes": "Daily Mon-Fri Falcons content. Founded Falcfans.com 2002-2019."
+    },
+    {
+      "id": "bw-atl-adams",
+      "name": "Jay Adams",
+      "team": "ATL",
+      "outlet": "Falcons.com",
+      "twitter": null,
+      "podcast": null,
+      "substack": null,
+      "website": "atlantafalcons.com",
+      "tier": "LOW",
+      "notes": "Team digital/social content creator."
+    },
+    {
+      "id": "bw-car-person",
+      "name": "Joseph Person",
+      "team": "CAR",
+      "outlet": "The Athletic",
+      "twitter": "@josephperson",
+      "podcast": {
+        "name": "Guest on WFNZ Mac & Bone",
+        "platforms": []
+      },
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "HIGH",
+      "notes": "Primary Panthers beat for The Athletic. Deep sourcing in Panthers org."
+    },
+    {
+      "id": "bw-car-jones",
+      "name": "Jonathan Jones",
+      "team": "CAR",
+      "outlet": "CBS Sports",
+      "twitter": "@jjones9",
+      "podcast": {
+        "name": "Pick Six Podcast",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "CBSSports.com"
+        ]
+      },
+      "youtube": "CBS Sports",
+      "substack": null,
+      "website": "cbssports.com",
+      "tier": "HIGH",
+      "notes": "Former Panthers beat (Charlotte Observer 2012-16), now CBS Sports lead NFL Insider."
+    },
+    {
+      "id": "bw-car-newton",
+      "name": "David Newton",
+      "team": "CAR",
+      "outlet": "ESPN",
+      "twitter": "@DNewtonespn",
+      "podcast": {
+        "name": "ESPN radio guest",
+        "platforms": [
+          "ESPN Radio"
+        ]
+      },
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "ESPN Panthers NFL Nation reporter since 2013. 7+ Super Bowls."
+    },
+    {
+      "id": "bw-car-kaye",
+      "name": "Mike Kaye",
+      "team": "CAR",
+      "outlet": "Charlotte Observer",
+      "twitter": "@mike_e_kaye",
+      "podcast": {
+        "name": "Processing Blue: A Panthers Podcast",
+        "platforms": [
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "charlotteobserver.com",
+      "tier": "HIGH",
+      "notes": "Co-hosts Processing Blue with Alex Zietlow. WFNZ regular."
+    },
+    {
+      "id": "bw-car-zietlow",
+      "name": "Alex Zietlow",
+      "team": "CAR",
+      "outlet": "Charlotte Observer",
+      "twitter": "@alexzietlow05",
+      "podcast": {
+        "name": "Processing Blue: A Panthers Podcast",
+        "platforms": [
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "charlotteobserver.com",
+      "tier": "MEDIUM",
+      "notes": "Co-hosts Processing Blue. NC/SC Press Association honoree."
+    },
+    {
+      "id": "bw-car-gantt",
+      "name": "Darin Gantt",
+      "team": "CAR",
+      "outlet": "Panthers.com / ProFootballTalk",
+      "twitter": "@daringantt",
+      "podcast": {
+        "name": "Happy Half Hour (Panthers.com)",
+        "platforms": [
+          "Panthers.com",
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "panthers.com",
+      "tier": "MEDIUM",
+      "notes": "Team-side senior writer. Also contributes to PFT/NBC Sports."
+    },
+    {
+      "id": "bw-car-reed",
+      "name": "Steve Reed",
+      "team": "CAR",
+      "outlet": "Associated Press",
+      "twitter": "@SteveReedAP",
+      "podcast": null,
+      "substack": null,
+      "website": "apnews.com",
+      "tier": "MEDIUM",
+      "notes": "AP wire service coverage of Panthers, Hornets, NASCAR."
+    },
+    {
+      "id": "bw-car-fowler",
+      "name": "Scott Fowler",
+      "team": "CAR",
+      "outlet": "Charlotte Observer",
+      "twitter": "@scott_fowler",
+      "podcast": null,
+      "substack": null,
+      "website": "charlotteobserver.com",
+      "tier": "MEDIUM",
+      "notes": "Columnist since 1994. Covered Panthers since 1995 inception. 24x APSE winner."
+    },
+    {
+      "id": "bw-car-council",
+      "name": "Julian Council",
+      "team": "CAR",
+      "outlet": "Locked On Podcast Network",
+      "twitter": "@JulianCouncil",
+      "podcast": {
+        "name": "Locked On Panthers",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "iHeart",
+          "Amazon"
+        ]
+      },
+      "youtube": "Locked On Panthers",
+      "substack": null,
+      "website": "lockedonpodcasts.com",
+      "tier": "MEDIUM",
+      "notes": "Charlotte native. Daily Panthers coverage Mon-Fri."
+    },
+    {
+      "id": "bw-car-henson",
+      "name": "Max Henson",
+      "team": "CAR",
+      "outlet": "Panthers.com",
+      "twitter": "@panthersmax",
+      "podcast": null,
+      "substack": null,
+      "website": "panthers.com",
+      "tier": "MEDIUM",
+      "notes": "Team-side digital content writer."
+    },
+    {
+      "id": "bw-car-simmons",
+      "name": "Myles Simmons",
+      "team": "CAR",
+      "outlet": "ProFootballTalk / NBC Sports",
+      "twitter": "@MylesASimmons",
+      "podcast": null,
+      "substack": null,
+      "website": "profootballtalk.nbcsports.com",
+      "tier": "MEDIUM",
+      "notes": "10 seasons covering NFL. Former Panthers.com senior writer."
+    },
+    {
+      "id": "bw-car-quick",
+      "name": "Sheena Quick",
+      "team": "CAR",
+      "outlet": "1340 AM Fox Sports Charlotte",
+      "twitter": "@Sheena_Marie3",
+      "podcast": null,
+      "substack": null,
+      "website": "1340amfoxsports.com",
+      "tier": "MEDIUM",
+      "notes": "Panthers beat writer. PFWA member."
+    },
+    {
+      "id": "bw-no-underhill",
+      "name": "Nick Underhill",
+      "team": "NO",
+      "outlet": "NewOrleans.Football",
+      "twitter": "@nick_underhill",
+      "podcast": {
+        "name": "NewOrleans.Football Saints Podcast",
+        "rss": "https://feeds.buzzsprout.com/883798.rss",
+        "apple": "https://podcasts.apple.com/us/podcast/neworleans-football-saints-podcast/id1153789570",
+        "spotify": "https://open.spotify.com/show/0Wo9SBEiHBthHmMJTvS2x7",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "iHeart",
+          "Blue Wire"
+        ]
+      },
+      "substack": null,
+      "website": "neworleans.football",
+      "tier": "HIGH",
+      "notes": "Founded NewOrleans.Football Feb 2020. Independent subscription site. THE Saints insider."
+    },
+    {
+      "id": "bw-no-terrell",
+      "name": "Katherine Terrell",
+      "team": "NO",
+      "outlet": "ESPN",
+      "twitter": "@Kat_Terrell",
+      "podcast": {
+        "name": "Guest on Saints.com podcast and ESPN platforms",
+        "platforms": [
+          "ESPN Radio"
+        ]
+      },
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "ESPN Saints NFL Nation reporter. Formerly The Athletic and Times-Picayune."
+    },
+    {
+      "id": "bw-no-triplett",
+      "name": "Mike Triplett",
+      "team": "NO",
+      "outlet": "NewOrleans.Football",
+      "twitter": "@MikeTriplett",
+      "podcast": {
+        "name": "NewOrleans.Football Saints Podcast (contributor)",
+        "platforms": [
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "neworleans.football",
+      "tier": "HIGH",
+      "notes": "Joined NewOrleans.Football after 9 years at ESPN. Deep Saints institutional knowledge."
+    },
+    {
+      "id": "bw-no-duncan",
+      "name": "Jeff Duncan",
+      "team": "NO",
+      "outlet": "Times-Picayune / NOLA.com",
+      "twitter": "@JeffDuncan_",
+      "podcast": {
+        "name": "Saints Insider Podcast",
+        "platforms": [
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "nola.com",
+      "tier": "HIGH",
+      "notes": "24+ years covering Saints. Times-Picayune columnist and WVUE-TV analyst."
+    },
+    {
+      "id": "bw-no-just",
+      "name": "Amie Just",
+      "team": "NO",
+      "outlet": "Times-Picayune / The New Orleans Advocate",
+      "twitter": "@Amie_Just",
+      "podcast": {
+        "name": "Saints Insider Podcast (contributor)",
+        "platforms": [
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "nola.com",
+      "tier": "HIGH",
+      "notes": "Saints beat since 2019. PFWA member. Personal site: amiejust.com."
+    },
+    {
+      "id": "bw-no-johnson",
+      "name": "Luke Johnson",
+      "team": "NO",
+      "outlet": "Times-Picayune / The New Orleans Advocate",
+      "twitter": "@ByLukeJohnson",
+      "podcast": {
+        "name": "Saints Insider Podcast (contributor)",
+        "platforms": [
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "nola.com",
+      "tier": "HIGH",
+      "notes": "2025 PFWA pool reporter for Saints. U.S. Marine veteran."
+    },
+    {
+      "id": "bw-no-walker",
+      "name": "Rod Walker",
+      "team": "NO",
+      "outlet": "Times-Picayune / NOLA.com",
+      "twitter": "@RodWalkerNola",
+      "podcast": null,
+      "substack": null,
+      "website": "nola.com",
+      "tier": "MEDIUM",
+      "notes": "Sports columnist covering Saints and Pelicans."
+    },
+    {
+      "id": "bw-no-deshazier",
+      "name": "John DeShazier",
+      "team": "NO",
+      "outlet": "NewOrleansSaints.com",
+      "twitter": "@JohnDeShazier",
+      "podcast": {
+        "name": "New Orleans Saints Podcast (official host)",
+        "apple": "https://podcasts.apple.com/us/podcast/new-orleans-saints-podcast/id1",
+        "platforms": [
+          "Saints.com",
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "neworleanssaints.com",
+      "tier": "MEDIUM",
+      "notes": "Senior Digital Media Contributor for Saints.com. Hosts official Saints podcast."
+    },
+    {
+      "id": "bw-no-jackson",
+      "name": "Ross Jackson",
+      "team": "NO",
+      "outlet": "Locked On Podcast Network / WWLTV",
+      "twitter": "@RossJacksonNOLA",
+      "podcast": {
+        "name": "Locked On Saints",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "iHeart",
+          "Amazon"
+        ]
+      },
+      "youtube": "Locked On Saints",
+      "substack": null,
+      "website": "lockedonpodcasts.com",
+      "tier": "MEDIUM",
+      "notes": "Host of Locked On Saints since 2018. Saints analyst at WWLTV. Credentialed beat writer."
+    },
+    {
+      "id": "bw-no-holder",
+      "name": "Larry Holder",
+      "team": "NO",
+      "outlet": "The Athletic (now sports collectibles beat)",
+      "twitter": "@LarryHolder",
+      "podcast": null,
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "LOW",
+      "notes": "Covered Saints 19 seasons. Now covers sports memorabilia at The Athletic."
+    },
+    {
+      "id": "bw-tb-stroud",
+      "name": "Rick Stroud",
+      "team": "TB",
+      "outlet": "Tampa Bay Times",
+      "twitter": "@NFLSTROUD",
+      "podcast": {
+        "name": "Sports Day Tampa Bay",
+        "apple": "https://podcasts.apple.com/us/podcast/sports-day-tampa-bay/id1286550671",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Acast"
+        ]
+      },
+      "substack": null,
+      "website": "tampabay.com",
+      "tier": "HIGH",
+      "notes": "Primary Bucs beat writer. Daily morning podcast. Often first to news from One Buc Place."
+    },
+    {
+      "id": "bw-tb-auman",
+      "name": "Greg Auman",
+      "team": "TB",
+      "outlet": "FOX Sports",
+      "twitter": "@gregauman",
+      "podcast": {
+        "name": "Guest on Pewter Report Podcast regularly",
+        "platforms": [
+          "Pewter Report"
+        ]
+      },
+      "substack": null,
+      "website": "foxsports.com",
+      "tier": "HIGH",
+      "notes": "Former Bucs beat for The Athletic; now FOX Sports NFC South insider."
+    },
+    {
+      "id": "bw-tb-reynolds",
+      "name": "Scott Reynolds",
+      "team": "TB",
+      "outlet": "Pewter Report",
+      "twitter": "@PewterReport",
+      "podcast": {
+        "name": "Pewter Report Podcast",
+        "apple": "https://podcasts.apple.com/mz/podcast/pewter-report-podcast/id1216727537",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "iHeart",
+          "YouTube",
+          "X livestream"
+        ],
+        "frequency": "4x/week Mon-Thu + postgame"
+      },
+      "youtube": "PewterReportTV",
+      "substack": null,
+      "website": "pewterreport.com",
+      "tier": "HIGH",
+      "notes": "30+ years covering Buccaneers. Publisher and VP. Streams live on YouTube and X."
+    },
+    {
+      "id": "bw-tb-sikkema",
+      "name": "Trevor Sikkema",
+      "team": "TB",
+      "outlet": "Pro Football Focus",
+      "twitter": "@TampaBayTre",
+      "podcast": {
+        "name": "PFF NFL Stock Exchange",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "PFF website"
+        ]
+      },
+      "youtube": "PFF YouTube",
+      "substack": null,
+      "website": "pff.com",
+      "tier": "HIGH",
+      "notes": "Tampa native. Lead PFF NFL Draft analyst. Deep Bucs analytical coverage. Regular Pewter Report guest."
+    },
+    {
+      "id": "bw-tb-dix",
+      "name": "Brianna Dix",
+      "team": "TB",
+      "outlet": "Buccaneers.com",
+      "twitter": "@briannadixNFL",
+      "podcast": null,
+      "substack": null,
+      "website": "buccaneers.com",
+      "tier": "MEDIUM",
+      "notes": "Buccaneers.com staff writer. 'Behind the Buccaneers' longform series."
+    },
+    {
+      "id": "bw-tb-allen",
+      "name": "JC Allen",
+      "team": "TB",
+      "outlet": "Sports Illustrated / AllBucs",
+      "twitter": "@JCAllenNFL",
+      "podcast": null,
+      "substack": null,
+      "website": "si.com/nfl/buccaneers",
+      "tier": "MEDIUM",
+      "notes": "Credentialed since 2020. VP PFWA Tampa Chapter."
+    },
+    {
+      "id": "bw-tb-goodall",
+      "name": "Zach Goodall",
+      "team": "TB",
+      "outlet": "Sports Illustrated / AllBucs.com",
+      "twitter": "@zach_goodall",
+      "podcast": null,
+      "substack": null,
+      "website": "si.com/nfl/buccaneers",
+      "tier": "MEDIUM",
+      "notes": "Publisher of SI FanNation AllBucs.com."
+    },
+    {
+      "id": "bw-tb-vitali",
+      "name": "Carmen Vitali",
+      "team": "TB",
+      "outlet": "FOX Sports (now NFC North)",
+      "twitter": "@CarmieV",
+      "podcast": null,
+      "substack": null,
+      "website": "foxsports.com",
+      "tier": "MEDIUM",
+      "notes": "Spent 6 seasons at Buccaneers.com (Super Bowl LV). Now FOX Sports NFC North."
+    },
+    {
+      "id": "bw-tb-cummings",
+      "name": "Roy Cummings",
+      "team": "TB",
+      "outlet": "PewterPirates.com",
+      "twitter": "@RCummingsFHCN",
+      "podcast": null,
+      "substack": null,
+      "website": "pewterpirates.com",
+      "tier": "MEDIUM",
+      "notes": "Buccaneers Insider. Former Tampa Tribune Bucs beat writer."
+    },
+    {
+      "id": "bw-tb-bassinger",
+      "name": "Thomas Bassinger",
+      "team": "TB",
+      "outlet": "Tampa Bay Times",
+      "twitter": null,
+      "podcast": null,
+      "substack": null,
+      "website": "tampabay.com",
+      "tier": "LOW",
+      "notes": "Tampa Bay Times Bucs data reporter."
+    },
+    {
+      "id": "bw-ari-urban",
+      "name": "Darren Urban",
+      "team": "ARI",
+      "outlet": "AZCardinals.com",
+      "twitter": "@Cardschatter",
+      "podcast": {
+        "name": "Arizona Cardinals Podcast / Red Sea Report / Cardinals Cover 2",
+        "platforms": [
+          "Cardinals.com",
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "azcardinals.com",
+      "tier": "HIGH",
+      "notes": "27th season covering Cardinals. Emmy winner. Most prolific Cardinals team-side reporter."
+    },
+    {
+      "id": "bw-ari-mcmanaman",
+      "name": "Bob McManaman",
+      "team": "ARI",
+      "outlet": "Arizona Republic / AZCentral",
+      "twitter": "@azbobbymac",
+      "podcast": null,
+      "substack": null,
+      "website": "azcentral.com",
+      "tier": "HIGH",
+      "notes": "50+ years at Arizona Republic. Now sports columnist + Cardinals beat."
+    },
+    {
+      "id": "bw-ari-mackie",
+      "name": "Theo Mackie",
+      "team": "ARI",
+      "outlet": "Arizona Republic / AZCentral",
+      "twitter": "@theo_mackie",
+      "podcast": null,
+      "substack": null,
+      "website": "azcentral.com",
+      "tier": "HIGH",
+      "notes": "Current Republic beat star. Known for aggressive press conference questioning of Cardinals brass."
+    },
+    {
+      "id": "bw-ari-weinfuss",
+      "name": "Josh Weinfuss",
+      "team": "ARI",
+      "outlet": "ESPN",
+      "twitter": "@jweinfuss",
+      "podcast": {
+        "name": "ESPN radio and Arizona Sports 98.7 guest",
+        "platforms": [
+          "ESPN Radio",
+          "Arizona Sports 98.7"
+        ]
+      },
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "ESPN Cardinals NFL Nation since Sept 2013. Award-winning. Regular on SportsCenter and NFL Live."
+    },
+    {
+      "id": "bw-ari-drake",
+      "name": "Tyler Drake",
+      "team": "ARI",
+      "outlet": "Arizona Sports 98.7",
+      "twitter": "@Tdrake4sports",
+      "podcast": {
+        "name": "Cardinals Corner",
+        "apple": "https://podcasts.apple.com/us/podcast/cardinals-corner",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "ArizonaSports.com"
+        ]
+      },
+      "substack": null,
+      "website": "arizonasports.com",
+      "tier": "HIGH",
+      "notes": "Cardinals beat reporter and editor. Co-host Cardinals Corner podcast. Full-time beat since 2021."
+    },
+    {
+      "id": "bw-ari-brack",
+      "name": "Bo Brack",
+      "team": "ARI",
+      "outlet": "PHNX Sports",
+      "twitter": "@BoBrack",
+      "podcast": {
+        "name": "PHNX Arizona Cardinals Podcast",
+        "apple": "https://podcasts.apple.com/ca/podcast/phnx-arizona-cardinals-podcast/id1584495230",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "iHeart",
+          "PHNX app"
+        ],
+        "frequency": "5 days/week"
+      },
+      "youtube": "PHNX Sports",
+      "substack": null,
+      "website": "gophnx.com",
+      "tier": "HIGH",
+      "notes": "Credentialed Cardinals reporter. Daily podcast co-host."
+    },
+    {
+      "id": "bw-ari-balzer",
+      "name": "Howard Balzer",
+      "team": "ARI",
+      "outlet": "PHNX Sports",
+      "twitter": "@HBalzer721",
+      "podcast": {
+        "name": "PHNX Cardinals Podcast (contributor)",
+        "platforms": [
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "gophnx.com",
+      "tier": "MEDIUM",
+      "notes": "47+ years covering professional football. 41 Super Bowls. Now at PHNX Sports."
+    },
+    {
+      "id": "bw-ari-odegard",
+      "name": "Kyle Odegard",
+      "team": "ARI",
+      "outlet": "AZCardinals.com",
+      "twitter": "@Kyle_Odegard",
+      "podcast": null,
+      "substack": null,
+      "website": "azcardinals.com",
+      "tier": "MEDIUM",
+      "notes": "Covered Cardinals since 2013. Team-side beat writer."
+    },
+    {
+      "id": "bw-ari-root",
+      "name": "Jess Root",
+      "team": "ARI",
+      "outlet": "Cards Wire (USA Today)",
+      "twitter": "@senorjessroot",
+      "podcast": {
+        "name": "The Cards Wire Podcast: Rise Up, See Red",
+        "platforms": [
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "cardswire.usatoday.com",
+      "tier": "MEDIUM",
+      "notes": "Site Editor Cards Wire. Covered Cardinals since 2010. Credentialed since 2012."
+    },
+    {
+      "id": "bw-ari-grialou",
+      "name": "Craig Grialou",
+      "team": "ARI",
+      "outlet": "AZCardinals.com",
+      "twitter": "@CraigAZSports",
+      "podcast": {
+        "name": "Cardinals Cover 2 (Cardinals.com official)",
+        "platforms": [
+          "Cardinals.com",
+          "Apple"
+        ]
+      },
+      "substack": null,
+      "website": "azcardinals.com",
+      "tier": "MEDIUM",
+      "notes": "Team-side digital correspondent. Works with Paul Calvisi."
+    },
+    {
+      "id": "bw-ari-calvisi",
+      "name": "Paul Calvisi",
+      "team": "ARI",
+      "outlet": "AZCardinals.com",
+      "twitter": "@PaulCalvisi",
+      "podcast": {
+        "name": "Cardinals Cover 2 (Cardinals.com official)",
+        "platforms": [
+          "Cardinals.com",
+          "Apple"
+        ]
+      },
+      "substack": null,
+      "website": "azcardinals.com",
+      "tier": "MEDIUM",
+      "notes": "Team-side reporter and podcast host."
+    },
+    {
+      "id": "bw-ari-somers",
+      "name": "Kent Somers",
+      "team": "ARI",
+      "outlet": "Retired (Arizona Republic)",
+      "twitter": "@kentsomers",
+      "podcast": null,
+      "substack": null,
+      "website": "azcentral.com",
+      "tier": "LOW",
+      "notes": "41-year career at Arizona Republic. Retired Feb 2023 after Super Bowl LVII. Historical value."
+    },
+    {
+      "id": "bw-lar-rodrigue",
+      "name": "Jourdan Rodrigue",
+      "team": "LAR",
+      "outlet": "The Athletic",
+      "twitter": "@JourdanRodrigue",
+      "podcast": {
+        "name": "11 Personnel: A Show About the Los Angeles Rams",
+        "apple": "https://podcasts.apple.com/us/podcast/11-personnel-a-show-about-the-los-angeles-rams/id1477535034",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Amazon",
+          "TuneIn"
+        ]
+      },
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "HIGH",
+      "notes": "One of the best Rams beat writers. Creator of longform projects. PFWA recognition."
+    },
+    {
+      "id": "bw-lar-hammond",
+      "name": "Rich Hammond",
+      "team": "LAR",
+      "outlet": "The Athletic",
+      "twitter": "@Rich_Hammond",
+      "podcast": {
+        "name": "11 Personnel: A Show About the Los Angeles Rams",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Amazon"
+        ]
+      },
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "MEDIUM",
+      "notes": "Senior Editor at The Athletic. Co-hosts 11 Personnel Rams podcast."
+    },
+    {
+      "id": "bw-lar-klein",
+      "name": "Gary Klein",
+      "team": "LAR",
+      "outlet": "Los Angeles Times",
+      "twitter": "@LATimesklein",
+      "podcast": null,
+      "substack": null,
+      "website": "latimes.com",
+      "tier": "HIGH",
+      "notes": "LA Times Rams beat since 2016. In-stadium source for gameday information."
+    },
+    {
+      "id": "bw-lar-grosbard",
+      "name": "Adam Grosbard",
+      "team": "LAR",
+      "outlet": "Southern California News Group (OC Register / LA Daily News)",
+      "twitter": "@AdamGrosbard",
+      "podcast": null,
+      "substack": null,
+      "website": "ocregister.com",
+      "tier": "HIGH",
+      "notes": "2024 PFWA Bob Oates Beat Reporting Award winner. Primary Rams beat for SoCal News Group."
+    },
+    {
+      "id": "bw-lar-thiry",
+      "name": "Lindsey Thiry",
+      "team": "LAR",
+      "outlet": "ESPN",
+      "twitter": "@LindseyThiry",
+      "podcast": null,
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "ESPN NFL Nation Rams reporter since 2018. Regular SportsCenter and NFL Live."
+    },
+    {
+      "id": "bw-lar-dasilva",
+      "name": "Cameron DaSilva",
+      "team": "LAR",
+      "outlet": "Rams Wire (USA Today)",
+      "twitter": "@camdasilva",
+      "podcast": null,
+      "substack": null,
+      "website": "ramswire.usatoday.com",
+      "tier": "HIGH",
+      "notes": "Managing Editor Rams Wire. Manager of Content Strategy for NFL Wires at USA Today."
+    },
+    {
+      "id": "bw-lar-jackson",
+      "name": "Stu Jackson",
+      "team": "LAR",
+      "outlet": "Rams.com",
+      "twitter": "@StuJRams",
+      "podcast": {
+        "name": "Rams Talk (Rams.com official)",
+        "platforms": [
+          "Rams.com",
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "youtube": "Rams official",
+      "substack": null,
+      "website": "therams.com",
+      "tier": "MEDIUM",
+      "notes": "Team-side senior reporter."
+    },
+    {
+      "id": "bw-lar-beacham",
+      "name": "Greg Beacham",
+      "team": "LAR",
+      "outlet": "Associated Press",
+      "twitter": "@gregbeacham",
+      "podcast": null,
+      "substack": null,
+      "website": "apnews.com",
+      "tier": "MEDIUM",
+      "notes": "AP reporter covering Rams, Lakers, USC, LAFC/Galaxy, boxing. Wire service."
+    },
+    {
+      "id": "bw-lar-miller",
+      "name": "Jeff Miller",
+      "team": "LAR",
+      "outlet": "Los Angeles Times",
+      "twitter": "@JeffMillerLAT",
+      "podcast": null,
+      "substack": null,
+      "website": "latimes.com",
+      "tier": "LOW",
+      "notes": "LA Times NFL writer. Primary Chargers beat; secondary Rams coverage."
+    },
+    {
+      "id": "bw-sea-condotta",
+      "name": "Bob Condotta",
+      "team": "SEA",
+      "outlet": "The Seattle Times",
+      "twitter": "@bcondotta",
+      "podcast": null,
+      "substack": null,
+      "website": "seattletimes.com",
+      "tier": "HIGH",
+      "notes": "Primary Seahawks beat writer for Seattle Times. Decades of coverage."
+    },
+    {
+      "id": "bw-sea-dugar",
+      "name": "Michael-Shawn Dugar",
+      "team": "SEA",
+      "outlet": "The Athletic",
+      "twitter": "@MikeDugar",
+      "podcast": {
+        "name": "Seahawks Man 2 Man",
+        "apple": "https://podcasts.apple.com/us/podcast/seahawks-man-2-man-a-show-about-the-seattle-seahawks/id1242347126",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Blue Wire",
+          "Amazon",
+          "YouTube"
+        ],
+        "notes": "With Christopher Kidd"
+      },
+      "youtube": "Seahawks Man 2 Man",
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "HIGH",
+      "notes": "Athletic Seahawks reporter and podcast host. Author of 'The Franchise: Seattle Seahawks' book."
+    },
+    {
+      "id": "bw-sea-bell",
+      "name": "Gregg Bell",
+      "team": "SEA",
+      "outlet": "Tacoma News Tribune",
+      "twitter": "@gbellseattle",
+      "podcast": null,
+      "substack": null,
+      "website": "thenewstribune.com",
+      "tier": "HIGH",
+      "notes": "Seahawks/NFL writer for TNT. West Point and UC Berkeley j-school. Former U.S. Army captain."
+    },
+    {
+      "id": "bw-sea-henderson",
+      "name": "Brady Henderson",
+      "team": "SEA",
+      "outlet": "ESPN",
+      "twitter": "@BradyHenderson",
+      "podcast": {
+        "name": "ESPN NFL Nation Radio",
+        "platforms": [
+          "ESPN Radio",
+          "ESPN+"
+        ]
+      },
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "ESPN Seahawks NFL Nation reporter."
+    },
+    {
+      "id": "bw-sea-crabtree",
+      "name": "Curtis Crabtree",
+      "team": "SEA",
+      "outlet": "FOX 13 Seattle",
+      "twitter": "@Curtis_Crabtree",
+      "podcast": null,
+      "youtube": "FOX 13 Seattle",
+      "substack": null,
+      "website": "fox13seattle.com",
+      "tier": "HIGH",
+      "notes": "Joined FOX 13 Feb 2022 after 14 years at Sports Radio 950 KJR."
+    },
+    {
+      "id": "bw-sea-staton",
+      "name": "Rob Staton",
+      "team": "SEA",
+      "outlet": "SeahawksDraftBlog.com / BBC Sheffield Radio",
+      "twitter": "@robstaton",
+      "podcast": {
+        "name": "Guest on various Seahawks pods",
+        "platforms": [
+          "Apple"
+        ]
+      },
+      "youtube": "SeahawksDraftBlog (active)",
+      "substack": null,
+      "website": "seahawksdraftblog.com",
+      "tier": "HIGH",
+      "notes": "London-based. BBC Sheffield sports journalist. YouTube channel widely viewed for draft content. Patreon supporter base."
+    },
+    {
+      "id": "bw-sea-boyle",
+      "name": "John Boyle",
+      "team": "SEA",
+      "outlet": "Seahawks.com",
+      "twitter": "@johnpboyle",
+      "podcast": null,
+      "youtube": "Seahawks official",
+      "substack": null,
+      "website": "seahawks.com",
+      "tier": "MEDIUM",
+      "notes": "Team-side senior reporter. Daily injury reports and practice notes."
+    },
+    {
+      "id": "bw-sea-smith",
+      "name": "Corbin Smith",
+      "team": "SEA",
+      "outlet": "Locked On Podcast Network / Emerald City Spectrum",
+      "twitter": null,
+      "podcast": {
+        "name": "Locked On Seahawks",
+        "apple": "https://podcasts.apple.com/us/podcast/locked-on-seahawks-daily-podcast-on-the-seattle-seahawks/id1151621299",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "iHeart",
+          "Amazon"
+        ]
+      },
+      "youtube": "Locked On Seahawks",
+      "substack": null,
+      "website": "lockedonpodcasts.com",
+      "tier": "MEDIUM",
+      "notes": "Lead Seahawks reporter Emerald City Spectrum. Locked On Seahawks co-host since 2019."
+    },
+    {
+      "id": "bw-sea-rang",
+      "name": "Rob Rang",
+      "team": "SEA",
+      "outlet": "FOX Sports / Locked On Seahawks",
+      "twitter": "@RobRang",
+      "podcast": {
+        "name": "Locked On Seahawks",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "iHeart"
+        ]
+      },
+      "youtube": "Locked On Seahawks",
+      "substack": null,
+      "website": "foxsports.com",
+      "tier": "MEDIUM",
+      "notes": "20+ years covering NFL Draft. CFL BC Lions scout. Seahawks draft previews on Seahawks.com."
+    },
+    {
+      "id": "bw-sea-salk",
+      "name": "Mike Salk",
+      "team": "SEA",
+      "outlet": "Seattle Sports 710 (KIRO-AM)",
+      "twitter": "@TheMikeSalk",
+      "podcast": {
+        "name": "Brock and Salk",
+        "apple": "https://podcasts.apple.com/us/podcast/brock-and-salk/id312289064",
+        "platforms": [
+          "Apple",
+          "iHeart",
+          "Seattle Sports app"
+        ],
+        "frequency": "6-10am daily"
+      },
+      "youtube": "Seattle Sports 710",
+      "substack": null,
+      "website": "sports.mynorthwest.com",
+      "tier": "MEDIUM",
+      "notes": "Co-hosts Brock & Salk. Influential Seahawks media voice. Not accredited beat reporter."
+    },
+    {
+      "id": "bw-sea-oneil",
+      "name": "Danny O'Neil",
+      "team": "SEA",
+      "outlet": "Freelance / Substack",
+      "twitter": "@dannyoneil",
+      "podcast": null,
+      "substack": {
+        "name": "The Dang Apostrophe",
+        "url": "https://dannyoneil.substack.com"
+      },
+      "website": "dannyoneil.substack.com",
+      "tier": "MEDIUM",
+      "notes": "Veteran Seattle journalist covering Seahawks since 1999. Exited KIRO/710. Active Substack."
+    },
+    {
+      "id": "bw-sf-barrows",
+      "name": "Matt Barrows",
+      "team": "SF",
+      "outlet": "The Athletic",
+      "twitter": "@mattbarrows",
+      "podcast": {
+        "name": "Here's the Catch: A Show About the SF 49ers",
+        "apple": "https://podcasts.apple.com/us/podcast/heres-the-catch-a-show-about-the-san-francisco-49ers/id1477394805",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Amazon"
+        ]
+      },
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "HIGH",
+      "notes": "Primary 49ers beat for The Athletic. Co-hosts Here's the Catch with Lombardi and Dennis Brown."
+    },
+    {
+      "id": "bw-sf-lombardi",
+      "name": "David Lombardi",
+      "team": "SF",
+      "outlet": "The San Francisco Standard",
+      "twitter": "@LombardiHimself",
+      "podcast": {
+        "name": "Here's the Catch: A Show About the SF 49ers",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Amazon"
+        ]
+      },
+      "youtube": "Active personal YouTube (widely viewed 49ers dispatches)",
+      "substack": null,
+      "website": "sfstandard.com",
+      "tier": "HIGH",
+      "notes": "Known for widely-viewed YouTube dispatches from 49ers beat. Strong direct sourcing."
+    },
+    {
+      "id": "bw-sf-maiocco",
+      "name": "Matt Maiocco",
+      "team": "SF",
+      "outlet": "NBC Sports Bay Area",
+      "twitter": "@MaioccoNBCS",
+      "podcast": {
+        "name": "49ers Talk: A San Francisco 49ers Podcast",
+        "apple": "https://podcasts.apple.com/us/podcast/49ers-talk-a-san-francisco-49ers-podcast/id1153457233",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "iHeart",
+          "Amazon",
+          "NBC Sports Bay Area"
+        ]
+      },
+      "youtube": "NBC Sports Bay Area",
+      "substack": null,
+      "website": "nbcsportsbayarea.com",
+      "tier": "HIGH",
+      "notes": "32nd season covering 49ers. NBC Sports Bay Area 49ers insider. 49ers Talk with Jennifer Lee Chan and Laura Britt."
+    },
+    {
+      "id": "bw-sf-wagoner",
+      "name": "Nick Wagoner",
+      "team": "SF",
+      "outlet": "ESPN",
+      "twitter": "@nwagoner",
+      "podcast": null,
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "ESPN 49ers NFL Nation reporter since 2013. Strong practice coverage and injury updates."
+    },
+    {
+      "id": "bw-sf-inman",
+      "name": "Cam Inman",
+      "team": "SF",
+      "outlet": "Bay Area News Group (Mercury News / East Bay Times)",
+      "twitter": "@CamInman",
+      "podcast": null,
+      "substack": null,
+      "website": "mercurynews.com",
+      "tier": "HIGH",
+      "notes": "49ers NFL reporter BANG. Also CBS-5 KPIX SF analyst."
+    },
+    {
+      "id": "bw-sf-cohn",
+      "name": "Grant Cohn",
+      "team": "SF",
+      "outlet": "Sports Illustrated / All49ers",
+      "twitter": "@grantcohn",
+      "podcast": {
+        "name": "Cohn Zohn (weekly with Lowell Cohn)",
+        "platforms": [
+          "YouTube",
+          "various"
+        ]
+      },
+      "youtube": "Grant Cohn YouTube (76K+ subs, ~3.5M views/month — exceeds official 49ers channel)",
+      "substack": null,
+      "website": "si.com/nfl/49ers",
+      "tier": "HIGH",
+      "notes": "Covered 49ers since 2011. Dominant YouTube presence. Son of Lowell Cohn (SF Chronicle legend)."
+    },
+    {
+      "id": "bw-sf-branch",
+      "name": "Eric Branch",
+      "team": "SF",
+      "outlet": "San Francisco Chronicle",
+      "twitter": "@Eric_Branch",
+      "podcast": null,
+      "substack": null,
+      "website": "sfchronicle.com",
+      "tier": "HIGH",
+      "notes": "49ers beat (Niner Insider) for SF Chronicle. 25+ years. Regular Threads presence."
+    },
+    {
+      "id": "bw-sf-chan",
+      "name": "Jennifer Lee Chan",
+      "team": "SF",
+      "outlet": "NBC Sports Bay Area",
+      "twitter": null,
+      "podcast": {
+        "name": "49ers Talk: A San Francisco 49ers Podcast",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "iHeart",
+          "Amazon"
+        ]
+      },
+      "youtube": "NBC Sports Bay Area",
+      "substack": null,
+      "website": "nbcsportsbayarea.com",
+      "tier": "HIGH",
+      "notes": "NBC Sports Bay Area 49ers reporter. Co-hosts 49ers Talk. personalsite: jenniferleechan.com."
+    },
+    {
+      "id": "bw-sf-biderman",
+      "name": "Chris Biderman",
+      "team": "SF",
+      "outlet": "Sacramento Bee",
+      "twitter": "@ChrisBiderman",
+      "podcast": {
+        "name": "Candlestick Chronicles: A 49ers Pod",
+        "apple": "https://podcasts.apple.com/us/podcast/candlestick-chronicles-a-49ers-pod/id1446537270",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Blue Wire"
+        ]
+      },
+      "substack": null,
+      "website": "sacbee.com",
+      "tier": "MEDIUM",
+      "notes": "Covered 49ers 2013-2021. Former Niners Wire and Warriors Wire publisher. Co-hosts Candlestick Chronicles."
+    },
+    {
+      "id": "bw-sf-madson",
+      "name": "Kyle Madson",
+      "team": "SF",
+      "outlet": "Niners Wire (USA Today)",
+      "twitter": null,
+      "podcast": {
+        "name": "Candlestick Chronicles: A 49ers Pod",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Blue Wire"
+        ]
+      },
+      "substack": null,
+      "website": "ninerswire.usatoday.com",
+      "tier": "MEDIUM",
+      "notes": "Managing Editor Niners Wire. Co-hosts Candlestick Chronicles with Biderman."
+    },
+    {
+      "id": "bw-sf-pallares",
+      "name": "Lindsey Pallares",
+      "team": "SF",
+      "outlet": "Formerly 49ers.com (departed June 12 2025)",
+      "twitter": "@lindseylares",
+      "podcast": null,
+      "substack": null,
+      "website": "49ers.com",
+      "tier": "LOW",
+      "notes": "Team reporter for 49ers.com for three seasons. Departed June 2025. UCLA alum."
+    },
+    {
+      "id": "bw-dal-machota",
+      "name": "Jon Machota",
+      "team": "DAL",
+      "outlet": "The Athletic",
+      "twitter": "@jonmachota",
+      "podcast": {
+        "name": "One Star Cowboys Podcast",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Amazon",
+          "YouTube"
+        ]
+      },
+      "youtube": "One Star Cowboys",
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "HIGH",
+      "notes": "Primary Cowboys beat at The Athletic. Co-hosts pod with Saad Yousuf and Kevin Turner."
+    },
+    {
+      "id": "bw-dal-watkins",
+      "name": "Calvin Watkins",
+      "team": "DAL",
+      "outlet": "Dallas Morning News",
+      "twitter": "@calvinwatkins",
+      "podcast": {
+        "name": "SportsDay Cowboys",
+        "platforms": [
+          "Apple",
+          "iHeart",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "dallasnews.com",
+      "tier": "HIGH",
+      "notes": "Senior Cowboys beat at DMN. Known for cap/front office coverage."
+    },
+    {
+      "id": "bw-dal-hillclarence",
+      "name": "Clarence Hill Jr.",
+      "team": "DAL",
+      "outlet": "DLLS / alldlls.com",
+      "twitter": "@clarencehilljr",
+      "podcast": {
+        "name": "DLLS Dallas Cowboys Podcast",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "YouTube"
+        ]
+      },
+      "youtube": "DLLS",
+      "substack": null,
+      "website": "alldlls.com",
+      "tier": "HIGH",
+      "notes": "Longest-tenured Cowboys beat writer (since 1997). Dallas PFWA chapter president."
+    },
+    {
+      "id": "bw-dal-archer",
+      "name": "Todd Archer",
+      "team": "DAL",
+      "outlet": "ESPN",
+      "twitter": "@toddarcher",
+      "podcast": {
+        "name": "ESPN NFL Nation appearances",
+        "platforms": [
+          "ESPN Radio",
+          "ESPN App"
+        ]
+      },
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "ESPN NFL Nation Cowboys since 2013. Covered Cowboys since 2003."
+    },
+    {
+      "id": "bw-dal-walker",
+      "name": "Patrik Walker",
+      "team": "DAL",
+      "outlet": "DallasCowboys.com / CBS Sports",
+      "twitter": "@VoiceOfTheStar",
+      "podcast": {
+        "name": "Talkin' Cowboys / The Konversation (Patreon)",
+        "platforms": [
+          "Cowboys.com",
+          "Patreon",
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "youtube": "DallasCowboys.com",
+      "substack": null,
+      "website": "dallascowboys.com",
+      "tier": "MEDIUM",
+      "notes": "Emmy winner. Official Cowboys site + CBS Sports. Co-hosts radio show."
+    },
+    {
+      "id": "bw-dal-spagnola",
+      "name": "Mickey Spagnola",
+      "team": "DAL",
+      "outlet": "DallasCowboys.com",
+      "twitter": "@Spags52",
+      "podcast": {
+        "name": "Mick Shots",
+        "platforms": [
+          "Spotify",
+          "Apple",
+          "TuneIn",
+          "Cowboys.com"
+        ]
+      },
+      "youtube": "DallasCowboys.com",
+      "substack": null,
+      "website": "dallascowboys.com",
+      "tier": "MEDIUM",
+      "notes": "Cowboys.com feature writer since 2000. Covering Cowboys since 1984."
+    },
+    {
+      "id": "bw-dal-ochoa",
+      "name": "RJ Ochoa",
+      "team": "DAL",
+      "outlet": "Blogging The Boys (SB Nation)",
+      "twitter": "@rjochoa",
+      "podcast": {
+        "name": "Blogging The Boys Podcast",
+        "platforms": [
+          "YouTube",
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "youtube": "Blogging The Boys",
+      "substack": null,
+      "website": "bloggingtheboys.com",
+      "tier": "MEDIUM",
+      "notes": "EIC of BTB. Shifted to YouTube-primary after SB Nation ended pod network support April 2024."
+    },
+    {
+      "id": "bw-dal-harris",
+      "name": "Nick Harris",
+      "team": "DAL",
+      "outlet": "Fort Worth Star-Telegram",
+      "twitter": "@NickHarrisFWST",
+      "podcast": {
+        "name": "Star-Telegram Cowboys podcast",
+        "platforms": [
+          "Star-Telegram YouTube",
+          "Apple"
+        ]
+      },
+      "youtube": "Star-Telegram",
+      "substack": null,
+      "website": "star-telegram.com",
+      "tier": "MEDIUM",
+      "notes": "Star-Telegram pro football writer. Replaced Clarence Hill Jr. on that beat."
+    },
+    {
+      "id": "bw-dal-george",
+      "name": "Brandon George",
+      "team": "DAL",
+      "outlet": "Dallas Morning News",
+      "twitter": "@DMN_George",
+      "podcast": {
+        "name": "SportsDay Cowboys",
+        "platforms": [
+          "Apple",
+          "iHeart",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "dallasnews.com",
+      "tier": "MEDIUM",
+      "notes": "DMN Cowboys beat writer alongside Watkins."
+    },
+    {
+      "id": "bw-dal-fisher",
+      "name": "Mike Fisher",
+      "team": "DAL",
+      "outlet": "CowboysCountry / FanStreamSports",
+      "twitter": "@FishSports",
+      "podcast": {
+        "name": "Mike Fisher 'Fish Report'",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "iHeart",
+          "YouTube"
+        ]
+      },
+      "youtube": "youtube.com/mikefisherdfw",
+      "substack": "FISHSPORTS Substack",
+      "website": "roundtable.io/sports/nfl/cowboys",
+      "tier": "MEDIUM",
+      "notes": "Covered Cowboys since 1990. Independent multimedia operation with Substack."
+    },
+    {
+      "id": "bw-dal-yousuf",
+      "name": "Saad Yousuf",
+      "team": "DAL",
+      "outlet": "The Athletic",
+      "twitter": "@SaadYousuf126",
+      "podcast": {
+        "name": "One Star Cowboys Podcast",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Amazon",
+          "YouTube"
+        ]
+      },
+      "youtube": "One Star Cowboys",
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "MEDIUM",
+      "notes": "The Athletic Cowboys/Dallas writer. Co-hosts One Star Cowboys with Machota."
+    },
+    {
+      "id": "bw-dal-hairopoulos",
+      "name": "Kate Hairopoulos",
+      "team": "DAL",
+      "outlet": "The Athletic (Senior Editor, CFB)",
+      "twitter": "@khairopoulos",
+      "podcast": null,
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "LOW",
+      "notes": "Former DMN Cowboys beat. Now senior editor at The Athletic covering college football."
+    },
+    {
+      "id": "bw-nyg-duggan",
+      "name": "Dan Duggan",
+      "team": "NYG",
+      "outlet": "The Athletic",
+      "twitter": "@DDuggan21",
+      "podcast": {
+        "name": "The New York Football Podcast",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Giants.com"
+        ]
+      },
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "HIGH",
+      "notes": "Senior writer covering Giants for The Athletic 10+ years."
+    },
+    {
+      "id": "bw-nyg-stapleton",
+      "name": "Art Stapleton",
+      "team": "NYG",
+      "outlet": "NorthJersey.com / USA TODAY Network",
+      "twitter": "@art_stapleton",
+      "podcast": {
+        "name": "ALL IN with Art Stapleton",
+        "apple": "https://podcasts.apple.com/us/podcast/all-in-with-art-stapleton-a-ny-giants-podcast/id1",
+        "platforms": [
+          "Apple",
+          "iHeart",
+          "Spotify",
+          "YouTube",
+          "Giants.com"
+        ]
+      },
+      "youtube": "ALL IN with Art Stapleton",
+      "substack": null,
+      "website": "northjersey.com",
+      "tier": "HIGH",
+      "notes": "Giants beat NorthJersey/USA TODAY. ALL IN pod with player/coach interviews."
+    },
+    {
+      "id": "bw-nyg-raanan",
+      "name": "Jordan Raanan",
+      "team": "NYG",
+      "outlet": "ESPN",
+      "twitter": "@JordanRaanan",
+      "podcast": {
+        "name": "Breaking Big Blue with Jordan Raanan",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "iHeart",
+          "ESPN Radio",
+          "Podbean"
+        ]
+      },
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "ESPN NFL Nation Giants since July 2016. Exclusive Giants beat."
+    },
+    {
+      "id": "bw-nyg-leonard",
+      "name": "Pat Leonard",
+      "team": "NYG",
+      "outlet": "New York Daily News",
+      "twitter": "@PLeonardNYDN",
+      "podcast": {
+        "name": "Talkin' Ball with Pat Leonard",
+        "platforms": [
+          "Apple",
+          "Bleav",
+          "iHeart"
+        ]
+      },
+      "youtube": "PLonNFL",
+      "substack": null,
+      "website": "nydailynews.com",
+      "tier": "HIGH",
+      "notes": "NFL columnist/Giants beat NYDN. 10th season covering Giants. Instagram/TikTok/YouTube @PLonNFL."
+    },
+    {
+      "id": "bw-nyg-vacchiano",
+      "name": "Ralph Vacchiano",
+      "team": "NYG",
+      "outlet": "Fox Sports",
+      "twitter": "@RVacchianoSNY",
+      "podcast": {
+        "name": "Fox Sports NFL pod / Giants Huddle guest",
+        "platforms": [
+          "Giants.com",
+          "Fox Sports"
+        ]
+      },
+      "substack": null,
+      "website": "foxsports.com",
+      "tier": "HIGH",
+      "notes": "Fox Sports NFL national reporter. 16 years NYDN + 6 years SNY covering Giants."
+    },
+    {
+      "id": "bw-nyg-schwartz",
+      "name": "Paul Schwartz",
+      "team": "NYG",
+      "outlet": "New York Post",
+      "twitter": "@NYPost_Schwartz",
+      "podcast": {
+        "name": "Blue Rush (New York Post Giants Podcast)",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Giants.com"
+        ]
+      },
+      "substack": null,
+      "website": "nypost.com",
+      "tier": "HIGH",
+      "notes": "NY Post Giants beat since 1994. Blue Rush co-hosted with Brandon London and David Tyree."
+    },
+    {
+      "id": "bw-nyg-rock",
+      "name": "Tom Rock",
+      "team": "NYG",
+      "outlet": "Newsday",
+      "twitter": "@TomRock_Newsday",
+      "podcast": {
+        "name": "Giants Huddle (guest)",
+        "platforms": [
+          "Giants.com",
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "newsday.com",
+      "tier": "MEDIUM",
+      "notes": "Newsday NFL/Giants-Jets columnist. Author of Giants history book."
+    },
+    {
+      "id": "bw-nyg-carroll",
+      "name": "Charlotte Carroll",
+      "team": "NYG",
+      "outlet": "The Athletic",
+      "twitter": "@charlottecrrll",
+      "podcast": null,
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "MEDIUM",
+      "notes": "Giants beat at The Athletic alongside Duggan."
+    },
+    {
+      "id": "bw-nyg-rosenblatt",
+      "name": "Zack Rosenblatt",
+      "team": "NYG",
+      "outlet": "The Athletic",
+      "twitter": "@ZackBlatt",
+      "podcast": {
+        "name": "Flight Plan (The Athletic Jets/Eagles pod)",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Athletic app"
+        ]
+      },
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "MEDIUM",
+      "notes": "The Athletic NFL writer covering Eagles and Jets; previously Giants beat."
+    },
+    {
+      "id": "bw-nyg-medow",
+      "name": "Lance Medow",
+      "team": "NYG",
+      "outlet": "Giants.com / ESPN Radio / Westwood One",
+      "twitter": "@LanceMedow",
+      "podcast": {
+        "name": "Big Blue Kickoff Live",
+        "platforms": [
+          "Giants.com",
+          "Apple",
+          "Spotify",
+          "YouTube",
+          "iHeart",
+          "Pandora"
+        ]
+      },
+      "youtube": "Giants.com",
+      "substack": null,
+      "website": "giants.com",
+      "tier": "MEDIUM",
+      "notes": "25+ years radio broadcasting. Giants on-air talent since 2008. Big Blue Kickoff host."
+    },
+    {
+      "id": "bw-nyg-dunleavy",
+      "name": "Ryan Dunleavy",
+      "team": "NYG",
+      "outlet": "New York Post",
+      "twitter": "@rydunleavy",
+      "podcast": {
+        "name": "Talkin' Giants (guest)",
+        "platforms": [
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "nypost.com",
+      "tier": "MEDIUM",
+      "notes": "NY Post NFL/Giants reporter alongside Schwartz."
+    },
+    {
+      "id": "bw-phi-mclane",
+      "name": "Jeff McLane",
+      "team": "PHI",
+      "outlet": "Philadelphia Inquirer",
+      "twitter": "@Jeff_McLane",
+      "podcast": {
+        "name": "unCovering the Birds with Jeff McLane",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Audacy",
+          "Inquirer.com"
+        ]
+      },
+      "substack": null,
+      "website": "inquirer.com",
+      "tier": "HIGH",
+      "notes": "Premier Eagles investigative/beat at Inquirer since 2009. KYW Newsradio/Inquirer co-production."
+    },
+    {
+      "id": "bw-phi-bowen",
+      "name": "Les Bowen",
+      "team": "PHI",
+      "outlet": "PHLY Sports",
+      "twitter": "@LesBowen",
+      "podcast": null,
+      "substack": null,
+      "website": "phly.com",
+      "tier": "HIGH",
+      "notes": "Covered Eagles since 2002. 30 years at various Philly outlets. Now at PHLY Sports."
+    },
+    {
+      "id": "bw-phi-zangaro",
+      "name": "Dave Zangaro",
+      "team": "PHI",
+      "outlet": "NBC Sports Philadelphia",
+      "twitter": "@DZangaroNBCS",
+      "podcast": {
+        "name": "Eagle Eye: A Philadelphia Eagles Podcast",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "YouTube",
+          "NBCSportsPhiladelphia.com"
+        ],
+        "frequency": "Tue/Thu"
+      },
+      "youtube": "NBC Sports Philadelphia",
+      "substack": null,
+      "website": "nbcsportsphiladelphia.com",
+      "tier": "HIGH",
+      "notes": "Eagles writer. Co-hosts Eagle Eye with Reuben Frank (Tue/Thu). One of most followed Philly beat journalists."
+    },
+    {
+      "id": "bw-phi-frank",
+      "name": "Reuben Frank",
+      "team": "PHI",
+      "outlet": "NBC Sports Philadelphia / SportsRadio 94 WIP",
+      "twitter": "@RoobNBCS",
+      "podcast": {
+        "name": "Eagle Eye: A Philadelphia Eagles Podcast",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "YouTube",
+          "NBCSportsPhiladelphia.com"
+        ],
+        "frequency": "Tue/Thu"
+      },
+      "youtube": "NBC Sports Philadelphia",
+      "substack": null,
+      "website": "nbcsportsphiladelphia.com",
+      "tier": "HIGH",
+      "notes": "Eagles beat NBC Sports Philly since 2010. WIP host since 1994. Publishes Roob Observations column."
+    },
+    {
+      "id": "bw-phi-mcmanus",
+      "name": "Tim McManus",
+      "team": "PHI",
+      "outlet": "ESPN",
+      "twitter": "@Tim_McManus",
+      "podcast": null,
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "ESPN Eagles NFL Nation since 2016. On beat since 2010. Regular NFL Live/SportsCenter."
+    },
+    {
+      "id": "bw-phi-wulf",
+      "name": "Bo Wulf",
+      "team": "PHI",
+      "outlet": "PHLY Sports (formerly The Athletic)",
+      "twitter": "@Bo_Wulf",
+      "podcast": {
+        "name": "Birds With Friends / PHLY Eagles Podcast",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "YouTube",
+          "Amazon"
+        ]
+      },
+      "youtube": "PHLY Sports / Birds With Friends",
+      "substack": null,
+      "website": "phly.com",
+      "tier": "HIGH",
+      "notes": "Former Athletic Eagles beat; now at PHLY Sports. Birds With Friends 3x/week."
+    },
+    {
+      "id": "bw-phi-shorr-parks",
+      "name": "Eliot Shorr-Parks",
+      "team": "PHI",
+      "outlet": "SportsRadio 94 WIP",
+      "twitter": "@EliotShorrParks",
+      "podcast": {
+        "name": "Go Birds!",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Audacy/94WIP.com"
+        ],
+        "frequency": "daily"
+      },
+      "substack": null,
+      "website": "audacy.com/94wip",
+      "tier": "HIGH",
+      "notes": "Eagles Reporter at 94 WIP. 2025 Eagles Insider of the Year. Go Birds! daily with James Seltzer."
+    },
+    {
+      "id": "bw-phi-kempski",
+      "name": "Jimmy Kempski",
+      "team": "PHI",
+      "outlet": "PhillyVoice",
+      "twitter": "@JimmyKempski",
+      "podcast": {
+        "name": "Guest on BGN Radio, The Ringer Philly Special",
+        "platforms": [
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "phillyvoice.com",
+      "tier": "MEDIUM",
+      "notes": "Eagles writer at PhillyVoice since 2014. Covers roster analytics and depth charts."
+    },
+    {
+      "id": "bw-phi-gunn",
+      "name": "Derrick Gunn",
+      "team": "PHI",
+      "outlet": "JAKIB Sports (YouTube) / Gunn On One Podcast",
+      "twitter": "@RealDGunn",
+      "podcast": {
+        "name": "Gunn On One with Derrick Gunn",
+        "platforms": [
+          "Spotify",
+          "Apple",
+          "JAKIB Sports YouTube"
+        ]
+      },
+      "youtube": "JAKIB Sports",
+      "substack": null,
+      "website": "jakibsports.com",
+      "tier": "MEDIUM",
+      "notes": "20+ years NBC Sports Philadelphia. Now JAKIB Sports YouTube daily show."
+    },
+    {
+      "id": "bw-phi-reiner",
+      "name": "Olivia Reiner",
+      "team": "PHI",
+      "outlet": "Philadelphia Inquirer",
+      "twitter": "@ReinerOlivia",
+      "podcast": null,
+      "substack": null,
+      "website": "inquirer.com",
+      "tier": "MEDIUM",
+      "notes": "Eagles beat at The Inquirer. Moved from Green Bay Packers beat (Milwaukee Journal Sentinel)."
+    },
+    {
+      "id": "bw-was-jhabvala",
+      "name": "Nicki Jhabvala",
+      "team": "WAS",
+      "outlet": "The Athletic (moved from WaPo July 2025)",
+      "twitter": "@NickiJhabvala",
+      "podcast": {
+        "name": "Al Galdi Podcast (frequent guest)",
+        "platforms": [
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "HIGH",
+      "notes": "Senior writer Commanders at The Athletic. Previously WaPo 2020-2025, The Athletic Denver before that."
+    },
+    {
+      "id": "bw-was-fortier",
+      "name": "Sam Fortier",
+      "team": "WAS",
+      "outlet": "Washington Post",
+      "twitter": "@Sam4TR",
+      "podcast": null,
+      "substack": null,
+      "website": "washingtonpost.com",
+      "tier": "HIGH",
+      "notes": "WaPo enterprise/Commanders reporter."
+    },
+    {
+      "id": "bw-was-keim",
+      "name": "John Keim",
+      "team": "WAS",
+      "outlet": "ESPN",
+      "twitter": "@john_keim",
+      "podcast": {
+        "name": "John Keim Report",
+        "platforms": [
+          "ESPN 106.1 Richmond",
+          "Apple",
+          "ESPN App"
+        ]
+      },
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "ESPN Commanders since Aug 2013. Covered Washington NFL team since 1994. Author of 4 books."
+    },
+    {
+      "id": "bw-was-standig",
+      "name": "Ben Standig",
+      "team": "WAS",
+      "outlet": "Last Man Standig (Substack + Podcast, independent)",
+      "twitter": "@BenStandig",
+      "podcast": {
+        "name": "Last Man Standig",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Substack",
+          "Podbay"
+        ],
+        "frequency": "4-5x/week"
+      },
+      "youtube": null,
+      "substack": {
+        "name": "Last Man Standig",
+        "url": "https://lastmanstandig.substack.com"
+      },
+      "website": "lastmanstandig.substack.com",
+      "tier": "HIGH",
+      "notes": "Independent Commanders Substack after 6 years at The Athletic. 4-5 podcast episodes/week during season."
+    },
+    {
+      "id": "bw-was-finlay",
+      "name": "JP Finlay",
+      "team": "WAS",
+      "outlet": "NBC4 Washington / 106.7 The Fan",
+      "twitter": "@JPFinlayNBCS",
+      "podcast": {
+        "name": "All Ears: NBC Washington Commanders Podcast / Beltway Football",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Commanders.com"
+        ]
+      },
+      "youtube": "NBC4 Washington",
+      "substack": null,
+      "website": "nbcwashington.com",
+      "tier": "HIGH",
+      "notes": "Commanders Insider NBC4. Co-hosts BMitch & Finlay on 106.7 The Fan. All Ears weekly NBC Commanders podcast."
+    },
+    {
+      "id": "bw-was-bullock",
+      "name": "Mark Bullock",
+      "team": "WAS",
+      "outlet": "Bullock Film Room (Substack, independent)",
+      "twitter": "@MarkBullockNFL",
+      "podcast": {
+        "name": "Al Galdi Podcast (weekly guest) / live film show Wednesdays on YouTube",
+        "platforms": [
+          "Spotify",
+          "Apple",
+          "YouTube"
+        ]
+      },
+      "youtube": "Live All-22 Wednesday show with George Carmi",
+      "substack": {
+        "name": "Bullock's Film Room",
+        "url": "https://markbullock.substack.com"
+      },
+      "website": "markbullock.substack.com",
+      "tier": "HIGH",
+      "notes": "All-22 film analyst. Formerly The Athletic and WaPo. Live YouTube film show Wednesdays."
+    },
+    {
+      "id": "bw-was-hoffman",
+      "name": "Craig Hoffman",
+      "team": "WAS",
+      "outlet": "106.7 The Fan / The Team 980",
+      "twitter": "@CraigHoffman",
+      "podcast": {
+        "name": "Take Command (with Logan Paulsen)",
+        "platforms": [
+          "Apple",
+          "Audacy",
+          "Spotify",
+          "YouTube"
+        ],
+        "frequency": "Mon and Thu"
+      },
+      "youtube": "The Team 980 (weekday live stream 4-7 PM)",
+      "substack": null,
+      "website": "audacy.com/thefandc",
+      "tier": "MEDIUM",
+      "notes": "Commanders beat 106.7 The Fan since 2017. Hosts The Hoffman Show The Team 980. Take Command Mon/Thu."
+    },
+    {
+      "id": "bw-was-fowler",
+      "name": "Jeremy Fowler",
+      "team": "WAS",
+      "outlet": "ESPN",
+      "twitter": "@JFowlerESPN",
+      "podcast": null,
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "ESPN national NFL senior reporter. Heavily covers Commanders and NFC East. Frequent Commanders intel source."
+    },
+    {
+      "id": "bw-was-reed",
+      "name": "Tashan Reed",
+      "team": "WAS",
+      "outlet": "Washington Post (brief stint; laid off in WaPo cuts)",
+      "twitter": "@tashanreed",
+      "podcast": null,
+      "substack": null,
+      "website": "washingtonpost.com",
+      "tier": "MEDIUM",
+      "notes": "Joined WaPo Commanders beat Sept 2025. Later caught in WaPo layoffs. Previously 7+ years at The Athletic (Raiders)."
+    },
+    {
+      "id": "bw-was-schad",
+      "name": "Tom Schad",
+      "team": "WAS",
+      "outlet": "ESPN (was WaPo Commanders Aug-early 2026)",
+      "twitter": "@TomSchad",
+      "podcast": null,
+      "substack": null,
+      "website": "espn.com",
+      "tier": "MEDIUM",
+      "notes": "Joined WaPo as Commanders beat Aug 2025; moved to ESPN as general assignment/enterprise reporter early 2026."
+    },
+    {
+      "id": "bw-chi-biggs",
+      "name": "Brad Biggs",
+      "team": "CHI",
+      "outlet": "Chicago Tribune",
+      "twitter": "@BradBiggs",
+      "podcast": {
+        "name": "10 Thoughts Newsletter / Mully & Haugh Show guest (670 The Score)",
+        "platforms": [
+          "Chicago Tribune",
+          "Apple (Mully & Haugh)"
+        ]
+      },
+      "substack": null,
+      "website": "chicagotribune.com",
+      "tier": "HIGH",
+      "notes": "Covered Bears since 2001. 144K Twitter followers. Prolific 10 Thoughts notebook. Regular 670 The Score."
+    },
+    {
+      "id": "bw-chi-finley",
+      "name": "Patrick Finley",
+      "team": "CHI",
+      "outlet": "Chicago Sun-Times / WBEZ",
+      "twitter": "@patrickfinley",
+      "podcast": {
+        "name": "Halas Intrigue",
+        "platforms": [
+          "Apple",
+          "Sun-Times.com",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "chicago.suntimes.com",
+      "tier": "HIGH",
+      "notes": "Sun-Times Bears/NFL beat. Chicago PFWA chapter president. Halas Intrigue pod with Jason Lieser and Steve Greenberg."
+    },
+    {
+      "id": "bw-chi-jahns",
+      "name": "Adam Jahns",
+      "team": "CHI",
+      "outlet": "CHGO Sports (Bears Insider, joined July 2025)",
+      "twitter": "@adamjahns",
+      "podcast": {
+        "name": "Hoge & Jahns: a show about the Chicago Bears",
+        "platforms": [
+          "YouTube",
+          "Apple",
+          "Spotify",
+          "Samsung TV Plus",
+          "Roku",
+          "Xfinity"
+        ],
+        "notes": "Moved to CHGO Sports July 21, 2025"
+      },
+      "youtube": "CHGO Bears YouTube",
+      "substack": null,
+      "website": "allchgo.com",
+      "tier": "HIGH",
+      "notes": "Left The Athletic/Sun-Times for CHGO exclusively July 2025. Hoge & Jahns moved to CHGO YouTube. Top Bears insider."
+    },
+    {
+      "id": "bw-chi-cronin",
+      "name": "Courtney Cronin",
+      "team": "CHI",
+      "outlet": "ESPN",
+      "twitter": "@CourtneyRCronin",
+      "podcast": {
+        "name": "The Chicago Bears Podcast (ESPN 1000)",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "ESPN App"
+        ]
+      },
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "ESPN Bears NFL Nation since 2022; formerly ESPN Vikings 2017-2022. Weekly national radio Sunday mornings."
+    },
+    {
+      "id": "bw-chi-wiederer",
+      "name": "Dan Wiederer",
+      "team": "CHI",
+      "outlet": "The Athletic (joined after leaving Tribune Aug 2025)",
+      "twitter": "@danwiederer",
+      "podcast": {
+        "name": "Take The North (with Mark Grote)",
+        "platforms": [
+          "Spotify",
+          "Apple"
+        ]
+      },
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "HIGH",
+      "notes": "Left Chicago Tribune after 12 years (Aug 2025); joined The Athletic. Continues Take The North pod with Grote."
+    },
+    {
+      "id": "bw-chi-fishbain",
+      "name": "Kevin Fishbain",
+      "team": "CHI",
+      "outlet": "The Athletic",
+      "twitter": "@kfishbain",
+      "podcast": {
+        "name": "Breaking In with Kevin Fishbain (sports media podcast)",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Spreaker"
+        ]
+      },
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "HIGH",
+      "notes": "The Athletic Bears senior writer. Breaking In pod interviews sports media personalities."
+    },
+    {
+      "id": "bw-chi-mayer",
+      "name": "Larry Mayer",
+      "team": "CHI",
+      "outlet": "ChicagoBears.com",
+      "twitter": "@LarryMayer",
+      "podcast": {
+        "name": "Chicago Bears Podcasts (official)",
+        "platforms": [
+          "ChicagoBears.com",
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "youtube": "ChicagoBears.com",
+      "substack": null,
+      "website": "chicagobears.com",
+      "tier": "MEDIUM",
+      "notes": "Senior writer ChicagoBears.com since 1992. Daily locker room, depth chart, injury coverage."
+    },
+    {
+      "id": "bw-chi-haugh",
+      "name": "David Haugh",
+      "team": "CHI",
+      "outlet": "670 The Score (Audacy Chicago)",
+      "twitter": "@DavidHaugh",
+      "podcast": {
+        "name": "Mully & Haugh Show",
+        "platforms": [
+          "Apple",
+          "Audacy",
+          "Spotify",
+          "670thescore.com"
+        ],
+        "frequency": "5-10am weekdays"
+      },
+      "youtube": "Chicago Sports Network",
+      "substack": null,
+      "website": "audacy.com/670thescore",
+      "tier": "MEDIUM",
+      "notes": "Co-hosts Mully & Haugh. Former Chicago Tribune Bears columnist 2002-2020."
+    },
+    {
+      "id": "bw-chi-lieser",
+      "name": "Jason Lieser",
+      "team": "CHI",
+      "outlet": "Chicago Sun-Times",
+      "twitter": "@JasonLieser",
+      "podcast": {
+        "name": "Halas Intrigue",
+        "platforms": [
+          "Apple",
+          "Sun-Times.com",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "chicago.suntimes.com",
+      "tier": "MEDIUM",
+      "notes": "Sun-Times Bears/NFL beat and columnist. Co-hosts Halas Intrigue with Finley and Greenberg."
+    },
+    {
+      "id": "bw-chi-hoge",
+      "name": "Adam Hoge",
+      "team": "CHI",
+      "outlet": "CHGO Sports",
+      "twitter": "@AdamHoge",
+      "podcast": {
+        "name": "Hoge & Jahns / CHGO Bears Podcast",
+        "platforms": [
+          "YouTube",
+          "Apple",
+          "Spotify",
+          "Samsung TV Plus",
+          "Roku",
+          "Xfinity"
+        ]
+      },
+      "youtube": "CHGO Bears YouTube",
+      "substack": null,
+      "website": "allchgo.com",
+      "tier": "HIGH",
+      "notes": "Co-founder CHGO. Co-hosts Hoge & Jahns with Adam Jahns. Also hosts main CHGO Bears Podcast."
+    },
+    {
+      "id": "bw-det-birkett",
+      "name": "Dave Birkett",
+      "team": "DET",
+      "outlet": "Detroit Free Press",
+      "twitter": "@davebirkett",
+      "podcast": {
+        "name": "Birks Eye View (Free Press pod)",
+        "platforms": [
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "freep.com",
+      "tier": "HIGH",
+      "notes": "Lions beat Free Press since Aug 2010. 4x Michigan Sports Writer of Year. 70K Twitter. Author of Detroit Lions history book."
+    },
+    {
+      "id": "bw-det-twentyman",
+      "name": "Tim Twentyman",
+      "team": "DET",
+      "outlet": "DetroitLions.com",
+      "twitter": "@ttwentyman",
+      "podcast": {
+        "name": "Twentyman in the Huddle",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "DetroitLions.com"
+        ],
+        "notes": "Presented by Microsoft"
+      },
+      "youtube": "DetroitLions.com",
+      "substack": null,
+      "website": "detroitlions.com",
+      "tier": "HIGH",
+      "notes": "Lions senior writer and lead reporter DetroitLions.com. Goes behind scenes with coaches, players, FO."
+    },
+    {
+      "id": "bw-det-rogers",
+      "name": "Justin Rogers",
+      "team": "DET",
+      "outlet": "Detroit Football Network (independent Substack)",
+      "twitter": "@Justin_Rogers",
+      "podcast": {
+        "name": "Lions Collective Podcast",
+        "platforms": [
+          "YouTube (live Wed 6pm)",
+          "Apple",
+          "Spotify",
+          "Substack"
+        ]
+      },
+      "youtube": "Detroit Football Network (live)",
+      "substack": {
+        "name": "Detroit Football Network",
+        "url": "https://www.detroitfootball.net"
+      },
+      "website": "detroitfootball.net",
+      "tier": "HIGH",
+      "notes": "20 years local media. Left Detroit News July 2024 to go independent. Lions Collective pod with Will Burchfield and others."
+    },
+    {
+      "id": "bw-det-bianchi",
+      "name": "Nolan Bianchi",
+      "team": "DET",
+      "outlet": "The Detroit News",
+      "twitter": "@nolanbianchi",
+      "podcast": {
+        "name": "Gritiron Gang",
+        "platforms": [
+          "DetroitNews.com",
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "youtube": "Detroit News",
+      "substack": null,
+      "website": "detroitnews.com",
+      "tier": "HIGH",
+      "notes": "Detroit News Lions beat since 2022. Gritiron Gang pod co-hosted with Richard Silva."
+    },
+    {
+      "id": "bw-det-niyo",
+      "name": "John Niyo",
+      "team": "DET",
+      "outlet": "The Detroit News",
+      "twitter": "@JohnNiyo",
+      "podcast": {
+        "name": "Gritiron Gang (guest)",
+        "platforms": [
+          "DetroitNews.com"
+        ]
+      },
+      "substack": null,
+      "website": "detroitnews.com",
+      "tier": "MEDIUM",
+      "notes": "Detroit News sports columnist since 2010 (moved from Lions beat). At the News since 1995."
+    },
+    {
+      "id": "bw-det-monarrez",
+      "name": "Carlos Monarrez",
+      "team": "DET",
+      "outlet": "Detroit Free Press",
+      "twitter": "@cmonarrez",
+      "podcast": {
+        "name": "Free Press Sports with Carlos and Shawn",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "iHeart",
+          "Omny.fm"
+        ]
+      },
+      "substack": null,
+      "website": "freep.com",
+      "tier": "MEDIUM",
+      "notes": "Free Press sports writer covering Lions and NFL since 2006. Pod co-hosted with Shawn Windsor."
+    },
+    {
+      "id": "bw-det-seidel",
+      "name": "Jeff Seidel",
+      "team": "DET",
+      "outlet": "Detroit Free Press",
+      "twitter": "@seideljeff",
+      "podcast": null,
+      "substack": null,
+      "website": "freep.com",
+      "tier": "MEDIUM",
+      "notes": "Free Press staff writer/columnist. Multiple national awards. Covers Lions alongside Birkett."
+    },
+    {
+      "id": "bw-det-silva",
+      "name": "Richard Silva",
+      "team": "DET",
+      "outlet": "The Detroit News",
+      "twitter": "@rich_silva18",
+      "podcast": {
+        "name": "Gritiron Gang",
+        "platforms": [
+          "DetroitNews.com",
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "youtube": "Detroit News",
+      "substack": null,
+      "website": "detroitnews.com",
+      "tier": "MEDIUM",
+      "notes": "Detroit News Lions beat reporter since Aug 2024. Co-hosts Gritiron Gang pod with Bianchi."
+    },
+    {
+      "id": "bw-det-meinke",
+      "name": "Kyle Meinke",
+      "team": "DET",
+      "outlet": "MLive (departed Nov 2024)",
+      "twitter": "@kmeinke",
+      "podcast": {
+        "name": "Dungeon of Doom (MLive era)",
+        "platforms": [
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "mlive.com",
+      "tier": "LOW",
+      "notes": "12-year Lions beat veteran at MLive. Departed November 2024. Historical context only."
+    },
+    {
+      "id": "bw-gb-demovsky",
+      "name": "Rob Demovsky",
+      "team": "GB",
+      "outlet": "ESPN",
+      "twitter": "@RobDemovsky",
+      "podcast": {
+        "name": "ESPN NFL Nation appearances",
+        "platforms": [
+          "ESPN App",
+          "ESPN Radio"
+        ]
+      },
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "ESPN Packers NFL Nation since July 2013. Previously Green Bay Press-Gazette 1997-2013. 2x Wisconsin Sportswriter of the Year."
+    },
+    {
+      "id": "bw-gb-wood",
+      "name": "Ryan Wood",
+      "team": "GB",
+      "outlet": "Green Bay Press-Gazette / PackersNews.com (USA TODAY Network)",
+      "twitter": "@ByRyanWood",
+      "podcast": {
+        "name": "Packers Podcast / Green Bay Nation (WFRV Local 5)",
+        "platforms": [
+          "iHeart",
+          "Audioboom",
+          "Apple"
+        ]
+      },
+      "substack": null,
+      "website": "packersnews.com",
+      "tier": "HIGH",
+      "notes": "Packers beat USA TODAY Network. Co-host Green Bay Nation at WFRV-TV."
+    },
+    {
+      "id": "bw-gb-schneidman",
+      "name": "Matt Schneidman",
+      "team": "GB",
+      "outlet": "The Athletic",
+      "twitter": "@mattschneidman",
+      "podcast": {
+        "name": "The Tundra: A Podcast on the Packers / The Matt Schneidman Show (iHeart Wisconsin)",
+        "platforms": [
+          "Apple",
+          "iHeart",
+          "Spotify",
+          "Athletic app"
+        ],
+        "frequency": "Weekdays during football season"
+      },
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "HIGH",
+      "notes": "The Athletic Packers beat. Matt Schneidman Show weekdays on iHeart Wisconsin. Co-hosted Head of the Pack with Huber."
+    },
+    {
+      "id": "bw-gb-hodkiewicz",
+      "name": "Wes Hodkiewicz",
+      "team": "GB",
+      "outlet": "Packers.com",
+      "twitter": "@WesHod",
+      "podcast": {
+        "name": "Packers Unscripted",
+        "apple": "https://podcasts.apple.com/us/podcast/packers-unscripted/id873736265",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Stitcher",
+          "iHeart",
+          "YouTube",
+          "Packers.com"
+        ]
+      },
+      "youtube": "Green Bay Packers (Packers Unscripted)",
+      "substack": null,
+      "website": "packers.com",
+      "tier": "HIGH",
+      "notes": "Packers.com senior writer. Co-hosts Packers Unscripted with Mike Spofford. Former Green Bay Press-Gazette."
+    },
+    {
+      "id": "bw-gb-spofford",
+      "name": "Mike Spofford",
+      "team": "GB",
+      "outlet": "Packers.com",
+      "twitter": "@mikespofford",
+      "podcast": {
+        "name": "Packers Unscripted",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Stitcher",
+          "iHeart",
+          "YouTube",
+          "Packers.com"
+        ]
+      },
+      "youtube": "Green Bay Packers",
+      "substack": null,
+      "website": "packers.com",
+      "tier": "HIGH",
+      "notes": "Packers.com editor since 2006. 19th season as of 2024. Co-hosts Packers Unscripted with Hodkiewicz."
+    },
+    {
+      "id": "bw-gb-silverstein",
+      "name": "Tom Silverstein",
+      "team": "GB",
+      "outlet": "Milwaukee Journal Sentinel / PackersNews.com",
+      "twitter": "@TomSilverstein",
+      "podcast": {
+        "name": "Packers Podcast (Green 19 with Wood, Dougherty, Yates)",
+        "platforms": [
+          "Audioboom",
+          "Apple",
+          "iHeart"
+        ]
+      },
+      "substack": null,
+      "website": "jsonline.com",
+      "tier": "HIGH",
+      "notes": "Milwaukee Journal Sentinel Packers beat. Hosts live game chats. Former Milwaukee NewsGuild president."
+    },
+    {
+      "id": "bw-gb-wilde",
+      "name": "Jason Wilde",
+      "team": "GB",
+      "outlet": "ESPN Wisconsin / Morgan Murphy Media",
+      "twitter": "@jasonjwilde",
+      "podcast": {
+        "name": "Wilde & Tausch (with Mark Tauscher)",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "TuneIn",
+          "iHeart"
+        ],
+        "frequency": "Updates daily"
+      },
+      "substack": null,
+      "website": "espnwisconsin.com",
+      "tier": "HIGH",
+      "notes": "25th season covering Packers. ESPN Wisconsin host. Wilde & Tausch daily with HOF Mark Tauscher."
+    },
+    {
+      "id": "bw-gb-dougherty",
+      "name": "Pete Dougherty",
+      "team": "GB",
+      "outlet": "Green Bay Press-Gazette / PackersNews.com",
+      "twitter": "@PeteDougherty",
+      "podcast": {
+        "name": "Packers Podcast (Green 19)",
+        "platforms": [
+          "Audioboom",
+          "Apple",
+          "iHeart"
+        ]
+      },
+      "substack": null,
+      "website": "packersnews.com",
+      "tier": "MEDIUM",
+      "notes": "Packers columnist at GB Press-Gazette / USA Today Network Wisconsin."
+    },
+    {
+      "id": "bw-gb-nagler",
+      "name": "Aaron Nagler",
+      "team": "GB",
+      "outlet": "Cheesehead TV",
+      "twitter": "@AaronNagler",
+      "podcast": {
+        "name": "Packer Transplants (weekly with Corey Behnke)",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Cheesehead TV"
+        ],
+        "frequency": "1-hour weekly live show"
+      },
+      "youtube": "Cheesehead TV",
+      "substack": null,
+      "website": "cheeseheadtv.com",
+      "tier": "MEDIUM",
+      "notes": "Co-founder Cheesehead TV, biggest independent Packers blog. Packer Transplants weekly live show."
+    },
+    {
+      "id": "bw-gb-huber",
+      "name": "Bill Huber",
+      "team": "GB",
+      "outlet": "Sports Illustrated / AllPackers",
+      "twitter": "@BillHuberNFL",
+      "podcast": {
+        "name": "Head of the Pack (with Matt Schneidman)",
+        "platforms": [
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "si.com/nfl/packers",
+      "tier": "MEDIUM",
+      "notes": "Covered Packers since 2008. Publisher of Packers On SI. Head of the Pack with Schneidman."
+    },
+    {
+      "id": "bw-min-goessling",
+      "name": "Ben Goessling",
+      "team": "MIN",
+      "outlet": "Minnesota Star Tribune",
+      "twitter": "@BenGoessling",
+      "podcast": {
+        "name": "Access Vikings",
+        "apple": "https://podcasts.apple.com/us/podcast/access-vikings/id1032791356",
+        "spotify": "https://open.spotify.com/show/4QB6NC6ufxpMIic1YMjVgu",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Star Tribune app"
+        ]
+      },
+      "substack": null,
+      "website": "startribune.com",
+      "tier": "HIGH",
+      "notes": "Lead Vikings reporter Star Tribune since 2017. PFWA Top NFL beat writer 2024. Co-hosts Access Vikings."
+    },
+    {
+      "id": "bw-min-krammer",
+      "name": "Andrew Krammer",
+      "team": "MIN",
+      "outlet": "Minnesota Star Tribune",
+      "twitter": "@Andrew_Krammer",
+      "podcast": {
+        "name": "Access Vikings",
+        "platforms": [
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "startribune.com",
+      "tier": "HIGH",
+      "notes": "Star Tribune Vikings reporter since July 2016. Co-hosts Access Vikings."
+    },
+    {
+      "id": "bw-min-leiker",
+      "name": "Emily Leiker",
+      "team": "MIN",
+      "outlet": "Minnesota Star Tribune",
+      "twitter": "@emleiker",
+      "podcast": {
+        "name": "Access Vikings",
+        "platforms": [
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "startribune.com",
+      "tier": "MEDIUM",
+      "notes": "Star Tribune Vikings reporter. Mizzou grad 2022. Co-hosts Access Vikings."
+    },
+    {
+      "id": "bw-min-coller",
+      "name": "Matthew Coller",
+      "team": "MIN",
+      "outlet": "Purple Insider (Substack, independent)",
+      "twitter": "@Purple_Insider",
+      "podcast": {
+        "name": "Purple Insider - a Minnesota Vikings and NFL podcast",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Bleav",
+          "Substack",
+          "YouTube"
+        ]
+      },
+      "youtube": "Purple Insider",
+      "substack": {
+        "name": "Purple Insider",
+        "url": "https://purpleinsider.substack.com"
+      },
+      "website": "purpleinsider.com",
+      "tier": "HIGH",
+      "notes": "Independent Vikings Substack with daily newsletter + podcast. Author of Football is a Numbers Game. Credentialed access."
+    },
+    {
+      "id": "bw-min-lewis",
+      "name": "Alec Lewis",
+      "team": "MIN",
+      "outlet": "The Athletic",
+      "twitter": "@alec_lewis",
+      "podcast": {
+        "name": "The Alec Lewis Show",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "iHeart",
+          "Podbean"
+        ],
+        "frequency": "2x/week during football season"
+      },
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "HIGH",
+      "notes": "Current Vikings beat at The Athletic. The Alec Lewis Show twice weekly."
+    },
+    {
+      "id": "bw-min-hasan",
+      "name": "Arif Hasan",
+      "team": "MIN",
+      "outlet": "Wide Left (Substack, independent)",
+      "twitter": "@ArifHasanNFL",
+      "podcast": {
+        "name": "Norse Code (Vikings pod, on Wide Left Substack)",
+        "platforms": [
+          "Substack",
+          "Apple",
+          "Spotify"
+        ],
+        "frequency": "2x/week"
+      },
+      "youtube": null,
+      "substack": {
+        "name": "Wide Left",
+        "url": "https://www.wideleft.football"
+      },
+      "website": "wideleft.football",
+      "tier": "HIGH",
+      "notes": "Wide Left Substack has tens of thousands of subscribers. Norse Code twice-weekly Vikings pod. Coverage intersects NFL and analytics."
+    },
+    {
+      "id": "bw-min-seifert",
+      "name": "Kevin Seifert",
+      "team": "MIN",
+      "outlet": "ESPN",
+      "twitter": "@SeifertESPN",
+      "podcast": {
+        "name": "ESPN NFL Nation appearances",
+        "platforms": [
+          "ESPN App",
+          "ESPN Radio"
+        ]
+      },
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "ESPN national NFC North reporter. Heavily covers Vikings. Participant in official Vikings Beat Writers Roundtables."
+    },
+    {
+      "id": "bw-min-young",
+      "name": "Lindsey Young",
+      "team": "MIN",
+      "outlet": "Vikings.com",
+      "twitter": "@LindseyMNSports",
+      "podcast": {
+        "name": "Minnesota Vikings Podcast (official, guest)",
+        "platforms": [
+          "Vikings.com",
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "youtube": "Vikings.com",
+      "substack": null,
+      "website": "vikings.com",
+      "tier": "MEDIUM",
+      "notes": "Vikings.com writer and editor. Born and raised in Andover, MN."
+    },
+    {
+      "id": "bw-min-mizutani",
+      "name": "Dane Mizutani",
+      "team": "MIN",
+      "outlet": "St. Paul Pioneer Press",
+      "twitter": "@DaneMizutani",
+      "podcast": {
+        "name": "Purple Insider pod (frequent guest)",
+        "platforms": [
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "twincities.com",
+      "tier": "HIGH",
+      "notes": "Covers Vikings and MN Wild for Pioneer Press. Active Vikings beat participant in official Beat Writers Roundtables."
+    },
+    {
+      "id": "bw-hou-wilson",
+      "name": "Aaron Wilson",
+      "team": "HOU",
+      "outlet": "KPRC2 / Click2Houston",
+      "twitter": "@AaronWilson_NFL",
+      "podcast": {
+        "name": null,
+        "notes": "Regular guest on Houston radio; no dedicated feed"
+      },
+      "youtube": "youtube.com/@aaronwilsonsp",
+      "substack": null,
+      "website": "click2houston.com",
+      "tier": "HIGH",
+      "notes": "Most prolific NFL transactions reporter in the league. Has covered NFL since 1997."
+    },
+    {
+      "id": "bw-hou-alexander",
+      "name": "Jonathan M. Alexander",
+      "team": "HOU",
+      "outlet": "Houston Chronicle",
+      "twitter": "@jonmalexander",
+      "podcast": {
+        "name": "Texans All-Access (guest)",
+        "platforms": [
+          "Texans.com"
+        ]
+      },
+      "substack": null,
+      "website": "houstonchronicle.com",
+      "tier": "HIGH",
+      "notes": "Primary Texans beat writer at Chronicle."
+    },
+    {
+      "id": "bw-hou-kubena",
+      "name": "Brooks Kubena",
+      "team": "HOU",
+      "outlet": "Houston Chronicle",
+      "twitter": "@BKubena",
+      "podcast": null,
+      "substack": null,
+      "website": "houstonchronicle.com",
+      "tier": "HIGH",
+      "notes": "Texans beat reporter alongside Alexander at Chronicle."
+    },
+    {
+      "id": "bw-hou-dougherty",
+      "name": "Drew Dougherty",
+      "team": "HOU",
+      "outlet": "Texans.com",
+      "twitter": "@DoughertyDrew",
+      "podcast": {
+        "name": "Texans All-Access / Deep Slant",
+        "platforms": [
+          "Texans.com",
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "youtube": "youtube.com/houstontexans",
+      "substack": null,
+      "website": "houstontexans.com",
+      "tier": "MEDIUM",
+      "notes": "Senior Integrated Media Manager / Texans TV Host. Team-controlled outlet."
+    },
+    {
+      "id": "bw-hou-mcclain",
+      "name": "John McClain",
+      "team": "HOU",
+      "outlet": "Freelance (retired from Chronicle 2022)",
+      "twitter": "@McClain_on_NFL",
+      "podcast": {
+        "name": "John McClains Observations (Texans.com pod)",
+        "platforms": [
+          "Texans.com"
+        ]
+      },
+      "substack": null,
+      "website": "muckrack.com/mcclain_on_nfl",
+      "tier": "MEDIUM",
+      "notes": "Hall of Fame voter. Retired March 2022 after 46 years. Still appears on Texans.com podcasts. Covered Oilers/Texans since 1976."
+    },
+    {
+      "id": "bw-hou-davis",
+      "name": "Coty M. Davis",
+      "team": "HOU",
+      "outlet": "Sports Illustrated / FanNation",
+      "twitter": "@CotyDavis_24",
+      "podcast": null,
+      "substack": null,
+      "website": "si.com/nfl/texans",
+      "tier": "MEDIUM",
+      "notes": "Beat reporter for SI covering Texans."
+    },
+    {
+      "id": "bw-hou-rajan",
+      "name": "Greg Rajan",
+      "team": "HOU",
+      "outlet": "Houston Chronicle",
+      "twitter": "@GregRajan",
+      "podcast": null,
+      "substack": null,
+      "website": "houstonchronicle.com",
+      "tier": "MEDIUM",
+      "notes": "Senior editor and contributor on Texans coverage at Chronicle."
+    },
+    {
+      "id": "bw-hou-sidhu",
+      "name": "Deepi Sidhu",
+      "team": "HOU",
+      "outlet": "Formerly Texans.com (now corporate role at LyondellBasell)",
+      "twitter": "@DeepSlant",
+      "podcast": {
+        "name": "Deep Slant (archived)",
+        "platforms": [
+          "Texans.com"
+        ]
+      },
+      "substack": null,
+      "website": "houstontexans.com",
+      "tier": "LOW",
+      "notes": "INACTIVE: Left Texans.com for corporate role. No longer active beat reporter."
+    },
+    {
+      "id": "bw-hou-smith",
+      "name": "Brian T. Smith",
+      "team": "HOU",
+      "outlet": "talkSPORT (formerly Houston Chronicle)",
+      "twitter": "@ChronBrianSmith",
+      "podcast": null,
+      "substack": null,
+      "website": "muckrack.com/brian-t-smith",
+      "tier": "LOW",
+      "notes": "Former Chronicle NFL/MLB/NBA columnist. Now Senior US Sports Reporter for talkSPORT UK. No longer on Houston beat."
+    },
+    {
+      "id": "bw-hou-barshop",
+      "name": "Sarah Barshop",
+      "team": "HOU",
+      "outlet": "ESPN (covers LA Rams, NOT Texans since June 2022)",
+      "twitter": "@sarahbarshop",
+      "podcast": null,
+      "substack": null,
+      "website": "espn.com",
+      "tier": "LOW",
+      "notes": "CORRECTION: Now covers LA Rams for ESPN. No longer covers Houston. Included for historical context."
+    },
+    {
+      "id": "bw-ind-chappell",
+      "name": "Mike Chappell",
+      "team": "IND",
+      "outlet": "Fox59 / CBS4 Indianapolis",
+      "twitter": "@mchappell51",
+      "podcast": {
+        "name": "Colts Blue Zone Podcast",
+        "apple": "https://podcasts.apple.com/us/podcast/colts-blue-zone-podcast/id1455540324",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "iHeart"
+        ]
+      },
+      "substack": null,
+      "website": "fox59.com/author/mike-chappell/",
+      "tier": "HIGH",
+      "notes": "Dean of Colts reporters. Covered team since 1984 arrival in Indianapolis. Pro Football Hall of Fame Selection Committee member. Media room at Colts facility named in his honor."
+    },
+    {
+      "id": "bw-ind-erickson",
+      "name": "Joel A. Erickson",
+      "team": "IND",
+      "outlet": "Indianapolis Star / IndyStar",
+      "twitter": "@JoelAErickson",
+      "podcast": {
+        "name": "Colts Cover 2",
+        "rss": "https://www.omnycontent.com/d/playlist/a858b0a5-e5e6-4a14-9717-a70b010facc1/64c0ba32-6365-4ea0-874f-ab6d010b6441/3efe7d35-b98d-46b9-8110-ab6d010bb6d6/podcast.rss",
+        "platforms": [
+          "Apple",
+          "iHeart",
+          "SoundCloud",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "indystar.com",
+      "tier": "HIGH",
+      "notes": "Primary Colts beat at IndyStar. Co-hosts Colts Cover 2 with Nathan Brown. FOX59/CBS4 TV analyst."
+    },
+    {
+      "id": "bw-ind-bowen",
+      "name": "Kevin Bowen",
+      "team": "IND",
+      "outlet": "93.5 / 107.5 The Fan (WFNI)",
+      "twitter": "@KBowen1070",
+      "podcast": {
+        "name": "Colts Corner with Kevin Bowen",
+        "rss": "https://omny.fm/shows/kevins-corner-podcast/playlists/podcast",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "iHeart",
+          "Omny"
+        ]
+      },
+      "substack": null,
+      "website": "1075thefan.com/kevin-bowen/",
+      "tier": "HIGH",
+      "notes": "14-year Colts coverage veteran on Indianapolis sports radio. Morning show co-host. Strong locker room access."
+    },
+    {
+      "id": "bw-ind-keefer",
+      "name": "Zak Keefer",
+      "team": "IND",
+      "outlet": "The Athletic",
+      "twitter": "@zkeefer",
+      "podcast": {
+        "name": "One Percent Better: A show about the Indianapolis Colts",
+        "apple": "https://podcasts.apple.com/us/podcast/one-percent-better-a-show-about-the-indianapolis-colts/id1477561219",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Acast",
+          "TuneIn"
+        ]
+      },
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "HIGH",
+      "notes": "Senior writer The Athletic. Covered Colts 9 seasons. 2020 PFWA Bob Oates award. Adjunct journalism professor IU."
+    },
+    {
+      "id": "bw-ind-boyd",
+      "name": "James Boyd",
+      "team": "IND",
+      "outlet": "The Athletic",
+      "twitter": "@RomeovilleKid",
+      "podcast": {
+        "name": "The James Boyd Podcast",
+        "rss": "https://feeds.simplecast.com/Vnawq0yX",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "iHeart",
+          "Amazon"
+        ]
+      },
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "HIGH",
+      "notes": "The Athletic primary Colts beat since Aug 2022. Weekly podcast with Jim Ayello. Also on 107.5 The Fan."
+    },
+    {
+      "id": "bw-ind-holder",
+      "name": "Stephen Holder",
+      "team": "IND",
+      "outlet": "ESPN",
+      "twitter": "@HolderStephen",
+      "podcast": null,
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "ESPN NFL Nation Colts beat reporter. Covered Colts since 2013. 75K+ Twitter followers."
+    },
+    {
+      "id": "bw-ind-walker",
+      "name": "Andrew Walker",
+      "team": "IND",
+      "outlet": "Colts.com",
+      "twitter": "@AWalkerColts",
+      "podcast": {
+        "name": "Official Colts Podcast (contributor)",
+        "platforms": [
+          "Colts.com",
+          "Apple"
+        ]
+      },
+      "youtube": "youtube.com/indianapoliscolts",
+      "substack": null,
+      "website": "colts.com",
+      "tier": "MEDIUM",
+      "notes": "Team-employed writer for Colts.com."
+    },
+    {
+      "id": "bw-ind-brown",
+      "name": "Nathan Brown",
+      "team": "IND",
+      "outlet": "Indianapolis Star / IndyStar",
+      "twitter": "@NathanLBrown",
+      "podcast": {
+        "name": "Colts Cover 2",
+        "platforms": [
+          "Apple",
+          "iHeart",
+          "SoundCloud"
+        ]
+      },
+      "substack": null,
+      "website": "indystar.com",
+      "tier": "MEDIUM",
+      "notes": "Co-hosts Colts Cover 2 with Joel Erickson. Stepped up as primary co-host after Atkins departure."
+    },
+    {
+      "id": "bw-ind-atkins",
+      "name": "Nate Atkins",
+      "team": "IND",
+      "outlet": "The Athletic (now covers LA Rams)",
+      "twitter": "@NateAtkins_",
+      "podcast": null,
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "MEDIUM",
+      "notes": "PFWA #1 beat writer 2024. Left Colts beat for The Athletic Rams coverage 2025. No longer covers Indianapolis."
+    },
+    {
+      "id": "bw-jax-oehser",
+      "name": "John Oehser",
+      "team": "JAX",
+      "outlet": "Jaguars.com",
+      "twitter": "@JohnOehser",
+      "podcast": {
+        "name": "The O-Zone Podcast",
+        "apple": "https://podcasts.apple.com/us/podcast/the-o-zone-podcast/id1572386597",
+        "platforms": [
+          "Apple",
+          "Jaguars.com",
+          "Spotify"
+        ]
+      },
+      "youtube": "youtube.com/jaguars",
+      "substack": null,
+      "website": "jaguars.com",
+      "tier": "HIGH",
+      "notes": "Senior Writer Jaguars.com since O-Zone era. 12 years at Florida Times-Union before. Hosts O-Zone Podcast and Huddle Up podcast. Deep franchise knowledge."
+    },
+    {
+      "id": "bw-jax-long",
+      "name": "Mark Long",
+      "team": "JAX",
+      "outlet": "Associated Press",
+      "twitter": "@APMarkLong",
+      "podcast": null,
+      "substack": null,
+      "website": "apnews.com",
+      "tier": "HIGH",
+      "notes": "AP Sports Writer covering Jaguars. Wire service coverage distributed nationally. Long-tenured Florida-based AP reporter."
+    },
+    {
+      "id": "bw-jax-heilman",
+      "name": "Phillip Heilman",
+      "team": "JAX",
+      "outlet": "The Athletic / Orlando Sentinel",
+      "twitter": "@phillip_heilman",
+      "podcast": null,
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "HIGH",
+      "notes": "Covers Jaguars for The Athletic. Analytical and enterprise-focused. Appears on Jaguars media roundtables."
+    },
+    {
+      "id": "bw-jax-frenette",
+      "name": "Gene Frenette",
+      "team": "JAX",
+      "outlet": "Florida Times-Union / Jacksonville.com",
+      "twitter": "@genefrenette",
+      "podcast": {
+        "name": "O-Zone Podcast (guest)",
+        "platforms": [
+          "Jaguars.com"
+        ]
+      },
+      "substack": null,
+      "website": "jacksonville.com",
+      "tier": "HIGH",
+      "notes": "Covered Jaguars as columnist since franchise began 1993. Joined Jacksonville Journal 1981. Institutional memory of entire franchise history."
+    },
+    {
+      "id": "bw-jax-dirocco",
+      "name": "Michael DiRocco",
+      "team": "JAX",
+      "outlet": "ESPN",
+      "twitter": "@ESPNdirocco",
+      "podcast": null,
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "ESPN NFL Nation Jaguars reporter since Aug 2013. Multi-platform ESPN TV and radio. Strong franchise access."
+    },
+    {
+      "id": "bw-jax-harvey",
+      "name": "Demetrius Harvey",
+      "team": "JAX",
+      "outlet": "Florida Times-Union / Jacksonville.com",
+      "twitter": "@Demetrius82",
+      "podcast": null,
+      "substack": null,
+      "website": "jacksonville.com",
+      "tier": "HIGH",
+      "notes": "Primary Jaguars beat reporter at Florida Times-Union. Breaking news and game coverage focus."
+    },
+    {
+      "id": "bw-jax-freeman",
+      "name": "Clayton Freeman",
+      "team": "JAX",
+      "outlet": "Florida Times-Union / Jacksonville.com",
+      "twitter": "@CFreemanJAX",
+      "podcast": null,
+      "substack": null,
+      "website": "jacksonville.com",
+      "tier": "MEDIUM",
+      "notes": "Sports reporter tracking Jaguars for Florida Times-Union. 5th-generation Jacksonville resident."
+    },
+    {
+      "id": "bw-jax-shadrick",
+      "name": "J.P. Shadrick",
+      "team": "JAX",
+      "outlet": "Jaguars.com",
+      "twitter": "@jpshadrick",
+      "podcast": {
+        "name": "Jaguars Reporters Podcast",
+        "apple": "https://podcasts.apple.com/us/podcast/jaguars-reporters/id1572385814",
+        "platforms": [
+          "Apple",
+          "Jaguars.com"
+        ]
+      },
+      "youtube": "youtube.com/jaguars",
+      "substack": null,
+      "website": "jaguars.com",
+      "tier": "MEDIUM",
+      "notes": "Senior Reporter/Editor Jaguars.com. Also does Westwood One NFL play-by-play. Hosts multiple official Jaguars pods."
+    },
+    {
+      "id": "bw-jax-shipley",
+      "name": "John Shipley",
+      "team": "JAX",
+      "outlet": "Sports Illustrated / Jaguars On SI",
+      "twitter": "@_John_Shipley",
+      "podcast": {
+        "name": "Jaguars On SI Podcast",
+        "apple": "https://podcasts.apple.com/us/podcast/jaguars-on-si-podcast/id1487688378",
+        "platforms": [
+          "Apple"
+        ]
+      },
+      "substack": null,
+      "website": "si.com/nfl/jaguars",
+      "tier": "MEDIUM",
+      "notes": "Covering Jaguars for SI since 2019. Appears on Jaguars.com media roundtables."
+    },
+    {
+      "id": "bw-jax-obrien",
+      "name": "Mia O'Brien",
+      "team": "JAX",
+      "outlet": "ESPN Radio Jacksonville",
+      "twitter": "@MiaOBrienTV",
+      "podcast": null,
+      "substack": null,
+      "website": "miaobrien.weebly.com",
+      "tier": "MEDIUM",
+      "notes": "Covers Jaguars for ESPN Radio Jacksonville. Strong local TV/radio presence."
+    },
+    {
+      "id": "bw-ten-wyatt",
+      "name": "Jim Wyatt",
+      "team": "TEN",
+      "outlet": "Titans.com",
+      "twitter": "@jwyattsports",
+      "podcast": {
+        "name": "The OTP: Official Titans Podcast",
+        "apple": "https://podcasts.apple.com/us/podcast/the-otp-official-titans-podcast/id1439265485",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Titans.com"
+        ]
+      },
+      "youtube": "youtube.com/tennesseetitans",
+      "substack": null,
+      "website": "tennesseetitans.com",
+      "tier": "HIGH",
+      "notes": "With Titans since 1999. Senior Writer and Editor. Hosts OTP podcast 8th season. Runs Tuesday Mailbag."
+    },
+    {
+      "id": "bw-ten-mccormick",
+      "name": "Terry McCormick",
+      "team": "TEN",
+      "outlet": "TitanInsider.com",
+      "twitter": "@terrymc13",
+      "podcast": {
+        "name": "TitanInsider Podcast (with Mark Howard)",
+        "platforms": [
+          "Main Street Media TN"
+        ]
+      },
+      "substack": null,
+      "website": "titaninsider.com",
+      "tier": "HIGH",
+      "notes": "Independent Titans beat writer since 1997. Publisher of TitanInsider.com. One of the longest-tenured independent Titans reporters."
+    },
+    {
+      "id": "bw-ten-kuharsky",
+      "name": "Paul Kuharsky",
+      "team": "TEN",
+      "outlet": "PaulKuharsky.com / 440 Sports",
+      "twitter": "@PaulKuharskyNFL",
+      "podcast": {
+        "name": "The Paul Kuharsky Podcast",
+        "rss": "https://www.paulkuharsky.com/news/feed/rss/",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "paulkuharsky.com",
+          "440 Sports"
+        ]
+      },
+      "youtube": "youtube.com (via 440 Sports)",
+      "substack": null,
+      "website": "paulkuharsky.com",
+      "tier": "HIGH",
+      "notes": "Covered Titans since 1996 including Oilers era. Pro Football Hall of Fame voter. Runs own website with subscribers. Podcast regularly interviews players and coaches."
+    },
+    {
+      "id": "bw-ten-glennon",
+      "name": "John Glennon",
+      "team": "TEN",
+      "outlet": "Nashville Post",
+      "twitter": "@glennonsports",
+      "podcast": {
+        "name": "First & Tenn",
+        "apple": "https://podcasts.apple.com/us/podcast/first-tenn/id1765895128",
+        "platforms": [
+          "Apple",
+          "Nashville Post"
+        ]
+      },
+      "substack": null,
+      "website": "nashvillepost.com",
+      "tier": "HIGH",
+      "notes": "Covers Titans and Predators for Nashville Post. Previously The Athletic and The Tennessean. Co-hosts First & Tenn weekly with David Boclair."
+    },
+    {
+      "id": "bw-ten-davenport",
+      "name": "Turron Davenport",
+      "team": "TEN",
+      "outlet": "ESPN",
+      "twitter": "@TDavenport_NFL",
+      "podcast": {
+        "name": "Talking with TD (ESPN Radio Nashville)",
+        "platforms": [
+          "ESPN Radio",
+          "The Game Nashville"
+        ]
+      },
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "ESPN NFL Nation Titans since Aug 2018. Former Eagles Wire. Author of four books. Regular on SportsCenter, NFL Live."
+    },
+    {
+      "id": "bw-ten-suss",
+      "name": "Nick Suss",
+      "team": "TEN",
+      "outlet": "The Tennessean",
+      "twitter": "@nicksuss",
+      "podcast": null,
+      "substack": null,
+      "website": "tennessean.com",
+      "tier": "HIGH",
+      "notes": "Current primary Titans beat writer at The Tennessean. Breaking news and game coverage."
+    },
+    {
+      "id": "bw-ten-phalen",
+      "name": "Sam Phalen",
+      "team": "TEN",
+      "outlet": "A to Z Sports Nashville",
+      "twitter": "@Sam_Phalen",
+      "podcast": {
+        "name": "Titan Up Podcast",
+        "apple": "https://podcasts.apple.com/us/podcast/titan-up/id1368981957",
+        "platforms": [
+          "Apple",
+          "A to Z Sports"
+        ]
+      },
+      "youtube": "youtube.com/AtoZSportsNashville",
+      "substack": null,
+      "website": "atozsports.com",
+      "tier": "MEDIUM",
+      "notes": "Titans beat reporter for A to Z Sports Nashville. Notably appeared as castaway on CBS Survivor 47."
+    },
+    {
+      "id": "bw-ten-organ",
+      "name": "Mike Organ",
+      "team": "TEN",
+      "outlet": "The Tennessean",
+      "twitter": "@MikeOrganWriter",
+      "podcast": null,
+      "substack": null,
+      "website": "tennessean.com",
+      "tier": "MEDIUM",
+      "notes": "Sports Writer at The Tennessean. NSMA Tennessee Sports Writer of Year. General assignment with Titans focus."
+    },
+    {
+      "id": "bw-den-klis",
+      "name": "Mike Klis",
+      "team": "DEN",
+      "outlet": "9News (KUSA-TV)",
+      "twitter": "@mikeklis9news",
+      "podcast": {
+        "name": "Broncos Now (contributor)",
+        "platforms": [
+          "Broncos.com",
+          "Apple"
+        ]
+      },
+      "youtube": "youtube.com/9news",
+      "substack": null,
+      "website": "9news.com",
+      "tier": "HIGH",
+      "notes": "Broncos Insider at 9NEWS. Also appears regularly on 104.3 The Fan. Formerly Denver Post."
+    },
+    {
+      "id": "bw-den-mason",
+      "name": "Andrew Mason",
+      "team": "DEN",
+      "outlet": "DenverSports.com / 104.3 The Fan",
+      "twitter": "@MaseDenver",
+      "podcast": {
+        "name": "Orange & Blue Today",
+        "platforms": [
+          "104.3 The Fan",
+          "DenverSports.com"
+        ],
+        "frequency": "Weekdays 4 MDT"
+      },
+      "youtube": "youtube.com/@MaseDenver",
+      "substack": null,
+      "website": "denversports.com",
+      "tier": "HIGH",
+      "notes": "27th NFL season. 22nd on Broncos beat. One of the most experienced Broncos journalists working. Active on YouTube and TikTok."
+    },
+    {
+      "id": "bw-den-legwold",
+      "name": "Jeff Legwold",
+      "team": "DEN",
+      "outlet": "ESPN",
+      "twitter": "@Jeff_Legwold",
+      "podcast": {
+        "name": "Jeff Legwold ESPN Broncos Reports",
+        "apple": "https://podcasts.apple.com/us/podcast/jeff-legwold-espn-broncos-reports/id1729476511",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Spreaker",
+          "Altitude Sports Radio 92.5 FM"
+        ]
+      },
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "ESPN Senior Writer Broncos since Aug 2013. 35+ years covering NFL. Broncos since 2004. Dedicated ESPN Broncos Reports podcast feed."
+    },
+    {
+      "id": "bw-den-allbright",
+      "name": "Benjamin Allbright",
+      "team": "DEN",
+      "outlet": "KOA 850 AM / 94.1 FM",
+      "twitter": "@AllbrightNFL",
+      "podcast": {
+        "name": "Broncos Country Tonight",
+        "rss": "https://www.spreaker.com/show/3634300/episodes/feed",
+        "platforms": [
+          "Apple",
+          "iHeart",
+          "Spreaker"
+        ]
+      },
+      "substack": null,
+      "website": "koacolorado.iheart.com",
+      "tier": "HIGH",
+      "notes": "Host of Broncos Country Tonight nightly on Broncos flagship KOA Radio. Strong insider sourcing and transaction reporting. Broadcasts from UC Health Training Center."
+    },
+    {
+      "id": "bw-den-renck",
+      "name": "Troy Renck",
+      "team": "DEN",
+      "outlet": "Denver7 (KMGH-TV)",
+      "twitter": "@TroyRenck",
+      "podcast": {
+        "name": "The Broncos Podcast with Troy Renck",
+        "apple": "https://podcasts.apple.com/us/podcast/the-broncos-podcast-with-troy-renck/id1579173155",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "iHeart",
+          "Bleav"
+        ]
+      },
+      "youtube": "denver7.com",
+      "substack": null,
+      "website": "denver7.com",
+      "tier": "HIGH",
+      "notes": "Denver7 Broncos Insider. Previously Denver Post. Also appears on official Broncos Now podcast."
+    },
+    {
+      "id": "bw-den-gabriel",
+      "name": "Parker Gabriel",
+      "team": "DEN",
+      "outlet": "The Denver Post",
+      "twitter": "@ParkerJGabriel",
+      "podcast": null,
+      "substack": null,
+      "website": "denverpost.com",
+      "tier": "HIGH",
+      "notes": "Broncos beat reporter Denver Post. Primary broadsheet daily beat writer. Also on KFBC Radio discussing NFL Draft."
+    },
+    {
+      "id": "bw-den-dilalla",
+      "name": "Aric DiLalla",
+      "team": "DEN",
+      "outlet": "Broncos.com",
+      "twitter": "@AricDiLalla",
+      "podcast": {
+        "name": "Altitude Advantage: Official Denver Broncos Podcast",
+        "apple": "https://podcasts.apple.com/us/podcast/altitude-advantage-official-denver-broncos-podcast/id261447018",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "TuneIn",
+          "YouTube"
+        ]
+      },
+      "youtube": "youtube.com/denverbroncos",
+      "substack": null,
+      "website": "denverbroncos.com",
+      "tier": "MEDIUM",
+      "notes": "Digital Content Manager and Lead Writer for official Broncos site. Co-hosts Altitude Advantage with Elisa Hernandez."
+    },
+    {
+      "id": "bw-den-stevens",
+      "name": "Zac Stevens",
+      "team": "DEN",
+      "outlet": "DNVR Sports",
+      "twitter": "@ZacStevensDNVR",
+      "podcast": {
+        "name": "DNVR Denver Broncos Podcast",
+        "apple": "https://podcasts.apple.com/us/podcast/dnvr-denver-broncos-podcast/id1067992218",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "iHeart"
+        ]
+      },
+      "youtube": "youtube.com/DNVR",
+      "substack": null,
+      "website": "thednvr.com",
+      "tier": "HIGH",
+      "notes": "Co-hosts daily DNVR Broncos podcast. #1 most-listened-to Denver Broncos podcast globally per self-report. DNVR broadcasts live from downtown Denver bar."
+    },
+    {
+      "id": "bw-kc-teope",
+      "name": "Herbie Teope",
+      "team": "KC",
+      "outlet": "KC Sports Network",
+      "twitter": "@HerbieTeope",
+      "podcast": {
+        "name": "KC Sports Network Chiefs Podcasts",
+        "apple": "https://podcasts.apple.com/us/podcast/kc-sports-network-kansas-city-chiefs-podcasts/id1530866619",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "KCSN.com"
+        ]
+      },
+      "substack": {
+        "name": "KCSN Substack",
+        "url": "https://substack.com/@kcsn"
+      },
+      "website": "kcsn.com",
+      "tier": "HIGH",
+      "notes": "Lead Chiefs beat reporter at KC Sports Network. Formerly KC Star. Strong sourcing throughout Chiefs organization. KCSN has Substack newsletter."
+    },
+    {
+      "id": "bw-kc-mcdowell",
+      "name": "Sam McDowell",
+      "team": "KC",
+      "outlet": "Kansas City Star",
+      "twitter": "@SamMcDowell11",
+      "podcast": {
+        "name": "Red Gold & Bold",
+        "platforms": [
+          "Spreaker"
+        ]
+      },
+      "substack": null,
+      "website": "kansascity.com",
+      "tier": "HIGH",
+      "notes": "Sports columnist KC Star. Co-hosts Red Gold & Bold with Jeff Chadiha (NFL Network) and Soren Petro (Sports Radio 810)."
+    },
+    {
+      "id": "bw-kc-taylor",
+      "name": "Nate Taylor",
+      "team": "KC",
+      "outlet": "ESPN (joined July 2025, replacing retired Adam Teicher)",
+      "twitter": "@ByNateTaylor",
+      "podcast": null,
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "CRITICAL UPDATE: Joined ESPN as Chiefs NFL Nation reporter July 2025, replacing retired Adam Teicher after 32 seasons. 2022 PFWA Bob Oates award winner. Previously The Athletic Chiefs since 2018."
+    },
+    {
+      "id": "bw-kc-sweeney",
+      "name": "Pete Sweeney",
+      "team": "KC",
+      "outlet": "Arrowhead Pride (SB Nation)",
+      "twitter": "@pgsween",
+      "podcast": {
+        "name": "Arrowhead Pride Podcast",
+        "apple": "https://podcasts.apple.com/us/podcast/arrowhead-pride-for-kansas-city-chiefs-fans/id1265215925",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Megaphone"
+        ]
+      },
+      "substack": null,
+      "website": "arrowheadpride.com",
+      "tier": "HIGH",
+      "notes": "Editor-in-chief Arrowhead Pride since 2018. Also KSHB41 analyst and Sports Radio 810. SB Nation ended pod network support April 2024 — AP Editors Show continues Tuesdays."
+    },
+    {
+      "id": "bw-kc-derrick",
+      "name": "Matt Derrick",
+      "team": "KC",
+      "outlet": "ChiefsDigest.com",
+      "twitter": "@mattderrick",
+      "podcast": {
+        "name": "41 is the Mic Chiefs Podcast",
+        "apple": "https://podcasts.apple.com/us/podcast/41-is-the-mic-chiefs-podcast/id1415792089",
+        "platforms": [
+          "Apple"
+        ]
+      },
+      "substack": null,
+      "website": "chiefsdigest.com",
+      "tier": "HIGH",
+      "notes": "Lead beat writer and publisher ChiefsDigest.com since 2016. Contributor to Sports Radio 810. Collaboration with KSHB41."
+    },
+    {
+      "id": "bw-kc-kissel",
+      "name": "BJ Kissel",
+      "team": "KC",
+      "outlet": "KC Sports Network",
+      "twitter": "@ChiefsReporter",
+      "podcast": {
+        "name": "In the Trenches (KC Sports Network)",
+        "platforms": [
+          "Spotify",
+          "Apple",
+          "KCSN.com"
+        ]
+      },
+      "youtube": "youtube.com/kcsportsnetwork",
+      "substack": {
+        "name": "KCSN Substack",
+        "url": "https://substack.com/@kcsn"
+      },
+      "website": "kcsportsnetwork.com",
+      "tier": "HIGH",
+      "notes": "Co-founded KC Sports Network 2021 after 6 years as Chiefs.com team reporter. 10 KCSN shows. Hosts In the Trenches with former NFL OL Nick Leckey."
+    },
+    {
+      "id": "bw-kc-newell",
+      "name": "Jesse Newell",
+      "team": "KC",
+      "outlet": "The Athletic",
+      "twitter": "@jessenewell",
+      "podcast": null,
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "HIGH",
+      "notes": "Chiefs beat reporter at The Athletic. Joined for Chiefs coverage 2025. Formerly KC Star covering Chiefs since 2022."
+    },
+    {
+      "id": "bw-kc-kuntz",
+      "name": "Harold Kuntz",
+      "team": "KC",
+      "outlet": "FOX4 Kansas City (WDAF-TV)",
+      "twitter": "@HaroldRKuntz3",
+      "podcast": null,
+      "substack": null,
+      "website": "fox4kc.com",
+      "tier": "MEDIUM",
+      "notes": "Sports Anchor/Reporter at FOX4 Kansas City (WDAF-TV, not KCTV5). Covers Chiefs prominently."
+    },
+    {
+      "id": "bw-lv-bonsignore",
+      "name": "Vincent Bonsignore",
+      "team": "LV",
+      "outlet": "Las Vegas Review-Journal / Raider Nation Radio 920AM",
+      "twitter": "@VinnyBonsignore",
+      "podcast": {
+        "name": "The Morning Tailgate (Raider Nation Radio)",
+        "platforms": [
+          "RNR920AM",
+          "iHeart"
+        ]
+      },
+      "substack": null,
+      "website": "reviewjournal.com",
+      "tier": "HIGH",
+      "notes": "VegasNation reporter at LVRJ covering Raiders. Hosts Morning Tailgate on RNR 920AM. NFL Insider for LA AM 570 Sports. One of most sourced Raiders reporters in Las Vegas."
+    },
+    {
+      "id": "bw-lv-gutierrez",
+      "name": "Paul Gutierrez",
+      "team": "LV",
+      "outlet": "ESPN",
+      "twitter": "@PGutierrezESPN",
+      "podcast": null,
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "ESPN NFL Nation Las Vegas Raiders reporter since 2013. Also Raiders.com columnist. Multi-platform. Strong franchise access. One of the most reliable current Raiders beat voices."
+    },
+    {
+      "id": "bw-lv-mcfadden",
+      "name": "Ryan McFadden",
+      "team": "LV",
+      "outlet": "ESPN",
+      "twitter": "@ryanmcfadden_",
+      "podcast": null,
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "Las Vegas Raiders reporter ESPN NFL Nation. Formerly Denver Post Broncos beat and Baltimore Sun. Active daily coverage including 2025 Raiders dysfunction."
+    },
+    {
+      "id": "bw-lv-carpenter",
+      "name": "Hondo Carpenter",
+      "team": "LV",
+      "outlet": "Sports Illustrated / Raiders On SI",
+      "twitter": "@HondoCarpenter",
+      "podcast": {
+        "name": "Las Vegas Raiders Insider: A Raiders Podcast Network",
+        "apple": "https://podcasts.apple.com/us/podcast/las-vegas-raiders-insider-a-raiders-podcast-network/id1683302878",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Pro Football Insiders"
+        ]
+      },
+      "substack": null,
+      "website": "si.com/nfl/raiders",
+      "tier": "HIGH",
+      "notes": "Senior Writer NFL/College at SI. Primary Raiders beat for SI. Hosts Las Vegas Raiders Insider podcast from inside facility."
+    },
+    {
+      "id": "bw-lv-edwards",
+      "name": "Levi Edwards",
+      "team": "LV",
+      "outlet": "Raiders.com",
+      "twitter": "@theleviedwards",
+      "podcast": null,
+      "youtube": "youtube.com/raiders",
+      "substack": null,
+      "website": "raiders.com",
+      "tier": "MEDIUM",
+      "notes": "Digital Team Reporter official Raiders.com. Team-employed. Previously AL.com, Stars and Stripes, WKRN-TV Nashville."
+    },
+    {
+      "id": "bw-lv-tafur",
+      "name": "Vic Tafur",
+      "team": "LV",
+      "outlet": "The Athletic (NOW COVERS 49ERS as of April 29 2025)",
+      "twitter": "@VicTafur",
+      "podcast": null,
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "LOW",
+      "notes": "CRITICAL UPDATE: Left Raiders beat April 29 2025 after 15 years. Now covers SF 49ers. No longer covers Las Vegas."
+    },
+    {
+      "id": "bw-lv-reed",
+      "name": "Tashan Reed",
+      "team": "LV",
+      "outlet": "Laid off (was WaPo Feb 2026, was The Athletic Raiders)",
+      "twitter": "@tashanreed",
+      "podcast": null,
+      "substack": null,
+      "website": "muckrack.com/tashan-reed",
+      "tier": "LOW",
+      "notes": "2023 PFWA Terez Paylor Emerging Writer Award. Left The Athletic Raiders for WaPo Commanders Sept 2025. Laid off WaPo Feb 2026. No longer on any beat."
+    },
+    {
+      "id": "bw-lac-popper",
+      "name": "Daniel Popper",
+      "team": "LAC",
+      "outlet": "The Athletic",
+      "twitter": "@danielrpopper",
+      "podcast": {
+        "name": "Hops With Pop",
+        "rss": "https://hopswithpop.substack.com/podcast",
+        "platforms": [
+          "Substack",
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": {
+        "name": "Hops With Pop",
+        "url": "https://hopswithpop.substack.com"
+      },
+      "website": "theathletic.com",
+      "tier": "HIGH",
+      "notes": "Senior Chargers writer The Athletic. Hops With Pop Substack: 3,300+ subscribers, ranked #47 in Sports on Substack. Live stream podcast format."
+    },
+    {
+      "id": "bw-lac-manzano",
+      "name": "Gilberto Manzano",
+      "team": "LAC",
+      "outlet": "Southern California News Group (SCNG)",
+      "twitter": "@GManzano24",
+      "podcast": {
+        "name": "Compas On The Beat",
+        "apple": "https://podcasts.apple.com/us/podcast/compas-on-the-beat-the-adventures-of-two-sports-reporters/id1557802482",
+        "platforms": [
+          "Apple",
+          "Buzzsprout"
+        ]
+      },
+      "substack": null,
+      "website": "si.com/author/gilberto-manzano",
+      "tier": "HIGH",
+      "notes": "Covers Chargers for SCNG (OC Register, LA Daily News). Co-hosts Compas On The Beat about covering LA Chargers."
+    },
+    {
+      "id": "bw-lac-miller",
+      "name": "Jeff Miller",
+      "team": "LAC",
+      "outlet": "Los Angeles Times",
+      "twitter": "@JeffMillerLAT",
+      "podcast": null,
+      "substack": null,
+      "website": "latimes.com",
+      "tier": "HIGH",
+      "notes": "NFL reporter/columnist LA Times covering Chargers. Appears on official Chargers beat writer roundtables. Premium outlet with strong editorial independence."
+    },
+    {
+      "id": "bw-lac-williams",
+      "name": "Eric D. Williams",
+      "team": "LAC",
+      "outlet": "Fox Sports",
+      "twitter": "@eric_d_williams",
+      "podcast": null,
+      "substack": null,
+      "website": "foxsports.com",
+      "tier": "HIGH",
+      "notes": "NFL writer Fox Sports. Covered Chargers for ESPN prior to Fox move. Multi-outlet presence."
+    },
+    {
+      "id": "bw-lac-rhim",
+      "name": "Kris Rhim",
+      "team": "LAC",
+      "outlet": "ESPN",
+      "twitter": "@krisrhim1",
+      "podcast": null,
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "ESPN NFL Nation Los Angeles Chargers beat reporter since September 2023. Formerly Baltimore Ravens at Baltimore Banner."
+    },
+    {
+      "id": "bw-lac-krasovic",
+      "name": "Tom Krasovic",
+      "team": "LAC",
+      "outlet": "San Diego Union-Tribune",
+      "twitter": "@SDUTKrasovic",
+      "podcast": null,
+      "substack": null,
+      "website": "sandiegouniontribune.com",
+      "tier": "HIGH",
+      "notes": "NFL columnist San Diego Union-Tribune. Longstanding Chargers coverage from San Diego perspective."
+    },
+    {
+      "id": "bw-lac-henne",
+      "name": "Ricky Henne",
+      "team": "LAC",
+      "outlet": "Chargers.com",
+      "twitter": "@ChargersRHenne",
+      "podcast": {
+        "name": "Chargers Weekly Podcast (contributor)",
+        "platforms": [
+          "Chargers.com",
+          "Apple"
+        ]
+      },
+      "youtube": "youtube.com/chargers",
+      "substack": null,
+      "website": "chargers.com",
+      "tier": "MEDIUM",
+      "notes": "Managing Editor Chargers.com. Team-employed journalist with official club access."
+    },
+    {
+      "id": "bw-lac-elwood",
+      "name": "Hayley Elwood",
+      "team": "LAC",
+      "outlet": "Chargers.com / KTLA / Sirius XM NFL Radio",
+      "twitter": "@HayleyElwood",
+      "podcast": null,
+      "substack": null,
+      "website": "hayleyelwood.com",
+      "tier": "MEDIUM",
+      "notes": "Team Reporter Los Angeles Chargers. Also works with KTLA, NFL Network, Sirius XM. Multi-platform sports broadcaster."
+    },
+    {
+      "id": "bw-buf-buscaglia",
+      "name": "Joe Buscaglia",
+      "team": "BUF",
+      "outlet": "The Athletic",
+      "twitter": "@JoeBuscaglia",
+      "podcast": {
+        "name": "The Buffalo Beat",
+        "apple": "https://podcasts.apple.com/us/podcast/the-buffalo-beat-a-show-about-the-buffalo-bills/id1373776577",
+        "spotify": "https://open.spotify.com/show/5K0SGbtL5bNemoMRBcFM0t",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Audible"
+        ],
+        "frequency": "Weekly"
+      },
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "HIGH",
+      "notes": "Primary Bills beat writer at The Athletic. Co-hosts The Buffalo Beat with Matthew Fairburn. Breaks transactions and roster moves."
+    },
+    {
+      "id": "bw-buf-capaccio",
+      "name": "Sal Capaccio",
+      "team": "BUF",
+      "outlet": "WGR 550 Sports Radio",
+      "twitter": "@SalSports",
+      "podcast": {
+        "name": "It's Always Game Day in Buffalo",
+        "platforms": [
+          "iTunes",
+          "YouTube",
+          "X/Twitter"
+        ]
+      },
+      "substack": null,
+      "website": "audacy.com/wgr550",
+      "tier": "HIGH",
+      "notes": "WGR 550 Bills reporter and sideline reporter. 2025 Sports Broadcaster of the Year. Strong locker room access."
+    },
+    {
+      "id": "bw-buf-getzenberg",
+      "name": "Alaina Getzenberg",
+      "team": "BUF",
+      "outlet": "ESPN",
+      "twitter": "@agetzenberg",
+      "podcast": null,
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "ESPN NFL Nation Bills reporter since September 2021. Appears on SportsCenter, NFL Live, ESPN Radio."
+    },
+    {
+      "id": "bw-buf-skurski",
+      "name": "Jay Skurski",
+      "team": "BUF",
+      "outlet": "Buffalo News",
+      "twitter": "@JaySkurski",
+      "podcast": {
+        "name": "Further Review (Buffalo News)",
+        "platforms": [
+          "Buffalo News website",
+          "Apple"
+        ]
+      },
+      "substack": null,
+      "website": "buffalonews.com",
+      "tier": "HIGH",
+      "notes": "Veteran Bills beat writer at Buffalo News. Hosts Further Review. Bills Mailbag columnist. Strong locker room access."
+    },
+    {
+      "id": "bw-buf-graham",
+      "name": "Tim Graham",
+      "team": "BUF",
+      "outlet": "The Athletic",
+      "twitter": "@ByTimGraham",
+      "podcast": {
+        "name": "TGAF: Tim Graham And Friends",
+        "apple": "https://podcasts.apple.com/us/podcast/tgaf-tim-graham-and-friends/id1438471984",
+        "spotify": "https://open.spotify.com/show/5yc8Cjba5Fi9E8T8gmjHqV",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "YouTube",
+          "Amazon"
+        ],
+        "frequency": "Biweekly"
+      },
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "HIGH",
+      "notes": "Senior writer The Athletic. 14+ years at Buffalo News before ESPN then Athletic. NFL analyst for WIVB Channel 4. Breaks major Bills stories."
+    },
+    {
+      "id": "bw-buf-fairburn",
+      "name": "Matthew Fairburn",
+      "team": "BUF",
+      "outlet": "The Athletic",
+      "twitter": "@MatthewFairburn",
+      "podcast": {
+        "name": "The Buffalo Beat",
+        "apple": "https://podcasts.apple.com/us/podcast/the-buffalo-beat-a-show-about-the-buffalo-bills/id1373776577",
+        "spotify": "https://open.spotify.com/show/5K0SGbtL5bNemoMRBcFM0t",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Audible"
+        ],
+        "frequency": "Weekly"
+      },
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "HIGH",
+      "notes": "Bills beat writer The Athletic. Co-hosts The Buffalo Beat with Buscaglia. Strong locker room and front office access."
+    },
+    {
+      "id": "bw-buf-fitzgerald",
+      "name": "Katherine Fitzgerald",
+      "team": "BUF",
+      "outlet": "Buffalo News",
+      "twitter": "@kfitz134",
+      "podcast": {
+        "name": "PlayAction / Further Review (Buffalo News)",
+        "platforms": [
+          "Buffalo News website"
+        ]
+      },
+      "substack": null,
+      "website": "buffalonews.com",
+      "tier": "HIGH",
+      "notes": "Bills beat writer at Buffalo News. Co-hosts PlayAction with Gaughan and Lysowski. Previously covered Cardinals for azcentral."
+    },
+    {
+      "id": "bw-buf-wojton",
+      "name": "Nick Wojton",
+      "team": "BUF",
+      "outlet": "Bills Wire / USA Today",
+      "twitter": "@nick_wojton",
+      "podcast": {
+        "name": "Bills Wire Podcast",
+        "apple": "https://podcasts.apple.com/us/podcast/bills-wire-podcast/id1656103552",
+        "spotify": "https://open.spotify.com/show/0Uffuth6NoNzPKsAl6GPkd",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Audacy"
+        ]
+      },
+      "substack": null,
+      "website": "billswire.usatoday.com",
+      "tier": "MEDIUM",
+      "notes": "Editor of Bills Wire for USA Today Sports."
+    },
+    {
+      "id": "bw-buf-gaughan",
+      "name": "Mark Gaughan",
+      "team": "BUF",
+      "outlet": "Buffalo News (RETIRED May 2025)",
+      "twitter": "@gggaughan",
+      "podcast": null,
+      "substack": null,
+      "website": "buffalonews.com",
+      "tier": "LOW",
+      "notes": "RETIRED May 2025 after 43.5 years at Buffalo News and 35 years on Bills beat. Legacy source only. May still appear as analyst/guest."
+    },
+    {
+      "id": "bw-buf-prusak",
+      "name": "Heather Prusak",
+      "team": "BUF",
+      "outlet": "WIVB-TV (exited May 2024)",
+      "twitter": "@haprusak",
+      "podcast": null,
+      "substack": null,
+      "website": "wivb.com",
+      "tier": "LOW",
+      "notes": "Sports anchor/reporter who left WIVB May 2024. Covered Bills for News 4 Buffalo. Status uncertain post-departure."
+    },
+    {
+      "id": "bw-buf-parrino",
+      "name": "Matt Parrino",
+      "team": "BUF",
+      "outlet": "Syracuse.com / NYUP.com",
+      "twitter": "@MattParrino",
+      "podcast": {
+        "name": "Shout! A football podcast on the Buffalo Bills",
+        "apple": "https://podcasts.apple.com/us/podcast/shout-a-football-podcast-on-the-buffalo-bills/id1507446314",
+        "spotify": "https://open.spotify.com/show/5Q7EXlmoszkrmpGeJwq3RN",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "iHeart",
+          "Audacy"
+        ]
+      },
+      "substack": null,
+      "website": "newyorkupstate.com",
+      "tier": "MEDIUM",
+      "notes": "Bills reporter for Syracuse.com/NYUP. Co-hosts Shout! with Ryan Talbot."
+    },
+    {
+      "id": "bw-buf-lysowski",
+      "name": "Lance Lysowski",
+      "team": "BUF",
+      "outlet": "Buffalo News",
+      "twitter": "@LLysowski",
+      "podcast": {
+        "name": "PlayAction / Further Review (Buffalo News)",
+        "platforms": [
+          "Buffalo News website"
+        ]
+      },
+      "substack": null,
+      "website": "buffalonews.com",
+      "tier": "MEDIUM",
+      "notes": "Moved to Bills beat May 2025 after 7 seasons covering Sabres. Co-hosts PlayAction with Katherine Fitzgerald."
+    },
+    {
+      "id": "bw-buf-dunne",
+      "name": "Tyler Dunne",
+      "team": "BUF",
+      "outlet": "Go Long (Independent Substack)",
+      "twitter": "@TyDunne",
+      "podcast": {
+        "name": "Go Long Podcast",
+        "apple": "https://podcasts.apple.com/us/podcast/go-long-podcast/id1542095361",
+        "platforms": [
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": {
+        "name": "Go Long",
+        "url": "https://www.golongtd.com/"
+      },
+      "website": "golongtd.com",
+      "tier": "HIGH",
+      "notes": "Founder of Go Long independent NFL journalism Substack. Broke Sean McDermott 9/11 speech story Dec 2023. Longform deep dives on Bills culture and front office. /mo subscription. Previously Buffalo News, Milwaukee JS, Bleacher Report."
+    },
+    {
+      "id": "bw-mia-jackson",
+      "name": "Barry Jackson",
+      "team": "MIA",
+      "outlet": "Miami Herald",
+      "twitter": "@flasportsbuzz",
+      "podcast": {
+        "name": "Dolphins in Depth",
+        "apple": "https://podcasts.apple.com/us/podcast/dolphins-in-depth/id1501414928",
+        "spotify": "https://open.spotify.com/show/4upKW0mCKLIiUzlv6wlzAX",
+        "platforms": [
+          "Apple",
+          "Spotify"
+        ],
+        "notes": "391+ episodes"
+      },
+      "substack": null,
+      "website": "miamiherald.com",
+      "tier": "HIGH",
+      "notes": "Senior Dolphins/South Florida sports reporter Miami Herald. 30+ years covering Dolphins. Co-hosts Dolphins in Depth with Omar Kelly. Breaks front office news."
+    },
+    {
+      "id": "bw-mia-wolfe",
+      "name": "Cameron Wolfe",
+      "team": "MIA",
+      "outlet": "NFL Network",
+      "twitter": "@CameronWolfe",
+      "podcast": {
+        "name": "The Insiders (NFL Network appearances)",
+        "platforms": [
+          "NFL Network",
+          "YouTube"
+        ]
+      },
+      "substack": null,
+      "website": "nfl.com",
+      "tier": "HIGH",
+      "notes": "NFL Network reporter based in Florida with strong Dolphins access. Appears on The Insiders, GMFB, NFL GameDay Morning. Previously covered Dolphins for ESPN 2018-2021."
+    },
+    {
+      "id": "bw-mia-schad",
+      "name": "Joe Schad",
+      "team": "MIA",
+      "outlet": "Palm Beach Post / Yahoo Sports",
+      "twitter": "@schadjoe",
+      "podcast": null,
+      "substack": null,
+      "website": "palmbeachpost.com",
+      "tier": "HIGH",
+      "notes": "Dolphins reporter for Palm Beach Post syndicated via Yahoo Sports. Previously ESPN and Orlando Sentinel. NFL Combine regular."
+    },
+    {
+      "id": "bw-mia-kelly",
+      "name": "Omar Kelly",
+      "team": "MIA",
+      "outlet": "Miami Herald",
+      "twitter": "@OmarKelly",
+      "podcast": {
+        "name": "Dolphins in Depth",
+        "apple": "https://podcasts.apple.com/us/podcast/dolphins-in-depth/id1501414928",
+        "spotify": "https://open.spotify.com/show/4upKW0mCKLIiUzlv6wlzAX",
+        "platforms": [
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "miamiherald.com",
+      "tier": "HIGH",
+      "notes": "Miami Herald Dolphins insider and columnist. 25+ years in sports media. Co-hosts Dolphins in Depth with Barry Jackson (391+ episodes). Strong player and coaching access."
+    },
+    {
+      "id": "bw-mia-furones",
+      "name": "David Furones",
+      "team": "MIA",
+      "outlet": "South Florida Sun Sentinel",
+      "twitter": "@DavidFurones_",
+      "podcast": {
+        "name": "Miami Dolphins Deep Dive with Perk",
+        "apple": "https://podcasts.apple.com/jm/podcast/miami-dolphins-deep-dive-with-perk/id1126952014",
+        "platforms": [
+          "Apple",
+          "iHeart",
+          "Yahoo Sports"
+        ]
+      },
+      "substack": null,
+      "website": "sun-sentinel.com",
+      "tier": "MEDIUM",
+      "notes": "Dolphins beat reporter for Sun Sentinel. Appears on Deep Dive with Perk podcast alongside Chris Perkins and Dave Hyde."
+    },
+    {
+      "id": "bw-mia-salguero",
+      "name": "Armando Salguero",
+      "team": "MIA",
+      "outlet": "OutKick / FOX News",
+      "twitter": "@ArmandoSalguero",
+      "podcast": {
+        "name": "The 5 Spot (OutKick)",
+        "platforms": [
+          "OutKick",
+          "YouTube"
+        ]
+      },
+      "substack": null,
+      "website": "outkick.com",
+      "tier": "HIGH",
+      "notes": "Senior NFL Writer OutKick/FOX News. Covered Dolphins for Miami Herald 30 years. One of 48 Pro Football HOF voters. 2016 APSE Top 3 columnist nationwide."
+    },
+    {
+      "id": "bw-mia-wingfield",
+      "name": "Travis Wingfield",
+      "team": "MIA",
+      "outlet": "Miami Dolphins (Official)",
+      "twitter": "@WingfieldNFL",
+      "podcast": {
+        "name": "Drive Time with Travis Wingfield",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "miamidolphins.com"
+        ]
+      },
+      "substack": null,
+      "website": "miamidolphins.com",
+      "tier": "MEDIUM",
+      "notes": "Official Dolphins podcast host, writer, and on-camera personality. Hosts Drive Time on Dolphins Podcast Network."
+    },
+    {
+      "id": "bw-mia-manso",
+      "name": "Will Manso",
+      "team": "MIA",
+      "outlet": "WPLG Local 10 / Bally Sports Sun",
+      "twitter": "@WillManso",
+      "podcast": {
+        "name": "Miami Sports Pod with Will & Clay",
+        "apple": "https://podcasts.apple.com/us/podcast/miami-sports-pod-with-will-clay/id1356343169",
+        "platforms": [
+          "Apple",
+          "TuneIn"
+        ]
+      },
+      "substack": null,
+      "website": null,
+      "tier": "MEDIUM",
+      "notes": "WPLG Local 10 sports director and lead anchor. Miami Sports Pod covers Dolphins, Heat, Panthers, Marlins. 70K+ Twitter followers."
+    },
+    {
+      "id": "bw-mia-smalls",
+      "name": "C. Isaiah Smalls II",
+      "team": "MIA",
+      "outlet": "Miami Herald",
+      "twitter": "@stclaudeii",
+      "podcast": null,
+      "substack": null,
+      "website": "cismalls.com",
+      "tier": "MEDIUM",
+      "notes": "Dolphins beat reporter at Miami Herald. Second season on Dolphins beat. Created The 44 Percent newsletter. Columbia J-School grad."
+    },
+    {
+      "id": "bw-mia-habib",
+      "name": "Hal Habib",
+      "team": "MIA",
+      "outlet": "Palm Beach Post",
+      "twitter": "@gunnerhal",
+      "podcast": null,
+      "substack": null,
+      "website": "palmbeachpost.com",
+      "tier": "MEDIUM",
+      "notes": "Dolphins reporter at Palm Beach Post for 40+ years. Covers games and team news alongside Joe Schad."
+    },
+    {
+      "id": "bw-mia-beasley",
+      "name": "Adam Beasley",
+      "team": "MIA",
+      "outlet": "Left PFN January 2025 — freelance",
+      "twitter": "@AdamHBeasley",
+      "podcast": null,
+      "substack": null,
+      "website": null,
+      "tier": "MEDIUM",
+      "notes": "Left Pro Football Network January 2025. 15 years at Miami Herald as Dolphins beat writer. Occasional freelance. Monitor for new landing spot."
+    },
+    {
+      "id": "bw-ne-perry",
+      "name": "Phil Perry",
+      "team": "NE",
+      "outlet": "NBC Sports Boston",
+      "twitter": "@PhilAPerry",
+      "podcast": {
+        "name": "The Next Pats Podcast",
+        "apple": "https://podcasts.apple.com/us/podcast/the-next-pats-podcast-a-patriots-podcast/id1153661014",
+        "spotify": "https://open.spotify.com/show/237Boapf6ZcKv98twBUoqn",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "YouTube",
+          "NBC Sports Boston"
+        ],
+        "frequency": "Weekly Wednesdays"
+      },
+      "youtube": "nbcsportsboston.com",
+      "substack": null,
+      "website": "nbcsportsboston.com",
+      "tier": "HIGH",
+      "notes": "Patriots Insider for NBC Sports Boston since 2011. Hosts The Next Pats Podcast focused on draft and free agency. Also on 98.5 The Sports Hub, Sirius XM NFL Radio."
+    },
+    {
+      "id": "bw-ne-curran",
+      "name": "Tom Curran",
+      "team": "NE",
+      "outlet": "NBC Sports Boston",
+      "twitter": "@tomecurran",
+      "podcast": {
+        "name": "Tom Curran's Patriots Talk Podcast",
+        "apple": "https://podcasts.apple.com/us/podcast/tom-currans-patriots-talk-podcast/id1136777305",
+        "spotify": "https://open.spotify.com/show/5KB5rEvkmqp2ruP0yJt9RX",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "YouTube",
+          "NBC Sports Boston"
+        ],
+        "frequency": "3x weekly post-game + Tue/Thu"
+      },
+      "substack": null,
+      "website": "nbcsportsboston.com",
+      "tier": "HIGH",
+      "notes": "NBC Sports Boston Patriots Insider. Patriots Talk Podcast with Phil Perry. Long-tenured Patriots reporter with major front office insights."
+    },
+    {
+      "id": "bw-ne-reiss",
+      "name": "Mike Reiss",
+      "team": "NE",
+      "outlet": "ESPN",
+      "twitter": "@MikeReiss",
+      "podcast": null,
+      "substack": null,
+      "website": "mikereiss.net",
+      "tier": "HIGH",
+      "notes": "ESPN NFL Nation Patriots since 2009. Covered Patriots since 1997. 2019 Massachusetts Sportswriter of Year. Weekly on 98.5 The Sports Hub (Toucher & Hardy). Personal site: mikereiss.net."
+    },
+    {
+      "id": "bw-ne-callahan",
+      "name": "Andrew Callahan",
+      "team": "NE",
+      "outlet": "Boston Herald",
+      "twitter": "@_AndrewCallahan",
+      "podcast": {
+        "name": "Pats Interference Football Podcast",
+        "apple": "https://podcasts.apple.com/us/podcast/pats-interference-football-podcast/id1619156675",
+        "spotify": "https://open.spotify.com/show/3Bp9nEUZ3jLaVDQOYOfs5T",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "iHeart",
+          "CLNS Media"
+        ],
+        "frequency": "Weekly"
+      },
+      "substack": null,
+      "website": "clnsmedia.com",
+      "tier": "HIGH",
+      "notes": "Patriots reporter/columnist Boston Herald. Hosts Pats Interference on CLNS Media. Weekly mailbag. Wide-ranging interviews with league executives and scouts."
+    },
+    {
+      "id": "bw-ne-howe",
+      "name": "Jeff Howe",
+      "team": "NE",
+      "outlet": "The Athletic",
+      "twitter": "@jeffphowe",
+      "podcast": null,
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "HIGH",
+      "notes": "NFL National Insider at The Athletic. Breaks Patriots and league-wide transactions. Published Patriots book. Regular on 98.5 The Sports Hub."
+    },
+    {
+      "id": "bw-ne-lazar",
+      "name": "Evan Lazar",
+      "team": "NE",
+      "outlet": "Patriots.com / CLNS Media",
+      "twitter": "@ezlazar",
+      "podcast": {
+        "name": "Patriots Catch-22",
+        "platforms": [
+          "Patriots.com",
+          "Apple",
+          "Spotify"
+        ],
+        "frequency": "Weekly Wednesdays"
+      },
+      "substack": null,
+      "website": "patriots.com",
+      "tier": "MEDIUM",
+      "notes": "Senior Reporter Patriots.com. Hosts Patriots Catch-22 with Alex Barth. X's and O's analysis and roster breakdowns. 87K+ Twitter followers."
+    },
+    {
+      "id": "bw-ne-kyed",
+      "name": "Doug Kyed",
+      "team": "NE",
+      "outlet": "AToZ Sports / Independent",
+      "twitter": "@DougKyed",
+      "podcast": {
+        "name": "Pats Chat",
+        "apple": "https://podcasts.apple.com/us/podcast/pats-chat-a-patriots-podcast-with-doug-kyed/id1658450530",
+        "spotify": "https://open.spotify.com/show/63az1kKeXzeiQOXCJ8EJiI",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "YouTube",
+          "iHeart"
+        ],
+        "frequency": "2-3x per week"
+      },
+      "youtube": "youtube.com/@patschatpodcast",
+      "substack": null,
+      "website": "atozsports.com",
+      "tier": "MEDIUM",
+      "notes": "Patriots reporter. Co-hosts Pats Chat with Michael Hurley. Previously Boston Herald and NESN. Writes for AToZ Sports."
+    },
+    {
+      "id": "bw-ne-daniels",
+      "name": "Mark Daniels",
+      "team": "NE",
+      "outlet": "MassLive.com",
+      "twitter": "@ByMarkDaniels",
+      "podcast": null,
+      "substack": null,
+      "website": "masslive.com",
+      "tier": "MEDIUM",
+      "notes": "Patriots beat writer MassLive.com. Previously Providence Journal and Boston Herald. Active draft and roster coverage."
+    },
+    {
+      "id": "bw-ne-barth",
+      "name": "Alex Barth",
+      "team": "NE",
+      "outlet": "98.5 The Sports Hub / CLNS Media",
+      "twitter": "@RealAlexBarth",
+      "podcast": {
+        "name": "Patriots Beat (CLNS Media)",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "YouTube"
+        ],
+        "frequency": "Tue/Thu"
+      },
+      "substack": null,
+      "website": "clnsmedia.com",
+      "tier": "MEDIUM",
+      "notes": "Writer and digital producer 98.5 The Sports Hub. Co-hosts Patriots Beat on CLNS Media with Brian Hines. Also co-hosts Patriots Catch-22 on Patriots.com."
+    },
+    {
+      "id": "bw-ne-cox",
+      "name": "Zack Cox",
+      "team": "NE",
+      "outlet": "NESN (now Boston Herald - Celtics+)",
+      "twitter": "@ZackCoxNESN",
+      "podcast": {
+        "name": "NESN Patriots Podcast (former)",
+        "spotify": "https://open.spotify.com/show/1x5m4O3e0mE9tNDpAB6OnT",
+        "platforms": [
+          "Spotify",
+          "Apple"
+        ]
+      },
+      "substack": null,
+      "website": "nesn.com",
+      "tier": "MEDIUM",
+      "notes": "Formerly NESN Patriots beat writer. Now covers Celtics for Boston Herald. Listed for recent Patriots coverage history."
+    },
+    {
+      "id": "bw-nyj-cimini",
+      "name": "Rich Cimini",
+      "team": "NYJ",
+      "outlet": "ESPN",
+      "twitter": "@RichCimini",
+      "podcast": {
+        "name": "Flight Deck with Rich Cimini",
+        "apple": "https://podcasts.apple.com/us/podcast/flight-deck-with-rich-cimini/id1466085257",
+        "spotify": "https://open.spotify.com/show/1F1kwXqxa58bOq5yY0B3Gh",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "ESPN Radio"
+        ],
+        "frequency": "Regular"
+      },
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "ESPN NFL Nation Jets reporter. Covered Jets since 1989 — longest-tenured beat writer in franchise history. 2020 NY State Sports Writer of Year. Hosts Flight Deck podcast."
+    },
+    {
+      "id": "bw-nyj-hughes",
+      "name": "Connor Hughes",
+      "team": "NYJ",
+      "outlet": "SNY",
+      "twitter": "@Connor_J_Hughes",
+      "podcast": {
+        "name": "SNY appearances / guest spots",
+        "platforms": [
+          "SNY TV"
+        ]
+      },
+      "substack": null,
+      "website": "sny.tv",
+      "tier": "HIGH",
+      "notes": "NFL Insider for SNY covering Jets and Giants. Full-time broadcast TV since 2022. Previously USA Today, NJ Advance Media, The Athletic. Covers both Jets and Giants."
+    },
+    {
+      "id": "bw-nyj-costello",
+      "name": "Brian Costello",
+      "team": "NYJ",
+      "outlet": "New York Post",
+      "twitter": "@BrianCoz",
+      "podcast": {
+        "name": "Gang's All Here - New York Jets Podcast",
+        "apple": "https://podcasts.apple.com/us/podcast/gangs-all-here-new-york-jets-podcast/id1484134393",
+        "spotify": "https://open.spotify.com/show/7jDCCrLbSMuwNlOxCiEPcv",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Amazon",
+          "iHeart"
+        ],
+        "frequency": "2x per week"
+      },
+      "substack": null,
+      "website": "nypost.com",
+      "tier": "HIGH",
+      "notes": "Jets beat writer NY Post since 2011. Co-hosts Gang's All Here. Breaks trades and signings. Appears on Official Jets Podcast."
+    },
+    {
+      "id": "bw-nyj-waszak",
+      "name": "Dennis Waszak Jr.",
+      "team": "NYJ",
+      "outlet": "Associated Press",
+      "twitter": "@DWAZ73",
+      "podcast": null,
+      "substack": null,
+      "website": null,
+      "tier": "HIGH",
+      "notes": "AP Pro Football Writer and Jets beat reporter since 2006. Wire distribution gives his reports national reach instantly. Breaks transactions via AP wire."
+    },
+    {
+      "id": "bw-nyj-staley",
+      "name": "Antwan V. Staley",
+      "team": "NYJ",
+      "outlet": "NY Daily News",
+      "twitter": "@antwanstaley",
+      "podcast": {
+        "name": "Play Like A Jet (frequent guest)",
+        "platforms": [
+          "Apple",
+          "Bleav in Jets"
+        ]
+      },
+      "substack": null,
+      "website": null,
+      "tier": "MEDIUM",
+      "notes": "Jets beat writer and columnist NY Daily News. Replaced Manish Mehta."
+    },
+    {
+      "id": "bw-nyj-greenberg",
+      "name": "Ethan Greenberg",
+      "team": "NYJ",
+      "outlet": "Jets.com (Official)",
+      "twitter": "@EGreenbergJets",
+      "podcast": {
+        "name": "The Official Jets Podcast",
+        "platforms": [
+          "Jets.com",
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "newyorkjets.com",
+      "tier": "MEDIUM",
+      "notes": "Official Jets team reporter for Jets.com. Appears on The Official Jets Podcast with Eric Allen. Team-affiliated."
+    },
+    {
+      "id": "bw-nyj-brown",
+      "name": "Jake Brown",
+      "team": "NYJ",
+      "outlet": "New York Post",
+      "twitter": "@JakeBrownRadio",
+      "podcast": {
+        "name": "Gang's All Here - New York Jets Podcast",
+        "apple": "https://podcasts.apple.com/us/podcast/gangs-all-here-new-york-jets-podcast/id1484134393",
+        "spotify": "https://open.spotify.com/show/7jDCCrLbSMuwNlOxCiEPcv",
+        "platforms": [
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "thejakebrown.com",
+      "tier": "MEDIUM",
+      "notes": "Executive Producer of all Sports Podcasts NY Post. Co-hosts Gang's All Here Jets podcast with Costello. Personal site: thejakebrown.com."
+    },
+    {
+      "id": "bw-nyj-mehta",
+      "name": "Manish Mehta",
+      "team": "NYJ",
+      "outlet": "Freelance / Independent",
+      "twitter": "@MMehtaSports",
+      "podcast": null,
+      "substack": null,
+      "website": null,
+      "tier": "LOW",
+      "notes": "Former NY Daily News Jets beat (10+ years). Fired December 2020. Currently freelance/independent. Monitor for current outlet."
+    },
+    {
+      "id": "bw-bal-zrebiec",
+      "name": "Jeff Zrebiec",
+      "team": "BAL",
+      "outlet": "The Athletic",
+      "twitter": "@jeffzrebiec",
+      "podcast": {
+        "name": "Ravens Lounge (frequent guest)",
+        "platforms": [
+          "Ravens.com"
+        ]
+      },
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "HIGH",
+      "notes": "Primary Ravens beat writer The Athletic. Breaks major Ravens transactions and contract news. Previously Baltimore Sun 10+ years. Strong front office and coaching staff access."
+    },
+    {
+      "id": "bw-bal-hensley",
+      "name": "Jamison Hensley",
+      "team": "BAL",
+      "outlet": "ESPN",
+      "twitter": "@jamisonhensley",
+      "podcast": {
+        "name": "ESPN NFL Nation / WBAL Radio",
+        "platforms": [
+          "ESPN Radio",
+          "WBAL Radio Baltimore"
+        ]
+      },
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "ESPN NFL Nation Ravens reporter since 2013. Covered Ravens for Baltimore Sun from 2000. 2018 Maryland Sportswriter of Year. WBAL Radio contributor. Published Flying High: Stories of the Baltimore Ravens (2014)."
+    },
+    {
+      "id": "bw-bal-shaffer",
+      "name": "Jonas Shaffer",
+      "team": "BAL",
+      "outlet": "Baltimore Banner",
+      "twitter": "@jonas_shaffer",
+      "podcast": {
+        "name": "The Banner Ravens Podcast",
+        "apple": "https://podcasts.apple.com/us/podcast/the-banner-ravens-podcast/id1705540600",
+        "spotify": "https://open.spotify.com/show/40y4VCfMigLTTVUemhoeWb",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Podbean",
+          "Baltimore Banner"
+        ],
+        "frequency": "2x per week"
+      },
+      "substack": null,
+      "website": "thebanner.com",
+      "tier": "HIGH",
+      "notes": "Ravens beat reporter Baltimore Banner since Jan 2023. Co-hosts Banner Ravens Podcast with Paul Mancano. 7+ seasons on Ravens beat."
+    },
+    {
+      "id": "bw-bal-mink",
+      "name": "Ryan Mink",
+      "team": "BAL",
+      "outlet": "Ravens.com (Official)",
+      "twitter": "@ryanmink",
+      "podcast": {
+        "name": "The Ravens Lounge",
+        "apple": "https://podcasts.apple.com/us/podcast/the-ravens-lounge/id1142013759",
+        "spotify": "https://open.spotify.com/show/2cR1ktQGRu1iT0okJuQXIB",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "Audible",
+          "TuneIn"
+        ],
+        "frequency": "Semiweekly"
+      },
+      "substack": null,
+      "website": "baltimoreravens.com",
+      "tier": "MEDIUM",
+      "notes": "Ravens Editorial Director since 2009. Co-hosts The Ravens Lounge with Garrett Downing. Team-affiliated."
+    },
+    {
+      "id": "bw-bal-preston",
+      "name": "Mike Preston",
+      "team": "BAL",
+      "outlet": "Baltimore Sun",
+      "twitter": "@MikePrestonSun",
+      "podcast": {
+        "name": "BMore Football Podcast (Baltimore Sun)",
+        "platforms": [
+          "Baltimore Sun website",
+          "YouTube"
+        ]
+      },
+      "substack": null,
+      "website": "baltimoresun.com",
+      "tier": "MEDIUM",
+      "notes": "Baltimore Sun sports columnist covering Ravens. Known for provocative takes and accountability journalism."
+    },
+    {
+      "id": "bw-bal-jones",
+      "name": "Luke Jones",
+      "team": "BAL",
+      "outlet": "WNST / BaltimorePositive.com",
+      "twitter": "@BaltimoreLuke",
+      "podcast": {
+        "name": "Baltimore Positive with Nestor Aparicio (daily co-host)",
+        "platforms": [
+          "WNST AM 1570",
+          "BaltimorePositive.com"
+        ],
+        "frequency": "Daily"
+      },
+      "substack": null,
+      "website": "baltimorepositive.com",
+      "tier": "MEDIUM",
+      "notes": "Ravens and Orioles beat reporter for WNST BaltimorePositive.com. PFWA member. Writes Twelve Ravens Thoughts after every game."
+    },
+    {
+      "id": "bw-bal-han",
+      "name": "Giana Han",
+      "team": "BAL",
+      "outlet": "Baltimore Banner",
+      "twitter": "@giana_jade",
+      "podcast": {
+        "name": "The Banner Ravens Podcast (contributor)",
+        "platforms": [
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "thebanner.com",
+      "tier": "MEDIUM",
+      "notes": "Ravens beat reporter Baltimore Banner since September 2023. Penn State grad. Previously AL.com Auburn and Philadelphia Inquirer Flyers reporter."
+    },
+    {
+      "id": "bw-bal-walker",
+      "name": "Childs Walker",
+      "team": "BAL",
+      "outlet": "Baltimore Banner",
+      "twitter": null,
+      "podcast": {
+        "name": "The Banner Ravens Podcast (contributor)",
+        "platforms": [
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "thebanner.com",
+      "tier": "MEDIUM",
+      "notes": "Baltimore Banner Ravens contributor. Baltimore Sun 2001-2025 covering Ravens since 2012. Writes Five Things analysis after every game."
+    },
+    {
+      "id": "bw-cin-dehner",
+      "name": "Paul Dehner Jr.",
+      "team": "CIN",
+      "outlet": "The Athletic",
+      "twitter": "@pauldehnerjr",
+      "podcast": {
+        "name": "The Growler",
+        "apple": "https://podcasts.apple.com/us/podcast/the-growler/id1733476604",
+        "spotify": "https://open.spotify.com/show/70iJjqgPQrVzQ2pdOwVvDY",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "YouTube",
+          "iHeart",
+          "Amazon"
+        ],
+        "frequency": "4x per week"
+      },
+      "substack": null,
+      "website": "theathletic.com",
+      "tier": "HIGH",
+      "notes": "Senior Bengals writer The Athletic. Hosts The Growler 4x/week with Mo Egger, Charlie Goldsmith, Jay Morrison, Mark Chalifoux. Strong GM access."
+    },
+    {
+      "id": "bw-cin-hobson",
+      "name": "Geoff Hobson",
+      "team": "CIN",
+      "outlet": "Bengals.com (Official)",
+      "twitter": "@GeoffHobsonCin",
+      "podcast": {
+        "name": "Bengals Booth Podcast",
+        "platforms": [
+          "Bengals.com",
+          "Apple"
+        ]
+      },
+      "substack": null,
+      "website": "bengals.com",
+      "tier": "MEDIUM",
+      "notes": "Bengals.com Senior Writer. Hosts Hobson's Choice column. Team-affiliated but deeply connected to organization."
+    },
+    {
+      "id": "bw-cin-baby",
+      "name": "Ben Baby",
+      "team": "CIN",
+      "outlet": "ESPN",
+      "twitter": "@Ben_Baby",
+      "podcast": null,
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "ESPN NFL Nation Bengals reporter since July 2019. APSE award finalist. Appears on SportsCenter, Get Up, NFL Live. Known for precise factual reporting."
+    },
+    {
+      "id": "bw-cin-goldsmith",
+      "name": "Charlie Goldsmith",
+      "team": "CIN",
+      "outlet": "FOX19 Now Cincinnati",
+      "twitter": "@CharlieG__",
+      "podcast": {
+        "name": "The Growler",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "YouTube"
+        ],
+        "frequency": "4x per week"
+      },
+      "substack": {
+        "name": "Charlie's Chalkboard",
+        "url": "https://charlieschalkboard.substack.com/"
+      },
+      "website": "fox19.com",
+      "tier": "MEDIUM",
+      "notes": "FOX19 NOW Bengals contributor. Hosts Charlie's Chalkboard Substack. Co-host on The Growler. 2x finalist APSE Ohio Sportswriter of Year."
+    },
+    {
+      "id": "bw-cin-morrison",
+      "name": "Jay Morrison",
+      "team": "CIN",
+      "outlet": "Sports Illustrated / BengalsTalk.com",
+      "twitter": "@ByJayMorrison",
+      "podcast": {
+        "name": "The Growler",
+        "platforms": [
+          "Apple",
+          "Spotify"
+        ],
+        "frequency": "4x per week"
+      },
+      "substack": null,
+      "website": "si.com/nfl/bengals",
+      "tier": "MEDIUM",
+      "notes": "Bengals writer for SI's BengalsTalk.com since Sept 2024. 13+ years covering Bengals. Co-host on The Growler."
+    },
+    {
+      "id": "bw-cin-conway",
+      "name": "Kelsey Conway",
+      "team": "CIN",
+      "outlet": "Cincinnati Enquirer",
+      "twitter": "@KelseyLConway",
+      "podcast": {
+        "name": "Cincinnati Enquirer Bengals Beat Podcast (#BBP)",
+        "apple": "https://podcasts.apple.com/us/podcast/cincinnati-enquirer-bengals-beat-podcast-bbp/id675833480",
+        "spotify": "https://open.spotify.com/show/68716nJeHcW0ssBIeOIOdV",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "iHeart",
+          "Audacy"
+        ]
+      },
+      "substack": null,
+      "website": "cincinnati.com",
+      "tier": "MEDIUM",
+      "notes": "Bengals beat reporter Cincinnati Enquirer. Hosts #BBP podcast with Jason Williams."
+    },
+    {
+      "id": "bw-cin-egger",
+      "name": "Mo Egger",
+      "team": "CIN",
+      "outlet": "ESPN 1530 Cincinnati",
+      "twitter": "@MoEgger",
+      "podcast": {
+        "name": "Mo Egger / The Growler",
+        "apple": "https://podcasts.apple.com/us/podcast/mo-egger/id1601663125",
+        "spotify": "https://open.spotify.com/show/4cb4MMww7QB50cZMTVHTcW",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "iHeart",
+          "Podbean"
+        ],
+        "frequency": "Daily radio + 4x/week Growler"
+      },
+      "substack": null,
+      "website": "espn1530.iheart.com",
+      "tier": "MEDIUM",
+      "notes": "ESPN 1530 afternoon drive host (3-6 PM weekdays). Co-host on The Growler with Paul Dehner."
+    },
+    {
+      "id": "bw-cin-dragon",
+      "name": "Tyler Dragon",
+      "team": "CIN",
+      "outlet": "USA Today (national NFL, formerly Bengals beat)",
+      "twitter": "@TheTylerDragon",
+      "podcast": null,
+      "substack": null,
+      "website": null,
+      "tier": "LOW",
+      "notes": "Now NFL National Reporter at USA Today. Formerly Cincinnati Enquirer Bengals beat. No longer on Bengals beat."
+    },
+    {
+      "id": "bw-cle-cabot",
+      "name": "Mary Kay Cabot",
+      "team": "CLE",
+      "outlet": "Cleveland.com / Plain Dealer",
+      "twitter": "@MaryKayCabot",
+      "podcast": {
+        "name": "Orange and Brown Talk: Cleveland Browns Podcast",
+        "apple": "https://podcasts.apple.com/us/podcast/orange-and-brown-talk-cleveland-browns-podcast/id1334701895",
+        "spotify": "https://open.spotify.com/show/2KJAmLSVZDhEYPo0TlQx2H",
+        "platforms": [
+          "Apple",
+          "Spotify",
+          "iHeart",
+          "Amazon"
+        ],
+        "frequency": "Daily/multiple times per week"
+      },
+      "substack": null,
+      "website": "cleveland.com",
+      "tier": "HIGH",
+      "notes": "Dean of Cleveland Browns beat. Covered Browns since 1988. 2025 Bill Nunn Jr. Award winner (PFWA). First female to cover major pro team daily in Cleveland. Pro Football HOF selector. Largest Twitter following of any local NFL beat writer."
+    },
+    {
+      "id": "bw-cle-labbe",
+      "name": "Dan Labbe",
+      "team": "CLE",
+      "outlet": "Cleveland.com",
+      "twitter": "@dan_labbe",
+      "podcast": {
+        "name": "Orange and Brown Talk",
+        "platforms": [
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "cleveland.com",
+      "tier": "MEDIUM",
+      "notes": "Browns reporter Cleveland.com. Co-hosts Orange and Brown Talk with Mary Kay Cabot and Ashley Bastock. Appears on 92.3 The Fan."
+    },
+    {
+      "id": "bw-cle-grossi",
+      "name": "Tony Grossi",
+      "team": "CLE",
+      "outlet": "ESPN Cleveland 850 / TheLandOnDemand.com",
+      "twitter": "@TonyGrossi",
+      "podcast": {
+        "name": "The Daily Grossi",
+        "url": "https://thelandondemand.com/podcasts/daily-grossi/",
+        "platforms": [
+          "YouTube",
+          "TheLandOnDemand.com"
+        ],
+        "frequency": "Daily Mon-Fri"
+      },
+      "youtube": "thelandondemand.com",
+      "substack": null,
+      "website": "thelandondemand.com",
+      "tier": "HIGH",
+      "notes": "40-year veteran covering Browns. ESPN Cleveland 850 on-air host. Hosts The Daily Grossi Mon-Fri. Pro Football HOF selector (50-member committee)."
+    },
+    {
+      "id": "bw-cle-petrak",
+      "name": "Scott Petrak",
+      "team": "CLE",
+      "outlet": "BrownsZone / Chronicle-Telegram",
+      "twitter": "@ScottPetrak",
+      "podcast": {
+        "name": "Zone Coverage",
+        "platforms": [
+          "BrownsZone website"
+        ],
+        "notes": "250+ episodes through 2025"
+      },
+      "substack": null,
+      "website": "brownszone.com",
+      "tier": "MEDIUM",
+      "notes": "Browns writer for Chronicle-Telegram. Runs BrownsZone.com. Hosts Zone Coverage podcast (250+ episodes)."
+    },
+    {
+      "id": "bw-cle-bastock",
+      "name": "Ashley Bastock",
+      "team": "CLE",
+      "outlet": "Cleveland.com / Plain Dealer",
+      "twitter": "@AshleyBastock42",
+      "podcast": {
+        "name": "Orange and Brown Talk",
+        "platforms": [
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": "ashleybastock.com",
+      "tier": "MEDIUM",
+      "notes": "Browns beat reporter Cleveland.com since October 2021. 2023 OAPME best sports feature writer. Co-hosts Orange and Brown Talk. Personal site: ashleybastock.com."
+    },
+    {
+      "id": "bw-cle-justice",
+      "name": "Camryn Justice",
+      "team": "CLE",
+      "outlet": "WEWS-TV / News 5 Cleveland",
+      "twitter": "@camijustice",
+      "podcast": null,
+      "substack": null,
+      "website": "news5cleveland.com",
+      "tier": "MEDIUM",
+      "notes": "Emmy Award-winning TV sports reporter at WEWS (Channel 5). Covers Browns, Cavs, Guardians."
+    },
+    {
+      "id": "bw-cle-ulrich",
+      "name": "Nate Ulrich",
+      "team": "CLE",
+      "outlet": "Akron Beacon Journal",
+      "twitter": "@ByNateUlrich",
+      "podcast": null,
+      "substack": null,
+      "website": null,
+      "tier": "MEDIUM",
+      "notes": "Enterprise and feature reporter Akron Beacon Journal. 12+ years as Browns daily beat reporter. Syndicated via USA Today / Yahoo Sports."
+    },
+    {
+      "id": "bw-cle-oyefusi",
+      "name": "Daniel Oyefusi",
+      "team": "CLE",
+      "outlet": "ESPN",
+      "twitter": "@DanielOyefusi",
+      "podcast": null,
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "ESPN NFL Nation Browns reporter. PFWA Terez A. Paylor Emerging Writer Award winner. Previously Dolphins (Miami Herald) and Ravens (Baltimore Sun). Baltimore native."
+    },
+    {
+      "id": "bw-pit-kaboly",
+      "name": "Mark Kaboly",
+      "team": "PIT",
+      "outlet": "Pat McAfee Show / Independent",
+      "twitter": "@MarkKaboly",
+      "podcast": {
+        "name": "Kaboly + Mack Podcast",
+        "apple": "https://podcasts.apple.com/us/podcast/kaboly-mack/id1790485942",
+        "platforms": [
+          "Apple",
+          "Spotify"
+        ]
+      },
+      "substack": null,
+      "website": null,
+      "tier": "HIGH",
+      "notes": "Steelers correspondent for The Pat McAfee Show. On Steelers beat since 2002. Left The Athletic 2024. Previously TribLIVE and Pittsburgh Tribune-Review. WWE Digital & Social contributor. Strong locker room and coaching access."
+    },
+    {
+      "id": "bw-pit-dulac",
+      "name": "Gerry Dulac",
+      "team": "PIT",
+      "outlet": "Pittsburgh Post-Gazette",
+      "twitter": "@gerrydulac",
+      "podcast": {
+        "name": "North Shore Drive (PG Sports Network)",
+        "platforms": [
+          "Pittsburgh Post-Gazette website"
+        ],
+        "frequency": "Regular; weekly live fan chats Wednesdays"
+      },
+      "substack": null,
+      "website": "post-gazette.com",
+      "tier": "HIGH",
+      "notes": "Steelers reporter Pittsburgh Post-Gazette. Steelers Radio Network host. KDKA-TV Steelers Insider. Weekly live fan chat every Wednesday. Breaks coaching and personnel news."
+    },
+    {
+      "id": "bw-pit-fittipaldo",
+      "name": "Ray Fittipaldo",
+      "team": "PIT",
+      "outlet": "Pittsburgh Post-Gazette",
+      "twitter": "@rayfitt1",
+      "podcast": {
+        "name": "North Shore Drive (PG Sports Network)",
+        "platforms": [
+          "Pittsburgh Post-Gazette website"
+        ],
+        "frequency": "Regular; weekly live fan chats Tuesdays"
+      },
+      "substack": null,
+      "website": "post-gazette.com",
+      "tier": "HIGH",
+      "notes": "Steelers reporter Pittsburgh Post-Gazette. Hosts weekly Tuesday live fan chat. Strong locker room access. Roster and salary cap specialist."
+    },
+    {
+      "id": "bw-pit-pryor",
+      "name": "Brooke Pryor",
+      "team": "PIT",
+      "outlet": "ESPN",
+      "twitter": "@bepryor",
+      "podcast": {
+        "name": "ESPN NFL Nation appearances / Vibe Check host",
+        "platforms": [
+          "ESPN Radio",
+          "ESPN.com",
+          "Vibe Check"
+        ]
+      },
+      "substack": null,
+      "website": "espn.com",
+      "tier": "HIGH",
+      "notes": "ESPN NFL Nation Steelers reporter since September 2019. Co-hosts ESPN's Vibe Check. Appears on SportsCenter, Get Up, NFL Live. Previously KC Star and The Oklahoman. 60K+ Twitter followers."
+    },
+    {
+      "id": "bw-pit-adamski",
+      "name": "Chris Adamski",
+      "team": "PIT",
+      "outlet": "TribLIVE",
+      "twitter": "@C_AdamskiTrib",
+      "podcast": null,
+      "substack": null,
+      "website": "triblive.com",
+      "tier": "MEDIUM",
+      "notes": "Steelers beat reporter TribLIVE. Active daily game/practice coverage. Posts Facebook video recap segments."
+    },
+    {
+      "id": "bw-pit-rutter",
+      "name": "Joe Rutter",
+      "team": "PIT",
+      "outlet": "TribLIVE (early retirement — occasional contributor)",
+      "twitter": "@tribjoerutter",
+      "podcast": null,
+      "substack": null,
+      "website": "triblive.com",
+      "tier": "MEDIUM",
+      "notes": "Took early retirement package from TribLIVE. Still provides occasional Steelers coverage. Verify current status for 2026."
+    },
+    {
+      "id": "bw-pit-labriola",
+      "name": "Bob Labriola",
+      "team": "PIT",
+      "outlet": "Steelers.com / Steelers Digest (Official)",
+      "twitter": null,
+      "podcast": {
+        "name": "Asked and Answered (Steelers.com)",
+        "platforms": [
+          "Steelers.com"
+        ],
+        "frequency": "Weekly"
+      },
+      "substack": null,
+      "website": "steelers.com",
+      "tier": "MEDIUM",
+      "notes": "Editor of Steelers Digest and Steelers.com contributor since 1990s. Writes Labriola On column and Asked and Answered fan mailbag. Team-affiliated. Unparalleled institutional knowledge."
+    },
+    {
+      "id": "bw-pit-varley",
+      "name": "Teresa Varley",
+      "team": "PIT",
+      "outlet": "Steelers.com / Steelers Digest (Official)",
+      "twitter": null,
+      "podcast": null,
+      "substack": null,
+      "website": "steelers.com",
+      "tier": "MEDIUM",
+      "notes": "Assistant Editor Steelers Digest and Steelers.com contributor since 1988. 37+ years with organization. University of Pittsburgh grad."
+    },
+    {
+      "id": "bw-pit-bouchette",
+      "name": "Ed Bouchette",
+      "team": "PIT",
+      "outlet": "Pittsburgh Post-Gazette (retired 2022)",
+      "twitter": "@EdBouchette",
+      "podcast": null,
+      "substack": null,
+      "website": null,
+      "tier": "MEDIUM",
+      "notes": "Retired 2022 after 50 years in journalism. 35+ years covering Steelers for Post-Gazette. Remains active as analyst/commentator. Still quoted as team historian."
+    }
+  ],
+  "_beatWriterStatus": "COMPLETE: 309 beat writers across all 32 teams. All 5 research agents finished.",
+  "_podcastTranscriptGuide": {
+    "iHeart": "Move the Sticks AND The Insiders episode pages have FULL auto-transcripts. Fetch https://www.iheart.com/podcast/[id]/episode/[episode-id]/ and extract 'Episode Transcript' section.",
+    "Rephonic": "Keyword-searchable transcripts for GMFB and Schefter. https://rephonic.com/podcasts/[show]",
+    "ApplePodcasts": "Auto-transcripts on iOS 17.4+. All shows distributed through Apple have transcripts.",
+    "YouTube": "Auto-captions available for: The Athletic Football Show (@TAFootballShow), Jets Final Drive (SNY), NFL Network clips",
+    "WalterFootball": "All written text — no transcripts needed. Scrape pages directly.",
+    "Spotify": "In-app transcripts for select shows. Cannot export text."
+  }
+}

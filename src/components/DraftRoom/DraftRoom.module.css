@@ -1,0 +1,224 @@
+/* src/components/DraftRoom/DraftRoom.module.css */
+.draftRoom {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  background: var(--bg-primary);
+}
+
+.mainLayout {
+  display: grid;
+  /* columns overridden inline by rightColWidth state */
+  grid-template-columns: 260px 1fr 380px;
+  grid-template-rows: 1fr;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  gap: 0;
+}
+
+.mainLayout.observerMode {
+  grid-template-columns: 1fr 380px;
+}
+
+/* Drag handle — absolutely positioned on left edge of right column */
+.resizeDivider {
+  position: absolute;
+  left: -4px;
+  top: 0;
+  bottom: 0;
+  width: 8px;
+  cursor: col-resize;
+  z-index: 20;
+  background: transparent;
+  transition: background 150ms ease;
+}
+
+.resizeDivider:hover {
+  background: rgba(212, 168, 67, 0.3);
+}
+
+.centerColumn {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-left: 1px solid var(--border-subtle);
+  border-right: 1px solid var(--border-subtle);
+  position: relative;
+}
+
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 0;
+  /* Grid places this, so no need for explicit height — but align-self handles it */
+  align-self: stretch;
+}
+
+/* ── Last pick inline banner — flat, no gradient ── */
+.lastPickBanner {
+  flex-shrink: 0;
+  display: flex;
+  align-items: stretch;
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border-medium);
+  animation: fadeIn 200ms ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* 3px left border in team color — flat, no gradient */
+.lastPickBar {
+  width: 3px;
+  background: var(--team-color, var(--accent-gold));
+  flex-shrink: 0;
+}
+
+.lastPickContent {
+  padding: 10px 14px;
+  flex: 1;
+  min-width: 0;
+}
+
+.lastPickMeta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.lastPickTeam {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  color: var(--team-color, var(--accent-gold));
+}
+
+.lastPickLabel {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+
+.lastPickPlayer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 2px;
+}
+
+.lastPickName {
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lastPickPos {
+  font-size: 10px;
+  font-weight: 800;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+.lastPickSchool {
+  font-size: 11px;
+  color: var(--text-secondary);
+}
+
+.lastPickHeadline {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 4px;
+  line-height: 1.4;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: var(--text-secondary);
+  font-size: 16px;
+}
+
+/* ── User pick banner — flat, no gradient ── */
+.userPickBanner {
+  background: rgba(212, 168, 67, 0.07);
+  border-bottom: 1px solid rgba(212, 168, 67, 0.2);
+  padding: 10px 20px;
+}
+
+.yourTurn {
+  color: var(--accent-gold);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* ── Paused banner — flat, no gradient ── */
+.pausedBanner {
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border-medium);
+  padding: 10px 20px;
+}
+
+.pausedText {
+  color: var(--text-secondary);
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+/* ── Inspected player banner — flat gold tint, no gradient ── */
+.inspectedBanner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 9px 14px;
+  background: rgba(212, 168, 67, 0.06);
+  border-bottom: 1px solid rgba(212, 168, 67, 0.18);
+}
+
+.inspectedLabel {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-gold);
+}
+
+.inspectedClear {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  background: transparent;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  padding: 3px 8px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: color var(--transition-fast), border-color var(--transition-fast);
+}
+
+.inspectedClear:hover {
+  color: var(--text-secondary);
+  border-color: var(--border-medium);
+}

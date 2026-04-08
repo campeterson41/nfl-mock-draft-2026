@@ -1,0 +1,1390 @@
+{
+  "LV": [
+    {
+      "playerId": "fernando-mendoza",
+      "analyst": "John Spytek (GM)",
+      "outlet": "Raiders",
+      "strength": 60,
+      "isInsiderLanguage": true,
+      "quote": "We are going to go through the process...go to his pro day...top-30 visit."
+    },
+    {
+      "playerId": "fernando-mendoza",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN/Good Morning Football",
+      "strength": 45,
+      "isInsiderLanguage": true,
+      "quote": "\"Barring any major -- and completely shocking -- news, this is all but a done deal.\" Schrager: mock based on \"what I'm hearing, rather than what I would personally do.\""
+    }
+  ],
+  "NYJ": [
+    {
+      "playerId": "arvell-reese",
+      "analyst": "Aaron Glenn (HC)",
+      "outlet": "Jets",
+      "strength": 50,
+      "isInsiderLanguage": true,
+      "quote": "The traits — arm length, weight, speed, ankle flexion — like all those things that you're trying to look at plus football character."
+    },
+    {
+      "playerId": "david-bailey",
+      "analyst": "Mel Kiper / Shook",
+      "outlet": "ESPN / NFL Network",
+      "strength": 30,
+      "isInsiderLanguage": false,
+      "quote": "David Bailey mocked to Jets in minority of projections (~25% of mocks)."
+    },
+    {
+      "playerId": "carnell-tate",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 25,
+      "isInsiderLanguage": false,
+      "quote": "Carnell Tate visit confirmed for Pick 16."
+    },
+    {
+      "playerId": "omar-cooper-jr",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 28,
+      "isInsiderLanguage": false,
+      "quote": "Omar Cooper Jr. to Jets at Pick 16 in Mock 3.0. Visit confirmed."
+    },
+    {
+      "playerId": "makai-lemon",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 22,
+      "isInsiderLanguage": false,
+      "quote": "Makai Lemon visit confirmed with Jets."
+    },
+    {
+      "playerId": "ty-simpson",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 20,
+      "isInsiderLanguage": false,
+      "quote": "Ty Simpson visit confirmed with Jets for QB evaluation."
+    },
+    {
+      "playerId": "sonny-styles",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 25,
+      "isInsiderLanguage": false,
+      "quote": "Sonny Styles visit confirmed with Jets."
+    },
+    {
+      "playerId": "david-bailey",
+      "analyst": "Peter Schrager + Daniel Jeremiah",
+      "outlet": "ESPN/NFL Network",
+      "strength": 60,
+      "isInsiderLanguage": true,
+      "quote": "Schrager mock: Bailey #2 to Jets. \"This will likely be either Bailey or Ohio State's Arvell Reese.\" UPDATED: Schrager AND Daniel Jeremiah both confirmed hearing Bailey is the #2 pick over Reese. Two of the most connected reporters in the league align on Bailey at #2."
+    },
+    {
+      "playerId": "arvell-reese",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 38,
+      "isInsiderLanguage": false,
+      "quote": "Schrager: \"This will likely be either Bailey or Ohio State's Arvell Reese\" at #2. But Schrager+Jeremiah now hearing Bailey has the edge."
+    },
+    {
+      "playerId": "omar-cooper-jr",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 45,
+      "isInsiderLanguage": true,
+      "quote": "Schrager mock #16 (via IND) to Jets: Omar Cooper Jr. WR. \"Every GM I speak to seems to love Cooper. He's fearless and tough as nails — and he produces.\" Direct attribution to multiple GMs. Schrager compares Cooper to Deebo Samuel."
+    }
+  ],
+  "ARI": [
+    {
+      "playerId": "francis-mauigoa",
+      "analyst": "Multiple (JJ 3.0, McShay, ESPN collab, Brugler)",
+      "outlet": "Various",
+      "strength": 45,
+      "isInsiderLanguage": false,
+      "quote": "Moves people in the run game, awesome athlete for his size."
+    },
+    {
+      "playerId": "david-bailey",
+      "analyst": "Todd McShay",
+      "outlet": "ESPN",
+      "strength": 38,
+      "isInsiderLanguage": true,
+      "quote": "David Bailey visit confirmed by multiple reporters. Cardinals hosted Bailey for top-30 visit."
+    },
+    {
+      "playerId": "arvell-reese",
+      "analyst": "Todd McShay",
+      "outlet": "ESPN",
+      "strength": 30,
+      "isInsiderLanguage": true,
+      "quote": "Arvell Reese visit confirmed with Cardinals."
+    },
+    {
+      "playerId": "ty-simpson",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 28,
+      "isInsiderLanguage": true,
+      "quote": "Multiple QBs visiting Cardinals including Ty Simpson — QB is genuinely in play at No. 3."
+    },
+    {
+      "playerId": "jeremiyah-love",
+      "analyst": "Todd McShay",
+      "outlet": "ESPN",
+      "strength": 35,
+      "isInsiderLanguage": true,
+      "quote": "Someone in the Cardinals building is pushing really hard for running back Jeremiyah Love."
+    },
+    {
+      "playerId": "arvell-reese",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 45,
+      "isInsiderLanguage": true,
+      "quote": "Schrager mock #3 to Cardinals. \"I've heard rave reviews on Reese's off-field qualities from coaches\" — describing him as potentially an elite pass rusher."
+    }
+  ],
+  "TEN": [
+    {
+      "playerId": "david-bailey",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 38,
+      "isInsiderLanguage": true,
+      "quote": "David Bailey visit confirmed with Titans."
+    },
+    {
+      "playerId": "rueben-bain-jr",
+      "analyst": "Todd McShay",
+      "outlet": "ESPN",
+      "strength": 35,
+      "isInsiderLanguage": false,
+      "quote": "Bain might be a surprise here, but tracks philosophically. Mike Borgonzi comes from the Chiefs' BPA model."
+    },
+    {
+      "playerId": "makai-lemon",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 25,
+      "isInsiderLanguage": false,
+      "quote": "Makai Lemon visit confirmed with Titans."
+    },
+    {
+      "playerId": "carnell-tate",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 22,
+      "isInsiderLanguage": false,
+      "quote": "Carnell Tate visit confirmed with Titans."
+    },
+    {
+      "playerId": "mansoor-delane",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 20,
+      "isInsiderLanguage": false,
+      "quote": "Mansoor Delane visit confirmed with Titans."
+    },
+    {
+      "playerId": "jeremiyah-love",
+      "analyst": "Jeremy Fowler + Jim Wyatt consensus",
+      "outlet": "ESPN",
+      "strength": 58,
+      "isInsiderLanguage": true,
+      "quote": "Multiple analysts including Jeremy Fowler (ESPN): Borgonzi loves Jeremiyah Love. 14 of 20 mock drafts project Love to Titans at #4."
+    },
+    {
+      "playerId": "jeremiyah-love",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 38,
+      "isInsiderLanguage": false,
+      "quote": "Schrager mock #4 to Titans. Love \"a dynamic player who can do it all\" — 1,372 yards and 18 TDs. Schrager interviewed Borgonzi at league meetings."
+    }
+  ],
+  "NYG": [
+    {
+      "playerId": "sonny-styles",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 45,
+      "isInsiderLanguage": false,
+      "quote": "Would be a monster playing behind the Giants' dynamic front line."
+    },
+    {
+      "playerId": "caleb-downs",
+      "analyst": "Ian Rapoport",
+      "outlet": "NFL Network",
+      "strength": 38,
+      "isInsiderLanguage": true,
+      "quote": "Caleb Downs visited the Giants — confirmed."
+    },
+    {
+      "playerId": "mansoor-delane",
+      "analyst": "Ian Rapoport",
+      "outlet": "NFL Network",
+      "strength": 40,
+      "isInsiderLanguage": true,
+      "quote": "Mansoor Delane visiting the Giants on Wednesday into Thursday."
+    },
+    {
+      "playerId": "makai-lemon",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 22,
+      "isInsiderLanguage": false,
+      "quote": "Makai Lemon visit confirmed with Giants."
+    },
+    {
+      "playerId": "carnell-tate",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 20,
+      "isInsiderLanguage": false,
+      "quote": "Carnell Tate visit confirmed with Giants."
+    },
+    {
+      "playerId": "spencer-fano",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 28,
+      "isInsiderLanguage": true,
+      "quote": "Spencer Fano visit confirmed with Giants. JJ Mock 1.0 has NYG/Fano."
+    },
+    {
+      "playerId": "jeremiyah-love",
+      "analyst": "Jeremy Fowler (ESPN)",
+      "outlet": "ESPN",
+      "strength": 32,
+      "isInsiderLanguage": true,
+      "quote": "Giants have done significant homework on Jeremiyah Love. Top-30 visit confirmed."
+    },
+    {
+      "playerId": "francis-mauigoa",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 35,
+      "isInsiderLanguage": false,
+      "quote": "Schrager mock #5 to Giants. Mauigoa \"expected to be the first offensive lineman off the board.\" Giants coach Harbaugh called OL \"a work in progress\" at league meetings."
+    }
+  ],
+  "CLE": [
+    {
+      "playerId": "carnell-tate",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 42,
+      "isInsiderLanguage": true,
+      "quote": "Browns hosted Carnell Tate for top-30 visit — heavy WR visitation pattern."
+    },
+    {
+      "playerId": "makai-lemon",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 38,
+      "isInsiderLanguage": true,
+      "quote": "Browns hosted Makai Lemon — part of heavy WR visit pattern."
+    },
+    {
+      "playerId": "jordyn-tyson",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 32,
+      "isInsiderLanguage": true,
+      "quote": "Browns hosted Jordyn Tyson — WR shopping at Pick 6."
+    },
+    {
+      "playerId": "omar-cooper-jr",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 28,
+      "isInsiderLanguage": true,
+      "quote": "Omar Cooper Jr. visit confirmed with Browns."
+    },
+    {
+      "playerId": "denzel-boston",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 25,
+      "isInsiderLanguage": true,
+      "quote": "Denzel Boston visit confirmed with Browns."
+    },
+    {
+      "playerId": "monroe-freeling",
+      "analyst": "Mel Kiper",
+      "outlet": "ESPN",
+      "strength": 30,
+      "isInsiderLanguage": false,
+      "quote": "Monroe Freeling mocked to Browns in several projections at Pick 6. Also appears at Pick 24 in others."
+    },
+    {
+      "playerId": "caleb-lomu",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 22,
+      "isInsiderLanguage": false,
+      "quote": "Caleb Lomu to Browns at Pick 24 in Mock 3.0."
+    },
+    {
+      "playerId": "ty-simpson",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 20,
+      "isInsiderLanguage": false,
+      "quote": "Ty Simpson visit confirmed with Browns for QB evaluation."
+    },
+    {
+      "playerId": "spencer-fano",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 30,
+      "isInsiderLanguage": false,
+      "quote": "Spencer Fano mocked to Browns at Pick 6 in Mock 2.0."
+    },
+    {
+      "playerId": "jeremiyah-love",
+      "analyst": "NFL Mock Draft consensus",
+      "outlet": "Consensus",
+      "strength": 22,
+      "isInsiderLanguage": false,
+      "quote": "Browns hosted Love for pre-draft meeting. Some mocks have Love at CLE at pick 6 as BPA."
+    },
+    {
+      "playerId": "spencer-fano",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 35,
+      "isInsiderLanguage": false,
+      "quote": "Schrager mock #6 to Browns. Fano has \"true versatility across the entire offensive line.\" Note: diverges from heavy WR visit data but Schrager heard OL focus for CLE."
+    },
+    {
+      "playerId": "kc-concepcion",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 48,
+      "isInsiderLanguage": true,
+      "quote": "Schrager mock #24 (via JAX) to Browns: KC Concepcion. \"I've had multiple sources compare Concepcion to Zay Flowers\" — who was coached by current Browns staff during their Baltimore tenure. EXPLICIT MULTI-SOURCE attribution."
+    }
+  ],
+  "WAS": [
+    {
+      "playerId": "sonny-styles",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 48,
+      "isInsiderLanguage": true,
+      "quote": "Styles reminds me of Fred Warner, who was drafted by the 49ers when current Commanders GM Adam Peters was an executive in San Francisco's front office."
+    },
+    {
+      "playerId": "caleb-downs",
+      "analyst": "Multiple (Kiper, Shook, ESPN collab)",
+      "outlet": "Various",
+      "strength": 38,
+      "isInsiderLanguage": false,
+      "quote": "Caleb Downs mocked to Commanders in multiple projections."
+    },
+    {
+      "playerId": "arvell-reese",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 25,
+      "isInsiderLanguage": false,
+      "quote": "Arvell Reese to Commanders in Mock 2.0."
+    },
+    {
+      "playerId": "rueben-bain-jr",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 28,
+      "isInsiderLanguage": false,
+      "quote": "Rueben Bain Jr. to Commanders in Mock 3.0."
+    },
+    {
+      "playerId": "jeremiyah-love",
+      "analyst": "Adam Schefter (ESPN)",
+      "outlet": "ESPN",
+      "strength": 40,
+      "isInsiderLanguage": true,
+      "quote": "A place that makes sense for Jeremiyah Love is the Washington Commanders."
+    },
+    {
+      "playerId": "sonny-styles",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 35,
+      "isInsiderLanguage": false,
+      "quote": "Schrager mock #7 to Commanders. Styles \"shows a lot of the same traits that Fred Warner has displayed in San Francisco.\" GM Adam Peters came from SF and \"knows what Warner has meant\" — organizational fit signal beyond just public knowledge."
+    }
+  ],
+  "NO": [
+    {
+      "playerId": "david-bailey",
+      "analyst": "Daniel Jeremiah / Todd McShay",
+      "outlet": "NFL Network / ESPN",
+      "strength": 35,
+      "isInsiderLanguage": false,
+      "quote": "David Bailey mocked to Saints in Mock 3.0 (Jeremiah) and McShay."
+    },
+    {
+      "playerId": "carnell-tate",
+      "analyst": "Mel Kiper",
+      "outlet": "ESPN",
+      "strength": 32,
+      "isInsiderLanguage": true,
+      "quote": "Carnell Tate visit confirmed with Saints. Kiper mock has Tate here."
+    },
+    {
+      "playerId": "makai-lemon",
+      "analyst": "ESPN Collaborative",
+      "outlet": "ESPN",
+      "strength": 30,
+      "isInsiderLanguage": true,
+      "quote": "Makai Lemon visit confirmed with Saints. ESPN collab mock."
+    },
+    {
+      "playerId": "kenyon-sadiq",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 28,
+      "isInsiderLanguage": false,
+      "quote": "Kenyon Sadiq is a dangerous receiver and competitive blocker — a mismatch weapon."
+    },
+    {
+      "playerId": "sonny-styles",
+      "analyst": "ESPN Collaborative",
+      "outlet": "ESPN",
+      "strength": 25,
+      "isInsiderLanguage": false,
+      "quote": "Sonny Styles to Saints in ESPN collaborative mock at Pick 8."
+    },
+    {
+      "playerId": "mansoor-delane",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 22,
+      "isInsiderLanguage": true,
+      "quote": "Mansoor Delane visit confirmed with Saints."
+    },
+    {
+      "playerId": "arvell-reese",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 22,
+      "isInsiderLanguage": true,
+      "quote": "Arvell Reese visit confirmed with Saints."
+    },
+    {
+      "playerId": "jeremiyah-love",
+      "analyst": "NFL Mock Draft consensus",
+      "outlet": "Consensus",
+      "strength": 20,
+      "isInsiderLanguage": false,
+      "quote": "Saints are a landing spot in some mocks if Love falls from top-5."
+    },
+    {
+      "playerId": "rueben-bain-jr",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 38,
+      "isInsiderLanguage": false,
+      "quote": "Schrager mock #8 to Saints. Bain \"viewed as a top-10-worthy prospect\" — passive voice indicating sourced league consensus despite short arms concern."
+    }
+  ],
+  "KC": [
+    {
+      "playerId": "rueben-bain-jr",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 45,
+      "isInsiderLanguage": false,
+      "quote": "Bain's temperament and playing style will perfectly complement Jeffery Simmons."
+    },
+    {
+      "playerId": "spencer-fano",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 35,
+      "isInsiderLanguage": false,
+      "quote": "Spencer Fano to Chiefs at Pick 9 in Mock 3.0 — addressing IOL need."
+    },
+    {
+      "playerId": "kenyon-sadiq",
+      "analyst": "Albert Breer",
+      "outlet": "Sports Illustrated",
+      "strength": 38,
+      "isInsiderLanguage": false,
+      "quote": "I actually really, really like the idea of Kenyon Sadiq at No. 9 to Kansas City."
+    },
+    {
+      "playerId": "carnell-tate",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 35,
+      "isInsiderLanguage": true,
+      "quote": "Chiefs attended Ohio State Pro Day — visiting Carnell Tate among others."
+    },
+    {
+      "playerId": "makai-lemon",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 30,
+      "isInsiderLanguage": true,
+      "quote": "Chiefs at Ohio State Pro Day — Makai Lemon visit confirmed."
+    },
+    {
+      "playerId": "arvell-reese",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 28,
+      "isInsiderLanguage": true,
+      "quote": "Chiefs at Ohio State Pro Day — Arvell Reese visit confirmed."
+    },
+    {
+      "playerId": "jermod-mccoy",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 25,
+      "isInsiderLanguage": false,
+      "quote": "Jermod McCoy to Chiefs at Pick 29 in Campbell mock."
+    },
+    {
+      "playerId": "colton-hood",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 22,
+      "isInsiderLanguage": false,
+      "quote": "Colton Hood mocked to Chiefs at Pick 29 in multiple projections."
+    },
+    {
+      "playerId": "jordyn-tyson",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 35,
+      "isInsiderLanguage": false,
+      "quote": "Schrager mock #9 to Chiefs — WR over EDGE/IOL. \"Finding offensive playmakers is a MAJOR PRIORITY\" for KC. \"Tyson pops more than any other receiver in this draft class.\""
+    }
+  ],
+  "CIN": [
+    {
+      "playerId": "caleb-downs",
+      "analyst": "Multiple (JJ 2.0, JJ 3.0, ESPN collab, Davis)",
+      "outlet": "Various",
+      "strength": 40,
+      "isInsiderLanguage": false,
+      "quote": "Complete football player with exceptional mental preparation."
+    },
+    {
+      "playerId": "mansoor-delane",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 28,
+      "isInsiderLanguage": false,
+      "quote": "Mansoor Delane mocked to Bengals in some projections at Pick 10."
+    },
+    {
+      "playerId": "jermod-mccoy",
+      "analyst": "Daniel Jeremiah / Shook",
+      "outlet": "NFL Network / Various",
+      "strength": 28,
+      "isInsiderLanguage": false,
+      "quote": "Jermod McCoy to Bengals in JJ Mock 1.0 and Shook mock."
+    },
+    {
+      "playerId": "francis-mauigoa",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 25,
+      "isInsiderLanguage": false,
+      "quote": "Francis Mauigoa to Bengals at Pick 10 in Campbell mock."
+    },
+    {
+      "playerId": "jeremiyah-love",
+      "analyst": "Consensus + top-30 visit",
+      "outlet": "Consensus",
+      "strength": 28,
+      "isInsiderLanguage": true,
+      "quote": "Bengals hosted Jeremiyah Love for official top-30 visit. Multiple analysts project Love here if he falls."
+    },
+    {
+      "playerId": "mansoor-delane",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 38,
+      "isInsiderLanguage": false,
+      "quote": "Schrager mock #10 to Bengals. Delane \"viewed as the top corner in this class.\" Passive voice = sourced. Allowed 31.3 passer rating when targeted."
+    }
+  ],
+  "MIA": [
+    {
+      "playerId": "mansoor-delane",
+      "analyst": "Ian Rapoport",
+      "outlet": "NFL Network",
+      "strength": 50,
+      "isInsiderLanguage": true,
+      "quote": "LSU CB Mansoor Delane...is visiting the Dolphins on a Top 30 tonight and tomorrow."
+    },
+    {
+      "playerId": "carnell-tate",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 28,
+      "isInsiderLanguage": true,
+      "quote": "Carnell Tate visit confirmed with Dolphins."
+    },
+    {
+      "playerId": "ty-simpson",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 22,
+      "isInsiderLanguage": true,
+      "quote": "Ty Simpson visit confirmed with Dolphins."
+    },
+    {
+      "playerId": "peter-woods",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 22,
+      "isInsiderLanguage": false,
+      "quote": "Peter Woods mocked to Dolphins at Pick 11 in Campbell mock."
+    },
+    {
+      "playerId": "keldric-faulk",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 28,
+      "isInsiderLanguage": false,
+      "quote": "Keldric Faulk to Dolphins at Pick 30 (via DEN pick) in Mock 3.0."
+    },
+    {
+      "playerId": "akheem-mesidor",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 22,
+      "isInsiderLanguage": false,
+      "quote": "Akheem Mesidor to Dolphins at Pick 30 in Campbell mock."
+    },
+    {
+      "playerId": "jeremiyah-love",
+      "analyst": "NFL Mock Draft consensus",
+      "outlet": "Consensus",
+      "strength": 18,
+      "isInsiderLanguage": false,
+      "quote": "Dolphins rebuilding — Love projected here in some scenarios."
+    },
+    {
+      "playerId": "carnell-tate",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 35,
+      "isInsiderLanguage": false,
+      "quote": "Schrager mock #11 to Dolphins. Coach Hafley and GM Sullivan \"have countless contacts at Ohio State\" and \"the whole program raves about Tate.\" Direct sourcing from OSU program insiders. Miami holds 7 picks in first 3 rounds."
+    }
+  ],
+  "DAL": [
+    {
+      "playerId": "jermod-mccoy",
+      "analyst": "Multiple (JJ, Brugler, Davis)",
+      "outlet": "Various",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "Jermod McCoy mocked to Cowboys in majority of projections at Pick 12."
+    },
+    {
+      "playerId": "mansoor-delane",
+      "analyst": "Multiple / Charlie Campbell",
+      "outlet": "Various",
+      "strength": 40,
+      "isInsiderLanguage": true,
+      "quote": "Cowboys hosted Mansoor Delane for top-30 visit."
+    },
+    {
+      "playerId": "sonny-styles",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 35,
+      "isInsiderLanguage": true,
+      "quote": "Sonny Styles visit confirmed with Cowboys. Multiple mocks have Styles here."
+    },
+    {
+      "playerId": "emmanuel-mcneil-warren",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 28,
+      "isInsiderLanguage": true,
+      "quote": "Emmanuel McNeil-Warren visit confirmed with Cowboys."
+    },
+    {
+      "playerId": "caleb-downs",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 28,
+      "isInsiderLanguage": true,
+      "quote": "Caleb Downs visit confirmed with Cowboys."
+    },
+    {
+      "playerId": "keldric-faulk",
+      "analyst": "Multiple (JJ 1.0, Campbell)",
+      "outlet": "Various",
+      "strength": 35,
+      "isInsiderLanguage": false,
+      "quote": "Keldric Faulk mocked to Cowboys at Pick 20 in JJ Mock 1.0 and Campbell."
+    },
+    {
+      "playerId": "akheem-mesidor",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 28,
+      "isInsiderLanguage": false,
+      "quote": "Akheem Mesidor to Cowboys at Pick 20 in Mock 2.0."
+    },
+    {
+      "playerId": "david-bailey",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 25,
+      "isInsiderLanguage": true,
+      "quote": "David Bailey visit confirmed with Cowboys."
+    },
+    {
+      "playerId": "avieon-terrell",
+      "analyst": "Shook",
+      "outlet": "Various",
+      "strength": 22,
+      "isInsiderLanguage": false,
+      "quote": "Avieon Terrell mocked to Cowboys at Pick 20 in Shook mock."
+    },
+    {
+      "playerId": "caleb-downs",
+      "analyst": "Peter Schrager / Matt Patricia",
+      "outlet": "ESPN",
+      "strength": 45,
+      "isInsiderLanguage": true,
+      "quote": "Schrager mock #12 to Cowboys. Ohio State DC Matt Patricia told Schrager ON RECORD: Downs \"will be the smartest player on whichever team drafts him\" and \"should be a face of the franchise.\" Named source, direct quote. Dallas gave up 54 plays of 25+ yards (most in NFL)."
+    }
+  ],
+  "LAR": [
+    {
+      "playerId": "makai-lemon",
+      "analyst": "Multiple (JJ 1.0, JJ 3.0, ESPN collab, Campbell)",
+      "outlet": "Various",
+      "strength": 48,
+      "isInsiderLanguage": false,
+      "quote": "Makai Lemon won't get past the Rams at pick No. 13."
+    },
+    {
+      "playerId": "jordyn-tyson",
+      "analyst": "Multiple (JJ 1.0, Kiper)",
+      "outlet": "Various",
+      "strength": 32,
+      "isInsiderLanguage": false,
+      "quote": "Jordyn Tyson mocked to Rams in multiple projections as their WR1 target."
+    },
+    {
+      "playerId": "colton-hood",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 22,
+      "isInsiderLanguage": false,
+      "quote": "Colton Hood mocked to Rams/KC area at Pick 29 in Mock 3.0."
+    },
+    {
+      "playerId": "makai-lemon",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 35,
+      "isInsiderLanguage": false,
+      "quote": "Schrager mock #13 to Rams (via ATL). Rams \"truly all-in to win in 2026\" — stated as insider knowledge of team's internal posture. Lemon (Biletnikoff winner) with aging Stafford and Adams."
+    }
+  ],
+  "BAL": [
+    {
+      "playerId": "olaivavega-ioane",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 35,
+      "isInsiderLanguage": false,
+      "quote": "Olaivavega Ioane to Ravens in Mock 1.0. DeCosta history of IOL value."
+    },
+    {
+      "playerId": "jordyn-tyson",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 32,
+      "isInsiderLanguage": false,
+      "quote": "Jordyn Tyson to Ravens in Mock 2.0 and Mock 3.0."
+    },
+    {
+      "playerId": "spencer-fano",
+      "analyst": "Shook / Davis",
+      "outlet": "Various",
+      "strength": 28,
+      "isInsiderLanguage": false,
+      "quote": "Spencer Fano mocked to Ravens by Shook and Davis."
+    },
+    {
+      "playerId": "david-bailey",
+      "analyst": "Albert Breer",
+      "outlet": "Sports Illustrated",
+      "strength": 25,
+      "isInsiderLanguage": false,
+      "quote": "David Bailey mocked to Ravens at Pick 14 in Breer/SI mock."
+    },
+    {
+      "playerId": "jeremiyah-love",
+      "analyst": "Jeff Zrebiec (The Athletic)",
+      "outlet": "The Athletic",
+      "strength": 35,
+      "isInsiderLanguage": false,
+      "quote": "Zrebiec mock pick at #14: Jeremiyah Love (RB, Notre Dame). Kyle Hamilton 2022 comparison — too good to pass. Derrick Henry is 32, no successor on roster."
+    },
+    {
+      "playerId": "kenyon-sadiq",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 35,
+      "isInsiderLanguage": false,
+      "quote": "Schrager mock #14 to Ravens. Sadiq ran 4.39 forty (fastest TE since 2003). Evaluative, not sourced."
+    }
+  ],
+  "TB": [
+    {
+      "playerId": "akheem-mesidor",
+      "analyst": "Daniel Jeremiah / ESPN Collaborative",
+      "outlet": "NFL Network / ESPN",
+      "strength": 35,
+      "isInsiderLanguage": false,
+      "quote": "Akheem Mesidor to Buccaneers in JJ Mock 3.0 and ESPN collab."
+    },
+    {
+      "playerId": "cashius-howell",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 30,
+      "isInsiderLanguage": false,
+      "quote": "Cashius Howell to Buccaneers in Mock 1.0."
+    },
+    {
+      "playerId": "cj-allen",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 28,
+      "isInsiderLanguage": false,
+      "quote": "CJ Allen to Buccaneers at Pick 15 in Campbell mock."
+    },
+    {
+      "playerId": "sonny-styles",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 25,
+      "isInsiderLanguage": false,
+      "quote": "Sonny Styles to Buccaneers at Pick 15 in Mock 2.0."
+    },
+    {
+      "playerId": "jermod-mccoy",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 38,
+      "isInsiderLanguage": false,
+      "quote": "Schrager mock #15 to Buccaneers. McCoy \"viewed as one of the top two CBs in this class\" — passive sourcing despite knee injury in 2025. \"A legit No. 1 corner when healthy.\""
+    }
+  ],
+  "DET": [
+    {
+      "playerId": "monroe-freeling",
+      "analyst": "Daniel Jeremiah / Mel Kiper",
+      "outlet": "NFL Network / ESPN",
+      "strength": 38,
+      "isInsiderLanguage": false,
+      "quote": "Monroe Freeling mocked to Lions in JJ Mock 3.0 and Kiper mock at Pick 17."
+    },
+    {
+      "playerId": "akheem-mesidor",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 28,
+      "isInsiderLanguage": false,
+      "quote": "Akheem Mesidor to Lions in Mock 1.0."
+    },
+    {
+      "playerId": "tj-parker",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 28,
+      "isInsiderLanguage": false,
+      "quote": "TJ Parker to Lions in Mock 2.0."
+    },
+    {
+      "playerId": "kadyn-proctor",
+      "analyst": "Charlie Campbell / Davis",
+      "outlet": "WalterFootball / Various",
+      "strength": 30,
+      "isInsiderLanguage": false,
+      "quote": "Kadyn Proctor mocked to Lions by Campbell and Davis."
+    },
+    {
+      "playerId": "kadyn-proctor",
+      "analyst": "Peter Schrager + Daniel Jeremiah",
+      "outlet": "ESPN/NFL Network",
+      "strength": 40,
+      "isInsiderLanguage": true,
+      "quote": "Schrager and Jeremiah both said on their podcast that they are hearing Proctor will not fall past the Lions at 17. Two of the most connected reporters aligning on this pick."
+    }
+  ],
+  "MIN": [
+    {
+      "playerId": "dillon-thieneman",
+      "analyst": "Multiple (JJ, Kiper, Campbell, Davis, ESPN collab, Shook)",
+      "outlet": "Various",
+      "strength": 55,
+      "isInsiderLanguage": false,
+      "quote": "Tough safety who excels in run defense — multiple analysts project Thieneman to Minnesota at 18."
+    },
+    {
+      "playerId": "emmanuel-mcneil-warren",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 22,
+      "isInsiderLanguage": false,
+      "quote": "Emmanuel McNeil-Warren mocked to Vikings in some projections."
+    }
+  ],
+  "PIT": [
+    {
+      "playerId": "ty-simpson",
+      "analyst": "Mike Florio / Ryan Wilson",
+      "outlet": "ProFootballTalk / CBS Sports",
+      "strength": 48,
+      "isInsiderLanguage": true,
+      "quote": "The Steelers are trying to keep their cards close to the vest in hopes that Ty Simpson slips to them — all that Will Howard stuff is just smoke."
+    },
+    {
+      "playerId": "denzel-boston",
+      "analyst": "Multiple (JJ 1.0, JJ 2.0, Campbell)",
+      "outlet": "Various",
+      "strength": 35,
+      "isInsiderLanguage": true,
+      "quote": "Steelers hosted Denzel Boston for top-30 visit."
+    },
+    {
+      "playerId": "olaivavega-ioane",
+      "analyst": "Charlie Campbell / ESPN Collaborative",
+      "outlet": "WalterFootball / ESPN",
+      "strength": 30,
+      "isInsiderLanguage": false,
+      "quote": "Olaivavega Ioane mocked to Steelers by Campbell and ESPN collab at Pick 21."
+    },
+    {
+      "playerId": "blake-miller",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 25,
+      "isInsiderLanguage": false,
+      "quote": "Blake Miller to Steelers in Mock 3.0."
+    },
+    {
+      "playerId": "tj-parker",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 35,
+      "isInsiderLanguage": false,
+      "quote": "Schrager mock #21 to Steelers: TJ Parker EDGE. \"Aaron Rodgers expected to return\" — sourced expectation about PIT QB situation that drives defensive building. Parker has 21.5 sacks over 3 Clemson seasons."
+    }
+  ],
+  "CHI": [
+    {
+      "playerId": "peter-woods",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 38,
+      "isInsiderLanguage": false,
+      "quote": "Peter Woods mocked to Bears in majority of projections."
+    },
+    {
+      "playerId": "kayden-mcdonald",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 30,
+      "isInsiderLanguage": false,
+      "quote": "Kayden McDonald mocked to Bears in some projections."
+    },
+    {
+      "playerId": "dillon-thieneman",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 25,
+      "isInsiderLanguage": false,
+      "quote": "Dillon Thieneman to Bears in Mock 1.0."
+    },
+    {
+      "playerId": "emmanuel-mcneil-warren",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 28,
+      "isInsiderLanguage": false,
+      "quote": "Emmanuel McNeil-Warren to Bears in Mock 3.0."
+    },
+    {
+      "playerId": "kadyn-proctor",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 30,
+      "isInsiderLanguage": false,
+      "quote": "Schrager mock #25 to Bears: Kadyn Proctor OT. \"Mass of humanity\" at 358 lbs with surprising mobility."
+    }
+  ],
+  "SF": [
+    {
+      "playerId": "kenyon-sadiq",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 48,
+      "isInsiderLanguage": false,
+      "quote": "Amazing new toy for Kyle Shanahan."
+    },
+    {
+      "playerId": "kc-concepcion",
+      "analyst": "Multiple / Charlie Campbell",
+      "outlet": "Various",
+      "strength": 38,
+      "isInsiderLanguage": true,
+      "quote": "49ers visited KC Concepcion and multiple YAC-type receivers — matches Shanahan system preference."
+    },
+    {
+      "playerId": "omar-cooper-jr",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 30,
+      "isInsiderLanguage": true,
+      "quote": "Omar Cooper Jr. visit confirmed with 49ers."
+    },
+    {
+      "playerId": "denzel-boston",
+      "analyst": "Multiple",
+      "outlet": "Various",
+      "strength": 28,
+      "isInsiderLanguage": true,
+      "quote": "Denzel Boston visit confirmed with 49ers."
+    },
+    {
+      "playerId": "blake-miller",
+      "analyst": "Davis",
+      "outlet": "Various",
+      "strength": 22,
+      "isInsiderLanguage": false,
+      "quote": "Blake Miller mocked to 49ers at Pick 27 in Davis mock."
+    }
+  ],
+  "PHI": [
+    {
+      "playerId": "avieon-terrell",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 32,
+      "isInsiderLanguage": false,
+      "quote": "Avieon Terrell to Eagles in Mock 1.0."
+    },
+    {
+      "playerId": "monroe-freeling",
+      "analyst": "Mel Kiper",
+      "outlet": "ESPN",
+      "strength": 28,
+      "isInsiderLanguage": false,
+      "quote": "Monroe Freeling mocked to Eagles by Kiper."
+    },
+    {
+      "playerId": "denzel-boston",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 30,
+      "isInsiderLanguage": false,
+      "quote": "Denzel Boston mocked to Eagles in Campbell mock."
+    },
+    {
+      "playerId": "max-iheanachor",
+      "analyst": "ESPN Collaborative",
+      "outlet": "ESPN",
+      "strength": 25,
+      "isInsiderLanguage": false,
+      "quote": "Max Iheanachor mocked to Eagles in ESPN collab mock."
+    },
+    {
+      "playerId": "blake-miller",
+      "analyst": "Shook",
+      "outlet": "Various",
+      "strength": 25,
+      "isInsiderLanguage": false,
+      "quote": "Blake Miller mocked to Eagles in Shook mock."
+    },
+    {
+      "playerId": "denzel-boston",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 50,
+      "isInsiderLanguage": true,
+      "quote": "Schrager mock #23 to Eagles. \"Some NFL sources I have spoken to have Boston as the second or third wideout in this class.\" EXPLICIT NFL SOURCE attribution. Also: Coach Fisch and GM Roseman are \"longtime college buddies\" — fit signal."
+    }
+  ],
+  "LAC": [
+    {
+      "playerId": "kenyon-sadiq",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 35,
+      "isInsiderLanguage": false,
+      "quote": "Perfect weapon for a creative offensive mind. Harbaugh known for TE appreciation. Jeremiah Mock 2.0."
+    },
+    {
+      "playerId": "olaivavega-ioane",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 28,
+      "isInsiderLanguage": false,
+      "quote": "Olaivavega Ioane to Chargers in Mock 3.0."
+    },
+    {
+      "playerId": "lee-hunter",
+      "analyst": "Daniel Jeremiah / Charlie Campbell",
+      "outlet": "NFL Network / WalterFootball",
+      "strength": 28,
+      "isInsiderLanguage": false,
+      "quote": "Lee Hunter mocked to Chargers in JJ Mock 1.0 and Campbell mock."
+    },
+    {
+      "playerId": "keldric-faulk",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 25,
+      "isInsiderLanguage": false,
+      "quote": "Keldric Faulk mocked to Chargers in Campbell mock."
+    },
+    {
+      "playerId": "cashius-howell",
+      "analyst": "Albert Breer",
+      "outlet": "Sports Illustrated",
+      "strength": 25,
+      "isInsiderLanguage": false,
+      "quote": "Cashius Howell mocked to Chargers in Breer/SI mock."
+    }
+  ],
+  "HOU": [
+    {
+      "playerId": "monroe-freeling",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 30,
+      "isInsiderLanguage": false,
+      "quote": "Monroe Freeling to Texans in Mock 1.0."
+    },
+    {
+      "playerId": "blake-miller",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 28,
+      "isInsiderLanguage": false,
+      "quote": "Blake Miller mocked to Texans at Pick 28 in Campbell mock."
+    },
+    {
+      "playerId": "kayden-mcdonald",
+      "analyst": "ESPN Collaborative",
+      "outlet": "ESPN",
+      "strength": 28,
+      "isInsiderLanguage": false,
+      "quote": "Kayden McDonald mocked to Texans at Pick 28 in ESPN collab."
+    },
+    {
+      "playerId": "caleb-lomu",
+      "analyst": "Shook",
+      "outlet": "Various",
+      "strength": 22,
+      "isInsiderLanguage": false,
+      "quote": "Caleb Lomu mocked to Texans at Pick 28 in Shook mock."
+    }
+  ],
+  "CAR": [
+    {
+      "playerId": "spencer-fano",
+      "analyst": "ESPN Collaborative",
+      "outlet": "ESPN",
+      "strength": 30,
+      "isInsiderLanguage": false,
+      "quote": "Spencer Fano to Panthers at Pick 19 in ESPN collab mock."
+    },
+    {
+      "playerId": "avieon-terrell",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 28,
+      "isInsiderLanguage": false,
+      "quote": "Avieon Terrell to Panthers at Pick 19 in Campbell mock."
+    },
+    {
+      "playerId": "keldric-faulk",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 25,
+      "isInsiderLanguage": false,
+      "quote": "Keldric Faulk to Panthers in Mock 2.0."
+    },
+    {
+      "playerId": "jordyn-tyson",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 25,
+      "isInsiderLanguage": false,
+      "quote": "Jordyn Tyson to Panthers in Mock 1.0."
+    }
+  ],
+  "BUF": [
+    {
+      "playerId": "cashius-howell",
+      "analyst": "Daniel Jeremiah / Charlie Campbell",
+      "outlet": "NFL Network / WalterFootball",
+      "strength": 35,
+      "isInsiderLanguage": false,
+      "quote": "Cashius Howell to Bills in JJ Mock 3.0 and Campbell mock."
+    },
+    {
+      "playerId": "cj-allen",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 28,
+      "isInsiderLanguage": false,
+      "quote": "CJ Allen to Bills in Mock 1.0."
+    },
+    {
+      "playerId": "avieon-terrell",
+      "analyst": "ESPN Collaborative",
+      "outlet": "ESPN",
+      "strength": 25,
+      "isInsiderLanguage": false,
+      "quote": "Avieon Terrell mocked to Bills in ESPN collab."
+    },
+    {
+      "playerId": "makai-lemon",
+      "analyst": "Albert Breer",
+      "outlet": "Sports Illustrated",
+      "strength": 22,
+      "isInsiderLanguage": false,
+      "quote": "Makai Lemon mocked to Bills in Breer/SI mock."
+    },
+    {
+      "playerId": "kayden-mcdonald",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 50,
+      "isInsiderLanguage": true,
+      "quote": "Schrager mock #26 to Bills. \"I'm HEARING significant first-round buzz on him.\" Classic Schrager insider signal. \"This might be the highest you'll see McDonald going in a mock draft at the moment.\" Buffalo ranked 30th against the run."
+    }
+  ],
+  "SEA": [
+    {
+      "playerId": "colton-hood",
+      "analyst": "Charlie Campbell / Davis / Albert Breer",
+      "outlet": "WalterFootball / Various / SI",
+      "strength": 28,
+      "isInsiderLanguage": false,
+      "quote": "Colton Hood mocked to Seahawks by Campbell, Davis, and Breer."
+    },
+    {
+      "playerId": "kc-concepcion",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 25,
+      "isInsiderLanguage": false,
+      "quote": "KC Concepcion to Seahawks in Mock 3.0."
+    },
+    {
+      "playerId": "jadarian-price",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 22,
+      "isInsiderLanguage": false,
+      "quote": "Jadarian Price to Seahawks in Mock 3.0."
+    },
+    {
+      "playerId": "jadarian-price",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 30,
+      "isInsiderLanguage": false,
+      "quote": "Schrager mock #32 to Seahawks. Price \"is the No. 2 running back in this class.\" Would make two Notre Dame RBs in Round 1 (Love #4, Price #32)."
+    }
+  ],
+  "NE": [
+    {
+      "playerId": "caleb-lomu",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 38,
+      "isInsiderLanguage": false,
+      "quote": "Caleb Lomu to Patriots in Mock 1.0 and Mock 2.0."
+    },
+    {
+      "playerId": "tj-parker",
+      "analyst": "Shook",
+      "outlet": "Various",
+      "strength": 30,
+      "isInsiderLanguage": false,
+      "quote": "TJ Parker mocked to Patriots in Shook mock."
+    },
+    {
+      "playerId": "max-iheanachor",
+      "analyst": "Charlie Campbell / Albert Breer",
+      "outlet": "WalterFootball / SI",
+      "strength": 28,
+      "isInsiderLanguage": false,
+      "quote": "Max Iheanachor mocked to Patriots by Campbell and Breer."
+    },
+    {
+      "playerId": "zion-young",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 22,
+      "isInsiderLanguage": false,
+      "quote": "Zion Young to Patriots in Mock 2.0."
+    },
+    {
+      "playerId": "kayden-mcdonald",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 28,
+      "isInsiderLanguage": false,
+      "quote": "Kayden McDonald to Patriots in Mock 3.0."
+    },
+    {
+      "playerId": "keylan-rutledge",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 38,
+      "isInsiderLanguage": false,
+      "quote": "Schrager mock #31 to Patriots: Keylan Rutledge G/C, Georgia Tech. \"Might not be the same level of surprise as the Cole Strange pick\" — Patriots-style under-the-radar interior OL. Schrager comparing to Cole Strange signals he's heard this is a legitimate Patriots target."
+    }
+  ],
+  "DEN": [
+    {
+      "playerId": "anthony-hill-jr",
+      "analyst": "Albert Breer",
+      "outlet": "Sports Illustrated",
+      "strength": 22,
+      "isInsiderLanguage": false,
+      "quote": "Anthony Hill Jr. mocked to Broncos in Breer/SI mock."
+    },
+    {
+      "playerId": "cj-allen",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Network",
+      "strength": 22,
+      "isInsiderLanguage": false,
+      "quote": "CJ Allen to Broncos in Mock 2.0."
+    }
+  ],
+  "IND": [],
+  "JAX": [],
+  "ATL": [],
+  "GB": []
+}

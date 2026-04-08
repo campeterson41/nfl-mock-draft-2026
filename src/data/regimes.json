@@ -1,0 +1,1186 @@
+{
+  "buf-beane-brady": {
+    "id": "buf-beane-brady",
+    "teamId": "BUF",
+    "gm": "Brandon Beane",
+    "hc": "Joe Brady",
+    "philosophy": "Aggressive, analytics-driven operation that isn't afraid to trade up for difference-makers. Beane prioritizes EDGE rushers and skill-position talent to complement an elite QB. Joe Brady's offense demands explosive pass-catchers and a sturdy line.",
+    "positionalBias": {
+      "QB": 0.5,
+      "RB": 0.7,
+      "WR": 1.3,
+      "TE": 1,
+      "OT": 1.1,
+      "IOL": 1,
+      "EDGE": 1.5,
+      "DT": 1.1,
+      "LB": 1.2,
+      "CB": 1.3,
+      "S": 1.1,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.55,
+      "valuesNeed": 0.45,
+      "prefersAthletes": true,
+      "tradeUpFrequency": 0.35,
+      "tradeBackFrequency": 0.25,
+      "conferencePreference": {
+        "SEC": 1.1,
+        "Big 12": 1,
+        "ACC": 1,
+        "Big Ten": 1.1,
+        "Pac-12": 0.9
+      }
+    },
+    "historicalNotes": "Beane has shown willingness to trade up for impact players (Stefon Diggs, Von Miller) and heavily values pass-rush production. Joe Brady's offense thrives with athletic WRs and a clean pocket. Beane leans BPA but won't ignore glaring roster holes."
+  },
+  "mia-sullivan-hafley": {
+    "id": "mia-sullivan-hafley",
+    "teamId": "MIA",
+    "gm": "New Sullivan",
+    "hc": "Jeff Hafley",
+    "philosophy": "New regime focused on defensive restructuring and building around a franchise QB. Hafley's defensive background drives emphasis on coverage specialists and pass rushers, while the offense needs reliable weapons.",
+    "positionalBias": {
+      "QB": 0.5,
+      "RB": 0.8,
+      "WR": 1.4,
+      "TE": 1,
+      "OT": 1.1,
+      "IOL": 1,
+      "EDGE": 1.4,
+      "DT": 1.1,
+      "LB": 1.1,
+      "CB": 1.4,
+      "S": 1.3,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.5,
+      "valuesNeed": 0.5,
+      "prefersAthletes": true,
+      "tradeUpFrequency": 0.25,
+      "tradeBackFrequency": 0.3,
+      "conferencePreference": {
+        "SEC": 1.15,
+        "Big 12": 1,
+        "ACC": 1.1,
+        "Big Ten": 1,
+        "Pac-12": 0.9
+      }
+    },
+    "historicalNotes": "Jeff Hafley brings a defensive coordinator's mindset from his time at Boston College and as an NFL DB coach. Expects an emphasis on coverage cornerbacks and safety depth. Sullivan is a new GM without an established draft track record, likely to follow Hafley's defensive priorities while shoring up skill positions."
+  },
+  "ne-wolf-vrabel": {
+    "id": "ne-wolf-vrabel",
+    "teamId": "NE",
+    "gm": "Eliot Wolf",
+    "hc": "Mike Vrabel",
+    "philosophy": "Defense-first, physicality-driven culture. Vrabel demands hard-nosed players who can set the edge and stop the run. Wolf provides the analytical framework while Vrabel shapes the roster character. Premium on versatile defenders and a stout offensive line.",
+    "positionalBias": {
+      "QB": 0.5,
+      "RB": 0.9,
+      "WR": 1,
+      "TE": 1.2,
+      "OT": 1.2,
+      "IOL": 1.1,
+      "EDGE": 1.4,
+      "DT": 1.2,
+      "LB": 1.3,
+      "CB": 1.2,
+      "S": 1.1,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.5,
+      "valuesNeed": 0.5,
+      "prefersAthletes": false,
+      "tradeUpFrequency": 0.2,
+      "tradeBackFrequency": 0.35,
+      "conferencePreference": {
+        "SEC": 1.1,
+        "Big 12": 1,
+        "ACC": 1,
+        "Big Ten": 1.15,
+        "Pac-12": 0.9
+      }
+    },
+    "historicalNotes": "Mike Vrabel as HC in Tennessee consistently prioritized EDGE rushers and linebackers in early rounds. His defenses were physical and fundamentally sound. Eliot Wolf has a Packers pedigree emphasizing BPA and accumulating picks. Expect a defense-first approach with patience in trading back for more selections."
+  },
+  "nyj-glenn": {
+    "id": "nyj-glenn",
+    "teamId": "NYJ",
+    "gm": "TBD",
+    "hc": "Aaron Glenn",
+    "philosophy": "Desperate for a franchise QB to rebuild around. Glenn's defensive background means premium on pass-rush and coverage, but the QB situation overshadows everything. Explosive perimeter receivers needed to attract and support any incoming QB.",
+    "positionalBias": {
+      "QB": 2,
+      "RB": 0.7,
+      "WR": 1.2,
+      "TE": 0.9,
+      "OT": 1,
+      "IOL": 1,
+      "EDGE": 1.3,
+      "DT": 1.1,
+      "LB": 1,
+      "CB": 1.2,
+      "S": 1,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.35,
+      "valuesNeed": 0.65,
+      "prefersAthletes": true,
+      "tradeUpFrequency": 0.4,
+      "tradeBackFrequency": 0.2,
+      "conferencePreference": {
+        "SEC": 1.1,
+        "Big 12": 1,
+        "ACC": 1,
+        "Big Ten": 1.05,
+        "Pac-12": 1
+      }
+    },
+    "historicalNotes": "Aaron Glenn inherited a franchise in dire need of a QB. The Jets have not had stability at the position in decades. Glenn's defensive roots (Lions DC) will drive heavy investment in pass-rush and corners, but QB acquisition is the paramount mission. Expect aggressive trading up if a top QB is available."
+  },
+  "bal-decosta-minter": {
+    "id": "bal-decosta-minter",
+    "teamId": "BAL",
+    "gm": "Eric DeCosta",
+    "hc": "Jesse Minter",
+    "philosophy": "Accumulate picks, trust the board, never reach. DeCosta's Ravens identify undervalued players and stockpile selections to move up and down the board. Premium on trench warfare \u2014 EDGE rushers and interior linemen \u2014 with a dynamic passing game built around the QB.",
+    "positionalBias": {
+      "QB": 0.5,
+      "RB": 0.8,
+      "WR": 1.1,
+      "TE": 1,
+      "OT": 1.2,
+      "IOL": 1.3,
+      "EDGE": 1.3,
+      "DT": 1.1,
+      "LB": 1,
+      "CB": 1.1,
+      "S": 1,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.7,
+      "valuesNeed": 0.3,
+      "prefersAthletes": true,
+      "tradeUpFrequency": 0.2,
+      "tradeBackFrequency": 0.45,
+      "conferencePreference": {
+        "SEC": 1.1,
+        "Big 12": 1,
+        "ACC": 1,
+        "Big Ten": 1.1,
+        "Pac-12": 0.95
+      }
+    },
+    "historicalNotes": "Eric DeCosta learned under Ozzie Newsome and follows the same BPA-first philosophy. Baltimore famously trades back to accumulate capital and rarely reaches for a positional need. Jesse Minter's defense emphasizes multiple fronts and versatile linebackers. The Ravens prioritize the offensive and defensive lines above all else."
+  },
+  "cin-tobin-taylor": {
+    "id": "cin-tobin-taylor",
+    "teamId": "CIN",
+    "gm": "Duke Tobin",
+    "hc": "Zac Taylor",
+    "philosophy": "Protect the franchise QB and shore up the secondary. Taylor's pass-first system demands a clean pocket and reliable coverage behind it. Tobin tends to value positional need over strict BPA, especially in the trenches.",
+    "positionalBias": {
+      "QB": 0.5,
+      "RB": 0.8,
+      "WR": 1.1,
+      "TE": 1,
+      "OT": 1.2,
+      "IOL": 1.3,
+      "EDGE": 1,
+      "DT": 1.1,
+      "LB": 1.1,
+      "CB": 1.3,
+      "S": 1.2,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.45,
+      "valuesNeed": 0.55,
+      "prefersAthletes": false,
+      "tradeUpFrequency": 0.2,
+      "tradeBackFrequency": 0.25,
+      "conferencePreference": {
+        "SEC": 1.1,
+        "Big 12": 1,
+        "ACC": 1,
+        "Big Ten": 1.1,
+        "Pac-12": 0.9
+      }
+    },
+    "historicalNotes": "Duke Tobin has historically filled need over strict value, often targeting starting-caliber players in round one. Zac Taylor's offense puts enormous stress on the OL, making the tackle and guard spots perennial priorities. The secondary has been a consistent vulnerability that the Bengals address repeatedly in the draft."
+  },
+  "cle-berry-monken": {
+    "id": "cle-berry-monken",
+    "teamId": "CLE",
+    "gm": "Andrew Berry",
+    "hc": "Todd Monken",
+    "philosophy": "Analytics-heavy, BPA-leaning operation that wants to build a modern passing offense around a healthy offensive line. Monken's system requires an agile, intelligent OL and dynamic playmakers. Berry cross-checks traditional scouting with performance analytics.",
+    "positionalBias": {
+      "QB": 0.5,
+      "RB": 0.7,
+      "WR": 1.2,
+      "TE": 1,
+      "OT": 1.3,
+      "IOL": 1.2,
+      "EDGE": 1.2,
+      "DT": 1.1,
+      "LB": 1,
+      "CB": 1.2,
+      "S": 1.1,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.6,
+      "valuesNeed": 0.4,
+      "prefersAthletes": true,
+      "tradeUpFrequency": 0.25,
+      "tradeBackFrequency": 0.3,
+      "conferencePreference": {
+        "SEC": 1.1,
+        "Big 12": 1,
+        "ACC": 1,
+        "Big Ten": 1.1,
+        "Pac-12": 0.95
+      }
+    },
+    "historicalNotes": "Andrew Berry is among the most analytically-driven GMs in the league, using algorithmic models to supplement traditional scouting. He values versatility and athleticism. Todd Monken's offense is predicated on a clean pocket and explosive vertical threats. The Browns have chronic OL instability that Berry continues to address."
+  },
+  "pit-khan-mccarthy": {
+    "id": "pit-khan-mccarthy",
+    "teamId": "PIT",
+    "gm": "Omar Khan",
+    "hc": "Mike McCarthy",
+    "philosophy": "Offensive revamp centered on finding the next franchise QB and surrounding him with weapons. McCarthy's history as a QB developer drives early investment in signal-callers and pass-catchers. Khan provides cap discipline while McCarthy demands skill-position talent.",
+    "positionalBias": {
+      "QB": 1.4,
+      "RB": 0.7,
+      "WR": 1.3,
+      "TE": 1.1,
+      "OT": 1.2,
+      "IOL": 1.2,
+      "EDGE": 1.1,
+      "DT": 0.9,
+      "LB": 0.9,
+      "CB": 1,
+      "S": 1,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.45,
+      "valuesNeed": 0.55,
+      "prefersAthletes": true,
+      "tradeUpFrequency": 0.3,
+      "tradeBackFrequency": 0.25,
+      "conferencePreference": {
+        "SEC": 1.1,
+        "Big 12": 1.05,
+        "ACC": 1,
+        "Big Ten": 1.1,
+        "Pac-12": 1
+      }
+    },
+    "historicalNotes": "Mike McCarthy developed Aaron Rodgers in Green Bay and has always prioritized elite QB play. He values explosive WRs and a capable TE. Omar Khan is a shrewd cap manager who won't overextend on picks but will target proven college producers. The Steelers desperately need QB and OL stability."
+  },
+  "hou-caserio-ryans": {
+    "id": "hou-caserio-ryans",
+    "teamId": "HOU",
+    "gm": "Nick Caserio",
+    "hc": "DeMeco Ryans",
+    "philosophy": "Build a dominant defensive front around the franchise QB. Ryans' 3-4 scheme demands elite edge rushers and versatile interior linemen. Caserio takes a Patriots-influenced analytical approach, valuing multi-positional versatility and pass-rush above all.",
+    "positionalBias": {
+      "QB": 0.5,
+      "RB": 0.8,
+      "WR": 1.1,
+      "TE": 1,
+      "OT": 1.3,
+      "IOL": 1.2,
+      "EDGE": 1.4,
+      "DT": 1.3,
+      "LB": 1,
+      "CB": 1.2,
+      "S": 1.1,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.55,
+      "valuesNeed": 0.45,
+      "prefersAthletes": true,
+      "tradeUpFrequency": 0.25,
+      "tradeBackFrequency": 0.3,
+      "conferencePreference": {
+        "SEC": 1.2,
+        "Big 12": 1,
+        "ACC": 1,
+        "Big Ten": 1,
+        "Pac-12": 0.9
+      }
+    },
+    "historicalNotes": "Nick Caserio brings Belichick-influenced scouting that prizes versatility and character. DeMeco Ryans as a former linebacker coach and defensive-minded HC heavily values pass-rush and run-stopping linemen. Expect heavy SEC representation given Houston's recruiting geography and Caserio's own history targeting those players."
+  },
+  "ind-ballard-steichen": {
+    "id": "ind-ballard-steichen",
+    "teamId": "IND",
+    "gm": "Chris Ballard",
+    "hc": "Shane Steichen",
+    "philosophy": "Patient, BPA-driven operation that trusts the process. Ballard builds through the trenches and avoids overdrafting for need. Steichen's modern offense rewards athletic linemen and dynamic playmakers, while the defense needs pass-rush and coverage upgrades.",
+    "positionalBias": {
+      "QB": 0.5,
+      "RB": 0.8,
+      "WR": 1.1,
+      "TE": 1,
+      "OT": 1.2,
+      "IOL": 1.2,
+      "EDGE": 1.3,
+      "DT": 1.1,
+      "LB": 1.2,
+      "CB": 1.1,
+      "S": 1.2,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.65,
+      "valuesNeed": 0.35,
+      "prefersAthletes": true,
+      "tradeUpFrequency": 0.2,
+      "tradeBackFrequency": 0.35,
+      "conferencePreference": {
+        "SEC": 1.1,
+        "Big 12": 1,
+        "ACC": 1,
+        "Big Ten": 1.15,
+        "Pac-12": 0.95
+      }
+    },
+    "historicalNotes": "Chris Ballard is one of the league's most patient and disciplined GMs, consistently drafting BPA and trading back when value doesn't materialize. His track record with linemen and linebackers is excellent. Steichen's RPO-heavy offense values athleticism and football IQ across the lineup."
+  },
+  "jax-gladstone-coen": {
+    "id": "jax-gladstone-coen",
+    "teamId": "JAX",
+    "gm": "James Gladstone",
+    "hc": "Liam Coen",
+    "philosophy": "Rebuild the defensive front and create a balanced, efficient offense. Coen's offense prioritizes line play and defensive awareness. Gladstone as a new GM is establishing a culture with an emphasis on high-character, high-production college players.",
+    "positionalBias": {
+      "QB": 0.5,
+      "RB": 0.9,
+      "WR": 1,
+      "TE": 1.1,
+      "OT": 1.1,
+      "IOL": 1.1,
+      "EDGE": 1.3,
+      "DT": 1.3,
+      "LB": 1.4,
+      "CB": 1.2,
+      "S": 1.2,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.5,
+      "valuesNeed": 0.5,
+      "prefersAthletes": false,
+      "tradeUpFrequency": 0.2,
+      "tradeBackFrequency": 0.3,
+      "conferencePreference": {
+        "SEC": 1.15,
+        "Big 12": 1,
+        "ACC": 1,
+        "Big Ten": 1,
+        "Pac-12": 0.9
+      }
+    },
+    "historicalNotes": "Liam Coen comes from a background running efficient, ball-control offenses. Gladstone is a new voice in the organization without an extensive track record. The Jaguars' most glaring needs are defensive \u2014 linebacker and interior pass-rush \u2014 and expect those positions to dominate early picks."
+  },
+  "ten-borgonzi-saleh": {
+    "id": "ten-borgonzi-saleh",
+    "teamId": "TEN",
+    "gm": "Mike Borgonzi",
+    "hc": "Robert Saleh",
+    "philosophy": "Defense-first overhaul built on an elite pass-rush and suffocating coverage. Saleh's Cover-3/Tampa-2 hybrid scheme demands versatile linebackers and athletic safeties. Borgonzi pairs solid cap management with Saleh's defensive obsession.",
+    "positionalBias": {
+      "QB": 0.5,
+      "RB": 1,
+      "WR": 1,
+      "TE": 0.9,
+      "OT": 1.2,
+      "IOL": 1.1,
+      "EDGE": 1.5,
+      "DT": 1.3,
+      "LB": 1.2,
+      "CB": 1.1,
+      "S": 1.1,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.45,
+      "valuesNeed": 0.55,
+      "prefersAthletes": true,
+      "tradeUpFrequency": 0.25,
+      "tradeBackFrequency": 0.25,
+      "conferencePreference": {
+        "SEC": 1.1,
+        "Big 12": 1,
+        "ACC": 1,
+        "Big Ten": 1.1,
+        "Pac-12": 0.95
+      }
+    },
+    "historicalNotes": "Robert Saleh built his reputation on elite EDGE production in San Francisco (Nick Bosa era) and carried that defensive-first philosophy to New York and now Tennessee. His teams run heavy four-man fronts demanding explosive EDGE rushers and stout DTs. Borgonzi provides organizational stability while Saleh shapes the defensive roster."
+  },
+  "den-paton-payton": {
+    "id": "den-paton-payton",
+    "teamId": "DEN",
+    "gm": "George Paton",
+    "hc": "Sean Payton",
+    "philosophy": "A QB-locked team looking to create a complete roster. Payton's historical love of TEs and explosive passing concepts shapes positional investment. Famous for trading up, Payton and Paton will aggressively move when a target is in range.",
+    "positionalBias": {
+      "QB": 0.5,
+      "RB": 0.8,
+      "WR": 1.2,
+      "TE": 1.4,
+      "OT": 1,
+      "IOL": 1.2,
+      "EDGE": 1.1,
+      "DT": 1.1,
+      "LB": 1,
+      "CB": 1.2,
+      "S": 1.2,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.4,
+      "valuesNeed": 0.6,
+      "prefersAthletes": true,
+      "tradeUpFrequency": 0.5,
+      "tradeBackFrequency": 0.15,
+      "conferencePreference": {
+        "SEC": 1.1,
+        "Big 12": 1.05,
+        "ACC": 1,
+        "Big Ten": 1.05,
+        "Pac-12": 1
+      }
+    },
+    "historicalNotes": "Sean Payton traded two first-round picks to move up for Will Anderson Jr. in 2023 and has a long history of aggressive trades (Reggie Bush, Ricky Williams). His Saints offenses famously employed elite TE play (Jimmy Graham, Benjamin Watson). George Paton is more methodical but defers to Payton on draft-day aggressiveness."
+  },
+  "kc-veach-reid": {
+    "id": "kc-veach-reid",
+    "teamId": "KC",
+    "gm": "Brett Veach",
+    "hc": "Andy Reid",
+    "philosophy": "Championship-caliber roster management around an elite QB. Reid famously undervalues the RB position and prioritizes skill-position versatility. Veach aggressively trades up and back to keep the roster loaded with playmakers and pass-rush threats.",
+    "positionalBias": {
+      "QB": 0.5,
+      "RB": 0.5,
+      "WR": 1.4,
+      "TE": 1.3,
+      "OT": 1,
+      "IOL": 1.2,
+      "EDGE": 1.2,
+      "DT": 1,
+      "LB": 0.9,
+      "CB": 1.4,
+      "S": 1.1,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.5,
+      "valuesNeed": 0.5,
+      "prefersAthletes": true,
+      "tradeUpFrequency": 0.4,
+      "tradeBackFrequency": 0.3,
+      "conferencePreference": {
+        "SEC": 1.15,
+        "Big 12": 1.1,
+        "ACC": 1,
+        "Big Ten": 1,
+        "Pac-12": 0.95
+      }
+    },
+    "historicalNotes": "Andy Reid's offense almost never features a featured back \u2014 he recycles RBs on cheap contracts and reinvests in CB, WR, and TE. Brett Veach is extremely active on draft day, willing to trade up for Patrick Mahomes-era cornerstones. The Chiefs have taken CB very high repeatedly (Spagnuolo's system) and love athletic WRs who can create after the catch."
+  },
+  "lv-spytek-kubiak": {
+    "id": "lv-spytek-kubiak",
+    "teamId": "LV",
+    "gm": "John Spytek",
+    "hc": "Klint Kubiak",
+    "philosophy": "Franchise-QB-driven rebuild with emphasis on protecting and surrounding the new signal-caller. Kubiak's West Coast offense demands a mobile, intelligent OL and dynamic receiving threats. Spytek targets high-upside athletes in a complete roster overhaul.",
+    "positionalBias": {
+      "QB": 1.8,
+      "RB": 0.7,
+      "WR": 1.3,
+      "TE": 1,
+      "OT": 1.2,
+      "IOL": 1.1,
+      "EDGE": 1.1,
+      "DT": 1,
+      "LB": 1,
+      "CB": 1.1,
+      "S": 1,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.45,
+      "valuesNeed": 0.55,
+      "prefersAthletes": true,
+      "tradeUpFrequency": 0.3,
+      "tradeBackFrequency": 0.25,
+      "conferencePreference": {
+        "SEC": 1.1,
+        "Big 12": 1,
+        "ACC": 1,
+        "Big Ten": 1.05,
+        "Pac-12": 1
+      }
+    },
+    "historicalNotes": "John Spytek comes from Tampa Bay where he helped build a championship roster, known for targeting well-rounded players with high floors. Klint Kubiak's offense (following his father Gary's legacy) demands a capable OL and multiple receiving options. The Raiders desperately need a franchise QB and will invest heavily to find one."
+  },
+  "lac-hortiz-harbaugh": {
+    "id": "lac-hortiz-harbaugh",
+    "teamId": "LAC",
+    "gm": "Joe Hortiz",
+    "hc": "Jim Harbaugh",
+    "philosophy": "Harbaugh's relentless physicality doctrine \u2014 run the ball, stop the run, win the line of scrimmage. Hortiz provides Ravens-style analytical depth to complement Harbaugh's blue-collar culture. The Chargers need to build up front and add weapons to complement the QB.",
+    "positionalBias": {
+      "QB": 0.5,
+      "RB": 1.1,
+      "WR": 1.2,
+      "TE": 1.1,
+      "OT": 1.3,
+      "IOL": 1.2,
+      "EDGE": 1.2,
+      "DT": 1.2,
+      "LB": 1,
+      "CB": 1.2,
+      "S": 1.1,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.55,
+      "valuesNeed": 0.45,
+      "prefersAthletes": false,
+      "tradeUpFrequency": 0.2,
+      "tradeBackFrequency": 0.3,
+      "conferencePreference": {
+        "SEC": 1.1,
+        "Big 12": 1,
+        "ACC": 1,
+        "Big Ten": 1.2,
+        "Pac-12": 1.1
+      }
+    },
+    "historicalNotes": "Jim Harbaugh built Michigan into a powerhouse on offensive line dominance and physical running. His San Francisco teams ran the ball relentlessly. Joe Hortiz spent years in Baltimore's analytics-driven front office. Expect a Big Ten bias given Harbaugh's Michigan tenure and a premium on interior OL and physical WRs who block."
+  },
+  "dal-jones-schottenheimer": {
+    "id": "dal-jones-schottenheimer",
+    "teamId": "DAL",
+    "gm": "Jerry Jones",
+    "hc": "Brian Schottenheimer",
+    "philosophy": "The unique Cowboys model \u2014 Jerry Jones functions as de facto GM, making final calls on all picks. Schottenheimer's traditional West Coast offense values precision route runners and a capable OL. Jones tends to draft for star power and marketability alongside talent.",
+    "positionalBias": {
+      "QB": 0.5,
+      "RB": 0.8,
+      "WR": 1.2,
+      "TE": 1,
+      "OT": 1.1,
+      "IOL": 1.1,
+      "EDGE": 1.2,
+      "DT": 1,
+      "LB": 1.3,
+      "CB": 1.2,
+      "S": 1.1,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.45,
+      "valuesNeed": 0.55,
+      "prefersAthletes": true,
+      "tradeUpFrequency": 0.25,
+      "tradeBackFrequency": 0.2,
+      "conferencePreference": {
+        "SEC": 1.2,
+        "Big 12": 1.1,
+        "ACC": 1,
+        "Big Ten": 1,
+        "Pac-12": 0.9
+      }
+    },
+    "historicalNotes": "Jerry Jones has a fondness for high-upside, high-profile players regardless of need, often taking the highest-rated player at a glamour position. He heavily recruits from the SEC and Big 12, particularly Texas programs. Schottenheimer's system will push for reliable offensive contributors, but Jones ultimately controls the board."
+  },
+  "nyg-schoen-harbaugh": {
+    "id": "nyg-schoen-harbaugh",
+    "teamId": "NYG",
+    "gm": "Joe Schoen",
+    "hc": "John Harbaugh",
+    "philosophy": "Building an elite offensive line and skill-position corps under John Harbaugh's proven championship blueprint. Harbaugh's defensive expertise shapes the back seven while Schoen's analytical approach targets undervalued positions. The Giants need a complete rebuild.",
+    "positionalBias": {
+      "QB": 0.5,
+      "RB": 0.8,
+      "WR": 1.3,
+      "TE": 1.1,
+      "OT": 1.3,
+      "IOL": 1.2,
+      "EDGE": 1.2,
+      "DT": 1.1,
+      "LB": 1.1,
+      "CB": 1.2,
+      "S": 1.1,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.55,
+      "valuesNeed": 0.45,
+      "prefersAthletes": true,
+      "tradeUpFrequency": 0.25,
+      "tradeBackFrequency": 0.3,
+      "conferencePreference": {
+        "SEC": 1.1,
+        "Big 12": 1,
+        "ACC": 1,
+        "Big Ten": 1.1,
+        "Pac-12": 0.95
+      }
+    },
+    "historicalNotes": "Joe Schoen is a methodical Buffalo-trained GM who trusts the board and accumulates assets. John Harbaugh built Baltimore into a dynasty through physicality and special teams excellence. The Giants have Malik Nabers as their WR1 and Jaxson Dart at QB \u2014 they need OL protection for Dart, a second receiver opposite Nabers, and defensive playmakers. Harbaugh prioritizes physicality and scheme versatility."
+  },
+  "phi-roseman-sirianni": {
+    "id": "phi-roseman-sirianni",
+    "teamId": "PHI",
+    "gm": "Howie Roseman",
+    "hc": "Nick Sirianni",
+    "philosophy": "Aggressive accumulation of picks followed by disciplined deployment. Roseman constantly trades back to build draft capital, then selects BPA with an eye toward OL, EDGE, and secondary depth. One of the most active GMs on draft day.",
+    "positionalBias": {
+      "QB": 0.5,
+      "RB": 0.7,
+      "WR": 1.1,
+      "TE": 1,
+      "OT": 1.1,
+      "IOL": 1.1,
+      "EDGE": 1.2,
+      "DT": 1,
+      "LB": 1,
+      "CB": 1.1,
+      "S": 1.3,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.6,
+      "valuesNeed": 0.4,
+      "prefersAthletes": true,
+      "tradeUpFrequency": 0.5,
+      "tradeBackFrequency": 0.4,
+      "conferencePreference": {
+        "SEC": 1.1,
+        "Big 12": 1,
+        "ACC": 1.1,
+        "Big Ten": 1.1,
+        "Pac-12": 1
+      }
+    },
+    "historicalNotes": "Howie Roseman is the most active trader in the NFL, constantly moving up and back to optimize value. He built the Eagles' championship team by stacking the roster through relentless capital accumulation. Roseman loves EDGE-safety-OT combinations in early rounds and has demonstrated willingness to trade up into the top-five when he covets a player."
+  },
+  "was-peters-quinn": {
+    "id": "was-peters-quinn",
+    "teamId": "WAS",
+    "gm": "Adam Peters",
+    "hc": "Dan Quinn",
+    "philosophy": "Building around a franchise QB with balanced investments in skill positions and an ascending defense. Quinn's defensive system demands elite CB talent and pass-rush versatility. Peters brings 49ers-influenced analytical depth and a willingness to let the board come to them.",
+    "positionalBias": {
+      "QB": 0.5,
+      "RB": 0.8,
+      "WR": 1.3,
+      "TE": 1,
+      "OT": 1.1,
+      "IOL": 1.2,
+      "EDGE": 1.2,
+      "DT": 1,
+      "LB": 1.1,
+      "CB": 1.3,
+      "S": 1.1,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.55,
+      "valuesNeed": 0.45,
+      "prefersAthletes": true,
+      "tradeUpFrequency": 0.25,
+      "tradeBackFrequency": 0.3,
+      "conferencePreference": {
+        "SEC": 1.1,
+        "Big 12": 1,
+        "ACC": 1,
+        "Big Ten": 1.05,
+        "Pac-12": 1.05
+      }
+    },
+    "historicalNotes": "Adam Peters spent years in San Francisco under John Lynch and Kyle Shanahan, absorbing their BPA-heavy, athleticism-first approach. Dan Quinn's defenses in Atlanta and Dallas were built on elite CB play and gap-discipline EDGE rushers. Washington's offensive rebuilding around the QB means premium on protecting the pocket and adding pass-catchers."
+  },
+  "chi-poles-johnson": {
+    "id": "chi-poles-johnson",
+    "teamId": "CHI",
+    "gm": "Ryan Poles",
+    "hc": "Ben Johnson",
+    "philosophy": "Build the most dynamic offense in the NFL around a young QB. Ben Johnson's elite offensive mind demands elite WR talent, a capable OL, and a mobile quarterback. The defense needs pass-rush and safety help to balance the roster investment.",
+    "positionalBias": {
+      "QB": 1.2,
+      "RB": 0.8,
+      "WR": 1.4,
+      "TE": 1,
+      "OT": 1.1,
+      "IOL": 1,
+      "EDGE": 1.3,
+      "DT": 1,
+      "LB": 1,
+      "CB": 1,
+      "S": 1.4,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.5,
+      "valuesNeed": 0.5,
+      "prefersAthletes": true,
+      "tradeUpFrequency": 0.35,
+      "tradeBackFrequency": 0.25,
+      "conferencePreference": {
+        "SEC": 1.1,
+        "Big 12": 1,
+        "ACC": 1,
+        "Big Ten": 1.15,
+        "Pac-12": 1
+      }
+    },
+    "historicalNotes": "Ben Johnson was the most sought-after OC in the league before landing in Chicago. His Detroit offenses consistently led the league in yards and points through elite WR deployment and creative RPO concepts. Ryan Poles is building aggressively, and together they will draft for offensive firepower first. The S position is a desperate need that will command early attention."
+  },
+  "det-holmes-campbell": {
+    "id": "det-holmes-campbell",
+    "teamId": "DET",
+    "gm": "Brad Holmes",
+    "hc": "Dan Campbell",
+    "philosophy": "Toughness, physicality, and relentless competition. Campbell demands physically dominant players who thrive in the trenches. Holmes sources high-character, high-production players who fit the culture. Premium on OT and EDGE, with an emphasis on a dominant run game.",
+    "positionalBias": {
+      "QB": 0.5,
+      "RB": 1.2,
+      "WR": 1,
+      "TE": 1.1,
+      "OT": 1.4,
+      "IOL": 1.2,
+      "EDGE": 1.3,
+      "DT": 1.2,
+      "LB": 1,
+      "CB": 1,
+      "S": 1,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.6,
+      "valuesNeed": 0.4,
+      "prefersAthletes": false,
+      "tradeUpFrequency": 0.2,
+      "tradeBackFrequency": 0.3,
+      "conferencePreference": {
+        "SEC": 1.1,
+        "Big 12": 1,
+        "ACC": 1,
+        "Big Ten": 1.15,
+        "Pac-12": 0.95
+      }
+    },
+    "historicalNotes": "Brad Holmes came from the Rams and has an excellent track record drafting high-value players in the middle rounds. Dan Campbell's culture demands menacing, physical players who embrace contact. The Lions have drafted OT early in multiple consecutive drafts and will continue prioritizing the trenches. Running back is an unusually high priority given their power-running identity."
+  },
+  "gb-gutekunst-lafleur": {
+    "id": "gb-gutekunst-lafleur",
+    "teamId": "GB",
+    "gm": "Brian Gutekunst",
+    "hc": "Matt LaFleur",
+    "philosophy": "Trust the board, develop young players, build through the draft. The Packers' legendary patience and player-development infrastructure allows them to take the best player available consistently. LaFleur's offense rewards athletic linemen, precise route runners, and dynamic TEs.",
+    "positionalBias": {
+      "QB": 0.5,
+      "RB": 1.1,
+      "WR": 1,
+      "TE": 1.1,
+      "OT": 1.2,
+      "IOL": 1.2,
+      "EDGE": 1.3,
+      "DT": 1.2,
+      "LB": 1,
+      "CB": 1.1,
+      "S": 1,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.7,
+      "valuesNeed": 0.3,
+      "prefersAthletes": true,
+      "tradeUpFrequency": 0.15,
+      "tradeBackFrequency": 0.4,
+      "conferencePreference": {
+        "SEC": 1,
+        "Big 12": 1,
+        "ACC": 1,
+        "Big Ten": 1.1,
+        "Pac-12": 1
+      }
+    },
+    "historicalNotes": "Brian Gutekunst inherited one of the most disciplined drafting operations in NFL history. The Packers virtually never trade up and regularly trade back, a strategy that has generated sustained NFC contention. They famously ignore positional need, letting board value dictate every selection. LaFleur has gotten elite production from undrafted and late-round players, reflecting the organization's development culture."
+  },
+  "min-interim-oconnell": {
+    "id": "min-interim-oconnell",
+    "teamId": "MIN",
+    "gm": "Interim (Rob Brzezinski)",
+    "hc": "Kevin O'Connell",
+    "philosophy": "Modern, pass-first offense under O'Connell that requires elite coverage and safety support on defense. The interim GM situation creates uncertainty, but O'Connell's offensive priorities drive the direction. Priority is fixing a leaky secondary while adding weapons.",
+    "positionalBias": {
+      "QB": 0.5,
+      "RB": 0.8,
+      "WR": 1.2,
+      "TE": 1.1,
+      "OT": 1.1,
+      "IOL": 1,
+      "EDGE": 1.2,
+      "DT": 1,
+      "LB": 1.1,
+      "CB": 1.2,
+      "S": 1.4,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.5,
+      "valuesNeed": 0.5,
+      "prefersAthletes": true,
+      "tradeUpFrequency": 0.25,
+      "tradeBackFrequency": 0.25,
+      "conferencePreference": {
+        "SEC": 1.05,
+        "Big 12": 1,
+        "ACC": 1,
+        "Big Ten": 1.1,
+        "Pac-12": 1
+      }
+    },
+    "historicalNotes": "Kevin O'Connell's Rams-influenced offense thrives on creative play design and versatile receiving options. The interim GM situation adds unpredictability to the draft approach. Minnesota's secondary has been a consistent liability and will drive early-round investment. O'Connell has a history of maximizing receiving talent regardless of position."
+  },
+  "atl-cunningham-stefanski": {
+    "id": "atl-cunningham-stefanski",
+    "teamId": "ATL",
+    "gm": "Ian Cunningham",
+    "hc": "Kevin Stefanski",
+    "philosophy": "Balanced offensive system under Stefanski that rewards physical WRs, versatile TEs, and a run-heavy approach. Cunningham's new regime is reshaping the roster around defensive improvement and offensive reliability.",
+    "positionalBias": {
+      "QB": 0.5,
+      "RB": 1,
+      "WR": 1.3,
+      "TE": 1.1,
+      "OT": 1.1,
+      "IOL": 1.2,
+      "EDGE": 1.3,
+      "DT": 1.2,
+      "LB": 1,
+      "CB": 1.1,
+      "S": 1,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.5,
+      "valuesNeed": 0.5,
+      "prefersAthletes": true,
+      "tradeUpFrequency": 0.25,
+      "tradeBackFrequency": 0.25,
+      "conferencePreference": {
+        "SEC": 1.2,
+        "Big 12": 1,
+        "ACC": 1.1,
+        "Big Ten": 1,
+        "Pac-12": 0.9
+      }
+    },
+    "historicalNotes": "Kevin Stefanski ran one of the most balanced offenses in Cleveland before arriving in Atlanta. He values physical WRs who can run after the catch and reliable blocking TEs. Cunningham is a new GM who will likely defer to Stefanski's offensive preferences while addressing the defensive front, which has underperformed for years."
+  },
+  "car-morgan-canales": {
+    "id": "car-morgan-canales",
+    "teamId": "CAR",
+    "gm": "Dan Morgan",
+    "hc": "Dave Canales",
+    "philosophy": "Offensive rebuilding around a capable QB with emphasis on rebuilding the OL from the inside out. Canales' QB-centric offense needs a clean pocket and reliable receivers. Morgan is establishing a culture of toughness through interior linemen and high-character picks.",
+    "positionalBias": {
+      "QB": 0.5,
+      "RB": 0.9,
+      "WR": 1.3,
+      "TE": 1,
+      "OT": 1.2,
+      "IOL": 1.4,
+      "EDGE": 1.1,
+      "DT": 1,
+      "LB": 1,
+      "CB": 1.1,
+      "S": 1.2,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.5,
+      "valuesNeed": 0.5,
+      "prefersAthletes": false,
+      "tradeUpFrequency": 0.2,
+      "tradeBackFrequency": 0.3,
+      "conferencePreference": {
+        "SEC": 1.15,
+        "Big 12": 1,
+        "ACC": 1.1,
+        "Big Ten": 1,
+        "Pac-12": 0.95
+      }
+    },
+    "historicalNotes": "Dan Morgan is a former player who emphasizes mental toughness and football IQ in his scouting process. Dave Canales developed Baker Mayfield into a top-10 QB and brings QB-first offensive thinking. Carolina's OL has been a chronic weakness, and expect interior line picks to dominate the early rounds."
+  },
+  "no-moore": {
+    "id": "no-moore",
+    "teamId": "NO",
+    "gm": "TBD",
+    "hc": "Kellen Moore",
+    "philosophy": "Kellen Moore's Air Raid-influenced system demands elite WR talent and a dynamic TE as the focal point of the passing game. The GM situation is in flux, making Moore's offensive preferences the primary draft driver.",
+    "positionalBias": {
+      "QB": 0.5,
+      "RB": 0.8,
+      "WR": 1.4,
+      "TE": 1.3,
+      "OT": 1,
+      "IOL": 1,
+      "EDGE": 1.1,
+      "DT": 1.2,
+      "LB": 1,
+      "CB": 1.2,
+      "S": 1.1,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.5,
+      "valuesNeed": 0.5,
+      "prefersAthletes": true,
+      "tradeUpFrequency": 0.25,
+      "tradeBackFrequency": 0.25,
+      "conferencePreference": {
+        "SEC": 1.15,
+        "Big 12": 1.05,
+        "ACC": 1,
+        "Big Ten": 1,
+        "Pac-12": 0.95
+      }
+    },
+    "historicalNotes": "Kellen Moore ran prolific offenses in Dallas and Los Angeles before taking over the Saints. His system is pass-heavy and TE-dependent, always seeking playmakers who can manipulate defenders after the catch. The GM vacancy creates roster-building uncertainty, but expect Moore's offensive preferences to drive Day 1 selections."
+  },
+  "tb-licht-bowles": {
+    "id": "tb-licht-bowles",
+    "teamId": "TB",
+    "gm": "Jason Licht",
+    "hc": "Todd Bowles",
+    "philosophy": "Bowles' defensive system demands elite pass-rush and sticky cornerbacks to execute his multiple-coverage blitz packages. Licht is an analytically-savvy GM who has consistently found value across the board. The offense needs continued investment in the trenches.",
+    "positionalBias": {
+      "QB": 0.5,
+      "RB": 0.8,
+      "WR": 1.1,
+      "TE": 1,
+      "OT": 1.2,
+      "IOL": 1.1,
+      "EDGE": 1.3,
+      "DT": 1.1,
+      "LB": 1.1,
+      "CB": 1.3,
+      "S": 1.2,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.55,
+      "valuesNeed": 0.45,
+      "prefersAthletes": true,
+      "tradeUpFrequency": 0.2,
+      "tradeBackFrequency": 0.3,
+      "conferencePreference": {
+        "SEC": 1.15,
+        "Big 12": 1,
+        "ACC": 1.05,
+        "Big Ten": 1,
+        "Pac-12": 0.95
+      }
+    },
+    "historicalNotes": "Jason Licht has built two championship-caliber rosters in Tampa Bay with disciplined drafting and aggressive free agency. Todd Bowles is a defensive mastermind whose blitz packages have confused offenses for years, requiring CB talent that can hold coverage while exotic fronts arrive. Licht has excellent instincts for value picks in rounds 2-4."
+  },
+  "ari-ossenfort-lafleur": {
+    "id": "ari-ossenfort-lafleur",
+    "teamId": "ARI",
+    "gm": "Monti Ossenfort",
+    "hc": "Mike LaFleur",
+    "philosophy": "Finding the next franchise QB while building a foundation around the lines. LaFleur's system mirrors his brother Matt's in Green Bay, demanding athletic OL and reliable pass-catchers. Ossenfort's Patriots pedigree drives emphasis on versatile defenders and patient BPA drafting.",
+    "positionalBias": {
+      "QB": 1.5,
+      "RB": 0.7,
+      "WR": 1.1,
+      "TE": 1,
+      "OT": 1.3,
+      "IOL": 1.2,
+      "EDGE": 1.1,
+      "DT": 1,
+      "LB": 1.2,
+      "CB": 1.1,
+      "S": 1.1,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.5,
+      "valuesNeed": 0.5,
+      "prefersAthletes": true,
+      "tradeUpFrequency": 0.35,
+      "tradeBackFrequency": 0.25,
+      "conferencePreference": {
+        "SEC": 1.1,
+        "Big 12": 1.05,
+        "ACC": 1,
+        "Big Ten": 1.05,
+        "Pac-12": 1.05
+      }
+    },
+    "historicalNotes": "Monti Ossenfort brings a Belichick-disciple approach to Arizona, valuing versatile defenders and smart offensive linemen. Mike LaFleur's West Coast-influenced system mirrors his family's success in Green Bay. Arizona's paramount need is a franchise QB, and Ossenfort will aggressively pursue one through the draft or trade."
+  },
+  "lar-snead-mcvay": {
+    "id": "lar-snead-mcvay",
+    "teamId": "LAR",
+    "gm": "Les Snead",
+    "hc": "Sean McVay",
+    "philosophy": "Win-now mentality that leverages future picks for current impact. McVay's system demands elite WRs, a versatile TE, and a suffocating EDGE rusher. Snead has shown willingness to gut the draft capital for a playoff run, then restock through creative scouting.",
+    "positionalBias": {
+      "QB": 0.5,
+      "RB": 0.7,
+      "WR": 1.4,
+      "TE": 1.2,
+      "OT": 1.1,
+      "IOL": 1,
+      "EDGE": 1.2,
+      "DT": 1,
+      "LB": 1.2,
+      "CB": 1.2,
+      "S": 1.1,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.45,
+      "valuesNeed": 0.55,
+      "prefersAthletes": true,
+      "tradeUpFrequency": 0.3,
+      "tradeBackFrequency": 0.2,
+      "conferencePreference": {
+        "SEC": 1.1,
+        "Big 12": 1,
+        "ACC": 1.05,
+        "Big Ten": 1.05,
+        "Pac-12": 1.1
+      }
+    },
+    "historicalNotes": "Les Snead infamously traded away multiple first-round picks to acquire Jalen Ramsey, Von Miller, and Matthew Stafford \u2014 all in service of winning Super Bowl LVI. McVay's offense is WR1-centric and requires a creative, athletic receiver and a reliable YAC TE. The Rams draft with need more than most teams given persistent early-pick deficits."
+  },
+  "sea-2026": {
+    "id": "sea-2026",
+    "teamId": "SEA",
+    "gm": "TBD",
+    "hc": "TBD",
+    "philosophy": "Regime in transition. Without confirmed leadership, the Seahawks will operate cautiously, likely prioritizing the most glaring roster holes and deferring to established scouting staff. Run-game emphasis and OL fortification are expected priorities regardless of regime.",
+    "positionalBias": {
+      "QB": 0.5,
+      "RB": 1.3,
+      "WR": 1,
+      "TE": 1,
+      "OT": 1.3,
+      "IOL": 1.2,
+      "EDGE": 1.2,
+      "DT": 1.2,
+      "LB": 1,
+      "CB": 1.1,
+      "S": 1.1,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.55,
+      "valuesNeed": 0.45,
+      "prefersAthletes": true,
+      "tradeUpFrequency": 0.2,
+      "tradeBackFrequency": 0.3,
+      "conferencePreference": {
+        "SEC": 1,
+        "Big 12": 1,
+        "ACC": 1,
+        "Big Ten": 1.05,
+        "Pac-12": 1.15
+      }
+    },
+    "historicalNotes": "Seattle's scouting department has historically targeted explosive athletes and Pac-12 prospects given their geographic footprint. The Seahawks built their dynasty on an elite OL and dominant LOB secondary. Without confirmed leadership, the 2026 draft is likely to reflect interim priorities: plug the most obvious holes and avoid major reaches."
+  },
+  "sf-lynch-shanahan": {
+    "id": "sf-lynch-shanahan",
+    "teamId": "SF",
+    "gm": "John Lynch",
+    "hc": "Kyle Shanahan",
+    "philosophy": "Shanahan's zone-blocking scheme demands elite OT and IOL athletes who can reach-block and create running lanes. The 49ers prioritize offensive linemen and pass-rushers above all else. Lynch provides the calm, player-friendly culture while Shanahan designs the system.",
+    "positionalBias": {
+      "QB": 0.5,
+      "RB": 0.8,
+      "WR": 1.1,
+      "TE": 1.1,
+      "OT": 1.4,
+      "IOL": 1.3,
+      "EDGE": 1.3,
+      "DT": 1.2,
+      "LB": 1,
+      "CB": 1.1,
+      "S": 1,
+      "K": 0.5,
+      "P": 0.5
+    },
+    "tendencies": {
+      "valuesBPA": 0.6,
+      "valuesNeed": 0.4,
+      "prefersAthletes": true,
+      "tradeUpFrequency": 0.25,
+      "tradeBackFrequency": 0.3,
+      "conferencePreference": {
+        "SEC": 1.1,
+        "Big 12": 1,
+        "ACC": 1,
+        "Big Ten": 1.1,
+        "Pac-12": 1.05
+      }
+    },
+    "historicalNotes": "Kyle Shanahan's zone-blocking offense is one of the most lineman-demanding systems in the NFL \u2014 the 49ers have drafted OT and IOL in round one multiple times. John Lynch has an outstanding late-round track record finding RBs (reflecting Shanahan's belief that capable backs can be found late). EDGE rushers and DTs are the consistent defensive priority."
+  }
+}
