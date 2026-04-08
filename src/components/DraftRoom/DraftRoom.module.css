@@ -222,3 +222,67 @@
   color: var(--text-secondary);
   border-color: var(--border-medium);
 }
+
+/* ═══════════════════════════════════
+   MOBILE LAYOUT — tabbed interface
+   ═══════════════════════════════════ */
+
+.mobileContent {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobilePanel {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobileTabBar {
+  flex-shrink: 0;
+  display: flex;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  background: #0f0f12;
+  z-index: 50;
+}
+
+.mobileTab {
+  flex: 1;
+  padding: 12px 0;
+  background: transparent;
+  border: none;
+  border-top: 2px solid transparent;
+  color: #52525b;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 150ms, border-color 150ms;
+}
+
+.mobileTab:active { background: rgba(255,255,255,0.03); }
+
+.mobileTabActive {
+  color: #d4a843;
+  border-top-color: #d4a843;
+}
+
+/* Hide desktop-only elements on mobile */
+@media (max-width: 767px) {
+  .resizeDivider { display: none; }
+  .mainLayout { display: none; }
+}
+
+/* Hide mobile elements on desktop */
+@media (min-width: 768px) {
+  .mobileContent { display: none; }
+  .mobileTabBar { display: none; }
+}

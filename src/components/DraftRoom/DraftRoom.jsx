@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useCallback } from 'react'
+import { useState, useEffect, useRef, useCallback, useMemo } from 'react'
 import { useDraft } from '../../context/DraftContext.jsx'
 import DraftHeader from './DraftHeader/DraftHeader.jsx'
 import PickReasoning from './PickReasoning/PickReasoning.jsx'
@@ -50,6 +50,16 @@ export default function DraftRoom({ onComplete, scraperOpen: scraperOpenProp = f
   // Track which completed pick is being inspected (for reasoning view)
   const [inspectedPick, setInspectedPick] = useState(null)
   const [sessionIntel, setSessionIntel] = useState([])
+
+  // Mobile detection + tab state
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768)
+  const [mobileTab, setMobileTab] = useState('board') // 'board' | 'picks' | 'team'
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 768)
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, [])
 
   // Scraper is controlled by parent (AppNav) but session intel lives here
   const isScraperOpen = scraperOpenProp
@@ -153,116 +163,174 @@ export default function DraftRoom({ onComplete, scraperOpen: scraperOpenProp = f
     return <div className={styles.loading}>Initializing draft...</div>
   }
 
+  // Shared sub-components
+  const draftHeader = (
+    <DraftHeader
+      currentPick={currentPick}
+      team={currentTeam}
+      isUserTurn={isUserTurn}
+      fastSim={state.fastSim}
+      isPaused={state.isPaused}
+      isObserver={state.session?.mode === 'observe'}
+      totalPicks={state.picks?.length ?? 257}
+      onTrade={() => {
+        if (isUserTurn && userCurrentPicks.length > 0) {
+          openTradeModal('DOWN', userCurrentPicks[0].overall)
+        } else if (!isUserTurn && currentPick) {
+          openTradeModal('UP', currentPick.overall)
+        }
+      }}
+      onTogglePause={togglePause}
+      onToggleFastSim={toggleFastSim}
+      onSkipToMyPick={skipToUserPick}
+      isSkipping={state.skipToUserPick}
+      hasUpcomingUserPick={!isUserTurn && !isDraftComplete}
+    />
+  )
+
+  const draftBoard = (
+    <DraftBoard
+      picks={state.picks ?? []}
+      selectedPlayers={state.selectedPlayers}
+      teams={state.teams ?? {}}
+      currentPickOverall={currentPick?.overall}
+      userTeamIds={userTeamIds}
+      inspectedOverall={inspectedPick?.overall}
+      onPickClick={handlePickClick}
+    />
+  )
+
+  const bigBoard = (
+    <BigBoard
+      availablePlayers={state.availablePlayers}
+      scoredForTeam={state.lastPick?.scoredBoard ?? null}
+      currentTeamId={currentPick?.teamId}
+      onPlayerSelect={makeUserPick}
+      isUserTurn={isUserTurn && !state.isPaused}
+      filterPosition={null}
+    />
+  )
+
+  const teamPanel = userTeam ? (
+    <TeamPanel
+      team={userTeam}
+      userPicks={userAllPicks}
+      selectedPlayers={state.selectedPlayers}
+      remainingNeeds={userTeam.needs ?? []}
+      currentRound={currentPick?.round ?? 1}
+      isUserTurn={isUserTurn && !state.isPaused}
+    />
+  ) : null
+
   return (
     <div className={styles.draftRoom}>
-      {/* Top header */}
-      <DraftHeader
-        currentPick={currentPick}
-        team={currentTeam}
-        isUserTurn={isUserTurn}
-        fastSim={state.fastSim}
-        isPaused={state.isPaused}
-        isObserver={state.session?.mode === 'observe'}
-        totalPicks={state.picks?.length ?? 257}
-        onTrade={() => {
-          // If it's the user's turn: offer to trade their pick away (DOWN)
-          // If AI is picking: offer to trade up for that pick (UP)
-          if (isUserTurn && userCurrentPicks.length > 0) {
-            openTradeModal('DOWN', userCurrentPicks[0].overall)
-          } else if (!isUserTurn && currentPick) {
-            openTradeModal('UP', currentPick.overall)
-          }
-        }}
-        onTogglePause={togglePause}
-        onToggleFastSim={toggleFastSim}
-        onSkipToMyPick={skipToUserPick}
-        isSkipping={state.skipToUserPick}
-        hasUpcomingUserPick={!isUserTurn && !isDraftComplete}
-      />
+      {draftHeader}
 
-      <div
-        className={`${styles.mainLayout} ${!userTeam ? styles.observerMode : ''}`}
-        style={{ gridTemplateColumns: userTeam ? `260px 1fr ${rightColWidth}px` : `1fr ${rightColWidth}px` }}
-      >
-
-        {/* Left: User team panel */}
-        {userTeam && (
-          <TeamPanel
-            team={userTeam}
-            userPicks={userAllPicks}
-            selectedPlayers={state.selectedPlayers}
-            remainingNeeds={userTeam.needs ?? []}
-            currentRound={currentPick?.round ?? 1}
-            isUserTurn={isUserTurn && !state.isPaused}
-          />
-        )}
-
-        {/* Center: Draft board */}
-        <div className={styles.centerColumn}>
+      {isMobile ? (
+        /* ── MOBILE LAYOUT: tabbed interface ── */
+        <>
           {isUserTurn && !state.isPaused && (
             <div className={styles.userPickBanner}>
-              <p className={styles.yourTurn}>YOUR PICK — Select a player from the Big Board</p>
+              <p className={styles.yourTurn}>YOUR PICK</p>
             </div>
           )}
-          {state.isPaused && (
-            <div className={styles.pausedBanner}>
-              <p className={styles.pausedText}>DRAFT PAUSED</p>
-            </div>
-          )}
-          <DraftBoard
-            picks={state.picks ?? []}
-            selectedPlayers={state.selectedPlayers}
-            teams={state.teams ?? {}}
-            currentPickOverall={currentPick?.overall}
-            userTeamIds={userTeamIds}
-            inspectedOverall={inspectedPick?.overall}
-            onPickClick={handlePickClick}
-          />
-        </div>
 
-        {/* Right: Last pick banner + reasoning + big board */}
-        <div className={styles.rightColumn} style={{ position: 'relative' }}>
-          {/* Drag handle — sits on the left edge, doesn't affect grid */}
-          <div
-            className={styles.resizeDivider}
-            onMouseDown={handleDividerMouseDown}
-            title="Drag to resize"
-          />
+          <div className={styles.mobileContent}>
+            {mobileTab === 'board' && (
+              <div className={styles.mobilePanel}>
+                {draftBoard}
+              </div>
+            )}
+            {mobileTab === 'picks' && (
+              <div className={styles.mobilePanel}>
+                {bigBoard}
+              </div>
+            )}
+            {mobileTab === 'team' && teamPanel && (
+              <div className={styles.mobilePanel}>
+                {teamPanel}
+              </div>
+            )}
+          </div>
 
-          {inspectedPick ? (
-            <div className={styles.inspectedBanner}>
-              <span className={styles.inspectedLabel}>
-                PICK #{inspectedPick.overall} — {displayTeam?.abbreviation ?? ''}
-              </span>
-              <button className={styles.inspectedClear} onClick={() => setInspectedPick(null)}>
-                BACK TO LATEST
+          <div className={styles.mobileTabBar}>
+            <button
+              className={`${styles.mobileTab} ${mobileTab === 'board' ? styles.mobileTabActive : ''}`}
+              onClick={() => setMobileTab('board')}
+            >
+              DRAFT
+            </button>
+            <button
+              className={`${styles.mobileTab} ${mobileTab === 'picks' ? styles.mobileTabActive : ''}`}
+              onClick={() => setMobileTab('picks')}
+            >
+              {isUserTurn && !state.isPaused ? 'PICK' : 'BOARD'}
+            </button>
+            {teamPanel && (
+              <button
+                className={`${styles.mobileTab} ${mobileTab === 'team' ? styles.mobileTabActive : ''}`}
+                onClick={() => setMobileTab('team')}
+              >
+                MY TEAM
               </button>
-            </div>
-          ) : (
-            <LastPickBanner pick={state.lastPick} teams={state.teams} />
-          )}
+            )}
+          </div>
+        </>
+      ) : (
+        /* ── DESKTOP LAYOUT: 3-column grid ── */
+        <div
+          className={`${styles.mainLayout} ${!userTeam ? styles.observerMode : ''}`}
+          style={{ gridTemplateColumns: userTeam ? `260px 1fr ${rightColWidth}px` : `1fr ${rightColWidth}px` }}
+        >
+          {teamPanel}
 
-          {/* Reasoning breakdown */}
-          {displayReasoning && (
-            <PickReasoning
-              reasoning={displayReasoning}
-              player={displayPlayer}
-              team={displayTeam}
-              isVisible={true}
+          <div className={styles.centerColumn}>
+            {isUserTurn && !state.isPaused && (
+              <div className={styles.userPickBanner}>
+                <p className={styles.yourTurn}>YOUR PICK — Select a player from the Big Board</p>
+              </div>
+            )}
+            {state.isPaused && (
+              <div className={styles.pausedBanner}>
+                <p className={styles.pausedText}>DRAFT PAUSED</p>
+              </div>
+            )}
+            {draftBoard}
+          </div>
+
+          <div className={styles.rightColumn} style={{ position: 'relative' }}>
+            <div
+              className={styles.resizeDivider}
+              onMouseDown={handleDividerMouseDown}
+              title="Drag to resize"
             />
-          )}
 
-          {/* Big board with desire scores */}
-          <BigBoard
-            availablePlayers={state.availablePlayers}
-            scoredForTeam={state.lastPick?.scoredBoard ?? null}
-            currentTeamId={currentPick?.teamId}
-            onPlayerSelect={makeUserPick}
-            isUserTurn={isUserTurn && !state.isPaused}
-            filterPosition={null}
-          />
+            {inspectedPick ? (
+              <div className={styles.inspectedBanner}>
+                <span className={styles.inspectedLabel}>
+                  PICK #{inspectedPick.overall} — {displayTeam?.abbreviation ?? ''}
+                </span>
+                <button className={styles.inspectedClear} onClick={() => setInspectedPick(null)}>
+                  BACK TO LATEST
+                </button>
+              </div>
+            ) : (
+              <LastPickBanner pick={state.lastPick} teams={state.teams} />
+            )}
+
+            {displayReasoning && (
+              <PickReasoning
+                reasoning={displayReasoning}
+                player={displayPlayer}
+                team={displayTeam}
+                isVisible={true}
+              />
+            )}
+
+            {bigBoard}
+          </div>
         </div>
-      </div>
+      )}
 
       {/* Trade modal — user-initiated only */}
       {state.tradeModal?.isOpen && (
