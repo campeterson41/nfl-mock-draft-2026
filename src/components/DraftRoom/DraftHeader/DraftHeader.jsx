@@ -1,5 +1,37 @@
 import styles from './DraftHeader.module.css'
 
+// Consistent 16x16 line-art SVG icons for mobile buttons
+const IconTrade = () => (
+  <svg className={styles.ctaIcon} viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M2 5h12M10 2l3 3-3 3" />
+    <path d="M14 11H2M6 8l-3 3 3 3" />
+  </svg>
+)
+const IconPause = () => (
+  <svg className={styles.ctaIcon} viewBox="0 0 16 16" fill="currentColor">
+    <rect x="3" y="2" width="3.5" height="12" rx="1" />
+    <rect x="9.5" y="2" width="3.5" height="12" rx="1" />
+  </svg>
+)
+const IconPlay = () => (
+  <svg className={styles.ctaIcon} viewBox="0 0 16 16" fill="currentColor">
+    <path d="M4 2.5v11l9-5.5z" />
+  </svg>
+)
+const IconSkip = () => (
+  <svg className={styles.ctaIcon} viewBox="0 0 16 16" fill="currentColor">
+    <path d="M2 2.5v11l6-5.5z" />
+    <path d="M8 2.5v11l6-5.5z" />
+  </svg>
+)
+const IconFastSim = () => (
+  <svg className={styles.ctaIcon} viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M1 2.5l5 5.5-5 5.5" />
+    <path d="M6 2.5l5 5.5-5 5.5" />
+    <line x1="14" y1="2" x2="14" y2="14" />
+  </svg>
+)
+
 export default function DraftHeader({
   currentPick,
   team,
@@ -61,7 +93,7 @@ export default function DraftHeader({
             onClick={onTrade}
             title={isUserTurn ? 'Trade your pick away' : 'Trade up for this pick'}
           >
-            <span className={styles.ctaIcon}>{'\u21C4'}</span>
+            <IconTrade />
             <span className={styles.ctaLabel}>TRADE</span>
           </button>
         )}
@@ -71,7 +103,7 @@ export default function DraftHeader({
           onClick={onTogglePause}
           title={isPaused ? 'Resume the draft' : 'Pause the draft'}
         >
-          <span className={styles.ctaIcon}>{isPaused ? '\u25B6' : '\u23F8'}</span>
+          {isPaused ? <IconPlay /> : <IconPause />}
           <span className={styles.ctaLabel}>{isPaused ? 'RESUME' : 'PAUSE'}</span>
         </button>
 
@@ -82,7 +114,7 @@ export default function DraftHeader({
             disabled={isSkipping}
             title="Fast-forward to your next pick"
           >
-            <span className={styles.ctaIcon}>{'\u23ED'}</span>
+            <IconSkip />
             <span className={styles.ctaLabel}>{isSkipping ? 'SKIPPING...' : 'SKIP TO MY PICK'}</span>
           </button>
         )}
@@ -92,7 +124,7 @@ export default function DraftHeader({
           onClick={onToggleFastSim}
           title={fastSim ? 'Fast sim ON' : 'Enable fast sim'}
         >
-          <span className={styles.ctaIcon}>{'\u23E9'}</span>
+          <IconFastSim />
           <span className={styles.ctaLabel}>FAST SIM</span>
           <span className={`${styles.simDot} ${fastSim ? styles.simDotActive : ''}`} />
         </button>
