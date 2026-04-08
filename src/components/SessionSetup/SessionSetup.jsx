@@ -94,7 +94,7 @@ function getSortedTeams(sortBy) {
   return teams
 }
 
-export default function SessionSetup({ onStart, onPrivacy }) {
+export default function SessionSetup({ onStart, onPrivacy, onAbout }) {
   const [screen, setScreen]           = useState(SCREENS.WELCOME)
   const [mode, setMode]               = useState(null)
   const [selectedIds, setSelectedIds] = useState([])
@@ -383,6 +383,8 @@ export default function SessionSetup({ onStart, onPrivacy }) {
       {/* Site footer */}
       <div className={styles.siteFooter}>
         <span className={styles.footerText}>2026 NFL Mock Draft Simulator</span>
+        <span className={styles.footerDot} />
+        <button className={styles.footerLink} onClick={onAbout}>About</button>
         <span className={styles.footerDot} />
         <button className={styles.footerLink} onClick={onPrivacy}>Privacy Policy</button>
       </div>

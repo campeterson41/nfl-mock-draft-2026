@@ -4,6 +4,7 @@ import SessionSetup from './components/SessionSetup/SessionSetup.jsx'
 import DraftRoom from './components/DraftRoom/DraftRoom.jsx'
 import ResultsScreen from './components/ResultsScreen/ResultsScreen.jsx'
 import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy.jsx'
+import AboutPage from './components/AboutPage/AboutPage.jsx'
 import AppNav from './components/AppNav/AppNav.jsx'
 import styles from './App.module.css'
 
@@ -80,10 +81,14 @@ export default function App() {
     setSessionIntelCount(prev => prev + count)
   }
 
-  const showNav = phase !== 'setup' && phase !== 'privacy'
+  const showNav = phase !== 'setup' && phase !== 'privacy' && phase !== 'about'
 
   if (phase === 'privacy') {
     return <PrivacyPolicy onBack={() => setPhase('setup')} />
+  }
+
+  if (phase === 'about') {
+    return <AboutPage onBack={() => setPhase('setup')} />
   }
 
   return (
@@ -100,6 +105,7 @@ export default function App() {
           <SessionSetup
             onStart={handleSessionStart}
             onPrivacy={() => setPhase('privacy')}
+            onAbout={() => setPhase('about')}
           />
         )}
         {phase === 'draft' && (
