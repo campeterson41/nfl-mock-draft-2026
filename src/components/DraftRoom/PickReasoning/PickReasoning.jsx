@@ -27,19 +27,10 @@ function AnalysisRow({ label, text }) {
 }
 
 export default function PickReasoning({ reasoning, player, team, isVisible }) {
-  const [isOpen, setIsOpen] = useState(true)
-  const userClosedRef = useRef(false)  // true if user explicitly closed it
-
-  // Auto-open on new pick — but only if the user hasn't manually closed it
-  useEffect(() => {
-    if (reasoning && !userClosedRef.current) setIsOpen(true)
-  }, [reasoning])
+  const [isOpen, setIsOpen] = useState(false)
 
   function handleToggle() {
-    const next = !isOpen
-    setIsOpen(next)
-    // If closing, mark as user-closed so new picks don't reopen it
-    userClosedRef.current = !next
+    setIsOpen(prev => !prev)
   }
 
   const posColor = POSITION_COLORS[player?.position] ?? '#666'
