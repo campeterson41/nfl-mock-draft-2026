@@ -55,27 +55,26 @@ export default function DraftHeader({
 
       {/* RIGHT: Controls */}
       <div className={styles.right}>
-        {/* TRADE button — hidden in observer mode */}
         {!isObserver && (
           <button
             className={`${styles.ctaBtn} ${styles.ctaBtnTrade}`}
             onClick={onTrade}
             title={isUserTurn ? 'Trade your pick away' : 'Trade up for this pick'}
           >
+            <span className={styles.ctaIcon}>{'\u21C4'}</span>
             <span className={styles.ctaLabel}>TRADE</span>
           </button>
         )}
 
-        {/* Pause / Resume */}
         <button
           className={`${styles.ctaBtn} ${isPaused ? styles.ctaBtnResume : styles.ctaBtnPause}`}
           onClick={onTogglePause}
           title={isPaused ? 'Resume the draft' : 'Pause the draft'}
         >
+          <span className={styles.ctaIcon}>{isPaused ? '\u25B6' : '\u23F8'}</span>
           <span className={styles.ctaLabel}>{isPaused ? 'RESUME' : 'PAUSE'}</span>
         </button>
 
-        {/* Skip to my pick — only shown when AI is picking and user has a pick coming */}
         {!isObserver && hasUpcomingUserPick && (
           <button
             className={`${styles.ctaBtn} ${isSkipping ? styles.ctaBtnSimActive : styles.ctaBtnSkip}`}
@@ -83,16 +82,17 @@ export default function DraftHeader({
             disabled={isSkipping}
             title="Fast-forward to your next pick"
           >
+            <span className={styles.ctaIcon}>{'\u23ED'}</span>
             <span className={styles.ctaLabel}>{isSkipping ? 'SKIPPING...' : 'SKIP TO MY PICK'}</span>
           </button>
         )}
 
-        {/* Fast Sim toggle */}
         <button
           className={`${styles.ctaBtn} ${styles.ctaBtnSim} ${fastSim ? styles.ctaBtnSimActive : ''}`}
           onClick={onToggleFastSim}
           title={fastSim ? 'Fast sim ON' : 'Enable fast sim'}
         >
+          <span className={styles.ctaIcon}>{'\u26A1'}</span>
           <span className={styles.ctaLabel}>FAST SIM</span>
           <span className={`${styles.simDot} ${fastSim ? styles.simDotActive : ''}`} />
         </button>

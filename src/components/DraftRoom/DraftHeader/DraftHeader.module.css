@@ -232,13 +232,22 @@
   50%       { opacity: 0.45; transform: scale(0.7); }
 }
 
+/* ── Icon (visible only on mobile) ── */
+.ctaIcon {
+  display: none;
+  font-size: 16px;
+  line-height: 1;
+}
+
 /* ── RESPONSIVE ── */
 @media (max-width: 768px) {
   .banner { height: auto; padding: 10px 12px 10px 0; flex-wrap: wrap; gap: 8px; }
   .left   { padding-left: 14px; min-width: 120px; }
   .right  { gap: 6px; }
   .ctaLabel { display: none; }
-  .ctaBtn   { padding: 0 10px; }
+  .ctaIcon  { display: inline; }
+  .ctaBtn   { padding: 0 10px; min-width: 36px; height: 32px; justify-content: center; }
+  .simDot   { display: none; }
 }
 
 @media (max-width: 480px) {
