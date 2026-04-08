@@ -29,7 +29,7 @@ const TEAMS_DISPLAY = [
   { id: 'DET', espnId: 'det', abbreviation: 'DET', city: 'Detroit',        nickname: 'Lions',      colors: { primary: '#0076B6', secondary: '#B0B7BC' }, conf: 'NFC', div: 'North', r1pick: 17 },
   { id: 'MIN', espnId: 'min', abbreviation: 'MIN', city: 'Minnesota',      nickname: 'Vikings',    colors: { primary: '#4F2683', secondary: '#FFC62F' }, conf: 'NFC', div: 'North', r1pick: 18 },
   { id: 'CAR', espnId: 'car', abbreviation: 'CAR', city: 'Carolina',       nickname: 'Panthers',   colors: { primary: '#0085CA', secondary: '#101820' }, conf: 'NFC', div: 'South', r1pick: 19 },
-  { id: 'PIT', espnId: 'pit', abbreviation: 'PIT', city: 'Pittsburgh',     nickname: 'Steelers',   colors: { primary: '#101820', secondary: '#FFB612' }, conf: 'AFC', div: 'North', r1pick: 21 },
+  { id: 'PIT', espnId: 'pit', abbreviation: 'PIT', city: 'Pittsburgh',     nickname: 'Steelers',   colors: { primary: '#FFB612', secondary: '#101820' }, conf: 'AFC', div: 'North', r1pick: 21 },
   { id: 'LAC', espnId: 'lac', abbreviation: 'LAC', city: 'Los Angeles',    nickname: 'Chargers',   colors: { primary: '#0080C6', secondary: '#FFC20E' }, conf: 'AFC', div: 'West',  r1pick: 22 },
   { id: 'PHI', espnId: 'phi', abbreviation: 'PHI', city: 'Philadelphia',   nickname: 'Eagles',     colors: { primary: '#004C54', secondary: '#A5ACAF' }, conf: 'NFC', div: 'East',  r1pick: 23 },
   { id: 'CHI', espnId: 'chi', abbreviation: 'CHI', city: 'Chicago',        nickname: 'Bears',      colors: { primary: '#C83803', secondary: '#0B162A' }, conf: 'NFC', div: 'North', r1pick: 25 },
