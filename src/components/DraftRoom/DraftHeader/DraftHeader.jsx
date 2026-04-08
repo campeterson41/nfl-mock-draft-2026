@@ -92,7 +92,7 @@ export default function DraftHeader({
           onClick={onToggleFastSim}
           title={fastSim ? 'Fast sim ON' : 'Enable fast sim'}
         >
-          <span className={styles.ctaIcon}>{'\u26A1'}</span>
+          <span className={styles.ctaIcon}>{'\u23E9'}</span>
           <span className={styles.ctaLabel}>FAST SIM</span>
           <span className={`${styles.simDot} ${fastSim ? styles.simDotActive : ''}`} />
         </button>
