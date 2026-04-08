@@ -107,6 +107,16 @@ export default function DraftHeader({
           <span className={styles.ctaLabel}>{isPaused ? 'RESUME' : 'PAUSE'}</span>
         </button>
 
+        <button
+          className={`${styles.ctaBtn} ${styles.ctaBtnSim} ${fastSim ? styles.ctaBtnSimActive : ''}`}
+          onClick={onToggleFastSim}
+          title={fastSim ? 'Fast sim ON' : 'Enable fast sim'}
+        >
+          <IconSkip />
+          <span className={styles.ctaLabel}>FAST SIM</span>
+          <span className={`${styles.simDot} ${fastSim ? styles.simDotActive : ''}`} />
+        </button>
+
         {!isObserver && hasUpcomingUserPick && (
           <button
             className={`${styles.ctaBtn} ${isSkipping ? styles.ctaBtnSimActive : styles.ctaBtnSkip}`}
@@ -114,20 +124,10 @@ export default function DraftHeader({
             disabled={isSkipping}
             title="Fast-forward to your next pick"
           >
-            <IconSkip />
+            <IconFastSim />
             <span className={styles.ctaLabel}>{isSkipping ? 'SKIPPING...' : 'SKIP TO MY PICK'}</span>
           </button>
         )}
-
-        <button
-          className={`${styles.ctaBtn} ${styles.ctaBtnSim} ${fastSim ? styles.ctaBtnSimActive : ''}`}
-          onClick={onToggleFastSim}
-          title={fastSim ? 'Fast sim ON' : 'Enable fast sim'}
-        >
-          <IconFastSim />
-          <span className={styles.ctaLabel}>FAST SIM</span>
-          <span className={`${styles.simDot} ${fastSim ? styles.simDotActive : ''}`} />
-        </button>
       </div>
     </header>
   )
