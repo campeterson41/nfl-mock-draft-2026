@@ -65,20 +65,18 @@ export function calculateDesireScore({ player, team, regime, beatWriterLinks, cu
       mockRangePenalty = Math.max(0.02, Math.pow(0.75, picksEarly))
     }
 
-    // Consensus distance drag: even when past the floor, picking a player
-    // significantly before their consensus costs draft capital. A first-round
-    // pick on a mid-second-round player is a reach even if technically in range.
-    // Penalty: 0.95^picksEarlyVsConsensus — meaningful drag that compounds:
-    //   3 picks early  → 0.86x (slight drag, normal variance)
-    //   5 picks early  → 0.77x (noticeable reach)
-    //   8 picks early  → 0.66x (significant — need strong reason)
-    //   11 picks early → 0.57x (major reach — rarely happens)
-    //   15 picks early → 0.46x (extreme — almost never worth it)
-    //   20 picks early → 0.36x (effectively blocked)
+    // Consensus distance drag: picking before consensus costs draft capital,
+    // but teams reach 5-10 picks early regularly for guys they love.
+    // Penalty: 0.975^picksEarlyVsConsensus — gentle enough to allow mild reaches:
+    //   5 picks early  → 0.88x (normal NFL variance — happens constantly)
+    //   10 picks early → 0.78x (noticeable reach, needs a reason)
+    //   15 picks early → 0.68x (significant reach — beat writer signal needed)
+    //   20 picks early → 0.60x (major reach — rare but happens)
+    //   30 picks early → 0.47x (extreme — almost never)
     const consensus = player.mockRange?.consensus ?? player.rank
     if (currentPickOverall < consensus) {
       const picksBeforeConsensus = consensus - currentPickOverall
-      const consensusDrag = Math.max(0.25, Math.pow(0.95, picksBeforeConsensus))
+      const consensusDrag = Math.max(0.30, Math.pow(0.975, picksBeforeConsensus))
       mockRangePenalty *= consensusDrag
     }
   }
