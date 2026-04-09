@@ -172,6 +172,40 @@ export default function PlayerProfile({ player, isOpen, onClose, onDraft, canDra
             </div>
           )}
 
+          {/* Career production */}
+          {profile?.careerStats && (
+            <div className={styles.productionSection}>
+              <h3 className={styles.sectionTitle}>CAREER PRODUCTION</h3>
+              <p className={styles.productionHeadline}>{profile.careerStats.headline}</p>
+              <div className={styles.productionGrid}>
+                {profile.careerStats.gp && <div className={styles.prodStat}><span className={styles.prodNum}>{profile.careerStats.gp}</span><span className={styles.prodLabel}>GP</span></div>}
+                {profile.careerStats.gs && <div className={styles.prodStat}><span className={styles.prodNum}>{profile.careerStats.gs}</span><span className={styles.prodLabel}>GS</span></div>}
+                {/* Passing */}
+                {profile.careerStats.passYds && <div className={styles.prodStat}><span className={styles.prodNum}>{Number(profile.careerStats.passYds).toLocaleString()}</span><span className={styles.prodLabel}>PASS YDS</span></div>}
+                {profile.careerStats.passTD && <div className={styles.prodStat}><span className={styles.prodNum}>{profile.careerStats.passTD}</span><span className={styles.prodLabel}>PASS TD</span></div>}
+                {profile.careerStats.int && profile.careerStats.type === 'passing' && <div className={styles.prodStat}><span className={styles.prodNum}>{profile.careerStats.int}</span><span className={styles.prodLabel}>INT</span></div>}
+                {profile.careerStats.compPct && <div className={styles.prodStat}><span className={styles.prodNum}>{profile.careerStats.compPct}</span><span className={styles.prodLabel}>COMP%</span></div>}
+                {/* Rushing */}
+                {profile.careerStats.rushYds && <div className={styles.prodStat}><span className={styles.prodNum}>{Number(profile.careerStats.rushYds).toLocaleString()}</span><span className={styles.prodLabel}>RUSH YDS</span></div>}
+                {profile.careerStats.rushTD && <div className={styles.prodStat}><span className={styles.prodNum}>{profile.careerStats.rushTD}</span><span className={styles.prodLabel}>RUSH TD</span></div>}
+                {profile.careerStats.rushAvg && <div className={styles.prodStat}><span className={styles.prodNum}>{profile.careerStats.rushAvg}</span><span className={styles.prodLabel}>YPC</span></div>}
+                {/* Receiving */}
+                {profile.careerStats.rec && <div className={styles.prodStat}><span className={styles.prodNum}>{profile.careerStats.rec}</span><span className={styles.prodLabel}>REC</span></div>}
+                {profile.careerStats.recYds && <div className={styles.prodStat}><span className={styles.prodNum}>{Number(profile.careerStats.recYds).toLocaleString()}</span><span className={styles.prodLabel}>REC YDS</span></div>}
+                {profile.careerStats.recTD && <div className={styles.prodStat}><span className={styles.prodNum}>{profile.careerStats.recTD}</span><span className={styles.prodLabel}>REC TD</span></div>}
+                {profile.careerStats.recAvg && <div className={styles.prodStat}><span className={styles.prodNum}>{profile.careerStats.recAvg}</span><span className={styles.prodLabel}>AVG</span></div>}
+                {profile.careerStats.drops && <div className={styles.prodStat}><span className={styles.prodNum}>{profile.careerStats.drops}</span><span className={styles.prodLabel}>DROPS</span></div>}
+                {/* Defensive */}
+                {profile.careerStats.tackles && <div className={styles.prodStat}><span className={styles.prodNum}>{profile.careerStats.tackles}</span><span className={styles.prodLabel}>TACKLES</span></div>}
+                {profile.careerStats.sacks && parseFloat(profile.careerStats.sacks) > 0 && <div className={styles.prodStat}><span className={styles.prodNum}>{profile.careerStats.sacks}</span><span className={styles.prodLabel}>SACKS</span></div>}
+                {profile.careerStats.tfl && <div className={styles.prodStat}><span className={styles.prodNum}>{profile.careerStats.tfl}</span><span className={styles.prodLabel}>TFL</span></div>}
+                {profile.careerStats.int && profile.careerStats.type === 'defensive' && parseFloat(profile.careerStats.int) > 0 && <div className={styles.prodStat}><span className={styles.prodNum}>{profile.careerStats.int}</span><span className={styles.prodLabel}>INT</span></div>}
+                {profile.careerStats.pd && parseFloat(profile.careerStats.pd) > 0 && <div className={styles.prodStat}><span className={styles.prodNum}>{profile.careerStats.pd}</span><span className={styles.prodLabel}>PD</span></div>}
+                {profile.careerStats.ff && parseFloat(profile.careerStats.ff) > 0 && <div className={styles.prodStat}><span className={styles.prodNum}>{profile.careerStats.ff}</span><span className={styles.prodLabel}>FF</span></div>}
+              </div>
+            </div>
+          )}
+
           {/* Draft range */}
           {player.mockRange && (
             <div className={styles.section}>

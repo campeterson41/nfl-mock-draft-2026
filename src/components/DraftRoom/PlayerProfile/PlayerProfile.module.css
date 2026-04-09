@@ -235,6 +235,54 @@
   line-height: 1.4;
 }
 
+/* Career production */
+.productionSection {
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+.productionHeadline {
+  font-size: 15px;
+  font-weight: 800;
+  color: #fafafa;
+  margin: 6px 0 14px;
+  letter-spacing: -0.01em;
+}
+
+.productionGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+  gap: 8px;
+}
+
+.prodStat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 8px 4px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.05);
+  border-radius: 3px;
+}
+
+.prodNum {
+  font-size: 17px;
+  font-weight: 900;
+  color: #d4a843;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.prodLabel {
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: #3f3f46;
+  text-transform: uppercase;
+}
+
 /* Draft range */
 .rangeContainer {
   padding: 4px 0 8px;
