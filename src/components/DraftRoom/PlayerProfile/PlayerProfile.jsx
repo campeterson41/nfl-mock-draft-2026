@@ -165,15 +165,18 @@ export default function PlayerProfile({ player, isOpen, onClose, onDraft, canDra
               </p>
               <div className={styles.measGrid}>
                 <RadarChart percentiles={Object.fromEntries(
-                  Object.entries(ranks).map(([k, v]) => [k, Math.max(1, Math.round(((v.total - v.rank + 1) / v.total) * 100))])
+                  Object.entries(ranks)
+                    .filter(([k]) => k in { height:1, size:1, speed:1, explosion:1, power:1, agility:1, quickness:1 })
+                    .map(([k, v]) => [k, Math.max(1, Math.round(((v.total - v.rank + 1) / v.total) * 100))])
                 )} />
                 <div className={styles.pctBars}>
+                  {ranks.height && <MeasurableBar label="Height" value={meas.height || '—'} rank={ranks.height.rank} total={ranks.height.total} pos={player.position} />}
+                  {ranks.size && <MeasurableBar label="Weight" value={meas.weight ? `${meas.weight} lbs` : '—'} rank={ranks.size.rank} total={ranks.size.total} pos={player.position} />}
                   {ranks.speed && <MeasurableBar label="40-Yard" value={meas.forty ? `${meas.forty}s` : '—'} rank={ranks.speed.rank} total={ranks.speed.total} pos={player.position} />}
                   {ranks.explosion && <MeasurableBar label="Vert Jump" value={meas.vertJump ? `${meas.vertJump}"` : '—'} rank={ranks.explosion.rank} total={ranks.explosion.total} pos={player.position} />}
                   {ranks.power && <MeasurableBar label="Broad Jump" value={meas.broadJump || '—'} rank={ranks.power.rank} total={ranks.power.total} pos={player.position} />}
                   {ranks.agility && <MeasurableBar label="3-Cone" value={meas.threeCone ? `${meas.threeCone}s` : '—'} rank={ranks.agility.rank} total={ranks.agility.total} pos={player.position} />}
                   {ranks.quickness && <MeasurableBar label="Shuttle" value={meas.shuttle ? `${meas.shuttle}s` : '—'} rank={ranks.quickness.rank} total={ranks.quickness.total} pos={player.position} />}
-                  {ranks.size && <MeasurableBar label="Weight" value={meas.weight ? `${meas.weight} lbs` : '—'} rank={ranks.size.rank} total={ranks.size.total} pos={player.position} />}
                 </div>
               </div>
             </div>

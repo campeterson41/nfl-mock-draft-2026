@@ -1,11 +1,12 @@
 import styles from './RadarChart.module.css'
 
 const LABELS = {
+  height: 'HEIGHT',
+  size: 'WEIGHT',
   speed: '40-YARD',
   explosion: 'VERT JUMP',
   power: 'BROAD JUMP',
   agility: '3-CONE',
-  size: 'WEIGHT',
   quickness: 'SHUTTLE',
 }
 
