@@ -7,12 +7,34 @@ import beastProfiles from '../../../data/beastProfiles.json'
 const profileMap = {}
 beastProfiles.forEach(p => { if (p.playerId) profileMap[p.playerId] = p })
 
+// Smooth color interpolation: red (0%) -> yellow (50%) -> green (100%)
+// Uses muted tones to stay subtle
+function tierColor(pct, forText = false) {
+  // Clamp 0-100
+  const t = Math.max(0, Math.min(100, pct))
+  if (t <= 50) {
+    // Red to yellow (0-50)
+    const ratio = t / 50
+    const r = forText ? Math.round(158 + ratio * (154 - 158)) : Math.round(138 + ratio * (138 - 138))
+    const g = forText ? Math.round(114 + ratio * (144 - 114)) : Math.round(90 + ratio * (125 - 90))
+    const b = forText ? Math.round(114 + ratio * (112 - 114)) : Math.round(90 + ratio * (85 - 90))
+    return `rgb(${r},${g},${b})`
+  } else {
+    // Yellow to green (50-100)
+    const ratio = (t - 50) / 50
+    const r = forText ? Math.round(154 - ratio * (154 - 122)) : Math.round(138 - ratio * (138 - 90))
+    const g = forText ? Math.round(144 + ratio * (158 - 144)) : Math.round(125 + ratio * (138 - 125))
+    const b = forText ? Math.round(112 - ratio * (112 - 112)) : Math.round(85 - ratio * (85 - 85))
+    return `rgb(${r},${g},${b})`
+  }
+}
+
 function MeasurableBar({ label, value, rank, total, pos }) {
   const [showTip, setShowTip] = useState(false)
   if (rank == null || total == null) return null
   const pct = Math.max(1, Math.round(((total - rank + 1) / total) * 100))
-  const color = pct >= 75 ? '#5a8a63' : pct <= 25 ? '#8a5a5a' : '#8a7d55'
-  const valueColor = pct >= 75 ? '#7a9e82' : pct <= 25 ? '#9e7272' : '#9a9070'
+  const color = tierColor(pct)
+  const valueColor = tierColor(pct, true)
   return (
     <div
       className={styles.pctRow}
@@ -53,11 +75,12 @@ function DraftRange({ floor, consensus, ceiling }) {
   )
 }
 
-function StatPill({ children, tier, tip }) {
+function StatPill({ children, tierStyle, tip }) {
   const [showTip, setShowTip] = useState(false)
   return (
     <span
-      className={`${styles.stat} ${tier || ''}`}
+      className={styles.stat}
+      style={tierStyle || {}}
       onMouseEnter={() => tip && setShowTip(true)}
       onMouseLeave={() => setShowTip(false)}
       onClick={() => tip && setShowTip(prev => !prev)}
@@ -77,12 +100,13 @@ export default function PlayerProfile({ player, isOpen, onClose, onDraft, canDra
   const ranks = profile?.ranks ?? {}
   const callouts = profile?.callouts ?? []
 
-  function statTierClass(rankData) {
-    if (!rankData) return ''
+  function statTierStyle(rankData) {
+    if (!rankData) return {}
     const pct = Math.round(((rankData.total - rankData.rank + 1) / rankData.total) * 100)
-    if (pct >= 75) return styles.statGreen
-    if (pct <= 25) return styles.statRed
-    return styles.statYellow
+    return {
+      color: tierColor(pct, true),
+      borderColor: tierColor(pct) + '33', // ~20% opacity
+    }
   }
 
   function statTip(rankData) {
@@ -121,11 +145,11 @@ export default function PlayerProfile({ player, isOpen, onClose, onDraft, canDra
             {profile?.grade && <span className={styles.grade}>{profile.grade}</span>}
           </div>
           <div className={styles.headerStats}>
-            {(profile?.height || meas.height) && <StatPill tier={statTierClass(ranks.height)} tip={statTip(ranks.height)}>{profile?.height || meas.height}</StatPill>}
-            {(profile?.weight || meas.weight) && <StatPill tier={statTierClass(ranks.size)} tip={statTip(ranks.size)}>{meas.weight || profile?.weight} lbs</StatPill>}
-            {profile?.age && <StatPill tier={statTierClass(ranks.age)} tip={statTip(ranks.age)}>Age {profile.age}</StatPill>}
-            {meas.forty && <StatPill tier={statTierClass(ranks.speed)} tip={statTip(ranks.speed)}>{meas.forty}s 40-yd</StatPill>}
-            {meas.vertJump && <StatPill tier={statTierClass(ranks.explosion)} tip={statTip(ranks.explosion)}>{meas.vertJump}" vert</StatPill>}
+            {(profile?.height || meas.height) && <StatPill tierStyle={statTierStyle(ranks.height)} tip={statTip(ranks.height)}>{profile?.height || meas.height}</StatPill>}
+            {(profile?.weight || meas.weight) && <StatPill tierStyle={statTierStyle(ranks.size)} tip={statTip(ranks.size)}>{meas.weight || profile?.weight} lbs</StatPill>}
+            {profile?.age && <StatPill tierStyle={statTierStyle(ranks.age)} tip={statTip(ranks.age)}>Age {profile.age}</StatPill>}
+            {meas.forty && <StatPill tierStyle={statTierStyle(ranks.speed)} tip={statTip(ranks.speed)}>{meas.forty}s 40-yd</StatPill>}
+            {meas.vertJump && <StatPill tierStyle={statTierStyle(ranks.explosion)} tip={statTip(ranks.explosion)}>{meas.vertJump}" vert</StatPill>}
           </div>
           {canDraft && (
             <button className={styles.draftBtn} onClick={() => { onDraft(player); onClose(); }}>
