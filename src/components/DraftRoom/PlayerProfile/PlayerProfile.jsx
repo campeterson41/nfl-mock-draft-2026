@@ -142,7 +142,7 @@ export default function PlayerProfile({ player, isOpen, onClose, onDraft, canDra
           <div className={styles.headerMeta}>
             <span className={styles.posBadge} style={{ background: posColor }}>{player.position}</span>
             <span className={styles.school}>{player.school}</span>
-            {profile?.grade && <span className={styles.grade}>{profile.grade}</span>}
+            {profile?.grade && <span className={styles.grade}>PROJ: {profile.grade.toLowerCase().includes('round') ? profile.grade : profile.grade + ' round'}</span>}
           </div>
           <div className={styles.headerStats}>
             {(profile?.height || meas.height) && <StatPill tierStyle={statTierStyle(ranks.height)} tip={statTip(ranks.height)}>{profile?.height || meas.height}</StatPill>}
