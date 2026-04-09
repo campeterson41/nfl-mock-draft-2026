@@ -227,6 +227,13 @@
   letter-spacing: 0.06em;
 }
 
+.sectionContext {
+  font-size: 11px;
+  color: #3f3f46;
+  margin-top: -4px;
+  margin-bottom: 12px;
+}
+
 /* Athletic profile grid (radar + bars) */
 .measSection { margin-bottom: 20px; }
 

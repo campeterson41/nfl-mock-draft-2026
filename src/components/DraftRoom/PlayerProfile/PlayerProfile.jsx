@@ -7,17 +7,19 @@ import beastProfiles from '../../../data/beastProfiles.json'
 const profileMap = {}
 beastProfiles.forEach(p => { if (p.playerId) profileMap[p.playerId] = p })
 
-function PercentileBar({ label, value, pct, invert }) {
+function PercentileBar({ label, value, pct }) {
   if (pct == null) return null
-  const color = pct >= 80 ? '#4ade80' : pct >= 60 ? '#d4a843' : pct >= 40 ? '#a1a1aa' : '#f87171'
+  const displayPct = Math.max(1, pct)
+  const color = displayPct >= 80 ? '#4ade80' : displayPct >= 60 ? '#d4a843' : displayPct >= 40 ? '#a1a1aa' : '#f87171'
+  const suffix = displayPct === 1 ? 'st' : displayPct === 2 ? 'nd' : displayPct === 3 ? 'rd' : 'th'
   return (
     <div className={styles.pctRow}>
       <span className={styles.pctLabel}>{label}</span>
       <div className={styles.pctTrack}>
-        <div className={styles.pctFill} style={{ width: `${pct}%`, background: color }} />
+        <div className={styles.pctFill} style={{ width: `${displayPct}%`, background: color }} />
       </div>
       <span className={styles.pctValue}>{value}</span>
-      <span className={styles.pctPct} style={{ color }}>{pct}th</span>
+      <span className={styles.pctPct} style={{ color }}>{displayPct}{suffix}</span>
     </div>
   )
 }
@@ -51,6 +53,21 @@ export default function PlayerProfile({ player, isOpen, onClose, onDraft, canDra
   const meas = profile?.measurables ?? {}
   const pcts = profile?.percentiles ?? {}
   const callouts = profile?.callouts ?? []
+
+  // Count how many players in same position group (for context)
+  const posGroupCount = useMemo(() => {
+    const pos = profile?.pos
+    if (!pos) return 0
+    return beastProfiles.filter(p => {
+      let ppos = p.pos
+      if (ppos === 'OG' || ppos === 'OC') ppos = 'IOL'
+      if (ppos === 'SAF') ppos = 'S'
+      let myPos = pos
+      if (myPos === 'OG' || myPos === 'OC') myPos = 'IOL'
+      if (myPos === 'SAF') myPos = 'S'
+      return ppos === myPos && p.measurables && Object.keys(p.measurables).length > 0
+    }).length
+  }, [profile])
 
   return (
     <div className={styles.overlay} onClick={e => e.target === e.currentTarget && onClose()}>
@@ -107,15 +124,18 @@ export default function PlayerProfile({ player, isOpen, onClose, onDraft, canDra
           {Object.keys(pcts).length >= 3 && (
             <div className={styles.measSection}>
               <h3 className={styles.sectionTitle}>ATHLETIC PROFILE</h3>
+              <p className={styles.sectionContext}>
+                Percentiles compared to {posGroupCount} {player.position}s in the 2026 draft class
+              </p>
               <div className={styles.measGrid}>
                 <RadarChart percentiles={pcts} />
                 <div className={styles.pctBars}>
-                  <PercentileBar label="Speed" value={meas.forty ? `${meas.forty}s` : '—'} pct={pcts.speed} />
-                  <PercentileBar label="Explosion" value={meas.vertJump ? `${meas.vertJump}"` : '—'} pct={pcts.explosion} />
-                  <PercentileBar label="Power" value={meas.broadJump || '—'} pct={pcts.power} />
-                  <PercentileBar label="Agility" value={meas.threeCone ? `${meas.threeCone}s` : '—'} pct={pcts.agility} />
-                  <PercentileBar label="Quickness" value={meas.shuttle ? `${meas.shuttle}s` : '—'} pct={pcts.quickness} />
-                  <PercentileBar label="Size" value={meas.weight ? `${meas.weight}` : '—'} pct={pcts.size} />
+                  <PercentileBar label="40-Yard" value={meas.forty ? `${meas.forty}s` : '—'} pct={pcts.speed} />
+                  <PercentileBar label="Vert Jump" value={meas.vertJump ? `${meas.vertJump}"` : '—'} pct={pcts.explosion} />
+                  <PercentileBar label="Broad Jump" value={meas.broadJump || '—'} pct={pcts.power} />
+                  <PercentileBar label="3-Cone" value={meas.threeCone ? `${meas.threeCone}s` : '—'} pct={pcts.agility} />
+                  <PercentileBar label="Shuttle" value={meas.shuttle ? `${meas.shuttle}s` : '—'} pct={pcts.quickness} />
+                  <PercentileBar label="Weight" value={meas.weight ? `${meas.weight} lbs` : '—'} pct={pcts.size} />
                 </div>
               </div>
             </div>

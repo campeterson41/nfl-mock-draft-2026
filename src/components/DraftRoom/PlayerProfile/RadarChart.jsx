@@ -1,12 +1,12 @@
 import styles from './RadarChart.module.css'
 
 const LABELS = {
-  speed: 'SPEED',
-  explosion: 'EXPLOSION',
-  power: 'POWER',
-  agility: 'AGILITY',
-  size: 'SIZE',
-  quickness: 'QUICKNESS',
+  speed: '40-YARD',
+  explosion: 'VERT JUMP',
+  power: 'BROAD JUMP',
+  agility: '3-CONE',
+  size: 'WEIGHT',
+  quickness: 'SHUTTLE',
 }
 
 export default function RadarChart({ percentiles }) {
