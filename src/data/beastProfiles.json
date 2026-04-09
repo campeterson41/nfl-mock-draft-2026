@@ -50,6 +50,10 @@
       "size": {
         "rank": 2,
         "total": 19
+      },
+      "height": {
+        "rank": 3,
+        "total": 19
       }
     }
   },
@@ -104,6 +108,10 @@
       "size": {
         "rank": 15,
         "total": 19
+      },
+      "height": {
+        "rank": 17,
+        "total": 19
       }
     }
   },
@@ -157,6 +165,10 @@
       },
       "size": {
         "rank": 19,
+        "total": 19
+      },
+      "height": {
+        "rank": 16,
         "total": 19
       }
     }
@@ -213,6 +225,10 @@
       },
       "size": {
         "rank": 6,
+        "total": 19
+      },
+      "height": {
+        "rank": 2,
         "total": 19
       }
     }
@@ -296,6 +312,10 @@
       "quickness": {
         "rank": 6,
         "total": 9
+      },
+      "height": {
+        "rank": 9,
+        "total": 19
       }
     }
   },
@@ -340,6 +360,10 @@
         "total": 19
       },
       "size": {
+        "rank": 3,
+        "total": 19
+      },
+      "height": {
         "rank": 3,
         "total": 19
       }
@@ -413,6 +437,10 @@
       "size": {
         "rank": 7,
         "total": 19
+      },
+      "height": {
+        "rank": 1,
+        "total": 19
       }
     }
   },
@@ -473,6 +501,10 @@
       },
       "size": {
         "rank": 17,
+        "total": 19
+      },
+      "height": {
+        "rank": 12,
         "total": 19
       }
     }
@@ -555,6 +587,10 @@
       "quickness": {
         "rank": 1,
         "total": 9
+      },
+      "height": {
+        "rank": 11,
+        "total": 19
       }
     }
   },
@@ -629,6 +665,10 @@
       "quickness": {
         "rank": 5,
         "total": 9
+      },
+      "height": {
+        "rank": 7,
+        "total": 19
       }
     }
   },
@@ -682,6 +722,10 @@
       },
       "size": {
         "rank": 5,
+        "total": 19
+      },
+      "height": {
+        "rank": 7,
         "total": 19
       }
     }
@@ -758,6 +802,10 @@
       "quickness": {
         "rank": 9,
         "total": 9
+      },
+      "height": {
+        "rank": 6,
+        "total": 19
       }
     }
   },
@@ -817,6 +865,10 @@
       "quickness": {
         "rank": 4,
         "total": 9
+      },
+      "height": {
+        "rank": 10,
+        "total": 19
       }
     }
   },
@@ -878,6 +930,10 @@
       "size": {
         "rank": 16,
         "total": 19
+      },
+      "height": {
+        "rank": 15,
+        "total": 19
       }
     }
   },
@@ -936,6 +992,10 @@
       "quickness": {
         "rank": 3,
         "total": 9
+      },
+      "height": {
+        "rank": 5,
+        "total": 19
       }
     }
   },
@@ -1001,6 +1061,10 @@
       "quickness": {
         "rank": 7,
         "total": 9
+      },
+      "height": {
+        "rank": 19,
+        "total": 19
       }
     }
   },
@@ -1076,6 +1140,10 @@
       "quickness": {
         "rank": 2,
         "total": 9
+      },
+      "height": {
+        "rank": 13,
+        "total": 19
       }
     }
   },
@@ -1120,6 +1188,10 @@
       },
       "size": {
         "rank": 11,
+        "total": 19
+      },
+      "height": {
+        "rank": 18,
         "total": 19
       }
     }
@@ -1194,6 +1266,10 @@
       "quickness": {
         "rank": 8,
         "total": 9
+      },
+      "height": {
+        "rank": 13,
+        "total": 19
       }
     }
   },
@@ -1286,6 +1362,10 @@
       "size": {
         "rank": 10,
         "total": 23
+      },
+      "height": {
+        "rank": 7,
+        "total": 23
       }
     }
   },
@@ -1353,6 +1433,10 @@
       },
       "size": {
         "rank": 17,
+        "total": 23
+      },
+      "height": {
+        "rank": 14,
         "total": 23
       }
     }
@@ -1429,6 +1513,10 @@
       },
       "size": {
         "rank": 5,
+        "total": 23
+      },
+      "height": {
+        "rank": 4,
         "total": 23
       }
     }
@@ -1510,6 +1598,10 @@
       "quickness": {
         "rank": 5,
         "total": 12
+      },
+      "height": {
+        "rank": 16,
+        "total": 23
       }
     }
   },
@@ -1562,6 +1654,10 @@
       "size": {
         "rank": 9,
         "total": 23
+      },
+      "height": {
+        "rank": 10,
+        "total": 23
       }
     }
   },
@@ -1613,6 +1709,10 @@
       },
       "size": {
         "rank": 7,
+        "total": 23
+      },
+      "height": {
+        "rank": 22,
         "total": 23
       }
     }
@@ -1684,6 +1784,10 @@
       "size": {
         "rank": 22,
         "total": 23
+      },
+      "height": {
+        "rank": 18,
+        "total": 23
       }
     }
   },
@@ -1736,6 +1840,10 @@
       },
       "size": {
         "rank": 8,
+        "total": 23
+      },
+      "height": {
+        "rank": 5,
         "total": 23
       }
     }
@@ -1810,6 +1918,10 @@
       "size": {
         "rank": 19,
         "total": 23
+      },
+      "height": {
+        "rank": 7,
+        "total": 23
       }
     }
   },
@@ -1875,6 +1987,10 @@
       "quickness": {
         "rank": 12,
         "total": 12
+      },
+      "height": {
+        "rank": 19,
+        "total": 23
       }
     }
   },
@@ -2006,6 +2122,10 @@
       "quickness": {
         "rank": 8,
         "total": 12
+      },
+      "height": {
+        "rank": 5,
+        "total": 23
       }
     }
   },
@@ -2057,6 +2177,10 @@
       },
       "size": {
         "rank": 16,
+        "total": 23
+      },
+      "height": {
+        "rank": 21,
         "total": 23
       }
     }
@@ -2126,6 +2250,10 @@
       "size": {
         "rank": 12,
         "total": 23
+      },
+      "height": {
+        "rank": 16,
+        "total": 23
       }
     }
   },
@@ -2193,6 +2321,10 @@
       "quickness": {
         "rank": 9,
         "total": 12
+      },
+      "height": {
+        "rank": 9,
+        "total": 23
       }
     }
   },
@@ -2246,6 +2378,10 @@
       },
       "size": {
         "rank": 1,
+        "total": 23
+      },
+      "height": {
+        "rank": 2,
         "total": 23
       }
     }
@@ -2311,6 +2447,10 @@
       "quickness": {
         "rank": 2,
         "total": 12
+      },
+      "height": {
+        "rank": 14,
+        "total": 23
       }
     }
   },
@@ -2387,6 +2527,10 @@
       "quickness": {
         "rank": 10,
         "total": 12
+      },
+      "height": {
+        "rank": 1,
+        "total": 23
       }
     }
   },
@@ -2461,6 +2605,10 @@
       "quickness": {
         "rank": 3,
         "total": 12
+      },
+      "height": {
+        "rank": 12,
+        "total": 23
       }
     }
   },
@@ -2541,6 +2689,10 @@
       "quickness": {
         "rank": 1,
         "total": 12
+      },
+      "height": {
+        "rank": 12,
+        "total": 23
       }
     }
   },
@@ -2621,6 +2773,10 @@
       "quickness": {
         "rank": 7,
         "total": 12
+      },
+      "height": {
+        "rank": 19,
+        "total": 23
       }
     }
   },
@@ -2678,6 +2834,10 @@
       "quickness": {
         "rank": 10,
         "total": 12
+      },
+      "height": {
+        "rank": 3,
+        "total": 23
       }
     }
   },
@@ -2733,6 +2893,10 @@
       "quickness": {
         "rank": 5,
         "total": 12
+      },
+      "height": {
+        "rank": 10,
+        "total": 23
       }
     }
   },
@@ -2788,6 +2952,10 @@
       "quickness": {
         "rank": 4,
         "total": 12
+      },
+      "height": {
+        "rank": 23,
+        "total": 23
       }
     }
   },
@@ -2887,6 +3055,10 @@
       "size": {
         "rank": 25,
         "total": 48
+      },
+      "height": {
+        "rank": 15,
+        "total": 49
       }
     }
   },
@@ -2948,6 +3120,10 @@
       "size": {
         "rank": 25,
         "total": 48
+      },
+      "height": {
+        "rank": 37,
+        "total": 49
       }
     }
   },
@@ -3002,6 +3178,10 @@
       "size": {
         "rank": 16,
         "total": 48
+      },
+      "height": {
+        "rank": 17,
+        "total": 49
       }
     }
   },
@@ -3056,6 +3236,10 @@
       "size": {
         "rank": 22,
         "total": 48
+      },
+      "height": {
+        "rank": 31,
+        "total": 49
       }
     }
   },
@@ -3116,6 +3300,10 @@
       "size": {
         "rank": 20,
         "total": 48
+      },
+      "height": {
+        "rank": 26,
+        "total": 49
       }
     }
   },
@@ -3185,6 +3373,10 @@
       "size": {
         "rank": 6,
         "total": 48
+      },
+      "height": {
+        "rank": 7,
+        "total": 49
       }
     }
   },
@@ -3265,6 +3457,10 @@
       "quickness": {
         "rank": 8,
         "total": 19
+      },
+      "height": {
+        "rank": 20,
+        "total": 49
       }
     }
   },
@@ -3318,6 +3514,10 @@
       "size": {
         "rank": 1,
         "total": 48
+      },
+      "height": {
+        "rank": 18,
+        "total": 49
       }
     }
   },
@@ -3400,6 +3600,10 @@
       "quickness": {
         "rank": 11,
         "total": 19
+      },
+      "height": {
+        "rank": 3,
+        "total": 49
       }
     }
   },
@@ -3480,6 +3684,10 @@
       "quickness": {
         "rank": 2,
         "total": 19
+      },
+      "height": {
+        "rank": 33,
+        "total": 49
       }
     }
   },
@@ -3581,6 +3789,10 @@
       "quickness": {
         "rank": 14,
         "total": 19
+      },
+      "height": {
+        "rank": 14,
+        "total": 49
       }
     }
   },
@@ -3651,6 +3863,10 @@
       "size": {
         "rank": 11,
         "total": 48
+      },
+      "height": {
+        "rank": 6,
+        "total": 49
       }
     }
   },
@@ -3716,6 +3932,10 @@
       "size": {
         "rank": 45,
         "total": 48
+      },
+      "height": {
+        "rank": 48,
+        "total": 49
       }
     }
   },
@@ -3770,6 +3990,10 @@
       },
       "explosion": {
         "rank": 42,
+        "total": 49
+      },
+      "height": {
+        "rank": 45,
         "total": 49
       }
     }
@@ -3853,6 +4077,10 @@
       "quickness": {
         "rank": 5,
         "total": 19
+      },
+      "height": {
+        "rank": 10,
+        "total": 49
       }
     }
   },
@@ -3915,6 +4143,10 @@
       "size": {
         "rank": 21,
         "total": 48
+      },
+      "height": {
+        "rank": 5,
+        "total": 49
       }
     }
   },
@@ -3987,6 +4219,10 @@
       "size": {
         "rank": 43,
         "total": 48
+      },
+      "height": {
+        "rank": 44,
+        "total": 49
       }
     }
   },
@@ -4066,6 +4302,10 @@
       "quickness": {
         "rank": 3,
         "total": 19
+      },
+      "height": {
+        "rank": 31,
+        "total": 49
       }
     }
   },
@@ -4125,6 +4365,10 @@
       "size": {
         "rank": 3,
         "total": 48
+      },
+      "height": {
+        "rank": 2,
+        "total": 49
       }
     }
   },
@@ -4199,6 +4443,10 @@
       "size": {
         "rank": 34,
         "total": 48
+      },
+      "height": {
+        "rank": 26,
+        "total": 49
       }
     }
   },
@@ -4267,6 +4515,10 @@
       "size": {
         "rank": 16,
         "total": 48
+      },
+      "height": {
+        "rank": 35,
+        "total": 49
       }
     }
   },
@@ -4335,6 +4587,10 @@
       "size": {
         "rank": 36,
         "total": 48
+      },
+      "height": {
+        "rank": 13,
+        "total": 49
       }
     }
   },
@@ -4432,6 +4688,10 @@
       "size": {
         "rank": 44,
         "total": 48
+      },
+      "height": {
+        "rank": 41,
+        "total": 49
       }
     }
   },
@@ -4502,6 +4762,10 @@
       "size": {
         "rank": 5,
         "total": 48
+      },
+      "height": {
+        "rank": 1,
+        "total": 49
       }
     }
   },
@@ -4559,6 +4823,10 @@
       "quickness": {
         "rank": 6,
         "total": 19
+      },
+      "height": {
+        "rank": 36,
+        "total": 49
       }
     }
   },
@@ -4615,6 +4883,10 @@
       "size": {
         "rank": 2,
         "total": 48
+      },
+      "height": {
+        "rank": 19,
+        "total": 49
       }
     }
   },
@@ -4678,6 +4950,10 @@
       "size": {
         "rank": 10,
         "total": 48
+      },
+      "height": {
+        "rank": 12,
+        "total": 49
       }
     }
   },
@@ -4750,6 +5026,10 @@
       "quickness": {
         "rank": 19,
         "total": 19
+      },
+      "height": {
+        "rank": 45,
+        "total": 49
       }
     }
   },
@@ -4820,6 +5100,10 @@
       "size": {
         "rank": 11,
         "total": 48
+      },
+      "height": {
+        "rank": 9,
+        "total": 49
       }
     }
   },
@@ -4889,6 +5173,10 @@
       "size": {
         "rank": 25,
         "total": 48
+      },
+      "height": {
+        "rank": 29,
+        "total": 49
       }
     }
   },
@@ -4962,6 +5250,10 @@
       "quickness": {
         "rank": 18,
         "total": 19
+      },
+      "height": {
+        "rank": 20,
+        "total": 49
       }
     }
   },
@@ -5025,6 +5317,10 @@
       "size": {
         "rank": 32,
         "total": 48
+      },
+      "height": {
+        "rank": 40,
+        "total": 49
       }
     }
   },
@@ -5098,6 +5394,10 @@
       "quickness": {
         "rank": 1,
         "total": 19
+      },
+      "height": {
+        "rank": 29,
+        "total": 49
       }
     }
   },
@@ -5169,6 +5469,10 @@
       "quickness": {
         "rank": 10,
         "total": 19
+      },
+      "height": {
+        "rank": 39,
+        "total": 49
       }
     }
   },
@@ -5237,6 +5541,10 @@
       "size": {
         "rank": 45,
         "total": 48
+      },
+      "height": {
+        "rank": 38,
+        "total": 49
       }
     }
   },
@@ -5330,6 +5638,10 @@
       "quickness": {
         "rank": 9,
         "total": 19
+      },
+      "height": {
+        "rank": 11,
+        "total": 49
       }
     }
   },
@@ -5403,6 +5715,10 @@
       "size": {
         "rank": 39,
         "total": 48
+      },
+      "height": {
+        "rank": 23,
+        "total": 49
       }
     }
   },
@@ -5483,6 +5799,10 @@
       "quickness": {
         "rank": 17,
         "total": 19
+      },
+      "height": {
+        "rank": 24,
+        "total": 49
       }
     }
   },
@@ -5551,6 +5871,10 @@
       "size": {
         "rank": 8,
         "total": 48
+      },
+      "height": {
+        "rank": 24,
+        "total": 49
       }
     }
   },
@@ -5622,6 +5946,10 @@
       "quickness": {
         "rank": 14,
         "total": 19
+      },
+      "height": {
+        "rank": 33,
+        "total": 49
       }
     }
   },
@@ -5692,6 +6020,10 @@
       "size": {
         "rank": 23,
         "total": 48
+      },
+      "height": {
+        "rank": 7,
+        "total": 49
       }
     }
   },
@@ -5759,6 +6091,10 @@
       "size": {
         "rank": 48,
         "total": 48
+      },
+      "height": {
+        "rank": 42,
+        "total": 49
       }
     }
   },
@@ -5832,6 +6168,10 @@
       "quickness": {
         "rank": 7,
         "total": 19
+      },
+      "height": {
+        "rank": 15,
+        "total": 49
       }
     }
   },
@@ -5907,6 +6247,10 @@
       "quickness": {
         "rank": 14,
         "total": 19
+      },
+      "height": {
+        "rank": 3,
+        "total": 49
       }
     }
   },
@@ -5979,6 +6323,10 @@
       "size": {
         "rank": 29,
         "total": 48
+      },
+      "height": {
+        "rank": 49,
+        "total": 49
       }
     }
   },
@@ -6058,6 +6406,10 @@
       "quickness": {
         "rank": 11,
         "total": 19
+      },
+      "height": {
+        "rank": 28,
+        "total": 49
       }
     }
   },
@@ -6110,6 +6462,10 @@
       "size": {
         "rank": 40,
         "total": 48
+      },
+      "height": {
+        "rank": 47,
+        "total": 49
       }
     }
   },
@@ -6189,6 +6545,10 @@
       "quickness": {
         "rank": 13,
         "total": 19
+      },
+      "height": {
+        "rank": 22,
+        "total": 49
       }
     }
   },
@@ -6245,6 +6605,10 @@
       "quickness": {
         "rank": 3,
         "total": 19
+      },
+      "height": {
+        "rank": 43,
+        "total": 49
       }
     }
   },
@@ -6314,6 +6678,10 @@
       "size": {
         "rank": 26,
         "total": 31
+      },
+      "height": {
+        "rank": 28,
+        "total": 31
       }
     }
   },
@@ -6378,6 +6746,10 @@
       "size": {
         "rank": 29,
         "total": 31
+      },
+      "height": {
+        "rank": 22,
+        "total": 31
       }
     }
   },
@@ -6431,6 +6803,10 @@
       },
       "size": {
         "rank": 16,
+        "total": 31
+      },
+      "height": {
+        "rank": 14,
         "total": 31
       }
     }
@@ -6495,6 +6871,10 @@
       "size": {
         "rank": 17,
         "total": 31
+      },
+      "height": {
+        "rank": 11,
+        "total": 31
       }
     }
   },
@@ -6554,6 +6934,10 @@
       },
       "size": {
         "rank": 26,
+        "total": 31
+      },
+      "height": {
+        "rank": 25,
         "total": 31
       }
     }
@@ -6635,6 +7019,10 @@
       "quickness": {
         "rank": 10,
         "total": 12
+      },
+      "height": {
+        "rank": 3,
+        "total": 31
       }
     }
   },
@@ -6708,6 +7096,10 @@
       },
       "size": {
         "rank": 2,
+        "total": 31
+      },
+      "height": {
+        "rank": 6,
         "total": 31
       }
     }
@@ -6784,6 +7176,10 @@
       "quickness": {
         "rank": 6,
         "total": 12
+      },
+      "height": {
+        "rank": 6,
+        "total": 31
       }
     }
   },
@@ -6856,6 +7252,10 @@
       },
       "size": {
         "rank": 17,
+        "total": 31
+      },
+      "height": {
+        "rank": 2,
         "total": 31
       }
     }
@@ -6931,6 +7331,10 @@
       "size": {
         "rank": 12,
         "total": 31
+      },
+      "height": {
+        "rank": 3,
+        "total": 31
       }
     }
   },
@@ -7005,6 +7409,10 @@
       "size": {
         "rank": 17,
         "total": 31
+      },
+      "height": {
+        "rank": 12,
+        "total": 31
       }
     }
   },
@@ -7058,6 +7466,10 @@
       },
       "size": {
         "rank": 14,
+        "total": 31
+      },
+      "height": {
+        "rank": 8,
         "total": 31
       }
     }
@@ -7141,6 +7553,10 @@
       "quickness": {
         "rank": 12,
         "total": 12
+      },
+      "height": {
+        "rank": 17,
+        "total": 31
       }
     }
   },
@@ -7214,6 +7630,10 @@
       },
       "size": {
         "rank": 9,
+        "total": 31
+      },
+      "height": {
+        "rank": 30,
         "total": 31
       }
     }
@@ -7295,6 +7715,10 @@
       "quickness": {
         "rank": 11,
         "total": 12
+      },
+      "height": {
+        "rank": 26,
+        "total": 31
       }
     }
   },
@@ -7350,6 +7774,10 @@
       },
       "size": {
         "rank": 28,
+        "total": 31
+      },
+      "height": {
+        "rank": 22,
         "total": 31
       }
     }
@@ -7452,6 +7880,10 @@
       "quickness": {
         "rank": 1,
         "total": 12
+      },
+      "height": {
+        "rank": 26,
+        "total": 31
       }
     }
   },
@@ -7525,6 +7957,10 @@
       },
       "size": {
         "rank": 6,
+        "total": 31
+      },
+      "height": {
+        "rank": 15,
         "total": 31
       }
     }
@@ -7602,6 +8038,10 @@
       "size": {
         "rank": 14,
         "total": 31
+      },
+      "height": {
+        "rank": 1,
+        "total": 31
       }
     }
   },
@@ -7677,6 +8117,10 @@
       "quickness": {
         "rank": 7,
         "total": 12
+      },
+      "height": {
+        "rank": 20,
+        "total": 31
       }
     }
   },
@@ -7759,6 +8203,10 @@
       "quickness": {
         "rank": 7,
         "total": 12
+      },
+      "height": {
+        "rank": 15,
+        "total": 31
       }
     }
   },
@@ -7822,6 +8270,10 @@
         "total": 21
       },
       "size": {
+        "rank": 31,
+        "total": 31
+      },
+      "height": {
         "rank": 31,
         "total": 31
       }
@@ -7891,6 +8343,10 @@
       "size": {
         "rank": 23,
         "total": 31
+      },
+      "height": {
+        "rank": 17,
+        "total": 31
       }
     }
   },
@@ -7948,6 +8404,10 @@
       },
       "size": {
         "rank": 10,
+        "total": 31
+      },
+      "height": {
+        "rank": 12,
         "total": 31
       }
     }
@@ -8023,6 +8483,10 @@
       "quickness": {
         "rank": 1,
         "total": 12
+      },
+      "height": {
+        "rank": 5,
+        "total": 31
       }
     }
   },
@@ -8082,6 +8546,10 @@
       "quickness": {
         "rank": 4,
         "total": 12
+      },
+      "height": {
+        "rank": 22,
+        "total": 31
       }
     }
   },
@@ -8138,6 +8606,10 @@
       "quickness": {
         "rank": 9,
         "total": 12
+      },
+      "height": {
+        "rank": 29,
+        "total": 31
       }
     }
   },
@@ -8206,6 +8678,10 @@
       "size": {
         "rank": 30,
         "total": 31
+      },
+      "height": {
+        "rank": 17,
+        "total": 31
       }
     }
   },
@@ -8257,6 +8733,10 @@
       },
       "size": {
         "rank": 6,
+        "total": 31
+      },
+      "height": {
+        "rank": 8,
         "total": 31
       }
     }
@@ -8315,6 +8795,10 @@
       "quickness": {
         "rank": 5,
         "total": 12
+      },
+      "height": {
+        "rank": 20,
+        "total": 31
       }
     }
   },
@@ -8372,6 +8856,10 @@
       "quickness": {
         "rank": 1,
         "total": 12
+      },
+      "height": {
+        "rank": 10,
+        "total": 31
       }
     }
   },
@@ -8461,6 +8949,10 @@
       "size": {
         "rank": 22,
         "total": 28
+      },
+      "height": {
+        "rank": 16,
+        "total": 28
       }
     }
   },
@@ -8541,6 +9033,10 @@
       "quickness": {
         "rank": 1,
         "total": 2
+      },
+      "height": {
+        "rank": 16,
+        "total": 28
       }
     }
   },
@@ -8610,6 +9106,10 @@
       },
       "size": {
         "rank": 15,
+        "total": 28
+      },
+      "height": {
+        "rank": 6,
         "total": 28
       }
     }
@@ -8685,6 +9185,10 @@
       "size": {
         "rank": 1,
         "total": 28
+      },
+      "height": {
+        "rank": 11,
+        "total": 28
       }
     }
   },
@@ -8752,6 +9256,10 @@
       },
       "size": {
         "rank": 18,
+        "total": 28
+      },
+      "height": {
+        "rank": 12,
         "total": 28
       }
     }
@@ -8829,6 +9337,10 @@
       "size": {
         "rank": 14,
         "total": 28
+      },
+      "height": {
+        "rank": 10,
+        "total": 28
       }
     }
   },
@@ -8898,6 +9410,10 @@
       "size": {
         "rank": 11,
         "total": 28
+      },
+      "height": {
+        "rank": 14,
+        "total": 28
       }
     }
   },
@@ -8965,6 +9481,10 @@
       },
       "size": {
         "rank": 7,
+        "total": 28
+      },
+      "height": {
+        "rank": 5,
         "total": 28
       }
     }
@@ -9036,6 +9556,10 @@
       "size": {
         "rank": 5,
         "total": 28
+      },
+      "height": {
+        "rank": 2,
+        "total": 28
       }
     }
   },
@@ -9097,6 +9621,10 @@
       "size": {
         "rank": 2,
         "total": 28
+      },
+      "height": {
+        "rank": 1,
+        "total": 28
       }
     }
   },
@@ -9157,6 +9685,10 @@
       },
       "size": {
         "rank": 13,
+        "total": 28
+      },
+      "height": {
+        "rank": 8,
         "total": 28
       }
     }
@@ -9226,6 +9758,10 @@
       "size": {
         "rank": 5,
         "total": 28
+      },
+      "height": {
+        "rank": 13,
+        "total": 28
       }
     }
   },
@@ -9294,6 +9830,10 @@
       "size": {
         "rank": 16,
         "total": 28
+      },
+      "height": {
+        "rank": 22,
+        "total": 28
       }
     }
   },
@@ -9350,6 +9890,10 @@
       },
       "size": {
         "rank": 12,
+        "total": 28
+      },
+      "height": {
+        "rank": 7,
         "total": 28
       }
     }
@@ -9419,6 +9963,10 @@
       "size": {
         "rank": 18,
         "total": 28
+      },
+      "height": {
+        "rank": 22,
+        "total": 28
       }
     }
   },
@@ -9473,6 +10021,10 @@
       },
       "size": {
         "rank": 7,
+        "total": 28
+      },
+      "height": {
+        "rank": 16,
         "total": 28
       }
     }
@@ -9540,6 +10092,10 @@
       },
       "size": {
         "rank": 18,
+        "total": 28
+      },
+      "height": {
+        "rank": 16,
         "total": 28
       }
     }
@@ -9610,6 +10166,10 @@
       },
       "size": {
         "rank": 10,
+        "total": 28
+      },
+      "height": {
+        "rank": 28,
         "total": 28
       }
     }
@@ -9710,6 +10270,10 @@
       "size": {
         "rank": 27,
         "total": 28
+      },
+      "height": {
+        "rank": 14,
+        "total": 28
       }
     }
   },
@@ -9777,6 +10341,10 @@
       "size": {
         "rank": 24,
         "total": 28
+      },
+      "height": {
+        "rank": 21,
+        "total": 28
       }
     }
   },
@@ -9837,6 +10405,10 @@
       "size": {
         "rank": 16,
         "total": 28
+      },
+      "height": {
+        "rank": 3,
+        "total": 28
       }
     }
   },
@@ -9894,6 +10466,10 @@
       },
       "size": {
         "rank": 26,
+        "total": 28
+      },
+      "height": {
+        "rank": 27,
         "total": 28
       }
     }
@@ -9954,6 +10530,10 @@
       "size": {
         "rank": 24,
         "total": 28
+      },
+      "height": {
+        "rank": 3,
+        "total": 28
       }
     }
   },
@@ -9993,6 +10573,10 @@
       },
       "size": {
         "rank": 21,
+        "total": 28
+      },
+      "height": {
+        "rank": 26,
         "total": 28
       }
     }
@@ -10043,6 +10627,10 @@
       "size": {
         "rank": 28,
         "total": 28
+      },
+      "height": {
+        "rank": 24,
+        "total": 28
       }
     }
   },
@@ -10090,6 +10678,10 @@
       "size": {
         "rank": 7,
         "total": 28
+      },
+      "height": {
+        "rank": 25,
+        "total": 28
       }
     }
   },
@@ -10135,6 +10727,10 @@
       },
       "size": {
         "rank": 3,
+        "total": 28
+      },
+      "height": {
+        "rank": 8,
         "total": 28
       }
     }
@@ -10229,6 +10825,10 @@
       "quickness": {
         "rank": 1,
         "total": 2
+      },
+      "height": {
+        "rank": 20,
+        "total": 28
       }
     }
   },
@@ -10291,6 +10891,10 @@
       },
       "size": {
         "rank": 37,
+        "total": 45
+      },
+      "height": {
+        "rank": 20,
         "total": 45
       }
     }
@@ -10362,6 +10966,10 @@
       "size": {
         "rank": 28,
         "total": 45
+      },
+      "height": {
+        "rank": 25,
+        "total": 45
       }
     }
   },
@@ -10415,6 +11023,10 @@
       },
       "size": {
         "rank": 7,
+        "total": 45
+      },
+      "height": {
+        "rank": 39,
         "total": 45
       }
     }
@@ -10486,6 +11098,10 @@
       "size": {
         "rank": 1,
         "total": 45
+      },
+      "height": {
+        "rank": 1,
+        "total": 45
       }
     }
   },
@@ -10538,6 +11154,10 @@
       },
       "size": {
         "rank": 13,
+        "total": 45
+      },
+      "height": {
+        "rank": 31,
         "total": 45
       }
     }
@@ -10607,6 +11227,10 @@
       "size": {
         "rank": 7,
         "total": 45
+      },
+      "height": {
+        "rank": 25,
+        "total": 45
       }
     }
   },
@@ -10675,6 +11299,10 @@
       "size": {
         "rank": 24,
         "total": 45
+      },
+      "height": {
+        "rank": 17,
+        "total": 45
       }
     }
   },
@@ -10735,6 +11363,10 @@
       },
       "size": {
         "rank": 9,
+        "total": 45
+      },
+      "height": {
+        "rank": 3,
         "total": 45
       }
     }
@@ -10803,6 +11435,10 @@
       },
       "size": {
         "rank": 24,
+        "total": 45
+      },
+      "height": {
+        "rank": 37,
         "total": 45
       }
     }
@@ -10878,6 +11514,10 @@
       "size": {
         "rank": 37,
         "total": 45
+      },
+      "height": {
+        "rank": 39,
+        "total": 45
       }
     }
   },
@@ -10937,6 +11577,10 @@
       "size": {
         "rank": 10,
         "total": 45
+      },
+      "height": {
+        "rank": 25,
+        "total": 45
       }
     }
   },
@@ -10989,6 +11633,10 @@
       },
       "size": {
         "rank": 24,
+        "total": 45
+      },
+      "height": {
+        "rank": 17,
         "total": 45
       }
     }
@@ -11064,6 +11712,10 @@
       "size": {
         "rank": 19,
         "total": 45
+      },
+      "height": {
+        "rank": 4,
+        "total": 45
       }
     }
   },
@@ -11117,6 +11769,10 @@
       },
       "size": {
         "rank": 23,
+        "total": 45
+      },
+      "height": {
+        "rank": 21,
         "total": 45
       }
     }
@@ -11186,6 +11842,10 @@
       "size": {
         "rank": 43,
         "total": 45
+      },
+      "height": {
+        "rank": 35,
+        "total": 45
       }
     }
   },
@@ -11251,6 +11911,10 @@
       },
       "size": {
         "rank": 40,
+        "total": 45
+      },
+      "height": {
+        "rank": 28,
         "total": 45
       }
     }
@@ -11318,6 +11982,10 @@
       },
       "size": {
         "rank": 2,
+        "total": 45
+      },
+      "height": {
+        "rank": 31,
         "total": 45
       }
     }
@@ -11398,6 +12066,10 @@
       "quickness": {
         "rank": 9,
         "total": 12
+      },
+      "height": {
+        "rank": 4,
+        "total": 45
       }
     }
   },
@@ -11463,6 +12135,10 @@
       "size": {
         "rank": 17,
         "total": 45
+      },
+      "height": {
+        "rank": 35,
+        "total": 45
       }
     }
   },
@@ -11525,6 +12201,10 @@
       },
       "size": {
         "rank": 36,
+        "total": 45
+      },
+      "height": {
+        "rank": 29,
         "total": 45
       }
     }
@@ -11606,6 +12286,10 @@
       "quickness": {
         "rank": 8,
         "total": 12
+      },
+      "height": {
+        "rank": 24,
+        "total": 45
       }
     }
   },
@@ -11673,6 +12357,10 @@
       },
       "size": {
         "rank": 17,
+        "total": 45
+      },
+      "height": {
+        "rank": 11,
         "total": 45
       }
     }
@@ -11748,6 +12436,10 @@
       "size": {
         "rank": 33,
         "total": 45
+      },
+      "height": {
+        "rank": 17,
+        "total": 45
       }
     }
   },
@@ -11801,6 +12493,10 @@
       },
       "size": {
         "rank": 19,
+        "total": 45
+      },
+      "height": {
+        "rank": 7,
         "total": 45
       }
     }
@@ -11882,6 +12578,10 @@
       "quickness": {
         "rank": 5,
         "total": 12
+      },
+      "height": {
+        "rank": 44,
+        "total": 45
       }
     }
   },
@@ -11950,6 +12650,10 @@
       "size": {
         "rank": 28,
         "total": 45
+      },
+      "height": {
+        "rank": 14,
+        "total": 45
       }
     }
   },
@@ -12002,6 +12706,10 @@
       },
       "size": {
         "rank": 3,
+        "total": 45
+      },
+      "height": {
+        "rank": 38,
         "total": 45
       }
     }
@@ -12070,6 +12778,10 @@
       },
       "size": {
         "rank": 14,
+        "total": 45
+      },
+      "height": {
+        "rank": 21,
         "total": 45
       }
     }
@@ -12144,6 +12856,10 @@
       "size": {
         "rank": 31,
         "total": 45
+      },
+      "height": {
+        "rank": 42,
+        "total": 45
       }
     }
   },
@@ -12204,6 +12920,10 @@
       },
       "size": {
         "rank": 10,
+        "total": 45
+      },
+      "height": {
+        "rank": 15,
         "total": 45
       }
     }
@@ -12272,6 +12992,10 @@
       "size": {
         "rank": 45,
         "total": 45
+      },
+      "height": {
+        "rank": 34,
+        "total": 45
       }
     }
   },
@@ -12329,6 +13053,10 @@
       "quickness": {
         "rank": 1,
         "total": 12
+      },
+      "height": {
+        "rank": 21,
+        "total": 45
       }
     }
   },
@@ -12403,6 +13131,10 @@
       "size": {
         "rank": 30,
         "total": 45
+      },
+      "height": {
+        "rank": 45,
+        "total": 45
       }
     }
   },
@@ -12460,6 +13192,10 @@
       "quickness": {
         "rank": 4,
         "total": 12
+      },
+      "height": {
+        "rank": 13,
+        "total": 45
       }
     }
   },
@@ -12541,6 +13277,10 @@
       "quickness": {
         "rank": 11,
         "total": 12
+      },
+      "height": {
+        "rank": 4,
+        "total": 45
       }
     }
   },
@@ -12600,6 +13340,10 @@
       },
       "size": {
         "rank": 19,
+        "total": 45
+      },
+      "height": {
+        "rank": 8,
         "total": 45
       }
     }
@@ -12674,6 +13418,10 @@
       "quickness": {
         "rank": 3,
         "total": 12
+      },
+      "height": {
+        "rank": 29,
+        "total": 45
       }
     }
   },
@@ -12738,6 +13486,10 @@
       "quickness": {
         "rank": 6,
         "total": 12
+      },
+      "height": {
+        "rank": 31,
+        "total": 45
       }
     }
   },
@@ -12791,6 +13543,10 @@
       "size": {
         "rank": 10,
         "total": 45
+      },
+      "height": {
+        "rank": 11,
+        "total": 45
       }
     }
   },
@@ -12841,6 +13597,10 @@
       },
       "size": {
         "rank": 33,
+        "total": 45
+      },
+      "height": {
+        "rank": 10,
         "total": 45
       }
     }
@@ -12900,6 +13660,10 @@
       "quickness": {
         "rank": 11,
         "total": 12
+      },
+      "height": {
+        "rank": 15,
+        "total": 45
       }
     }
   },
@@ -12963,6 +13727,10 @@
       "quickness": {
         "rank": 2,
         "total": 12
+      },
+      "height": {
+        "rank": 1,
+        "total": 45
       }
     }
   },
@@ -13007,6 +13775,10 @@
       },
       "size": {
         "rank": 44,
+        "total": 45
+      },
+      "height": {
+        "rank": 41,
         "total": 45
       }
     }
@@ -13065,6 +13837,10 @@
       "quickness": {
         "rank": 10,
         "total": 12
+      },
+      "height": {
+        "rank": 8,
+        "total": 45
       }
     }
   },
@@ -13122,6 +13898,10 @@
       "quickness": {
         "rank": 7,
         "total": 12
+      },
+      "height": {
+        "rank": 42,
+        "total": 45
       }
     }
   },
@@ -13175,6 +13955,10 @@
       },
       "size": {
         "rank": 6,
+        "total": 37
+      },
+      "height": {
+        "rank": 25,
         "total": 37
       }
     }
@@ -13245,6 +14029,10 @@
       "size": {
         "rank": 25,
         "total": 37
+      },
+      "height": {
+        "rank": 20,
+        "total": 37
       }
     }
   },
@@ -13297,6 +14085,10 @@
       },
       "size": {
         "rank": 9,
+        "total": 37
+      },
+      "height": {
+        "rank": 8,
         "total": 37
       }
     }
@@ -13360,6 +14152,10 @@
       },
       "size": {
         "rank": 4,
+        "total": 37
+      },
+      "height": {
+        "rank": 2,
         "total": 37
       }
     }
@@ -13429,6 +14225,10 @@
       "size": {
         "rank": 11,
         "total": 37
+      },
+      "height": {
+        "rank": 12,
+        "total": 37
       }
     }
   },
@@ -13482,6 +14282,10 @@
       },
       "size": {
         "rank": 8,
+        "total": 37
+      },
+      "height": {
+        "rank": 22,
         "total": 37
       }
     }
@@ -13559,6 +14363,10 @@
       "quickness": {
         "rank": 8,
         "total": 8
+      },
+      "height": {
+        "rank": 12,
+        "total": 37
       }
     }
   },
@@ -13628,6 +14436,10 @@
       "size": {
         "rank": 14,
         "total": 37
+      },
+      "height": {
+        "rank": 8,
+        "total": 37
       }
     }
   },
@@ -13683,6 +14495,10 @@
       },
       "size": {
         "rank": 12,
+        "total": 37
+      },
+      "height": {
+        "rank": 4,
         "total": 37
       }
     }
@@ -13750,6 +14566,10 @@
       },
       "size": {
         "rank": 30,
+        "total": 37
+      },
+      "height": {
+        "rank": 19,
         "total": 37
       }
     }
@@ -13825,6 +14645,10 @@
       "size": {
         "rank": 29,
         "total": 37
+      },
+      "height": {
+        "rank": 30,
+        "total": 37
       }
     }
   },
@@ -13890,6 +14714,10 @@
       },
       "size": {
         "rank": 25,
+        "total": 37
+      },
+      "height": {
+        "rank": 15,
         "total": 37
       }
     }
@@ -13959,6 +14787,10 @@
       "size": {
         "rank": 16,
         "total": 37
+      },
+      "height": {
+        "rank": 18,
+        "total": 37
       }
     }
   },
@@ -14027,6 +14859,10 @@
       "size": {
         "rank": 35,
         "total": 37
+      },
+      "height": {
+        "rank": 27,
+        "total": 37
       }
     }
   },
@@ -14093,6 +14929,10 @@
       },
       "size": {
         "rank": 17,
+        "total": 37
+      },
+      "height": {
+        "rank": 11,
         "total": 37
       }
     }
@@ -14161,6 +15001,10 @@
       },
       "size": {
         "rank": 14,
+        "total": 37
+      },
+      "height": {
+        "rank": 6,
         "total": 37
       }
     }
@@ -14232,6 +15076,10 @@
       "size": {
         "rank": 36,
         "total": 37
+      },
+      "height": {
+        "rank": 32,
+        "total": 37
       }
     }
   },
@@ -14288,6 +15136,10 @@
       "quickness": {
         "rank": 6,
         "total": 8
+      },
+      "height": {
+        "rank": 8,
+        "total": 37
       }
     }
   },
@@ -14348,6 +15200,10 @@
       },
       "size": {
         "rank": 22,
+        "total": 37
+      },
+      "height": {
+        "rank": 17,
         "total": 37
       }
     }
@@ -14417,6 +15273,10 @@
       "size": {
         "rank": 7,
         "total": 37
+      },
+      "height": {
+        "rank": 25,
+        "total": 37
       }
     }
   },
@@ -14474,6 +15334,10 @@
       "quickness": {
         "rank": 4,
         "total": 8
+      },
+      "height": {
+        "rank": 37,
+        "total": 37
       }
     }
   },
@@ -14542,6 +15406,10 @@
       "size": {
         "rank": 4,
         "total": 37
+      },
+      "height": {
+        "rank": 33,
+        "total": 37
       }
     }
   },
@@ -14586,6 +15454,10 @@
       },
       "size": {
         "rank": 20,
+        "total": 37
+      },
+      "height": {
+        "rank": 22,
         "total": 37
       }
     }
@@ -14645,6 +15517,10 @@
       "quickness": {
         "rank": 3,
         "total": 8
+      },
+      "height": {
+        "rank": 27,
+        "total": 37
       }
     }
   },
@@ -14705,6 +15581,10 @@
       "size": {
         "rank": 30,
         "total": 37
+      },
+      "height": {
+        "rank": 20,
+        "total": 37
       }
     }
   },
@@ -14749,6 +15629,10 @@
       "size": {
         "rank": 10,
         "total": 37
+      },
+      "height": {
+        "rank": 33,
+        "total": 37
       }
     }
   },
@@ -14792,6 +15676,10 @@
       },
       "size": {
         "rank": 24,
+        "total": 37
+      },
+      "height": {
+        "rank": 29,
         "total": 37
       }
     }
@@ -14854,6 +15742,10 @@
       "size": {
         "rank": 37,
         "total": 37
+      },
+      "height": {
+        "rank": 35,
+        "total": 37
       }
     }
   },
@@ -14911,6 +15803,10 @@
       "quickness": {
         "rank": 1,
         "total": 8
+      },
+      "height": {
+        "rank": 15,
+        "total": 37
       }
     }
   },
@@ -14965,6 +15861,10 @@
       "size": {
         "rank": 1,
         "total": 37
+      },
+      "height": {
+        "rank": 36,
+        "total": 37
       }
     }
   },
@@ -15014,6 +15914,10 @@
       },
       "size": {
         "rank": 20,
+        "total": 37
+      },
+      "height": {
+        "rank": 3,
         "total": 37
       }
     }
@@ -15069,6 +15973,10 @@
       },
       "size": {
         "rank": 2,
+        "total": 37
+      },
+      "height": {
+        "rank": 1,
         "total": 37
       }
     }
@@ -15137,6 +16045,10 @@
       "size": {
         "rank": 12,
         "total": 37
+      },
+      "height": {
+        "rank": 5,
+        "total": 37
       }
     }
   },
@@ -15192,6 +16104,10 @@
       "quickness": {
         "rank": 2,
         "total": 8
+      },
+      "height": {
+        "rank": 7,
+        "total": 37
       }
     }
   },
@@ -15249,6 +16165,10 @@
       "quickness": {
         "rank": 5,
         "total": 8
+      },
+      "height": {
+        "rank": 30,
+        "total": 37
       }
     }
   },
@@ -15314,6 +16234,10 @@
       "quickness": {
         "rank": 7,
         "total": 8
+      },
+      "height": {
+        "rank": 14,
+        "total": 37
       }
     }
   },
@@ -15388,6 +16312,10 @@
       },
       "size": {
         "rank": 33,
+        "total": 37
+      },
+      "height": {
+        "rank": 22,
         "total": 37
       }
     }
@@ -15468,6 +16396,10 @@
       "quickness": {
         "rank": 5,
         "total": 23
+      },
+      "height": {
+        "rank": 2,
+        "total": 33
       }
     }
   },
@@ -15548,6 +16480,10 @@
       "quickness": {
         "rank": 2,
         "total": 23
+      },
+      "height": {
+        "rank": 25,
+        "total": 33
       }
     }
   },
@@ -15601,6 +16537,10 @@
       },
       "size": {
         "rank": 21,
+        "total": 33
+      },
+      "height": {
+        "rank": 29,
         "total": 33
       }
     }
@@ -15682,6 +16622,10 @@
       "quickness": {
         "rank": 8,
         "total": 23
+      },
+      "height": {
+        "rank": 6,
+        "total": 33
       }
     }
   },
@@ -15752,6 +16696,10 @@
       "size": {
         "rank": 6,
         "total": 33
+      },
+      "height": {
+        "rank": 14,
+        "total": 33
       }
     }
   },
@@ -15807,6 +16755,10 @@
       },
       "size": {
         "rank": 8,
+        "total": 33
+      },
+      "height": {
+        "rank": 17,
         "total": 33
       }
     }
@@ -15888,6 +16840,10 @@
       "quickness": {
         "rank": 5,
         "total": 23
+      },
+      "height": {
+        "rank": 31,
+        "total": 33
       }
     }
   },
@@ -15968,6 +16924,10 @@
       "quickness": {
         "rank": 12,
         "total": 23
+      },
+      "height": {
+        "rank": 19,
+        "total": 33
       }
     }
   },
@@ -16047,6 +17007,10 @@
       "quickness": {
         "rank": 16,
         "total": 23
+      },
+      "height": {
+        "rank": 14,
+        "total": 33
       }
     }
   },
@@ -16120,6 +17084,10 @@
       "quickness": {
         "rank": 7,
         "total": 23
+      },
+      "height": {
+        "rank": 26,
+        "total": 33
       }
     }
   },
@@ -16195,6 +17163,10 @@
       "size": {
         "rank": 6,
         "total": 33
+      },
+      "height": {
+        "rank": 12,
+        "total": 33
       }
     }
   },
@@ -16254,6 +17226,10 @@
       },
       "size": {
         "rank": 13,
+        "total": 33
+      },
+      "height": {
+        "rank": 17,
         "total": 33
       }
     }
@@ -16322,6 +17298,10 @@
       "quickness": {
         "rank": 21,
         "total": 23
+      },
+      "height": {
+        "rank": 27,
+        "total": 33
       }
     }
   },
@@ -16402,6 +17382,10 @@
       "quickness": {
         "rank": 2,
         "total": 23
+      },
+      "height": {
+        "rank": 22,
+        "total": 33
       }
     }
   },
@@ -16481,6 +17465,10 @@
       "quickness": {
         "rank": 4,
         "total": 23
+      },
+      "height": {
+        "rank": 30,
+        "total": 33
       }
     }
   },
@@ -16543,6 +17531,10 @@
       },
       "size": {
         "rank": 30,
+        "total": 33
+      },
+      "height": {
+        "rank": 27,
         "total": 33
       }
     }
@@ -16613,6 +17605,10 @@
       "quickness": {
         "rank": 11,
         "total": 23
+      },
+      "height": {
+        "rank": 2,
+        "total": 33
       }
     }
   },
@@ -16688,6 +17684,10 @@
       "quickness": {
         "rank": 20,
         "total": 23
+      },
+      "height": {
+        "rank": 9,
+        "total": 33
       }
     }
   },
@@ -16762,6 +17762,10 @@
       "size": {
         "rank": 26,
         "total": 33
+      },
+      "height": {
+        "rank": 23,
+        "total": 33
       }
     }
   },
@@ -16835,6 +17839,10 @@
       "quickness": {
         "rank": 8,
         "total": 23
+      },
+      "height": {
+        "rank": 33,
+        "total": 33
       }
     }
   },
@@ -16888,6 +17896,10 @@
       },
       "size": {
         "rank": 27,
+        "total": 33
+      },
+      "height": {
+        "rank": 10,
         "total": 33
       }
     }
@@ -16969,6 +17981,10 @@
       "quickness": {
         "rank": 18,
         "total": 23
+      },
+      "height": {
+        "rank": 14,
+        "total": 33
       }
     }
   },
@@ -17026,6 +18042,10 @@
       "quickness": {
         "rank": 13,
         "total": 23
+      },
+      "height": {
+        "rank": 8,
+        "total": 33
       }
     }
   },
@@ -17100,6 +18120,10 @@
       "size": {
         "rank": 17,
         "total": 33
+      },
+      "height": {
+        "rank": 23,
+        "total": 33
       }
     }
   },
@@ -17158,6 +18182,10 @@
       "quickness": {
         "rank": 19,
         "total": 23
+      },
+      "height": {
+        "rank": 4,
+        "total": 33
       }
     }
   },
@@ -17233,6 +18261,10 @@
       "quickness": {
         "rank": 13,
         "total": 23
+      },
+      "height": {
+        "rank": 5,
+        "total": 33
       }
     }
   },
@@ -17287,6 +18319,10 @@
       },
       "size": {
         "rank": 17,
+        "total": 33
+      },
+      "height": {
+        "rank": 13,
         "total": 33
       }
     }
@@ -17368,6 +18404,10 @@
       "quickness": {
         "rank": 10,
         "total": 23
+      },
+      "height": {
+        "rank": 11,
+        "total": 33
       }
     }
   },
@@ -17464,6 +18504,10 @@
       "quickness": {
         "rank": 23,
         "total": 23
+      },
+      "height": {
+        "rank": 19,
+        "total": 33
       }
     }
   },
@@ -17539,6 +18583,10 @@
       "quickness": {
         "rank": 16,
         "total": 23
+      },
+      "height": {
+        "rank": 1,
+        "total": 33
       }
     }
   },
@@ -17616,6 +18664,10 @@
       "quickness": {
         "rank": 13,
         "total": 23
+      },
+      "height": {
+        "rank": 32,
+        "total": 33
       }
     }
   },
@@ -17673,6 +18725,10 @@
       "quickness": {
         "rank": 21,
         "total": 23
+      },
+      "height": {
+        "rank": 19,
+        "total": 33
       }
     }
   },
@@ -17729,6 +18785,10 @@
       "quickness": {
         "rank": 1,
         "total": 23
+      },
+      "height": {
+        "rank": 7,
+        "total": 33
       }
     }
   },
@@ -17790,6 +18850,10 @@
       "size": {
         "rank": 26,
         "total": 38
+      },
+      "height": {
+        "rank": 25,
+        "total": 38
       }
     }
   },
@@ -17849,6 +18913,10 @@
       },
       "size": {
         "rank": 23,
+        "total": 38
+      },
+      "height": {
+        "rank": 14,
         "total": 38
       }
     }
@@ -17924,6 +18992,10 @@
       "quickness": {
         "rank": 1,
         "total": 21
+      },
+      "height": {
+        "rank": 21,
+        "total": 38
       }
     }
   },
@@ -17992,6 +19064,10 @@
       "size": {
         "rank": 29,
         "total": 38
+      },
+      "height": {
+        "rank": 32,
+        "total": 38
       }
     }
   },
@@ -18058,6 +19134,10 @@
       },
       "size": {
         "rank": 12,
+        "total": 38
+      },
+      "height": {
+        "rank": 27,
         "total": 38
       }
     }
@@ -18162,6 +19242,10 @@
       "quickness": {
         "rank": 13,
         "total": 21
+      },
+      "height": {
+        "rank": 25,
+        "total": 38
       }
     }
   },
@@ -18230,6 +19314,10 @@
         "total": 21
       },
       "size": {
+        "rank": 17,
+        "total": 38
+      },
+      "height": {
         "rank": 17,
         "total": 38
       }
@@ -18302,6 +19390,10 @@
       "quickness": {
         "rank": 17,
         "total": 21
+      },
+      "height": {
+        "rank": 37,
+        "total": 38
       }
     }
   },
@@ -18375,6 +19467,10 @@
       },
       "size": {
         "rank": 19,
+        "total": 38
+      },
+      "height": {
+        "rank": 5,
         "total": 38
       }
     }
@@ -18456,6 +19552,10 @@
       "quickness": {
         "rank": 5,
         "total": 21
+      },
+      "height": {
+        "rank": 23,
+        "total": 38
       }
     }
   },
@@ -18533,6 +19633,10 @@
       "quickness": {
         "rank": 3,
         "total": 21
+      },
+      "height": {
+        "rank": 38,
+        "total": 38
       }
     }
   },
@@ -18600,6 +19704,10 @@
       },
       "size": {
         "rank": 5,
+        "total": 38
+      },
+      "height": {
+        "rank": 11,
         "total": 38
       }
     }
@@ -18670,6 +19778,10 @@
       },
       "size": {
         "rank": 9,
+        "total": 38
+      },
+      "height": {
+        "rank": 1,
         "total": 38
       }
     }
@@ -18751,6 +19863,10 @@
       "quickness": {
         "rank": 8,
         "total": 21
+      },
+      "height": {
+        "rank": 8,
+        "total": 38
       }
     }
   },
@@ -18811,6 +19927,10 @@
       },
       "size": {
         "rank": 4,
+        "total": 38
+      },
+      "height": {
+        "rank": 3,
         "total": 38
       }
     }
@@ -18879,6 +19999,10 @@
       "quickness": {
         "rank": 9,
         "total": 21
+      },
+      "height": {
+        "rank": 33,
+        "total": 38
       }
     }
   },
@@ -18961,6 +20085,10 @@
       "quickness": {
         "rank": 2,
         "total": 21
+      },
+      "height": {
+        "rank": 2,
+        "total": 38
       }
     }
   },
@@ -19041,6 +20169,10 @@
       "quickness": {
         "rank": 3,
         "total": 21
+      },
+      "height": {
+        "rank": 7,
+        "total": 38
       }
     }
   },
@@ -19115,6 +20247,10 @@
       "size": {
         "rank": 12,
         "total": 38
+      },
+      "height": {
+        "rank": 12,
+        "total": 38
       }
     }
   },
@@ -19182,6 +20318,10 @@
       },
       "size": {
         "rank": 19,
+        "total": 38
+      },
+      "height": {
+        "rank": 10,
         "total": 38
       }
     }
@@ -19261,6 +20401,10 @@
       "quickness": {
         "rank": 19,
         "total": 21
+      },
+      "height": {
+        "rank": 33,
+        "total": 38
       }
     }
   },
@@ -19321,6 +20465,10 @@
       },
       "size": {
         "rank": 8,
+        "total": 38
+      },
+      "height": {
+        "rank": 17,
         "total": 38
       }
     }
@@ -19394,6 +20542,10 @@
       "quickness": {
         "rank": 5,
         "total": 21
+      },
+      "height": {
+        "rank": 14,
+        "total": 38
       }
     }
   },
@@ -19461,6 +20613,10 @@
       "quickness": {
         "rank": 16,
         "total": 21
+      },
+      "height": {
+        "rank": 22,
+        "total": 38
       }
     }
   },
@@ -19535,6 +20691,10 @@
       "size": {
         "rank": 38,
         "total": 38
+      },
+      "height": {
+        "rank": 17,
+        "total": 38
       }
     }
   },
@@ -19595,6 +20755,10 @@
       "size": {
         "rank": 9,
         "total": 38
+      },
+      "height": {
+        "rank": 14,
+        "total": 38
       }
     }
   },
@@ -19653,6 +20817,10 @@
       "quickness": {
         "rank": 12,
         "total": 21
+      },
+      "height": {
+        "rank": 13,
+        "total": 38
       }
     }
   },
@@ -19728,6 +20896,10 @@
       "size": {
         "rank": 30,
         "total": 38
+      },
+      "height": {
+        "rank": 35,
+        "total": 38
       }
     }
   },
@@ -19790,6 +20962,10 @@
       },
       "size": {
         "rank": 9,
+        "total": 38
+      },
+      "height": {
+        "rank": 20,
         "total": 38
       }
     }
@@ -19871,6 +21047,10 @@
       "quickness": {
         "rank": 5,
         "total": 21
+      },
+      "height": {
+        "rank": 8,
+        "total": 38
       }
     }
   },
@@ -19927,6 +21107,10 @@
       "quickness": {
         "rank": 18,
         "total": 21
+      },
+      "height": {
+        "rank": 23,
+        "total": 38
       }
     }
   },
@@ -19971,6 +21155,10 @@
       },
       "size": {
         "rank": 30,
+        "total": 38
+      },
+      "height": {
+        "rank": 28,
         "total": 38
       }
     }
@@ -20029,6 +21217,10 @@
       "quickness": {
         "rank": 10,
         "total": 21
+      },
+      "height": {
+        "rank": 29,
+        "total": 38
       }
     }
   },
@@ -20102,6 +21294,10 @@
       "quickness": {
         "rank": 20,
         "total": 21
+      },
+      "height": {
+        "rank": 30,
+        "total": 38
       }
     }
   },
@@ -20159,6 +21355,10 @@
       "quickness": {
         "rank": 11,
         "total": 21
+      },
+      "height": {
+        "rank": 35,
+        "total": 38
       }
     }
   },
@@ -20231,6 +21431,10 @@
       "quickness": {
         "rank": 14,
         "total": 21
+      },
+      "height": {
+        "rank": 4,
+        "total": 38
       }
     }
   },
@@ -20300,6 +21504,10 @@
       "quickness": {
         "rank": 21,
         "total": 21
+      },
+      "height": {
+        "rank": 30,
+        "total": 38
       }
     }
   },
@@ -20357,6 +21565,10 @@
       "quickness": {
         "rank": 15,
         "total": 21
+      },
+      "height": {
+        "rank": 6,
+        "total": 38
       }
     }
   },
@@ -20422,6 +21634,10 @@
       },
       "size": {
         "rank": 7,
+        "total": 27
+      },
+      "height": {
+        "rank": 20,
         "total": 27
       }
     }
@@ -20489,6 +21705,10 @@
       },
       "size": {
         "rank": 16,
+        "total": 27
+      },
+      "height": {
+        "rank": 17,
         "total": 27
       }
     }
@@ -20559,6 +21779,10 @@
       "size": {
         "rank": 16,
         "total": 27
+      },
+      "height": {
+        "rank": 1,
+        "total": 27
       }
     }
   },
@@ -20622,6 +21846,10 @@
       "size": {
         "rank": 22,
         "total": 27
+      },
+      "height": {
+        "rank": 22,
+        "total": 27
       }
     }
   },
@@ -20682,6 +21910,10 @@
       },
       "size": {
         "rank": 2,
+        "total": 27
+      },
+      "height": {
+        "rank": 20,
         "total": 27
       }
     }
@@ -20763,6 +21995,10 @@
       "quickness": {
         "rank": 1,
         "total": 14
+      },
+      "height": {
+        "rank": 4,
+        "total": 27
       }
     }
   },
@@ -20827,6 +22063,10 @@
       },
       "size": {
         "rank": 27,
+        "total": 27
+      },
+      "height": {
+        "rank": 13,
         "total": 27
       }
     }
@@ -20904,6 +22144,10 @@
       "quickness": {
         "rank": 9,
         "total": 14
+      },
+      "height": {
+        "rank": 10,
+        "total": 27
       }
     }
   },
@@ -20986,6 +22230,10 @@
       "quickness": {
         "rank": 4,
         "total": 14
+      },
+      "height": {
+        "rank": 7,
+        "total": 27
       }
     }
   },
@@ -21053,6 +22301,10 @@
       },
       "size": {
         "rank": 14,
+        "total": 27
+      },
+      "height": {
+        "rank": 15,
         "total": 27
       }
     }
@@ -21128,6 +22380,10 @@
       "quickness": {
         "rank": 9,
         "total": 14
+      },
+      "height": {
+        "rank": 11,
+        "total": 27
       }
     }
   },
@@ -21204,6 +22460,10 @@
       "size": {
         "rank": 7,
         "total": 27
+      },
+      "height": {
+        "rank": 2,
+        "total": 27
       }
     }
   },
@@ -21276,6 +22536,10 @@
       "quickness": {
         "rank": 3,
         "total": 14
+      },
+      "height": {
+        "rank": 18,
+        "total": 27
       }
     }
   },
@@ -21359,6 +22623,10 @@
       "quickness": {
         "rank": 14,
         "total": 14
+      },
+      "height": {
+        "rank": 8,
+        "total": 27
       }
     }
   },
@@ -21440,6 +22708,10 @@
       "quickness": {
         "rank": 11,
         "total": 14
+      },
+      "height": {
+        "rank": 5,
+        "total": 27
       }
     }
   },
@@ -21514,6 +22786,10 @@
       "size": {
         "rank": 23,
         "total": 27
+      },
+      "height": {
+        "rank": 24,
+        "total": 27
       }
     }
   },
@@ -21587,6 +22863,10 @@
       "quickness": {
         "rank": 8,
         "total": 14
+      },
+      "height": {
+        "rank": 11,
+        "total": 27
       }
     }
   },
@@ -21653,6 +22933,10 @@
       },
       "size": {
         "rank": 16,
+        "total": 27
+      },
+      "height": {
+        "rank": 23,
         "total": 27
       }
     }
@@ -21721,6 +23005,10 @@
       "quickness": {
         "rank": 6,
         "total": 14
+      },
+      "height": {
+        "rank": 25,
+        "total": 27
       }
     }
   },
@@ -21795,6 +23083,10 @@
       "quickness": {
         "rank": 12,
         "total": 14
+      },
+      "height": {
+        "rank": 9,
+        "total": 27
       }
     }
   },
@@ -21849,6 +23141,10 @@
       "size": {
         "rank": 1,
         "total": 27
+      },
+      "height": {
+        "rank": 2,
+        "total": 27
       }
     }
   },
@@ -21902,6 +23198,10 @@
       },
       "size": {
         "rank": 20,
+        "total": 27
+      },
+      "height": {
+        "rank": 27,
         "total": 27
       }
     }
@@ -21969,6 +23269,10 @@
       "size": {
         "rank": 6,
         "total": 27
+      },
+      "height": {
+        "rank": 6,
+        "total": 27
       }
     }
   },
@@ -22028,6 +23332,10 @@
       "quickness": {
         "rank": 5,
         "total": 14
+      },
+      "height": {
+        "rank": 19,
+        "total": 27
       }
     }
   },
@@ -22085,6 +23393,10 @@
       "quickness": {
         "rank": 7,
         "total": 14
+      },
+      "height": {
+        "rank": 26,
+        "total": 27
       }
     }
   },
@@ -22140,6 +23452,10 @@
       "quickness": {
         "rank": 2,
         "total": 14
+      },
+      "height": {
+        "rank": 15,
+        "total": 27
       }
     }
   },
@@ -22197,6 +23513,10 @@
       "quickness": {
         "rank": 13,
         "total": 14
+      },
+      "height": {
+        "rank": 14,
+        "total": 27
       }
     }
   },

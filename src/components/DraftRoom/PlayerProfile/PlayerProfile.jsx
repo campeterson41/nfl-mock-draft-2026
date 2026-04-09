@@ -121,7 +121,7 @@ export default function PlayerProfile({ player, isOpen, onClose, onDraft, canDra
             {profile?.grade && <span className={styles.grade}>{profile.grade}</span>}
           </div>
           <div className={styles.headerStats}>
-            {(profile?.height || meas.height) && <StatPill>{profile?.height || meas.height}</StatPill>}
+            {(profile?.height || meas.height) && <StatPill tier={statTierClass(ranks.height)} tip={statTip(ranks.height)}>{profile?.height || meas.height}</StatPill>}
             {(profile?.weight || meas.weight) && <StatPill tier={statTierClass(ranks.size)} tip={statTip(ranks.size)}>{meas.weight || profile?.weight} lbs</StatPill>}
             {profile?.age && <StatPill>Age {profile.age}</StatPill>}
             {meas.forty && <StatPill tier={statTierClass(ranks.speed)} tip={statTip(ranks.speed)}>{meas.forty}s 40-yd</StatPill>}
