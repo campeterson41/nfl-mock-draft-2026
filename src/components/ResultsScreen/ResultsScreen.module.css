@@ -725,3 +725,59 @@
   color: #3f3f46;
   text-transform: lowercase;
 }
+
+/* ── Mobile responsive ── */
+@media (max-width: 767px) {
+  .header { padding: 20px 16px 16px; }
+
+  .headerInner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+  }
+
+  .headline { font-size: 26px; }
+
+  .headerActions {
+    flex-wrap: wrap;
+    gap: 8px;
+    padding-bottom: 0;
+  }
+
+  .btnOutline, .btnGold, .btnShare {
+    flex: 1;
+    min-width: 0;
+    text-align: center;
+    padding: 10px 12px;
+    font-size: 10px;
+  }
+
+  .btnShare {
+    flex-basis: 100%;
+    order: -1;
+    background: rgba(212, 168, 67, 0.1);
+    border-color: #d4a843;
+    font-size: 12px;
+    padding: 12px;
+  }
+
+  .tabBar { padding: 0 16px; }
+  .content { padding: 16px 16px 32px; }
+
+  .pickGrid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .pickName { font-size: 18px; }
+
+  .tradeGrid { flex-direction: column; }
+  .tradeCard { min-width: 0; width: 100%; }
+
+  .filters { flex-direction: column; gap: 8px; }
+  .filterSelect { width: 100%; }
+
+  .tableWrapper { font-size: 12px; }
+  .table td { padding: 7px 10px; }
+  .tdSchool { display: none; }
+}
