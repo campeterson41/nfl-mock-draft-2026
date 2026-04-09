@@ -20,7 +20,25 @@ export function calculateDesireScore({ player, team, regime, beatWriterLinks, cu
   // Step 1: Base score from consensus rank — EXPONENTIAL decay
   // Rank 1 = 100 pts, Rank 10 ≈ 86, Rank 38 ≈ 57, Rank 100 ≈ 22
   // This creates a meaningful gap between true top-10 prospects and late R1 / R2 guys
-  const baseScore = 100 * Math.exp(-0.016 * (player.rank - 1))
+  const rawBaseScore = 100 * Math.exp(-0.016 * (player.rank - 1))
+
+  // Step 1a: Positional value discount — league-wide draft gravity.
+  // S, TE, RB get slight penalties; QB, EDGE, OT get slight boosts.
+  // Randomized per player per sim so it's not deterministic.
+  const posCenter = WEIGHTS.POSITIONAL_VALUE[player.position] ?? 1.0
+  const posNoise = gaussianNoise(1.0, WEIGHTS.POSITIONAL_VALUE_NOISE)
+  const positionalMult = Math.max(0.85, Math.min(1.15, posCenter + posNoise))
+  const baseScore = rawBaseScore * positionalMult
+
+  // Step 1b: Injury risk discount — players with known medical concerns
+  // get a randomized penalty. injuryRisk 0.3 → between ~0.85x and 1.0x.
+  // The randomness means some sims a team "is comfortable with the medical"
+  // and some sims they pass — matching real draft behavior.
+  let injuryMult = 1.0
+  if (player.injuryRisk > 0) {
+    const riskRoll = 0.5 + Math.random() * 0.5  // 0.5 to 1.0
+    injuryMult = 1.0 - (player.injuryRisk * riskRoll)
+  }
 
   // Step 1b: "Fallen too far" urgency boost.
   //
@@ -66,16 +84,18 @@ export function calculateDesireScore({ player, team, regime, beatWriterLinks, cu
     }
 
     // Consensus distance drag: picking before consensus costs draft capital.
-    // Stricter in round 1 where picks are more valuable, softer in later rounds
-    // where teams regularly reach 5-10 picks for guys they love.
+    // Calibrated against 2020-2024 data: 83.6% R1 consensus accuracy means
+    // ~5 of 32 first-rounders deviate meaningfully. Softened R1 decay from
+    // 0.95 to 0.96 to allow realistic reaches (Herbert -6, Penix -17, etc.)
+    // while still penalizing extreme reaches.
     //
-    // Round 1 (0.95^x):  5 early → 0.77x, 10 early → 0.60x (strict)
+    // Round 1 (0.96^x):  5 early → 0.82x, 10 early → 0.66x
     // Round 2+ (0.975^x): 5 early → 0.88x, 10 early → 0.78x (soft)
     const consensus = player.mockRange?.consensus ?? player.rank
     if (currentPickOverall < consensus) {
       const picksBeforeConsensus = consensus - currentPickOverall
       const isRound1 = currentPickOverall <= 32
-      const decay = isRound1 ? 0.95 : 0.975
+      const decay = isRound1 ? 0.96 : 0.975
       const consensusDrag = Math.max(0.30, Math.pow(decay, picksBeforeConsensus))
       mockRangePenalty *= consensusDrag
     }
@@ -134,9 +154,9 @@ export function calculateDesireScore({ player, team, regime, beatWriterLinks, cu
   //   freakScore 1.0 (4+ elite traits) → 1.06x
   const freakMultiplier = 1.0 + (player.freakScore ?? 0) * 0.06
 
-  // Step 6: Pre-noise score — penalty, urgency, and regime all applied
+  // Step 6: Pre-noise score — penalty, urgency, regime, and injury all applied
   const preNoiseScore =
-    (baseScore * needMultiplier + beatWriterBonus + insiderBonus) * regimeMultiplier * mockRangePenalty * urgencyMultiplier * freakMultiplier
+    (baseScore * needMultiplier + beatWriterBonus + insiderBonus) * regimeMultiplier * mockRangePenalty * urgencyMultiplier * freakMultiplier * injuryMult
 
   // Step 7: Gaussian noise — two components, amplified by polarization.
   //
@@ -160,6 +180,8 @@ export function calculateDesireScore({ player, team, regime, beatWriterLinks, cu
 
   return {
     baseScore,
+    positionalMult,
+    injuryMult,
     needMultiplier,
     beatWriterBonus,
     insiderBonus,

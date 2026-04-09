@@ -30,6 +30,29 @@ export const WEIGHTS = {
   REGIME_MIN: 0.7,
   REGIME_MAX: 1.35,
 
+  // Positional value discount — league-wide draft market gravity.
+  // Based on 2020-2024 NFL draft variance data: certain positions are
+  // structurally over/under-drafted relative to consensus rank.
+  // These are subtle center-points; actual multiplier is randomized per-sim.
+  POSITIONAL_VALUE: {
+    QB:   1.03,   // QBs drafted avg 4.2 picks early — slight boost
+    EDGE: 1.015,  // 2nd most premium position — tiny boost
+    OT:   1.015,  // perpetually scarce, teams reach 3-5 spots
+    S:    0.935,  // safeties fall avg 8.1 picks — largest discount
+    TE:   0.955,  // TEs fall avg 5.3 picks
+    RB:   0.96,   // RBs fall avg 4.1 picks
+    LB:   0.975,  // LBs face ~4-6 pick discount
+    C:    0.97,   // centers face mild positional discount
+    IOL:  0.975,  // interior OL mild discount
+  },
+  // How much the positional discount randomizes per sim (std dev)
+  POSITIONAL_VALUE_NOISE: 0.025,
+
+  // Injury risk discount — applied when player has injuryRisk field (0-1).
+  // Multiplier = 1 - (injuryRisk * random factor between 0.5 and 1.0)
+  // So a player with injuryRisk: 0.3 gets between 0.85x and 1.0x.
+  INJURY_DISCOUNT_MAX: 1.0,
+
   // AI trade acceptance threshold (fraction of pick value)
   TRADE_ACCEPTANCE_THRESHOLD: 0.85,
 

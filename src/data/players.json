@@ -92,7 +92,7 @@
     "school": "Ohio State",
     "consensusScore": 95,
     "athleticism": 97,
-    "notes": "6'4\", 240 lbs with a 4.46 40-yard dash and 9.99 RAS — freakish athleticism for the position. Dominant run defender and capable pass rusher.",
+    "notes": "6'4\", 240 lbs with a 4.46 40-yard dash and 9.99 RAS \u2014 freakish athleticism for the position. Dominant run defender and capable pass rusher.",
     "mockRange": {
       "floor": 2,
       "ceiling": 9,
@@ -210,7 +210,8 @@
       "run-blocker",
       "scheme-fit:gap",
       "anchor-strength"
-    ]
+    ],
+    "injuryRisk": 0.1
   },
   {
     "id": "spencer-fano",
@@ -315,7 +316,8 @@
       "high-ceiling",
       "scheme-fit:spread",
       "speed"
-    ]
+    ],
+    "injuryRisk": 0.2
   },
   {
     "id": "kenyon-sadiq",
@@ -325,7 +327,7 @@
     "school": "Oregon",
     "consensusScore": 87,
     "athleticism": 91,
-    "notes": "6'3\", 250 lbs with a 4.39 40 and 11'1\" broad jump — elite athlete for the position. Dangerous mismatch weapon in the passing game.",
+    "notes": "6'3\", 250 lbs with a 4.39 40 and 11'1\" broad jump \u2014 elite athlete for the position. Dangerous mismatch weapon in the passing game.",
     "mockRange": {
       "floor": 11,
       "ceiling": 24,
@@ -485,7 +487,8 @@
       "first-step-quickness",
       "scheme-fit:4-3",
       "pass-rusher"
-    ]
+    ],
+    "injuryRisk": 0.25
   },
   {
     "id": "peter-woods",
@@ -759,7 +762,8 @@
       "power",
       "run-stuffer",
       "scheme-fit:3-4"
-    ]
+    ],
+    "injuryRisk": 0.35
   },
   {
     "id": "max-iheanachor",
@@ -964,7 +968,7 @@
     "school": "Texas",
     "consensusScore": 51,
     "athleticism": 91,
-    "notes": "4.51 40-yard dash and 9.93 RAS for a linebacker — elite physical profile. Physical downhill thumper who also has the speed to run with backs.",
+    "notes": "4.51 40-yard dash and 9.93 RAS for a linebacker \u2014 elite physical profile. Physical downhill thumper who also has the speed to run with backs.",
     "mockRange": {
       "floor": 32,
       "ceiling": 86,
@@ -2647,7 +2651,7 @@
     "school": "Georgia",
     "consensusScore": 12,
     "athleticism": 80,
-    "notes": "Athletic receiving TE from Georgia. Exceptional vertical (44\"+) at combine. Wide receiver-sized athleticism at TE. Multiple team visits: DEN, KC, CAR, MIN — specific Allbright insider call for Broncos.",
+    "notes": "Athletic receiving TE from Georgia. Exceptional vertical (44\"+) at combine. Wide receiver-sized athleticism at TE. Multiple team visits: DEN, KC, CAR, MIN \u2014 specific Allbright insider call for Broncos.",
     "mockRange": {
       "floor": 60,
       "ceiling": 215,

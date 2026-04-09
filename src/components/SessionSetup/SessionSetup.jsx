@@ -198,8 +198,8 @@ export default function SessionSetup({ onStart, onPrivacy, onAbout }) {
                     <span className={styles.featureLabel}>BEAT WRITERS</span>
                   </div>
                   <div className={styles.welcomeFeature}>
-                    <span className={styles.featureNum}>9</span>
-                    <span className={styles.featureLabel}>DATA SOURCES</span>
+                    <span className={styles.featureNum}>7</span>
+                    <span className={styles.featureLabel}>ROUNDS</span>
                   </div>
                 </div>
               </div>
