@@ -62,6 +62,11 @@ export default function PlayerProfile({ player, isOpen, onClose, onDraft, canDra
     return styles.statYellow
   }
 
+  function statTooltip(rankData) {
+    if (!rankData) return undefined
+    return `#${rankData.rank}/${rankData.total} ${player.position}s`
+  }
+
   // Count how many players in same position group (for context)
   const posGroupCount = useMemo(() => {
     const pos = profile?.pos
@@ -94,10 +99,10 @@ export default function PlayerProfile({ player, isOpen, onClose, onDraft, canDra
           </div>
           <div className={styles.headerStats}>
             {(profile?.height || meas.height) && <span className={styles.stat}>{profile?.height || meas.height}</span>}
-            {(profile?.weight || meas.weight) && <span className={`${styles.stat} ${statTierClass(ranks.size)}`}>{meas.weight || profile?.weight} lbs</span>}
+            {(profile?.weight || meas.weight) && <span className={`${styles.stat} ${statTierClass(ranks.size)}`} title={statTooltip(ranks.size)}>{meas.weight || profile?.weight} lbs</span>}
             {profile?.age && <span className={styles.stat}>Age {profile.age}</span>}
-            {meas.forty && <span className={`${styles.stat} ${statTierClass(ranks.speed)}`}>{meas.forty}s 40-yd</span>}
-            {meas.vertJump && <span className={`${styles.stat} ${statTierClass(ranks.explosion)}`}>{meas.vertJump}" vert</span>}
+            {meas.forty && <span className={`${styles.stat} ${statTierClass(ranks.speed)}`} title={statTooltip(ranks.speed)}>{meas.forty}s 40-yd</span>}
+            {meas.vertJump && <span className={`${styles.stat} ${statTierClass(ranks.explosion)}`} title={statTooltip(ranks.explosion)}>{meas.vertJump}" vert</span>}
           </div>
           {canDraft && (
             <button className={styles.draftBtn} onClick={() => { onDraft(player); onClose(); }}>
