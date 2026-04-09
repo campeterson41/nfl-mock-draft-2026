@@ -289,11 +289,12 @@
   font-variant-numeric: tabular-nums;
 }
 
-.pctPct {
+.pctPct, .pctRank {
   font-size: 9px;
   font-weight: 800;
-  min-width: 28px;
+  min-width: 36px;
   text-align: right;
+  white-space: nowrap;
 }
 
 /* Raw measurables grid */

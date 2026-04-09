@@ -7,19 +7,18 @@ import beastProfiles from '../../../data/beastProfiles.json'
 const profileMap = {}
 beastProfiles.forEach(p => { if (p.playerId) profileMap[p.playerId] = p })
 
-function PercentileBar({ label, value, pct }) {
-  if (pct == null) return null
-  const displayPct = Math.max(1, pct)
-  const color = displayPct >= 80 ? '#4ade80' : displayPct >= 60 ? '#d4a843' : displayPct >= 40 ? '#a1a1aa' : '#f87171'
-  const suffix = displayPct === 1 ? 'st' : displayPct === 2 ? 'nd' : displayPct === 3 ? 'rd' : 'th'
+function MeasurableBar({ label, value, rank, total }) {
+  if (rank == null || total == null) return null
+  const pct = Math.max(1, Math.round(((total - rank + 1) / total) * 100))
+  const color = pct >= 80 ? '#4ade80' : pct >= 60 ? '#d4a843' : pct >= 40 ? '#a1a1aa' : '#f87171'
   return (
     <div className={styles.pctRow}>
       <span className={styles.pctLabel}>{label}</span>
       <div className={styles.pctTrack}>
-        <div className={styles.pctFill} style={{ width: `${displayPct}%`, background: color }} />
+        <div className={styles.pctFill} style={{ width: `${pct}%`, background: color }} />
       </div>
       <span className={styles.pctValue}>{value}</span>
-      <span className={styles.pctPct} style={{ color }}>{displayPct}{suffix}</span>
+      <span className={styles.pctRank} style={{ color }}>#{rank}/{total}</span>
     </div>
   )
 }
@@ -51,7 +50,7 @@ export default function PlayerProfile({ player, isOpen, onClose, onDraft, canDra
   const profile = profileMap[player.id]
   const posColor = POSITION_COLORS[player.position] ?? '#4a4d66'
   const meas = profile?.measurables ?? {}
-  const pcts = profile?.percentiles ?? {}
+  const ranks = profile?.ranks ?? {}
   const callouts = profile?.callouts ?? []
 
   // Count how many players in same position group (for context)
@@ -120,29 +119,31 @@ export default function PlayerProfile({ player, isOpen, onClose, onDraft, canDra
             </div>
           )}
 
-          {/* Radar chart + percentile bars side by side */}
-          {Object.keys(pcts).length >= 3 && (
+          {/* Radar chart + rank bars side by side */}
+          {Object.keys(ranks).length >= 3 && (
             <div className={styles.measSection}>
               <h3 className={styles.sectionTitle}>ATHLETIC PROFILE</h3>
               <p className={styles.sectionContext}>
-                Percentiles compared to {posGroupCount} {player.position}s in the 2026 draft class
+                Ranked against {posGroupCount} {player.position}s in the 2026 draft class
               </p>
               <div className={styles.measGrid}>
-                <RadarChart percentiles={pcts} />
+                <RadarChart percentiles={Object.fromEntries(
+                  Object.entries(ranks).map(([k, v]) => [k, Math.max(1, Math.round(((v.total - v.rank + 1) / v.total) * 100))])
+                )} />
                 <div className={styles.pctBars}>
-                  <PercentileBar label="40-Yard" value={meas.forty ? `${meas.forty}s` : '—'} pct={pcts.speed} />
-                  <PercentileBar label="Vert Jump" value={meas.vertJump ? `${meas.vertJump}"` : '—'} pct={pcts.explosion} />
-                  <PercentileBar label="Broad Jump" value={meas.broadJump || '—'} pct={pcts.power} />
-                  <PercentileBar label="3-Cone" value={meas.threeCone ? `${meas.threeCone}s` : '—'} pct={pcts.agility} />
-                  <PercentileBar label="Shuttle" value={meas.shuttle ? `${meas.shuttle}s` : '—'} pct={pcts.quickness} />
-                  <PercentileBar label="Weight" value={meas.weight ? `${meas.weight} lbs` : '—'} pct={pcts.size} />
+                  {ranks.speed && <MeasurableBar label="40-Yard" value={meas.forty ? `${meas.forty}s` : '—'} rank={ranks.speed.rank} total={ranks.speed.total} />}
+                  {ranks.explosion && <MeasurableBar label="Vert Jump" value={meas.vertJump ? `${meas.vertJump}"` : '—'} rank={ranks.explosion.rank} total={ranks.explosion.total} />}
+                  {ranks.power && <MeasurableBar label="Broad Jump" value={meas.broadJump || '—'} rank={ranks.power.rank} total={ranks.power.total} />}
+                  {ranks.agility && <MeasurableBar label="3-Cone" value={meas.threeCone ? `${meas.threeCone}s` : '—'} rank={ranks.agility.rank} total={ranks.agility.total} />}
+                  {ranks.quickness && <MeasurableBar label="Shuttle" value={meas.shuttle ? `${meas.shuttle}s` : '—'} rank={ranks.quickness.rank} total={ranks.quickness.total} />}
+                  {ranks.size && <MeasurableBar label="Weight" value={meas.weight ? `${meas.weight} lbs` : '—'} rank={ranks.size.rank} total={ranks.size.total} />}
                 </div>
               </div>
             </div>
           )}
 
-          {/* Measurables fallback (when < 3 percentiles, show raw numbers) */}
-          {Object.keys(pcts).length < 3 && Object.keys(meas).length > 0 && (
+          {/* Measurables fallback (when < 3 ranks, show raw numbers) */}
+          {Object.keys(ranks).length < 3 && Object.keys(meas).length > 0 && (
             <div className={styles.section}>
               <h3 className={styles.sectionTitle}>MEASURABLES</h3>
               <div className={styles.measRaw}>

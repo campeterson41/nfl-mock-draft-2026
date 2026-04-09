@@ -41,7 +41,17 @@
       "explosion": 68,
       "size": 95
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 7,
+        "total": 19
+      },
+      "size": {
+        "rank": 2,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "QB2",
@@ -85,7 +95,17 @@
       "explosion": 37,
       "size": 26
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 13,
+        "total": 19
+      },
+      "size": {
+        "rank": 15,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "QB3",
@@ -129,7 +149,17 @@
       "explosion": 37,
       "size": 5
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 13,
+        "total": 19
+      },
+      "size": {
+        "rank": 19,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "QB4",
@@ -175,7 +205,17 @@
     },
     "callouts": [
       "2nd highest vertical jump among QBs (32\")"
-    ]
+    ],
+    "ranks": {
+      "explosion": {
+        "rank": 2,
+        "total": 19
+      },
+      "size": {
+        "rank": 6,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "QB5",
@@ -231,7 +271,33 @@
     },
     "callouts": [
       "3rd fastest 40-yard dash among QBs (4.56s)"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 3,
+        "total": 13
+      },
+      "explosion": {
+        "rank": 7,
+        "total": 19
+      },
+      "power": {
+        "rank": 2,
+        "total": 4
+      },
+      "agility": {
+        "rank": 4,
+        "total": 7
+      },
+      "size": {
+        "rank": 4,
+        "total": 19
+      },
+      "quickness": {
+        "rank": 6,
+        "total": 9
+      }
+    }
   },
   {
     "posRank": "QB6",
@@ -267,7 +333,17 @@
       "explosion": 37,
       "size": 89
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 13,
+        "total": 19
+      },
+      "size": {
+        "rank": 3,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "QB7",
@@ -320,7 +396,25 @@
     "callouts": [
       "1st fastest 40-yard dash among QBs (4.36s)",
       "1st highest vertical jump among QBs (34\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 1,
+        "total": 13
+      },
+      "explosion": {
+        "rank": 1,
+        "total": 19
+      },
+      "power": {
+        "rank": 1,
+        "total": 4
+      },
+      "size": {
+        "rank": 7,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "QB8",
@@ -367,7 +461,21 @@
       "explosion": 68,
       "size": 16
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 6,
+        "total": 13
+      },
+      "explosion": {
+        "rank": 7,
+        "total": 19
+      },
+      "size": {
+        "rank": 17,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "QB9",
@@ -422,7 +530,33 @@
     },
     "callouts": [
       "2nd fastest 40-yard dash among QBs (4.46s)"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 2,
+        "total": 13
+      },
+      "explosion": {
+        "rank": 7,
+        "total": 19
+      },
+      "power": {
+        "rank": 4,
+        "total": 4
+      },
+      "agility": {
+        "rank": 1,
+        "total": 7
+      },
+      "size": {
+        "rank": 14,
+        "total": 19
+      },
+      "quickness": {
+        "rank": 1,
+        "total": 9
+      }
+    }
   },
   {
     "posRank": "QB10",
@@ -474,7 +608,29 @@
       "size": 63,
       "quickness": 44
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 10,
+        "total": 13
+      },
+      "explosion": {
+        "rank": 7,
+        "total": 19
+      },
+      "power": {
+        "rank": 3,
+        "total": 4
+      },
+      "size": {
+        "rank": 8,
+        "total": 19
+      },
+      "quickness": {
+        "rank": 5,
+        "total": 9
+      }
+    }
   },
   {
     "posRank": "QB11",
@@ -518,7 +674,17 @@
       "explosion": 68,
       "size": 79
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 7,
+        "total": 19
+      },
+      "size": {
+        "rank": 5,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "QB12",
@@ -571,7 +737,29 @@
     },
     "callouts": [
       "2nd highest vertical jump among QBs (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 4,
+        "total": 13
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 19
+      },
+      "agility": {
+        "rank": 7,
+        "total": 7
+      },
+      "size": {
+        "rank": 12,
+        "total": 19
+      },
+      "quickness": {
+        "rank": 9,
+        "total": 9
+      }
+    }
   },
   {
     "posRank": "QB13",
@@ -608,7 +796,29 @@
     },
     "callouts": [
       "2nd highest vertical jump among QBs (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 13,
+        "total": 13
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 19
+      },
+      "agility": {
+        "rank": 2,
+        "total": 7
+      },
+      "size": {
+        "rank": 12,
+        "total": 19
+      },
+      "quickness": {
+        "rank": 4,
+        "total": 9
+      }
+    }
   },
   {
     "posRank": "QB14",
@@ -655,7 +865,21 @@
       "explosion": 11,
       "size": 21
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 8,
+        "total": 13
+      },
+      "explosion": {
+        "rank": 18,
+        "total": 19
+      },
+      "size": {
+        "rank": 16,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "QB15",
@@ -691,7 +915,29 @@
     },
     "callouts": [
       "2nd highest vertical jump among QBs (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 9,
+        "total": 13
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 19
+      },
+      "agility": {
+        "rank": 6,
+        "total": 7
+      },
+      "size": {
+        "rank": 1,
+        "total": 19
+      },
+      "quickness": {
+        "rank": 3,
+        "total": 9
+      }
+    }
   },
   {
     "posRank": "QB16",
@@ -738,7 +984,25 @@
       "size": 16,
       "quickness": 22
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 10,
+        "total": 13
+      },
+      "explosion": {
+        "rank": 19,
+        "total": 19
+      },
+      "size": {
+        "rank": 17,
+        "total": 19
+      },
+      "quickness": {
+        "rank": 7,
+        "total": 9
+      }
+    }
   },
   {
     "posRank": "QB17",
@@ -791,7 +1055,29 @@
     },
     "callouts": [
       "2nd highest vertical jump among QBs (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 7,
+        "total": 13
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 19
+      },
+      "agility": {
+        "rank": 3,
+        "total": 7
+      },
+      "size": {
+        "rank": 8,
+        "total": 19
+      },
+      "quickness": {
+        "rank": 2,
+        "total": 9
+      }
+    }
   },
   {
     "posRank": "QB18",
@@ -822,7 +1108,21 @@
       "explosion": 37,
       "size": 47
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 5,
+        "total": 13
+      },
+      "explosion": {
+        "rank": 13,
+        "total": 19
+      },
+      "size": {
+        "rank": 11,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "QB19",
@@ -873,7 +1173,29 @@
       "size": 53,
       "quickness": 11
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 12,
+        "total": 13
+      },
+      "explosion": {
+        "rank": 13,
+        "total": 19
+      },
+      "agility": {
+        "rank": 5,
+        "total": 7
+      },
+      "size": {
+        "rank": 10,
+        "total": 19
+      },
+      "quickness": {
+        "rank": 8,
+        "total": 9
+      }
+    }
   },
   {
     "posRank": "QB20",
@@ -951,7 +1273,21 @@
     "callouts": [
       "2nd fastest 40-yard dash among RBs (4.36s)",
       "2nd highest vertical jump among RBs (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 2,
+        "total": 18
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 23
+      },
+      "size": {
+        "rank": 10,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "RB2",
@@ -1001,7 +1337,25 @@
       "power": 75,
       "size": 30
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 9,
+        "total": 18
+      },
+      "explosion": {
+        "rank": 9,
+        "total": 23
+      },
+      "power": {
+        "rank": 4,
+        "total": 12
+      },
+      "size": {
+        "rank": 17,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "RB3",
@@ -1055,7 +1409,29 @@
     "callouts": [
       "1st fastest 40-yard dash among RBs (4.33s)",
       "1st highest vertical jump among RBs (33\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 1,
+        "total": 18
+      },
+      "explosion": {
+        "rank": 1,
+        "total": 23
+      },
+      "power": {
+        "rank": 3,
+        "total": 12
+      },
+      "agility": {
+        "rank": 3,
+        "total": 9
+      },
+      "size": {
+        "rank": 5,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "RB4",
@@ -1109,7 +1485,33 @@
       "size": 26,
       "quickness": 50
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 15,
+        "total": 18
+      },
+      "explosion": {
+        "rank": 9,
+        "total": 23
+      },
+      "power": {
+        "rank": 9,
+        "total": 12
+      },
+      "agility": {
+        "rank": 9,
+        "total": 9
+      },
+      "size": {
+        "rank": 18,
+        "total": 23
+      },
+      "quickness": {
+        "rank": 5,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "RB5",
@@ -1151,7 +1553,17 @@
       "explosion": 30,
       "size": 65
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 17,
+        "total": 23
+      },
+      "size": {
+        "rank": 9,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "RB6",
@@ -1193,7 +1605,17 @@
       "explosion": 9,
       "size": 74
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 22,
+        "total": 23
+      },
+      "size": {
+        "rank": 7,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "RB7",
@@ -1245,7 +1667,25 @@
     },
     "callouts": [
       "3rd fastest 40-yard dash among RBs (4.37s)"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 3,
+        "total": 18
+      },
+      "explosion": {
+        "rank": 9,
+        "total": 23
+      },
+      "power": {
+        "rank": 7,
+        "total": 12
+      },
+      "size": {
+        "rank": 22,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "RB8",
@@ -1288,7 +1728,17 @@
       "explosion": 87,
       "size": 70
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 4,
+        "total": 23
+      },
+      "size": {
+        "rank": 8,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "RB9",
@@ -1339,7 +1789,29 @@
       "agility": 89,
       "size": 22
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 5,
+        "total": 18
+      },
+      "explosion": {
+        "rank": 17,
+        "total": 23
+      },
+      "power": {
+        "rank": 9,
+        "total": 12
+      },
+      "agility": {
+        "rank": 1,
+        "total": 9
+      },
+      "size": {
+        "rank": 19,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "RB10",
@@ -1386,7 +1858,25 @@
       "size": 57,
       "quickness": 1
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 6,
+        "total": 18
+      },
+      "explosion": {
+        "rank": 17,
+        "total": 23
+      },
+      "size": {
+        "rank": 11,
+        "total": 23
+      },
+      "quickness": {
+        "rank": 12,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "RB11",
@@ -1495,7 +1985,29 @@
       "size": 83,
       "quickness": 33
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 9,
+        "total": 18
+      },
+      "explosion": {
+        "rank": 4,
+        "total": 23
+      },
+      "power": {
+        "rank": 1,
+        "total": 12
+      },
+      "size": {
+        "rank": 5,
+        "total": 23
+      },
+      "quickness": {
+        "rank": 8,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "RB14",
@@ -1537,7 +2049,17 @@
       "explosion": 30,
       "size": 35
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 17,
+        "total": 23
+      },
+      "size": {
+        "rank": 16,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "RB15",
@@ -1587,7 +2109,25 @@
       "power": 8,
       "size": 52
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 4,
+        "total": 18
+      },
+      "explosion": {
+        "rank": 9,
+        "total": 23
+      },
+      "power": {
+        "rank": 12,
+        "total": 12
+      },
+      "size": {
+        "rank": 12,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "RB16",
@@ -1636,7 +2176,25 @@
       "size": 43,
       "quickness": 25
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 14,
+        "total": 18
+      },
+      "explosion": {
+        "rank": 4,
+        "total": 23
+      },
+      "size": {
+        "rank": 14,
+        "total": 23
+      },
+      "quickness": {
+        "rank": 9,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "RB17",
@@ -1680,7 +2238,17 @@
       "explosion": 65,
       "size": 100
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 9,
+        "total": 23
+      },
+      "size": {
+        "rank": 1,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "RB18",
@@ -1718,7 +2286,33 @@
       "size": 87,
       "quickness": 83
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 11,
+        "total": 18
+      },
+      "explosion": {
+        "rank": 4,
+        "total": 23
+      },
+      "power": {
+        "rank": 11,
+        "total": 12
+      },
+      "agility": {
+        "rank": 5,
+        "total": 9
+      },
+      "size": {
+        "rank": 4,
+        "total": 23
+      },
+      "quickness": {
+        "rank": 2,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "RB19",
@@ -1772,7 +2366,29 @@
     },
     "callouts": [
       "2nd highest vertical jump among RBs (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 11,
+        "total": 18
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 23
+      },
+      "power": {
+        "rank": 4,
+        "total": 12
+      },
+      "size": {
+        "rank": 2,
+        "total": 23
+      },
+      "quickness": {
+        "rank": 10,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "RB20",
@@ -1824,7 +2440,29 @@
       "size": 48,
       "quickness": 75
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 18,
+        "total": 18
+      },
+      "explosion": {
+        "rank": 9,
+        "total": 23
+      },
+      "power": {
+        "rank": 7,
+        "total": 12
+      },
+      "size": {
+        "rank": 13,
+        "total": 23
+      },
+      "quickness": {
+        "rank": 3,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "RB21",
@@ -1878,7 +2516,33 @@
       "size": 22,
       "quickness": 92
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 8,
+        "total": 18
+      },
+      "explosion": {
+        "rank": 9,
+        "total": 23
+      },
+      "power": {
+        "rank": 1,
+        "total": 12
+      },
+      "agility": {
+        "rank": 4,
+        "total": 9
+      },
+      "size": {
+        "rank": 19,
+        "total": 23
+      },
+      "quickness": {
+        "rank": 1,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "RB22",
@@ -1932,7 +2596,33 @@
       "size": 13,
       "quickness": 42
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 13,
+        "total": 18
+      },
+      "explosion": {
+        "rank": 9,
+        "total": 23
+      },
+      "power": {
+        "rank": 4,
+        "total": 12
+      },
+      "agility": {
+        "rank": 6,
+        "total": 9
+      },
+      "size": {
+        "rank": 21,
+        "total": 23
+      },
+      "quickness": {
+        "rank": 7,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "RB23",
@@ -1967,7 +2657,29 @@
       "size": 91,
       "quickness": 8
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 17,
+        "total": 18
+      },
+      "explosion": {
+        "rank": 4,
+        "total": 23
+      },
+      "agility": {
+        "rank": 8,
+        "total": 9
+      },
+      "size": {
+        "rank": 3,
+        "total": 23
+      },
+      "quickness": {
+        "rank": 10,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "RB24",
@@ -2000,7 +2712,29 @@
       "size": 39,
       "quickness": 50
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 6,
+        "total": 18
+      },
+      "explosion": {
+        "rank": 17,
+        "total": 23
+      },
+      "agility": {
+        "rank": 2,
+        "total": 9
+      },
+      "size": {
+        "rank": 15,
+        "total": 23
+      },
+      "quickness": {
+        "rank": 5,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "RB25",
@@ -2033,7 +2767,29 @@
       "size": 4,
       "quickness": 67
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 16,
+        "total": 18
+      },
+      "explosion": {
+        "rank": 22,
+        "total": 23
+      },
+      "agility": {
+        "rank": 7,
+        "total": 9
+      },
+      "size": {
+        "rank": 23,
+        "total": 23
+      },
+      "quickness": {
+        "rank": 4,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "RB26",
@@ -2118,7 +2874,21 @@
       "explosion": 69,
       "size": 50
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 29,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 16,
+        "total": 49
+      },
+      "size": {
+        "rank": 25,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR2",
@@ -2165,7 +2935,21 @@
       "explosion": 39,
       "size": 50
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 26,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 31,
+        "total": 49
+      },
+      "size": {
+        "rank": 25,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR3",
@@ -2209,7 +2993,17 @@
       "explosion": 39,
       "size": 69
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 31,
+        "total": 49
+      },
+      "size": {
+        "rank": 16,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR4",
@@ -2253,7 +3047,17 @@
       "explosion": 39,
       "size": 56
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 31,
+        "total": 49
+      },
+      "size": {
+        "rank": 22,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR5",
@@ -2299,7 +3103,21 @@
       "explosion": 39,
       "size": 60
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 17,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 31,
+        "total": 49
+      },
+      "size": {
+        "rank": 20,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR6",
@@ -2350,7 +3168,25 @@
     "callouts": [
       "2nd fastest 40-yard dash among WRs (4.28s)",
       "2nd highest vertical jump among WRs (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 2,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 49
+      },
+      "agility": {
+        "rank": 3,
+        "total": 24
+      },
+      "size": {
+        "rank": 6,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR7",
@@ -2404,7 +3240,33 @@
       "size": 79,
       "quickness": 58
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 22,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 31,
+        "total": 49
+      },
+      "power": {
+        "rank": 15,
+        "total": 25
+      },
+      "agility": {
+        "rank": 2,
+        "total": 24
+      },
+      "size": {
+        "rank": 11,
+        "total": 48
+      },
+      "quickness": {
+        "rank": 8,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "WR8",
@@ -2447,7 +3309,17 @@
       "explosion": 69,
       "size": 100
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 16,
+        "total": 49
+      },
+      "size": {
+        "rank": 1,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR9",
@@ -2503,7 +3375,33 @@
     },
     "callouts": [
       "2nd highest vertical jump among WRs (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 43,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 49
+      },
+      "power": {
+        "rank": 17,
+        "total": 25
+      },
+      "agility": {
+        "rank": 9,
+        "total": 24
+      },
+      "size": {
+        "rank": 3,
+        "total": 48
+      },
+      "quickness": {
+        "rank": 11,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "WR10",
@@ -2557,7 +3455,33 @@
       "size": 27,
       "quickness": 89
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 15,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 31,
+        "total": 49
+      },
+      "power": {
+        "rank": 17,
+        "total": 25
+      },
+      "agility": {
+        "rank": 10,
+        "total": 24
+      },
+      "size": {
+        "rank": 36,
+        "total": 48
+      },
+      "quickness": {
+        "rank": 2,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "WR11",
@@ -2636,7 +3560,29 @@
       "size": 88,
       "quickness": 16
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 29,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 16,
+        "total": 49
+      },
+      "agility": {
+        "rank": 12,
+        "total": 24
+      },
+      "size": {
+        "rank": 7,
+        "total": 48
+      },
+      "quickness": {
+        "rank": 14,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "WR13",
@@ -2688,7 +3634,25 @@
     },
     "callouts": [
       "2nd highest vertical jump among WRs (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 17,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 49
+      },
+      "power": {
+        "rank": 1,
+        "total": 25
+      },
+      "size": {
+        "rank": 11,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR14",
@@ -2735,7 +3699,25 @@
       "power": 44,
       "size": 8
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 7,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 42,
+        "total": 49
+      },
+      "power": {
+        "rank": 15,
+        "total": 25
+      },
+      "size": {
+        "rank": 45,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR15",
@@ -2780,7 +3762,17 @@
     },
     "callouts": [
       "1st fastest 40-yard dash among WRs (4.26s)"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 1,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 42,
+        "total": 49
+      }
+    }
   },
   {
     "posRank": "WR16",
@@ -2836,7 +3828,33 @@
     },
     "callouts": [
       "2nd highest vertical jump among WRs (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 6,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 49
+      },
+      "power": {
+        "rank": 3,
+        "total": 25
+      },
+      "agility": {
+        "rank": 10,
+        "total": 24
+      },
+      "size": {
+        "rank": 14,
+        "total": 48
+      },
+      "quickness": {
+        "rank": 5,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "WR17",
@@ -2884,7 +3902,21 @@
     },
     "callouts": [
       "2nd highest vertical jump among WRs (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 9,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 49
+      },
+      "size": {
+        "rank": 21,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR18",
@@ -2934,7 +3966,29 @@
       "agility": 17,
       "size": 12
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 4,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 42,
+        "total": 49
+      },
+      "power": {
+        "rank": 5,
+        "total": 25
+      },
+      "agility": {
+        "rank": 19,
+        "total": 24
+      },
+      "size": {
+        "rank": 43,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR19",
@@ -2987,7 +4041,33 @@
       "size": 50,
       "quickness": 79
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 12,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 16,
+        "total": 49
+      },
+      "power": {
+        "rank": 3,
+        "total": 25
+      },
+      "agility": {
+        "rank": 1,
+        "total": 24
+      },
+      "size": {
+        "rank": 25,
+        "total": 48
+      },
+      "quickness": {
+        "rank": 3,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "WR20",
@@ -3032,7 +4112,21 @@
       "explosion": 69,
       "size": 96
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 23,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 16,
+        "total": 49
+      },
+      "size": {
+        "rank": 3,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR21",
@@ -3084,7 +4178,29 @@
       "agility": 29,
       "size": 31
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 9,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 16,
+        "total": 49
+      },
+      "power": {
+        "rank": 19,
+        "total": 25
+      },
+      "agility": {
+        "rank": 17,
+        "total": 24
+      },
+      "size": {
+        "rank": 34,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR22",
@@ -3134,7 +4250,25 @@
       "power": 72,
       "size": 69
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 20,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 16,
+        "total": 49
+      },
+      "power": {
+        "rank": 8,
+        "total": 25
+      },
+      "size": {
+        "rank": 16,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR23",
@@ -3184,7 +4318,25 @@
       "power": 68,
       "size": 27
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 35,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 16,
+        "total": 49
+      },
+      "power": {
+        "rank": 9,
+        "total": 25
+      },
+      "size": {
+        "rank": 36,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR24",
@@ -3263,7 +4415,25 @@
       "power": 60,
       "size": 10
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 23,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 31,
+        "total": 49
+      },
+      "power": {
+        "rank": 11,
+        "total": 25
+      },
+      "size": {
+        "rank": 44,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR26",
@@ -3315,7 +4485,25 @@
     },
     "callouts": [
       "2nd highest vertical jump among WRs (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 5,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 49
+      },
+      "power": {
+        "rank": 2,
+        "total": 25
+      },
+      "size": {
+        "rank": 5,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR27",
@@ -3350,7 +4538,29 @@
       "size": 19,
       "quickness": 68
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 23,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 31,
+        "total": 49
+      },
+      "agility": {
+        "rank": 6,
+        "total": 24
+      },
+      "size": {
+        "rank": 40,
+        "total": 48
+      },
+      "quickness": {
+        "rank": 6,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "WR28",
@@ -3396,7 +4606,17 @@
     },
     "callouts": [
       "1st highest vertical jump among WRs (33\")"
-    ]
+    ],
+    "ranks": {
+      "explosion": {
+        "rank": 1,
+        "total": 49
+      },
+      "size": {
+        "rank": 2,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR29",
@@ -3441,7 +4661,25 @@
     },
     "callouts": [
       "2nd highest vertical jump among WRs (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 12,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 49
+      },
+      "power": {
+        "rank": 5,
+        "total": 25
+      },
+      "size": {
+        "rank": 10,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR30",
@@ -3491,7 +4729,29 @@
       "size": 52,
       "quickness": 1
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 21,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 42,
+        "total": 49
+      },
+      "agility": {
+        "rank": 8,
+        "total": 24
+      },
+      "size": {
+        "rank": 24,
+        "total": 48
+      },
+      "quickness": {
+        "rank": 19,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "WR31",
@@ -3543,7 +4803,25 @@
     },
     "callouts": [
       "2nd highest vertical jump among WRs (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 11,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 49
+      },
+      "power": {
+        "rank": 11,
+        "total": 25
+      },
+      "size": {
+        "rank": 11,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR32",
@@ -3594,7 +4872,25 @@
     },
     "callouts": [
       "2nd highest vertical jump among WRs (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 32,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 49
+      },
+      "agility": {
+        "rank": 12,
+        "total": 24
+      },
+      "size": {
+        "rank": 25,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR33",
@@ -3645,7 +4941,29 @@
       "size": 42,
       "quickness": 5
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 37,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 16,
+        "total": 49
+      },
+      "agility": {
+        "rank": 19,
+        "total": 24
+      },
+      "size": {
+        "rank": 29,
+        "total": 48
+      },
+      "quickness": {
+        "rank": 18,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "WR34",
@@ -3694,7 +5012,21 @@
     },
     "callouts": [
       "2nd fastest 40-yard dash among WRs (4.28s)"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 2,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 31,
+        "total": 49
+      },
+      "size": {
+        "rank": 32,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR35",
@@ -3745,7 +5077,29 @@
       "size": 19,
       "quickness": 95
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 32,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 16,
+        "total": 49
+      },
+      "agility": {
+        "rank": 4,
+        "total": 24
+      },
+      "size": {
+        "rank": 40,
+        "total": 48
+      },
+      "quickness": {
+        "rank": 1,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "WR36",
@@ -3794,7 +5148,29 @@
       "size": 35,
       "quickness": 47
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 40,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 42,
+        "total": 49
+      },
+      "agility": {
+        "rank": 18,
+        "total": 24
+      },
+      "size": {
+        "rank": 32,
+        "total": 48
+      },
+      "quickness": {
+        "rank": 10,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "WR37",
@@ -3844,7 +5220,25 @@
       "power": 12,
       "size": 8
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 12,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 16,
+        "total": 49
+      },
+      "power": {
+        "rank": 23,
+        "total": 25
+      },
+      "size": {
+        "rank": 45,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR38",
@@ -3911,7 +5305,33 @@
       "size": 85,
       "quickness": 53
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 44,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 16,
+        "total": 49
+      },
+      "power": {
+        "rank": 11,
+        "total": 25
+      },
+      "agility": {
+        "rank": 5,
+        "total": 24
+      },
+      "size": {
+        "rank": 8,
+        "total": 48
+      },
+      "quickness": {
+        "rank": 9,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "WR40",
@@ -3962,7 +5382,29 @@
       "agility": 1,
       "size": 21
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 19,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 16,
+        "total": 49
+      },
+      "power": {
+        "rank": 21,
+        "total": 25
+      },
+      "agility": {
+        "rank": 24,
+        "total": 24
+      },
+      "size": {
+        "rank": 39,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR41",
@@ -4016,7 +5458,33 @@
       "size": 42,
       "quickness": 11
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 35,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 16,
+        "total": 49
+      },
+      "power": {
+        "rank": 5,
+        "total": 25
+      },
+      "agility": {
+        "rank": 14,
+        "total": 24
+      },
+      "size": {
+        "rank": 29,
+        "total": 48
+      },
+      "quickness": {
+        "rank": 17,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "WR42",
@@ -4066,7 +5534,25 @@
       "power": 60,
       "size": 85
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 26,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 31,
+        "total": 49
+      },
+      "power": {
+        "rank": 11,
+        "total": 25
+      },
+      "size": {
+        "rank": 8,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR43",
@@ -4115,7 +5601,29 @@
     },
     "callouts": [
       "2nd highest vertical jump among WRs (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 40,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 49
+      },
+      "agility": {
+        "rank": 22,
+        "total": 24
+      },
+      "size": {
+        "rank": 14,
+        "total": 48
+      },
+      "quickness": {
+        "rank": 14,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "WR44",
@@ -4167,7 +5675,25 @@
     },
     "callouts": [
       "2nd highest vertical jump among WRs (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 29,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 49
+      },
+      "power": {
+        "rank": 22,
+        "total": 25
+      },
+      "size": {
+        "rank": 23,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR45",
@@ -4216,7 +5742,25 @@
       "power": 68,
       "size": 2
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 7,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 31,
+        "total": 49
+      },
+      "power": {
+        "rank": 9,
+        "total": 25
+      },
+      "size": {
+        "rank": 48,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR46",
@@ -4267,7 +5811,29 @@
       "size": 62,
       "quickness": 63
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 37,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 16,
+        "total": 49
+      },
+      "agility": {
+        "rank": 14,
+        "total": 24
+      },
+      "size": {
+        "rank": 19,
+        "total": 48
+      },
+      "quickness": {
+        "rank": 7,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "WR47",
@@ -4320,7 +5886,29 @@
     },
     "callouts": [
       "2nd highest vertical jump among WRs (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 45,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 49
+      },
+      "agility": {
+        "rank": 16,
+        "total": 24
+      },
+      "size": {
+        "rank": 16,
+        "total": 48
+      },
+      "quickness": {
+        "rank": 14,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "WR48",
@@ -4370,7 +5958,29 @@
       "agility": 4,
       "size": 42
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 37,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 42,
+        "total": 49
+      },
+      "power": {
+        "rank": 25,
+        "total": 25
+      },
+      "agility": {
+        "rank": 23,
+        "total": 24
+      },
+      "size": {
+        "rank": 29,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR49",
@@ -4423,7 +6033,33 @@
     },
     "callouts": [
       "2nd highest vertical jump among WRs (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 15,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 49
+      },
+      "power": {
+        "rank": 19,
+        "total": 25
+      },
+      "agility": {
+        "rank": 21,
+        "total": 24
+      },
+      "size": {
+        "rank": 35,
+        "total": 48
+      },
+      "quickness": {
+        "rank": 11,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "WR51",
@@ -4457,7 +6093,25 @@
       "power": 8,
       "size": 19
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 34,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 42,
+        "total": 49
+      },
+      "power": {
+        "rank": 24,
+        "total": 25
+      },
+      "size": {
+        "rank": 40,
+        "total": 48
+      }
+    }
   },
   {
     "posRank": "WR52",
@@ -4518,7 +6172,25 @@
     },
     "callouts": [
       "2nd highest vertical jump among WRs (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 42,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 49
+      },
+      "size": {
+        "rank": 45,
+        "total": 48
+      },
+      "quickness": {
+        "rank": 13,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "WR55",
@@ -4552,7 +6224,29 @@
       "size": 27,
       "quickness": 79
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 28,
+        "total": 45
+      },
+      "explosion": {
+        "rank": 42,
+        "total": 49
+      },
+      "agility": {
+        "rank": 6,
+        "total": 24
+      },
+      "size": {
+        "rank": 36,
+        "total": 48
+      },
+      "quickness": {
+        "rank": 3,
+        "total": 19
+      }
+    }
   },
   {
     "posRank": "TE1",
@@ -4603,7 +6297,25 @@
     },
     "callouts": [
       "1st fastest 40-yard dash among TEs (4.39s)"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 1,
+        "total": 28
+      },
+      "explosion": {
+        "rank": 18,
+        "total": 31
+      },
+      "power": {
+        "rank": 2,
+        "total": 18
+      },
+      "size": {
+        "rank": 26,
+        "total": 31
+      }
+    }
   },
   {
     "posRank": "TE2",
@@ -4649,7 +6361,25 @@
       "power": 100,
       "size": 10
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 4,
+        "total": 28
+      },
+      "explosion": {
+        "rank": 7,
+        "total": 31
+      },
+      "power": {
+        "rank": 1,
+        "total": 18
+      },
+      "size": {
+        "rank": 29,
+        "total": 31
+      }
+    }
   },
   {
     "posRank": "TE3",
@@ -4693,7 +6423,17 @@
       "explosion": 81,
       "size": 52
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 7,
+        "total": 31
+      },
+      "size": {
+        "rank": 16,
+        "total": 31
+      }
+    }
   },
   {
     "posRank": "TE4",
@@ -4742,7 +6482,21 @@
     },
     "callouts": [
       "3rd fastest 40-yard dash among TEs (4.49s)"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 3,
+        "total": 28
+      },
+      "explosion": {
+        "rank": 18,
+        "total": 31
+      },
+      "size": {
+        "rank": 17,
+        "total": 31
+      }
+    }
   },
   {
     "posRank": "TE5",
@@ -4788,7 +6542,21 @@
       "explosion": 81,
       "size": 19
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 16,
+        "total": 28
+      },
+      "explosion": {
+        "rank": 7,
+        "total": 31
+      },
+      "size": {
+        "rank": 26,
+        "total": 31
+      }
+    }
   },
   {
     "posRank": "TE6",
@@ -4842,7 +6610,33 @@
       "size": 100,
       "quickness": 17
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 20,
+        "total": 28
+      },
+      "explosion": {
+        "rank": 29,
+        "total": 31
+      },
+      "power": {
+        "rank": 4,
+        "total": 18
+      },
+      "agility": {
+        "rank": 8,
+        "total": 21
+      },
+      "size": {
+        "rank": 1,
+        "total": 31
+      },
+      "quickness": {
+        "rank": 10,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "TE7",
@@ -4894,7 +6688,29 @@
       "agility": 24,
       "size": 97
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 25,
+        "total": 28
+      },
+      "explosion": {
+        "rank": 7,
+        "total": 31
+      },
+      "power": {
+        "rank": 9,
+        "total": 18
+      },
+      "agility": {
+        "rank": 16,
+        "total": 21
+      },
+      "size": {
+        "rank": 2,
+        "total": 31
+      }
+    }
   },
   {
     "posRank": "TE8",
@@ -4947,7 +6763,29 @@
     },
     "callouts": [
       "2nd fastest 40-yard dash among TEs (4.40s)"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 2,
+        "total": 28
+      },
+      "explosion": {
+        "rank": 7,
+        "total": 31
+      },
+      "agility": {
+        "rank": 4,
+        "total": 21
+      },
+      "size": {
+        "rank": 17,
+        "total": 31
+      },
+      "quickness": {
+        "rank": 6,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "TE9",
@@ -4998,7 +6836,29 @@
       "agility": 48,
       "size": 48
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 12,
+        "total": 28
+      },
+      "explosion": {
+        "rank": 7,
+        "total": 31
+      },
+      "power": {
+        "rank": 5,
+        "total": 18
+      },
+      "agility": {
+        "rank": 11,
+        "total": 21
+      },
+      "size": {
+        "rank": 17,
+        "total": 31
+      }
+    }
   },
   {
     "posRank": "TE10",
@@ -5050,7 +6910,29 @@
       "agility": 10,
       "size": 65
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 10,
+        "total": 28
+      },
+      "explosion": {
+        "rank": 7,
+        "total": 31
+      },
+      "power": {
+        "rank": 16,
+        "total": 18
+      },
+      "agility": {
+        "rank": 19,
+        "total": 21
+      },
+      "size": {
+        "rank": 12,
+        "total": 31
+      }
+    }
   },
   {
     "posRank": "TE11",
@@ -5102,7 +6984,29 @@
       "agility": 29,
       "size": 48
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 12,
+        "total": 28
+      },
+      "explosion": {
+        "rank": 18,
+        "total": 31
+      },
+      "power": {
+        "rank": 9,
+        "total": 18
+      },
+      "agility": {
+        "rank": 14,
+        "total": 21
+      },
+      "size": {
+        "rank": 17,
+        "total": 31
+      }
+    }
   },
   {
     "posRank": "TE12",
@@ -5146,7 +7050,17 @@
       "explosion": 45,
       "size": 58
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 18,
+        "total": 31
+      },
+      "size": {
+        "rank": 14,
+        "total": 31
+      }
+    }
   },
   {
     "posRank": "TE13",
@@ -5202,7 +7116,33 @@
     },
     "callouts": [
       "2nd highest vertical jump among TEs (33\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 12,
+        "total": 28
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 31
+      },
+      "power": {
+        "rank": 14,
+        "total": 18
+      },
+      "agility": {
+        "rank": 3,
+        "total": 21
+      },
+      "size": {
+        "rank": 5,
+        "total": 31
+      },
+      "quickness": {
+        "rank": 12,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "TE14",
@@ -5254,7 +7194,29 @@
       "agility": 5,
       "size": 74
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 19,
+        "total": 28
+      },
+      "explosion": {
+        "rank": 18,
+        "total": 31
+      },
+      "power": {
+        "rank": 9,
+        "total": 18
+      },
+      "agility": {
+        "rank": 20,
+        "total": 21
+      },
+      "size": {
+        "rank": 9,
+        "total": 31
+      }
+    }
   },
   {
     "posRank": "TE15",
@@ -5308,7 +7270,33 @@
       "size": 48,
       "quickness": 8
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 16,
+        "total": 28
+      },
+      "explosion": {
+        "rank": 29,
+        "total": 31
+      },
+      "power": {
+        "rank": 14,
+        "total": 18
+      },
+      "agility": {
+        "rank": 18,
+        "total": 21
+      },
+      "size": {
+        "rank": 17,
+        "total": 31
+      },
+      "quickness": {
+        "rank": 11,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "TE16",
@@ -5354,7 +7342,17 @@
     },
     "callouts": [
       "1st highest vertical jump among TEs (34\")"
-    ]
+    ],
+    "ranks": {
+      "explosion": {
+        "rank": 1,
+        "total": 31
+      },
+      "size": {
+        "rank": 28,
+        "total": 31
+      }
+    }
   },
   {
     "posRank": "TE17",
@@ -5433,7 +7431,29 @@
       "size": 90,
       "quickness": 75
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 22,
+        "total": 28
+      },
+      "explosion": {
+        "rank": 18,
+        "total": 31
+      },
+      "agility": {
+        "rank": 2,
+        "total": 21
+      },
+      "size": {
+        "rank": 4,
+        "total": 31
+      },
+      "quickness": {
+        "rank": 1,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "TE19",
@@ -5485,7 +7505,29 @@
       "agility": 19,
       "size": 84
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 7,
+        "total": 28
+      },
+      "explosion": {
+        "rank": 7,
+        "total": 31
+      },
+      "power": {
+        "rank": 17,
+        "total": 18
+      },
+      "agility": {
+        "rank": 17,
+        "total": 21
+      },
+      "size": {
+        "rank": 6,
+        "total": 31
+      }
+    }
   },
   {
     "posRank": "TE20",
@@ -5539,7 +7581,29 @@
     },
     "callouts": [
       "2nd highest vertical jump among TEs (33\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 20,
+        "total": 28
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 31
+      },
+      "power": {
+        "rank": 6,
+        "total": 18
+      },
+      "agility": {
+        "rank": 8,
+        "total": 21
+      },
+      "size": {
+        "rank": 14,
+        "total": 31
+      }
+    }
   },
   {
     "posRank": "TE21",
@@ -5592,7 +7656,29 @@
     },
     "callouts": [
       "2nd highest vertical jump among TEs (33\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 16,
+        "total": 28
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 31
+      },
+      "agility": {
+        "rank": 4,
+        "total": 21
+      },
+      "size": {
+        "rank": 3,
+        "total": 31
+      },
+      "quickness": {
+        "rank": 7,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "TE22",
@@ -5648,7 +7734,33 @@
     },
     "callouts": [
       "2nd highest vertical jump among TEs (33\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 24,
+        "total": 28
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 31
+      },
+      "power": {
+        "rank": 9,
+        "total": 18
+      },
+      "agility": {
+        "rank": 14,
+        "total": 21
+      },
+      "size": {
+        "rank": 6,
+        "total": 31
+      },
+      "quickness": {
+        "rank": 7,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "TE23",
@@ -5691,7 +7803,29 @@
       "agility": 43,
       "size": 3
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 6,
+        "total": 28
+      },
+      "explosion": {
+        "rank": 29,
+        "total": 31
+      },
+      "power": {
+        "rank": 9,
+        "total": 18
+      },
+      "agility": {
+        "rank": 12,
+        "total": 21
+      },
+      "size": {
+        "rank": 31,
+        "total": 31
+      }
+    }
   },
   {
     "posRank": "TE24",
@@ -5740,7 +7874,25 @@
       "agility": 38,
       "size": 29
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 27,
+        "total": 28
+      },
+      "explosion": {
+        "rank": 18,
+        "total": 31
+      },
+      "agility": {
+        "rank": 13,
+        "total": 21
+      },
+      "size": {
+        "rank": 23,
+        "total": 31
+      }
+    }
   },
   {
     "posRank": "TE25",
@@ -5776,7 +7928,29 @@
       "agility": 67,
       "size": 71
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 15,
+        "total": 28
+      },
+      "explosion": {
+        "rank": 18,
+        "total": 31
+      },
+      "power": {
+        "rank": 8,
+        "total": 18
+      },
+      "agility": {
+        "rank": 7,
+        "total": 21
+      },
+      "size": {
+        "rank": 10,
+        "total": 31
+      }
+    }
   },
   {
     "posRank": "TE26",
@@ -5828,7 +8002,29 @@
       "size": 71,
       "quickness": 75
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 9,
+        "total": 28
+      },
+      "explosion": {
+        "rank": 18,
+        "total": 31
+      },
+      "power": {
+        "rank": 3,
+        "total": 18
+      },
+      "size": {
+        "rank": 10,
+        "total": 31
+      },
+      "quickness": {
+        "rank": 1,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "TE27",
@@ -5865,7 +8061,29 @@
     },
     "callouts": [
       "2nd highest vertical jump among TEs (33\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 10,
+        "total": 28
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 31
+      },
+      "agility": {
+        "rank": 10,
+        "total": 21
+      },
+      "size": {
+        "rank": 22,
+        "total": 31
+      },
+      "quickness": {
+        "rank": 4,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "TE28",
@@ -5899,7 +8117,29 @@
       "size": 29,
       "quickness": 25
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 22,
+        "total": 28
+      },
+      "explosion": {
+        "rank": 18,
+        "total": 31
+      },
+      "agility": {
+        "rank": 21,
+        "total": 21
+      },
+      "size": {
+        "rank": 23,
+        "total": 31
+      },
+      "quickness": {
+        "rank": 9,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "TE29",
@@ -5949,7 +8189,25 @@
       "power": 72,
       "size": 6
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 4,
+        "total": 28
+      },
+      "explosion": {
+        "rank": 7,
+        "total": 31
+      },
+      "power": {
+        "rank": 6,
+        "total": 18
+      },
+      "size": {
+        "rank": 30,
+        "total": 31
+      }
+    }
   },
   {
     "posRank": "TE30",
@@ -5983,7 +8241,25 @@
       "power": 11,
       "size": 84
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 28,
+        "total": 28
+      },
+      "explosion": {
+        "rank": 18,
+        "total": 31
+      },
+      "power": {
+        "rank": 17,
+        "total": 18
+      },
+      "size": {
+        "rank": 6,
+        "total": 31
+      }
+    }
   },
   {
     "posRank": "TE31",
@@ -6018,7 +8294,29 @@
       "size": 29,
       "quickness": 58
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 26,
+        "total": 28
+      },
+      "explosion": {
+        "rank": 7,
+        "total": 31
+      },
+      "agility": {
+        "rank": 6,
+        "total": 21
+      },
+      "size": {
+        "rank": 23,
+        "total": 31
+      },
+      "quickness": {
+        "rank": 5,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "TE32",
@@ -6053,7 +8351,29 @@
       "size": 65,
       "quickness": 75
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 8,
+        "total": 28
+      },
+      "explosion": {
+        "rank": 7,
+        "total": 31
+      },
+      "agility": {
+        "rank": 1,
+        "total": 21
+      },
+      "size": {
+        "rank": 12,
+        "total": 31
+      },
+      "quickness": {
+        "rank": 1,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "TE33",
@@ -6120,7 +8440,29 @@
     },
     "callouts": [
       "3rd fastest 40-yard dash among OTs (4.91s)"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 3,
+        "total": 26
+      },
+      "explosion": {
+        "rank": 25,
+        "total": 28
+      },
+      "power": {
+        "rank": 9,
+        "total": 19
+      },
+      "agility": {
+        "rank": 1,
+        "total": 9
+      },
+      "size": {
+        "rank": 22,
+        "total": 28
+      }
+    }
   },
   {
     "posRank": "OT2",
@@ -6174,7 +8516,33 @@
       "size": 89,
       "quickness": 1
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 17,
+        "total": 26
+      },
+      "explosion": {
+        "rank": 13,
+        "total": 28
+      },
+      "power": {
+        "rank": 17,
+        "total": 19
+      },
+      "agility": {
+        "rank": 8,
+        "total": 9
+      },
+      "size": {
+        "rank": 4,
+        "total": 28
+      },
+      "quickness": {
+        "rank": 1,
+        "total": 2
+      }
+    }
   },
   {
     "posRank": "OT3",
@@ -6226,7 +8594,25 @@
     },
     "callouts": [
       "3rd highest vertical jump among OTs (34\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 5,
+        "total": 26
+      },
+      "explosion": {
+        "rank": 3,
+        "total": 28
+      },
+      "power": {
+        "rank": 2,
+        "total": 19
+      },
+      "size": {
+        "rank": 15,
+        "total": 28
+      }
+    }
   },
   {
     "posRank": "OT4",
@@ -6278,7 +8664,29 @@
       "agility": 1,
       "size": 100
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 24,
+        "total": 26
+      },
+      "explosion": {
+        "rank": 13,
+        "total": 28
+      },
+      "power": {
+        "rank": 13,
+        "total": 19
+      },
+      "agility": {
+        "rank": 9,
+        "total": 9
+      },
+      "size": {
+        "rank": 1,
+        "total": 28
+      }
+    }
   },
   {
     "posRank": "OT5",
@@ -6328,7 +8736,25 @@
       "power": 79,
       "size": 39
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 9,
+        "total": 26
+      },
+      "explosion": {
+        "rank": 13,
+        "total": 28
+      },
+      "power": {
+        "rank": 5,
+        "total": 19
+      },
+      "size": {
+        "rank": 18,
+        "total": 28
+      }
+    }
   },
   {
     "posRank": "OT6",
@@ -6382,7 +8808,29 @@
     },
     "callouts": [
       "3rd highest vertical jump among OTs (34\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 12,
+        "total": 26
+      },
+      "explosion": {
+        "rank": 3,
+        "total": 28
+      },
+      "power": {
+        "rank": 5,
+        "total": 19
+      },
+      "agility": {
+        "rank": 7,
+        "total": 9
+      },
+      "size": {
+        "rank": 14,
+        "total": 28
+      }
+    }
   },
   {
     "posRank": "OT7",
@@ -6433,7 +8881,25 @@
     },
     "callouts": [
       "3rd fastest 40-yard dash among OTs (4.91s)"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 3,
+        "total": 26
+      },
+      "explosion": {
+        "rank": 13,
+        "total": 28
+      },
+      "power": {
+        "rank": 2,
+        "total": 19
+      },
+      "size": {
+        "rank": 11,
+        "total": 28
+      }
+    }
   },
   {
     "posRank": "OT8",
@@ -6483,7 +8949,25 @@
     },
     "callouts": [
       "2nd fastest 40-yard dash among OTs (4.71s)"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 2,
+        "total": 26
+      },
+      "explosion": {
+        "rank": 25,
+        "total": 28
+      },
+      "power": {
+        "rank": 9,
+        "total": 19
+      },
+      "size": {
+        "rank": 7,
+        "total": 28
+      }
+    }
   },
   {
     "posRank": "OT9",
@@ -6535,7 +9019,25 @@
     },
     "callouts": [
       "3rd highest vertical jump among OTs (34\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 22,
+        "total": 26
+      },
+      "explosion": {
+        "rank": 3,
+        "total": 28
+      },
+      "power": {
+        "rank": 15,
+        "total": 19
+      },
+      "size": {
+        "rank": 5,
+        "total": 28
+      }
+    }
   },
   {
     "posRank": "OT10",
@@ -6582,7 +9084,21 @@
     },
     "callouts": [
       "1st highest vertical jump among OTs (36\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 25,
+        "total": 26
+      },
+      "explosion": {
+        "rank": 1,
+        "total": 28
+      },
+      "size": {
+        "rank": 2,
+        "total": 28
+      }
+    }
   },
   {
     "posRank": "OT11",
@@ -6625,7 +9141,25 @@
       "power": 58,
       "size": 57
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 16,
+        "total": 26
+      },
+      "explosion": {
+        "rank": 13,
+        "total": 28
+      },
+      "power": {
+        "rank": 9,
+        "total": 19
+      },
+      "size": {
+        "rank": 13,
+        "total": 28
+      }
+    }
   },
   {
     "posRank": "OT12",
@@ -6675,7 +9209,25 @@
       "power": 68,
       "size": 86
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 19,
+        "total": 26
+      },
+      "explosion": {
+        "rank": 13,
+        "total": 28
+      },
+      "power": {
+        "rank": 7,
+        "total": 19
+      },
+      "size": {
+        "rank": 5,
+        "total": 28
+      }
+    }
   },
   {
     "posRank": "OT13",
@@ -6725,7 +9277,25 @@
       "power": 95,
       "size": 46
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 13,
+        "total": 26
+      },
+      "explosion": {
+        "rank": 13,
+        "total": 28
+      },
+      "power": {
+        "rank": 2,
+        "total": 19
+      },
+      "size": {
+        "rank": 16,
+        "total": 28
+      }
+    }
   },
   {
     "posRank": "OT14",
@@ -6768,7 +9338,21 @@
     },
     "callouts": [
       "2nd highest vertical jump among OTs (35\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 18,
+        "total": 26
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 28
+      },
+      "size": {
+        "rank": 12,
+        "total": 28
+      }
+    }
   },
   {
     "posRank": "OT15",
@@ -6818,7 +9402,25 @@
       "power": 68,
       "size": 39
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 20,
+        "total": 26
+      },
+      "explosion": {
+        "rank": 13,
+        "total": 28
+      },
+      "power": {
+        "rank": 7,
+        "total": 19
+      },
+      "size": {
+        "rank": 18,
+        "total": 28
+      }
+    }
   },
   {
     "posRank": "OT16",
@@ -6863,7 +9465,17 @@
     },
     "callouts": [
       "3rd highest vertical jump among OTs (34\")"
-    ]
+    ],
+    "ranks": {
+      "explosion": {
+        "rank": 3,
+        "total": 28
+      },
+      "size": {
+        "rank": 7,
+        "total": 28
+      }
+    }
   },
   {
     "posRank": "OT17",
@@ -6912,7 +9524,25 @@
       "power": 100,
       "size": 39
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 6,
+        "total": 26
+      },
+      "explosion": {
+        "rank": 13,
+        "total": 28
+      },
+      "power": {
+        "rank": 1,
+        "total": 19
+      },
+      "size": {
+        "rank": 18,
+        "total": 28
+      }
+    }
   },
   {
     "posRank": "OT18",
@@ -6964,7 +9594,25 @@
     },
     "callouts": [
       "3rd highest vertical jump among OTs (34\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 20,
+        "total": 26
+      },
+      "explosion": {
+        "rank": 3,
+        "total": 28
+      },
+      "power": {
+        "rank": 19,
+        "total": 19
+      },
+      "size": {
+        "rank": 10,
+        "total": 28
+      }
+    }
   },
   {
     "posRank": "OT19",
@@ -7045,7 +9693,25 @@
     },
     "callouts": [
       "3rd highest vertical jump among OTs (34\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 11,
+        "total": 26
+      },
+      "explosion": {
+        "rank": 3,
+        "total": 28
+      },
+      "power": {
+        "rank": 14,
+        "total": 19
+      },
+      "size": {
+        "rank": 27,
+        "total": 28
+      }
+    }
   },
   {
     "posRank": "OT21",
@@ -7094,7 +9760,25 @@
       "agility": 67,
       "size": 18
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 14,
+        "total": 26
+      },
+      "explosion": {
+        "rank": 13,
+        "total": 28
+      },
+      "agility": {
+        "rank": 3,
+        "total": 9
+      },
+      "size": {
+        "rank": 24,
+        "total": 28
+      }
+    }
   },
   {
     "posRank": "OT22",
@@ -7140,7 +9824,21 @@
     },
     "callouts": [
       "3rd highest vertical jump among OTs (34\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 26,
+        "total": 26
+      },
+      "explosion": {
+        "rank": 3,
+        "total": 28
+      },
+      "size": {
+        "rank": 16,
+        "total": 28
+      }
+    }
   },
   {
     "posRank": "OT23",
@@ -7176,7 +9874,29 @@
       "agility": 56,
       "size": 11
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 10,
+        "total": 26
+      },
+      "explosion": {
+        "rank": 13,
+        "total": 28
+      },
+      "power": {
+        "rank": 15,
+        "total": 19
+      },
+      "agility": {
+        "rank": 4,
+        "total": 9
+      },
+      "size": {
+        "rank": 26,
+        "total": 28
+      }
+    }
   },
   {
     "posRank": "OT24",
@@ -7213,7 +9933,29 @@
     },
     "callouts": [
       "1st fastest 40-yard dash among OTs (4.59s)"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 1,
+        "total": 26
+      },
+      "explosion": {
+        "rank": 25,
+        "total": 28
+      },
+      "power": {
+        "rank": 17,
+        "total": 19
+      },
+      "agility": {
+        "rank": 6,
+        "total": 9
+      },
+      "size": {
+        "rank": 24,
+        "total": 28
+      }
+    }
   },
   {
     "posRank": "OT25",
@@ -7243,7 +9985,17 @@
     },
     "callouts": [
       "3rd highest vertical jump among OTs (34\")"
-    ]
+    ],
+    "ranks": {
+      "explosion": {
+        "rank": 3,
+        "total": 28
+      },
+      "size": {
+        "rank": 21,
+        "total": 28
+      }
+    }
   },
   {
     "posRank": "OT26",
@@ -7274,7 +10026,25 @@
       "agility": 78,
       "size": 4
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 15,
+        "total": 26
+      },
+      "explosion": {
+        "rank": 13,
+        "total": 28
+      },
+      "agility": {
+        "rank": 2,
+        "total": 9
+      },
+      "size": {
+        "rank": 28,
+        "total": 28
+      }
+    }
   },
   {
     "posRank": "OT27",
@@ -7307,7 +10077,21 @@
     },
     "callouts": [
       "3rd highest vertical jump among OTs (34\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 23,
+        "total": 26
+      },
+      "explosion": {
+        "rank": 3,
+        "total": 28
+      },
+      "size": {
+        "rank": 7,
+        "total": 28
+      }
+    }
   },
   {
     "posRank": "OT28",
@@ -7339,7 +10123,21 @@
     },
     "callouts": [
       "3rd highest vertical jump among OTs (34\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 8,
+        "total": 26
+      },
+      "explosion": {
+        "rank": 3,
+        "total": 28
+      },
+      "size": {
+        "rank": 3,
+        "total": 28
+      }
+    }
   },
   {
     "posRank": "OT29",
@@ -7406,7 +10204,33 @@
       "size": 25,
       "quickness": 1
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 6,
+        "total": 26
+      },
+      "explosion": {
+        "rank": 28,
+        "total": 28
+      },
+      "power": {
+        "rank": 9,
+        "total": 19
+      },
+      "agility": {
+        "rank": 5,
+        "total": 9
+      },
+      "size": {
+        "rank": 22,
+        "total": 28
+      },
+      "quickness": {
+        "rank": 1,
+        "total": 2
+      }
+    }
   },
   {
     "posRank": "EDGE1",
@@ -7455,7 +10279,21 @@
     },
     "callouts": [
       "2nd fastest 40-yard dash among EDGEs (4.46s)"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 2,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 22,
+        "total": 45
+      },
+      "size": {
+        "rank": 37,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE2",
@@ -7507,7 +10345,25 @@
     },
     "callouts": [
       "3rd fastest 40-yard dash among EDGEs (4.50s)"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 3,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 6,
+        "total": 45
+      },
+      "power": {
+        "rank": 3,
+        "total": 20
+      },
+      "size": {
+        "rank": 28,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE3",
@@ -7551,7 +10407,17 @@
       "explosion": 9,
       "size": 87
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 42,
+        "total": 45
+      },
+      "size": {
+        "rank": 7,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE4",
@@ -7603,7 +10469,25 @@
     },
     "callouts": [
       "2nd highest vertical jump among EDGEs (34\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 18,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 45
+      },
+      "power": {
+        "rank": 18,
+        "total": 20
+      },
+      "size": {
+        "rank": 1,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE5",
@@ -7646,7 +10530,17 @@
       "explosion": 53,
       "size": 73
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 22,
+        "total": 45
+      },
+      "size": {
+        "rank": 13,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE6",
@@ -7696,7 +10590,25 @@
       "power": 60,
       "size": 87
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 20,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 6,
+        "total": 45
+      },
+      "power": {
+        "rank": 9,
+        "total": 20
+      },
+      "size": {
+        "rank": 7,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE7",
@@ -7746,7 +10658,25 @@
       "power": 95,
       "size": 49
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 5,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 6,
+        "total": 45
+      },
+      "power": {
+        "rank": 2,
+        "total": 20
+      },
+      "size": {
+        "rank": 24,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE8",
@@ -7793,7 +10723,21 @@
       "explosion": 89,
       "size": 82
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 28,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 6,
+        "total": 45
+      },
+      "size": {
+        "rank": 9,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE9",
@@ -7843,7 +10787,25 @@
       "power": 10,
       "size": 49
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 9,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 42,
+        "total": 45
+      },
+      "power": {
+        "rank": 19,
+        "total": 20
+      },
+      "size": {
+        "rank": 24,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE10",
@@ -7895,7 +10857,29 @@
       "agility": 18,
       "size": 20
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 18,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 33,
+        "total": 45
+      },
+      "power": {
+        "rank": 12,
+        "total": 20
+      },
+      "agility": {
+        "rank": 17,
+        "total": 22
+      },
+      "size": {
+        "rank": 37,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE11",
@@ -7940,7 +10924,21 @@
       "explosion": 89,
       "size": 80
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 22,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 6,
+        "total": 45
+      },
+      "size": {
+        "rank": 10,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE12",
@@ -7983,7 +10981,17 @@
       "explosion": 53,
       "size": 49
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 22,
+        "total": 45
+      },
+      "size": {
+        "rank": 24,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE13",
@@ -8035,7 +11043,29 @@
       "agility": 95,
       "size": 60
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 13,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 6,
+        "total": 45
+      },
+      "power": {
+        "rank": 1,
+        "total": 20
+      },
+      "agility": {
+        "rank": 1,
+        "total": 22
+      },
+      "size": {
+        "rank": 19,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE14",
@@ -8079,7 +11109,17 @@
       "explosion": 89,
       "size": 51
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 6,
+        "total": 45
+      },
+      "size": {
+        "rank": 23,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE15",
@@ -8129,7 +11169,25 @@
       "power": 85,
       "size": 7
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 14,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 22,
+        "total": 45
+      },
+      "power": {
+        "rank": 4,
+        "total": 20
+      },
+      "size": {
+        "rank": 43,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE16",
@@ -8177,7 +11235,25 @@
       "power": 75,
       "size": 13
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 14,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 22,
+        "total": 45
+      },
+      "power": {
+        "rank": 6,
+        "total": 20
+      },
+      "size": {
+        "rank": 40,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE17",
@@ -8226,7 +11302,25 @@
       "agility": 5,
       "size": 98
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 34,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 6,
+        "total": 45
+      },
+      "agility": {
+        "rank": 21,
+        "total": 22
+      },
+      "size": {
+        "rank": 2,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE18",
@@ -8279,7 +11373,33 @@
       "size": 71,
       "quickness": 25
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 31,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 22,
+        "total": 45
+      },
+      "power": {
+        "rank": 19,
+        "total": 20
+      },
+      "agility": {
+        "rank": 14,
+        "total": 22
+      },
+      "size": {
+        "rank": 14,
+        "total": 45
+      },
+      "quickness": {
+        "rank": 9,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "EDGE19",
@@ -8326,7 +11446,25 @@
       "agility": 41,
       "size": 64
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 4,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 42,
+        "total": 45
+      },
+      "agility": {
+        "rank": 13,
+        "total": 22
+      },
+      "size": {
+        "rank": 17,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE20",
@@ -8375,7 +11513,21 @@
     },
     "callouts": [
       "2nd highest vertical jump among EDGEs (34\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 25,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 45
+      },
+      "size": {
+        "rank": 36,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE21",
@@ -8429,7 +11581,33 @@
       "size": 60,
       "quickness": 33
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 36,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 33,
+        "total": 45
+      },
+      "power": {
+        "rank": 9,
+        "total": 20
+      },
+      "agility": {
+        "rank": 10,
+        "total": 22
+      },
+      "size": {
+        "rank": 19,
+        "total": 45
+      },
+      "quickness": {
+        "rank": 8,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "EDGE22",
@@ -8479,7 +11657,25 @@
       "power": 20,
       "size": 64
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 9,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 33,
+        "total": 45
+      },
+      "power": {
+        "rank": 17,
+        "total": 20
+      },
+      "size": {
+        "rank": 17,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE23",
@@ -8531,7 +11727,29 @@
       "agility": 77,
       "size": 29
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 16,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 6,
+        "total": 45
+      },
+      "power": {
+        "rank": 8,
+        "total": 20
+      },
+      "agility": {
+        "rank": 4,
+        "total": 22
+      },
+      "size": {
+        "rank": 33,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE24",
@@ -8575,7 +11793,17 @@
       "explosion": 89,
       "size": 60
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 6,
+        "total": 45
+      },
+      "size": {
+        "rank": 19,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE25",
@@ -8629,7 +11857,33 @@
       "size": 24,
       "quickness": 58
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 7,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 33,
+        "total": 45
+      },
+      "power": {
+        "rank": 9,
+        "total": 20
+      },
+      "agility": {
+        "rank": 9,
+        "total": 22
+      },
+      "size": {
+        "rank": 35,
+        "total": 45
+      },
+      "quickness": {
+        "rank": 5,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "EDGE26",
@@ -8679,7 +11933,25 @@
       "power": 85,
       "size": 40
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 29,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 22,
+        "total": 45
+      },
+      "power": {
+        "rank": 4,
+        "total": 20
+      },
+      "size": {
+        "rank": 28,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE27",
@@ -8722,7 +11994,17 @@
       "explosion": 53,
       "size": 96
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 22,
+        "total": 45
+      },
+      "size": {
+        "rank": 3,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE28",
@@ -8772,7 +12054,25 @@
     },
     "callouts": [
       "1st fastest 40-yard dash among EDGEs (4.45s)"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 1,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 42,
+        "total": 45
+      },
+      "agility": {
+        "rank": 17,
+        "total": 22
+      },
+      "size": {
+        "rank": 14,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE29",
@@ -8823,7 +12123,29 @@
       "agility": 9,
       "size": 33
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 25,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 33,
+        "total": 45
+      },
+      "power": {
+        "rank": 12,
+        "total": 20
+      },
+      "agility": {
+        "rank": 19,
+        "total": 22
+      },
+      "size": {
+        "rank": 31,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE30",
@@ -8870,7 +12192,21 @@
       "explosion": 53,
       "size": 80
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 30,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 22,
+        "total": 45
+      },
+      "size": {
+        "rank": 10,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE31",
@@ -8919,7 +12255,25 @@
       "agility": 27,
       "size": 2
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 27,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 22,
+        "total": 45
+      },
+      "agility": {
+        "rank": 16,
+        "total": 22
+      },
+      "size": {
+        "rank": 45,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE32",
@@ -8954,7 +12308,29 @@
       "size": 93,
       "quickness": 92
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 24,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 22,
+        "total": 45
+      },
+      "agility": {
+        "rank": 8,
+        "total": 22
+      },
+      "size": {
+        "rank": 4,
+        "total": 45
+      },
+      "quickness": {
+        "rank": 1,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "EDGE33",
@@ -9014,7 +12390,21 @@
       "explosion": 29,
       "size": 36
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 37,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 33,
+        "total": 45
+      },
+      "size": {
+        "rank": 30,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE35",
@@ -9049,7 +12439,29 @@
       "size": 33,
       "quickness": 67
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 8,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 33,
+        "total": 45
+      },
+      "agility": {
+        "rank": 6,
+        "total": 22
+      },
+      "size": {
+        "rank": 31,
+        "total": 45
+      },
+      "quickness": {
+        "rank": 4,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "EDGE36",
@@ -9104,7 +12516,33 @@
     },
     "callouts": [
       "2nd highest vertical jump among EDGEs (34\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 33,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 45
+      },
+      "power": {
+        "rank": 6,
+        "total": 20
+      },
+      "agility": {
+        "rank": 11,
+        "total": 22
+      },
+      "size": {
+        "rank": 14,
+        "total": 45
+      },
+      "quickness": {
+        "rank": 11,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "EDGE37",
@@ -9142,7 +12580,29 @@
     },
     "callouts": [
       "1st highest vertical jump among EDGEs (35\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 35,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 1,
+        "total": 45
+      },
+      "power": {
+        "rank": 12,
+        "total": 20
+      },
+      "agility": {
+        "rank": 22,
+        "total": 22
+      },
+      "size": {
+        "rank": 19,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE38",
@@ -9193,7 +12653,29 @@
       "size": 20,
       "quickness": 75
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 16,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 33,
+        "total": 45
+      },
+      "agility": {
+        "rank": 3,
+        "total": 22
+      },
+      "size": {
+        "rank": 37,
+        "total": 45
+      },
+      "quickness": {
+        "rank": 3,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "EDGE39",
@@ -9231,7 +12713,33 @@
       "size": 49,
       "quickness": 50
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 12,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 6,
+        "total": 45
+      },
+      "power": {
+        "rank": 12,
+        "total": 20
+      },
+      "agility": {
+        "rank": 7,
+        "total": 22
+      },
+      "size": {
+        "rank": 24,
+        "total": 45
+      },
+      "quickness": {
+        "rank": 6,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "EDGE40",
@@ -9274,7 +12782,17 @@
       "explosion": 89,
       "size": 80
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 6,
+        "total": 45
+      },
+      "size": {
+        "rank": 10,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE41",
@@ -9307,7 +12825,25 @@
       "agility": 9,
       "size": 29
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 22,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 6,
+        "total": 45
+      },
+      "agility": {
+        "rank": 19,
+        "total": 22
+      },
+      "size": {
+        "rank": 33,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE42",
@@ -9343,7 +12879,29 @@
     },
     "callouts": [
       "2nd highest vertical jump among EDGEs (34\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 20,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 45
+      },
+      "agility": {
+        "rank": 15,
+        "total": 22
+      },
+      "size": {
+        "rank": 6,
+        "total": 45
+      },
+      "quickness": {
+        "rank": 11,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "EDGE43",
@@ -9380,7 +12938,33 @@
       "size": 91,
       "quickness": 83
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 38,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 6,
+        "total": 45
+      },
+      "power": {
+        "rank": 12,
+        "total": 20
+      },
+      "agility": {
+        "rank": 2,
+        "total": 22
+      },
+      "size": {
+        "rank": 5,
+        "total": 45
+      },
+      "quickness": {
+        "rank": 2,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "EDGE44",
@@ -9411,7 +12995,21 @@
       "explosion": 89,
       "size": 4
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 6,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 6,
+        "total": 45
+      },
+      "size": {
+        "rank": 44,
+        "total": 45
+      }
+    }
   },
   {
     "posRank": "EDGE45",
@@ -9446,7 +13044,29 @@
       "size": 13,
       "quickness": 17
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 9,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 6,
+        "total": 45
+      },
+      "agility": {
+        "rank": 4,
+        "total": 22
+      },
+      "size": {
+        "rank": 40,
+        "total": 45
+      },
+      "quickness": {
+        "rank": 10,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "EDGE46",
@@ -9481,7 +13101,29 @@
       "size": 13,
       "quickness": 42
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 31,
+        "total": 38
+      },
+      "explosion": {
+        "rank": 33,
+        "total": 45
+      },
+      "agility": {
+        "rank": 12,
+        "total": 22
+      },
+      "size": {
+        "rank": 40,
+        "total": 45
+      },
+      "quickness": {
+        "rank": 7,
+        "total": 12
+      }
+    }
   },
   {
     "posRank": "DT1",
@@ -9525,7 +13167,17 @@
       "explosion": 46,
       "size": 86
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 21,
+        "total": 37
+      },
+      "size": {
+        "rank": 6,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "DT2",
@@ -9576,7 +13228,25 @@
     },
     "callouts": [
       "1st fastest 40-yard dash among DTs (4.54s)"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 1,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 27,
+        "total": 37
+      },
+      "agility": {
+        "rank": 7,
+        "total": 11
+      },
+      "size": {
+        "rank": 25,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "DT3",
@@ -9619,7 +13289,17 @@
       "explosion": 81,
       "size": 78
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 8,
+        "total": 37
+      },
+      "size": {
+        "rank": 9,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "DT4",
@@ -9664,7 +13344,25 @@
     },
     "callouts": [
       "1st highest vertical jump among DTs (35\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 18,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 1,
+        "total": 37
+      },
+      "power": {
+        "rank": 3,
+        "total": 14
+      },
+      "size": {
+        "rank": 4,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "DT5",
@@ -9714,7 +13412,25 @@
       "power": 14,
       "size": 73
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 29,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 8,
+        "total": 37
+      },
+      "power": {
+        "rank": 13,
+        "total": 14
+      },
+      "size": {
+        "rank": 11,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "DT6",
@@ -9758,7 +13474,17 @@
       "explosion": 81,
       "size": 81
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 8,
+        "total": 37
+      },
+      "size": {
+        "rank": 8,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "DT7",
@@ -9812,7 +13538,29 @@
     },
     "callouts": [
       "2nd highest vertical jump among DTs (34\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 22,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 37
+      },
+      "power": {
+        "rank": 9,
+        "total": 14
+      },
+      "size": {
+        "rank": 33,
+        "total": 37
+      },
+      "quickness": {
+        "rank": 8,
+        "total": 8
+      }
+    }
   },
   {
     "posRank": "DT8",
@@ -9863,7 +13611,25 @@
     },
     "callouts": [
       "2nd highest vertical jump among DTs (34\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 20,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 37
+      },
+      "power": {
+        "rank": 10,
+        "total": 14
+      },
+      "size": {
+        "rank": 14,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "DT9",
@@ -9909,7 +13675,17 @@
     },
     "callouts": [
       "2nd highest vertical jump among DTs (34\")"
-    ]
+    ],
+    "ranks": {
+      "explosion": {
+        "rank": 2,
+        "total": 37
+      },
+      "size": {
+        "rank": 12,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "DT10",
@@ -9958,7 +13734,25 @@
       "power": 86,
       "size": 22
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 7,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 27,
+        "total": 37
+      },
+      "power": {
+        "rank": 3,
+        "total": 14
+      },
+      "size": {
+        "rank": 30,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "DT11",
@@ -10010,7 +13804,29 @@
       "agility": 9,
       "size": 24
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 11,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 27,
+        "total": 37
+      },
+      "power": {
+        "rank": 2,
+        "total": 14
+      },
+      "agility": {
+        "rank": 10,
+        "total": 11
+      },
+      "size": {
+        "rank": 29,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "DT12",
@@ -10058,7 +13874,25 @@
       "agility": 45,
       "size": 35
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 14,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 8,
+        "total": 37
+      },
+      "agility": {
+        "rank": 5,
+        "total": 11
+      },
+      "size": {
+        "rank": 25,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "DT13",
@@ -10108,7 +13942,25 @@
       "power": 36,
       "size": 59
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 25,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 8,
+        "total": 37
+      },
+      "power": {
+        "rank": 10,
+        "total": 14
+      },
+      "size": {
+        "rank": 16,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "DT14",
@@ -10158,7 +14010,25 @@
       "power": 71,
       "size": 8
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 4,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 8,
+        "total": 37
+      },
+      "power": {
+        "rank": 5,
+        "total": 14
+      },
+      "size": {
+        "rank": 35,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "DT15",
@@ -10207,7 +14077,25 @@
       "agility": 27,
       "size": 57
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 27,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 8,
+        "total": 37
+      },
+      "agility": {
+        "rank": 8,
+        "total": 11
+      },
+      "size": {
+        "rank": 17,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "DT16",
@@ -10257,7 +14145,25 @@
       "power": 21,
       "size": 65
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 9,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 8,
+        "total": 37
+      },
+      "power": {
+        "rank": 12,
+        "total": 14
+      },
+      "size": {
+        "rank": 14,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "DT17",
@@ -10309,7 +14215,25 @@
     },
     "callouts": [
       "3rd fastest 40-yard dash among DTs (4.75s)"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 3,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 27,
+        "total": 37
+      },
+      "power": {
+        "rank": 6,
+        "total": 14
+      },
+      "size": {
+        "rank": 36,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "DT18",
@@ -10343,7 +14267,29 @@
       "size": 35,
       "quickness": 25
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 4,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 8,
+        "total": 37
+      },
+      "agility": {
+        "rank": 1,
+        "total": 11
+      },
+      "size": {
+        "rank": 25,
+        "total": 37
+      },
+      "quickness": {
+        "rank": 6,
+        "total": 8
+      }
+    }
   },
   {
     "posRank": "DT19",
@@ -10390,7 +14336,21 @@
       "explosion": 46,
       "size": 43
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 26,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 21,
+        "total": 37
+      },
+      "size": {
+        "rank": 22,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "DT20",
@@ -10440,7 +14400,25 @@
       "power": 64,
       "size": 84
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 24,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 8,
+        "total": 37
+      },
+      "power": {
+        "rank": 6,
+        "total": 14
+      },
+      "size": {
+        "rank": 7,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "DT21",
@@ -10475,7 +14453,29 @@
       "size": 22,
       "quickness": 50
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 10,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 27,
+        "total": 37
+      },
+      "agility": {
+        "rank": 3,
+        "total": 11
+      },
+      "size": {
+        "rank": 30,
+        "total": 37
+      },
+      "quickness": {
+        "rank": 4,
+        "total": 8
+      }
+    }
   },
   {
     "posRank": "DT22",
@@ -10525,7 +14525,25 @@
       "power": 14,
       "size": 92
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 31,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 35,
+        "total": 37
+      },
+      "power": {
+        "rank": 13,
+        "total": 14
+      },
+      "size": {
+        "rank": 4,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "DT23",
@@ -10556,7 +14574,21 @@
       "explosion": 30,
       "size": 49
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 11,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 27,
+        "total": 37
+      },
+      "size": {
+        "rank": 20,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "DT24",
@@ -10592,7 +14624,29 @@
     },
     "callouts": [
       "2nd fastest 40-yard dash among DTs (4.73s)"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 2,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 8,
+        "total": 37
+      },
+      "agility": {
+        "rank": 11,
+        "total": 11
+      },
+      "size": {
+        "rank": 23,
+        "total": 37
+      },
+      "quickness": {
+        "rank": 3,
+        "total": 8
+      }
+    }
   },
   {
     "posRank": "DT25",
@@ -10638,7 +14692,21 @@
       "explosion": 46,
       "size": 22
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 11,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 21,
+        "total": 37
+      },
+      "size": {
+        "rank": 30,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "DT26",
@@ -10668,7 +14736,21 @@
       "explosion": 46,
       "size": 76
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 28,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 21,
+        "total": 37
+      },
+      "size": {
+        "rank": 10,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "DT27",
@@ -10698,7 +14780,21 @@
       "explosion": 81,
       "size": 38
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 16,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 8,
+        "total": 37
+      },
+      "size": {
+        "rank": 24,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "DT28",
@@ -10745,7 +14841,21 @@
       "explosion": 8,
       "size": 3
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 21,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 35,
+        "total": 37
+      },
+      "size": {
+        "rank": 37,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "DT29",
@@ -10780,7 +14890,29 @@
       "size": 57,
       "quickness": 88
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 15,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 21,
+        "total": 37
+      },
+      "power": {
+        "rank": 1,
+        "total": 14
+      },
+      "size": {
+        "rank": 17,
+        "total": 37
+      },
+      "quickness": {
+        "rank": 1,
+        "total": 8
+      }
+    }
   },
   {
     "posRank": "DT30",
@@ -10824,7 +14956,17 @@
       "explosion": 30,
       "size": 100
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 27,
+        "total": 37
+      },
+      "size": {
+        "rank": 1,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "DT31",
@@ -10856,7 +14998,25 @@
       "agility": 18,
       "size": 49
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 17,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 27,
+        "total": 37
+      },
+      "agility": {
+        "rank": 9,
+        "total": 11
+      },
+      "size": {
+        "rank": 20,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "DT32",
@@ -10901,7 +15061,17 @@
     },
     "callouts": [
       "2nd highest vertical jump among DTs (34\")"
-    ]
+    ],
+    "ranks": {
+      "explosion": {
+        "rank": 2,
+        "total": 37
+      },
+      "size": {
+        "rank": 2,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "DT33",
@@ -10950,7 +15120,25 @@
     },
     "callouts": [
       "2nd highest vertical jump among DTs (34\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 6,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 37
+      },
+      "power": {
+        "rank": 6,
+        "total": 14
+      },
+      "size": {
+        "rank": 12,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "DT34",
@@ -10983,7 +15171,29 @@
       "size": 27,
       "quickness": 75
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 18,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 8,
+        "total": 37
+      },
+      "agility": {
+        "rank": 3,
+        "total": 11
+      },
+      "size": {
+        "rank": 28,
+        "total": 37
+      },
+      "quickness": {
+        "rank": 2,
+        "total": 8
+      }
+    }
   },
   {
     "posRank": "DT35",
@@ -11018,7 +15228,29 @@
       "size": 51,
       "quickness": 38
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 7,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 35,
+        "total": 37
+      },
+      "agility": {
+        "rank": 2,
+        "total": 11
+      },
+      "size": {
+        "rank": 19,
+        "total": 37
+      },
+      "quickness": {
+        "rank": 5,
+        "total": 8
+      }
+    }
   },
   {
     "posRank": "DT36",
@@ -11065,7 +15297,25 @@
     },
     "callouts": [
       "2nd highest vertical jump among DTs (34\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 30,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 37
+      },
+      "size": {
+        "rank": 3,
+        "total": 37
+      },
+      "quickness": {
+        "rank": 7,
+        "total": 8
+      }
+    }
   },
   {
     "posRank": "DT38",
@@ -11122,7 +15372,25 @@
       "agility": 45,
       "size": 14
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 22,
+        "total": 31
+      },
+      "explosion": {
+        "rank": 21,
+        "total": 37
+      },
+      "agility": {
+        "rank": 5,
+        "total": 11
+      },
+      "size": {
+        "rank": 33,
+        "total": 37
+      }
+    }
   },
   {
     "posRank": "LB1",
@@ -11175,7 +15443,33 @@
     "callouts": [
       "3rd fastest 40-yard dash among LBs (4.46s)",
       "3rd highest vertical jump among LBs (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 3,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 3,
+        "total": 33
+      },
+      "power": {
+        "rank": 1,
+        "total": 16
+      },
+      "agility": {
+        "rank": 12,
+        "total": 22
+      },
+      "size": {
+        "rank": 1,
+        "total": 33
+      },
+      "quickness": {
+        "rank": 5,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "LB2",
@@ -11229,7 +15523,33 @@
       "size": 52,
       "quickness": 87
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 12,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 26,
+        "total": 33
+      },
+      "power": {
+        "rank": 10,
+        "total": 16
+      },
+      "agility": {
+        "rank": 3,
+        "total": 22
+      },
+      "size": {
+        "rank": 17,
+        "total": 33
+      },
+      "quickness": {
+        "rank": 2,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "LB3",
@@ -11273,7 +15593,17 @@
       "explosion": 73,
       "size": 39
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 10,
+        "total": 33
+      },
+      "size": {
+        "rank": 21,
+        "total": 33
+      }
+    }
   },
   {
     "posRank": "LB4",
@@ -11327,7 +15657,33 @@
       "size": 88,
       "quickness": 61
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 19,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 10,
+        "total": 33
+      },
+      "power": {
+        "rank": 3,
+        "total": 16
+      },
+      "agility": {
+        "rank": 10,
+        "total": 22
+      },
+      "size": {
+        "rank": 5,
+        "total": 33
+      },
+      "quickness": {
+        "rank": 8,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "LB5",
@@ -11379,7 +15735,25 @@
     },
     "callouts": [
       "3rd highest vertical jump among LBs (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 6,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 3,
+        "total": 33
+      },
+      "power": {
+        "rank": 3,
+        "total": 16
+      },
+      "size": {
+        "rank": 6,
+        "total": 33
+      }
+    }
   },
   {
     "posRank": "LB6",
@@ -11425,7 +15799,17 @@
     },
     "callouts": [
       "3rd highest vertical jump among LBs (32\")"
-    ]
+    ],
+    "ranks": {
+      "explosion": {
+        "rank": 3,
+        "total": 33
+      },
+      "size": {
+        "rank": 8,
+        "total": 33
+      }
+    }
   },
   {
     "posRank": "LB7",
@@ -11479,7 +15863,33 @@
       "size": 3,
       "quickness": 74
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 7,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 10,
+        "total": 33
+      },
+      "power": {
+        "rank": 2,
+        "total": 16
+      },
+      "agility": {
+        "rank": 5,
+        "total": 22
+      },
+      "size": {
+        "rank": 33,
+        "total": 33
+      },
+      "quickness": {
+        "rank": 5,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "LB8",
@@ -11533,7 +15943,33 @@
       "size": 52,
       "quickness": 48
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 16,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 10,
+        "total": 33
+      },
+      "power": {
+        "rank": 3,
+        "total": 16
+      },
+      "agility": {
+        "rank": 10,
+        "total": 22
+      },
+      "size": {
+        "rank": 17,
+        "total": 33
+      },
+      "quickness": {
+        "rank": 12,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "LB9",
@@ -11586,7 +16022,33 @@
       "size": 73,
       "quickness": 26
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 4,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 10,
+        "total": 33
+      },
+      "power": {
+        "rank": 8,
+        "total": 16
+      },
+      "agility": {
+        "rank": 13,
+        "total": 22
+      },
+      "size": {
+        "rank": 10,
+        "total": 33
+      },
+      "quickness": {
+        "rank": 16,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "LB10",
@@ -11637,7 +16099,29 @@
       "size": 70,
       "quickness": 70
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 25,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 26,
+        "total": 33
+      },
+      "agility": {
+        "rank": 20,
+        "total": 22
+      },
+      "size": {
+        "rank": 11,
+        "total": 33
+      },
+      "quickness": {
+        "rank": 7,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "LB11",
@@ -11690,7 +16174,29 @@
     },
     "callouts": [
       "1st fastest 40-yard dash among LBs (4.26s)"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 1,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 26,
+        "total": 33
+      },
+      "power": {
+        "rank": 12,
+        "total": 16
+      },
+      "agility": {
+        "rank": 7,
+        "total": 22
+      },
+      "size": {
+        "rank": 6,
+        "total": 33
+      }
+    }
   },
   {
     "posRank": "LB12",
@@ -11736,7 +16242,21 @@
       "explosion": 73,
       "size": 64
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 26,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 10,
+        "total": 33
+      },
+      "size": {
+        "rank": 13,
+        "total": 33
+      }
+    }
   },
   {
     "posRank": "LB13",
@@ -11785,7 +16305,25 @@
       "size": 64,
       "quickness": 4
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 27,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 10,
+        "total": 33
+      },
+      "size": {
+        "rank": 13,
+        "total": 33
+      },
+      "quickness": {
+        "rank": 21,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "LB14",
@@ -11839,7 +16377,33 @@
       "size": 91,
       "quickness": 87
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 12,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 10,
+        "total": 33
+      },
+      "power": {
+        "rank": 3,
+        "total": 16
+      },
+      "agility": {
+        "rank": 16,
+        "total": 22
+      },
+      "size": {
+        "rank": 4,
+        "total": 33
+      },
+      "quickness": {
+        "rank": 2,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "LB15",
@@ -11892,7 +16456,33 @@
       "size": 12,
       "quickness": 83
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 12,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 10,
+        "total": 33
+      },
+      "power": {
+        "rank": 3,
+        "total": 16
+      },
+      "agility": {
+        "rank": 2,
+        "total": 22
+      },
+      "size": {
+        "rank": 30,
+        "total": 33
+      },
+      "quickness": {
+        "rank": 4,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "LB16",
@@ -11941,7 +16531,21 @@
     },
     "callouts": [
       "2nd fastest 40-yard dash among LBs (4.45s)"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 2,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 10,
+        "total": 33
+      },
+      "size": {
+        "rank": 30,
+        "total": 33
+      }
+    }
   },
   {
     "posRank": "LB17",
@@ -11992,7 +16596,25 @@
     },
     "callouts": [
       "3rd highest vertical jump among LBs (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 27,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 3,
+        "total": 33
+      },
+      "size": {
+        "rank": 2,
+        "total": 33
+      },
+      "quickness": {
+        "rank": 11,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "LB18",
@@ -12045,7 +16667,29 @@
     },
     "callouts": [
       "3rd highest vertical jump among LBs (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 9,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 3,
+        "total": 33
+      },
+      "agility": {
+        "rank": 21,
+        "total": 22
+      },
+      "size": {
+        "rank": 9,
+        "total": 33
+      },
+      "quickness": {
+        "rank": 20,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "LB19",
@@ -12097,7 +16741,29 @@
       "agility": 23,
       "size": 24
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 19,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 26,
+        "total": 33
+      },
+      "power": {
+        "rank": 12,
+        "total": 16
+      },
+      "agility": {
+        "rank": 17,
+        "total": 22
+      },
+      "size": {
+        "rank": 26,
+        "total": 33
+      }
+    }
   },
   {
     "posRank": "LB20",
@@ -12148,7 +16814,29 @@
       "size": 21,
       "quickness": 61
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 5,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 26,
+        "total": 33
+      },
+      "agility": {
+        "rank": 22,
+        "total": 22
+      },
+      "size": {
+        "rank": 27,
+        "total": 33
+      },
+      "quickness": {
+        "rank": 8,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "LB21",
@@ -12192,7 +16880,17 @@
       "explosion": 73,
       "size": 21
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 10,
+        "total": 33
+      },
+      "size": {
+        "rank": 27,
+        "total": 33
+      }
+    }
   },
   {
     "posRank": "LB22",
@@ -12246,7 +16944,33 @@
       "size": 27,
       "quickness": 22
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 22,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 10,
+        "total": 33
+      },
+      "power": {
+        "rank": 11,
+        "total": 16
+      },
+      "agility": {
+        "rank": 7,
+        "total": 22
+      },
+      "size": {
+        "rank": 25,
+        "total": 33
+      },
+      "quickness": {
+        "rank": 18,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "LB23",
@@ -12281,7 +17005,29 @@
       "size": 64,
       "quickness": 35
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 24,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 26,
+        "total": 33
+      },
+      "agility": {
+        "rank": 4,
+        "total": 22
+      },
+      "size": {
+        "rank": 13,
+        "total": 33
+      },
+      "quickness": {
+        "rank": 13,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "LB24",
@@ -12333,7 +17079,29 @@
       "agility": 73,
       "size": 52
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 9,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 10,
+        "total": 33
+      },
+      "power": {
+        "rank": 9,
+        "total": 16
+      },
+      "agility": {
+        "rank": 6,
+        "total": 22
+      },
+      "size": {
+        "rank": 17,
+        "total": 33
+      }
+    }
   },
   {
     "posRank": "LB25",
@@ -12369,7 +17137,29 @@
     },
     "callouts": [
       "1st highest vertical jump among LBs (35\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 18,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 1,
+        "total": 33
+      },
+      "agility": {
+        "rank": 7,
+        "total": 22
+      },
+      "size": {
+        "rank": 2,
+        "total": 33
+      },
+      "quickness": {
+        "rank": 19,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "LB26",
@@ -12422,7 +17212,29 @@
     },
     "callouts": [
       "3rd highest vertical jump among LBs (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 29,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 3,
+        "total": 33
+      },
+      "power": {
+        "rank": 12,
+        "total": 16
+      },
+      "size": {
+        "rank": 11,
+        "total": 33
+      },
+      "quickness": {
+        "rank": 13,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "LB27",
@@ -12467,7 +17279,17 @@
     },
     "callouts": [
       "3rd highest vertical jump among LBs (32\")"
-    ]
+    ],
+    "ranks": {
+      "explosion": {
+        "rank": 3,
+        "total": 33
+      },
+      "size": {
+        "rank": 17,
+        "total": 33
+      }
+    }
   },
   {
     "posRank": "LB28",
@@ -12521,7 +17343,33 @@
       "size": 30,
       "quickness": 57
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 7,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 26,
+        "total": 33
+      },
+      "power": {
+        "rank": 12,
+        "total": 16
+      },
+      "agility": {
+        "rank": 19,
+        "total": 22
+      },
+      "size": {
+        "rank": 24,
+        "total": 33
+      },
+      "quickness": {
+        "rank": 10,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "LB29",
@@ -12599,7 +17447,25 @@
       "size": 15,
       "quickness": 1
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 22,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 10,
+        "total": 33
+      },
+      "size": {
+        "rank": 29,
+        "total": 33
+      },
+      "quickness": {
+        "rank": 23,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "LB31",
@@ -12652,7 +17518,29 @@
     },
     "callouts": [
       "1st highest vertical jump among LBs (35\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 17,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 1,
+        "total": 33
+      },
+      "agility": {
+        "rank": 1,
+        "total": 22
+      },
+      "size": {
+        "rank": 32,
+        "total": 33
+      },
+      "quickness": {
+        "rank": 16,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "LB32",
@@ -12703,7 +17591,33 @@
       "size": 39,
       "quickness": 35
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 19,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 10,
+        "total": 33
+      },
+      "power": {
+        "rank": 12,
+        "total": 16
+      },
+      "agility": {
+        "rank": 18,
+        "total": 22
+      },
+      "size": {
+        "rank": 21,
+        "total": 33
+      },
+      "quickness": {
+        "rank": 13,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "LB34",
@@ -12738,7 +17652,29 @@
       "size": 39,
       "quickness": 4
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 9,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 26,
+        "total": 33
+      },
+      "agility": {
+        "rank": 13,
+        "total": 22
+      },
+      "size": {
+        "rank": 21,
+        "total": 33
+      },
+      "quickness": {
+        "rank": 21,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "LB35",
@@ -12772,7 +17708,29 @@
       "size": 64,
       "quickness": 96
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 12,
+        "total": 29
+      },
+      "explosion": {
+        "rank": 10,
+        "total": 33
+      },
+      "agility": {
+        "rank": 13,
+        "total": 22
+      },
+      "size": {
+        "rank": 13,
+        "total": 33
+      },
+      "quickness": {
+        "rank": 1,
+        "total": 23
+      }
+    }
   },
   {
     "posRank": "CB1",
@@ -12819,7 +17777,21 @@
       "explosion": 39,
       "size": 34
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 4,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 24,
+        "total": 38
+      },
+      "size": {
+        "rank": 26,
+        "total": 38
+      }
+    }
   },
   {
     "posRank": "CB2",
@@ -12865,7 +17837,21 @@
       "explosion": 74,
       "size": 42
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 6,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 11,
+        "total": 38
+      },
+      "size": {
+        "rank": 23,
+        "total": 38
+      }
+    }
   },
   {
     "posRank": "CB3",
@@ -12917,7 +17903,29 @@
       "size": 71,
       "quickness": 95
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 6,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 24,
+        "total": 38
+      },
+      "power": {
+        "rank": 11,
+        "total": 21
+      },
+      "size": {
+        "rank": 12,
+        "total": 38
+      },
+      "quickness": {
+        "rank": 1,
+        "total": 21
+      }
+    }
   },
   {
     "posRank": "CB4",
@@ -12967,7 +17975,25 @@
       "power": 24,
       "size": 26
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 37,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 11,
+        "total": 38
+      },
+      "power": {
+        "rank": 17,
+        "total": 21
+      },
+      "size": {
+        "rank": 29,
+        "total": 38
+      }
+    }
   },
   {
     "posRank": "CB5",
@@ -13016,7 +18042,25 @@
       "power": 48,
       "size": 71
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 16,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 11,
+        "total": 38
+      },
+      "power": {
+        "rank": 12,
+        "total": 21
+      },
+      "size": {
+        "rank": 12,
+        "total": 38
+      }
+    }
   },
   {
     "posRank": "CB6",
@@ -13097,7 +18141,29 @@
       "size": 53,
       "quickness": 38
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 9,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 24,
+        "total": 38
+      },
+      "power": {
+        "rank": 4,
+        "total": 21
+      },
+      "size": {
+        "rank": 19,
+        "total": 38
+      },
+      "quickness": {
+        "rank": 13,
+        "total": 21
+      }
+    }
   },
   {
     "posRank": "CB8",
@@ -13149,7 +18215,25 @@
     },
     "callouts": [
       "3rd fastest 40-yard dash among CBs (4.33s)"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 3,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 11,
+        "total": 38
+      },
+      "power": {
+        "rank": 6,
+        "total": 21
+      },
+      "size": {
+        "rank": 17,
+        "total": 38
+      }
+    }
   },
   {
     "posRank": "CB9",
@@ -13197,7 +18281,29 @@
       "size": 34,
       "quickness": 19
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 17,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 24,
+        "total": 38
+      },
+      "agility": {
+        "rank": 3,
+        "total": 20
+      },
+      "size": {
+        "rank": 26,
+        "total": 38
+      },
+      "quickness": {
+        "rank": 17,
+        "total": 21
+      }
+    }
   },
   {
     "posRank": "CB10",
@@ -13249,7 +18355,29 @@
       "agility": 35,
       "size": 53
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 17,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 4,
+        "total": 38
+      },
+      "power": {
+        "rank": 20,
+        "total": 21
+      },
+      "agility": {
+        "rank": 12,
+        "total": 20
+      },
+      "size": {
+        "rank": 19,
+        "total": 38
+      }
+    }
   },
   {
     "posRank": "CB11",
@@ -13303,7 +18431,33 @@
       "size": 11,
       "quickness": 67
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 14,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 4,
+        "total": 38
+      },
+      "power": {
+        "rank": 6,
+        "total": 21
+      },
+      "agility": {
+        "rank": 4,
+        "total": 20
+      },
+      "size": {
+        "rank": 35,
+        "total": 38
+      },
+      "quickness": {
+        "rank": 5,
+        "total": 21
+      }
+    }
   },
   {
     "posRank": "CB12",
@@ -13354,7 +18508,33 @@
       "size": 24,
       "quickness": 81
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 6,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 37,
+        "total": 38
+      },
+      "power": {
+        "rank": 6,
+        "total": 21
+      },
+      "agility": {
+        "rank": 6,
+        "total": 20
+      },
+      "size": {
+        "rank": 30,
+        "total": 38
+      },
+      "quickness": {
+        "rank": 3,
+        "total": 21
+      }
+    }
   },
   {
     "posRank": "CB13",
@@ -13404,7 +18584,25 @@
       "power": 33,
       "size": 89
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 4,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 11,
+        "total": 38
+      },
+      "power": {
+        "rank": 15,
+        "total": 21
+      },
+      "size": {
+        "rank": 5,
+        "total": 38
+      }
+    }
   },
   {
     "posRank": "CB14",
@@ -13456,7 +18654,25 @@
     },
     "callouts": [
       "1st highest vertical jump among CBs (33\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 9,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 1,
+        "total": 38
+      },
+      "power": {
+        "rank": 17,
+        "total": 21
+      },
+      "size": {
+        "rank": 9,
+        "total": 38
+      }
+    }
   },
   {
     "posRank": "CB15",
@@ -13510,7 +18726,33 @@
       "size": 97,
       "quickness": 62
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 23,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 4,
+        "total": 38
+      },
+      "power": {
+        "rank": 1,
+        "total": 21
+      },
+      "agility": {
+        "rank": 14,
+        "total": 20
+      },
+      "size": {
+        "rank": 2,
+        "total": 38
+      },
+      "quickness": {
+        "rank": 8,
+        "total": 21
+      }
+    }
   },
   {
     "posRank": "CB16",
@@ -13557,7 +18799,21 @@
       "explosion": 74,
       "size": 92
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 25,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 11,
+        "total": 38
+      },
+      "size": {
+        "rank": 4,
+        "total": 38
+      }
+    }
   },
   {
     "posRank": "CB17",
@@ -13606,7 +18862,25 @@
       "size": 8,
       "quickness": 57
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 22,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 24,
+        "total": 38
+      },
+      "size": {
+        "rank": 36,
+        "total": 38
+      },
+      "quickness": {
+        "rank": 9,
+        "total": 21
+      }
+    }
   },
   {
     "posRank": "CB18",
@@ -13662,7 +18936,33 @@
     },
     "callouts": [
       "1st highest vertical jump among CBs (33\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 17,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 1,
+        "total": 38
+      },
+      "power": {
+        "rank": 15,
+        "total": 21
+      },
+      "agility": {
+        "rank": 1,
+        "total": 20
+      },
+      "size": {
+        "rank": 5,
+        "total": 38
+      },
+      "quickness": {
+        "rank": 2,
+        "total": 21
+      }
+    }
   },
   {
     "posRank": "CB19",
@@ -13716,7 +19016,33 @@
       "size": 63,
       "quickness": 81
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 15,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 11,
+        "total": 38
+      },
+      "power": {
+        "rank": 4,
+        "total": 21
+      },
+      "agility": {
+        "rank": 7,
+        "total": 20
+      },
+      "size": {
+        "rank": 15,
+        "total": 38
+      },
+      "quickness": {
+        "rank": 3,
+        "total": 21
+      }
+    }
   },
   {
     "posRank": "CB20",
@@ -13768,7 +19094,29 @@
       "agility": 10,
       "size": 71
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 9,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 4,
+        "total": 38
+      },
+      "power": {
+        "rank": 2,
+        "total": 21
+      },
+      "agility": {
+        "rank": 17,
+        "total": 20
+      },
+      "size": {
+        "rank": 12,
+        "total": 38
+      }
+    }
   },
   {
     "posRank": "CB21",
@@ -13818,7 +19166,25 @@
       "power": 95,
       "size": 53
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 28,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 4,
+        "total": 38
+      },
+      "power": {
+        "rank": 2,
+        "total": 21
+      },
+      "size": {
+        "rank": 19,
+        "total": 38
+      }
+    }
   },
   {
     "posRank": "CB22",
@@ -13870,7 +19236,33 @@
       "size": 89,
       "quickness": 10
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 32,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 37,
+        "total": 38
+      },
+      "power": {
+        "rank": 12,
+        "total": 21
+      },
+      "agility": {
+        "rank": 11,
+        "total": 20
+      },
+      "size": {
+        "rank": 5,
+        "total": 38
+      },
+      "quickness": {
+        "rank": 19,
+        "total": 21
+      }
+    }
   },
   {
     "posRank": "CB23",
@@ -13917,7 +19309,21 @@
       "power": 48,
       "size": 82
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 11,
+        "total": 38
+      },
+      "power": {
+        "rank": 12,
+        "total": 21
+      },
+      "size": {
+        "rank": 8,
+        "total": 38
+      }
+    }
   },
   {
     "posRank": "CB24",
@@ -13967,7 +19373,29 @@
       "size": 53,
       "quickness": 67
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 35,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 24,
+        "total": 38
+      },
+      "agility": {
+        "rank": 15,
+        "total": 20
+      },
+      "size": {
+        "rank": 19,
+        "total": 38
+      },
+      "quickness": {
+        "rank": 5,
+        "total": 21
+      }
+    }
   },
   {
     "posRank": "CB25",
@@ -14016,7 +19444,25 @@
       "size": 42,
       "quickness": 24
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 27,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 24,
+        "total": 38
+      },
+      "size": {
+        "rank": 23,
+        "total": 38
+      },
+      "quickness": {
+        "rank": 16,
+        "total": 21
+      }
+    }
   },
   {
     "posRank": "CB26",
@@ -14068,7 +19514,29 @@
       "agility": 5,
       "size": 3
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 21,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 11,
+        "total": 38
+      },
+      "power": {
+        "rank": 21,
+        "total": 21
+      },
+      "agility": {
+        "rank": 19,
+        "total": 20
+      },
+      "size": {
+        "rank": 38,
+        "total": 38
+      }
+    }
   },
   {
     "posRank": "CB27",
@@ -14114,7 +19582,21 @@
       "explosion": 74,
       "size": 79
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 9,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 11,
+        "total": 38
+      },
+      "size": {
+        "rank": 9,
+        "total": 38
+      }
+    }
   },
   {
     "posRank": "CB28",
@@ -14150,7 +19632,29 @@
       "size": 95,
       "quickness": 43
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 23,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 24,
+        "total": 38
+      },
+      "power": {
+        "rank": 9,
+        "total": 21
+      },
+      "size": {
+        "rank": 3,
+        "total": 38
+      },
+      "quickness": {
+        "rank": 12,
+        "total": 21
+      }
+    }
   },
   {
     "posRank": "CB29",
@@ -14203,7 +19707,29 @@
     },
     "callouts": [
       "2nd fastest 40-yard dash among CBs (4.32s)"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 2,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 11,
+        "total": 38
+      },
+      "power": {
+        "rank": 10,
+        "total": 21
+      },
+      "agility": {
+        "rank": 16,
+        "total": 20
+      },
+      "size": {
+        "rank": 30,
+        "total": 38
+      }
+    }
   },
   {
     "posRank": "CB30",
@@ -14252,7 +19778,21 @@
     },
     "callouts": [
       "1st fastest 40-yard dash among CBs (4.27s)"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 1,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 11,
+        "total": 38
+      },
+      "size": {
+        "rank": 9,
+        "total": 38
+      }
+    }
   },
   {
     "posRank": "CB31",
@@ -14306,7 +19846,33 @@
       "size": 34,
       "quickness": 67
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 25,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 4,
+        "total": 38
+      },
+      "power": {
+        "rank": 17,
+        "total": 21
+      },
+      "agility": {
+        "rank": 8,
+        "total": 20
+      },
+      "size": {
+        "rank": 26,
+        "total": 38
+      },
+      "quickness": {
+        "rank": 5,
+        "total": 21
+      }
+    }
   },
   {
     "posRank": "CB32",
@@ -14340,7 +19906,29 @@
       "size": 24,
       "quickness": 14
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 33,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 11,
+        "total": 38
+      },
+      "agility": {
+        "rank": 8,
+        "total": 20
+      },
+      "size": {
+        "rank": 30,
+        "total": 38
+      },
+      "quickness": {
+        "rank": 18,
+        "total": 21
+      }
+    }
   },
   {
     "posRank": "CB33",
@@ -14371,7 +19959,21 @@
       "explosion": 39,
       "size": 24
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 28,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 24,
+        "total": 38
+      },
+      "size": {
+        "rank": 30,
+        "total": 38
+      }
+    }
   },
   {
     "posRank": "CB34",
@@ -14406,7 +20008,29 @@
       "size": 58,
       "quickness": 52
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 30,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 24,
+        "total": 38
+      },
+      "agility": {
+        "rank": 2,
+        "total": 20
+      },
+      "size": {
+        "rank": 17,
+        "total": 38
+      },
+      "quickness": {
+        "rank": 10,
+        "total": 21
+      }
+    }
   },
   {
     "posRank": "CB35",
@@ -14457,7 +20081,29 @@
       "size": 5,
       "quickness": 5
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 17,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 24,
+        "total": 38
+      },
+      "agility": {
+        "rank": 17,
+        "total": 20
+      },
+      "size": {
+        "rank": 37,
+        "total": 38
+      },
+      "quickness": {
+        "rank": 20,
+        "total": 21
+      }
+    }
   },
   {
     "posRank": "CB36",
@@ -14492,7 +20138,29 @@
       "size": 42,
       "quickness": 48
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 30,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 24,
+        "total": 38
+      },
+      "agility": {
+        "rank": 12,
+        "total": 20
+      },
+      "size": {
+        "rank": 23,
+        "total": 38
+      },
+      "quickness": {
+        "rank": 11,
+        "total": 21
+      }
+    }
   },
   {
     "posRank": "CB37",
@@ -14542,7 +20210,29 @@
     },
     "callouts": [
       "1st highest vertical jump among CBs (33\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 36,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 1,
+        "total": 38
+      },
+      "agility": {
+        "rank": 8,
+        "total": 20
+      },
+      "size": {
+        "rank": 15,
+        "total": 38
+      },
+      "quickness": {
+        "rank": 14,
+        "total": 21
+      }
+    }
   },
   {
     "posRank": "CB39",
@@ -14589,7 +20279,29 @@
       "size": 13,
       "quickness": 1
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 34,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 24,
+        "total": 38
+      },
+      "agility": {
+        "rank": 20,
+        "total": 20
+      },
+      "size": {
+        "rank": 34,
+        "total": 38
+      },
+      "quickness": {
+        "rank": 21,
+        "total": 21
+      }
+    }
   },
   {
     "posRank": "CB41",
@@ -14624,7 +20336,29 @@
       "size": 100,
       "quickness": 29
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 9,
+        "total": 37
+      },
+      "explosion": {
+        "rank": 4,
+        "total": 38
+      },
+      "agility": {
+        "rank": 4,
+        "total": 20
+      },
+      "size": {
+        "rank": 1,
+        "total": 38
+      },
+      "quickness": {
+        "rank": 15,
+        "total": 21
+      }
+    }
   },
   {
     "posRank": "CB42",
@@ -14680,7 +20414,17 @@
       "explosion": 41,
       "size": 78
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 17,
+        "total": 27
+      },
+      "size": {
+        "rank": 7,
+        "total": 27
+      }
+    }
   },
   {
     "posRank": "S2",
@@ -14729,7 +20473,25 @@
       "power": 58,
       "size": 44
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 4,
+        "total": 24
+      },
+      "explosion": {
+        "rank": 9,
+        "total": 27
+      },
+      "power": {
+        "rank": 6,
+        "total": 12
+      },
+      "size": {
+        "rank": 16,
+        "total": 27
+      }
+    }
   },
   {
     "posRank": "S3",
@@ -14780,7 +20542,25 @@
     },
     "callouts": [
       "2nd highest vertical jump among Ss (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 14,
+        "total": 24
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 27
+      },
+      "power": {
+        "rank": 8,
+        "total": 12
+      },
+      "size": {
+        "rank": 16,
+        "total": 27
+      }
+    }
   },
   {
     "posRank": "S4",
@@ -14829,7 +20609,21 @@
     },
     "callouts": [
       "2nd fastest 40-yard dash among Ss (4.33s)"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 2,
+        "total": 24
+      },
+      "explosion": {
+        "rank": 9,
+        "total": 27
+      },
+      "size": {
+        "rank": 22,
+        "total": 27
+      }
+    }
   },
   {
     "posRank": "S5",
@@ -14876,7 +20670,21 @@
       "explosion": 41,
       "size": 96
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 14,
+        "total": 24
+      },
+      "explosion": {
+        "rank": 17,
+        "total": 27
+      },
+      "size": {
+        "rank": 2,
+        "total": 27
+      }
+    }
   },
   {
     "posRank": "S6",
@@ -14930,7 +20738,33 @@
       "size": 63,
       "quickness": 93
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 21,
+        "total": 24
+      },
+      "explosion": {
+        "rank": 9,
+        "total": 27
+      },
+      "power": {
+        "rank": 8,
+        "total": 12
+      },
+      "agility": {
+        "rank": 7,
+        "total": 16
+      },
+      "size": {
+        "rank": 11,
+        "total": 27
+      },
+      "quickness": {
+        "rank": 1,
+        "total": 14
+      }
+    }
   },
   {
     "posRank": "S7",
@@ -14977,7 +20811,25 @@
       "power": 75,
       "size": 4
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 7,
+        "total": 24
+      },
+      "explosion": {
+        "rank": 9,
+        "total": 27
+      },
+      "power": {
+        "rank": 4,
+        "total": 12
+      },
+      "size": {
+        "rank": 27,
+        "total": 27
+      }
+    }
   },
   {
     "posRank": "S8",
@@ -15031,7 +20883,29 @@
     },
     "callouts": [
       "2nd highest vertical jump among Ss (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 5,
+        "total": 24
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 27
+      },
+      "power": {
+        "rank": 1,
+        "total": 12
+      },
+      "size": {
+        "rank": 4,
+        "total": 27
+      },
+      "quickness": {
+        "rank": 9,
+        "total": 14
+      }
+    }
   },
   {
     "posRank": "S9",
@@ -15087,7 +20961,33 @@
     },
     "callouts": [
       "2nd highest vertical jump among Ss (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 11,
+        "total": 24
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 27
+      },
+      "power": {
+        "rank": 3,
+        "total": 12
+      },
+      "agility": {
+        "rank": 9,
+        "total": 16
+      },
+      "size": {
+        "rank": 14,
+        "total": 27
+      },
+      "quickness": {
+        "rank": 4,
+        "total": 14
+      }
+    }
   },
   {
     "posRank": "S10",
@@ -15137,7 +21037,25 @@
       "power": 25,
       "size": 52
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 9,
+        "total": 24
+      },
+      "explosion": {
+        "rank": 17,
+        "total": 27
+      },
+      "power": {
+        "rank": 10,
+        "total": 12
+      },
+      "size": {
+        "rank": 14,
+        "total": 27
+      }
+    }
   },
   {
     "posRank": "S11",
@@ -15189,7 +21107,29 @@
       "size": 93,
       "quickness": 29
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 18,
+        "total": 24
+      },
+      "explosion": {
+        "rank": 9,
+        "total": 27
+      },
+      "power": {
+        "rank": 11,
+        "total": 12
+      },
+      "size": {
+        "rank": 3,
+        "total": 27
+      },
+      "quickness": {
+        "rank": 9,
+        "total": 14
+      }
+    }
   },
   {
     "posRank": "S12",
@@ -15243,7 +21183,29 @@
     },
     "callouts": [
       "1st highest vertical jump among Ss (33\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 5,
+        "total": 24
+      },
+      "explosion": {
+        "rank": 1,
+        "total": 27
+      },
+      "power": {
+        "rank": 4,
+        "total": 12
+      },
+      "agility": {
+        "rank": 4,
+        "total": 16
+      },
+      "size": {
+        "rank": 7,
+        "total": 27
+      }
+    }
   },
   {
     "posRank": "S13",
@@ -15293,7 +21255,29 @@
       "size": 11,
       "quickness": 79
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 11,
+        "total": 24
+      },
+      "explosion": {
+        "rank": 25,
+        "total": 27
+      },
+      "agility": {
+        "rank": 3,
+        "total": 16
+      },
+      "size": {
+        "rank": 25,
+        "total": 27
+      },
+      "quickness": {
+        "rank": 3,
+        "total": 14
+      }
+    }
   },
   {
     "posRank": "S14",
@@ -15350,7 +21334,33 @@
     "callouts": [
       "1st fastest 40-yard dash among Ss (4.32s)",
       "2nd highest vertical jump among Ss (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 1,
+        "total": 24
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 27
+      },
+      "power": {
+        "rank": 6,
+        "total": 12
+      },
+      "agility": {
+        "rank": 14,
+        "total": 16
+      },
+      "size": {
+        "rank": 9,
+        "total": 27
+      },
+      "quickness": {
+        "rank": 14,
+        "total": 14
+      }
+    }
   },
   {
     "posRank": "S15",
@@ -15405,7 +21415,33 @@
     },
     "callouts": [
       "2nd highest vertical jump among Ss (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 18,
+        "total": 24
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 27
+      },
+      "power": {
+        "rank": 1,
+        "total": 12
+      },
+      "agility": {
+        "rank": 11,
+        "total": 16
+      },
+      "size": {
+        "rank": 9,
+        "total": 27
+      },
+      "quickness": {
+        "rank": 11,
+        "total": 14
+      }
+    }
   },
   {
     "posRank": "S16",
@@ -15457,7 +21493,29 @@
       "agility": 25,
       "size": 19
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 7,
+        "total": 24
+      },
+      "explosion": {
+        "rank": 17,
+        "total": 27
+      },
+      "power": {
+        "rank": 11,
+        "total": 12
+      },
+      "agility": {
+        "rank": 12,
+        "total": 16
+      },
+      "size": {
+        "rank": 23,
+        "total": 27
+      }
+    }
   },
   {
     "posRank": "S17",
@@ -15508,7 +21566,29 @@
       "size": 30,
       "quickness": 43
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 16,
+        "total": 24
+      },
+      "explosion": {
+        "rank": 17,
+        "total": 27
+      },
+      "agility": {
+        "rank": 16,
+        "total": 16
+      },
+      "size": {
+        "rank": 20,
+        "total": 27
+      },
+      "quickness": {
+        "rank": 8,
+        "total": 14
+      }
+    }
   },
   {
     "posRank": "S18",
@@ -15557,7 +21637,25 @@
       "agility": 50,
       "size": 44
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 16,
+        "total": 24
+      },
+      "explosion": {
+        "rank": 9,
+        "total": 27
+      },
+      "agility": {
+        "rank": 8,
+        "total": 16
+      },
+      "size": {
+        "rank": 16,
+        "total": 27
+      }
+    }
   },
   {
     "posRank": "S19",
@@ -15602,7 +21700,29 @@
       "size": 15,
       "quickness": 57
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 23,
+        "total": 24
+      },
+      "explosion": {
+        "rank": 25,
+        "total": 27
+      },
+      "agility": {
+        "rank": 6,
+        "total": 16
+      },
+      "size": {
+        "rank": 24,
+        "total": 27
+      },
+      "quickness": {
+        "rank": 6,
+        "total": 14
+      }
+    }
   },
   {
     "posRank": "S20",
@@ -15654,7 +21774,29 @@
     },
     "callouts": [
       "2nd highest vertical jump among Ss (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 20,
+        "total": 24
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 27
+      },
+      "agility": {
+        "rank": 2,
+        "total": 16
+      },
+      "size": {
+        "rank": 4,
+        "total": 27
+      },
+      "quickness": {
+        "rank": 12,
+        "total": 14
+      }
+    }
   },
   {
     "posRank": "S21",
@@ -15698,7 +21840,17 @@
       "explosion": 41,
       "size": 100
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 17,
+        "total": 27
+      },
+      "size": {
+        "rank": 1,
+        "total": 27
+      }
+    }
   },
   {
     "posRank": "S22",
@@ -15742,7 +21894,17 @@
       "explosion": 41,
       "size": 30
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "explosion": {
+        "rank": 17,
+        "total": 27
+      },
+      "size": {
+        "rank": 20,
+        "total": 27
+      }
+    }
   },
   {
     "posRank": "S23",
@@ -15790,7 +21952,25 @@
       "agility": 69,
       "size": 81
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 10,
+        "total": 24
+      },
+      "explosion": {
+        "rank": 17,
+        "total": 27
+      },
+      "agility": {
+        "rank": 4,
+        "total": 16
+      },
+      "size": {
+        "rank": 6,
+        "total": 27
+      }
+    }
   },
   {
     "posRank": "S24",
@@ -15827,7 +22007,29 @@
     },
     "callouts": [
       "2nd highest vertical jump among Ss (32\")"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 11,
+        "total": 24
+      },
+      "explosion": {
+        "rank": 2,
+        "total": 27
+      },
+      "agility": {
+        "rank": 10,
+        "total": 16
+      },
+      "size": {
+        "rank": 19,
+        "total": 27
+      },
+      "quickness": {
+        "rank": 5,
+        "total": 14
+      }
+    }
   },
   {
     "posRank": "S25",
@@ -15862,7 +22064,29 @@
     },
     "callouts": [
       "2nd fastest 40-yard dash among Ss (4.33s)"
-    ]
+    ],
+    "ranks": {
+      "speed": {
+        "rank": 2,
+        "total": 24
+      },
+      "explosion": {
+        "rank": 25,
+        "total": 27
+      },
+      "agility": {
+        "rank": 1,
+        "total": 16
+      },
+      "size": {
+        "rank": 26,
+        "total": 27
+      },
+      "quickness": {
+        "rank": 7,
+        "total": 14
+      }
+    }
   },
   {
     "posRank": "S26",
@@ -15895,7 +22119,29 @@
       "size": 63,
       "quickness": 86
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 21,
+        "total": 24
+      },
+      "explosion": {
+        "rank": 9,
+        "total": 27
+      },
+      "agility": {
+        "rank": 13,
+        "total": 16
+      },
+      "size": {
+        "rank": 11,
+        "total": 27
+      },
+      "quickness": {
+        "rank": 2,
+        "total": 14
+      }
+    }
   },
   {
     "posRank": "S27",
@@ -15930,7 +22176,29 @@
       "size": 63,
       "quickness": 7
     },
-    "callouts": []
+    "callouts": [],
+    "ranks": {
+      "speed": {
+        "rank": 24,
+        "total": 24
+      },
+      "explosion": {
+        "rank": 9,
+        "total": 27
+      },
+      "agility": {
+        "rank": 15,
+        "total": 16
+      },
+      "size": {
+        "rank": 11,
+        "total": 27
+      },
+      "quickness": {
+        "rank": 13,
+        "total": 14
+      }
+    }
   },
   {
     "posRank": "S28",
