@@ -18,7 +18,8 @@
       "pocket-passer",
       "scheme-fit:pro-style",
       "franchise-qb"
-    ]
+    ],
+    "freakScore": 0.5
   },
   {
     "id": "arvell-reese",
@@ -60,7 +61,8 @@
       "pass-catcher",
       "elite-burst",
       "scheme-fit:any"
-    ]
+    ],
+    "freakScore": 0.5
   },
   {
     "id": "caleb-downs",
@@ -104,7 +106,8 @@
       "scheme-fit:4-3",
       "run-stopper",
       "pass-rush-upside"
-    ]
+    ],
+    "freakScore": 1
   },
   {
     "id": "rueben-bain-jr",
@@ -146,7 +149,8 @@
       "pass-rusher",
       "scheme-fit:4-3",
       "sack-production"
-    ]
+    ],
+    "freakScore": 0.75
   },
   {
     "id": "mansoor-delane",
@@ -209,7 +213,8 @@
       "run-blocker",
       "scheme-fit:gap",
       "anchor-strength"
-    ]
+    ],
+    "freakScore": 0.5
   },
   {
     "id": "spencer-fano",
@@ -230,7 +235,8 @@
       "run-blocker",
       "hand-fighter",
       "scheme-fit:gap"
-    ]
+    ],
+    "freakScore": 0.5
   },
   {
     "id": "jermod-mccoy",
@@ -336,7 +342,8 @@
       "scheme-fit:spread",
       "seam-threat",
       "blocking-upside"
-    ]
+    ],
+    "freakScore": 0.5
   },
   {
     "id": "monroe-freeling",
@@ -357,7 +364,8 @@
       "scheme-fit:pro-style",
       "technician",
       "pass-protector"
-    ]
+    ],
+    "freakScore": 0.5
   },
   {
     "id": "dillon-thieneman",
@@ -441,7 +449,8 @@
       "speed-rusher",
       "scheme-fit:4-3",
       "high-ceiling"
-    ]
+    ],
+    "freakScore": 0.75
   },
   {
     "id": "emmanuel-mcneil-warren",
@@ -462,7 +471,8 @@
       "G5-standout",
       "high-ceiling",
       "scheme-fit:cover-2"
-    ]
+    ],
+    "freakScore": 0.5
   },
   {
     "id": "akheem-mesidor",
@@ -609,7 +619,8 @@
       "contested-catch",
       "YAC-ability",
       "scheme-fit:spread"
-    ]
+    ],
+    "freakScore": 1
   },
   {
     "id": "blake-miller",
@@ -693,7 +704,8 @@
       "elite-motor",
       "scheme-fit:4-3",
       "Clemson-pipeline"
-    ]
+    ],
+    "freakScore": 0.5
   },
   {
     "id": "cashius-howell",
@@ -756,7 +768,8 @@
       "power",
       "run-stuffer",
       "scheme-fit:3-4"
-    ]
+    ],
+    "freakScore": 1
   },
   {
     "id": "max-iheanachor",
@@ -777,7 +790,8 @@
       "raw-technique",
       "scheme-fit:zone",
       "LT-projection"
-    ]
+    ],
+    "freakScore": 0.5
   },
   {
     "id": "chris-johnson",
@@ -798,7 +812,8 @@
       "man-coverage",
       "elite-athleticism",
       "scheme-fit:press-man"
-    ]
+    ],
+    "freakScore": 0.5
   },
   {
     "id": "zion-young",
@@ -819,7 +834,8 @@
       "SEC-tested",
       "scheme-fit:4-3",
       "pass-rusher"
-    ]
+    ],
+    "freakScore": 0.5
   },
   {
     "id": "d-angelo-ponds",
@@ -929,7 +945,8 @@
       "ceiling": 62,
       "consensus": 49
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "r-mason-thomas",
@@ -971,7 +988,8 @@
       "RAS:9.93",
       "downhill-thumper",
       "scheme-fit:4-3"
-    ]
+    ],
+    "freakScore": 0.5
   },
   {
     "id": "gabe-jacas",
@@ -1007,7 +1025,8 @@
       "ceiling": 62,
       "consensus": 50
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "emmanuel-pregnon",
@@ -1069,7 +1088,8 @@
       "speed-rusher",
       "bend",
       "scheme-fit:4-3"
-    ]
+    ],
+    "freakScore": 0.75
   },
   {
     "id": "jacob-rodriguez",
@@ -1090,7 +1110,8 @@
       "blitzer",
       "instincts",
       "scheme-fit:3-4"
-    ]
+    ],
+    "freakScore": 0.5
   },
   {
     "id": "germie-bernard",
@@ -1169,7 +1190,8 @@
       "combine-standout",
       "high-ceiling",
       "raw-technique"
-    ]
+    ],
+    "freakScore": 0.5
   },
   {
     "id": "zachariah-branch",
@@ -1280,7 +1302,8 @@
       "zone-blocker",
       "scheme-fit:zone",
       "versatile"
-    ]
+    ],
+    "freakScore": 0.5
   },
   {
     "id": "max-klare",
@@ -1344,7 +1367,8 @@
       "ceiling": 100,
       "consensus": 71
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "domonique-orange",
@@ -1376,7 +1400,8 @@
       "ceiling": 97,
       "consensus": 74
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "elijah-sarratt",
@@ -1429,7 +1454,8 @@
       "ceiling": 153,
       "consensus": 80
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.75
   },
   {
     "id": "dani-dennis-sutton",
@@ -1449,7 +1475,8 @@
       "big-ten",
       "consistent",
       "eagles-visit"
-    ]
+    ],
+    "freakScore": 1
   },
   {
     "id": "davison-igbinosun",
@@ -1465,7 +1492,8 @@
       "ceiling": 133,
       "consensus": 80
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "kamari-ramsey",
@@ -1513,7 +1541,8 @@
       "ceiling": 107,
       "consensus": 84
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "malik-muhammad",
@@ -1529,7 +1558,8 @@
       "ceiling": 110,
       "consensus": 87
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "garrett-nussmeier",
@@ -1571,7 +1601,8 @@
       "run-stuffer",
       "anchor",
       "scheme-fit:3-4"
-    ]
+    ],
+    "freakScore": 0.5
   },
   {
     "id": "genesis-smith",
@@ -1619,7 +1650,8 @@
       "ceiling": 154,
       "consensus": 90
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.75
   },
   {
     "id": "kyle-louis",
@@ -1656,7 +1688,8 @@
       "elusiveness",
       "open-field",
       "scheme-fit:spread"
-    ]
+    ],
+    "freakScore": 0.75
   },
   {
     "id": "devin-moore",
@@ -1672,7 +1705,8 @@
       "ceiling": 124,
       "consensus": 93
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "keyron-crawford",
@@ -1704,7 +1738,8 @@
       "ceiling": 145,
       "consensus": 94
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "ted-hurst",
@@ -1720,7 +1755,8 @@
       "ceiling": 155,
       "consensus": 95
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.75
   },
   {
     "id": "michael-trigg",
@@ -1752,7 +1788,8 @@
       "ceiling": 113,
       "consensus": 100
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "gracen-halton",
@@ -1800,7 +1837,8 @@
       "ceiling": 163,
       "consensus": 104
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.75
   },
   {
     "id": "sam-hecht",
@@ -1944,7 +1982,8 @@
       "ceiling": 238,
       "consensus": 110
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.75
   },
   {
     "id": "brian-parker-ii",
@@ -1976,7 +2015,8 @@
       "ceiling": 157,
       "consensus": 113
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "will-lee-iii",
@@ -1992,7 +2032,8 @@
       "ceiling": 145,
       "consensus": 114
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "daylen-everette",
@@ -2008,7 +2049,8 @@
       "ceiling": 145,
       "consensus": 115
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "kage-casey",
@@ -2088,7 +2130,8 @@
       "ceiling": 180,
       "consensus": 118
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "trey-zuhn-iii",
@@ -2157,7 +2200,8 @@
       "ceiling": 173,
       "consensus": 121
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.75
   },
   {
     "id": "sam-roush",
@@ -2173,7 +2217,8 @@
       "ceiling": 187,
       "consensus": 122
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "jack-endries",
@@ -2269,7 +2314,8 @@
       "ceiling": 207,
       "consensus": 128
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "cyrus-allen",
@@ -2354,7 +2400,8 @@
       "ceiling": 168,
       "consensus": 135
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "carver-willis",
@@ -2386,7 +2433,8 @@
       "ceiling": 247,
       "consensus": 137
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.75
   },
   {
     "id": "beau-stephens",
@@ -2434,7 +2482,8 @@
       "ceiling": 239,
       "consensus": 142
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "joe-royer",
@@ -2546,7 +2595,8 @@
       "ceiling": 214,
       "consensus": 147
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.75
   },
   {
     "id": "marlin-klein",
@@ -2583,7 +2633,8 @@
       "experienced",
       "turnover-risk",
       "scheme-fit:pro-style"
-    ]
+    ],
+    "freakScore": 0.5
   },
   {
     "id": "oscar-delp",
@@ -2636,7 +2687,8 @@
       "ceiling": 206,
       "consensus": 151
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "tim-keenan-iii",
@@ -2668,7 +2720,8 @@
       "ceiling": 205,
       "consensus": 153
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "demonte-capehart",
@@ -2780,7 +2833,8 @@
       "ceiling": 234,
       "consensus": 156
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.75
   },
   {
     "id": "ephesians-prysock",
@@ -2796,7 +2850,8 @@
       "ceiling": 239,
       "consensus": 157
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 1
   },
   {
     "id": "zane-durant",
@@ -2945,7 +3000,8 @@
       "quarters-coverage",
       "sure-tackler",
       "scheme-fit:cover-4"
-    ]
+    ],
+    "freakScore": 0.5
   },
   {
     "id": "nate-boerkircher",
@@ -2961,7 +3017,8 @@
       "ceiling": 244,
       "consensus": 166
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "nadame-tucker",
@@ -3073,7 +3130,8 @@
       "ceiling": 283,
       "consensus": 174
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "landon-robinson",
@@ -3281,7 +3339,8 @@
       "ceiling": 235,
       "consensus": 182
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "max-llewellyn",
@@ -3313,7 +3372,8 @@
       "ceiling": 271,
       "consensus": 183
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 1
   },
   {
     "id": "tyler-onyedim",
@@ -3361,7 +3421,8 @@
       "ceiling": 278,
       "consensus": 185
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "jager-burton",
@@ -3425,7 +3486,8 @@
       "ceiling": 259,
       "consensus": 189
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 1
   },
   {
     "id": "travis-burke",
@@ -3441,7 +3503,8 @@
       "ceiling": 293,
       "consensus": 189
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.75
   },
   {
     "id": "febechi-nwaiwu",
@@ -3553,7 +3616,8 @@
       "ceiling": 261,
       "consensus": 195
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "george-gumbs-jr",
@@ -3569,7 +3633,8 @@
       "ceiling": 226,
       "consensus": 195
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "diego-pounds",
@@ -3654,7 +3719,8 @@
       "effort",
       "high-IQ",
       "scheme-fit:pro-style"
-    ]
+    ],
+    "freakScore": 0.5
   },
   {
     "id": "caleb-douglas",
@@ -3862,7 +3928,8 @@
       "ceiling": 231,
       "consensus": 210
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.75
   },
   {
     "id": "tj-hall",
@@ -3894,7 +3961,8 @@
       "ceiling": 232,
       "consensus": 211
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "jeremiah-wright",
@@ -3942,7 +4010,8 @@
       "ceiling": 257,
       "consensus": 214
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.75
   },
   {
     "id": "zach-durfee",
@@ -3974,7 +4043,8 @@
       "ceiling": 289,
       "consensus": 214
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.75
   },
   {
     "id": "lake-mcree",
@@ -4054,7 +4124,8 @@
       "ceiling": 245,
       "consensus": 218
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "jordan-van-den-berg",
@@ -4070,7 +4141,8 @@
       "ceiling": 294,
       "consensus": 219
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "aaron-anderson",
@@ -4406,7 +4478,8 @@
       "ceiling": 292,
       "consensus": 240
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "jack-kelly",
@@ -4422,7 +4495,8 @@
       "ceiling": 270,
       "consensus": 240
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.75
   },
   {
     "id": "luke-altmyer",
@@ -4454,7 +4528,8 @@
       "ceiling": 310,
       "consensus": 245
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "dalton-johnson",
@@ -4694,7 +4769,8 @@
       "ceiling": 279,
       "consensus": 259
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.75
   },
   {
     "id": "cameron-ball",
@@ -4774,7 +4850,8 @@
       "ceiling": 303,
       "consensus": 261
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.75
   },
   {
     "id": "jack-pyburn",
@@ -4806,7 +4883,8 @@
       "ceiling": 291,
       "consensus": 267
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.75
   },
   {
     "id": "ethan-hurkett",
@@ -4854,7 +4932,8 @@
       "ceiling": 384,
       "consensus": 268
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "dillon-bell",
@@ -4918,7 +4997,8 @@
       "ceiling": 413,
       "consensus": 274
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "evan-beerntsen",
@@ -5131,7 +5211,8 @@
       "ceiling": 352,
       "consensus": 285
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "haynes-king",
@@ -5147,7 +5228,8 @@
       "ceiling": 378,
       "consensus": 289
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.75
   },
   {
     "id": "xavian-sorey-jr",
@@ -5179,7 +5261,8 @@
       "ceiling": 365,
       "consensus": 296
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "namdi-obiazor",
@@ -5275,7 +5358,8 @@
       "ceiling": 369,
       "consensus": 310
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.75
   },
   {
     "id": "wesley-bissainthe",
@@ -5307,7 +5391,8 @@
       "ceiling": 410,
       "consensus": 321
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "khalil-dinkins",
@@ -5387,7 +5472,8 @@
       "ceiling": 184,
       "consensus": 310
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 1
   },
   {
     "id": "wydett-williams-jr",
@@ -5451,7 +5537,8 @@
       "ceiling": 152,
       "consensus": 314
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "skyler-thomas",
@@ -5467,7 +5554,8 @@
       "ceiling": 156,
       "consensus": 315
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.75
   },
   {
     "id": "bakyne-coly",
@@ -5611,7 +5699,8 @@
       "ceiling": 204,
       "consensus": 324
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.75
   },
   {
     "id": "cole-brevard",
@@ -5659,7 +5748,8 @@
       "ceiling": 286,
       "consensus": 327
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.75
   },
   {
     "id": "daniel-sobkowicz",
@@ -5707,7 +5797,8 @@
       "ceiling": 222,
       "consensus": 330
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "dan-villari",
@@ -5755,7 +5846,8 @@
       "ceiling": 231,
       "consensus": 333
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "keelan-marion",
@@ -5915,7 +6007,8 @@
       "ceiling": 248,
       "consensus": 343
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.75
   },
   {
     "id": "jacobian-guillory-ii",
@@ -5963,7 +6056,8 @@
       "ceiling": 290,
       "consensus": 346
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "bryan-thomas-jr",
@@ -5995,7 +6089,8 @@
       "ceiling": 264,
       "consensus": 348
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "matthew-henry",
@@ -6043,7 +6138,8 @@
       "ceiling": 265,
       "consensus": 351
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 1
   },
   {
     "id": "erick-hunter",
@@ -6299,7 +6395,8 @@
       "ceiling": 315,
       "consensus": 367
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.75
   },
   {
     "id": "alex-wollschlaeger",
@@ -6347,7 +6444,8 @@
       "ceiling": 326,
       "consensus": 370
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "ethan-onianwa",
@@ -6427,7 +6525,8 @@
       "ceiling": 312,
       "consensus": 375
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "rodney-shelley",
@@ -6475,7 +6574,8 @@
       "ceiling": 341,
       "consensus": 378
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "tommy-doman",
@@ -6763,7 +6863,8 @@
       "ceiling": 392,
       "consensus": 396
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "shad-banks-jr",
@@ -6811,7 +6912,8 @@
       "ceiling": 338,
       "consensus": 399
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "dylan-hazen",
@@ -6907,7 +7009,8 @@
       "ceiling": 402,
       "consensus": 405
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "devin-voisin",
@@ -7339,7 +7442,8 @@
       "ceiling": 383,
       "consensus": 432
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "ricardo-hallman",
@@ -7451,7 +7555,8 @@
       "ceiling": 404,
       "consensus": 439
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "darryl-peterson-iii",
@@ -7627,7 +7732,8 @@
       "ceiling": 430,
       "consensus": 450
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "dean-connors",
@@ -7755,7 +7861,8 @@
       "ceiling": 440,
       "consensus": 458
     },
-    "tags": []
+    "tags": [],
+    "freakScore": 0.5
   },
   {
     "id": "james-neal-iii",

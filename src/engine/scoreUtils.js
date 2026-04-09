@@ -126,9 +126,17 @@ export function calculateDesireScore({ player, team, regime, beatWriterLinks, cu
   const regimeMin = player.rank <= 5 ? 1.0 : WEIGHTS.REGIME_MIN
   const regimeMultiplier = clamp(rawRegimeBias, regimeMin, WEIGHTS.REGIME_MAX)
 
+  // Step 5b: Athletic freak bonus — players with elite combine measurables
+  // get a small multiplier. Teams take fliers on freaky athletes, especially
+  // in later rounds. This is a gentle nudge, not a game-changer:
+  //   freakScore 0.5 (2 elite traits) → 1.03x
+  //   freakScore 0.75 (3 elite traits) → 1.045x
+  //   freakScore 1.0 (4+ elite traits) → 1.06x
+  const freakMultiplier = 1.0 + (player.freakScore ?? 0) * 0.06
+
   // Step 6: Pre-noise score — penalty, urgency, and regime all applied
   const preNoiseScore =
-    (baseScore * needMultiplier + beatWriterBonus + insiderBonus) * regimeMultiplier * mockRangePenalty * urgencyMultiplier
+    (baseScore * needMultiplier + beatWriterBonus + insiderBonus) * regimeMultiplier * mockRangePenalty * urgencyMultiplier * freakMultiplier
 
   // Step 7: Gaussian noise — two components:
   //
