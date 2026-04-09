@@ -97,6 +97,22 @@
       "strength": 45,
       "isInsiderLanguage": true,
       "quote": "Schrager mock #16 (via IND) to Jets: Omar Cooper Jr. WR. \"Every GM I speak to seems to love Cooper. He's fearless and tough as nails — and he produces.\" Direct attribution to multiple GMs. Schrager compares Cooper to Deebo Samuel."
+    },
+    {
+      "playerId": "omar-cooper-jr",
+      "analyst": "ESPN Insider Buzz",
+      "outlet": "ESPN",
+      "strength": 42,
+      "isInsiderLanguage": true,
+      "quote": "ESPN buzz: Jets \"extremely high on\" Cooper. Viewed as WR2 complement to Garrett Wilson."
+    },
+    {
+      "playerId": "drew-allar",
+      "analyst": "ESPN Insider Buzz",
+      "outlet": "ESPN",
+      "strength": 30,
+      "isInsiderLanguage": true,
+      "quote": "ESPN buzz: Allar \"recently had a private workout\" at Jets facility."
     }
   ],
   "ARI": [
@@ -147,6 +163,14 @@
       "strength": 45,
       "isInsiderLanguage": true,
       "quote": "Schrager mock #3 to Cardinals. \"I've heard rave reviews on Reese's off-field qualities from coaches\" — describing him as potentially an elite pass rusher."
+    },
+    {
+      "playerId": "ty-simpson",
+      "analyst": "ESPN Insider Buzz",
+      "outlet": "ESPN",
+      "strength": 35,
+      "isInsiderLanguage": true,
+      "quote": "ESPN buzz: Cardinals trading back into Round 1 for Simpson \"kicked around.\" Team \"liked Simpson for a while.\""
     }
   ],
   "TEN": [
@@ -205,6 +229,30 @@
       "strength": 38,
       "isInsiderLanguage": false,
       "quote": "Schrager mock #4 to Titans. Love \"a dynamic player who can do it all\" — 1,372 yards and 18 TDs. Schrager interviewed Borgonzi at league meetings."
+    },
+    {
+      "playerId": "jeremiyah-love",
+      "analyst": "ESPN Insider Buzz",
+      "outlet": "ESPN",
+      "strength": 40,
+      "isInsiderLanguage": true,
+      "quote": "ESPN buzz: Love \"very possible\" at #4 for Titans. Fits mold of Jahmyr Gibbs."
+    },
+    {
+      "playerId": "sonny-styles",
+      "analyst": "ESPN Insider Buzz",
+      "outlet": "ESPN",
+      "strength": 30,
+      "isInsiderLanguage": false,
+      "quote": "ESPN buzz: Styles called a \"wild card to look out for\" at #4 for Titans."
+    },
+    {
+      "playerId": "ted-hurst",
+      "analyst": "ESPN Insider Buzz",
+      "outlet": "ESPN",
+      "strength": 25,
+      "isInsiderLanguage": true,
+      "quote": "ESPN buzz: Hurst \"frequently mentioned\" for Titans receiver options."
     }
   ],
   "NYG": [
@@ -271,6 +319,14 @@
       "strength": 35,
       "isInsiderLanguage": false,
       "quote": "Schrager mock #5 to Giants. Mauigoa \"expected to be the first offensive lineman off the board.\" Giants coach Harbaugh called OL \"a work in progress\" at league meetings."
+    },
+    {
+      "playerId": "sonny-styles",
+      "analyst": "ESPN Insider Buzz",
+      "outlet": "ESPN",
+      "strength": 38,
+      "isInsiderLanguage": true,
+      "quote": "ESPN buzz: Styles a \"real possibility\" at #5 for Giants. Fits Harbaugh LB philosophy."
     }
   ],
   "CLE": [
@@ -369,6 +425,14 @@
       "strength": 48,
       "isInsiderLanguage": true,
       "quote": "Schrager mock #24 (via JAX) to Browns: KC Concepcion. \"I've had multiple sources compare Concepcion to Zay Flowers\" — who was coached by current Browns staff during their Baltimore tenure. EXPLICIT MULTI-SOURCE attribution."
+    },
+    {
+      "playerId": "francis-mauigoa",
+      "analyst": "ESPN Insider Buzz",
+      "outlet": "ESPN",
+      "strength": 30,
+      "isInsiderLanguage": false,
+      "quote": "ESPN buzz: Browns GM won't \"typecast\" tackles by college position. BPA philosophy."
     }
   ],
   "WAS": [
@@ -493,6 +557,14 @@
       "strength": 38,
       "isInsiderLanguage": false,
       "quote": "Schrager mock #8 to Saints. Bain \"viewed as a top-10-worthy prospect\" — passive voice indicating sourced league consensus despite short arms concern."
+    },
+    {
+      "playerId": "carnell-tate",
+      "analyst": "ESPN Insider Buzz",
+      "outlet": "ESPN",
+      "strength": 32,
+      "isInsiderLanguage": true,
+      "quote": "ESPN buzz: Saints wouldn't be surprised to quickly add Tate if available to join fellow Ohio State alumnus Olave."
     }
   ],
   "KC": [
@@ -567,6 +639,14 @@
       "strength": 35,
       "isInsiderLanguage": false,
       "quote": "Schrager mock #9 to Chiefs — WR over EDGE/IOL. \"Finding offensive playmakers is a MAJOR PRIORITY\" for KC. \"Tyson pops more than any other receiver in this draft class.\""
+    },
+    {
+      "playerId": "colton-hood",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 35,
+      "isInsiderLanguage": false,
+      "quote": "Schrager mock #29 (via LAR): Hood to Chiefs. CB addressed over WR."
     }
   ],
   "CIN": [
@@ -683,6 +763,14 @@
       "strength": 35,
       "isInsiderLanguage": false,
       "quote": "Schrager mock #11 to Dolphins. Coach Hafley and GM Sullivan \"have countless contacts at Ohio State\" and \"the whole program raves about Tate.\" Direct sourcing from OSU program insiders. Miami holds 7 picks in first 3 rounds."
+    },
+    {
+      "playerId": "dillon-thieneman",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 35,
+      "isInsiderLanguage": false,
+      "quote": "Schrager mock #30 (via DEN): Thieneman to Dolphins."
     }
   ],
   "DAL": [
@@ -765,6 +853,14 @@
       "strength": 45,
       "isInsiderLanguage": true,
       "quote": "Schrager mock #12 to Cowboys. Ohio State DC Matt Patricia told Schrager ON RECORD: Downs \"will be the smartest player on whichever team drafts him\" and \"should be a face of the franchise.\" Named source, direct quote. Dallas gave up 54 plays of 25+ yards (most in NFL)."
+    },
+    {
+      "playerId": "akheem-mesidor",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 35,
+      "isInsiderLanguage": false,
+      "quote": "Schrager mock #20 (via GB): Mesidor to Cowboys."
     }
   ],
   "LAR": [
@@ -933,6 +1029,22 @@
       "strength": 40,
       "isInsiderLanguage": true,
       "quote": "Schrager and Jeremiah both said on their podcast that they are hearing Proctor will not fall past the Lions at 17. Two of the most connected reporters aligning on this pick."
+    },
+    {
+      "playerId": "olaivavega-ioane",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 38,
+      "isInsiderLanguage": false,
+      "quote": "Schrager updated mock: Ioane to Lions at #17. Changed from Proctor in previous mock."
+    },
+    {
+      "playerId": "olaivavega-ioane",
+      "analyst": "ESPN Insider Buzz",
+      "outlet": "ESPN",
+      "strength": 30,
+      "isInsiderLanguage": true,
+      "quote": "ESPN buzz: Lions equally high on filling edge rusher need as OT. Only two picks in top 117."
     }
   ],
   "MIN": [
@@ -993,6 +1105,14 @@
       "strength": 35,
       "isInsiderLanguage": false,
       "quote": "Schrager mock #21 to Steelers: TJ Parker EDGE. \"Aaron Rodgers expected to return\" — sourced expectation about PIT QB situation that drives defensive building. Parker has 21.5 sacks over 3 Clemson seasons."
+    },
+    {
+      "playerId": "carson-beck",
+      "analyst": "ESPN Insider Buzz",
+      "outlet": "ESPN",
+      "strength": 20,
+      "isInsiderLanguage": false,
+      "quote": "ESPN buzz: Steelers scouting staff evaluating Beck, Allar, and Nussmeier for Day 2-3 QB."
     }
   ],
   "CHI": [
@@ -1077,6 +1197,14 @@
       "strength": 22,
       "isInsiderLanguage": false,
       "quote": "Blake Miller mocked to 49ers at Pick 27 in Davis mock."
+    },
+    {
+      "playerId": "caleb-lomu",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 35,
+      "isInsiderLanguage": false,
+      "quote": "Schrager mock #27: Lomu to 49ers."
     }
   ],
   "PHI": [
@@ -1203,6 +1331,14 @@
       "strength": 22,
       "isInsiderLanguage": false,
       "quote": "Caleb Lomu mocked to Texans at Pick 28 in Shook mock."
+    },
+    {
+      "playerId": "max-iheanachor",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 35,
+      "isInsiderLanguage": false,
+      "quote": "Schrager mock #28: Iheanachor to Texans."
     }
   ],
   "CAR": [
@@ -1237,6 +1373,22 @@
       "strength": 25,
       "isInsiderLanguage": false,
       "quote": "Jordyn Tyson to Panthers in Mock 1.0."
+    },
+    {
+      "playerId": "monroe-freeling",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 38,
+      "isInsiderLanguage": false,
+      "quote": "Schrager mock #19: Freeling to Panthers. OT need addressed."
+    },
+    {
+      "playerId": "oscar-delp",
+      "analyst": "ESPN Insider Buzz",
+      "outlet": "ESPN",
+      "strength": 35,
+      "isInsiderLanguage": true,
+      "quote": "ESPN buzz: Panthers \"reportedly high on Oscar Delp\" — could be option as early as second round."
     }
   ],
   "BUF": [
