@@ -179,6 +179,30 @@ export default function SessionSetup({ onStart, onPrivacy, onAbout }) {
                 <span className={styles.beginBtnText}>BEGIN DRAFT</span>
                 <span className={styles.beginBtnArrow}>→</span>
               </button>
+
+              <div className={styles.welcomeContent}>
+                <p className={styles.welcomeDesc}>
+                  The most accurate mock draft simulator for the 2026 NFL Draft. Powered by
+                  intelligence from 300+ beat writers and national analysts including Daniel
+                  Jeremiah, Peter Schrager, and Dane Brugler. Simulate all 7 rounds with
+                  491 prospects, make trades using the Jimmy Johnson value chart, and share
+                  your draft class.
+                </p>
+                <div className={styles.welcomeFeatures}>
+                  <div className={styles.welcomeFeature}>
+                    <span className={styles.featureNum}>491</span>
+                    <span className={styles.featureLabel}>PROSPECTS</span>
+                  </div>
+                  <div className={styles.welcomeFeature}>
+                    <span className={styles.featureNum}>300+</span>
+                    <span className={styles.featureLabel}>BEAT WRITERS</span>
+                  </div>
+                  <div className={styles.welcomeFeature}>
+                    <span className={styles.featureNum}>9</span>
+                    <span className={styles.featureLabel}>DATA SOURCES</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         )}
