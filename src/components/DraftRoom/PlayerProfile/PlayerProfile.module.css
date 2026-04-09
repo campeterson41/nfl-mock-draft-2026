@@ -152,6 +152,174 @@
 .body::-webkit-scrollbar { width: 4px; }
 .body::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.08); border-radius: 2px; }
 
+/* Section */
+.section {
+  margin-bottom: 20px;
+}
+
+/* Elite callouts */
+.callouts {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.callout {
+  font-size: 12px;
+  font-weight: 600;
+  color: #d4a843;
+  padding: 6px 10px;
+  background: rgba(212, 168, 67, 0.08);
+  border-left: 3px solid #d4a843;
+  line-height: 1.4;
+}
+
+/* Draft range */
+.rangeContainer {
+  padding: 4px 0 8px;
+}
+
+.rangeTrack {
+  position: relative;
+  height: 6px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 3px;
+  overflow: visible;
+}
+
+.rangeFill {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(74,222,128,0.3) 0%, rgba(212,168,67,0.3) 50%, rgba(248,113,113,0.3) 100%);
+  border-radius: 3px;
+}
+
+.rangeMarker {
+  position: absolute;
+  top: -4px;
+  width: 14px;
+  height: 14px;
+  background: #d4a843;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  border: 2px solid #111115;
+}
+
+.rangeMarkerLabel {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 10px;
+  font-weight: 800;
+  color: #d4a843;
+  white-space: nowrap;
+}
+
+.rangeLabels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6px;
+  font-size: 9px;
+  font-weight: 700;
+  color: #3f3f46;
+  letter-spacing: 0.06em;
+}
+
+/* Athletic profile grid (radar + bars) */
+.measSection { margin-bottom: 20px; }
+
+.measGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  align-items: start;
+}
+
+/* Percentile bars */
+.pctBars {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.pctRow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.pctLabel {
+  font-size: 9px;
+  font-weight: 700;
+  color: #52525b;
+  min-width: 52px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.pctTrack {
+  flex: 1;
+  height: 4px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.pctFill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 400ms ease;
+}
+
+.pctValue {
+  font-size: 10px;
+  font-weight: 600;
+  color: #71717a;
+  min-width: 32px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.pctPct {
+  font-size: 9px;
+  font-weight: 800;
+  min-width: 28px;
+  text-align: right;
+}
+
+/* Raw measurables grid */
+.measRaw {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.measRawItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 8px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 2px;
+}
+
+.measRawLabel {
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #3f3f46;
+}
+
+.measRawVal {
+  font-size: 16px;
+  font-weight: 800;
+  color: #fafafa;
+}
+
 /* Rank strip */
 .rankStrip {
   display: flex;
@@ -339,6 +507,7 @@
   .modal { max-height: 95vh; }
   .playerName { font-size: 26px; }
   .prosConsGrid { grid-template-columns: 1fr; }
+  .measGrid { grid-template-columns: 1fr; }
   .header { padding: 16px; }
   .body { padding: 16px; }
 }

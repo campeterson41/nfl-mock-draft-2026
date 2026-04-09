@@ -1,24 +1,44 @@
 import { useMemo } from 'react'
 import styles from './PlayerProfile.module.css'
 import { POSITION_COLORS } from '../../../constants/positions'
+import RadarChart from './RadarChart.jsx'
 import beastProfiles from '../../../data/beastProfiles.json'
 
-// Build lookup once
 const profileMap = {}
 beastProfiles.forEach(p => { if (p.playerId) profileMap[p.playerId] = p })
 
-function MeasurablesBar({ label, value, min, max, unit = '' }) {
-  if (!value) return null
-  const num = parseFloat(value)
-  if (isNaN(num)) return null
-  const pct = Math.min(100, Math.max(5, ((num - min) / (max - min)) * 100))
+function PercentileBar({ label, value, pct, invert }) {
+  if (pct == null) return null
+  const color = pct >= 80 ? '#4ade80' : pct >= 60 ? '#d4a843' : pct >= 40 ? '#a1a1aa' : '#f87171'
   return (
-    <div className={styles.measRow}>
-      <span className={styles.measLabel}>{label}</span>
-      <div className={styles.measTrack}>
-        <div className={styles.measFill} style={{ width: `${pct}%` }} />
+    <div className={styles.pctRow}>
+      <span className={styles.pctLabel}>{label}</span>
+      <div className={styles.pctTrack}>
+        <div className={styles.pctFill} style={{ width: `${pct}%`, background: color }} />
       </div>
-      <span className={styles.measValue}>{value}{unit}</span>
+      <span className={styles.pctValue}>{value}</span>
+      <span className={styles.pctPct} style={{ color }}>{pct}th</span>
+    </div>
+  )
+}
+
+function DraftRange({ floor, consensus, ceiling }) {
+  if (!floor || !ceiling) return null
+  const range = ceiling - floor
+  if (range <= 0) return null
+  const consPct = ((consensus - floor) / range) * 100
+  return (
+    <div className={styles.rangeContainer}>
+      <div className={styles.rangeTrack}>
+        <div className={styles.rangeFill} />
+        <div className={styles.rangeMarker} style={{ left: `${consPct}%` }}>
+          <span className={styles.rangeMarkerLabel}>#{consensus}</span>
+        </div>
+      </div>
+      <div className={styles.rangeLabels}>
+        <span>#{floor}</span>
+        <span>#{ceiling}</span>
+      </div>
     </div>
   )
 }
@@ -28,11 +48,13 @@ export default function PlayerProfile({ player, isOpen, onClose, onDraft, canDra
 
   const profile = profileMap[player.id]
   const posColor = POSITION_COLORS[player.position] ?? '#4a4d66'
+  const meas = profile?.measurables ?? {}
+  const pcts = profile?.percentiles ?? {}
+  const callouts = profile?.callouts ?? []
 
   return (
     <div className={styles.overlay} onClick={e => e.target === e.currentTarget && onClose()}>
       <div className={styles.modal}>
-
         {/* Header */}
         <div className={styles.header} style={{ '--pos-color': posColor }}>
           <div className={styles.headerTop}>
@@ -46,10 +68,11 @@ export default function PlayerProfile({ player, isOpen, onClose, onDraft, canDra
             {profile?.grade && <span className={styles.grade}>{profile.grade}</span>}
           </div>
           <div className={styles.headerStats}>
-            {(profile?.height || player.height) && <span className={styles.stat}>{profile?.height || player.height}</span>}
-            {(profile?.weight || player.weight) && <span className={styles.stat}>{profile?.weight || player.weight} lbs</span>}
+            {(profile?.height || meas.height) && <span className={styles.stat}>{profile?.height || meas.height}</span>}
+            {(profile?.weight || meas.weight) && <span className={styles.stat}>{meas.weight || profile?.weight} lbs</span>}
             {profile?.age && <span className={styles.stat}>Age {profile.age}</span>}
-            {profile?.forty && <span className={styles.stat}>{profile.forty}s 40-yd</span>}
+            {meas.forty && <span className={styles.stat}>{meas.forty}s 40-yd</span>}
+            {meas.vertJump && <span className={styles.stat}>{meas.vertJump}" vert</span>}
           </div>
           {canDraft && (
             <button className={styles.draftBtn} onClick={() => { onDraft(player); onClose(); }}>
@@ -59,27 +82,61 @@ export default function PlayerProfile({ player, isOpen, onClose, onDraft, canDra
         </div>
 
         <div className={styles.body}>
-          {/* Consensus rank */}
-          <div className={styles.rankStrip}>
-            <div className={styles.rankItem}>
-              <span className={styles.rankNum}>#{player.rank}</span>
-              <span className={styles.rankLabel}>CONSENSUS</span>
+          {/* Elite callouts */}
+          {callouts.length > 0 && (
+            <div className={styles.callouts}>
+              {callouts.map((c, i) => (
+                <div key={i} className={styles.callout}>{c}</div>
+              ))}
             </div>
-            {player.mockRange && (
-              <>
-                <div className={styles.rankItem}>
-                  <span className={styles.rankNum}>#{player.mockRange.floor}</span>
-                  <span className={styles.rankLabel}>HIGHEST</span>
-                </div>
-                <div className={styles.rankItem}>
-                  <span className={styles.rankNum}>#{player.mockRange.ceiling}</span>
-                  <span className={styles.rankLabel}>LOWEST</span>
-                </div>
-              </>
-            )}
-          </div>
+          )}
 
-          {/* Strengths & Weaknesses side by side */}
+          {/* Draft range */}
+          {player.mockRange && (
+            <div className={styles.section}>
+              <h3 className={styles.sectionTitle}>DRAFT RANGE</h3>
+              <DraftRange
+                floor={player.mockRange.floor}
+                consensus={player.mockRange.consensus}
+                ceiling={player.mockRange.ceiling}
+              />
+            </div>
+          )}
+
+          {/* Radar chart + percentile bars side by side */}
+          {Object.keys(pcts).length >= 3 && (
+            <div className={styles.measSection}>
+              <h3 className={styles.sectionTitle}>ATHLETIC PROFILE</h3>
+              <div className={styles.measGrid}>
+                <RadarChart percentiles={pcts} />
+                <div className={styles.pctBars}>
+                  <PercentileBar label="Speed" value={meas.forty ? `${meas.forty}s` : '—'} pct={pcts.speed} />
+                  <PercentileBar label="Explosion" value={meas.vertJump ? `${meas.vertJump}"` : '—'} pct={pcts.explosion} />
+                  <PercentileBar label="Power" value={meas.broadJump || '—'} pct={pcts.power} />
+                  <PercentileBar label="Agility" value={meas.threeCone ? `${meas.threeCone}s` : '—'} pct={pcts.agility} />
+                  <PercentileBar label="Quickness" value={meas.shuttle ? `${meas.shuttle}s` : '—'} pct={pcts.quickness} />
+                  <PercentileBar label="Size" value={meas.weight ? `${meas.weight}` : '—'} pct={pcts.size} />
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Measurables fallback (when < 3 percentiles, show raw numbers) */}
+          {Object.keys(pcts).length < 3 && Object.keys(meas).length > 0 && (
+            <div className={styles.section}>
+              <h3 className={styles.sectionTitle}>MEASURABLES</h3>
+              <div className={styles.measRaw}>
+                {meas.forty && <div className={styles.measRawItem}><span className={styles.measRawLabel}>40-YD</span><span className={styles.measRawVal}>{meas.forty}s</span></div>}
+                {meas.vertJump && <div className={styles.measRawItem}><span className={styles.measRawLabel}>VERT</span><span className={styles.measRawVal}>{meas.vertJump}"</span></div>}
+                {meas.broadJump && <div className={styles.measRawItem}><span className={styles.measRawLabel}>BROAD</span><span className={styles.measRawVal}>{meas.broadJump}</span></div>}
+                {meas.threeCone && <div className={styles.measRawItem}><span className={styles.measRawLabel}>3-CONE</span><span className={styles.measRawVal}>{meas.threeCone}s</span></div>}
+                {meas.handSize && <div className={styles.measRawItem}><span className={styles.measRawLabel}>HAND</span><span className={styles.measRawVal}>{meas.handSize}"</span></div>}
+                {meas.armLength && <div className={styles.measRawItem}><span className={styles.measRawLabel}>ARM</span><span className={styles.measRawVal}>{meas.armLength}"</span></div>}
+              </div>
+            </div>
+          )}
+
+          {/* Strengths & Weaknesses */}
           {profile && (profile.strengths?.length > 0 || profile.weaknesses?.length > 0) && (
             <div className={styles.prosConsGrid}>
               {profile.strengths?.length > 0 && (
@@ -107,14 +164,13 @@ export default function PlayerProfile({ player, isOpen, onClose, onDraft, canDra
 
           {/* Scout Summary */}
           {profile?.summary && (
-            <div className={styles.summarySection}>
+            <div className={styles.section}>
               <h3 className={styles.sectionTitle}>SCOUTING REPORT</h3>
               <p className={styles.summaryText}>{profile.summary}</p>
               <p className={styles.attribution}>Source: The Athletic "The Beast"</p>
             </div>
           )}
 
-          {/* No Beast profile fallback */}
           {!profile && (
             <div className={styles.noProfile}>
               <p>No detailed scouting report available for this prospect.</p>

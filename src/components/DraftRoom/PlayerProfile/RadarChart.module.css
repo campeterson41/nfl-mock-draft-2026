@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  max-width: 240px;
+  margin: 0 auto;
+}
+
+.svg {
+  width: 100%;
+  height: auto;
+}
+
+.label {
+  font-size: 6px;
+  font-weight: 800;
+  fill: #52525b;
+  letter-spacing: 0.08em;
+}
