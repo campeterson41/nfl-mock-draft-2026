@@ -1,4 +1,5 @@
 import { useState, Component } from 'react'
+import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom'
 import { DraftProvider } from './context/DraftContext.jsx'
 import SessionSetup from './components/SessionSetup/SessionSetup.jsx'
 import DraftRoom from './components/DraftRoom/DraftRoom.jsx'
@@ -8,7 +9,6 @@ import AboutPage from './components/AboutPage/AboutPage.jsx'
 import AppNav from './components/AppNav/AppNav.jsx'
 import styles from './App.module.css'
 
-// Error boundary to catch render crashes and show the actual error
 class ErrorBoundary extends Component {
   constructor(props) {
     super(props)
@@ -24,8 +24,10 @@ class ErrorBoundary extends Component {
   render() {
     if (this.state.hasError) {
       return (
-        <div style={{ padding: 32, color: '#fafafa', background: '#09090b', minHeight: '100vh', fontFamily: 'monospace' }}>
-          <h2 style={{ color: '#ef4444', marginBottom: 16 }}>Draft crashed — error details:</h2>
+        <div style={{ padding: 32, color: '#fafafa', background: '#09090b', minHeight: '100vh', fontFamily: 'system-ui' }}>
+          <h1 style={{ fontSize: 24, marginBottom: 8 }}>2026 NFL Mock Draft Simulator</h1>
+          <p style={{ color: '#a1a1aa', marginBottom: 24 }}>Something went wrong during the draft simulation.</p>
+          <h2 style={{ color: '#ef4444', marginBottom: 16, fontSize: 16 }}>Error details:</h2>
           <pre style={{ color: '#fca5a5', fontSize: 13, whiteSpace: 'pre-wrap', marginBottom: 16 }}>
             {this.state.error?.message}
           </pre>
@@ -38,6 +40,9 @@ class ErrorBoundary extends Component {
           >
             BACK TO SETUP
           </button>
+          <p style={{ color: '#3f3f46', fontSize: 12, marginTop: 32 }}>
+            <a href="/about" style={{ color: '#52525b' }}>About</a> &middot; <a href="/privacy" style={{ color: '#52525b' }}>Privacy Policy</a>
+          </p>
         </div>
       )
     }
@@ -45,7 +50,8 @@ class ErrorBoundary extends Component {
   }
 }
 
-export default function App() {
+function DraftApp() {
+  const navigate = useNavigate()
   const [phase, setPhase] = useState('setup')
   const [sessionConfig, setSessionConfig] = useState(null)
   const [scraperOpen, setScraperOpen] = useState(false)
@@ -63,13 +69,11 @@ export default function App() {
   }
 
   function handleResim() {
-    // Increment key to force DraftProvider + hook to remount fresh
     setSessionKey(k => k + 1)
     setPhase('draft')
   }
 
   function handleNewSession() {
-    // Increment key so DraftProvider fully remounts — clears all draft state
     setSessionKey(k => k + 1)
     setSessionConfig(null)
     setScraperOpen(false)
@@ -81,15 +85,7 @@ export default function App() {
     setSessionIntelCount(prev => prev + count)
   }
 
-  const showNav = phase !== 'setup' && phase !== 'privacy' && phase !== 'about'
-
-  if (phase === 'privacy') {
-    return <PrivacyPolicy onBack={() => setPhase('setup')} />
-  }
-
-  if (phase === 'about') {
-    return <AboutPage onBack={() => setPhase('setup')} />
-  }
+  const showNav = phase !== 'setup'
 
   return (
     <DraftProvider key={sessionKey} sessionConfig={sessionConfig}>
@@ -104,8 +100,8 @@ export default function App() {
         {phase === 'setup' && (
           <SessionSetup
             onStart={handleSessionStart}
-            onPrivacy={() => setPhase('privacy')}
-            onAbout={() => setPhase('about')}
+            onPrivacy={() => navigate('/privacy')}
+            onAbout={() => navigate('/about')}
           />
         )}
         {phase === 'draft' && (
@@ -129,5 +125,27 @@ export default function App() {
         )}
       </div>
     </DraftProvider>
+  )
+}
+
+function AboutRoute() {
+  const navigate = useNavigate()
+  return <AboutPage onBack={() => navigate('/')} />
+}
+
+function PrivacyRoute() {
+  const navigate = useNavigate()
+  return <PrivacyPolicy onBack={() => navigate('/')} />
+}
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<DraftApp />} />
+        <Route path="/about" element={<AboutRoute />} />
+        <Route path="/privacy" element={<PrivacyRoute />} />
+      </Routes>
+    </BrowserRouter>
   )
 }

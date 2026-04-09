@@ -1,3 +1,4 @@
+import SiteFooter from '../SiteFooter/SiteFooter.jsx'
 import styles from './PrivacyPolicy.module.css'
 
 export default function PrivacyPolicy({ onBack }) {
@@ -41,20 +42,37 @@ export default function PrivacyPolicy({ onBack }) {
         </section>
 
         <section className={styles.section}>
+          <h2>Google DART Cookies</h2>
+          <p>Google, as a third-party vendor, uses the DART cookie to serve ads based on your visits to this site and other sites on the Internet. You may opt out of the use of the DART cookie by visiting the Google Ad and Content Network privacy policy at <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">https://policies.google.com/technologies/ads</a>.</p>
+        </section>
+
+        <section className={styles.section}>
+          <h2>Your Rights (GDPR/CCPA)</h2>
+          <p>If you are a resident of the European Economic Area (EEA), you have certain data protection rights under the General Data Protection Regulation (GDPR). If you are a California resident, you have rights under the California Consumer Privacy Act (CCPA).</p>
+          <p>Since we do not collect or store personal information, these rights are largely not applicable. However, for any questions regarding data processed by third-party advertising partners, you may contact Google directly through their privacy portal.</p>
+        </section>
+
+        <section className={styles.section}>
+          <h2>Consent</h2>
+          <p>By using this website, you consent to our Privacy Policy and agree to its terms. If you do not agree with this policy, please do not use our site.</p>
+        </section>
+
+        <section className={styles.section}>
           <h2>Children's Privacy</h2>
-          <p>This site is not directed at children under 13. We do not knowingly collect information from children.</p>
+          <p>This site is not directed at children under 13. We do not knowingly collect information from children under 13. If you believe a child has provided us with personal information, please contact us so we can take appropriate action.</p>
         </section>
 
         <section className={styles.section}>
           <h2>Changes to This Policy</h2>
-          <p>We may update this policy from time to time. Changes will be reflected on this page with an updated date.</p>
+          <p>We may update this privacy policy from time to time. We will notify you of any changes by posting the new privacy policy on this page and updating the "Last updated" date at the top. You are advised to review this privacy policy periodically for any changes.</p>
         </section>
 
         <section className={styles.section}>
           <h2>Contact</h2>
-          <p>If you have questions about this privacy policy, please reach out via the GitHub repository.</p>
+          <p>If you have questions about this privacy policy, please reach out via the <a href="https://github.com/campeterson41/nfl-mock-draft-2026" target="_blank" rel="noopener noreferrer">GitHub repository</a>.</p>
         </section>
       </div>
+      <SiteFooter />
     </div>
   )
 }

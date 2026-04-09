@@ -1,3 +1,4 @@
+import SiteFooter from '../SiteFooter/SiteFooter.jsx'
 import styles from './AboutPage.module.css'
 
 export default function AboutPage({ onBack }) {
@@ -156,10 +157,8 @@ export default function AboutPage({ onBack }) {
           </p>
         </section>
 
-        <p className={styles.footer}>
-          2026 NFL Mock Draft Simulator &middot; <button className={styles.footerLink} onClick={onBack}>Back to Draft</button>
-        </p>
       </div>
+      <SiteFooter />
     </div>
   )
 }

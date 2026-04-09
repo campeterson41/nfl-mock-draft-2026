@@ -160,7 +160,13 @@ export default function DraftRoom({ onComplete, scraperOpen: scraperOpenProp = f
   }
 
   if (!currentPick && !isDraftComplete) {
-    return <div className={styles.loading}>Initializing draft...</div>
+    return (
+      <div className={styles.loading}>
+        <p className={styles.loadingTitle}>2026 NFL Mock Draft Simulator</p>
+        <p className={styles.loadingText}>Initializing draft...</p>
+        <p className={styles.loadingDesc}>Loading 491 prospects, 32 team profiles, and 300+ beat writer signals.</p>
+      </div>
+    )
   }
 
   // Shared sub-components

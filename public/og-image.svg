@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#09090b"/>
+  <rect x="0" y="0" width="1200" height="4" fill="#d4a843"/>
+  <text x="600" y="220" text-anchor="middle" font-family="system-ui" font-weight="900" font-size="28" fill="#d4a843" letter-spacing="8">2026 NFL</text>
+  <text x="600" y="300" text-anchor="middle" font-family="system-ui" font-weight="900" font-size="72" fill="#fafafa" letter-spacing="4">MOCK DRAFT</text>
+  <text x="600" y="370" text-anchor="middle" font-family="system-ui" font-weight="900" font-size="48" fill="#d4a843" letter-spacing="6">SIMULATOR</text>
+  <text x="600" y="440" text-anchor="middle" font-family="system-ui" font-weight="600" font-size="18" fill="#52525b" letter-spacing="4">491 PROSPECTS  ·  7 ROUNDS  ·  32 TEAMS  ·  BEAT WRITER INTELLIGENCE</text>
+  <text x="600" y="560" text-anchor="middle" font-family="system-ui" font-weight="500" font-size="14" fill="#3f3f46" letter-spacing="2">nfldraftmock.com</text>
+</svg>
