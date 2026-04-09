@@ -10,14 +10,16 @@ beastProfiles.forEach(p => { if (p.playerId) profileMap[p.playerId] = p })
 function MeasurableBar({ label, value, rank, total }) {
   if (rank == null || total == null) return null
   const pct = Math.max(1, Math.round(((total - rank + 1) / total) * 100))
-  const color = pct >= 80 ? '#4ade80' : pct >= 60 ? '#d4a843' : pct >= 40 ? '#a1a1aa' : '#f87171'
+  // Top 25% = green (standout), bottom 25% = red (concern), middle = grey (normal)
+  const color = pct >= 75 ? '#4ade80' : pct <= 25 ? '#f87171' : '#52525b'
+  const valueColor = pct >= 75 ? '#4ade80' : pct <= 25 ? '#f87171' : '#a1a1aa'
   return (
     <div className={styles.pctRow}>
       <span className={styles.pctLabel}>{label}</span>
       <div className={styles.pctTrack}>
         <div className={styles.pctFill} style={{ width: `${pct}%`, background: color }} />
       </div>
-      <span className={styles.pctValue}>{value}</span>
+      <span className={styles.pctValue} style={{ color: valueColor }}>{value}</span>
       <span className={styles.pctRank} style={{ color }}>#{rank}/{total}</span>
     </div>
   )
