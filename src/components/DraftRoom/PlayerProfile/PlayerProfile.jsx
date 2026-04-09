@@ -123,7 +123,7 @@ export default function PlayerProfile({ player, isOpen, onClose, onDraft, canDra
           <div className={styles.headerStats}>
             {(profile?.height || meas.height) && <StatPill tier={statTierClass(ranks.height)} tip={statTip(ranks.height)}>{profile?.height || meas.height}</StatPill>}
             {(profile?.weight || meas.weight) && <StatPill tier={statTierClass(ranks.size)} tip={statTip(ranks.size)}>{meas.weight || profile?.weight} lbs</StatPill>}
-            {profile?.age && <StatPill>Age {profile.age}</StatPill>}
+            {profile?.age && <StatPill tier={statTierClass(ranks.age)} tip={statTip(ranks.age)}>Age {profile.age}</StatPill>}
             {meas.forty && <StatPill tier={statTierClass(ranks.speed)} tip={statTip(ranks.speed)}>{meas.forty}s 40-yd</StatPill>}
             {meas.vertJump && <StatPill tier={statTierClass(ranks.explosion)} tip={statTip(ranks.explosion)}>{meas.vertJump}" vert</StatPill>}
           </div>
