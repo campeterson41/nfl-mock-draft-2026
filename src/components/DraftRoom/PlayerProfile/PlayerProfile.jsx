@@ -7,20 +7,19 @@ import beastProfiles from '../../../data/beastProfiles.json'
 const profileMap = {}
 beastProfiles.forEach(p => { if (p.playerId) profileMap[p.playerId] = p })
 
-function MeasurableBar({ label, value, rank, total }) {
+function MeasurableBar({ label, value, rank, total, pos }) {
   if (rank == null || total == null) return null
   const pct = Math.max(1, Math.round(((total - rank + 1) / total) * 100))
-  // Top 25% = green (standout), bottom 25% = red (concern), middle = grey (normal)
   const color = pct >= 75 ? '#4ade80' : pct <= 25 ? '#f87171' : '#52525b'
   const valueColor = pct >= 75 ? '#4ade80' : pct <= 25 ? '#f87171' : '#a1a1aa'
+  const tooltip = `Ranks #${rank} out of ${total} ${pos || ''}s in this draft class`
   return (
-    <div className={styles.pctRow}>
+    <div className={styles.pctRow} title={tooltip}>
       <span className={styles.pctLabel}>{label}</span>
       <div className={styles.pctTrack}>
         <div className={styles.pctFill} style={{ width: `${pct}%`, background: color }} />
       </div>
       <span className={styles.pctValue} style={{ color: valueColor }}>{value}</span>
-      <span className={styles.pctRank} style={{ color }}>#{rank}/{total}</span>
     </div>
   )
 }
@@ -133,12 +132,12 @@ export default function PlayerProfile({ player, isOpen, onClose, onDraft, canDra
                   Object.entries(ranks).map(([k, v]) => [k, Math.max(1, Math.round(((v.total - v.rank + 1) / v.total) * 100))])
                 )} />
                 <div className={styles.pctBars}>
-                  {ranks.speed && <MeasurableBar label="40-Yard" value={meas.forty ? `${meas.forty}s` : '—'} rank={ranks.speed.rank} total={ranks.speed.total} />}
-                  {ranks.explosion && <MeasurableBar label="Vert Jump" value={meas.vertJump ? `${meas.vertJump}"` : '—'} rank={ranks.explosion.rank} total={ranks.explosion.total} />}
-                  {ranks.power && <MeasurableBar label="Broad Jump" value={meas.broadJump || '—'} rank={ranks.power.rank} total={ranks.power.total} />}
-                  {ranks.agility && <MeasurableBar label="3-Cone" value={meas.threeCone ? `${meas.threeCone}s` : '—'} rank={ranks.agility.rank} total={ranks.agility.total} />}
-                  {ranks.quickness && <MeasurableBar label="Shuttle" value={meas.shuttle ? `${meas.shuttle}s` : '—'} rank={ranks.quickness.rank} total={ranks.quickness.total} />}
-                  {ranks.size && <MeasurableBar label="Weight" value={meas.weight ? `${meas.weight} lbs` : '—'} rank={ranks.size.rank} total={ranks.size.total} />}
+                  {ranks.speed && <MeasurableBar label="40-Yard" value={meas.forty ? `${meas.forty}s` : '—'} rank={ranks.speed.rank} total={ranks.speed.total} pos={player.position} />}
+                  {ranks.explosion && <MeasurableBar label="Vert Jump" value={meas.vertJump ? `${meas.vertJump}"` : '—'} rank={ranks.explosion.rank} total={ranks.explosion.total} pos={player.position} />}
+                  {ranks.power && <MeasurableBar label="Broad Jump" value={meas.broadJump || '—'} rank={ranks.power.rank} total={ranks.power.total} pos={player.position} />}
+                  {ranks.agility && <MeasurableBar label="3-Cone" value={meas.threeCone ? `${meas.threeCone}s` : '—'} rank={ranks.agility.rank} total={ranks.agility.total} pos={player.position} />}
+                  {ranks.quickness && <MeasurableBar label="Shuttle" value={meas.shuttle ? `${meas.shuttle}s` : '—'} rank={ranks.quickness.rank} total={ranks.quickness.total} pos={player.position} />}
+                  {ranks.size && <MeasurableBar label="Weight" value={meas.weight ? `${meas.weight} lbs` : '—'} rank={ranks.size.rank} total={ranks.size.total} pos={player.position} />}
                 </div>
               </div>
             </div>
