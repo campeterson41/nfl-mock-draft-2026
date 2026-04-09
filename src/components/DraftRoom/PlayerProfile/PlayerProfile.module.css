@@ -126,21 +126,18 @@
 }
 
 .statGreen {
-  color: #6ec987;
-  border-color: rgba(74, 222, 128, 0.15);
-  background: rgba(74, 222, 128, 0.05);
+  color: #7a9e82;
+  border-color: rgba(74, 222, 128, 0.1);
 }
 
 .statYellow {
-  color: #b8a46c;
-  border-color: rgba(212, 168, 67, 0.15);
-  background: rgba(212, 168, 67, 0.05);
+  color: #9a9070;
+  border-color: rgba(212, 168, 67, 0.1);
 }
 
 .statRed {
-  color: #c47272;
-  border-color: rgba(248, 113, 113, 0.15);
-  background: rgba(248, 113, 113, 0.05);
+  color: #9e7272;
+  border-color: rgba(248, 113, 113, 0.1);
 }
 
 .draftBtn {
