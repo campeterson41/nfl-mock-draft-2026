@@ -113,10 +113,11 @@ export default function DraftRoom({ onComplete, scraperOpen: scraperOpenProp = f
     if (isDraftComplete) onComplete?.()
   }, [isDraftComplete])
 
-  // When a new AI pick lands, auto-show it (clear any inspected pick)
+  // On desktop, auto-show the latest pick (clear any inspected pick).
+  // On mobile, leave it alone — user dismisses manually.
   useEffect(() => {
-    if (state.lastPick) setInspectedPick(null)
-  }, [state.lastPick])
+    if (state.lastPick && !isMobile) setInspectedPick(null)
+  }, [state.lastPick, isMobile])
 
   const userTeamId = state.session?.userTeamIds?.[0]
   const userTeam = userTeamId ? state.teams?.[userTeamId] : null
