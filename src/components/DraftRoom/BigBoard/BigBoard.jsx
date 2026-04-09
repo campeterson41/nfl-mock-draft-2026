@@ -1,10 +1,11 @@
 import { useState, useMemo, useRef, useEffect } from 'react'
 import styles from './BigBoard.module.css'
 import { POSITION_COLORS } from '../../../constants/positions'
+import PlayerProfile from '../PlayerProfile/PlayerProfile.jsx'
 
 const FILTER_POSITIONS = ['ALL', 'QB', 'EDGE', 'OT', 'WR', 'CB', 'S', 'LB', 'DT', 'RB', 'TE', 'IOL']
 
-function PlayerRow({ player, desireScore, maxDesire, isUserTurn, isSelected, onSelect }) {
+function PlayerRow({ player, desireScore, maxDesire, isUserTurn, isSelected, onViewProfile, onDraft }) {
   const posColor = POSITION_COLORS[player.position] ?? '#666'
   const desirePct = maxDesire > 0 ? (desireScore / maxDesire) * 100 : 0
 
@@ -12,15 +13,14 @@ function PlayerRow({ player, desireScore, maxDesire, isUserTurn, isSelected, onS
     <div
       className={`
         ${styles.playerRow}
-        ${isUserTurn ? styles.clickable : ''}
+        ${styles.clickable}
         ${isSelected ? styles.selected : ''}
       `}
-      onClick={isUserTurn ? () => onSelect(player) : undefined}
-      role={isUserTurn ? 'button' : undefined}
-      tabIndex={isUserTurn ? 0 : undefined}
-      onKeyDown={isUserTurn ? (e) => e.key === 'Enter' && onSelect(player) : undefined}
+      onClick={() => onViewProfile(player)}
+      role="button"
+      tabIndex={0}
+      onKeyDown={(e) => e.key === 'Enter' && onViewProfile(player)}
     >
-      {/* Desire score background bar */}
       {desireScore != null && (
         <div
           className={styles.desireBar}
@@ -49,6 +49,16 @@ function PlayerRow({ player, desireScore, maxDesire, isUserTurn, isSelected, onS
           {desireScore.toFixed(0)}
         </div>
       )}
+
+      {isUserTurn && (
+        <button
+          className={styles.draftBtnInline}
+          onClick={(e) => { e.stopPropagation(); onDraft(player); }}
+          title={`Draft ${player.name}`}
+        >
+          DRAFT
+        </button>
+      )}
     </div>
   )
 }
@@ -64,9 +74,9 @@ export default function BigBoard({
   const [activePos, setActivePos] = useState(filterPosition ?? 'ALL')
   const [search, setSearch] = useState('')
   const [selectedId, setSelectedId] = useState(null)
+  const [profilePlayer, setProfilePlayer] = useState(null)
   const filterBarRef = useRef(null)
 
-  // Sync external filterPosition prop
   useEffect(() => {
     if (filterPosition) setActivePos(filterPosition)
   }, [filterPosition])
@@ -93,14 +103,18 @@ export default function BigBoard({
     return list
   }, [availablePlayers, activePos, search])
 
-  function handleSelect(player) {
+  function handleViewProfile(player) {
+    setSelectedId(player.id ?? player.name)
+    setProfilePlayer(player)
+  }
+
+  function handleDraft(player) {
     setSelectedId(player.id ?? player.name)
     onPlayerSelect(player)
   }
 
   return (
     <div className={styles.panel}>
-      {/* Panel header */}
       <div className={styles.header}>
         <div className={styles.titleRow}>
           <h2 className={styles.title}>BIG BOARD</h2>
@@ -109,13 +123,12 @@ export default function BigBoard({
           </span>
         </div>
 
-        {/* Search */}
         <div className={styles.searchWrapper}>
           <span className={styles.searchIcon}></span>
           <input
             type="text"
             className={styles.searchInput}
-            placeholder="Search players…"
+            placeholder="Search players..."
             value={search}
             onChange={e => setSearch(e.target.value)}
           />
@@ -126,7 +139,6 @@ export default function BigBoard({
           )}
         </div>
 
-        {/* Position filter chips */}
         <div className={styles.filterBar} ref={filterBarRef}>
           {FILTER_POSITIONS.map(pos => (
             <button
@@ -140,7 +152,6 @@ export default function BigBoard({
         </div>
       </div>
 
-      {/* Player list */}
       <div className={styles.listWrapper}>
         {filtered.length === 0 ? (
           <div className={styles.empty}>No players match your filter.</div>
@@ -156,19 +167,28 @@ export default function BigBoard({
                 maxDesire={maxDesire}
                 isUserTurn={isUserTurn}
                 isSelected={selectedId === key}
-                onSelect={handleSelect}
+                onViewProfile={handleViewProfile}
+                onDraft={handleDraft}
               />
             )
           })
         )}
       </div>
 
-      {/* User turn CTA banner */}
       {isUserTurn && (
         <div className={styles.userTurnBanner}>
-          YOUR PICK — Select a player above
+          YOUR PICK — Click a player to view profile, or DRAFT to select
         </div>
       )}
+
+      {/* Player Profile Modal */}
+      <PlayerProfile
+        player={profilePlayer}
+        isOpen={!!profilePlayer}
+        onClose={() => setProfilePlayer(null)}
+        onDraft={handleDraft}
+        canDraft={isUserTurn}
+      />
     </div>
   )
 }
