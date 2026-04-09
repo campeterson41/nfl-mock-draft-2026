@@ -201,12 +201,12 @@ export default function PlayerProfile({ player, isOpen, onClose, onDraft, canDra
                 {profile.seasonStats.recTD && <StatTile num={profile.seasonStats.recTD} label="TD" />}
                 {profile.seasonStats.recAvg && <StatTile num={profile.seasonStats.recAvg} label="AVG" />}
                 {/* OL stats */}
-                {profile.seasonStats.pffGrade && <StatTile num={profile.seasonStats.pffGrade} label="PFF GRADE" />}
-                {profile.seasonStats.passBlockGrade && <StatTile num={profile.seasonStats.passBlockGrade} label="PASS BLK" />}
-                {profile.seasonStats.runBlockGrade && <StatTile num={profile.seasonStats.runBlockGrade} label="RUN BLK" />}
-                {profile.seasonStats.sacksAllowed && <StatTile num={profile.seasonStats.sacksAllowed} label="SACKS ALW" />}
-                {profile.seasonStats.pressuresAllowed && <StatTile num={profile.seasonStats.pressuresAllowed} label="PRESS ALW" />}
-                {profile.seasonStats.passBlockSnaps && <StatTile num={profile.seasonStats.passBlockSnaps} label="PB SNAPS" />}
+                {profile.seasonStats.blkScore != null && <StatTile num={profile.seasonStats.blkScore} label="BLK SCORE" />}
+                {profile.seasonStats.passProScore != null && <StatTile num={profile.seasonStats.passProScore} label="PASS PRO" />}
+                {profile.seasonStats.runBlkScore != null && <StatTile num={profile.seasonStats.runBlkScore} label="RUN BLK" />}
+                {profile.seasonStats.sacksAllowed && <StatTile num={profile.seasonStats.sacksAllowed} label="SK ALW" />}
+                {profile.seasonStats.pressuresAllowed && <StatTile num={profile.seasonStats.pressuresAllowed} label="PR ALW" />}
+                {profile.seasonStats.snaps && <StatTile num={profile.seasonStats.snaps} label="SNAPS" />}
                 {/* Defensive stats */}
                 {profile.seasonStats.tackles && <StatTile num={profile.seasonStats.tackles} label="TACKLES" />}
                 {profile.seasonStats.sacks && parseFloat(profile.seasonStats.sacks) > 0 && <StatTile num={profile.seasonStats.sacks} label="SACKS" />}
