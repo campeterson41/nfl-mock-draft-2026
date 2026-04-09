@@ -77,13 +77,10 @@ export default function BigBoard({
   const [profilePlayer, setProfilePlayer] = useState(null)
   const filterBarRef = useRef(null)
 
-  // Close profile modal if the player gets drafted while it's open
-  useEffect(() => {
-    if (profilePlayer && availablePlayers) {
-      const stillAvailable = availablePlayers.some(p => (p.id ?? p.name) === (profilePlayer.id ?? profilePlayer.name))
-      if (!stillAvailable) setProfilePlayer(null)
-    }
-  }, [availablePlayers, profilePlayer])
+  // Check if the profiled player is still available
+  const profileStillAvailable = profilePlayer && availablePlayers
+    ? availablePlayers.some(p => (p.id ?? p.name) === (profilePlayer.id ?? profilePlayer.name))
+    : false
 
   useEffect(() => {
     if (filterPosition) setActivePos(filterPosition)
@@ -195,7 +192,8 @@ export default function BigBoard({
         isOpen={!!profilePlayer}
         onClose={() => setProfilePlayer(null)}
         onDraft={handleDraft}
-        canDraft={isUserTurn}
+        canDraft={isUserTurn && profileStillAvailable}
+        playerDrafted={isUserTurn && !profileStillAvailable && !!profilePlayer}
       />
     </div>
   )

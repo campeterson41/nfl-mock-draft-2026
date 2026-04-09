@@ -187,6 +187,22 @@
 }
 .draftBtn:hover { opacity: 0.88; }
 
+.draftBtnDisabled {
+  margin-top: 14px;
+  width: 100%;
+  padding: 12px;
+  background: #27272a;
+  border: 1px solid rgba(255,255,255,0.06);
+  color: #52525b;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  cursor: not-allowed;
+  border-radius: 2px;
+}
+
 /* ── Body ── */
 .body {
   flex: 1;

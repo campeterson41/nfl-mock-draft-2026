@@ -68,7 +68,7 @@ function StatPill({ children, tier, tip }) {
   )
 }
 
-export default function PlayerProfile({ player, isOpen, onClose, onDraft, canDraft }) {
+export default function PlayerProfile({ player, isOpen, onClose, onDraft, canDraft, playerDrafted }) {
   if (!isOpen || !player) return null
 
   const profile = profileMap[player.id]
@@ -130,6 +130,11 @@ export default function PlayerProfile({ player, isOpen, onClose, onDraft, canDra
           {canDraft && (
             <button className={styles.draftBtn} onClick={() => { onDraft(player); onClose(); }}>
               DRAFT {player.name.split(' ').pop().toUpperCase()}
+            </button>
+          )}
+          {playerDrafted && (
+            <button className={styles.draftBtnDisabled} disabled>
+              ALREADY DRAFTED
             </button>
           )}
         </div>
