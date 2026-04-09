@@ -293,6 +293,165 @@
   border-top-color: #d4a843;
 }
 
+/* ── Mobile slide-up reasoning sheet ── */
+.mobileSheetOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 400;
+  display: flex;
+  align-items: flex-end;
+}
+
+.mobileSheet {
+  width: 100%;
+  max-height: 75vh;
+  background: #141417;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px 12px 0 0;
+  padding: 0 16px 24px;
+  overflow-y: auto;
+  animation: sheetSlideUp 250ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes sheetSlideUp {
+  from { transform: translateY(100%); }
+  to   { transform: translateY(0); }
+}
+
+.mobileSheetHandle {
+  width: 36px;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 2px;
+  margin: 10px auto 12px;
+}
+
+.mobileSheetHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.mobileSheetPickInfo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.mobileSheetTeam {
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+
+.mobileSheetPick {
+  font-size: 11px;
+  font-weight: 700;
+  color: #52525b;
+  letter-spacing: 0.1em;
+}
+
+.mobileSheetClose {
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #52525b;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.mobileSheetPlayer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.mobileSheetName {
+  font-size: 24px;
+  font-weight: 900;
+  color: #fafafa;
+  letter-spacing: -0.02em;
+}
+
+.mobileSheetPos {
+  padding: 2px 7px;
+  font-size: 10px;
+  font-weight: 800;
+  color: #fff;
+  border-radius: 2px;
+}
+
+.mobileSheetSchool {
+  font-size: 12px;
+  color: #71717a;
+  margin-bottom: 14px;
+}
+
+.mobileSheetHeadline {
+  font-size: 13px;
+  font-weight: 600;
+  color: #a1a1aa;
+  line-height: 1.6;
+  margin-bottom: 14px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.mobileSheetRow {
+  margin-bottom: 10px;
+}
+
+.mobileSheetLabel {
+  display: block;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #3f3f46;
+  margin-bottom: 3px;
+}
+
+.mobileSheetText {
+  font-size: 12px;
+  color: #a1a1aa;
+  line-height: 1.6;
+}
+
+.mobileSheetSources {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.mobileSheetQuote {
+  margin-top: 8px;
+  padding-left: 10px;
+  border-left: 2px solid rgba(255, 255, 255, 0.06);
+}
+
+.mobileSheetWriter {
+  font-size: 11px;
+  font-weight: 700;
+  color: #71717a;
+}
+
+.mobileSheetQuoteText {
+  font-size: 11px;
+  color: #52525b;
+  font-style: italic;
+  line-height: 1.5;
+  margin-top: 2px;
+}
+
 /* Hide desktop-only elements on mobile */
 @media (max-width: 767px) {
   .resizeDivider { display: none; }

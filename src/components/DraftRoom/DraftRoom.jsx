@@ -259,6 +259,66 @@ export default function DraftRoom({ onComplete, scraperOpen: scraperOpenProp = f
             )}
           </div>
 
+          {/* Mobile slide-up reasoning sheet */}
+          {inspectedPick && displayPlayer && (
+            <div className={styles.mobileSheetOverlay} onClick={() => setInspectedPick(null)}>
+              <div className={styles.mobileSheet} onClick={e => e.stopPropagation()}>
+                <div className={styles.mobileSheetHandle} />
+                <div className={styles.mobileSheetHeader}>
+                  <div className={styles.mobileSheetPickInfo}>
+                    <span className={styles.mobileSheetTeam} style={{ color: displayTeam?.colors?.primary ?? '#d4a843' }}>
+                      {displayTeam?.abbreviation ?? ''}
+                    </span>
+                    <span className={styles.mobileSheetPick}>PICK #{inspectedPick.overall}</span>
+                  </div>
+                  <button className={styles.mobileSheetClose} onClick={() => setInspectedPick(null)}>X</button>
+                </div>
+                <div className={styles.mobileSheetPlayer}>
+                  <span className={styles.mobileSheetName}>{displayPlayer.name}</span>
+                  <span className={styles.mobileSheetPos} style={{ background: POSITION_COLORS[displayPlayer.position] ?? '#555' }}>
+                    {displayPlayer.position}
+                  </span>
+                </div>
+                <p className={styles.mobileSheetSchool}>{displayPlayer.school}</p>
+
+                {displayReasoning?.headline && (
+                  <p className={styles.mobileSheetHeadline}>{displayReasoning.headline}</p>
+                )}
+
+                {displayReasoning?.needAnalysis && (
+                  <div className={styles.mobileSheetRow}>
+                    <span className={styles.mobileSheetLabel}>NEED</span>
+                    <span className={styles.mobileSheetText}>{displayReasoning.needAnalysis}</span>
+                  </div>
+                )}
+                {displayReasoning?.consensusAnalysis && (
+                  <div className={styles.mobileSheetRow}>
+                    <span className={styles.mobileSheetLabel}>CONSENSUS</span>
+                    <span className={styles.mobileSheetText}>{displayReasoning.consensusAnalysis}</span>
+                  </div>
+                )}
+                {displayReasoning?.regimeAnalysis && (
+                  <div className={styles.mobileSheetRow}>
+                    <span className={styles.mobileSheetLabel}>REGIME</span>
+                    <span className={styles.mobileSheetText}>{displayReasoning.regimeAnalysis}</span>
+                  </div>
+                )}
+
+                {displayReasoning?.allQuotes?.length > 0 && (
+                  <div className={styles.mobileSheetSources}>
+                    <span className={styles.mobileSheetLabel}>SOURCES</span>
+                    {displayReasoning.allQuotes.map((q, i) => (
+                      <div key={i} className={styles.mobileSheetQuote}>
+                        <span className={styles.mobileSheetWriter}>{q.writer}</span>
+                        {q.quote && <p className={styles.mobileSheetQuoteText}>"{q.quote}"</p>}
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+
           <div className={styles.mobileTabBar}>
             <button
               className={`${styles.mobileTab} ${mobileTab === 'board' ? styles.mobileTabActive : ''}`}
