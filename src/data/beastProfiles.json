@@ -60,19 +60,18 @@
         "total": 20
       }
     },
-    "careerStats": {
-      "gp": "36",
-      "gs": "35",
-      "comp": "691",
-      "att": "1008",
-      "compPct": "68.6%",
-      "passYds": "8247",
-      "passTD": "71",
-      "int": "22",
-      "rushAtt": "226",
-      "rushYds": "467",
-      "rushTD": "11",
-      "headline": "8247 yds, 71 TD, 22 INT (68.6%)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "16",
+      "gs": "16",
+      "type": "passing",
+      "comp": "273",
+      "att": "379",
+      "compPct": "72.0%",
+      "passYds": "3535",
+      "passTD": "41",
+      "int": "6",
+      "headline": "3535 yds, 41 TD, 6 INT (72.0%)"
     }
   },
   {
@@ -136,19 +135,18 @@
         "total": 20
       }
     },
-    "careerStats": {
-      "gp": "31",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "15",
       "gs": "15",
-      "comp": "334",
-      "att": "523",
-      "compPct": "63.9%",
-      "passYds": "3948",
+      "type": "passing",
+      "comp": "305",
+      "att": "473",
+      "compPct": "64.5%",
+      "passYds": "3567",
       "passTD": "28",
       "int": "5",
-      "rushAtt": "112",
-      "rushYds": "223",
-      "rushTD": "5",
-      "headline": "3948 yds, 28 TD, 5 INT (63.9%)"
+      "headline": "3567 yds, 28 TD, 5 INT (64.5%)"
     }
   },
   {
@@ -212,19 +210,18 @@
         "total": 20
       }
     },
-    "careerStats": {
-      "gp": "40",
-      "gs": "23",
-      "comp": "660",
-      "att": "1032",
-      "compPct": "64.0%",
-      "passYds": "7699",
-      "passTD": "52",
-      "int": "24",
-      "rushAtt": "70",
-      "rushYds": "153",
-      "rushTD": "5",
-      "headline": "7699 yds, 52 TD, 24 INT (64.0%)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "9",
+      "gs": "9",
+      "type": "passing",
+      "comp": "194",
+      "att": "288",
+      "compPct": "67.4%",
+      "passYds": "1927",
+      "passTD": "12",
+      "int": "5",
+      "headline": "1927 yds, 12 TD, 5 INT (67.4%)"
     }
   },
   {
@@ -290,19 +287,18 @@
         "total": 20
       }
     },
-    "careerStats": {
-      "gp": "45",
-      "gs": "35",
-      "comp": "633",
-      "att": "1002",
-      "compPct": "63.2%",
-      "passYds": "7402",
-      "passTD": "61",
-      "int": "13",
-      "rushAtt": "224",
-      "rushYds": "732",
-      "rushTD": "12",
-      "headline": "7402 yds, 61 TD, 13 INT (63.2%)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "6",
+      "gs": "6",
+      "type": "passing",
+      "comp": "103",
+      "att": "159",
+      "compPct": "64.8%",
+      "passYds": "1100",
+      "passTD": "8",
+      "int": "3",
+      "headline": "1100 yds, 8 TD, 3 INT (64.8%)"
     }
   },
   {
@@ -394,19 +390,18 @@
         "total": 20
       }
     },
-    "careerStats": {
-      "gp": "52",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
       "gs": "13",
-      "comp": "198",
-      "att": "282",
-      "compPct": "70.2%",
-      "passYds": "3188",
-      "passTD": "21",
-      "int": "6",
-      "rushAtt": "287",
-      "rushYds": "1918",
-      "rushTD": "31",
-      "headline": "3188 yds, 21 TD, 6 INT (70.2%)"
+      "type": "passing",
+      "comp": "161",
+      "att": "224",
+      "compPct": "71.9%",
+      "passYds": "2719",
+      "passTD": "16",
+      "int": "4",
+      "headline": "2719 yds, 16 TD, 4 INT (71.9%)"
     }
   },
   {
@@ -462,19 +457,18 @@
         "total": 20
       }
     },
-    "careerStats": {
-      "gp": "55",
-      "gs": "43",
-      "comp": "966",
-      "att": "1390",
-      "compPct": "69.5%",
-      "passYds": "11725",
-      "passTD": "88",
-      "int": "32",
-      "rushAtt": "189",
-      "rushYds": "288",
-      "rushTD": "7",
-      "headline": "11725 yds, 88 TD, 32 INT (69.5%)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "16",
+      "gs": "16",
+      "type": "passing",
+      "comp": "338",
+      "att": "467",
+      "compPct": "72.4%",
+      "passYds": "3813",
+      "passTD": "30",
+      "int": "12",
+      "headline": "3813 yds, 30 TD, 12 INT (72.4%)"
     }
   },
   {
@@ -555,19 +549,18 @@
         "total": 20
       }
     },
-    "careerStats": {
-      "gp": "53",
-      "gs": "46",
-      "comp": "715",
-      "att": "1190",
-      "compPct": "60.1%",
-      "passYds": "9662",
-      "passTD": "59",
-      "int": "35",
-      "rushAtt": "459",
-      "rushYds": "2403",
-      "rushTD": "35",
-      "headline": "9662 yds, 59 TD, 35 INT (60.1%)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "11",
+      "type": "passing",
+      "comp": "198",
+      "att": "326",
+      "compPct": "60.7%",
+      "passYds": "2714",
+      "passTD": "19",
+      "int": "11",
+      "headline": "2714 yds, 19 TD, 11 INT (60.7%)"
     }
   },
   {
@@ -638,19 +631,18 @@
         "total": 20
       }
     },
-    "careerStats": {
-      "gp": "49",
-      "gs": "40",
-      "comp": "916",
-      "att": "1432",
-      "compPct": "64.0%",
-      "passYds": "10123",
-      "passTD": "73",
-      "int": "24",
-      "rushAtt": "369",
-      "rushYds": "878",
-      "rushTD": "17",
-      "headline": "10123 yds, 73 TD, 24 INT (64.0%)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "passing",
+      "comp": "257",
+      "att": "392",
+      "compPct": "65.6%",
+      "passYds": "2943",
+      "passTD": "16",
+      "int": "6",
+      "headline": "2943 yds, 16 TD, 6 INT (65.6%)"
     }
   },
   {
@@ -741,19 +733,18 @@
         "total": 20
       }
     },
-    "careerStats": {
-      "gp": "46",
-      "gs": "43",
-      "comp": "802",
-      "att": "1223",
-      "compPct": "65.6%",
-      "passYds": "9486",
-      "passTD": "65",
-      "int": "34",
-      "rushAtt": "471",
-      "rushYds": "2427",
-      "rushTD": "37",
-      "headline": "9486 yds, 65 TD, 34 INT (65.6%)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "passing",
+      "comp": "252",
+      "att": "361",
+      "compPct": "69.8%",
+      "passYds": "2951",
+      "passTD": "14",
+      "int": "6",
+      "headline": "2951 yds, 14 TD, 6 INT (69.8%)"
     }
   },
   {
@@ -837,19 +828,18 @@
         "total": 20
       }
     },
-    "careerStats": {
-      "gp": "51",
-      "gs": "45",
-      "comp": "865",
-      "att": "1394",
-      "compPct": "62.1%",
-      "passYds": "10718",
-      "passTD": "93",
-      "int": "18",
-      "rushAtt": "308",
-      "rushYds": "728",
-      "rushTD": "9",
-      "headline": "10718 yds, 93 TD, 18 INT (62.1%)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "passing",
+      "comp": "285",
+      "att": "413",
+      "compPct": "69.0%",
+      "passYds": "3448",
+      "passTD": "28",
+      "int": "1",
+      "headline": "3448 yds, 28 TD, 1 INT (69.0%)"
     }
   },
   {
@@ -913,19 +903,18 @@
         "total": 20
       }
     },
-    "careerStats": {
-      "gp": "38",
-      "gs": "37",
-      "comp": "783",
-      "att": "1254",
-      "compPct": "62.4%",
-      "passYds": "10325",
-      "passTD": "80",
-      "int": "34",
-      "rushAtt": "211",
-      "rushYds": "557",
-      "rushTD": "8",
-      "headline": "10325 yds, 80 TD, 34 INT (62.4%)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "passing",
+      "comp": "272",
+      "att": "404",
+      "compPct": "67.3%",
+      "passYds": "3565",
+      "passTD": "24",
+      "int": "10",
+      "headline": "3565 yds, 24 TD, 10 INT (67.3%)"
     }
   },
   {
@@ -1010,19 +999,18 @@
         "total": 20
       }
     },
-    "careerStats": {
-      "gp": "35",
-      "gs": "27",
-      "comp": "605",
-      "att": "1000",
-      "compPct": "60.5%",
-      "passYds": "7639",
-      "passTD": "61",
-      "int": "25",
-      "rushAtt": "156",
-      "rushYds": "316",
-      "rushTD": "8",
-      "headline": "7639 yds, 61 TD, 25 INT (60.5%)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "passing",
+      "comp": "304",
+      "att": "504",
+      "compPct": "60.3%",
+      "passYds": "3681",
+      "passTD": "31",
+      "int": "12",
+      "headline": "3681 yds, 31 TD, 12 INT (60.3%)"
     }
   },
   {
@@ -1091,19 +1079,18 @@
         "total": 20
       }
     },
-    "careerStats": {
-      "gp": "48",
-      "gs": "42",
-      "comp": "658",
-      "att": "1168",
-      "compPct": "56.3%",
-      "passYds": "8604",
-      "passTD": "55",
-      "int": "27",
-      "rushAtt": "296",
-      "rushYds": "459",
-      "rushTD": "10",
-      "headline": "8604 yds, 55 TD, 27 INT (56.3%)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "passing",
+      "comp": "229",
+      "att": "368",
+      "compPct": "62.2%",
+      "passYds": "3124",
+      "passTD": "20",
+      "int": "7",
+      "headline": "3124 yds, 20 TD, 7 INT (62.2%)"
     }
   },
   {
@@ -1174,19 +1161,18 @@
         "total": 20
       }
     },
-    "careerStats": {
-      "gp": "44",
-      "gs": "36",
-      "comp": "660",
-      "att": "1036",
-      "compPct": "63.7%",
-      "passYds": "7924",
-      "passTD": "60",
-      "int": "24",
-      "rushAtt": "318",
-      "rushYds": "744",
-      "rushTD": "13",
-      "headline": "7924 yds, 60 TD, 24 INT (63.7%)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "passing",
+      "comp": "246",
+      "att": "365",
+      "compPct": "67.4%",
+      "passYds": "3007",
+      "passTD": "22",
+      "int": "5",
+      "headline": "3007 yds, 22 TD, 5 INT (67.4%)"
     }
   },
   {
@@ -1254,19 +1240,18 @@
         "total": 20
       }
     },
-    "careerStats": {
-      "gp": "42",
-      "gs": "42",
-      "comp": "1247",
-      "att": "1953",
-      "compPct": "63.9%",
-      "passYds": "13161",
-      "passTD": "126",
-      "int": "50",
-      "rushAtt": "348",
-      "rushYds": "55",
-      "rushTD": "9",
-      "headline": "13161 yds, 126 TD, 50 INT (63.9%)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "11",
+      "type": "passing",
+      "comp": "303",
+      "att": "483",
+      "compPct": "62.7%",
+      "passYds": "3546",
+      "passTD": "42",
+      "int": "14",
+      "headline": "3546 yds, 42 TD, 14 INT (62.7%)"
     }
   },
   {
@@ -1341,19 +1326,18 @@
         "total": 20
       }
     },
-    "careerStats": {
-      "gp": "53",
-      "gs": "49",
-      "comp": "766",
-      "att": "1232",
-      "compPct": "62.2%",
-      "passYds": "10255",
-      "passTD": "88",
-      "int": "27",
-      "rushAtt": "630",
-      "rushYds": "3098",
-      "rushTD": "31",
-      "headline": "10255 yds, 88 TD, 27 INT (62.2%)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "passing",
+      "comp": "267",
+      "att": "378",
+      "compPct": "70.6%",
+      "passYds": "3539",
+      "passTD": "29",
+      "int": "8",
+      "headline": "3539 yds, 29 TD, 8 INT (70.6%)"
     }
   },
   {
@@ -1438,19 +1422,18 @@
         "total": 20
       }
     },
-    "careerStats": {
-      "gp": "68",
-      "gs": "68",
-      "comp": "922",
-      "att": "1452",
-      "compPct": "63.5%",
-      "passYds": "12071",
-      "passTD": "103",
-      "int": "27",
-      "rushAtt": "515",
-      "rushYds": "2312",
-      "rushTD": "53",
-      "headline": "12071 yds, 103 TD, 27 INT (63.5%)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "passing",
+      "comp": "166",
+      "att": "262",
+      "compPct": "63.4%",
+      "passYds": "1741",
+      "passTD": "10",
+      "int": "7",
+      "headline": "1741 yds, 10 TD, 7 INT (63.4%)"
     }
   },
   {
@@ -1505,19 +1488,18 @@
         "total": 20
       }
     },
-    "careerStats": {
-      "gp": "49",
-      "gs": "45",
-      "comp": "734",
-      "att": "1193",
-      "compPct": "61.5%",
-      "passYds": "9282",
-      "passTD": "67",
-      "int": "31",
-      "rushAtt": "421",
-      "rushYds": "1451",
-      "rushTD": "23",
-      "headline": "9282 yds, 67 TD, 31 INT (61.5%)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "passing",
+      "comp": "198",
+      "att": "319",
+      "compPct": "62.1%",
+      "passYds": "2531",
+      "passTD": "22",
+      "int": "7",
+      "headline": "2531 yds, 22 TD, 7 INT (62.1%)"
     }
   },
   {
@@ -1600,19 +1582,18 @@
         "total": 20
       }
     },
-    "careerStats": {
-      "gp": "45",
-      "gs": "36",
-      "comp": "793",
-      "att": "1263",
-      "compPct": "62.8%",
-      "passYds": "8986",
-      "passTD": "71",
-      "int": "28",
-      "rushAtt": "188",
-      "rushYds": "38",
-      "rushTD": "7",
-      "headline": "8986 yds, 71 TD, 28 INT (62.8%)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "passing",
+      "comp": "219",
+      "att": "332",
+      "compPct": "66.0%",
+      "passYds": "2780",
+      "passTD": "22",
+      "int": "6",
+      "headline": "2780 yds, 22 TD, 6 INT (66.0%)"
     }
   },
   {
@@ -1648,19 +1629,18 @@
         "total": 20
       }
     },
-    "careerStats": {
-      "gp": "41",
-      "gs": "40",
-      "comp": "838",
-      "att": "1363",
-      "compPct": "61.5%",
-      "passYds": "10097",
-      "passTD": "75",
-      "int": "27",
-      "rushAtt": "164",
-      "rushYds": "115",
-      "rushTD": "5",
-      "headline": "10097 yds, 75 TD, 27 INT (61.5%)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "7",
+      "gs": "7",
+      "type": "passing",
+      "comp": "183",
+      "att": "273",
+      "compPct": "67.0%",
+      "passYds": "2062",
+      "passTD": "12",
+      "int": "6",
+      "headline": "2062 yds, 12 TD, 6 INT (67.0%)"
     }
   },
   {
@@ -1734,16 +1714,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "41",
-      "gs": "29",
-      "rushAtt": "433",
-      "rushYds": "2882",
-      "rushAvg": "6.7",
-      "rushTD": "36",
-      "rec": "63",
-      "recYds": "594",
-      "headline": "2882 rush yds, 36 TD, 6.7 avg | 63 rec, 594 rec yds"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "rushing",
+      "rushAtt": "199",
+      "rushYds": "1372",
+      "rushAvg": "6.9",
+      "rushTD": "18",
+      "rec": "27",
+      "recYds": "280",
+      "headline": "1372 rush yds, 18 TD, 6.9 avg | 27 rec"
     }
   },
   {
@@ -1821,16 +1803,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "41",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
       "gs": "0",
-      "rushAtt": "280",
-      "rushYds": "1692",
+      "type": "rushing",
+      "rushAtt": "113",
+      "rushYds": "674",
       "rushAvg": "6.0",
-      "rushTD": "21",
-      "rec": "15",
-      "recYds": "162",
-      "headline": "1692 rush yds, 21 TD, 6.0 avg | 15 rec, 162 rec yds"
+      "rushTD": "11",
+      "rec": "6",
+      "recYds": "87",
+      "headline": "674 rush yds, 11 TD, 6.0 avg | 6 rec"
     }
   },
   {
@@ -1916,16 +1900,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "51",
-      "gs": "22",
-      "rushAtt": "587",
-      "rushYds": "2914",
-      "rushAvg": "5.0",
-      "rushTD": "26",
-      "rec": "73",
-      "recYds": "470",
-      "headline": "2914 rush yds, 26 TD, 5.0 avg | 73 rec, 470 rec yds"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "rushing",
+      "rushAtt": "167",
+      "rushYds": "1070",
+      "rushAvg": "6.4",
+      "rushTD": "8",
+      "rec": "28",
+      "recYds": "226",
+      "headline": "1070 rush yds, 8 TD, 6.4 avg | 28 rec"
     }
   },
   {
@@ -2015,16 +2001,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "41",
-      "gs": "23",
-      "rushAtt": "458",
-      "rushYds": "2460",
-      "rushAvg": "5.4",
-      "rushTD": "15",
-      "rec": "92",
-      "recYds": "702",
-      "headline": "2460 rush yds, 15 TD, 5.4 avg | 92 rec, 702 rec yds"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "rushing",
+      "rushAtt": "251",
+      "rushYds": "1451",
+      "rushAvg": "5.8",
+      "rushTD": "12",
+      "rec": "46",
+      "recYds": "370",
+      "headline": "1451 rush yds, 12 TD, 5.8 avg | 46 rec"
     }
   },
   {
@@ -2086,16 +2074,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "54",
-      "gs": "24",
-      "rushAtt": "769",
-      "rushYds": "4180",
-      "rushAvg": "5.4",
-      "rushTD": "39",
-      "rec": "70",
-      "recYds": "490",
-      "headline": "4180 rush yds, 39 TD, 5.4 avg | 70 rec, 490 rec yds"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "9",
+      "type": "rushing",
+      "rushAtt": "210",
+      "rushYds": "1303",
+      "rushAvg": "6.2",
+      "rushTD": "15",
+      "rec": "18",
+      "recYds": "68",
+      "headline": "1303 rush yds, 15 TD, 6.2 avg | 18 rec"
     }
   },
   {
@@ -2157,16 +2147,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "50",
-      "gs": "29",
-      "rushAtt": "552",
-      "rushYds": "3054",
-      "rushAvg": "5.5",
-      "rushTD": "34",
-      "rec": "87",
-      "recYds": "838",
-      "headline": "3054 rush yds, 34 TD, 5.5 avg | 87 rec, 838 rec yds"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "11",
+      "type": "rushing",
+      "rushAtt": "156",
+      "rushYds": "758",
+      "rushAvg": "4.9",
+      "rushTD": "15",
+      "rec": "31",
+      "recYds": "354",
+      "headline": "758 rush yds, 15 TD, 4.9 avg | 31 rec"
     }
   },
   {
@@ -2246,16 +2238,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "44",
-      "gs": "25",
-      "rushAtt": "558",
-      "rushYds": "2599",
-      "rushAvg": "4.7",
-      "rushTD": "26",
-      "rec": "55",
-      "recYds": "424",
-      "headline": "2599 rush yds, 26 TD, 4.7 avg | 55 rec, 424 rec yds"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "rushing",
+      "rushAtt": "179",
+      "rushYds": "907",
+      "rushAvg": "5.1",
+      "rushTD": "10",
+      "rec": "28",
+      "recYds": "140",
+      "headline": "907 rush yds, 10 TD, 5.1 avg | 28 rec"
     }
   },
   {
@@ -2318,16 +2312,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "53",
-      "gs": "31",
-      "rushAtt": "622",
-      "rushYds": "3461",
-      "rushAvg": "5.6",
-      "rushTD": "45",
-      "rec": "102",
-      "recYds": "987",
-      "headline": "3461 rush yds, 45 TD, 5.6 avg | 102 rec, 987 rec yds"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "4",
+      "type": "rushing",
+      "rushAtt": "123",
+      "rushYds": "549",
+      "rushAvg": "4.5",
+      "rushTD": "13",
+      "rec": "24",
+      "recYds": "219",
+      "headline": "549 rush yds, 13 TD, 4.5 avg | 24 rec"
     }
   },
   {
@@ -2410,16 +2406,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "38",
-      "gs": "30",
-      "rushAtt": "169",
-      "rushYds": "1157",
-      "rushAvg": "6.8",
-      "rushTD": "7",
-      "rec": "109",
-      "recYds": "1994",
-      "headline": "1157 rush yds, 7 TD, 6.8 avg | 109 rec, 1994 rec yds"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "rushing",
+      "rushAtt": "77",
+      "rushYds": "499",
+      "rushAvg": "6.5",
+      "rushTD": "3",
+      "rec": "51",
+      "recYds": "941",
+      "headline": "499 rush yds, 3 TD, 6.5 avg | 51 rec"
     }
   },
   {
@@ -2494,16 +2492,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "56",
-      "gs": "15",
-      "rushAtt": "496",
-      "rushYds": "2595",
-      "rushAvg": "5.2",
-      "rushTD": "17",
-      "rec": "55",
-      "recYds": "528",
-      "headline": "2595 rush yds, 17 TD, 5.2 avg | 55 rec, 528 rec yds"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "16",
+      "gs": "0",
+      "type": "rushing",
+      "rushAtt": "187",
+      "rushYds": "1039",
+      "rushAvg": "5.6",
+      "rushTD": "10",
+      "rec": "4",
+      "recYds": "36",
+      "headline": "1039 rush yds, 10 TD, 5.6 avg | 4 rec"
     }
   },
   {
@@ -2541,16 +2541,18 @@
       }
     },
     "playerId": "j-mari-taylor",
-    "careerStats": {
-      "gp": "51",
-      "gs": "24",
-      "rushAtt": "576",
-      "rushYds": "2944",
-      "rushAvg": "5.1",
-      "rushTD": "37",
-      "rec": "98",
-      "recYds": "882",
-      "headline": "2944 rush yds, 37 TD, 5.1 avg | 98 rec, 882 rec yds"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "rushing",
+      "rushAtt": "222",
+      "rushYds": "1062",
+      "rushAvg": "4.8",
+      "rushTD": "14",
+      "rec": "43",
+      "recYds": "253",
+      "headline": "1062 rush yds, 14 TD, 4.8 avg | 43 rec"
     }
   },
   {
@@ -2588,16 +2590,18 @@
       }
     },
     "playerId": "le-veon-moss",
-    "careerStats": {
-      "gp": "32",
-      "gs": "20",
-      "rushAtt": "321",
-      "rushYds": "1767",
-      "rushAvg": "5.5",
-      "rushTD": "22",
-      "rec": "24",
-      "recYds": "236",
-      "headline": "1767 rush yds, 22 TD, 5.5 avg | 24 rec, 236 rec yds"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "7",
+      "gs": "7",
+      "type": "rushing",
+      "rushAtt": "77",
+      "rushYds": "404",
+      "rushAvg": "5.2",
+      "rushTD": "6",
+      "rec": "2",
+      "recYds": "3",
+      "headline": "404 rush yds, 6 TD, 5.2 avg | 2 rec"
     }
   },
   {
@@ -2680,16 +2684,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "31",
-      "gs": "21",
-      "rushAtt": "375",
-      "rushYds": "1918",
-      "rushAvg": "5.1",
-      "rushTD": "18",
-      "rec": "55",
-      "recYds": "604",
-      "headline": "1918 rush yds, 18 TD, 5.1 avg | 55 rec, 604 rec yds"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "10",
+      "type": "rushing",
+      "rushAtt": "165",
+      "rushYds": "725",
+      "rushAvg": "4.4",
+      "rushTD": "12",
+      "rec": "19",
+      "recYds": "126",
+      "headline": "725 rush yds, 12 TD, 4.4 avg | 19 rec"
     }
   },
   {
@@ -2751,16 +2757,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "68",
-      "gs": "20",
-      "rushAtt": "523",
-      "rushYds": "2950",
-      "rushAvg": "5.6",
-      "rushTD": "21",
-      "rec": "90",
-      "recYds": "544",
-      "headline": "2950 rush yds, 21 TD, 5.6 avg | 90 rec, 544 rec yds"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "12",
+      "type": "rushing",
+      "rushAtt": "129",
+      "rushYds": "829",
+      "rushAvg": "6.4",
+      "rushTD": "6",
+      "rec": "19",
+      "recYds": "98",
+      "headline": "829 rush yds, 6 TD, 6.4 avg | 19 rec"
     }
   },
   {
@@ -2838,16 +2846,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "50",
-      "gs": "15",
-      "rushAtt": "349",
-      "rushYds": "1596",
-      "rushAvg": "4.6",
-      "rushTD": "13",
-      "rec": "40",
-      "recYds": "336",
-      "headline": "1596 rush yds, 13 TD, 4.6 avg | 40 rec, 336 rec yds"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "8",
+      "type": "rushing",
+      "rushAtt": "130",
+      "rushYds": "504",
+      "rushAvg": "3.9",
+      "rushTD": "3",
+      "rec": "19",
+      "recYds": "109",
+      "headline": "504 rush yds, 3 TD, 3.9 avg | 19 rec"
     }
   },
   {
@@ -2924,16 +2934,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "58",
-      "gs": "54",
-      "rushAtt": "711",
-      "rushYds": "3467",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "16",
+      "gs": "16",
+      "type": "rushing",
+      "rushAtt": "230",
+      "rushYds": "1120",
       "rushAvg": "4.9",
-      "rushTD": "29",
-      "rec": "129",
-      "recYds": "1086",
-      "headline": "3467 rush yds, 29 TD, 4.9 avg | 129 rec, 1086 rec yds"
+      "rushTD": "7",
+      "rec": "17",
+      "recYds": "165",
+      "headline": "1120 rush yds, 7 TD, 4.9 avg | 17 rec"
     }
   },
   {
@@ -2997,16 +3009,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "54",
-      "gs": "16",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "6",
+      "type": "rushing",
       "rushAtt": "0",
       "rushYds": "0",
       "rushAvg": "0",
-      "rushTD": "12",
-      "rec": "132",
-      "recYds": "11.0",
-      "headline": "0 rush yds, 12 TD, 0 avg | 132 rec, 11.0 rec yds"
+      "rushTD": "0",
+      "rec": "2",
+      "recYds": "11",
+      "headline": "0 rush yds, 0 TD, 0 avg | 2 rec"
     }
   },
   {
@@ -3080,16 +3094,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "50",
-      "gs": "18",
-      "rushAtt": "428",
-      "rushYds": "2273",
-      "rushAvg": "5.3",
-      "rushTD": "25",
-      "rec": "36",
-      "recYds": "303",
-      "headline": "2273 rush yds, 25 TD, 5.3 avg | 36 rec, 303 rec yds"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "11",
+      "type": "rushing",
+      "rushAtt": "182",
+      "rushYds": "1015",
+      "rushAvg": "5.6",
+      "rushTD": "12",
+      "rec": "21",
+      "recYds": "212",
+      "headline": "1015 rush yds, 12 TD, 5.6 avg | 21 rec"
     }
   },
   {
@@ -3175,16 +3191,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "50",
-      "gs": "20",
-      "rushAtt": "172",
-      "rushYds": "858",
-      "rushAvg": "5.0",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "rushing",
+      "rushAtt": "168",
+      "rushYds": "814",
+      "rushAvg": "4.8",
       "rushTD": "10",
-      "rec": "84",
-      "recYds": "787",
-      "headline": "858 rush yds, 10 TD, 5.0 avg | 84 rec, 787 rec yds"
+      "rec": "36",
+      "recYds": "254",
+      "headline": "814 rush yds, 10 TD, 4.8 avg | 36 rec"
     }
   },
   {
@@ -3268,16 +3286,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "37",
-      "gs": "20",
-      "rushAtt": "412",
-      "rushYds": "2315",
-      "rushAvg": "5.6",
-      "rushTD": "16",
-      "rec": "52",
-      "recYds": "269",
-      "headline": "2315 rush yds, 16 TD, 5.6 avg | 52 rec, 269 rec yds"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "7",
+      "type": "rushing",
+      "rushAtt": "96",
+      "rushYds": "470",
+      "rushAvg": "4.9",
+      "rushTD": "3",
+      "rec": "19",
+      "recYds": "118",
+      "headline": "470 rush yds, 3 TD, 4.9 avg | 19 rec"
     }
   },
   {
@@ -3367,16 +3387,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "41",
-      "gs": "33",
-      "rushAtt": "552",
-      "rushYds": "2655",
-      "rushAvg": "4.8",
-      "rushTD": "24",
-      "rec": "98",
-      "recYds": "749",
-      "headline": "2655 rush yds, 24 TD, 4.8 avg | 98 rec, 749 rec yds"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "7",
+      "gs": "1",
+      "type": "rushing",
+      "rushAtt": "21",
+      "rushYds": "68",
+      "rushAvg": "3.2",
+      "rushTD": "0",
+      "rec": "2",
+      "recYds": "10",
+      "headline": "68 rush yds, 0 TD, 3.2 avg | 2 rec"
     }
   },
   {
@@ -3466,16 +3488,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "35",
-      "gs": "21",
-      "rushAtt": "408",
-      "rushYds": "2339",
-      "rushAvg": "5.7",
-      "rushTD": "27",
-      "rec": "58",
-      "recYds": "428",
-      "headline": "2339 rush yds, 27 TD, 5.7 avg | 58 rec, 428 rec yds"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "11",
+      "type": "rushing",
+      "rushAtt": "151",
+      "rushYds": "1045",
+      "rushAvg": "6.9",
+      "rushTD": "9",
+      "rec": "18",
+      "recYds": "114",
+      "headline": "1045 rush yds, 9 TD, 6.9 avg | 18 rec"
     }
   },
   {
@@ -3542,16 +3566,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "45",
-      "gs": "15",
-      "rushAtt": "517",
-      "rushYds": "2419",
-      "rushAvg": "4.7",
-      "rushTD": "40",
-      "rec": "47",
-      "recYds": "286",
-      "headline": "2419 rush yds, 40 TD, 4.7 avg | 47 rec, 286 rec yds"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "2",
+      "type": "rushing",
+      "rushAtt": "96",
+      "rushYds": "361",
+      "rushAvg": "3.8",
+      "rushTD": "10",
+      "rec": "15",
+      "recYds": "96",
+      "headline": "361 rush yds, 10 TD, 3.8 avg | 15 rec"
     }
   },
   {
@@ -3616,16 +3642,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "50",
-      "gs": "30",
-      "rushAtt": "507",
-      "rushYds": "2656",
-      "rushAvg": "5.2",
-      "rushTD": "22",
-      "rec": "147",
-      "recYds": "1166",
-      "headline": "2656 rush yds, 22 TD, 5.2 avg | 147 rec, 1166 rec yds"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "rushing",
+      "rushAtt": "200",
+      "rushYds": "977",
+      "rushAvg": "4.9",
+      "rushTD": "6",
+      "rec": "34",
+      "recYds": "254",
+      "headline": "977 rush yds, 6 TD, 4.9 avg | 34 rec"
     }
   },
   {
@@ -3690,16 +3718,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "36",
-      "gs": "25",
-      "rushAtt": "492",
-      "rushYds": "2965",
-      "rushAvg": "6.0",
-      "rushTD": "24",
-      "rec": "117",
-      "recYds": "1391",
-      "headline": "2965 rush yds, 24 TD, 6.0 avg | 117 rec, 1391 rec yds"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "7",
+      "gs": "6",
+      "type": "rushing",
+      "rushAtt": "60",
+      "rushYds": "278",
+      "rushAvg": "4.6",
+      "rushTD": "2",
+      "rec": "23",
+      "recYds": "317",
+      "headline": "278 rush yds, 2 TD, 4.6 avg | 23 rec"
     }
   },
   {
@@ -3721,16 +3751,18 @@
       }
     },
     "playerId": "christian-jones",
-    "careerStats": {
-      "gp": "54",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
       "gs": "1",
-      "rushAtt": "52",
-      "rushYds": "253",
-      "rushAvg": "4.9",
-      "rushTD": "3",
-      "rec": "57",
-      "recYds": "573",
-      "headline": "253 rush yds, 3 TD, 4.9 avg | 57 rec, 573 rec yds"
+      "type": "rushing",
+      "rushAtt": "13",
+      "rushYds": "15",
+      "rushAvg": "1.2",
+      "rushTD": "0",
+      "rec": "20",
+      "recYds": "195",
+      "headline": "15 rush yds, 0 TD, 1.2 avg | 20 rec"
     }
   },
   {
@@ -3751,16 +3783,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "47",
-      "gs": "19",
-      "rushAtt": "434",
-      "rushYds": "2277",
-      "rushAvg": "5.2",
-      "rushTD": "32",
-      "rec": "35",
-      "recYds": "369",
-      "headline": "2277 rush yds, 32 TD, 5.2 avg | 35 rec, 369 rec yds"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "rushing",
+      "rushAtt": "191",
+      "rushYds": "1005",
+      "rushAvg": "5.3",
+      "rushTD": "20",
+      "rec": "20",
+      "recYds": "247",
+      "headline": "1005 rush yds, 20 TD, 5.3 avg | 20 rec"
     }
   },
   {
@@ -3781,16 +3815,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "53",
-      "gs": "12",
-      "rushAtt": "537",
-      "rushYds": "2645",
-      "rushAvg": "4.9",
-      "rushTD": "23",
-      "rec": "65",
-      "recYds": "620",
-      "headline": "2645 rush yds, 23 TD, 4.9 avg | 65 rec, 620 rec yds"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "0",
+      "type": "rushing",
+      "rushAtt": "104",
+      "rushYds": "596",
+      "rushAvg": "5.7",
+      "rushTD": "7",
+      "rec": "11",
+      "recYds": "116",
+      "headline": "596 rush yds, 7 TD, 5.7 avg | 11 rec"
     }
   },
   {
@@ -3860,15 +3896,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "39",
-      "gs": "23",
-      "rec": "121",
-      "recYds": "1872",
-      "recAvg": "15.5",
-      "recTD": "14",
-      "drops": "5",
-      "headline": "121 rec, 1872 yds, 14 TD (15.5 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "11",
+      "type": "receiving",
+      "rec": "51",
+      "recYds": "875",
+      "recAvg": "17.2",
+      "recTD": "9",
+      "headline": "51 rec, 875 yds, 9 TD (17.2 avg)"
     }
   },
   {
@@ -3939,15 +3976,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "32",
-      "gs": "17",
-      "rec": "137",
-      "recYds": "2008",
-      "recAvg": "14.7",
-      "recTD": "14",
-      "drops": "4",
-      "headline": "137 rec, 2008 yds, 14 TD (14.7 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "11",
+      "type": "receiving",
+      "rec": "79",
+      "recYds": "1156",
+      "recAvg": "14.6",
+      "recTD": "11",
+      "headline": "79 rec, 1156 yds, 11 TD (14.6 avg)"
     }
   },
   {
@@ -4011,15 +4049,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "33",
-      "gs": "24",
-      "rec": "158",
-      "recYds": "2282",
-      "recAvg": "14.4",
-      "recTD": "22",
-      "drops": "13",
-      "headline": "158 rec, 2282 yds, 22 TD (14.4 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "9",
+      "gs": "9",
+      "type": "receiving",
+      "rec": "61",
+      "recYds": "711",
+      "recAvg": "11.7",
+      "recTD": "8",
+      "headline": "61 rec, 711 yds, 8 TD (11.7 avg)"
     }
   },
   {
@@ -4083,15 +4122,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "38",
-      "gs": "37",
-      "rec": "185",
-      "recYds": "2218",
-      "recAvg": "12.0",
-      "recTD": "25",
-      "drops": "19",
-      "headline": "185 rec, 2218 yds, 25 TD (12.0 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "receiving",
+      "rec": "61",
+      "recYds": "919",
+      "recAvg": "15.1",
+      "recTD": "9",
+      "headline": "61 rec, 919 yds, 9 TD (15.1 avg)"
     }
   },
   {
@@ -4161,15 +4201,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "42",
-      "gs": "20",
-      "rec": "115",
-      "recYds": "1798",
-      "recAvg": "15.6",
-      "recTD": "22",
-      "drops": "5",
-      "headline": "115 rec, 1798 yds, 22 TD (15.6 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "16",
+      "gs": "14",
+      "type": "receiving",
+      "rec": "69",
+      "recYds": "937",
+      "recAvg": "13.6",
+      "recTD": "13",
+      "headline": "69 rec, 937 yds, 13 TD (13.6 avg)"
     }
   },
   {
@@ -4248,15 +4289,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "43",
-      "gs": "26",
-      "rec": "132",
-      "recYds": "1781",
-      "recAvg": "13.5",
-      "recTD": "20",
-      "drops": "5",
-      "headline": "132 rec, 1781 yds, 20 TD (13.5 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "11",
+      "type": "receiving",
+      "rec": "62",
+      "recYds": "881",
+      "recAvg": "14.2",
+      "recTD": "11",
+      "headline": "62 rec, 881 yds, 11 TD (14.2 avg)"
     }
   },
   {
@@ -4346,15 +4388,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "53",
-      "gs": "35",
-      "rec": "155",
-      "recYds": "2203",
-      "recAvg": "14.2",
-      "recTD": "13",
-      "drops": "4",
-      "headline": "155 rec, 2203 yds, 13 TD (14.2 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
+      "gs": "14",
+      "type": "receiving",
+      "rec": "64",
+      "recYds": "862",
+      "recAvg": "13.5",
+      "recTD": "7",
+      "headline": "64 rec, 862 yds, 7 TD (13.5 avg)"
     }
   },
   {
@@ -4417,15 +4460,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "47",
-      "gs": "36",
-      "rec": "151",
-      "recYds": "2166",
-      "recAvg": "14.3",
-      "recTD": "12",
-      "drops": "13",
-      "headline": "151 rec, 2166 yds, 12 TD (14.3 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "11",
+      "type": "receiving",
+      "rec": "72",
+      "recYds": "917",
+      "recAvg": "12.7",
+      "recTD": "6",
+      "headline": "72 rec, 917 yds, 6 TD (12.7 avg)"
     }
   },
   {
@@ -4517,15 +4561,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "48",
-      "gs": "37",
-      "rec": "165",
-      "recYds": "2479",
-      "recAvg": "15.0",
-      "recTD": "16",
-      "drops": "10",
-      "headline": "165 rec, 2479 yds, 16 TD (15.0 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "receiving",
+      "rec": "36",
+      "recYds": "630",
+      "recAvg": "17.5",
+      "recTD": "5",
+      "headline": "36 rec, 630 yds, 5 TD (17.5 avg)"
     }
   },
   {
@@ -4615,15 +4660,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "43",
-      "gs": "38",
-      "rec": "208",
-      "recYds": "2336",
-      "recAvg": "11.2",
-      "recTD": "21",
-      "drops": "11",
-      "headline": "208 rec, 2336 yds, 21 TD (11.2 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "10",
+      "gs": "10",
+      "type": "receiving",
+      "rec": "55",
+      "recYds": "604",
+      "recAvg": "11.0",
+      "recTD": "4",
+      "headline": "55 rec, 604 yds, 4 TD (11.0 avg)"
     }
   },
   {
@@ -4661,15 +4707,16 @@
       }
     },
     "playerId": "de-zhaun-stribling",
-    "careerStats": {
-      "gp": "56",
-      "gs": "55",
-      "rec": "216",
-      "recYds": "2964",
-      "recAvg": "13.7",
-      "recTD": "23",
-      "drops": "9",
-      "headline": "216 rec, 2964 yds, 23 TD (13.7 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "15",
+      "gs": "15",
+      "type": "receiving",
+      "rec": "55",
+      "recYds": "811",
+      "recAvg": "14.7",
+      "recTD": "6",
+      "headline": "55 rec, 811 yds, 6 TD (14.7 avg)"
     }
   },
   {
@@ -4751,15 +4798,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "52",
-      "gs": "43",
-      "rec": "242",
-      "recYds": "3678",
-      "recAvg": "15.2",
-      "recTD": "44",
-      "drops": "9",
-      "headline": "242 rec, 3678 yds, 44 TD (15.2 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
+      "gs": "13",
+      "type": "receiving",
+      "rec": "65",
+      "recYds": "830",
+      "recAvg": "12.8",
+      "recTD": "15",
+      "headline": "65 rec, 830 yds, 15 TD (12.8 avg)"
     }
   },
   {
@@ -4839,15 +4887,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "49",
-      "gs": "42",
-      "rec": "187",
-      "recYds": "2992",
-      "recAvg": "16.0",
-      "recTD": "25",
-      "drops": "16",
-      "headline": "187 rec, 2992 yds, 25 TD (16.0 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "11",
+      "type": "receiving",
+      "rec": "71",
+      "recYds": "1004",
+      "recAvg": "14.1",
+      "recTD": "6",
+      "headline": "71 rec, 1004 yds, 6 TD (14.1 avg)"
     }
   },
   {
@@ -4922,15 +4971,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "37",
-      "gs": "27",
-      "rec": "159",
-      "recYds": "1634",
-      "recAvg": "10.3",
-      "recTD": "9",
-      "drops": "8",
-      "headline": "159 rec, 1634 yds, 9 TD (10.3 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
+      "gs": "10",
+      "type": "receiving",
+      "rec": "81",
+      "recYds": "811",
+      "recAvg": "10.0",
+      "recTD": "6",
+      "headline": "81 rec, 811 yds, 6 TD (10.0 avg)"
     }
   },
   {
@@ -4995,15 +5045,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "39",
-      "gs": "23",
-      "rec": "84",
-      "recYds": "1557",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "receiving",
+      "rec": "57",
+      "recYds": "1054",
       "recAvg": "18.5",
-      "recTD": "10",
-      "drops": "8",
-      "headline": "84 rec, 1557 yds, 10 TD (18.5 avg)"
+      "recTD": "6",
+      "headline": "57 rec, 1054 yds, 6 TD (18.5 avg)"
     }
   },
   {
@@ -5095,15 +5146,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "57",
-      "gs": "26",
-      "rec": "127",
-      "recYds": "2157",
-      "recAvg": "17.0",
-      "recTD": "25",
-      "drops": "5",
-      "headline": "127 rec, 2157 yds, 25 TD (17.0 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "receiving",
+      "rec": "51",
+      "recYds": "1079",
+      "recAvg": "21.2",
+      "recTD": "8",
+      "headline": "51 rec, 1079 yds, 8 TD (21.2 avg)"
     }
   },
   {
@@ -5175,15 +5227,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "40",
-      "gs": "28",
-      "rec": "136",
-      "recYds": "2072",
-      "recAvg": "15.2",
-      "recTD": "16",
-      "drops": "12",
-      "headline": "136 rec, 2072 yds, 16 TD (15.2 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "11",
+      "type": "receiving",
+      "rec": "62",
+      "recYds": "1017",
+      "recAvg": "16.4",
+      "recTD": "9",
+      "headline": "62 rec, 1017 yds, 9 TD (16.4 avg)"
     }
   },
   {
@@ -5265,15 +5318,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "48",
-      "gs": "31",
-      "rec": "151",
-      "recYds": "1669",
-      "recAvg": "11.1",
-      "recTD": "14",
-      "drops": "15",
-      "headline": "151 rec, 1669 yds, 14 TD (11.1 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "receiving",
+      "rec": "57",
+      "recYds": "620",
+      "recAvg": "10.9",
+      "recTD": "4",
+      "headline": "57 rec, 620 yds, 4 TD (10.9 avg)"
     }
   },
   {
@@ -5362,15 +5416,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "52",
-      "gs": "40",
-      "rec": "220",
-      "recYds": "2893",
-      "recAvg": "13.2",
-      "recTD": "24",
-      "drops": "24",
-      "headline": "220 rec, 2893 yds, 24 TD (13.2 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "receiving",
+      "rec": "101",
+      "recYds": "1278",
+      "recAvg": "12.7",
+      "recTD": "13",
+      "headline": "101 rec, 1278 yds, 13 TD (12.7 avg)"
     }
   },
   {
@@ -5439,15 +5494,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "35",
-      "gs": "26",
-      "rec": "116",
-      "recYds": "1437",
-      "recAvg": "12.4",
-      "recTD": "13",
-      "drops": "8",
-      "headline": "116 rec, 1437 yds, 13 TD (12.4 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "8",
+      "gs": "7",
+      "type": "receiving",
+      "rec": "26",
+      "recYds": "358",
+      "recAvg": "13.8",
+      "recTD": "1",
+      "headline": "26 rec, 358 yds, 1 TD (13.8 avg)"
     }
   },
   {
@@ -5531,15 +5587,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "39",
-      "gs": "27",
-      "rec": "81",
-      "recYds": "1192",
-      "recAvg": "14.7",
-      "recTD": "8",
-      "drops": "4",
-      "headline": "81 rec, 1192 yds, 8 TD (14.7 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "9",
+      "type": "receiving",
+      "rec": "43",
+      "recYds": "719",
+      "recAvg": "16.7",
+      "recTD": "6",
+      "headline": "43 rec, 719 yds, 6 TD (16.7 avg)"
     }
   },
   {
@@ -5617,15 +5674,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "46",
-      "gs": "16",
-      "rec": "86",
-      "recYds": "883",
-      "recAvg": "10.3",
-      "recTD": "4",
-      "drops": "3",
-      "headline": "86 rec, 883 yds, 4 TD (10.3 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "8",
+      "type": "receiving",
+      "rec": "53",
+      "recYds": "540",
+      "recAvg": "10.2",
+      "recTD": "3",
+      "headline": "53 rec, 540 yds, 3 TD (10.2 avg)"
     }
   },
   {
@@ -5703,15 +5761,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "50",
-      "gs": "26",
-      "rec": "100",
-      "recYds": "1583",
-      "recAvg": "15.8",
-      "recTD": "16",
-      "drops": "9",
-      "headline": "100 rec, 1583 yds, 16 TD (15.8 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
+      "gs": "14",
+      "type": "receiving",
+      "rec": "57",
+      "recYds": "705",
+      "recAvg": "12.4",
+      "recTD": "6",
+      "headline": "57 rec, 705 yds, 6 TD (12.4 avg)"
     }
   },
   {
@@ -5749,15 +5808,16 @@
       }
     },
     "playerId": "ja-kobi-lane",
-    "careerStats": {
-      "gp": "31",
-      "gs": "17",
-      "rec": "99",
-      "recYds": "1363",
-      "recAvg": "13.8",
-      "recTD": "18",
-      "drops": "8",
-      "headline": "99 rec, 1363 yds, 18 TD (13.8 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "9",
+      "type": "receiving",
+      "rec": "49",
+      "recYds": "745",
+      "recAvg": "15.2",
+      "recTD": "4",
+      "headline": "49 rec, 745 yds, 4 TD (15.2 avg)"
     }
   },
   {
@@ -5835,15 +5895,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "52",
-      "gs": "39",
-      "rec": "198",
-      "recYds": "2501",
-      "recAvg": "12.6",
-      "recTD": "12",
-      "drops": "7",
-      "headline": "198 rec, 2501 yds, 12 TD (12.6 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "11",
+      "type": "receiving",
+      "rec": "66",
+      "recYds": "732",
+      "recAvg": "11.1",
+      "recTD": "1",
+      "headline": "66 rec, 732 yds, 1 TD (11.1 avg)"
     }
   },
   {
@@ -5923,15 +5984,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "41",
-      "gs": "31",
-      "rec": "125",
-      "recYds": "2250",
-      "recAvg": "18.0",
-      "recTD": "29",
-      "drops": "14",
-      "headline": "125 rec, 2250 yds, 29 TD (18.0 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "11",
+      "type": "receiving",
+      "rec": "32",
+      "recYds": "478",
+      "recAvg": "14.9",
+      "recTD": "6",
+      "headline": "32 rec, 478 yds, 6 TD (14.9 avg)"
     }
   },
   {
@@ -5998,15 +6060,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "44",
-      "gs": "36",
-      "rec": "137",
-      "recYds": "2221",
-      "recAvg": "16.2",
-      "recTD": "22",
-      "drops": "11",
-      "headline": "137 rec, 2221 yds, 22 TD (16.2 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "receiving",
+      "rec": "51",
+      "recYds": "674",
+      "recAvg": "13.2",
+      "recTD": "13",
+      "headline": "51 rec, 674 yds, 13 TD (13.2 avg)"
     }
   },
   {
@@ -6072,15 +6135,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "53",
-      "gs": "36",
-      "rec": "170",
-      "recYds": "2236",
-      "recAvg": "13.2",
-      "recTD": "19",
-      "drops": "7",
-      "headline": "170 rec, 2236 yds, 19 TD (13.2 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "receiving",
+      "rec": "69",
+      "recYds": "872",
+      "recAvg": "12.6",
+      "recTD": "9",
+      "headline": "69 rec, 872 yds, 9 TD (12.6 avg)"
     }
   },
   {
@@ -6153,15 +6217,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "52",
-      "gs": "42",
-      "rec": "150",
-      "recYds": "2073",
-      "recAvg": "13.8",
-      "recTD": "16",
-      "drops": "19",
-      "headline": "150 rec, 2073 yds, 16 TD (13.8 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "receiving",
+      "rec": "27",
+      "recYds": "406",
+      "recAvg": "15.0",
+      "recTD": "3",
+      "headline": "27 rec, 406 yds, 3 TD (15.0 avg)"
     }
   },
   {
@@ -6243,15 +6308,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "40",
-      "gs": "7",
-      "rec": "23",
-      "recYds": "197",
-      "recAvg": "8.6",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "6",
+      "type": "receiving",
+      "rec": "20",
+      "recYds": "151",
+      "recAvg": "7.6",
       "recTD": "1",
-      "drops": "1",
-      "headline": "23 rec, 197 yds, 1 TD (8.6 avg)"
+      "headline": "20 rec, 151 yds, 1 TD (7.6 avg)"
     }
   },
   {
@@ -6331,15 +6397,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "40",
-      "gs": "34",
-      "rec": "135",
-      "recYds": "2031",
-      "recAvg": "15.0",
-      "recTD": "16",
-      "drops": "12",
-      "headline": "135 rec, 2031 yds, 16 TD (15.0 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
+      "gs": "14",
+      "type": "receiving",
+      "rec": "54",
+      "recYds": "846",
+      "recAvg": "15.7",
+      "recTD": "7",
+      "headline": "54 rec, 846 yds, 7 TD (15.7 avg)"
     }
   },
   {
@@ -6414,15 +6481,16 @@
         "total": 24
       }
     },
-    "careerStats": {
-      "gp": "54",
-      "gs": "36",
-      "rec": "145",
-      "recYds": "2155",
-      "recAvg": "14.9",
-      "recTD": "10",
-      "drops": "13",
-      "headline": "145 rec, 2155 yds, 10 TD (14.9 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "15",
+      "gs": "15",
+      "type": "receiving",
+      "rec": "61",
+      "recYds": "934",
+      "recAvg": "15.3",
+      "recTD": "4",
+      "headline": "61 rec, 934 yds, 4 TD (15.3 avg)"
     }
   },
   {
@@ -6505,15 +6573,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "53",
-      "gs": "13",
-      "rec": "144",
-      "recYds": "1787",
-      "recAvg": "12.4",
-      "recTD": "21",
-      "drops": "9",
-      "headline": "144 rec, 1787 yds, 21 TD (12.4 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "9",
+      "type": "receiving",
+      "rec": "61",
+      "recYds": "766",
+      "recAvg": "12.6",
+      "recTD": "6",
+      "headline": "61 rec, 766 yds, 6 TD (12.6 avg)"
     }
   },
   {
@@ -6586,15 +6655,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "48",
-      "gs": "18",
-      "rec": "106",
-      "recYds": "1213",
-      "recAvg": "11.4",
-      "recTD": "7",
-      "drops": "5",
-      "headline": "106 rec, 1213 yds, 7 TD (11.4 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "7",
+      "type": "receiving",
+      "rec": "41",
+      "recYds": "488",
+      "recAvg": "11.9",
+      "recTD": "4",
+      "headline": "41 rec, 488 yds, 4 TD (11.9 avg)"
     }
   },
   {
@@ -6677,15 +6747,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "47",
-      "gs": "26",
-      "rec": "80",
-      "recYds": "1162",
-      "recAvg": "14.5",
-      "recTD": "5",
-      "drops": "5",
-      "headline": "80 rec, 1162 yds, 5 TD (14.5 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "10",
+      "type": "receiving",
+      "rec": "31",
+      "recYds": "391",
+      "recAvg": "12.6",
+      "recTD": "1",
+      "headline": "31 rec, 391 yds, 1 TD (12.6 avg)"
     }
   },
   {
@@ -6766,15 +6837,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "46",
-      "gs": "35",
-      "rec": "213",
-      "recYds": "2385",
-      "recAvg": "11.2",
-      "recTD": "11",
-      "drops": "10",
-      "headline": "213 rec, 2385 yds, 11 TD (11.2 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "receiving",
+      "rec": "88",
+      "recYds": "993",
+      "recAvg": "11.3",
+      "recTD": "1",
+      "headline": "88 rec, 993 yds, 1 TD (11.3 avg)"
     }
   },
   {
@@ -6852,15 +6924,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "50",
-      "gs": "37",
-      "rec": "175",
-      "recYds": "2060",
-      "recAvg": "11.8",
-      "recTD": "12",
-      "drops": "21",
-      "headline": "175 rec, 2060 yds, 12 TD (11.8 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "9",
+      "type": "receiving",
+      "rec": "53",
+      "recYds": "532",
+      "recAvg": "10.0",
+      "recTD": "1",
+      "headline": "53 rec, 532 yds, 1 TD (10.0 avg)"
     }
   },
   {
@@ -6881,15 +6954,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "60",
-      "gs": "26",
-      "rec": "118",
-      "recYds": "2095",
-      "recAvg": "17.8",
-      "recTD": "16",
-      "drops": "12",
-      "headline": "118 rec, 2095 yds, 16 TD (17.8 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "receiving",
+      "rec": "64",
+      "recYds": "1053",
+      "recAvg": "16.5",
+      "recTD": "7",
+      "headline": "64 rec, 1053 yds, 7 TD (16.5 avg)"
     }
   },
   {
@@ -6979,15 +7053,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "49",
-      "gs": "40",
-      "rec": "170",
-      "recYds": "2586",
-      "recAvg": "15.2",
-      "recTD": "18",
-      "drops": "17",
-      "headline": "170 rec, 2586 yds, 18 TD (15.2 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "receiving",
+      "rec": "54",
+      "recYds": "802",
+      "recAvg": "14.9",
+      "recTD": "6",
+      "headline": "54 rec, 802 yds, 6 TD (14.9 avg)"
     }
   },
   {
@@ -7070,15 +7145,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "46",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
       "gs": "11",
-      "rec": "50",
-      "recYds": "861",
-      "recAvg": "17.2",
+      "type": "receiving",
+      "rec": "45",
+      "recYds": "766",
+      "recAvg": "17.0",
       "recTD": "5",
-      "drops": "4",
-      "headline": "50 rec, 861 yds, 5 TD (17.2 avg)"
+      "headline": "45 rec, 766 yds, 5 TD (17.0 avg)"
     }
   },
   {
@@ -7168,15 +7244,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "40",
-      "gs": "33",
-      "rec": "192",
-      "recYds": "2595",
-      "recAvg": "13.5",
-      "recTD": "24",
-      "drops": "9",
-      "headline": "192 rec, 2595 yds, 24 TD (13.5 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "10",
+      "gs": "10",
+      "type": "receiving",
+      "rec": "70",
+      "recYds": "847",
+      "recAvg": "12.1",
+      "recTD": "8",
+      "headline": "70 rec, 847 yds, 8 TD (12.1 avg)"
     }
   },
   {
@@ -7254,15 +7331,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "56",
-      "gs": "34",
-      "rec": "119",
-      "recYds": "1269",
-      "recAvg": "10.7",
-      "recTD": "11",
-      "drops": "13",
-      "headline": "119 rec, 1269 yds, 11 TD (10.7 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
+      "gs": "9",
+      "type": "receiving",
+      "rec": "27",
+      "recYds": "268",
+      "recAvg": "9.9",
+      "recTD": "2",
+      "headline": "27 rec, 268 yds, 2 TD (9.9 avg)"
     }
   },
   {
@@ -7343,15 +7421,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "34",
-      "gs": "30",
-      "rec": "188",
-      "recYds": "2771",
-      "recAvg": "14.7",
-      "recTD": "32",
-      "drops": "8",
-      "headline": "188 rec, 2771 yds, 32 TD (14.7 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
+      "gs": "14",
+      "type": "receiving",
+      "rec": "119",
+      "recYds": "1528",
+      "recAvg": "12.8",
+      "recTD": "15",
+      "headline": "119 rec, 1528 yds, 15 TD (12.8 avg)"
     }
   },
   {
@@ -7431,15 +7510,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "48",
-      "gs": "22",
-      "rec": "169",
-      "recYds": "3084",
-      "recAvg": "18.2",
-      "recTD": "24",
-      "drops": "16",
-      "headline": "169 rec, 3084 yds, 24 TD (18.2 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "11",
+      "type": "receiving",
+      "rec": "72",
+      "recYds": "1190",
+      "recAvg": "16.5",
+      "recTD": "10",
+      "headline": "72 rec, 1190 yds, 10 TD (16.5 avg)"
     }
   },
   {
@@ -7516,15 +7596,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "42",
-      "gs": "24",
-      "rec": "140",
-      "recYds": "2200",
-      "recAvg": "15.7",
-      "recTD": "16",
-      "drops": "12",
-      "headline": "140 rec, 2200 yds, 16 TD (15.7 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "11",
+      "type": "receiving",
+      "rec": "46",
+      "recYds": "658",
+      "recAvg": "14.3",
+      "recTD": "2",
+      "headline": "46 rec, 658 yds, 2 TD (14.3 avg)"
     }
   },
   {
@@ -7607,15 +7688,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "66",
-      "gs": "41",
-      "rec": "198",
-      "recYds": "2991",
-      "recAvg": "15.1",
-      "recTD": "28",
-      "drops": "9",
-      "headline": "198 rec, 2991 yds, 28 TD (15.1 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "12",
+      "type": "receiving",
+      "rec": "50",
+      "recYds": "557",
+      "recAvg": "11.1",
+      "recTD": "7",
+      "headline": "50 rec, 557 yds, 7 TD (11.1 avg)"
     }
   },
   {
@@ -7700,15 +7782,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "47",
-      "gs": "28",
-      "rec": "105",
-      "recYds": "1422",
-      "recAvg": "13.5",
-      "recTD": "11",
-      "drops": "6",
-      "headline": "105 rec, 1422 yds, 11 TD (13.5 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "receiving",
+      "rec": "39",
+      "recYds": "588",
+      "recAvg": "15.1",
+      "recTD": "3",
+      "headline": "39 rec, 588 yds, 3 TD (15.1 avg)"
     }
   },
   {
@@ -7790,15 +7873,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "34",
-      "gs": "16",
-      "rec": "106",
-      "recYds": "1341",
-      "recAvg": "12.7",
-      "recTD": "5",
-      "drops": "10",
-      "headline": "106 rec, 1341 yds, 5 TD (12.7 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "9",
+      "gs": "5",
+      "type": "receiving",
+      "rec": "33",
+      "recYds": "398",
+      "recAvg": "12.1",
+      "recTD": "0",
+      "headline": "33 rec, 398 yds, 0 TD (12.1 avg)"
     }
   },
   {
@@ -7819,15 +7903,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "48",
-      "gs": "31",
-      "rec": "155",
-      "recYds": "1753",
-      "recAvg": "11.3",
-      "recTD": "15",
-      "drops": "20",
-      "headline": "155 rec, 1753 yds, 15 TD (11.3 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "6",
+      "type": "receiving",
+      "rec": "26",
+      "recYds": "381",
+      "recAvg": "14.7",
+      "recTD": "6",
+      "headline": "26 rec, 381 yds, 6 TD (14.7 avg)"
     }
   },
   {
@@ -7903,15 +7988,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "38",
-      "gs": "7",
-      "rec": "41",
-      "recYds": "780",
-      "recAvg": "19.0",
-      "recTD": "6",
-      "drops": "5",
-      "headline": "41 rec, 780 yds, 6 TD (19.0 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "1",
+      "type": "receiving",
+      "rec": "10",
+      "recYds": "122",
+      "recAvg": "12.2",
+      "recTD": "0",
+      "headline": "10 rec, 122 yds, 0 TD (12.2 avg)"
     }
   },
   {
@@ -7973,15 +8059,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "65",
-      "gs": "46",
-      "rec": "286",
-      "recYds": "3349",
-      "recAvg": "11.7",
-      "recTD": "16",
-      "drops": "16",
-      "headline": "286 rec, 3349 yds, 16 TD (11.7 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "11",
+      "type": "receiving",
+      "rec": "60",
+      "recYds": "635",
+      "recAvg": "10.6",
+      "recTD": "2",
+      "headline": "60 rec, 635 yds, 2 TD (10.6 avg)"
     }
   },
   {
@@ -8002,15 +8089,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "52",
-      "gs": "18",
-      "rec": "165",
-      "recYds": "2119",
-      "recAvg": "12.8",
-      "recTD": "19",
-      "drops": "21",
-      "headline": "165 rec, 2119 yds, 19 TD (12.8 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "4",
+      "type": "receiving",
+      "rec": "36",
+      "recYds": "501",
+      "recAvg": "13.9",
+      "recTD": "5",
+      "headline": "36 rec, 501 yds, 5 TD (13.9 avg)"
     }
   },
   {
@@ -8031,15 +8119,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "26",
-      "gs": "22",
-      "rec": "114",
-      "recYds": "1425",
-      "recAvg": "12.5",
-      "recTD": "16",
-      "drops": "10",
-      "headline": "114 rec, 1425 yds, 16 TD (12.5 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "10",
+      "type": "receiving",
+      "rec": "44",
+      "recYds": "577",
+      "recAvg": "13.1",
+      "recTD": "5",
+      "headline": "44 rec, 577 yds, 5 TD (13.1 avg)"
     }
   },
   {
@@ -8102,15 +8191,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "52",
-      "gs": "24",
-      "rec": "98",
-      "recYds": "1393",
-      "recAvg": "14.2",
-      "recTD": "6",
-      "drops": "13",
-      "headline": "98 rec, 1393 yds, 6 TD (14.2 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "10",
+      "type": "receiving",
+      "rec": "43",
+      "recYds": "638",
+      "recAvg": "14.8",
+      "recTD": "3",
+      "headline": "43 rec, 638 yds, 3 TD (14.8 avg)"
     }
   },
   {
@@ -8176,15 +8266,16 @@
         "total": 54
       }
     },
-    "careerStats": {
-      "gp": "54",
-      "gs": "22",
-      "rec": "158",
-      "recYds": "1764",
-      "recAvg": "11.2",
-      "recTD": "12",
-      "drops": "12",
-      "headline": "158 rec, 1764 yds, 12 TD (11.2 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "8",
+      "type": "receiving",
+      "rec": "49",
+      "recYds": "552",
+      "recAvg": "11.3",
+      "recTD": "2",
+      "headline": "49 rec, 552 yds, 2 TD (11.3 avg)"
     }
   },
   {
@@ -8263,15 +8354,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "42",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
       "gs": "14",
-      "rec": "80",
-      "recYds": "892",
-      "recAvg": "11.2",
-      "recTD": "11",
-      "drops": "8",
-      "headline": "80 rec, 892 yds, 11 TD (11.2 avg)"
+      "type": "receiving",
+      "rec": "51",
+      "recYds": "560",
+      "recAvg": "11.0",
+      "recTD": "8",
+      "headline": "51 rec, 560 yds, 8 TD (11.0 avg)"
     }
   },
   {
@@ -8345,15 +8437,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "45",
-      "gs": "14",
-      "rec": "146",
-      "recYds": "1773",
-      "recAvg": "12.1",
-      "recTD": "11",
-      "drops": "6",
-      "headline": "146 rec, 1773 yds, 11 TD (12.1 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "5",
+      "type": "receiving",
+      "rec": "62",
+      "recYds": "769",
+      "recAvg": "12.4",
+      "recTD": "4",
+      "headline": "62 rec, 769 yds, 4 TD (12.4 avg)"
     }
   },
   {
@@ -8417,15 +8510,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "32",
-      "gs": "28",
-      "rec": "116",
-      "recYds": "1329",
-      "recAvg": "11.5",
-      "recTD": "6",
-      "drops": "7",
-      "headline": "116 rec, 1329 yds, 6 TD (11.5 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
+      "gs": "12",
+      "type": "receiving",
+      "rec": "43",
+      "recYds": "448",
+      "recAvg": "10.4",
+      "recTD": "2",
+      "headline": "43 rec, 448 yds, 2 TD (10.4 avg)"
     }
   },
   {
@@ -8498,15 +8592,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "55",
-      "gs": "34",
-      "rec": "70",
-      "recYds": "854",
-      "recAvg": "12.2",
-      "recTD": "9",
-      "drops": "3",
-      "headline": "70 rec, 854 yds, 9 TD (12.2 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
+      "gs": "14",
+      "type": "receiving",
+      "rec": "20",
+      "recYds": "261",
+      "recAvg": "13.1",
+      "recTD": "1",
+      "headline": "20 rec, 261 yds, 1 TD (13.1 avg)"
     }
   },
   {
@@ -8576,15 +8671,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "49",
-      "gs": "34",
-      "rec": "166",
-      "recYds": "1978",
-      "recAvg": "11.9",
-      "recTD": "15",
-      "drops": "10",
-      "headline": "166 rec, 1978 yds, 15 TD (11.9 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "11",
+      "type": "receiving",
+      "rec": "49",
+      "recYds": "489",
+      "recAvg": "10.0",
+      "recTD": "7",
+      "headline": "49 rec, 489 yds, 7 TD (10.0 avg)"
     }
   },
   {
@@ -8674,15 +8770,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "48",
-      "gs": "34",
-      "rec": "119",
-      "recYds": "1201",
-      "recAvg": "10.1",
-      "recTD": "4",
-      "drops": "13",
-      "headline": "119 rec, 1201 yds, 4 TD (10.1 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "receiving",
+      "rec": "49",
+      "recYds": "545",
+      "recAvg": "11.1",
+      "recTD": "2",
+      "headline": "49 rec, 545 yds, 2 TD (11.1 avg)"
     }
   },
   {
@@ -8766,15 +8863,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "55",
-      "gs": "28",
-      "rec": "65",
-      "recYds": "761",
-      "recAvg": "11.7",
-      "recTD": "4",
-      "drops": "3",
-      "headline": "65 rec, 761 yds, 4 TD (11.7 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
+      "gs": "11",
+      "type": "receiving",
+      "rec": "15",
+      "recYds": "168",
+      "recAvg": "11.2",
+      "recTD": "2",
+      "headline": "15 rec, 168 yds, 2 TD (11.2 avg)"
     }
   },
   {
@@ -8859,15 +8957,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "52",
-      "gs": "25",
-      "rec": "38",
-      "recYds": "417",
-      "recAvg": "11.0",
-      "recTD": "4",
-      "drops": "2",
-      "headline": "38 rec, 417 yds, 4 TD (11.0 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "8",
+      "type": "receiving",
+      "rec": "19",
+      "recYds": "198",
+      "recAvg": "10.4",
+      "recTD": "3",
+      "headline": "19 rec, 198 yds, 3 TD (10.4 avg)"
     }
   },
   {
@@ -8950,15 +9049,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "40",
-      "gs": "18",
-      "rec": "48",
-      "recYds": "623",
-      "recAvg": "13.0",
-      "recTD": "3",
-      "drops": "3",
-      "headline": "48 rec, 623 yds, 3 TD (13.0 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "receiving",
+      "rec": "32",
+      "recYds": "482",
+      "recAvg": "15.1",
+      "recTD": "0",
+      "headline": "32 rec, 482 yds, 0 TD (15.1 avg)"
     }
   },
   {
@@ -9042,15 +9142,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "36",
-      "gs": "12",
-      "rec": "38",
-      "recYds": "364",
-      "recAvg": "9.6",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "6",
+      "type": "receiving",
+      "rec": "24",
+      "recYds": "248",
+      "recAvg": "10.3",
       "recTD": "1",
-      "drops": "4",
-      "headline": "38 rec, 364 yds, 1 TD (9.6 avg)"
+      "headline": "24 rec, 248 yds, 1 TD (10.3 avg)"
     }
   },
   {
@@ -9134,15 +9235,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "39",
-      "gs": "39",
-      "rec": "124",
-      "recYds": "1376",
-      "recAvg": "11.1",
-      "recTD": "7",
-      "drops": "5",
-      "headline": "124 rec, 1376 yds, 7 TD (11.1 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "receiving",
+      "rec": "33",
+      "recYds": "346",
+      "recAvg": "10.5",
+      "recTD": "3",
+      "headline": "33 rec, 346 yds, 3 TD (10.5 avg)"
     }
   },
   {
@@ -9206,15 +9308,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "40",
-      "gs": "25",
-      "rec": "83",
-      "recYds": "962",
-      "recAvg": "11.6",
-      "recTD": "7",
-      "drops": "2",
-      "headline": "83 rec, 962 yds, 7 TD (11.6 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "receiving",
+      "rec": "29",
+      "recYds": "416",
+      "recAvg": "14.3",
+      "recTD": "4",
+      "headline": "29 rec, 416 yds, 4 TD (14.3 avg)"
     }
   },
   {
@@ -9306,15 +9409,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "32",
-      "gs": "20",
-      "rec": "51",
-      "recYds": "640",
-      "recAvg": "12.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "12",
+      "type": "receiving",
+      "rec": "48",
+      "recYds": "620",
+      "recAvg": "12.9",
       "recTD": "6",
-      "drops": "1",
-      "headline": "51 rec, 640 yds, 6 TD (12.5 avg)"
+      "headline": "48 rec, 620 yds, 6 TD (12.9 avg)"
     }
   },
   {
@@ -9398,15 +9502,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "56",
-      "gs": "26",
-      "rec": "50",
-      "recYds": "518",
-      "recAvg": "10.4",
-      "recTD": "3",
-      "drops": "2",
-      "headline": "50 rec, 518 yds, 3 TD (10.4 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "16",
+      "gs": "16",
+      "type": "receiving",
+      "rec": "32",
+      "recYds": "387",
+      "recAvg": "12.1",
+      "recTD": "2",
+      "headline": "32 rec, 387 yds, 2 TD (12.1 avg)"
     }
   },
   {
@@ -9496,15 +9601,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "54",
-      "gs": "22",
-      "rec": "119",
-      "recYds": "1527",
-      "recAvg": "12.8",
-      "recTD": "12",
-      "drops": "9",
-      "headline": "119 rec, 1527 yds, 12 TD (12.8 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "11",
+      "type": "receiving",
+      "rec": "37",
+      "recYds": "411",
+      "recAvg": "11.1",
+      "recTD": "4",
+      "headline": "37 rec, 411 yds, 4 TD (11.1 avg)"
     }
   },
   {
@@ -9570,15 +9676,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "38",
-      "gs": "26",
-      "rec": "108",
-      "recYds": "1419",
-      "recAvg": "13.1",
-      "recTD": "14",
-      "drops": "13",
-      "headline": "108 rec, 1419 yds, 14 TD (13.1 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "11",
+      "type": "receiving",
+      "rec": "50",
+      "recYds": "694",
+      "recAvg": "13.9",
+      "recTD": "6",
+      "headline": "50 rec, 694 yds, 6 TD (13.9 avg)"
     }
   },
   {
@@ -9616,15 +9723,16 @@
       }
     },
     "playerId": "dae-quan-wright",
-    "careerStats": {
-      "gp": "47",
-      "gs": "29",
-      "rec": "113",
-      "recYds": "1603",
-      "recAvg": "14.2",
-      "recTD": "9",
-      "drops": "12",
-      "headline": "113 rec, 1603 yds, 9 TD (14.2 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "15",
+      "gs": "15",
+      "type": "receiving",
+      "rec": "39",
+      "recYds": "635",
+      "recAvg": "16.3",
+      "recTD": "5",
+      "headline": "39 rec, 635 yds, 5 TD (16.3 avg)"
     }
   },
   {
@@ -9706,15 +9814,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "43",
-      "gs": "26",
-      "rec": "74",
-      "recYds": "1020",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
+      "gs": "13",
+      "type": "receiving",
+      "rec": "45",
+      "recYds": "620",
       "recAvg": "13.8",
-      "recTD": "7",
-      "drops": "4",
-      "headline": "74 rec, 1020 yds, 7 TD (13.8 avg)"
+      "recTD": "3",
+      "headline": "45 rec, 620 yds, 3 TD (13.8 avg)"
     }
   },
   {
@@ -9798,15 +9907,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "55",
-      "gs": "20",
-      "rec": "57",
-      "recYds": "819",
-      "recAvg": "14.4",
-      "recTD": "8",
-      "drops": "2",
-      "headline": "57 rec, 819 yds, 8 TD (14.4 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "12",
+      "type": "receiving",
+      "rec": "31",
+      "recYds": "436",
+      "recAvg": "14.1",
+      "recTD": "4",
+      "headline": "31 rec, 436 yds, 4 TD (14.1 avg)"
     }
   },
   {
@@ -9892,15 +10002,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "49",
-      "gs": "36",
-      "rec": "237",
-      "recYds": "2234",
-      "recAvg": "9.4",
-      "recTD": "24",
-      "drops": "10",
-      "headline": "237 rec, 2234 yds, 24 TD (9.4 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "receiving",
+      "rec": "74",
+      "recYds": "727",
+      "recAvg": "9.8",
+      "recTD": "6",
+      "headline": "74 rec, 727 yds, 6 TD (9.8 avg)"
     }
   },
   {
@@ -9985,15 +10096,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "53",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
       "gs": "12",
-      "rec": "53",
-      "recYds": "539",
-      "recAvg": "10.2",
-      "recTD": "5",
-      "drops": "3",
-      "headline": "53 rec, 539 yds, 5 TD (10.2 avg)"
+      "type": "receiving",
+      "rec": "34",
+      "recYds": "319",
+      "recAvg": "9.4",
+      "recTD": "2",
+      "headline": "34 rec, 319 yds, 2 TD (9.4 avg)"
     }
   },
   {
@@ -10085,15 +10197,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "49",
-      "gs": "15",
-      "rec": "37",
-      "recYds": "399",
-      "recAvg": "10.8",
-      "recTD": "7",
-      "drops": "4",
-      "headline": "37 rec, 399 yds, 7 TD (10.8 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "9",
+      "type": "receiving",
+      "rec": "14",
+      "recYds": "167",
+      "recAvg": "11.9",
+      "recTD": "2",
+      "headline": "14 rec, 167 yds, 2 TD (11.9 avg)"
     }
   },
   {
@@ -10168,14 +10281,15 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "52",
-      "gs": "23",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "receiving",
       "rec": "44",
       "recYds": "533",
       "recAvg": "12.1",
       "recTD": "0",
-      "drops": "1",
       "headline": "44 rec, 533 yds, 0 TD (12.1 avg)"
     }
   },
@@ -10253,15 +10367,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "51",
-      "gs": "27",
-      "rec": "97",
-      "recYds": "1154",
-      "recAvg": "11.9",
-      "recTD": "7",
-      "drops": "2",
-      "headline": "97 rec, 1154 yds, 7 TD (11.9 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "receiving",
+      "rec": "30",
+      "recYds": "450",
+      "recAvg": "15.0",
+      "recTD": "4",
+      "headline": "30 rec, 450 yds, 4 TD (15.0 avg)"
     }
   },
   {
@@ -10329,15 +10444,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "50",
-      "gs": "35",
-      "rec": "106",
-      "recYds": "942",
-      "recAvg": "8.9",
-      "recTD": "8",
-      "drops": "8",
-      "headline": "106 rec, 942 yds, 8 TD (8.9 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "receiving",
+      "rec": "24",
+      "recYds": "252",
+      "recAvg": "10.5",
+      "recTD": "2",
+      "headline": "24 rec, 252 yds, 2 TD (10.5 avg)"
     }
   },
   {
@@ -10421,15 +10537,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "43",
-      "gs": "19",
-      "rec": "80",
-      "recYds": "1023",
-      "recAvg": "12.8",
-      "recTD": "7",
-      "drops": "8",
-      "headline": "80 rec, 1023 yds, 7 TD (12.8 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "9",
+      "gs": "9",
+      "type": "receiving",
+      "rec": "24",
+      "recYds": "217",
+      "recAvg": "9.0",
+      "recTD": "1",
+      "headline": "24 rec, 217 yds, 1 TD (9.0 avg)"
     }
   },
   {
@@ -10498,15 +10615,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "48",
-      "gs": "37",
-      "rec": "130",
-      "recYds": "1464",
-      "recAvg": "11.3",
-      "recTD": "10",
-      "drops": "6",
-      "headline": "130 rec, 1464 yds, 10 TD (11.3 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "12",
+      "type": "receiving",
+      "rec": "35",
+      "recYds": "369",
+      "recAvg": "10.5",
+      "recTD": "5",
+      "headline": "35 rec, 369 yds, 5 TD (10.5 avg)"
     }
   },
   {
@@ -10572,15 +10690,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "46",
-      "gs": "34",
-      "rec": "86",
-      "recYds": "1198",
-      "recAvg": "13.9",
-      "recTD": "12",
-      "drops": "3",
-      "headline": "86 rec, 1198 yds, 12 TD (13.9 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "9",
+      "type": "receiving",
+      "rec": "30",
+      "recYds": "398",
+      "recAvg": "13.3",
+      "recTD": "4",
+      "headline": "30 rec, 398 yds, 4 TD (13.3 avg)"
     }
   },
   {
@@ -10658,15 +10777,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "46",
-      "gs": "32",
-      "rec": "113",
-      "recYds": "1495",
-      "recAvg": "13.2",
-      "recTD": "19",
-      "drops": "9",
-      "headline": "113 rec, 1495 yds, 19 TD (13.2 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "7",
+      "type": "receiving",
+      "rec": "27",
+      "recYds": "322",
+      "recAvg": "11.9",
+      "recTD": "2",
+      "headline": "27 rec, 322 yds, 2 TD (11.9 avg)"
     }
   },
   {
@@ -10728,15 +10848,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "43",
-      "gs": "24",
-      "rec": "50",
-      "recYds": "572",
-      "recAvg": "11.4",
-      "recTD": "6",
-      "drops": "5",
-      "headline": "50 rec, 572 yds, 6 TD (11.4 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "11",
+      "type": "receiving",
+      "rec": "26",
+      "recYds": "253",
+      "recAvg": "9.7",
+      "recTD": "2",
+      "headline": "26 rec, 253 yds, 2 TD (9.7 avg)"
     }
   },
   {
@@ -10803,15 +10924,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "48",
-      "gs": "25",
-      "rec": "66",
-      "recYds": "671",
-      "recAvg": "10.2",
-      "recTD": "3",
-      "drops": "1",
-      "headline": "66 rec, 671 yds, 3 TD (10.2 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "10",
+      "type": "receiving",
+      "rec": "39",
+      "recYds": "412",
+      "recAvg": "10.6",
+      "recTD": "0",
+      "headline": "39 rec, 412 yds, 0 TD (10.6 avg)"
     }
   },
   {
@@ -10878,14 +11000,15 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "34",
-      "gs": "17",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "7",
+      "type": "receiving",
       "rec": "11",
       "recYds": "92",
       "recAvg": "8.4",
       "recTD": "1",
-      "drops": "4",
       "headline": "11 rec, 92 yds, 1 TD (8.4 avg)"
     }
   },
@@ -10907,15 +11030,16 @@
         "total": 33
       }
     },
-    "careerStats": {
-      "gp": "69",
-      "gs": "37",
-      "rec": "76",
-      "recYds": "1039",
-      "recAvg": "13.7",
-      "recTD": "12",
-      "drops": "1",
-      "headline": "76 rec, 1039 yds, 12 TD (13.7 avg)"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "8",
+      "type": "receiving",
+      "rec": "8",
+      "recYds": "52",
+      "recAvg": "6.5",
+      "recTD": "0",
+      "headline": "8 rec, 52 yds, 0 TD (6.5 avg)"
     }
   },
   {
@@ -13069,16 +13193,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "38",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
       "gs": "14",
-      "tackles": "112",
-      "tfl": "13.5",
-      "sacks": "7.0",
+      "type": "defensive",
+      "tackles": "69",
+      "tfl": "10.0",
+      "sacks": "6.5",
       "ff": "0",
       "pd": "2",
       "int": "0",
-      "headline": "112 tkl, 7.0 sacks, 13.5 TFL"
+      "headline": "69 tkl, 6.5 sacks, 10.0 TFL"
     }
   },
   {
@@ -13158,16 +13284,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "47",
-      "gs": "28",
-      "tackles": "163",
-      "tfl": "42.0",
-      "sacks": "29.0",
-      "ff": "10",
-      "pd": "4",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "52",
+      "tfl": "19.5",
+      "sacks": "14.5",
+      "ff": "3",
+      "pd": "3",
       "int": "0",
-      "headline": "163 tkl, 29.0 sacks, 42.0 TFL, 10 FF"
+      "headline": "52 tkl, 14.5 sacks, 19.5 TFL"
     }
   },
   {
@@ -13231,16 +13359,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "38",
-      "gs": "36",
-      "tackles": "121",
-      "tfl": "33.5",
-      "sacks": "20.5",
-      "ff": "4",
-      "pd": "3",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "16",
+      "gs": "16",
+      "type": "defensive",
+      "tackles": "54",
+      "tfl": "15.5",
+      "sacks": "9.5",
+      "ff": "1",
+      "pd": "2",
       "int": "1",
-      "headline": "121 tkl, 20.5 sacks, 33.5 TFL, 4 FF"
+      "headline": "54 tkl, 9.5 sacks, 15.5 TFL"
     }
   },
   {
@@ -13320,16 +13450,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "37",
-      "gs": "32",
-      "tackles": "109",
-      "tfl": "19.5",
-      "sacks": "10",
-      "ff": "1",
-      "pd": "5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "29",
+      "tfl": "5.0",
+      "sacks": "2",
+      "ff": "0",
+      "pd": "4",
       "int": "0",
-      "headline": "109 tkl, 10 sacks, 19.5 TFL, 1 FF"
+      "headline": "29 tkl, 2 sacks, 5.0 TFL"
     }
   },
   {
@@ -13392,16 +13524,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "64",
-      "gs": "53",
-      "tackles": "208",
-      "tfl": "52.5",
-      "sacks": "35.5",
-      "ff": "5",
-      "pd": "4",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "15",
+      "gs": "15",
+      "type": "defensive",
+      "tackles": "63",
+      "tfl": "17.5",
+      "sacks": "12.5",
+      "ff": "4",
+      "pd": "0",
       "int": "0",
-      "headline": "208 tkl, 35.5 sacks, 52.5 TFL, 5 FF"
+      "headline": "63 tkl, 12.5 sacks, 17.5 TFL"
     }
   },
   {
@@ -13479,16 +13613,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "39",
-      "gs": "29",
-      "tackles": "128",
-      "tfl": "41.5",
-      "sacks": "21.5",
-      "ff": "6",
-      "pd": "5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "39",
+      "tfl": "9.5",
+      "sacks": "5.0",
+      "ff": "0",
+      "pd": "2",
       "int": "0",
-      "headline": "128 tkl, 21.5 sacks, 41.5 TFL, 6 FF"
+      "headline": "39 tkl, 5.0 sacks, 9.5 TFL"
     }
   },
   {
@@ -13566,16 +13702,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "39",
-      "gs": "22",
-      "tackles": "72",
-      "tfl": "28.0",
-      "sacks": "20.0",
-      "ff": "3",
-      "pd": "5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "28",
+      "tfl": "11.0",
+      "sacks": "7.0",
+      "ff": "2",
+      "pd": "3",
       "int": "0",
-      "headline": "72 tkl, 20.0 sacks, 28.0 TFL, 3 FF"
+      "headline": "28 tkl, 7.0 sacks, 11.0 TFL"
     }
   },
   {
@@ -13646,16 +13784,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "46",
-      "gs": "37",
-      "tackles": "131",
-      "tfl": "28.5",
-      "sacks": "11.5",
-      "ff": "3",
-      "pd": "5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "42",
+      "tfl": "16.5",
+      "sacks": "6.5",
+      "ff": "2",
+      "pd": "2",
       "int": "0",
-      "headline": "131 tkl, 11.5 sacks, 28.5 TFL, 3 FF"
+      "headline": "42 tkl, 6.5 sacks, 16.5 TFL"
     }
   },
   {
@@ -13733,16 +13873,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "56",
-      "gs": "25",
-      "tackles": "127",
-      "tfl": "36.0",
-      "sacks": "26.5",
-      "ff": "3",
-      "pd": "16",
-      "int": "1",
-      "headline": "127 tkl, 26.5 sacks, 36.0 TFL, 3 FF"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "31",
+      "tfl": "14.5",
+      "sacks": "11.0",
+      "ff": "1",
+      "pd": "6",
+      "int": "0",
+      "headline": "31 tkl, 11.0 sacks, 14.5 TFL"
     }
   },
   {
@@ -13826,16 +13968,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "42",
-      "gs": "20",
-      "tackles": "65",
-      "tfl": "25.5",
-      "sacks": "17.0",
-      "ff": "4",
-      "pd": "3",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "10",
+      "gs": "9",
+      "type": "defensive",
+      "tackles": "26",
+      "tfl": "9.5",
+      "sacks": "6.5",
+      "ff": "2",
+      "pd": "1",
       "int": "0",
-      "headline": "65 tkl, 17.0 sacks, 25.5 TFL, 4 FF"
+      "headline": "26 tkl, 6.5 sacks, 9.5 TFL"
     }
   },
   {
@@ -13904,16 +14048,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "50",
-      "gs": "43",
-      "tackles": "183",
-      "tfl": "35.5",
-      "sacks": "27",
-      "ff": "7",
-      "pd": "2",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "43",
+      "tfl": "13.5",
+      "sacks": "11",
+      "ff": "3",
+      "pd": "1",
       "int": "0",
-      "headline": "183 tkl, 27 sacks, 35.5 TFL, 7 FF"
+      "headline": "43 tkl, 11 sacks, 13.5 TFL"
     }
   },
   {
@@ -13976,16 +14122,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "47",
-      "gs": "25",
-      "tackles": "117",
-      "tfl": "24.5",
-      "sacks": "12",
-      "ff": "3",
-      "pd": "3",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "36",
+      "tfl": "9.5",
+      "sacks": "5",
+      "ff": "1",
+      "pd": "1",
       "int": "1",
-      "headline": "117 tkl, 12 sacks, 24.5 TFL, 3 FF"
+      "headline": "36 tkl, 5 sacks, 9.5 TFL"
     }
   },
   {
@@ -14069,16 +14217,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "55",
-      "gs": "30",
-      "tackles": "127",
-      "tfl": "34.5",
-      "sacks": "23.5",
-      "ff": "7",
-      "pd": "10",
-      "int": "2",
-      "headline": "127 tkl, 23.5 sacks, 34.5 TFL, 7 FF"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "42",
+      "tfl": "12.0",
+      "sacks": "8.5",
+      "ff": "3",
+      "pd": "3",
+      "int": "0",
+      "headline": "42 tkl, 8.5 sacks, 12.0 TFL"
     }
   },
   {
@@ -14142,16 +14292,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "53",
-      "gs": "24",
-      "tackles": "95",
-      "tfl": "24.5",
-      "sacks": "21",
-      "ff": "3",
-      "pd": "8",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "30",
+      "tfl": "10.5",
+      "sacks": "10",
+      "ff": "2",
+      "pd": "3",
       "int": "0",
-      "headline": "95 tkl, 21 sacks, 24.5 TFL, 3 FF"
+      "headline": "30 tkl, 10 sacks, 10.5 TFL"
     }
   },
   {
@@ -14229,16 +14381,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "50",
-      "gs": "28",
-      "tackles": "111",
-      "tfl": "26.5",
-      "sacks": "16.0",
-      "ff": "4",
-      "pd": "2",
-      "int": "1",
-      "headline": "111 tkl, 16.0 sacks, 26.5 TFL, 4 FF"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
+      "gs": "14",
+      "type": "defensive",
+      "tackles": "38",
+      "tfl": "11.0",
+      "sacks": "9.5",
+      "ff": "2",
+      "pd": "1",
+      "int": "0",
+      "headline": "38 tkl, 9.5 sacks, 11.0 TFL"
     }
   },
   {
@@ -14314,16 +14468,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "48",
-      "gs": "47",
-      "tackles": "193",
-      "tfl": "23.0",
-      "sacks": "12",
-      "ff": "2",
-      "pd": "8",
-      "int": "1",
-      "headline": "193 tkl, 12 sacks, 23.0 TFL, 2 FF"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "11",
+      "type": "defensive",
+      "tackles": "32",
+      "tfl": "10.0",
+      "sacks": "4",
+      "ff": "1",
+      "pd": "3",
+      "int": "0",
+      "headline": "32 tkl, 4 sacks, 10.0 TFL"
     }
   },
   {
@@ -14400,16 +14556,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "49",
-      "gs": "20",
-      "tackles": "132",
-      "tfl": "12",
-      "sacks": "7",
-      "ff": "1",
-      "pd": "2",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "42",
+      "tfl": "6",
+      "sacks": "4",
+      "ff": "0",
+      "pd": "1",
       "int": "0",
-      "headline": "132 tkl, 7 sacks, 12 TFL, 1 FF"
+      "headline": "42 tkl, 4 sacks, 6 TFL"
     }
   },
   {
@@ -14498,16 +14656,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "44",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
       "gs": "13",
-      "tackles": "64",
-      "tfl": "20.5",
-      "sacks": "14.5",
-      "ff": "3",
-      "pd": "10",
+      "type": "defensive",
+      "tackles": "26",
+      "tfl": "9.5",
+      "sacks": "6.5",
+      "ff": "2",
+      "pd": "6",
       "int": "0",
-      "headline": "64 tkl, 14.5 sacks, 20.5 TFL, 3 FF"
+      "headline": "26 tkl, 6.5 sacks, 9.5 TFL"
     }
   },
   {
@@ -14582,16 +14742,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "55",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
       "gs": "14",
-      "tackles": "107",
-      "tfl": "24.0",
-      "sacks": "14.5",
-      "ff": "3",
-      "pd": "3",
+      "type": "defensive",
+      "tackles": "66",
+      "tfl": "16.5",
+      "sacks": "11.0",
+      "ff": "1",
+      "pd": "2",
       "int": "0",
-      "headline": "107 tkl, 14.5 sacks, 24.0 TFL, 3 FF"
+      "headline": "66 tkl, 11.0 sacks, 16.5 TFL"
     }
   },
   {
@@ -14664,16 +14826,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "48",
-      "gs": "16",
-      "tackles": "104",
-      "tfl": "22.0",
-      "sacks": "9.5",
-      "ff": "6",
-      "pd": "9",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "11",
+      "type": "defensive",
+      "tackles": "33",
+      "tfl": "6.0",
+      "sacks": "4.0",
+      "ff": "3",
+      "pd": "3",
       "int": "0",
-      "headline": "104 tkl, 9.5 sacks, 22.0 TFL, 6 FF"
+      "headline": "33 tkl, 4.0 sacks, 6.0 TFL"
     }
   },
   {
@@ -14763,16 +14927,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "41",
-      "gs": "29",
-      "tackles": "131",
-      "tfl": "29.0",
-      "sacks": "11.0",
-      "ff": "1",
-      "pd": "4",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
+      "gs": "14",
+      "type": "defensive",
+      "tackles": "44",
+      "tfl": "9.0",
+      "sacks": "2.0",
+      "ff": "0",
+      "pd": "1",
       "int": "0",
-      "headline": "131 tkl, 11.0 sacks, 29.0 TFL, 1 FF"
+      "headline": "44 tkl, 2.0 sacks, 9.0 TFL"
     }
   },
   {
@@ -14850,16 +15016,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "28",
-      "gs": "23",
-      "tackles": "93",
-      "tfl": "18.0",
-      "sacks": "10.5",
-      "ff": "3",
-      "pd": "4",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "11",
+      "type": "defensive",
+      "tackles": "44",
+      "tfl": "7.5",
+      "sacks": "4.5",
+      "ff": "0",
+      "pd": "2",
       "int": "0",
-      "headline": "93 tkl, 10.5 sacks, 18.0 TFL, 3 FF"
+      "headline": "44 tkl, 4.5 sacks, 7.5 TFL"
     }
   },
   {
@@ -14943,16 +15111,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "45",
-      "gs": "19",
-      "tackles": "98",
-      "tfl": "21.0",
-      "sacks": "11.0",
-      "ff": "4",
-      "pd": "2",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "9",
+      "gs": "9",
+      "type": "defensive",
+      "tackles": "31",
+      "tfl": "6.5",
+      "sacks": "2.5",
+      "ff": "2",
+      "pd": "0",
       "int": "0",
-      "headline": "98 tkl, 11.0 sacks, 21.0 TFL, 4 FF"
+      "headline": "31 tkl, 2.5 sacks, 6.5 TFL"
     }
   },
   {
@@ -15016,16 +15186,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "38",
-      "gs": "19",
-      "tackles": "73",
-      "tfl": "8.0",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "37",
+      "tfl": "3.5",
       "sacks": "3",
       "ff": "1",
-      "pd": "1",
+      "pd": "0",
       "int": "0",
-      "headline": "73 tkl, 3 sacks, 8.0 TFL, 1 FF"
+      "headline": "37 tkl, 3 sacks, 3.5 TFL"
     }
   },
   {
@@ -15115,16 +15287,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "57",
-      "gs": "47",
-      "tackles": "175",
-      "tfl": "50.0",
-      "sacks": "30.5",
-      "ff": "5",
-      "pd": "14",
-      "int": "1",
-      "headline": "175 tkl, 30.5 sacks, 50.0 TFL, 5 FF"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "5",
+      "type": "defensive",
+      "tackles": "35",
+      "tfl": "5.0",
+      "sacks": "3.0",
+      "ff": "0",
+      "pd": "3",
+      "int": "0",
+      "headline": "35 tkl, 3.0 sacks, 5.0 TFL"
     }
   },
   {
@@ -15202,16 +15376,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "45",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
       "gs": "11",
-      "tackles": "82",
-      "tfl": "22.5",
-      "sacks": "13",
-      "ff": "4",
-      "pd": "4",
+      "type": "defensive",
+      "tackles": "33",
+      "tfl": "6.0",
+      "sacks": "5",
+      "ff": "0",
+      "pd": "1",
       "int": "0",
-      "headline": "82 tkl, 13 sacks, 22.5 TFL, 4 FF"
+      "headline": "33 tkl, 5 sacks, 6.0 TFL"
     }
   },
   {
@@ -15274,16 +15450,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "49",
-      "gs": "32",
-      "tackles": "125",
-      "tfl": "21.5",
-      "sacks": "10",
-      "ff": "4",
-      "pd": "2",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "34",
+      "tfl": "3.5",
+      "sacks": "1",
+      "ff": "0",
+      "pd": "1",
       "int": "0",
-      "headline": "125 tkl, 10 sacks, 21.5 TFL, 4 FF"
+      "headline": "34 tkl, 1 sacks, 3.5 TFL"
     }
   },
   {
@@ -15361,16 +15539,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "41",
-      "gs": "20",
-      "tackles": "132",
-      "tfl": "10.5",
-      "sacks": "3",
-      "ff": "1",
-      "pd": "2",
-      "int": "1",
-      "headline": "132 tkl, 3 sacks, 10.5 TFL, 1 FF"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "11",
+      "type": "defensive",
+      "tackles": "52",
+      "tfl": "5.5",
+      "sacks": "2",
+      "ff": "0",
+      "pd": "1",
+      "int": "0",
+      "headline": "52 tkl, 2 sacks, 5.5 TFL"
     }
   },
   {
@@ -15453,16 +15633,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "26",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
       "gs": "13",
-      "tackles": "65",
-      "tfl": "22.5",
+      "type": "defensive",
+      "tackles": "55",
+      "tfl": "21.0",
       "sacks": "14.5",
       "ff": "4",
       "pd": "1",
       "int": "0",
-      "headline": "65 tkl, 14.5 sacks, 22.5 TFL, 4 FF"
+      "headline": "55 tkl, 14.5 sacks, 21.0 TFL"
     }
   },
   {
@@ -15533,16 +15715,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "47",
-      "gs": "26",
-      "tackles": "105",
-      "tfl": "26.5",
-      "sacks": "20.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "11",
+      "type": "defensive",
+      "tackles": "28",
+      "tfl": "10.0",
+      "sacks": "7.5",
       "ff": "1",
-      "pd": "2",
+      "pd": "0",
       "int": "0",
-      "headline": "105 tkl, 20.5 sacks, 26.5 TFL, 1 FF"
+      "headline": "28 tkl, 7.5 sacks, 10.0 TFL"
     }
   },
   {
@@ -15619,16 +15803,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "43",
-      "gs": "16",
-      "tackles": "72",
-      "tfl": "9.0",
-      "sacks": "5.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "10",
+      "gs": "9",
+      "type": "defensive",
+      "tackles": "35",
+      "tfl": "3.5",
+      "sacks": "2.0",
       "ff": "0",
-      "pd": "4",
-      "int": "2",
-      "headline": "72 tkl, 5.5 sacks, 9.0 TFL"
+      "pd": "0",
+      "int": "0",
+      "headline": "35 tkl, 2.0 sacks, 3.5 TFL"
     }
   },
   {
@@ -15695,16 +15881,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "53",
-      "gs": "41",
-      "tackles": "120",
-      "tfl": "34.5",
-      "sacks": "19.5",
-      "ff": "4",
-      "pd": "5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "48",
+      "tfl": "16.5",
+      "sacks": "10.5",
+      "ff": "2",
+      "pd": "4",
       "int": "0",
-      "headline": "120 tkl, 19.5 sacks, 34.5 TFL, 4 FF"
+      "headline": "48 tkl, 10.5 sacks, 16.5 TFL"
     }
   },
   {
@@ -15725,16 +15913,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "48",
-      "gs": "5",
-      "tackles": "65",
-      "tfl": "20.5",
-      "sacks": "10",
-      "ff": "2",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "2",
+      "type": "defensive",
+      "tackles": "23",
+      "tfl": "7.5",
+      "sacks": "4",
+      "ff": "1",
       "pd": "1",
       "int": "0",
-      "headline": "65 tkl, 10 sacks, 20.5 TFL, 2 FF"
+      "headline": "23 tkl, 4 sacks, 7.5 TFL"
     }
   },
   {
@@ -15805,16 +15995,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "52",
-      "gs": "51",
-      "tackles": "163",
-      "tfl": "48.0",
-      "sacks": "25.5",
-      "ff": "6",
-      "pd": "4",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "16",
+      "gs": "16",
+      "type": "defensive",
+      "tackles": "34",
+      "tfl": "7.0",
+      "sacks": "2.0",
+      "ff": "0",
+      "pd": "1",
       "int": "0",
-      "headline": "163 tkl, 25.5 sacks, 48.0 TFL, 6 FF"
+      "headline": "34 tkl, 2.0 sacks, 7.0 TFL"
     }
   },
   {
@@ -15881,16 +16073,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "29",
-      "gs": "25",
-      "tackles": "81",
-      "tfl": "22.0",
-      "sacks": "18.0",
-      "ff": "3",
-      "pd": "4",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "11",
+      "type": "defensive",
+      "tackles": "37",
+      "tfl": "5.0",
+      "sacks": "4.0",
+      "ff": "1",
+      "pd": "2",
       "int": "0",
-      "headline": "81 tkl, 18.0 sacks, 22.0 TFL, 3 FF"
+      "headline": "37 tkl, 4.0 sacks, 5.0 TFL"
     }
   },
   {
@@ -15981,16 +16175,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "49",
-      "gs": "41",
-      "tackles": "103",
-      "tfl": "29.0",
-      "sacks": "15.0",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "33",
+      "tfl": "13.0",
+      "sacks": "7.5",
       "ff": "1",
-      "pd": "8",
+      "pd": "2",
       "int": "0",
-      "headline": "103 tkl, 15.0 sacks, 29.0 TFL, 1 FF"
+      "headline": "33 tkl, 7.5 sacks, 13.0 TFL"
     }
   },
   {
@@ -16060,16 +16256,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "41",
-      "gs": "26",
-      "tackles": "118",
-      "tfl": "22.5",
-      "sacks": "12.5",
-      "ff": "5",
-      "pd": "6",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "46",
+      "tfl": "7.5",
+      "sacks": "3.0",
+      "ff": "2",
+      "pd": "4",
       "int": "1",
-      "headline": "118 tkl, 12.5 sacks, 22.5 TFL, 5 FF"
+      "headline": "46 tkl, 3.0 sacks, 7.5 TFL"
     }
   },
   {
@@ -16152,16 +16350,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "38",
-      "gs": "27",
-      "tackles": "138",
-      "tfl": "22.5",
-      "sacks": "11.0",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "61",
+      "tfl": "6.5",
+      "sacks": "1.5",
       "ff": "0",
-      "pd": "8",
+      "pd": "2",
       "int": "1",
-      "headline": "138 tkl, 11.0 sacks, 22.5 TFL"
+      "headline": "61 tkl, 1.5 sacks, 6.5 TFL"
     }
   },
   {
@@ -16235,16 +16435,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "36",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
       "gs": "14",
-      "tackles": "60",
-      "tfl": "16.5",
-      "sacks": "8",
+      "type": "defensive",
+      "tackles": "45",
+      "tfl": "10.0",
+      "sacks": "5",
       "ff": "3",
       "pd": "4",
       "int": "1",
-      "headline": "60 tkl, 8 sacks, 16.5 TFL, 3 FF"
+      "headline": "45 tkl, 5 sacks, 10.0 TFL"
     }
   },
   {
@@ -16307,16 +16509,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "53",
-      "gs": "39",
-      "tackles": "144",
-      "tfl": "36.5",
-      "sacks": "17",
-      "ff": "3",
-      "pd": "19",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "34",
+      "tfl": "5.0",
+      "sacks": "1",
+      "ff": "0",
+      "pd": "6",
       "int": "0",
-      "headline": "144 tkl, 17 sacks, 36.5 TFL, 3 FF"
+      "headline": "34 tkl, 1 sacks, 5.0 TFL"
     }
   },
   {
@@ -16377,16 +16581,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "49",
-      "gs": "19",
-      "tackles": "62",
-      "tfl": "16.5",
-      "sacks": "8",
-      "ff": "2",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "9",
+      "type": "defensive",
+      "tackles": "21",
+      "tfl": "5.0",
+      "sacks": "2",
+      "ff": "0",
       "pd": "0",
       "int": "0",
-      "headline": "62 tkl, 8 sacks, 16.5 TFL, 2 FF"
+      "headline": "21 tkl, 2 sacks, 5.0 TFL"
     }
   },
   {
@@ -16454,16 +16660,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "50",
-      "gs": "25",
-      "tackles": "71",
-      "tfl": "24.0",
-      "sacks": "14.0",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "30",
+      "tfl": "8.5",
+      "sacks": "3.5",
       "ff": "0",
-      "pd": "5",
+      "pd": "2",
       "int": "0",
-      "headline": "71 tkl, 14.0 sacks, 24.0 TFL"
+      "headline": "30 tkl, 3.5 sacks, 8.5 TFL"
     }
   },
   {
@@ -16536,16 +16744,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "52",
-      "gs": "17",
-      "tackles": "114",
-      "tfl": "26.5",
-      "sacks": "10.5",
-      "ff": "2",
-      "pd": "6",
-      "int": "1",
-      "headline": "114 tkl, 10.5 sacks, 26.5 TFL, 2 FF"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "8",
+      "type": "defensive",
+      "tackles": "40",
+      "tfl": "7.0",
+      "sacks": "3.0",
+      "ff": "1",
+      "pd": "1",
+      "int": "0",
+      "headline": "40 tkl, 3.0 sacks, 7.0 TFL"
     }
   },
   {
@@ -16600,16 +16810,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "53",
-      "gs": "46",
-      "tackles": "226",
-      "tfl": "49.0",
-      "sacks": "33.5",
-      "ff": "5",
-      "pd": "9",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "52",
+      "tfl": "15.0",
+      "sacks": "9.0",
+      "ff": "2",
+      "pd": "5",
       "int": "0",
-      "headline": "226 tkl, 33.5 sacks, 49.0 TFL, 5 FF"
+      "headline": "52 tkl, 9.0 sacks, 15.0 TFL"
     }
   },
   {
@@ -16676,16 +16888,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "40",
-      "gs": "19",
-      "tackles": "117",
-      "tfl": "17.5",
-      "sacks": "6",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "7",
+      "type": "defensive",
+      "tackles": "21",
+      "tfl": "5.0",
+      "sacks": "2",
       "ff": "0",
-      "pd": "7",
+      "pd": "1",
       "int": "0",
-      "headline": "117 tkl, 6 sacks, 17.5 TFL"
+      "headline": "21 tkl, 2 sacks, 5.0 TFL"
     }
   },
   {
@@ -16752,16 +16966,18 @@
         "total": 46
       }
     },
-    "careerStats": {
-      "gp": "46",
-      "gs": "19",
-      "tackles": "92",
-      "tfl": "18.5",
-      "sacks": "12.5",
-      "ff": "5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "41",
+      "tfl": "10.0",
+      "sacks": "7.0",
+      "ff": "3",
       "pd": "1",
       "int": "0",
-      "headline": "92 tkl, 12.5 sacks, 18.5 TFL, 5 FF"
+      "headline": "41 tkl, 7.0 sacks, 10.0 TFL"
     }
   },
   {
@@ -16825,16 +17041,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "36",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
       "gs": "14",
-      "tackles": "85",
-      "tfl": "11.0",
+      "type": "defensive",
+      "tackles": "65",
+      "tfl": "9.0",
       "sacks": "3",
       "ff": "2",
-      "pd": "3",
+      "pd": "1",
       "int": "0",
-      "headline": "85 tkl, 3 sacks, 11.0 TFL, 2 FF"
+      "headline": "65 tkl, 3 sacks, 9.0 TFL"
     }
   },
   {
@@ -16913,16 +17131,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "35",
-      "gs": "24",
-      "tackles": "84",
-      "tfl": "14.5",
-      "sacks": "5",
-      "ff": "2",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "30",
+      "tfl": "3.5",
+      "sacks": "2",
+      "ff": "0",
       "pd": "2",
       "int": "0",
-      "headline": "84 tkl, 5 sacks, 14.5 TFL, 2 FF"
+      "headline": "30 tkl, 2 sacks, 3.5 TFL"
     }
   },
   {
@@ -16985,16 +17205,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "43",
-      "gs": "24",
-      "tackles": "64",
-      "tfl": "11.5",
-      "sacks": "4.0",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
+      "gs": "14",
+      "type": "defensive",
+      "tackles": "23",
+      "tfl": "4.0",
+      "sacks": "1.5",
       "ff": "0",
-      "pd": "1",
+      "pd": "0",
       "int": "0",
-      "headline": "64 tkl, 4.0 sacks, 11.5 TFL"
+      "headline": "23 tkl, 1.5 sacks, 4.0 TFL"
     }
   },
   {
@@ -17067,16 +17289,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "35",
-      "gs": "24",
-      "tackles": "48",
-      "tfl": "10.5",
-      "sacks": "6.5",
-      "ff": "3",
-      "pd": "1",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "3",
+      "gs": "3",
+      "type": "defensive",
+      "tackles": "6",
+      "tfl": "1.0",
+      "sacks": "0.0",
+      "ff": "0",
+      "pd": "0",
       "int": "0",
-      "headline": "48 tkl, 6.5 sacks, 10.5 TFL, 3 FF"
+      "headline": "6 tkl, 0.0 sacks, 1.0 TFL"
     }
   },
   {
@@ -17154,16 +17378,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "52",
-      "gs": "37",
-      "tackles": "173",
-      "tfl": "32.5",
-      "sacks": "8",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
+      "gs": "14",
+      "type": "defensive",
+      "tackles": "42",
+      "tfl": "11.0",
+      "sacks": "3",
       "ff": "1",
-      "pd": "1",
+      "pd": "0",
       "int": "0",
-      "headline": "173 tkl, 8 sacks, 32.5 TFL, 1 FF"
+      "headline": "42 tkl, 3 sacks, 11.0 TFL"
     }
   },
   {
@@ -17227,16 +17453,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "50",
-      "gs": "24",
-      "tackles": "66",
-      "tfl": "7.0",
-      "sacks": "1",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "18",
+      "tfl": "0.5",
+      "sacks": "0",
       "ff": "0",
-      "pd": "2",
+      "pd": "1",
       "int": "0",
-      "headline": "66 tkl, 1 sacks, 7.0 TFL"
+      "headline": "18 tkl, 0 sacks, 0.5 TFL"
     }
   },
   {
@@ -17322,16 +17550,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "53",
-      "gs": "33",
-      "tackles": "139",
-      "tfl": "21.5",
-      "sacks": "6.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "49",
+      "tfl": "9.5",
+      "sacks": "3.5",
       "ff": "1",
-      "pd": "2",
-      "int": "1",
-      "headline": "139 tkl, 6.5 sacks, 21.5 TFL, 1 FF"
+      "pd": "0",
+      "int": "0",
+      "headline": "49 tkl, 3.5 sacks, 9.5 TFL"
     }
   },
   {
@@ -17410,16 +17640,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "51",
-      "gs": "22",
-      "tackles": "133",
-      "tfl": "17.0",
-      "sacks": "10.5",
-      "ff": "1",
-      "pd": "4",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "48",
+      "tfl": "8.0",
+      "sacks": "6.0",
+      "ff": "0",
+      "pd": "2",
       "int": "0",
-      "headline": "133 tkl, 10.5 sacks, 17.0 TFL, 1 FF"
+      "headline": "48 tkl, 6.0 sacks, 8.0 TFL"
     }
   },
   {
@@ -17485,16 +17717,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "50",
-      "gs": "38",
-      "tackles": "129",
-      "tfl": "12.0",
-      "sacks": "7.5",
-      "ff": "1",
-      "pd": "2",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "45",
+      "tfl": "3.0",
+      "sacks": "1.0",
+      "ff": "0",
+      "pd": "0",
       "int": "0",
-      "headline": "129 tkl, 7.5 sacks, 12.0 TFL, 1 FF"
+      "headline": "45 tkl, 1.0 sacks, 3.0 TFL"
     }
   },
   {
@@ -17571,16 +17805,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "47",
-      "gs": "10",
-      "tackles": "84",
-      "tfl": "17.5",
-      "sacks": "8.5",
-      "ff": "3",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "7",
+      "type": "defensive",
+      "tackles": "33",
+      "tfl": "7.0",
+      "sacks": "3.5",
+      "ff": "1",
       "pd": "2",
       "int": "0",
-      "headline": "84 tkl, 8.5 sacks, 17.5 TFL, 3 FF"
+      "headline": "33 tkl, 3.5 sacks, 7.0 TFL"
     }
   },
   {
@@ -17664,16 +17900,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "50",
-      "gs": "28",
-      "tackles": "116",
-      "tfl": "11.0",
-      "sacks": "3.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "49",
+      "tfl": "3.0",
+      "sacks": "2.0",
       "ff": "1",
-      "pd": "11",
+      "pd": "3",
       "int": "0",
-      "headline": "116 tkl, 3.5 sacks, 11.0 TFL, 1 FF"
+      "headline": "49 tkl, 2.0 sacks, 3.0 TFL"
     }
   },
   {
@@ -17749,16 +17987,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "54",
-      "gs": "16",
-      "tackles": "107",
-      "tfl": "12.0",
-      "sacks": "4.0",
-      "ff": "1",
-      "pd": "5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "35",
+      "tfl": "3.0",
+      "sacks": "1.5",
+      "ff": "0",
+      "pd": "2",
       "int": "0",
-      "headline": "107 tkl, 4.0 sacks, 12.0 TFL, 1 FF"
+      "headline": "35 tkl, 1.5 sacks, 3.0 TFL"
     }
   },
   {
@@ -17836,16 +18076,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "51",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
       "gs": "12",
-      "tackles": "72",
+      "type": "defensive",
+      "tackles": "42",
       "tfl": "6",
       "sacks": "2",
       "ff": "0",
-      "pd": "4",
-      "int": "1",
-      "headline": "72 tkl, 2 sacks, 6 TFL"
+      "pd": "1",
+      "int": "0",
+      "headline": "42 tkl, 2 sacks, 6 TFL"
     }
   },
   {
@@ -17923,16 +18165,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "48",
-      "gs": "35",
-      "tackles": "134",
-      "tfl": "26",
-      "sacks": "16.0",
-      "ff": "2",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "43",
+      "tfl": "13",
+      "sacks": "9.0",
+      "ff": "0",
       "pd": "2",
       "int": "0",
-      "headline": "134 tkl, 16.0 sacks, 26 TFL, 2 FF"
+      "headline": "43 tkl, 9.0 sacks, 13 TFL"
     }
   },
   {
@@ -18009,16 +18253,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "50",
-      "gs": "31",
-      "tackles": "138",
-      "tfl": "12.5",
-      "sacks": "3.0",
-      "ff": "2",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "11",
+      "type": "defensive",
+      "tackles": "27",
+      "tfl": "4.5",
+      "sacks": "0.0",
+      "ff": "0",
       "pd": "0",
       "int": "0",
-      "headline": "138 tkl, 3.0 sacks, 12.5 TFL, 2 FF"
+      "headline": "27 tkl, 0.0 sacks, 4.5 TFL"
     }
   },
   {
@@ -18096,16 +18342,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "57",
-      "gs": "12",
-      "tackles": "72",
-      "tfl": "13.5",
-      "sacks": "3",
-      "ff": "1",
-      "pd": "5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "6",
+      "type": "defensive",
+      "tackles": "21",
+      "tfl": "3.0",
+      "sacks": "1",
+      "ff": "0",
+      "pd": "2",
       "int": "0",
-      "headline": "72 tkl, 3 sacks, 13.5 TFL, 1 FF"
+      "headline": "21 tkl, 1 sacks, 3.0 TFL"
     }
   },
   {
@@ -18185,16 +18433,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "54",
-      "gs": "40",
-      "tackles": "89",
-      "tfl": "22.0",
-      "sacks": "10",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "25",
+      "tfl": "4.5",
+      "sacks": "4",
       "ff": "0",
-      "pd": "4",
+      "pd": "3",
       "int": "1",
-      "headline": "89 tkl, 10 sacks, 22.0 TFL"
+      "headline": "25 tkl, 4 sacks, 4.5 TFL"
     }
   },
   {
@@ -18260,16 +18510,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "44",
-      "gs": "18",
-      "tackles": "63",
-      "tfl": "11",
-      "sacks": "6.0",
-      "ff": "1",
-      "pd": "8",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "29",
+      "tfl": "5",
+      "sacks": "1.5",
+      "ff": "0",
+      "pd": "6",
       "int": "0",
-      "headline": "63 tkl, 6.0 sacks, 11 TFL, 1 FF"
+      "headline": "29 tkl, 1.5 sacks, 5 TFL"
     }
   },
   {
@@ -18340,16 +18592,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "45",
-      "gs": "26",
-      "tackles": "107",
-      "tfl": "16.0",
-      "sacks": "6.0",
-      "ff": "2",
-      "pd": "1",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "36",
+      "tfl": "7.0",
+      "sacks": "2.0",
+      "ff": "0",
+      "pd": "0",
       "int": "0",
-      "headline": "107 tkl, 6.0 sacks, 16.0 TFL, 2 FF"
+      "headline": "36 tkl, 2.0 sacks, 7.0 TFL"
     }
   },
   {
@@ -18427,16 +18681,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "61",
-      "gs": "34",
-      "tackles": "105",
-      "tfl": "22.0",
-      "sacks": "4.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "31",
+      "tfl": "4.5",
+      "sacks": "0.0",
       "ff": "0",
-      "pd": "5",
+      "pd": "3",
       "int": "0",
-      "headline": "105 tkl, 4.5 sacks, 22.0 TFL"
+      "headline": "31 tkl, 0.0 sacks, 4.5 TFL"
     }
   },
   {
@@ -18503,16 +18759,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "38",
-      "gs": "26",
-      "tackles": "153",
-      "tfl": "18.5",
-      "sacks": "14.5",
-      "ff": "2",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "64",
+      "tfl": "8.5",
+      "sacks": "6.5",
+      "ff": "0",
       "pd": "0",
       "int": "0",
-      "headline": "153 tkl, 14.5 sacks, 18.5 TFL, 2 FF"
+      "headline": "64 tkl, 6.5 sacks, 8.5 TFL"
     }
   },
   {
@@ -18590,16 +18848,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "41",
-      "gs": "37",
-      "tackles": "95",
-      "tfl": "12.5",
-      "sacks": "5.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "16",
+      "tfl": "3.0",
+      "sacks": "2.0",
       "ff": "1",
-      "pd": "3",
+      "pd": "1",
       "int": "0",
-      "headline": "95 tkl, 5.5 sacks, 12.5 TFL, 1 FF"
+      "headline": "16 tkl, 2.0 sacks, 3.0 TFL"
     }
   },
   {
@@ -18654,16 +18914,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "44",
-      "gs": "36",
-      "tackles": "74",
-      "tfl": "9",
-      "sacks": "2.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "12",
+      "tfl": "3",
+      "sacks": "1.0",
       "ff": "0",
-      "pd": "4",
+      "pd": "0",
       "int": "0",
-      "headline": "74 tkl, 2.5 sacks, 9 TFL"
+      "headline": "12 tkl, 1.0 sacks, 3 TFL"
     }
   },
   {
@@ -18731,16 +18993,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "32",
-      "gs": "15",
-      "tackles": "65",
-      "tfl": "4.0",
-      "sacks": "2.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "3",
+      "type": "defensive",
+      "tackles": "30",
+      "tfl": "2.5",
+      "sacks": "1.5",
       "ff": "0",
-      "pd": "4",
+      "pd": "2",
       "int": "0",
-      "headline": "65 tkl, 2.5 sacks, 4.0 TFL"
+      "headline": "30 tkl, 1.5 sacks, 2.5 TFL"
     }
   },
   {
@@ -18810,16 +19074,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "37",
-      "gs": "24",
-      "tackles": "94",
-      "tfl": "13.0",
-      "sacks": "5",
-      "ff": "2",
-      "pd": "3",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "10",
+      "type": "defensive",
+      "tackles": "30",
+      "tfl": "4.5",
+      "sacks": "2",
+      "ff": "0",
+      "pd": "0",
       "int": "0",
-      "headline": "94 tkl, 5 sacks, 13.0 TFL, 2 FF"
+      "headline": "30 tkl, 2 sacks, 4.5 TFL"
     }
   },
   {
@@ -18873,16 +19139,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "50",
-      "gs": "25",
-      "tackles": "112",
-      "tfl": "9.5",
-      "sacks": "4.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "40",
+      "tfl": "1.5",
+      "sacks": "0.5",
       "ff": "0",
-      "pd": "2",
+      "pd": "0",
       "int": "0",
-      "headline": "112 tkl, 4.5 sacks, 9.5 TFL"
+      "headline": "40 tkl, 0.5 sacks, 1.5 TFL"
     }
   },
   {
@@ -18936,16 +19204,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "52",
-      "gs": "50",
-      "tackles": "122",
-      "tfl": "18.5",
-      "sacks": "7.0",
-      "ff": "2",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "11",
+      "type": "defensive",
+      "tackles": "27",
+      "tfl": "4.5",
+      "sacks": "1.5",
+      "ff": "0",
       "pd": "1",
       "int": "0",
-      "headline": "122 tkl, 7.0 sacks, 18.5 TFL, 2 FF"
+      "headline": "27 tkl, 1.5 sacks, 4.5 TFL"
     }
   },
   {
@@ -19016,16 +19286,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "35",
-      "gs": "7",
-      "tackles": "92",
-      "tfl": "14.0",
-      "sacks": "6.0",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "6",
+      "gs": "6",
+      "type": "defensive",
+      "tackles": "13",
+      "tfl": "2.5",
+      "sacks": "0.5",
       "ff": "0",
-      "pd": "3",
+      "pd": "2",
       "int": "1",
-      "headline": "92 tkl, 6.0 sacks, 14.0 TFL"
+      "headline": "13 tkl, 0.5 sacks, 2.5 TFL"
     }
   },
   {
@@ -19092,16 +19364,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "54",
-      "gs": "20",
-      "tackles": "93",
-      "tfl": "20.0",
-      "sacks": "6.5",
-      "ff": "2",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "44",
+      "tfl": "11.0",
+      "sacks": "3.0",
+      "ff": "0",
       "pd": "0",
       "int": "0",
-      "headline": "93 tkl, 6.5 sacks, 20.0 TFL, 2 FF"
+      "headline": "44 tkl, 3.0 sacks, 11.0 TFL"
     }
   },
   {
@@ -19165,16 +19439,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "44",
-      "gs": "22",
-      "tackles": "123",
-      "tfl": "17.0",
-      "sacks": "9.5",
-      "ff": "3",
-      "pd": "1",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "10",
+      "gs": "10",
+      "type": "defensive",
+      "tackles": "13",
+      "tfl": "0.0",
+      "sacks": "0.0",
+      "ff": "0",
+      "pd": "0",
       "int": "0",
-      "headline": "123 tkl, 9.5 sacks, 17.0 TFL, 3 FF"
+      "headline": "13 tkl, 0.0 sacks, 0.0 TFL"
     }
   },
   {
@@ -19234,16 +19510,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "54",
-      "gs": "31",
-      "tackles": "99",
-      "tfl": "15.0",
-      "sacks": "7",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "41",
+      "tfl": "3.0",
+      "sacks": "2",
       "ff": "0",
-      "pd": "3",
+      "pd": "1",
       "int": "0",
-      "headline": "99 tkl, 7 sacks, 15.0 TFL"
+      "headline": "41 tkl, 2 sacks, 3.0 TFL"
     }
   },
   {
@@ -19308,16 +19586,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "52",
-      "gs": "25",
-      "tackles": "123",
-      "tfl": "17.5",
-      "sacks": "5.5",
-      "ff": "1",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "15",
+      "gs": "15",
+      "type": "defensive",
+      "tackles": "58",
+      "tfl": "9.0",
+      "sacks": "3.0",
+      "ff": "0",
       "pd": "4",
       "int": "1",
-      "headline": "123 tkl, 5.5 sacks, 17.5 TFL, 1 FF"
+      "headline": "58 tkl, 3.0 sacks, 9.0 TFL"
     }
   },
   {
@@ -19394,16 +19674,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "46",
-      "gs": "39",
-      "tackles": "97",
-      "tfl": "12",
-      "sacks": "4.5",
-      "ff": "2",
-      "pd": "5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "38",
+      "tfl": "5",
+      "sacks": "2.5",
+      "ff": "1",
+      "pd": "1",
       "int": "0",
-      "headline": "97 tkl, 4.5 sacks, 12 TFL, 2 FF"
+      "headline": "38 tkl, 2.5 sacks, 5 TFL"
     }
   },
   {
@@ -19468,16 +19750,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "53",
-      "gs": "27",
-      "tackles": "121",
-      "tfl": "22.5",
-      "sacks": "8.0",
-      "ff": "1",
-      "pd": "4",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
+      "gs": "14",
+      "type": "defensive",
+      "tackles": "44",
+      "tfl": "11.0",
+      "sacks": "2.5",
+      "ff": "0",
+      "pd": "0",
       "int": "0",
-      "headline": "121 tkl, 8.0 sacks, 22.5 TFL, 1 FF"
+      "headline": "44 tkl, 2.5 sacks, 11.0 TFL"
     }
   },
   {
@@ -19544,16 +19828,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "44",
-      "gs": "13",
-      "tackles": "128",
-      "tfl": "19.0",
-      "sacks": "8.0",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "3",
+      "type": "defensive",
+      "tackles": "44",
+      "tfl": "8.5",
+      "sacks": "2.5",
       "ff": "0",
-      "pd": "4",
+      "pd": "1",
       "int": "0",
-      "headline": "128 tkl, 8.0 sacks, 19.0 TFL"
+      "headline": "44 tkl, 2.5 sacks, 8.5 TFL"
     }
   },
   {
@@ -19574,16 +19860,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "48",
-      "gs": "30",
-      "tackles": "141",
-      "tfl": "34.5",
-      "sacks": "11.5",
-      "ff": "3",
-      "pd": "5",
-      "int": "1",
-      "headline": "141 tkl, 11.5 sacks, 34.5 TFL, 3 FF"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "6",
+      "type": "defensive",
+      "tackles": "38",
+      "tfl": "19.0",
+      "sacks": "5.5",
+      "ff": "2",
+      "pd": "1",
+      "int": "0",
+      "headline": "38 tkl, 5.5 sacks, 19.0 TFL"
     }
   },
   {
@@ -19645,16 +19933,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "27",
-      "gs": "16",
-      "tackles": "56",
-      "tfl": "4",
-      "sacks": "1",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "36",
+      "tfl": "2",
+      "sacks": "0",
       "ff": "0",
       "pd": "2",
       "int": "0",
-      "headline": "56 tkl, 1 sacks, 4 TFL"
+      "headline": "36 tkl, 0 sacks, 2 TFL"
     }
   },
   {
@@ -19675,16 +19965,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "48",
-      "gs": "19",
-      "tackles": "45",
-      "tfl": "8.0",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "25",
+      "tfl": "5.5",
       "sacks": "3.5",
       "ff": "0",
       "pd": "0",
       "int": "0",
-      "headline": "45 tkl, 3.5 sacks, 8.0 TFL"
+      "headline": "25 tkl, 3.5 sacks, 5.5 TFL"
     }
   },
   {
@@ -19705,16 +19997,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "48",
-      "gs": "11",
-      "tackles": "57",
-      "tfl": "2",
-      "sacks": "2",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "10",
+      "type": "defensive",
+      "tackles": "26",
+      "tfl": "0",
+      "sacks": "0",
       "ff": "0",
-      "pd": "4",
+      "pd": "2",
       "int": "0",
-      "headline": "57 tkl, 2 sacks, 2 TFL"
+      "headline": "26 tkl, 0 sacks, 0 TFL"
     }
   },
   {
@@ -19773,16 +20067,18 @@
         "total": 40
       }
     },
-    "careerStats": {
-      "gp": "46",
-      "gs": "30",
-      "tackles": "129",
-      "tfl": "26.0",
-      "sacks": "11.5",
-      "ff": "1",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "9",
+      "type": "defensive",
+      "tackles": "28",
+      "tfl": "2.5",
+      "sacks": "0.0",
+      "ff": "0",
       "pd": "1",
       "int": "0",
-      "headline": "129 tkl, 11.5 sacks, 26.0 TFL, 1 FF"
+      "headline": "28 tkl, 0.0 sacks, 2.5 TFL"
     }
   },
   {
@@ -19871,16 +20167,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "53",
-      "gs": "42",
-      "tackles": "244",
-      "tfl": "22.5",
-      "sacks": "9",
-      "ff": "3",
-      "pd": "9",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
+      "gs": "14",
+      "type": "defensive",
+      "tackles": "82",
+      "tfl": "6.5",
+      "sacks": "1",
+      "ff": "1",
+      "pd": "3",
       "int": "1",
-      "headline": "244 tkl, 9 sacks, 22.5 TFL, 1 INT"
+      "headline": "82 tkl, 1 sacks, 6.5 TFL, 1 INT"
     }
   },
   {
@@ -19970,16 +20268,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "56",
-      "gs": "31",
-      "tackles": "315",
-      "tfl": "25.5",
-      "sacks": "6",
-      "ff": "13",
-      "pd": "14",
-      "int": "6",
-      "headline": "315 tkl, 6 sacks, 25.5 TFL, 6 INT"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
+      "gs": "14",
+      "type": "defensive",
+      "tackles": "128",
+      "tfl": "11.0",
+      "sacks": "1",
+      "ff": "7",
+      "pd": "6",
+      "int": "4",
+      "headline": "128 tkl, 1 sacks, 11.0 TFL, 4 INT"
     }
   },
   {
@@ -20043,16 +20343,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "41",
-      "gs": "30",
-      "tackles": "205",
-      "tfl": "13.5",
-      "sacks": "4.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "88",
+      "tfl": "8.0",
+      "sacks": "3.5",
       "ff": "2",
-      "pd": "11",
-      "int": "1",
-      "headline": "205 tkl, 4.5 sacks, 13.5 TFL, 1 INT"
+      "pd": "4",
+      "int": "0",
+      "headline": "88 tkl, 3.5 sacks, 8.0 TFL"
     }
   },
   {
@@ -20142,16 +20444,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "50",
-      "gs": "31",
-      "tackles": "288",
-      "tfl": "25.5",
-      "sacks": "10.5",
-      "ff": "5",
-      "pd": "5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "105",
+      "tfl": "6.0",
+      "sacks": "3.5",
+      "ff": "1",
+      "pd": "3",
       "int": "0",
-      "headline": "288 tkl, 10.5 sacks, 25.5 TFL"
+      "headline": "105 tkl, 3.5 sacks, 6.0 TFL"
     }
   },
   {
@@ -20231,16 +20535,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "40",
-      "gs": "32",
-      "tackles": "249",
-      "tfl": "31.5",
-      "sacks": "17",
-      "ff": "8",
-      "pd": "5",
-      "int": "3",
-      "headline": "249 tkl, 17 sacks, 31.5 TFL, 3 INT"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "10",
+      "gs": "10",
+      "type": "defensive",
+      "tackles": "69",
+      "tfl": "7.0",
+      "sacks": "4",
+      "ff": "3",
+      "pd": "1",
+      "int": "2",
+      "headline": "69 tkl, 4 sacks, 7.0 TFL, 2 INT"
     }
   },
   {
@@ -20306,16 +20612,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "24",
-      "gs": "23",
-      "tackles": "176",
-      "tfl": "17",
-      "sacks": "2.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "84",
+      "tfl": "13",
+      "sacks": "2.0",
       "ff": "0",
-      "pd": "4",
-      "int": "1",
-      "headline": "176 tkl, 2.5 sacks, 17 TFL, 1 INT"
+      "pd": "1",
+      "int": "0",
+      "headline": "84 tkl, 2.0 sacks, 13 TFL"
     }
   },
   {
@@ -20405,16 +20713,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "37",
-      "gs": "26",
-      "tackles": "201",
-      "tfl": "25.5",
-      "sacks": "10",
-      "ff": "2",
-      "pd": "6",
-      "int": "6",
-      "headline": "201 tkl, 10 sacks, 25.5 TFL, 6 INT"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "11",
+      "type": "defensive",
+      "tackles": "81",
+      "tfl": "8.5",
+      "sacks": "3",
+      "ff": "1",
+      "pd": "3",
+      "int": "2",
+      "headline": "81 tkl, 3 sacks, 8.5 TFL, 2 INT"
     }
   },
   {
@@ -20504,16 +20814,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "52",
-      "gs": "38",
-      "tackles": "301",
-      "tfl": "28.5",
-      "sacks": "11.5",
-      "ff": "1",
-      "pd": "11",
-      "int": "1",
-      "headline": "301 tkl, 11.5 sacks, 28.5 TFL, 1 INT"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "98",
+      "tfl": "14.0",
+      "sacks": "7.0",
+      "ff": "0",
+      "pd": "2",
+      "int": "0",
+      "headline": "98 tkl, 7.0 sacks, 14.0 TFL"
     }
   },
   {
@@ -20602,16 +20914,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "47",
-      "gs": "24",
-      "tackles": "276",
-      "tfl": "19.0",
-      "sacks": "7",
-      "ff": "1",
-      "pd": "8",
-      "int": "1",
-      "headline": "276 tkl, 7 sacks, 19.0 TFL, 1 INT"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "130",
+      "tfl": "11.0",
+      "sacks": "4",
+      "ff": "0",
+      "pd": "2",
+      "int": "0",
+      "headline": "130 tkl, 4 sacks, 11.0 TFL"
     }
   },
   {
@@ -20694,9 +21008,11 @@
         "total": 35
       }
     },
-    "careerStats": {
+    "seasonStats": {
+      "season": "2025",
       "gp": "0",
       "gs": "0",
+      "type": "defensive",
       "tackles": "0",
       "tfl": "0",
       "sacks": "0",
@@ -20788,16 +21104,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "43",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
       "gs": "11",
-      "tackles": "118",
-      "tfl": "9.0",
+      "type": "defensive",
+      "tackles": "73",
+      "tfl": "7.0",
       "sacks": "2",
       "ff": "0",
       "pd": "3",
       "int": "1",
-      "headline": "118 tkl, 2 sacks, 9.0 TFL, 1 INT"
+      "headline": "73 tkl, 2 sacks, 7.0 TFL, 1 INT"
     }
   },
   {
@@ -20867,16 +21185,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "43",
-      "gs": "31",
-      "tackles": "364",
-      "tfl": "39.5",
-      "sacks": "9",
-      "ff": "17",
-      "pd": "4",
-      "int": "1",
-      "headline": "364 tkl, 9 sacks, 39.5 TFL, 1 INT"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "142",
+      "tfl": "13.5",
+      "sacks": "5",
+      "ff": "6",
+      "pd": "1",
+      "int": "0",
+      "headline": "142 tkl, 5 sacks, 13.5 TFL"
     }
   },
   {
@@ -20953,16 +21273,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "51",
-      "gs": "39",
-      "tackles": "328",
-      "tfl": "22.0",
-      "sacks": "7.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "15",
+      "gs": "15",
+      "type": "defensive",
+      "tackles": "97",
+      "tfl": "10.5",
+      "sacks": "4.5",
       "ff": "1",
-      "pd": "13",
-      "int": "3",
-      "headline": "328 tkl, 7.5 sacks, 22.0 TFL, 3 INT"
+      "pd": "1",
+      "int": "2",
+      "headline": "97 tkl, 4.5 sacks, 10.5 TFL, 2 INT"
     }
   },
   {
@@ -21052,16 +21374,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "53",
-      "gs": "47",
-      "tackles": "191",
-      "tfl": "43.5",
-      "sacks": "31.5",
-      "ff": "9",
-      "pd": "10",
-      "int": "2",
-      "headline": "191 tkl, 31.5 sacks, 43.5 TFL, 2 INT"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "55",
+      "tfl": "13.5",
+      "sacks": "10.0",
+      "ff": "2",
+      "pd": "1",
+      "int": "0",
+      "headline": "55 tkl, 10.0 sacks, 13.5 TFL"
     }
   },
   {
@@ -21150,16 +21474,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "41",
-      "gs": "18",
-      "tackles": "149",
-      "tfl": "13.0",
-      "sacks": "5",
-      "ff": "3",
-      "pd": "7",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "15",
+      "gs": "15",
+      "type": "defensive",
+      "tackles": "85",
+      "tfl": "6.5",
+      "sacks": "3",
+      "ff": "1",
+      "pd": "6",
       "int": "1",
-      "headline": "149 tkl, 5 sacks, 13.0 TFL, 1 INT"
+      "headline": "85 tkl, 3 sacks, 6.5 TFL, 1 INT"
     }
   },
   {
@@ -21232,16 +21558,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "43",
-      "gs": "36",
-      "tackles": "220",
-      "tfl": "35.5",
-      "sacks": "17.0",
-      "ff": "8",
-      "pd": "12",
-      "int": "5",
-      "headline": "220 tkl, 17.0 sacks, 35.5 TFL, 5 INT"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "11",
+      "type": "defensive",
+      "tackles": "56",
+      "tfl": "8.0",
+      "sacks": "4.0",
+      "ff": "1",
+      "pd": "3",
+      "int": "3",
+      "headline": "56 tkl, 4.0 sacks, 8.0 TFL, 3 INT"
     }
   },
   {
@@ -21320,16 +21648,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "55",
-      "gs": "41",
-      "tackles": "293",
-      "tfl": "31.5",
-      "sacks": "7.5",
-      "ff": "2",
-      "pd": "16",
-      "int": "5",
-      "headline": "293 tkl, 7.5 sacks, 31.5 TFL, 5 INT"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "53",
+      "tfl": "9.0",
+      "sacks": "0.0",
+      "ff": "0",
+      "pd": "3",
+      "int": "0",
+      "headline": "53 tkl, 0.0 sacks, 9.0 TFL"
     }
   },
   {
@@ -21414,16 +21744,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "51",
-      "gs": "30",
-      "tackles": "201",
-      "tfl": "28.5",
-      "sacks": "9.0",
-      "ff": "4",
-      "pd": "12",
-      "int": "3",
-      "headline": "201 tkl, 9.0 sacks, 28.5 TFL, 3 INT"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "70",
+      "tfl": "7.0",
+      "sacks": "0.5",
+      "ff": "0",
+      "pd": "3",
+      "int": "0",
+      "headline": "70 tkl, 0.5 sacks, 7.0 TFL"
     }
   },
   {
@@ -21507,16 +21839,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "39",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
       "gs": "5",
-      "tackles": "85",
+      "type": "defensive",
+      "tackles": "74",
       "tfl": "12",
       "sacks": "3",
       "ff": "1",
       "pd": "4",
       "int": "0",
-      "headline": "85 tkl, 3 sacks, 12 TFL"
+      "headline": "74 tkl, 3 sacks, 12 TFL"
     }
   },
   {
@@ -21599,16 +21933,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "39",
-      "gs": "39",
-      "tackles": "228",
-      "tfl": "25.0",
-      "sacks": "6.5",
-      "ff": "1",
-      "pd": "8",
-      "int": "1",
-      "headline": "228 tkl, 6.5 sacks, 25.0 TFL, 1 INT"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "72",
+      "tfl": "7.0",
+      "sacks": "1.0",
+      "ff": "0",
+      "pd": "3",
+      "int": "0",
+      "headline": "72 tkl, 1.0 sacks, 7.0 TFL"
     }
   },
   {
@@ -21672,16 +22008,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "52",
-      "gs": "41",
-      "tackles": "283",
-      "tfl": "19.0",
-      "sacks": "6.5",
-      "ff": "3",
-      "pd": "17",
-      "int": "1",
-      "headline": "283 tkl, 6.5 sacks, 19.0 TFL, 1 INT"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "15",
+      "gs": "15",
+      "type": "defensive",
+      "tackles": "89",
+      "tfl": "4.5",
+      "sacks": "1.5",
+      "ff": "2",
+      "pd": "4",
+      "int": "0",
+      "headline": "89 tkl, 1.5 sacks, 4.5 TFL"
     }
   },
   {
@@ -21771,16 +22109,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "52",
-      "gs": "27",
-      "tackles": "204",
-      "tfl": "19.5",
-      "sacks": "5.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "81",
+      "tfl": "7.5",
+      "sacks": "2.5",
       "ff": "1",
-      "pd": "8",
-      "int": "3",
-      "headline": "204 tkl, 5.5 sacks, 19.5 TFL, 3 INT"
+      "pd": "4",
+      "int": "1",
+      "headline": "81 tkl, 2.5 sacks, 7.5 TFL, 1 INT"
     }
   },
   {
@@ -21847,16 +22187,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "37",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
       "gs": "14",
-      "tackles": "123",
-      "tfl": "11",
+      "type": "defensive",
+      "tackles": "109",
+      "tfl": "10",
       "sacks": "5",
       "ff": "0",
       "pd": "1",
       "int": "0",
-      "headline": "123 tkl, 5 sacks, 11 TFL"
+      "headline": "109 tkl, 5 sacks, 10 TFL"
     }
   },
   {
@@ -21940,16 +22282,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "48",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
       "gs": "13",
-      "tackles": "104",
-      "tfl": "13.5",
+      "type": "defensive",
+      "tackles": "83",
+      "tfl": "12.0",
       "sacks": "4",
       "ff": "1",
       "pd": "1",
       "int": "0",
-      "headline": "104 tkl, 4 sacks, 13.5 TFL"
+      "headline": "83 tkl, 4 sacks, 12.0 TFL"
     }
   },
   {
@@ -22017,16 +22361,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "48",
-      "gs": "31",
-      "tackles": "225",
-      "tfl": "21",
-      "sacks": "8",
-      "ff": "3",
-      "pd": "16",
-      "int": "2",
-      "headline": "225 tkl, 8 sacks, 21 TFL, 2 INT"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "125",
+      "tfl": "13",
+      "sacks": "4",
+      "ff": "1",
+      "pd": "4",
+      "int": "1",
+      "headline": "125 tkl, 4 sacks, 13 TFL, 1 INT"
     }
   },
   {
@@ -22111,16 +22457,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "46",
-      "gs": "34",
-      "tackles": "207",
-      "tfl": "17.0",
-      "sacks": "8.0",
-      "ff": "3",
-      "pd": "11",
-      "int": "5",
-      "headline": "207 tkl, 8.0 sacks, 17.0 TFL, 5 INT"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "55",
+      "tfl": "3.5",
+      "sacks": "1.5",
+      "ff": "0",
+      "pd": "2",
+      "int": "1",
+      "headline": "55 tkl, 1.5 sacks, 3.5 TFL, 1 INT"
     }
   },
   {
@@ -22185,16 +22533,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "43",
-      "gs": "23",
-      "tackles": "132",
-      "tfl": "15.5",
-      "sacks": "2",
-      "ff": "3",
-      "pd": "5",
-      "int": "2",
-      "headline": "132 tkl, 2 sacks, 15.5 TFL, 2 INT"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "7",
+      "gs": "3",
+      "type": "defensive",
+      "tackles": "19",
+      "tfl": "4.0",
+      "sacks": "1",
+      "ff": "1",
+      "pd": "0",
+      "int": "1",
+      "headline": "19 tkl, 1 sacks, 4.0 TFL, 1 INT"
     }
   },
   {
@@ -22284,16 +22634,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "53",
-      "gs": "40",
-      "tackles": "302",
-      "tfl": "17.0",
-      "sacks": "8.5",
-      "ff": "2",
-      "pd": "9",
-      "int": "3",
-      "headline": "302 tkl, 8.5 sacks, 17.0 TFL, 3 INT"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "88",
+      "tfl": "4.0",
+      "sacks": "2.0",
+      "ff": "1",
+      "pd": "3",
+      "int": "2",
+      "headline": "88 tkl, 2.0 sacks, 4.0 TFL, 2 INT"
     }
   },
   {
@@ -22330,16 +22682,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "50",
-      "gs": "30",
-      "tackles": "257",
-      "tfl": "16.5",
-      "sacks": "4",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "10",
+      "gs": "10",
+      "type": "defensive",
+      "tackles": "68",
+      "tfl": "5.5",
+      "sacks": "1",
       "ff": "0",
-      "pd": "3",
-      "int": "1",
-      "headline": "257 tkl, 4 sacks, 16.5 TFL, 1 INT"
+      "pd": "1",
+      "int": "0",
+      "headline": "68 tkl, 1 sacks, 5.5 TFL"
     }
   },
   {
@@ -22416,16 +22770,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "54",
-      "gs": "41",
-      "tackles": "204",
-      "tfl": "14.5",
-      "sacks": "5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "16",
+      "gs": "15",
+      "type": "defensive",
+      "tackles": "71",
+      "tfl": "3.0",
+      "sacks": "1",
       "ff": "1",
-      "pd": "3",
-      "int": "2",
-      "headline": "204 tkl, 5 sacks, 14.5 TFL, 2 INT"
+      "pd": "1",
+      "int": "1",
+      "headline": "71 tkl, 1 sacks, 3.0 TFL, 1 INT"
     }
   },
   {
@@ -22510,16 +22866,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "51",
-      "gs": "30",
-      "tackles": "269",
-      "tfl": "26.5",
-      "sacks": "9",
-      "ff": "8",
-      "pd": "14",
-      "int": "2",
-      "headline": "269 tkl, 9 sacks, 26.5 TFL, 2 INT"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "75",
+      "tfl": "7.0",
+      "sacks": "3",
+      "ff": "4",
+      "pd": "2",
+      "int": "0",
+      "headline": "75 tkl, 3 sacks, 7.0 TFL"
     }
   },
   {
@@ -22540,16 +22898,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "43",
-      "gs": "11",
-      "tackles": "121",
-      "tfl": "16.0",
-      "sacks": "8",
-      "ff": "3",
-      "pd": "3",
-      "int": "1",
-      "headline": "121 tkl, 8 sacks, 16.0 TFL, 1 INT"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "7",
+      "type": "defensive",
+      "tackles": "47",
+      "tfl": "5.0",
+      "sacks": "3",
+      "ff": "0",
+      "pd": "2",
+      "int": "0",
+      "headline": "47 tkl, 3 sacks, 5.0 TFL"
     }
   },
   {
@@ -22623,16 +22983,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "55",
-      "gs": "23",
-      "tackles": "208",
-      "tfl": "21.0",
-      "sacks": "4",
-      "ff": "3",
-      "pd": "7",
-      "int": "4",
-      "headline": "208 tkl, 4 sacks, 21.0 TFL, 4 INT"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "94",
+      "tfl": "7.5",
+      "sacks": "2",
+      "ff": "1",
+      "pd": "5",
+      "int": "3",
+      "headline": "94 tkl, 2 sacks, 7.5 TFL, 3 INT"
     }
   },
   {
@@ -22699,16 +23061,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "54",
-      "gs": "12",
-      "tackles": "164",
-      "tfl": "12.5",
-      "sacks": "5.0",
-      "ff": "1",
-      "pd": "6",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "11",
+      "type": "defensive",
+      "tackles": "74",
+      "tfl": "8.0",
+      "sacks": "2.5",
+      "ff": "0",
+      "pd": "1",
       "int": "0",
-      "headline": "164 tkl, 5.0 sacks, 12.5 TFL"
+      "headline": "74 tkl, 2.5 sacks, 8.0 TFL"
     }
   },
   {
@@ -22774,16 +23138,18 @@
         "total": 35
       }
     },
-    "careerStats": {
-      "gp": "48",
-      "gs": "33",
-      "tackles": "164",
-      "tfl": "9.5",
-      "sacks": "4",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "10",
+      "type": "defensive",
+      "tackles": "60",
+      "tfl": "4.0",
+      "sacks": "3",
       "ff": "0",
-      "pd": "2",
+      "pd": "0",
       "int": "0",
-      "headline": "164 tkl, 4 sacks, 9.5 TFL"
+      "headline": "60 tkl, 3 sacks, 4.0 TFL"
     }
   },
   {
@@ -22854,16 +23220,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "44",
-      "gs": "40",
-      "tackles": "191",
-      "tfl": "7.0",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "11",
+      "type": "defensive",
+      "tackles": "45",
+      "tfl": "0.0",
       "sacks": "0",
-      "ff": "4",
-      "pd": "31",
-      "int": "8",
-      "headline": "191 tkl, 8 INT, 31 PD"
+      "ff": "0",
+      "pd": "13",
+      "int": "2",
+      "headline": "45 tkl, 2 INT, 13 PD"
     }
   },
   {
@@ -22933,16 +23301,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "25",
-      "gs": "18",
-      "tackles": "75",
-      "tfl": "1.0",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "0",
+      "gs": "0",
+      "type": "defensive",
+      "tackles": "0",
+      "tfl": "0.0",
       "sacks": "0",
       "ff": "0",
-      "pd": "18",
-      "int": "6",
-      "headline": "75 tkl, 6 INT, 18 PD"
+      "pd": "0",
+      "int": "0",
+      "headline": "0 tkl, 0 INT, 0 PD"
     }
   },
   {
@@ -23026,16 +23396,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "47",
-      "gs": "23",
-      "tackles": "152",
-      "tfl": "3.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "11",
+      "type": "defensive",
+      "tackles": "49",
+      "tfl": "3.0",
       "sacks": "1",
-      "ff": "5",
-      "pd": "15",
-      "int": "6",
-      "headline": "152 tkl, 6 INT, 15 PD, 1 sacks"
+      "ff": "1",
+      "pd": "8",
+      "int": "4",
+      "headline": "49 tkl, 4 INT, 8 PD"
     }
   },
   {
@@ -23113,16 +23485,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "39",
-      "gs": "31",
-      "tackles": "125",
-      "tfl": "9.0",
-      "sacks": "4",
-      "ff": "8",
-      "pd": "28",
-      "int": "3",
-      "headline": "125 tkl, 3 INT, 28 PD, 4 sacks"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "48",
+      "tfl": "4.5",
+      "sacks": "3",
+      "ff": "5",
+      "pd": "9",
+      "int": "0",
+      "headline": "48 tkl, 0 INT, 9 PD"
     }
   },
   {
@@ -23199,16 +23573,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "29",
-      "gs": "13",
-      "tackles": "77",
-      "tfl": "5.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "50",
+      "tfl": "4.5",
       "sacks": "0",
       "ff": "1",
-      "pd": "17",
-      "int": "3",
-      "headline": "77 tkl, 3 INT, 17 PD"
+      "pd": "9",
+      "int": "1",
+      "headline": "50 tkl, 1 INT, 9 PD"
     }
   },
   {
@@ -23246,16 +23622,18 @@
       }
     },
     "playerId": "d-angelo-ponds",
-    "careerStats": {
-      "gp": "41",
-      "gs": "37",
-      "tackles": "167",
-      "tfl": "10.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "15",
+      "gs": "15",
+      "type": "defensive",
+      "tackles": "61",
+      "tfl": "4.0",
       "sacks": "0",
       "ff": "1",
-      "pd": "36",
-      "int": "7",
-      "headline": "167 tkl, 7 INT, 36 PD"
+      "pd": "12",
+      "int": "2",
+      "headline": "61 tkl, 2 INT, 12 PD"
     }
   },
   {
@@ -23339,16 +23717,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "34",
-      "gs": "21",
-      "tackles": "65",
-      "tfl": "3.0",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "27",
+      "tfl": "1.5",
       "sacks": "0",
       "ff": "1",
-      "pd": "12",
-      "int": "2",
-      "headline": "65 tkl, 2 INT, 12 PD"
+      "pd": "6",
+      "int": "1",
+      "headline": "27 tkl, 1 INT, 6 PD"
     }
   },
   {
@@ -23428,16 +23808,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "52",
-      "gs": "38",
-      "tackles": "206",
-      "tfl": "12.0",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "10",
+      "gs": "10",
+      "type": "defensive",
+      "tackles": "52",
+      "tfl": "1.0",
       "sacks": "1",
       "ff": "0",
-      "pd": "31",
-      "int": "7",
-      "headline": "206 tkl, 7 INT, 31 PD, 1 sacks"
+      "pd": "6",
+      "int": "4",
+      "headline": "52 tkl, 4 INT, 6 PD"
     }
   },
   {
@@ -23517,16 +23899,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "34",
-      "gs": "26",
-      "tackles": "98",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "44",
       "tfl": "1",
       "sacks": "1",
       "ff": "2",
-      "pd": "22",
-      "int": "6",
-      "headline": "98 tkl, 6 INT, 22 PD, 1 sacks"
+      "pd": "12",
+      "int": "2",
+      "headline": "44 tkl, 2 INT, 12 PD"
     }
   },
   {
@@ -23610,16 +23994,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "56",
-      "gs": "53",
-      "tackles": "193",
-      "tfl": "4.0",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
+      "gs": "14",
+      "type": "defensive",
+      "tackles": "52",
+      "tfl": "0.5",
       "sacks": "0",
       "ff": "0",
-      "pd": "29",
-      "int": "4",
-      "headline": "193 tkl, 4 INT, 29 PD"
+      "pd": "8",
+      "int": "2",
+      "headline": "52 tkl, 2 INT, 8 PD"
     }
   },
   {
@@ -23709,16 +24095,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "41",
-      "gs": "29",
-      "tackles": "97",
-      "tfl": "3.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "11",
+      "type": "defensive",
+      "tackles": "30",
+      "tfl": "2.5",
       "sacks": "1",
       "ff": "0",
-      "pd": "19",
-      "int": "3",
-      "headline": "97 tkl, 3 INT, 19 PD, 1 sacks"
+      "pd": "6",
+      "int": "2",
+      "headline": "30 tkl, 2 INT, 6 PD"
     }
   },
   {
@@ -23805,16 +24193,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "52",
-      "gs": "45",
-      "tackles": "223",
-      "tfl": "16.0",
-      "sacks": "1.5",
-      "ff": "3",
-      "pd": "33",
-      "int": "7",
-      "headline": "223 tkl, 7 INT, 33 PD, 1.5 sacks"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "59",
+      "tfl": "3.5",
+      "sacks": "0.0",
+      "ff": "1",
+      "pd": "10",
+      "int": "2",
+      "headline": "59 tkl, 2 INT, 10 PD"
     }
   },
   {
@@ -23892,16 +24282,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "55",
-      "gs": "41",
-      "tackles": "150",
-      "tfl": "5",
-      "sacks": "1",
-      "ff": "2",
-      "pd": "21",
-      "int": "5",
-      "headline": "150 tkl, 5 INT, 21 PD, 1 sacks"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "50",
+      "tfl": "0",
+      "sacks": "0",
+      "ff": "0",
+      "pd": "11",
+      "int": "1",
+      "headline": "50 tkl, 1 INT, 11 PD"
     }
   },
   {
@@ -23981,16 +24373,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "37",
-      "gs": "30",
-      "tackles": "95",
-      "tfl": "3.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "7",
+      "gs": "7",
+      "type": "defensive",
+      "tackles": "19",
+      "tfl": "1.0",
       "sacks": "0",
       "ff": "0",
-      "pd": "28",
-      "int": "3",
-      "headline": "95 tkl, 3 INT, 28 PD"
+      "pd": "5",
+      "int": "2",
+      "headline": "19 tkl, 2 INT, 5 PD"
     }
   },
   {
@@ -24080,16 +24474,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "42",
-      "gs": "16",
-      "tackles": "99",
-      "tfl": "8.5",
-      "sacks": "1",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "55",
+      "tfl": "2.0",
+      "sacks": "0",
       "ff": "0",
-      "pd": "22",
-      "int": "4",
-      "headline": "99 tkl, 4 INT, 22 PD, 1 sacks"
+      "pd": "12",
+      "int": "2",
+      "headline": "55 tkl, 2 INT, 12 PD"
     }
   },
   {
@@ -24160,16 +24556,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "30",
-      "gs": "17",
-      "tackles": "64",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "11",
+      "type": "defensive",
+      "tackles": "35",
       "tfl": "2",
       "sacks": "1",
       "ff": "1",
-      "pd": "14",
-      "int": "5",
-      "headline": "64 tkl, 5 INT, 14 PD, 1 sacks"
+      "pd": "6",
+      "int": "2",
+      "headline": "35 tkl, 2 INT, 6 PD"
     }
   },
   {
@@ -24246,16 +24644,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "50",
-      "gs": "43",
-      "tackles": "154",
-      "tfl": "7.0",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "15",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "39",
+      "tfl": "1.0",
       "sacks": "0",
       "ff": "1",
-      "pd": "24",
-      "int": "4",
-      "headline": "154 tkl, 4 INT, 24 PD"
+      "pd": "8",
+      "int": "2",
+      "headline": "39 tkl, 2 INT, 8 PD"
     }
   },
   {
@@ -24347,16 +24747,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "49",
-      "gs": "42",
-      "tackles": "170",
-      "tfl": "2",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "48",
+      "tfl": "1",
       "sacks": "0",
-      "ff": "1",
-      "pd": "21",
-      "int": "2",
-      "headline": "170 tkl, 2 INT, 21 PD"
+      "ff": "0",
+      "pd": "8",
+      "int": "1",
+      "headline": "48 tkl, 1 INT, 8 PD"
     }
   },
   {
@@ -24446,16 +24848,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "48",
-      "gs": "27",
-      "tackles": "119",
-      "tfl": "5",
-      "sacks": "2",
-      "ff": "5",
-      "pd": "14",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "51",
+      "tfl": "3",
+      "sacks": "1",
+      "ff": "1",
+      "pd": "10",
       "int": "0",
-      "headline": "119 tkl, 0 INT, 14 PD, 2 sacks"
+      "headline": "51 tkl, 0 INT, 10 PD"
     }
   },
   {
@@ -24539,16 +24943,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "46",
-      "gs": "37",
-      "tackles": "63",
-      "tfl": "2",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "18",
+      "tfl": "0",
       "sacks": "0",
       "ff": "0",
-      "pd": "35",
-      "int": "9",
-      "headline": "63 tkl, 9 INT, 35 PD"
+      "pd": "9",
+      "int": "4",
+      "headline": "18 tkl, 4 INT, 9 PD"
     }
   },
   {
@@ -24626,16 +25032,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "36",
-      "gs": "34",
-      "tackles": "134",
-      "tfl": "4.0",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "50",
+      "tfl": "2.0",
       "sacks": "1",
-      "ff": "2",
-      "pd": "28",
-      "int": "4",
-      "headline": "134 tkl, 4 INT, 28 PD, 1 sacks"
+      "ff": "0",
+      "pd": "8",
+      "int": "0",
+      "headline": "50 tkl, 0 INT, 8 PD"
     }
   },
   {
@@ -24723,16 +25131,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "51",
-      "gs": "26",
-      "tackles": "127",
-      "tfl": "7.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "42",
+      "tfl": "5.0",
       "sacks": "0",
       "ff": "1",
-      "pd": "27",
-      "int": "3",
-      "headline": "127 tkl, 3 INT, 27 PD"
+      "pd": "12",
+      "int": "1",
+      "headline": "42 tkl, 1 INT, 12 PD"
     }
   },
   {
@@ -24803,16 +25213,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "34",
-      "gs": "20",
-      "tackles": "89",
-      "tfl": "5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "7",
+      "gs": "7",
+      "type": "defensive",
+      "tackles": "20",
+      "tfl": "2",
       "sacks": "0",
-      "ff": "1",
-      "pd": "24",
-      "int": "2",
-      "headline": "89 tkl, 2 INT, 24 PD"
+      "ff": "0",
+      "pd": "6",
+      "int": "0",
+      "headline": "20 tkl, 0 INT, 6 PD"
     }
   },
   {
@@ -24894,16 +25306,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "42",
-      "gs": "18",
-      "tackles": "75",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "11",
+      "type": "defensive",
+      "tackles": "47",
       "tfl": "0",
       "sacks": "0",
       "ff": "0",
-      "pd": "14",
-      "int": "2",
-      "headline": "75 tkl, 2 INT, 14 PD"
+      "pd": "11",
+      "int": "1",
+      "headline": "47 tkl, 1 INT, 11 PD"
     }
   },
   {
@@ -24980,16 +25394,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "36",
-      "gs": "32",
-      "tackles": "144",
-      "tfl": "10.0",
-      "sacks": "1",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "9",
+      "gs": "9",
+      "type": "defensive",
+      "tackles": "33",
+      "tfl": "1.0",
+      "sacks": "0",
       "ff": "0",
-      "pd": "16",
-      "int": "5",
-      "headline": "144 tkl, 5 INT, 16 PD, 1 sacks"
+      "pd": "5",
+      "int": "1",
+      "headline": "33 tkl, 1 INT, 5 PD"
     }
   },
   {
@@ -25073,16 +25489,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "49",
-      "gs": "37",
-      "tackles": "152",
-      "tfl": "5.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "47",
+      "tfl": "1.0",
       "sacks": "0",
-      "ff": "1",
-      "pd": "27",
-      "int": "7",
-      "headline": "152 tkl, 7 INT, 27 PD"
+      "ff": "0",
+      "pd": "13",
+      "int": "5",
+      "headline": "47 tkl, 5 INT, 13 PD"
     }
   },
   {
@@ -25152,16 +25570,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "46",
-      "gs": "34",
-      "tackles": "126",
-      "tfl": "3.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "15",
+      "gs": "10",
+      "type": "defensive",
+      "tackles": "39",
+      "tfl": "1.5",
       "sacks": "0",
-      "ff": "1",
-      "pd": "14",
-      "int": "2",
-      "headline": "126 tkl, 2 INT, 14 PD"
+      "ff": "0",
+      "pd": "1",
+      "int": "0",
+      "headline": "39 tkl, 0 INT, 1 PD"
     }
   },
   {
@@ -25229,16 +25649,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "58",
-      "gs": "25",
-      "tackles": "116",
-      "tfl": "6.5",
-      "sacks": "2",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "11",
+      "type": "defensive",
+      "tackles": "49",
+      "tfl": "2.5",
+      "sacks": "0",
       "ff": "0",
-      "pd": "37",
-      "int": "4",
-      "headline": "116 tkl, 4 INT, 37 PD, 2 sacks"
+      "pd": "12",
+      "int": "1",
+      "headline": "49 tkl, 1 INT, 12 PD"
     }
   },
   {
@@ -25323,16 +25745,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "52",
-      "gs": "21",
-      "tackles": "82",
-      "tfl": "3.5",
-      "sacks": "1",
-      "ff": "1",
-      "pd": "21",
-      "int": "5",
-      "headline": "82 tkl, 5 INT, 21 PD, 1 sacks"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "24",
+      "tfl": "1.5",
+      "sacks": "0",
+      "ff": "0",
+      "pd": "6",
+      "int": "2",
+      "headline": "24 tkl, 2 INT, 6 PD"
     }
   },
   {
@@ -25405,16 +25829,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "60",
-      "gs": "20",
-      "tackles": "47",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "10",
+      "type": "defensive",
+      "tackles": "30",
       "tfl": "1.5",
       "sacks": "0",
       "ff": "0",
-      "pd": "7",
+      "pd": "3",
       "int": "0",
-      "headline": "47 tkl, 0 INT, 7 PD"
+      "headline": "30 tkl, 0 INT, 3 PD"
     }
   },
   {
@@ -25504,16 +25930,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "51",
-      "gs": "39",
-      "tackles": "136",
-      "tfl": "4.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "35",
+      "tfl": "2.0",
       "sacks": "0.5",
       "ff": "0",
-      "pd": "25",
-      "int": "3",
-      "headline": "136 tkl, 3 INT, 25 PD, 0.5 sacks"
+      "pd": "8",
+      "int": "0",
+      "headline": "35 tkl, 0 INT, 8 PD"
     }
   },
   {
@@ -25579,16 +26007,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "49",
-      "gs": "32",
-      "tackles": "109",
-      "tfl": "3",
-      "sacks": "1.5",
-      "ff": "1",
-      "pd": "19",
-      "int": "3",
-      "headline": "109 tkl, 3 INT, 19 PD, 1.5 sacks"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "9",
+      "type": "defensive",
+      "tackles": "29",
+      "tfl": "1",
+      "sacks": "0.5",
+      "ff": "0",
+      "pd": "5",
+      "int": "0",
+      "headline": "29 tkl, 0 INT, 5 PD"
     }
   },
   {
@@ -25643,16 +26073,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "43",
-      "gs": "27",
-      "tackles": "121",
-      "tfl": "5.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "10",
+      "gs": "8",
+      "type": "defensive",
+      "tackles": "26",
+      "tfl": "3.0",
       "sacks": "1",
-      "ff": "2",
-      "pd": "16",
-      "int": "4",
-      "headline": "121 tkl, 4 INT, 16 PD, 1 sacks"
+      "ff": "0",
+      "pd": "7",
+      "int": "0",
+      "headline": "26 tkl, 0 INT, 7 PD"
     }
   },
   {
@@ -25719,16 +26151,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "44",
-      "gs": "27",
-      "tackles": "124",
-      "tfl": "8.0",
-      "sacks": "1",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "10",
+      "type": "defensive",
+      "tackles": "40",
+      "tfl": "1.0",
+      "sacks": "0",
       "ff": "0",
-      "pd": "11",
+      "pd": "4",
       "int": "1",
-      "headline": "124 tkl, 1 INT, 11 PD, 1 sacks"
+      "headline": "40 tkl, 1 INT, 4 PD"
     }
   },
   {
@@ -25811,16 +26245,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "42",
-      "gs": "26",
-      "tackles": "110",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "42",
       "tfl": "0.5",
       "sacks": "0",
       "ff": "2",
-      "pd": "27",
-      "int": "3",
-      "headline": "110 tkl, 3 INT, 27 PD"
+      "pd": "13",
+      "int": "0",
+      "headline": "42 tkl, 0 INT, 13 PD"
     }
   },
   {
@@ -25887,16 +26323,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "48",
-      "gs": "44",
-      "tackles": "143",
-      "tfl": "10.0",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "34",
+      "tfl": "3.0",
       "sacks": "0",
       "ff": "0",
-      "pd": "30",
-      "int": "2",
-      "headline": "143 tkl, 2 INT, 30 PD"
+      "pd": "4",
+      "int": "0",
+      "headline": "34 tkl, 0 INT, 4 PD"
     }
   },
   {
@@ -25917,16 +26355,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "35",
-      "gs": "25",
-      "tackles": "84",
-      "tfl": "2.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "30",
+      "tfl": "2.0",
       "sacks": "0",
       "ff": "0",
-      "pd": "26",
-      "int": "5",
-      "headline": "84 tkl, 5 INT, 26 PD"
+      "pd": "7",
+      "int": "0",
+      "headline": "30 tkl, 0 INT, 7 PD"
     }
   },
   {
@@ -25995,16 +26435,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "43",
-      "gs": "28",
-      "tackles": "80",
-      "tfl": "2",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "25",
+      "tfl": "1",
       "sacks": "0",
       "ff": "0",
-      "pd": "11",
+      "pd": "4",
       "int": "1",
-      "headline": "80 tkl, 1 INT, 11 PD"
+      "headline": "25 tkl, 1 INT, 4 PD"
     }
   },
   {
@@ -26025,16 +26467,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "42",
-      "gs": "39",
-      "tackles": "152",
-      "tfl": "9.5",
-      "sacks": "1",
-      "ff": "1",
-      "pd": "27",
-      "int": "5",
-      "headline": "152 tkl, 5 INT, 27 PD, 1 sacks"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "43",
+      "tfl": "1.5",
+      "sacks": "0",
+      "ff": "0",
+      "pd": "9",
+      "int": "1",
+      "headline": "43 tkl, 1 INT, 9 PD"
     }
   },
   {
@@ -26100,16 +26544,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "53",
-      "gs": "33",
-      "tackles": "160",
-      "tfl": "8.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "9",
+      "type": "defensive",
+      "tackles": "56",
+      "tfl": "6.0",
       "sacks": "2",
-      "ff": "2",
-      "pd": "21",
-      "int": "1",
-      "headline": "160 tkl, 1 INT, 21 PD, 2 sacks"
+      "ff": "0",
+      "pd": "5",
+      "int": "0",
+      "headline": "56 tkl, 0 INT, 5 PD"
     }
   },
   {
@@ -26176,16 +26622,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "43",
-      "gs": "15",
-      "tackles": "60",
-      "tfl": "2.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "1",
+      "type": "defensive",
+      "tackles": "13",
+      "tfl": "0.0",
       "sacks": "0",
       "ff": "0",
-      "pd": "10",
-      "int": "2",
-      "headline": "60 tkl, 2 INT, 10 PD"
+      "pd": "0",
+      "int": "0",
+      "headline": "13 tkl, 0 INT, 0 PD"
     }
   },
   {
@@ -26206,16 +26654,18 @@
         "total": 42
       }
     },
-    "careerStats": {
-      "gp": "36",
-      "gs": "8",
-      "tackles": "47",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
+      "gs": "2",
+      "type": "defensive",
+      "tackles": "23",
       "tfl": "2",
       "sacks": "0",
       "ff": "0",
-      "pd": "9",
+      "pd": "4",
       "int": "0",
-      "headline": "47 tkl, 0 INT, 9 PD"
+      "headline": "23 tkl, 0 INT, 4 PD"
     }
   },
   {
@@ -26278,16 +26728,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "44",
-      "gs": "44",
-      "tackles": "256",
-      "tfl": "16.0",
-      "sacks": "1.5",
-      "ff": "3",
-      "pd": "16",
-      "int": "6",
-      "headline": "256 tkl, 6 INT, 16 PD, 1.5 sacks"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
+      "gs": "14",
+      "type": "defensive",
+      "tackles": "68",
+      "tfl": "5.0",
+      "sacks": "1.0",
+      "ff": "2",
+      "pd": "3",
+      "int": "2",
+      "headline": "68 tkl, 2 INT, 3 PD"
     }
   },
   {
@@ -26364,16 +26816,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "39",
-      "gs": "39",
-      "tackles": "306",
-      "tfl": "10.0",
-      "sacks": "2",
-      "ff": "2",
-      "pd": "16",
-      "int": "8",
-      "headline": "306 tkl, 8 INT, 16 PD, 2 sacks"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "15",
+      "gs": "15",
+      "type": "defensive",
+      "tackles": "96",
+      "tfl": "3.5",
+      "sacks": "1",
+      "ff": "0",
+      "pd": "7",
+      "int": "2",
+      "headline": "96 tkl, 2 INT, 7 PD"
     }
   },
   {
@@ -26452,16 +26906,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "48",
-      "gs": "26",
-      "tackles": "214",
-      "tfl": "11.0",
-      "sacks": "1.0",
-      "ff": "9",
-      "pd": "15",
-      "int": "5",
-      "headline": "214 tkl, 5 INT, 15 PD, 1.0 sacks"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "77",
+      "tfl": "5.5",
+      "sacks": "0.5",
+      "ff": "3",
+      "pd": "7",
+      "int": "2",
+      "headline": "77 tkl, 2 INT, 7 PD"
     }
   },
   {
@@ -26534,16 +26990,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "46",
-      "gs": "35",
-      "tackles": "179",
-      "tfl": "19",
-      "sacks": "6",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "64",
+      "tfl": "13",
+      "sacks": "5",
       "ff": "2",
-      "pd": "17",
-      "int": "3",
-      "headline": "179 tkl, 3 INT, 17 PD, 6 sacks"
+      "pd": "7",
+      "int": "2",
+      "headline": "64 tkl, 2 INT, 7 PD"
     }
   },
   {
@@ -26614,16 +27072,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "48",
-      "gs": "44",
-      "tackles": "347",
-      "tfl": "4.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "11",
+      "type": "defensive",
+      "tackles": "88",
+      "tfl": "0.5",
       "sacks": "0",
-      "ff": "4",
-      "pd": "19",
-      "int": "10",
-      "headline": "347 tkl, 10 INT, 19 PD"
+      "ff": "1",
+      "pd": "4",
+      "int": "3",
+      "headline": "88 tkl, 3 INT, 4 PD"
     }
   },
   {
@@ -26713,16 +27173,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "58",
-      "gs": "28",
-      "tackles": "223",
-      "tfl": "5.0",
-      "sacks": "1",
-      "ff": "2",
-      "pd": "8",
-      "int": "6",
-      "headline": "223 tkl, 6 INT, 8 PD, 1 sacks"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "74",
+      "tfl": "2.0",
+      "sacks": "0",
+      "ff": "0",
+      "pd": "1",
+      "int": "1",
+      "headline": "74 tkl, 1 INT, 1 PD"
     }
   },
   {
@@ -26797,16 +27259,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "61",
-      "gs": "45",
-      "tackles": "214",
-      "tfl": "3.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "11",
+      "type": "defensive",
+      "tackles": "56",
+      "tfl": "1.5",
       "sacks": "1",
-      "ff": "1",
-      "pd": "21",
-      "int": "15",
-      "headline": "214 tkl, 15 INT, 21 PD, 1 sacks"
+      "ff": "0",
+      "pd": "7",
+      "int": "4",
+      "headline": "56 tkl, 4 INT, 7 PD"
     }
   },
   {
@@ -26892,16 +27356,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "36",
-      "gs": "33",
-      "tackles": "178",
-      "tfl": "4.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "11",
+      "gs": "11",
+      "type": "defensive",
+      "tackles": "54",
+      "tfl": "0.0",
       "sacks": "0",
-      "ff": "1",
-      "pd": "21",
-      "int": "8",
-      "headline": "178 tkl, 8 INT, 21 PD"
+      "ff": "0",
+      "pd": "10",
+      "int": "2",
+      "headline": "54 tkl, 2 INT, 10 PD"
     }
   },
   {
@@ -26993,16 +27459,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "37",
-      "gs": "22",
-      "tackles": "164",
-      "tfl": "6.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "77",
+      "tfl": "3.0",
       "sacks": "0",
-      "ff": "4",
-      "pd": "14",
-      "int": "5",
-      "headline": "164 tkl, 5 INT, 14 PD"
+      "ff": "2",
+      "pd": "8",
+      "int": "1",
+      "headline": "77 tkl, 1 INT, 8 PD"
     }
   },
   {
@@ -27080,16 +27548,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "35",
-      "gs": "31",
-      "tackles": "133",
-      "tfl": "9.5",
-      "sacks": "2",
-      "ff": "2",
-      "pd": "13",
-      "int": "2",
-      "headline": "133 tkl, 2 INT, 13 PD, 2 sacks"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "9",
+      "gs": "9",
+      "type": "defensive",
+      "tackles": "27",
+      "tfl": "1.5",
+      "sacks": "0",
+      "ff": "0",
+      "pd": "2",
+      "int": "0",
+      "headline": "27 tkl, 0 INT, 2 PD"
     }
   },
   {
@@ -27173,16 +27643,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "53",
-      "gs": "29",
-      "tackles": "206",
-      "tfl": "11",
-      "sacks": "4.5",
-      "ff": "4",
-      "pd": "25",
-      "int": "9",
-      "headline": "206 tkl, 9 INT, 25 PD, 4.5 sacks"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "16",
+      "gs": "16",
+      "type": "defensive",
+      "tackles": "76",
+      "tfl": "4",
+      "sacks": "3.5",
+      "ff": "2",
+      "pd": "11",
+      "int": "5",
+      "headline": "76 tkl, 5 INT, 11 PD"
     }
   },
   {
@@ -27268,16 +27740,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "52",
-      "gs": "42",
-      "tackles": "207",
-      "tfl": "10.5",
-      "sacks": "1",
-      "ff": "4",
-      "pd": "13",
-      "int": "4",
-      "headline": "207 tkl, 4 INT, 13 PD, 1 sacks"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "59",
+      "tfl": "3.0",
+      "sacks": "0",
+      "ff": "2",
+      "pd": "4",
+      "int": "1",
+      "headline": "59 tkl, 1 INT, 4 PD"
     }
   },
   {
@@ -27359,16 +27833,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "53",
-      "gs": "36",
-      "tackles": "222",
-      "tfl": "9.5",
-      "sacks": "3",
-      "ff": "1",
-      "pd": "14",
-      "int": "7",
-      "headline": "222 tkl, 7 INT, 14 PD, 3 sacks"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "10",
+      "gs": "10",
+      "type": "defensive",
+      "tackles": "70",
+      "tfl": "1.0",
+      "sacks": "1",
+      "ff": "0",
+      "pd": "1",
+      "int": "2",
+      "headline": "70 tkl, 2 INT, 1 PD"
     }
   },
   {
@@ -27461,16 +27937,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "47",
-      "gs": "25",
-      "tackles": "178",
-      "tfl": "8.0",
-      "sacks": "2.5",
-      "ff": "5",
-      "pd": "4",
-      "int": "2",
-      "headline": "178 tkl, 2 INT, 4 PD, 2.5 sacks"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "59",
+      "tfl": "1.5",
+      "sacks": "0.0",
+      "ff": "1",
+      "pd": "2",
+      "int": "1",
+      "headline": "59 tkl, 1 INT, 2 PD"
     }
   },
   {
@@ -27561,16 +28039,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "42",
-      "gs": "30",
-      "tackles": "163",
-      "tfl": "7.5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "70",
+      "tfl": "4.0",
       "sacks": "1",
       "ff": "0",
-      "pd": "11",
-      "int": "3",
-      "headline": "163 tkl, 3 INT, 11 PD, 1 sacks"
+      "pd": "6",
+      "int": "2",
+      "headline": "70 tkl, 2 INT, 6 PD"
     }
   },
   {
@@ -27654,16 +28134,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "50",
-      "gs": "35",
-      "tackles": "286",
-      "tfl": "13",
-      "sacks": "3",
-      "ff": "7",
-      "pd": "15",
-      "int": "5",
-      "headline": "286 tkl, 5 INT, 15 PD, 3 sacks"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "97",
+      "tfl": "2",
+      "sacks": "1",
+      "ff": "1",
+      "pd": "11",
+      "int": "4",
+      "headline": "97 tkl, 4 INT, 11 PD"
     }
   },
   {
@@ -27746,16 +28228,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "45",
-      "gs": "34",
-      "tackles": "176",
-      "tfl": "5.0",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "11",
+      "type": "defensive",
+      "tackles": "72",
+      "tfl": "1.5",
       "sacks": "0",
       "ff": "0",
-      "pd": "10",
-      "int": "11",
-      "headline": "176 tkl, 11 INT, 10 PD"
+      "pd": "3",
+      "int": "4",
+      "headline": "72 tkl, 4 INT, 3 PD"
     }
   },
   {
@@ -27832,16 +28316,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "36",
-      "gs": "26",
-      "tackles": "148",
-      "tfl": "10.0",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "10",
+      "gs": "10",
+      "type": "defensive",
+      "tackles": "51",
+      "tfl": "2.5",
       "sacks": "1",
-      "ff": "1",
-      "pd": "24",
-      "int": "10",
-      "headline": "148 tkl, 10 INT, 24 PD, 1 sacks"
+      "ff": "0",
+      "pd": "8",
+      "int": "5",
+      "headline": "51 tkl, 5 INT, 8 PD"
     }
   },
   {
@@ -27918,16 +28404,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "51",
-      "gs": "28",
-      "tackles": "216",
-      "tfl": "6.5",
-      "sacks": "1.5",
-      "ff": "4",
-      "pd": "6",
-      "int": "9",
-      "headline": "216 tkl, 9 INT, 6 PD, 1.5 sacks"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "16",
+      "gs": "16",
+      "type": "defensive",
+      "tackles": "88",
+      "tfl": "2.5",
+      "sacks": "0.0",
+      "ff": "0",
+      "pd": "4",
+      "int": "6",
+      "headline": "88 tkl, 6 INT, 4 PD"
     }
   },
   {
@@ -28011,16 +28499,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "49",
-      "gs": "26",
-      "tackles": "191",
-      "tfl": "1",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "78",
+      "tfl": "0",
       "sacks": "0",
-      "ff": "1",
-      "pd": "17",
-      "int": "3",
-      "headline": "191 tkl, 3 INT, 17 PD"
+      "ff": "0",
+      "pd": "5",
+      "int": "1",
+      "headline": "78 tkl, 1 INT, 5 PD"
     }
   },
   {
@@ -28084,16 +28574,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "61",
-      "gs": "33",
-      "tackles": "272",
-      "tfl": "11.5",
-      "sacks": "2",
-      "ff": "5",
-      "pd": "21",
-      "int": "8",
-      "headline": "272 tkl, 8 INT, 21 PD, 2 sacks"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "14",
+      "gs": "14",
+      "type": "defensive",
+      "tackles": "78",
+      "tfl": "6.0",
+      "sacks": "1",
+      "ff": "2",
+      "pd": "6",
+      "int": "0",
+      "headline": "78 tkl, 0 INT, 6 PD"
     }
   },
   {
@@ -28157,16 +28649,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "54",
-      "gs": "19",
-      "tackles": "250",
-      "tfl": "16.5",
-      "sacks": "3",
-      "ff": "1",
-      "pd": "11",
-      "int": "8",
-      "headline": "250 tkl, 8 INT, 11 PD, 3 sacks"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "104",
+      "tfl": "5.5",
+      "sacks": "1",
+      "ff": "0",
+      "pd": "3",
+      "int": "5",
+      "headline": "104 tkl, 5 INT, 3 PD"
     }
   },
   {
@@ -28242,16 +28736,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "52",
-      "gs": "36",
-      "tackles": "171",
-      "tfl": "3",
-      "sacks": "1",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "76",
+      "tfl": "1",
+      "sacks": "0",
       "ff": "2",
-      "pd": "7",
-      "int": "3",
-      "headline": "171 tkl, 3 INT, 7 PD, 1 sacks"
+      "pd": "1",
+      "int": "1",
+      "headline": "76 tkl, 1 INT, 1 PD"
     }
   },
   {
@@ -28320,16 +28816,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "50",
-      "gs": "24",
-      "tackles": "142",
-      "tfl": "4.5",
-      "sacks": "2",
-      "ff": "1",
-      "pd": "8",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "53",
+      "tfl": "1.0",
+      "sacks": "0",
+      "ff": "0",
+      "pd": "3",
       "int": "0",
-      "headline": "142 tkl, 0 INT, 8 PD, 2 sacks"
+      "headline": "53 tkl, 0 INT, 3 PD"
     }
   },
   {
@@ -28396,16 +28894,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "40",
-      "gs": "28",
-      "tackles": "143",
-      "tfl": "5.5",
-      "sacks": "1",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "15",
+      "gs": "12",
+      "type": "defensive",
+      "tackles": "55",
+      "tfl": "0.5",
+      "sacks": "0",
       "ff": "0",
-      "pd": "20",
-      "int": "4",
-      "headline": "143 tkl, 4 INT, 20 PD, 1 sacks"
+      "pd": "6",
+      "int": "1",
+      "headline": "55 tkl, 1 INT, 6 PD"
     }
   },
   {
@@ -28470,16 +28970,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "55",
-      "gs": "38",
-      "tackles": "182",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "13",
+      "gs": "13",
+      "type": "defensive",
+      "tackles": "64",
       "tfl": "4",
       "sacks": "1",
-      "ff": "1",
-      "pd": "18",
-      "int": "7",
-      "headline": "182 tkl, 7 INT, 18 PD, 1 sacks"
+      "ff": "0",
+      "pd": "7",
+      "int": "3",
+      "headline": "64 tkl, 3 INT, 7 PD"
     }
   },
   {
@@ -28546,16 +29048,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "48",
-      "gs": "13",
-      "tackles": "148",
-      "tfl": "5",
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "5",
+      "type": "defensive",
+      "tackles": "37",
+      "tfl": "3",
       "sacks": "1",
-      "ff": "2",
-      "pd": "7",
+      "ff": "0",
+      "pd": "3",
       "int": "1",
-      "headline": "148 tkl, 1 INT, 7 PD, 1 sacks"
+      "headline": "37 tkl, 1 INT, 3 PD"
     }
   },
   {
@@ -28576,16 +29080,18 @@
         "total": 28
       }
     },
-    "careerStats": {
-      "gp": "47",
-      "gs": "21",
-      "tackles": "201",
-      "tfl": "10.0",
-      "sacks": "3.5",
-      "ff": "3",
-      "pd": "6",
-      "int": "1",
-      "headline": "201 tkl, 1 INT, 6 PD, 3.5 sacks"
+    "seasonStats": {
+      "season": "2025",
+      "gp": "12",
+      "gs": "11",
+      "type": "defensive",
+      "tackles": "64",
+      "tfl": "0.5",
+      "sacks": "0.0",
+      "ff": "0",
+      "pd": "1",
+      "int": "0",
+      "headline": "64 tkl, 0 INT, 1 PD"
     }
   },
   {
