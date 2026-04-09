@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useState, useMemo } from 'react'
 import styles from './PlayerProfile.module.css'
 import { POSITION_COLORS } from '../../../constants/positions'
 import RadarChart from './RadarChart.jsx'
