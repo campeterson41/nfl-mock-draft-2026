@@ -138,21 +138,24 @@ export function calculateDesireScore({ player, team, regime, beatWriterLinks, cu
   const preNoiseScore =
     (baseScore * needMultiplier + beatWriterBonus + insiderBonus) * regimeMultiplier * mockRangePenalty * urgencyMultiplier * freakMultiplier
 
-  // Step 7: Gaussian noise — two components:
+  // Step 7: Gaussian noise — two components, amplified by polarization.
   //
   // a) Proportional noise: scales mildly as the draft progresses.
-  //    Round 1 (pick ~1):   ±15% std dev  (unchanged from before)
+  //    Round 1 (pick ~1):   ±15% std dev
   //    Round 4 (pick ~120): ±18% std dev
   //    Round 7 (pick ~250): ±22% std dev
   //
   // b) Absolute noise floor: a small fixed ±3 pts Gaussian regardless of score.
-  //    In rounds 1-2 this is negligible. In rounds 5-7 where scores cluster
-  //    between 10-30 pts, it gives just enough push to occasionally swap
-  //    adjacent players without blowing up the board.
+  //
+  // c) Polarization amplifier: players with high disagreement among drafters
+  //    get wider noise bands. A polarization of 1.0 (Oscar Delp) doubles the
+  //    noise, so he swings wildly between sims. A polarization of 0 = normal.
+  //    This means the same player might go in round 2 one sim and round 5 the next.
+  const polarizationAmp = 1.0 + (player.polarization ?? 0) * 1.0
   const pickFraction = currentPickOverall > 0 ? currentPickOverall / 257 : 0
   const scaledStdDev = WEIGHTS.NOISE_STD_DEV + pickFraction * 0.07
-  const proportionalNoise = gaussianNoise(preNoiseScore, scaledStdDev)
-  const absoluteNoise     = gaussianNoise(WEIGHTS.NOISE_ABSOLUTE_STD, 1.0)
+  const proportionalNoise = gaussianNoise(preNoiseScore, scaledStdDev) * polarizationAmp
+  const absoluteNoise     = gaussianNoise(WEIGHTS.NOISE_ABSOLUTE_STD, 1.0) * polarizationAmp
   const finalScore = Math.max(0, preNoiseScore + proportionalNoise + absoluteNoise)
 
   return {
