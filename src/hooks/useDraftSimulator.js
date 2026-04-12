@@ -184,7 +184,7 @@ function reducer(state, action) {
             futurePickIds: userGiving.futurePickIds ?? [],
           },
           received: {
-            pickOveralls: [...(userReceiving.pickOveralls ?? []), ...(targetPickOverall ? [targetPickOverall] : [])],
+            pickOveralls: [...(userReceiving.pickOveralls ?? []), ...(targetPickOverall && !(userReceiving.pickOveralls ?? []).includes(targetPickOverall) ? [targetPickOverall] : [])],
             futurePickIds: userReceiving.futurePickIds ?? [],
           },
         }],
