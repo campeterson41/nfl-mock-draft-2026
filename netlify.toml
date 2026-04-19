@@ -1,7 +1,33 @@
 [build]
   command = "npm run build"
   publish = "dist"
+  functions = "netlify/functions"
 
+# Tell `netlify dev` to proxy to our pinned Vite port so we don't accidentally
+# land on some other local project's dev server (the default 5173 is popular).
+[dev]
+  framework = "#custom"
+  command = "npm run dev"
+  targetPort = 5181
+  port = 5180
+
+# API routes — order matters; actuals is a single resource so match it first.
+[[redirects]]
+  from = "/api/actuals"
+  to = "/.netlify/functions/actuals"
+  status = 200
+
+[[redirects]]
+  from = "/api/groups/*"
+  to = "/.netlify/functions/groups/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/api/groups"
+  to = "/.netlify/functions/groups"
+  status = 200
+
+# SPA fallback — must come AFTER the /api redirect so API calls match first
 [[redirects]]
   from = "/*"
   to = "/index.html"

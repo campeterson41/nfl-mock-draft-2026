@@ -7,3 +7,12 @@ dist/
 .vscode/
 .idea/
 consensus_big_board_2026.json
+
+# Local Netlify folder
+.netlify
+
+# Claude local config
+.claude/
+
+# Deno (not used in prod; stray local tooling)
+deno.lock

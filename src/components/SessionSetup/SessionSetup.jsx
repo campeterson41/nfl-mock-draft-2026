@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
+import CreateGroupModal from '../GroupPage/CreateGroupModal.jsx'
 import styles from './SessionSetup.module.css'
 
 const SORT_OPTIONS = [
@@ -101,12 +103,14 @@ function getSortedTeams(sortBy) {
 }
 
 export default function SessionSetup({ onStart, onPrivacy, onAbout }) {
+  const navigate = useNavigate()
   const [screen, setScreen]           = useState(SCREENS.WELCOME)
   const [mode, setMode]               = useState(null)
   const [selectedIds, setSelectedIds] = useState([])
   const [leaving, setLeaving]         = useState(false)
   const [numRounds, setNumRounds]     = useState(7)
   const [teamSort, setTeamSort]       = useState('pick')
+  const [groupModalOpen, setGroupModalOpen] = useState(false)
 
   const transition = (nextScreen) => {
     setLeaving(true)
@@ -408,6 +412,20 @@ export default function SessionSetup({ onStart, onPrivacy, onAbout }) {
                 <span className={styles.startBtnSub}>GO ON THE CLOCK</span>
               </button>
             </div>
+
+            {mode === 'predictive' && selectedTeams[0] && (
+              <div className={styles.confirmGroupRow}>
+                <span className={styles.confirmGroupText}>
+                  Competing with friends?
+                </span>
+                <button
+                  className={styles.confirmGroupBtn}
+                  onClick={() => setGroupModalOpen(true)}
+                >
+                  CREATE A GROUP
+                </button>
+              </div>
+            )}
           </div>
         )}
 
@@ -421,6 +439,21 @@ export default function SessionSetup({ onStart, onPrivacy, onAbout }) {
         <span className={styles.footerDot} />
         <button className={styles.footerLink} onClick={onPrivacy}>Privacy Policy</button>
       </div>
+
+      {/* Create-group modal (only reachable when mode === 'predictive' with a team selected) */}
+      <CreateGroupModal
+        isOpen={groupModalOpen}
+        team={selectedTeams[0]}
+        submitLabel="GO TO GROUP PAGE"
+        onClose={() => setGroupModalOpen(false)}
+        onSubmitSelf={async (newGroup /*, memberName */) => {
+          // After creating the group, drop the commissioner on the group
+          // page. From there they can share the link, see who's joined,
+          // and click "Join this group" themselves to start predicting.
+          setGroupModalOpen(false)
+          navigate(`/group/${newGroup.id}`)
+        }}
+      />
     </div>
   )
 }

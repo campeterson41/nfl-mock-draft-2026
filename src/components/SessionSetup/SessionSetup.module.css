@@ -536,6 +536,45 @@
   margin: 0 auto;
 }
 
+/* Small "compete with friends" row under the START DRAFT button,
+   only rendered when mode === 'predictive'. Deliberately low-key. */
+.confirmGroupRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin: 18px auto 0;
+  padding: 12px 16px;
+  max-width: 480px;
+  background: rgba(212, 168, 67, 0.04);
+  border: 1px solid rgba(212, 168, 67, 0.18);
+  border-radius: 2px;
+}
+
+.confirmGroupText {
+  font-size: 12px;
+  color: #a1a1aa;
+  letter-spacing: 0.04em;
+}
+
+.confirmGroupBtn {
+  padding: 6px 12px;
+  background: transparent;
+  color: #d4a843;
+  border: 1px solid #d4a843;
+  border-radius: 2px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.15s ease;
+}
+.confirmGroupBtn:hover {
+  background: #d4a843;
+  color: #000;
+}
+
 /* ── Start button — sharp gold, matches Begin button ── */
 .startBtn {
   display: flex;

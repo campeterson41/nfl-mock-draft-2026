@@ -1,8 +1,13 @@
 import { useState, useMemo, useRef, useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { POSITION_COLORS } from '../../../constants/positions.js'
 import { getPickHint } from '../../../engine/pickHints.js'
 import PlayerProfile from '../PlayerProfile/PlayerProfile.jsx'
 import beastProfilesData from '../../../data/beastProfiles.json'
+import { useGroup } from '../../../context/GroupContext.jsx'
+import CreateGroupModal from '../../GroupPage/CreateGroupModal.jsx'
+import SubmitPromptModal from '../../GroupPage/SubmitPromptModal.jsx'
+import { submitPrediction } from '../../../lib/groupApi.js'
 import styles from './PredictiveMockPage.module.css'
 
 const POSITIONS = ['QB', 'EDGE', 'OT', 'WR', 'CB', 'S', 'LB', 'DT', 'RB', 'TE', 'IOL']
@@ -396,12 +401,18 @@ export default function PredictiveMockPage({
   team,
   userAllPicks,
   selectedPlayers,
+  tradeHistory,
   availablePlayers,
   onPick,
   onUndoPick,
   onOpenTrade,
 }) {
+  const navigate = useNavigate()
+  const { group: groupCtx } = useGroup()
+
   const [profilePlayer, setProfilePlayer] = useState(null)
+  const [createOpen, setCreateOpen] = useState(false)
+  const [submitOpen, setSubmitOpen] = useState(false)
 
   const sortedPicks = useMemo(
     () => [...(userAllPicks ?? [])].sort((a, b) => a.overall - b.overall),
@@ -443,6 +454,22 @@ export default function PredictiveMockPage({
               <button className={styles.tradeBtn} onClick={onOpenTrade}>
                 PROPOSE TRADE
               </button>
+              {groupCtx ? (
+                <button
+                  className={styles.groupBtnPrimary}
+                  onClick={() => setSubmitOpen(true)}
+                  title={`Submit your picks to "${groupCtx.groupId}"`}
+                >
+                  SUBMIT TO GROUP
+                </button>
+              ) : (
+                <button
+                  className={styles.groupBtn}
+                  onClick={() => setCreateOpen(true)}
+                >
+                  CREATE A GROUP
+                </button>
+              )}
             </div>
           </div>
         </div>
@@ -483,6 +510,61 @@ export default function PredictiveMockPage({
         }}
         canDraft={profileStillAvailable && nextPickOverall != null}
         playerDrafted={!profileStillAvailable && !!profilePlayer}
+      />
+
+      <CreateGroupModal
+        isOpen={createOpen}
+        team={team}
+        onClose={() => setCreateOpen(false)}
+        onSubmitSelf={async (newGroup, memberName) => {
+          // Build the submission from the user's current picks + trades
+          const picks = {}
+          for (const [overall, sp] of Object.entries(selectedPlayers ?? {})) {
+            if (sp?.player?.id) picks[overall] = sp.player.id
+          }
+          const trades = (tradeHistory ?? [])
+            .filter(t => t.userTeamId === newGroup.teamId)
+            .map(t => ({
+              partnerId: t.targetTeamId,
+              gave: {
+                pickOveralls: t.gave?.pickOveralls ?? [],
+                futurePickIds: t.gave?.futurePickIds ?? [],
+              },
+              received: {
+                pickOveralls: t.received?.pickOveralls ?? [],
+                futurePickIds: t.received?.futurePickIds ?? [],
+              },
+            }))
+          try {
+            await submitPrediction(newGroup.id, {
+              name: memberName,
+              picks,
+              trades,
+            })
+          } catch (err) {
+            // Silent: the group was still created, so user can submit later
+            console.warn('Initial submission failed (group still created):', err)
+          }
+          setCreateOpen(false)
+          navigate(`/group/${newGroup.id}`)
+        }}
+      />
+
+      <SubmitPromptModal
+        isOpen={submitOpen}
+        group={groupCtx ? {
+          id: groupCtx.groupId,
+          name: groupCtx.groupId,  // we don't carry the pretty name in ctx — GroupPage will show full
+          teamId: groupCtx.teamId,
+        } : null}
+        memberName={groupCtx?.memberName}
+        selectedPlayers={selectedPlayers}
+        tradeHistory={tradeHistory}
+        onClose={() => setSubmitOpen(false)}
+        onSubmitted={() => {
+          setSubmitOpen(false)
+          if (groupCtx) navigate(`/group/${groupCtx.groupId}`)
+        }}
       />
     </div>
   )

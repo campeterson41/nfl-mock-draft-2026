@@ -180,6 +180,7 @@ export default function DraftRoom({ onComplete, scraperOpen: scraperOpenProp = f
           team={userTeam}
           userAllPicks={userAllPicks}
           selectedPlayers={state.selectedPlayers}
+          tradeHistory={state.tradeHistory ?? []}
           availablePlayers={state.availablePlayers}
           onPick={(pick, player) => makeUserPick(player, pick)}
           onUndoPick={(overall) => undoUserPick(overall)}

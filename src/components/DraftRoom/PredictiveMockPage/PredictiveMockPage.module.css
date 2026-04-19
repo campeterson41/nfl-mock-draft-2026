@@ -57,6 +57,8 @@
 .headerRight {
   display: flex;
   gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .tradeBtn {
@@ -75,6 +77,43 @@
 .tradeBtn:hover {
   background: #d4a843;
   color: #000;
+}
+
+.groupBtn {
+  padding: 10px 18px;
+  background: transparent;
+  color: #a1a1aa;
+  border: 1px solid #27272e;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  font-family: inherit;
+}
+
+.groupBtn:hover {
+  color: #fafafa;
+  border-color: #3f3f46;
+}
+
+.groupBtnPrimary {
+  padding: 10px 18px;
+  background: #d4a843;
+  color: #000;
+  border: 1px solid #d4a843;
+  border-radius: 2px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: background 0.1s ease;
+  font-family: inherit;
+}
+
+.groupBtnPrimary:hover {
+  background: #e8bc5c;
 }
 
 .list {
