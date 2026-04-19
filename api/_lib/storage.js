@@ -5,17 +5,26 @@
 // (10K commands/day — plenty for this app) and a REST API that works with
 // plain fetch(), so we don't need to pull in an SDK.
 //
-// Required env vars (set in Vercel → Project → Settings → Environment Variables):
-//   UPSTASH_REDIS_REST_URL      — e.g. https://xxx.upstash.io
-//   UPSTASH_REDIS_REST_TOKEN    — read+write token
+// Env vars (any one of these name patterns — Vercel's Upstash integration
+// can inject them under several prefixes depending on the install path):
+//   UPSTASH_REDIS_REST_URL   / UPSTASH_REDIS_REST_TOKEN   (direct Upstash)
+//   KV_REST_API_URL          / KV_REST_API_TOKEN          (legacy Vercel KV)
+//   REDIS_URL                / REDIS_TOKEN                (generic)
 
-const URL   = process.env.UPSTASH_REDIS_REST_URL
-const TOKEN = process.env.UPSTASH_REDIS_REST_TOKEN
+const URL =
+  process.env.UPSTASH_REDIS_REST_URL ||
+  process.env.KV_REST_API_URL ||
+  process.env.REDIS_URL
+
+const TOKEN =
+  process.env.UPSTASH_REDIS_REST_TOKEN ||
+  process.env.KV_REST_API_TOKEN ||
+  process.env.REDIS_TOKEN
 
 function assertConfigured() {
   if (!URL || !TOKEN) {
     throw new Error(
-      'Redis not configured. Set UPSTASH_REDIS_REST_URL and UPSTASH_REDIS_REST_TOKEN in Vercel env vars.'
+      'Redis not configured. Connect an Upstash Redis database to this project in Vercel Storage, or set UPSTASH_REDIS_REST_URL and UPSTASH_REDIS_REST_TOKEN env vars.'
     )
   }
 }
