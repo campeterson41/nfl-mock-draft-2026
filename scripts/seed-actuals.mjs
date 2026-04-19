@@ -2,7 +2,11 @@
 // Simulate a full 7-round mock draft using the existing AI engine, inject a
 // handful of plausible KC trades, and POST the result to /api/actuals.
 //
-// Usage: node scripts/seed-actuals.mjs [--api=http://localhost:9999/api/actuals] [--secret=testpass123]
+// Usage:
+//   Local (vercel dev on :3000):
+//     ADMIN_SECRET=... node scripts/seed-actuals.mjs
+//   Against production:
+//     ADMIN_SECRET=... node scripts/seed-actuals.mjs --api=https://nfldraftmock.com/api/actuals
 
 import { readFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
@@ -39,7 +43,7 @@ const args = Object.fromEntries(
     return [k, v ?? true]
   })
 )
-const API = args.api ?? 'http://localhost:5180/api/actuals'
+const API = args.api ?? 'http://localhost:3000/api/actuals'
 const SECRET = args.secret ?? process.env.ADMIN_SECRET
 if (!SECRET) {
   console.error('Missing admin secret. Set ADMIN_SECRET env var or pass --secret=...')
