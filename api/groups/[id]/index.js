@@ -1,6 +1,6 @@
 // GET /api/groups/:id → fetch a group's full document
-import { getGroup } from '../_lib/storage.js'
-import { cors } from '../_lib/util.js'
+import { getGroup } from '../../_lib/storage.js'
+import { cors } from '../../_lib/util.js'
 
 export default async function handler(req, res) {
   cors(res)
