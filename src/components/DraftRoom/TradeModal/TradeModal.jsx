@@ -15,7 +15,7 @@ function futureLabel(fp) {
 export default function TradeModal({
   isOpen, direction, targetPick, targetTeam,
   userTeamId, userTeam, userCurrentPicks, userFuturePicks,
-  allFuturePicks, allPicks, allTeams, currentPickOverall, onConfirmTrade, onClose
+  allFuturePicks, allPicks, allTeams, currentPickOverall, sessionMode, onConfirmTrade, onClose
 }) {
   // Partner team selection — pre-seeded from targetTeam if available
   const [partnerId, setPartnerId] = useState(targetTeam?.id ?? '')
@@ -29,6 +29,10 @@ export default function TradeModal({
     targetPick && direction === 'UP' ? [targetPick.overall] : []
   )
   const [receivingFutureIds, setReceivingFutureIds] = useState([])
+
+  // Predictive-mode force-trade override
+  const [forceTrade, setForceTrade] = useState(false)
+  const isPredictive = sessionMode === 'predictive'
 
   if (!isOpen) return null
 
@@ -81,6 +85,12 @@ export default function TradeModal({
   else if (ratio >= 0.85) { verdict = 'ACCEPT'; verdictColor = '#22c55e' }
   else if (ratio >= 0.65) { verdict = 'COUNTER'; verdictColor = '#f59e0b' }
 
+  // In predictive mode, require a force override when the AI would decline.
+  // "Would decline" = verdict is DECLINE or COUNTER (both are rejection outcomes).
+  const aiWouldAccept = verdict === 'ACCEPT' || verdict === 'OVERPAY'
+  const predictiveGate = isPredictive && canPropose && !aiWouldAccept && !forceTrade
+  const submitEnabled = canPropose && partnerId && !predictiveGate
+
   function toggleGiving(overall) {
     setGivingPickOveralls(prev =>
       prev.includes(overall) ? prev.filter(x => x !== overall) : [...prev, overall]
@@ -103,7 +113,7 @@ export default function TradeModal({
   }
 
   function handlePropose() {
-    if (!canPropose) return
+    if (!submitEnabled) return
     onConfirmTrade({
       userTeamId,
       targetTeamId: partnerId,
@@ -295,15 +305,50 @@ export default function TradeModal({
         </div>
 
         {/* Footer */}
+        {isPredictive && canPropose && !aiWouldAccept && (
+          <div className={styles.forceRow} style={{
+            padding: '10px 16px',
+            borderTop: '1px solid #1a1d27',
+            background: 'rgba(239, 68, 68, 0.04)',
+            display: 'flex',
+            flexDirection: 'column',
+            gap: '6px',
+          }}>
+            <label style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '8px',
+              cursor: 'pointer',
+              fontSize: '13px',
+              color: '#fafafa',
+              fontWeight: 600,
+            }}>
+              <input
+                type="checkbox"
+                checked={forceTrade}
+                onChange={(e) => setForceTrade(e.target.checked)}
+                style={{ width: 16, height: 16, cursor: 'pointer' }}
+              />
+              Force this trade (override AI response)
+            </label>
+            <p style={{ margin: 0, fontSize: '11px', color: '#a1a1aa', lineHeight: 1.4, paddingLeft: 24 }}>
+              {forceTrade
+                ? "You're forcing a trade the AI would decline. This is unrealistic but sometimes wild trades happen."
+                : "This trade would be declined — check the box to push it through anyway for prediction purposes."}
+            </p>
+          </div>
+        )}
         <div className={styles.footer}>
           <button className={styles.cancelBtn} onClick={onClose}>Cancel</button>
           <button
             className={styles.proposeBtn}
             onClick={handlePropose}
-            disabled={!canPropose || !partnerId}
-            style={{ opacity: canPropose && partnerId ? 1 : 0.4 }}
+            disabled={!submitEnabled}
+            style={{ opacity: submitEnabled ? 1 : 0.4 }}
           >
-            PROPOSE TRADE
+            {isPredictive && canPropose && !aiWouldAccept
+              ? (forceTrade ? 'FORCE TRADE (AI DECLINES)' : 'PROPOSE TRADE')
+              : 'PROPOSE TRADE'}
           </button>
         </div>
       </div>

@@ -7,6 +7,7 @@ import DraftBoard from './DraftBoard/DraftBoard.jsx'
 import TeamPanel from './TeamPanel/TeamPanel.jsx'
 import TradeModal from './TradeModal/TradeModal.jsx'
 import SourceScraper from './SourceScraper/SourceScraper.jsx'
+import PredictiveMockPage from './PredictiveMockPage/PredictiveMockPage.jsx'
 import { POSITION_COLORS } from '../../constants/positions.js'
 import styles from './DraftRoom.module.css'
 
@@ -43,7 +44,7 @@ function LastPickBanner({ pick, teams }) {
 export default function DraftRoom({ onComplete, scraperOpen: scraperOpenProp = false, onScraperClose, onIntelAdded }) {
   const {
     state, currentPick, isUserTurn, isDraftComplete,
-    makeUserPick, openTradeModal, closeTradeModal, executeTrade,
+    makeUserPick, undoUserPick, openTradeModal, closeTradeModal, executeTrade,
     toggleFastSim, togglePause, skipToUserPick, currentTeam,
   } = useDraft()
 
@@ -160,13 +161,54 @@ export default function DraftRoom({ onComplete, scraperOpen: scraperOpenProp = f
     }
   }
 
-  if (!currentPick && !isDraftComplete) {
+  if (!currentPick && !isDraftComplete && state.session?.mode !== 'predictive') {
     return (
       <div className={styles.loading}>
         <p className={styles.loadingTitle}>2026 NFL Mock Draft Simulator</p>
         <p className={styles.loadingText}>Initializing draft...</p>
         <p className={styles.loadingDesc}>Loading 491 prospects, 32 team profiles, and 300+ beat writer signals.</p>
       </div>
+    )
+  }
+
+  // Predictive mock mode: render the simple one-page layout and bail out of
+  // the full draft-room UI entirely.
+  if (state.session?.mode === 'predictive') {
+    return (
+      <>
+        <PredictiveMockPage
+          team={userTeam}
+          userAllPicks={userAllPicks}
+          selectedPlayers={state.selectedPlayers}
+          availablePlayers={state.availablePlayers}
+          onPick={(pick, player) => makeUserPick(player, pick)}
+          onUndoPick={(overall) => undoUserPick(overall)}
+          onOpenTrade={() => {
+            const firstPick = userCurrentPicks[0]
+            if (firstPick) openTradeModal('DOWN', firstPick.overall)
+          }}
+          currentPick={currentPick}
+        />
+        {state.tradeModal?.isOpen && (
+          <TradeModal
+            isOpen={state.tradeModal?.isOpen}
+            direction={state.tradeModal?.direction}
+            targetPick={state.picks?.find(p => p.overall === state.tradeModal?.targetPickOverall)}
+            targetTeam={state.teams?.[state.picks?.find(p => p.overall === state.tradeModal?.targetPickOverall)?.teamId]}
+            userTeamId={userTeamId}
+            userTeam={userTeam}
+            userCurrentPicks={userCurrentPicks}
+            userFuturePicks={userFuturePicks}
+            allFuturePicks={state.futurePicks ?? []}
+            allPicks={state.allPicks ?? state.picks ?? []}
+            allTeams={state.teams ?? {}}
+            currentPickOverall={currentPick?.overall ?? 999}
+            sessionMode={state.session?.mode}
+            onConfirmTrade={executeTrade}
+            onClose={closeTradeModal}
+          />
+        )}
+      </>
     )
   }
 
@@ -207,6 +249,8 @@ export default function DraftRoom({ onComplete, scraperOpen: scraperOpenProp = f
     />
   )
 
+  const isPredictiveMode = state.session?.mode === 'predictive'
+
   const bigBoard = (
     <BigBoard
       availablePlayers={state.availablePlayers}
@@ -238,7 +282,7 @@ export default function DraftRoom({ onComplete, scraperOpen: scraperOpenProp = f
         <>
           {isUserTurn && !state.isPaused && (
             <div className={styles.userPickBanner}>
-              <p className={styles.yourTurn}>YOUR PICK</p>
+              <p className={styles.yourTurn}>{isPredictiveMode ? 'YOUR PREDICTION' : 'YOUR PICK'}</p>
             </div>
           )}
 
@@ -331,7 +375,7 @@ export default function DraftRoom({ onComplete, scraperOpen: scraperOpenProp = f
               className={`${styles.mobileTab} ${mobileTab === 'picks' ? styles.mobileTabActive : ''}`}
               onClick={() => setMobileTab('picks')}
             >
-              {isUserTurn && !state.isPaused ? 'PICK' : 'BOARD'}
+              {isUserTurn && !state.isPaused ? (isPredictiveMode ? 'PREDICT' : 'PICK') : 'BOARD'}
             </button>
             {teamPanel && (
               <button
@@ -354,7 +398,11 @@ export default function DraftRoom({ onComplete, scraperOpen: scraperOpenProp = f
           <div className={styles.centerColumn}>
             {isUserTurn && !state.isPaused && (
               <div className={styles.userPickBanner}>
-                <p className={styles.yourTurn}>YOUR PICK — Select a player from the Big Board</p>
+                <p className={styles.yourTurn}>
+                  {isPredictiveMode
+                    ? "YOUR PREDICTION — Who will your team take here?"
+                    : "YOUR PICK — Select a player from the Big Board"}
+                </p>
               </div>
             )}
             {state.isPaused && (
@@ -414,6 +462,7 @@ export default function DraftRoom({ onComplete, scraperOpen: scraperOpenProp = f
           allPicks={state.allPicks ?? state.picks ?? []}
           allTeams={state.teams ?? {}}
           currentPickOverall={currentPick?.overall ?? 999}
+          sessionMode={state.session?.mode}
           onConfirmTrade={executeTrade}
           onClose={closeTradeModal}
         />

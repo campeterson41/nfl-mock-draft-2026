@@ -216,20 +216,20 @@
       "background": "#7a2408"
     },
     "needs": [
+      "S",
+      "CB",
       "LB",
       "DT",
-      "S",
       "OT",
-      "WR",
-      "CB"
+      "WR"
     ],
     "needWeights": {
+      "S": 2.5,
+      "CB": 2.2,
       "LB": 2.5,
       "DT": 2.5,
-      "S": 2,
       "OT": 1.8,
       "WR": 1.5,
-      "CB": 1.5,
       "EDGE": 1.2,
       "IOL": 1.2,
       "QB": 0.5,

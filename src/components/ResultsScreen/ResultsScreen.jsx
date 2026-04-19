@@ -1,7 +1,247 @@
 import { useState, useMemo, useRef } from 'react'
 import { POSITIONS, POSITION_COLORS, POSITION_LABELS } from '../../constants/positions.js'
 import { useDraft } from '../../context/DraftContext.jsx'
+import { getPickHint } from '../../engine/pickHints.js'
 import styles from './ResultsScreen.module.css'
+
+// ESPN logo CDN uses lowercase team IDs for almost all teams. Known exception:
+// Washington's ESPN slug is "wsh" not "was".
+function getEspnLogoUrl(teamId) {
+  if (!teamId) return null
+  const espnId = teamId.toLowerCase() === 'was' ? 'wsh' : teamId.toLowerCase()
+  return `https://a.espncdn.com/i/teamlogos/nfl/500/${espnId}.png`
+}
+
+function roundLabel(overall) {
+  if (overall <= 32) return 'ROUND 1'
+  if (overall <= 64) return 'ROUND 2'
+  if (overall <= 102) return 'ROUND 3'
+  if (overall <= 138) return 'ROUND 4'
+  if (overall <= 176) return 'ROUND 5'
+  if (overall <= 221) return 'ROUND 6'
+  return 'ROUND 7'
+}
+
+/**
+ * Off-screen panel captured by html2canvas for sharing. 1080px wide, shows
+ * team logo, name, and vertical pick cards. Styled to look polished as a PNG.
+ */
+function PredictiveSharePanel({ team, userPicks, tradeHistory, teams, panelRef }) {
+  const logoUrl = getEspnLogoUrl(team?.id)
+  const teamColor = team?.colors?.primary ?? '#d4a843'
+  return (
+    <div ref={panelRef} className={styles.predictiveSharePanel} style={{ '--team-color': teamColor }}>
+      <div className={styles.predictiveShareAccent} />
+      <div className={styles.predictiveShareHeader}>
+        {logoUrl && (
+          <img
+            className={styles.predictiveShareLogo}
+            src={logoUrl}
+            alt={team?.nickname}
+            crossOrigin="anonymous"
+          />
+        )}
+        <div className={styles.predictiveShareEyebrow}>PREDICTIVE MOCK · 2026 NFL DRAFT</div>
+        <div className={styles.predictiveShareTitle}>
+          {team?.city} {team?.nickname}
+        </div>
+        <div className={styles.predictiveShareSubtitle}>
+          Predicted Draft Class · {userPicks.length} pick{userPicks.length === 1 ? '' : 's'}
+        </div>
+      </div>
+
+      {tradeHistory?.length > 0 && (
+        <div className={styles.predictiveShareTrades}>
+          {tradeHistory.map((t, i) => {
+            const partner = teams[t.targetTeamId]
+            return (
+              <div key={i} className={styles.predictiveShareTradeItem}>
+                <span className={styles.predictiveShareTradeLabel}>TRADE</span>
+                <span className={styles.predictiveShareTradeText}>
+                  Gave {t.gave.pickOveralls.map(o => '#' + o).join(', ') || '—'}
+                  {t.gave.futurePickIds.length > 0 ? ' + future' : ''}
+                  {' → Got '}
+                  {t.received.pickOveralls.map(o => '#' + o).join(', ') || '—'}
+                  {t.received.futurePickIds.length > 0 ? ' + future' : ''}
+                  {' (with ' + (partner?.abbreviation ?? t.targetTeamId) + ')'}
+                </span>
+              </div>
+            )
+          })}
+        </div>
+      )}
+
+      <div className={styles.predictiveSharePicks}>
+        {userPicks.map((pick) => {
+          const player = pick.player
+          const posColor = POSITION_COLORS[player?.position] ?? '#555'
+          return (
+            <div key={pick.overall} className={styles.predictiveSharePickRow}>
+              <div className={styles.predictiveSharePickBadge}>
+                <span className={styles.predictiveSharePickRound}>{roundLabel(pick.overall)}</span>
+                <span className={styles.predictiveSharePickNumber}>#{pick.overall}</span>
+              </div>
+              <div className={styles.predictiveSharePickBody}>
+                <div className={styles.predictiveSharePickTopRow}>
+                  <span
+                    className={styles.predictiveSharePickPos}
+                    style={{ background: posColor }}
+                  >
+                    {player?.position}
+                  </span>
+                  <span className={styles.predictiveSharePickName}>{player?.name}</span>
+                </div>
+                <div className={styles.predictiveSharePickSchool}>
+                  {player?.school}
+                  {player?.rank && (
+                    <span className={styles.predictiveSharePickRank}> · #{player.rank} overall</span>
+                  )}
+                </div>
+              </div>
+            </div>
+          )
+        })}
+      </div>
+
+      <div className={styles.predictiveShareFooter}>nfldraftmock.com</div>
+    </div>
+  )
+}
+
+/**
+ * Final screen for Predictive Mock mode. Shows the user's team logo, name,
+ * and their predicted picks laid out vertically.
+ */
+function PredictiveResults({ team, userPicks, tradeHistory, teams, onNewSession, onResim }) {
+  const logoUrl = getEspnLogoUrl(team?.id)
+  const teamColor = team?.colors?.primary ?? '#d4a843'
+
+  const [sharing, setSharing] = useState(false)
+  const sharePanelRef = useRef(null)
+
+  async function handleShare() {
+    if (!sharePanelRef.current || sharing) return
+    setSharing(true)
+    try {
+      await captureAndShare(sharePanelRef)
+    } catch {}
+    setSharing(false)
+  }
+
+  return (
+    <div className={styles.predictiveScreen}>
+      <header className={styles.predictiveHeader} style={{ '--team-color': teamColor }}>
+        {logoUrl && (
+          <img
+            className={styles.predictiveLogo}
+            src={logoUrl}
+            alt={team?.nickname}
+            onError={(e) => { e.currentTarget.style.display = 'none' }}
+          />
+        )}
+        <div className={styles.predictiveHeaderText}>
+          <p className={styles.predictiveEyebrow}>PREDICTIVE MOCK · 2026 NFL DRAFT</p>
+          <h1 className={styles.predictiveTitle}>
+            {team?.city} {team?.nickname}
+          </h1>
+          <p className={styles.predictiveSubtitle}>
+            Predicted Draft Class · {userPicks.length} pick{userPicks.length === 1 ? '' : 's'}
+          </p>
+        </div>
+
+        <div className={styles.predictiveActions}>
+          <button className={styles.btnOutline} onClick={onNewSession}>NEW SESSION</button>
+          {userPicks.length > 0 && (
+            <button className={styles.btnShare} onClick={handleShare} disabled={sharing}>
+              {sharing ? 'GENERATING...' : 'SHARE PICKS'}
+            </button>
+          )}
+          <button className={styles.btnGold} onClick={onResim}>RESTART</button>
+        </div>
+      </header>
+
+      {tradeHistory?.length > 0 && (
+        <section className={styles.predictiveTradesSection}>
+          <h3 className={styles.predictiveSectionTitle}>TRADES</h3>
+          <div className={styles.predictiveTradeList}>
+            {tradeHistory.map((t, i) => {
+              const partner = teams[t.targetTeamId]
+              return (
+                <div key={i} className={styles.predictiveTradeRow}>
+                  <span className={styles.predictiveTradeLabel}>TRADE</span>
+                  <span className={styles.predictiveTradeSummary}>
+                    Gave {t.gave.pickOveralls.map(o => '#' + o).join(', ') || '—'}
+                    {t.gave.futurePickIds.length > 0 ? ' + future' : ''}
+                    {' → Got '}
+                    {t.received.pickOveralls.map(o => '#' + o).join(', ') || '—'}
+                    {t.received.futurePickIds.length > 0 ? ' + future' : ''}
+                    {' (with ' + (partner?.abbreviation ?? t.targetTeamId) + ')'}
+                  </span>
+                </div>
+              )
+            })}
+          </div>
+        </section>
+      )}
+
+      <section className={styles.predictivePickList}>
+        {userPicks.length === 0 ? (
+          <div className={styles.predictiveEmpty}>No picks recorded.</div>
+        ) : (
+          userPicks.map((pick, i) => {
+            const player = pick.player
+            const hint = player ? getPickHint({ player, pickOverall: pick.overall }) : null
+            const posColor = POSITION_COLORS[player?.position] ?? '#555'
+            return (
+              <article
+                key={pick.overall}
+                className={styles.predictivePickCard}
+                style={{ animationDelay: `${i * 50}ms` }}
+              >
+                <div className={styles.predictivePickBadge}>
+                  <span className={styles.predictivePickRound}>{roundLabel(pick.overall)}</span>
+                  <span className={styles.predictivePickNumber}>#{pick.overall}</span>
+                </div>
+
+                <div className={styles.predictivePickBody}>
+                  <div className={styles.predictivePickTop}>
+                    <span
+                      className={styles.predictivePickPos}
+                      style={{ background: posColor }}
+                    >
+                      {player?.position}
+                    </span>
+                    <h3 className={styles.predictivePickName}>{player?.name}</h3>
+                    {player?.rank && (
+                      <span className={styles.predictivePickRank}>#{player.rank} overall</span>
+                    )}
+                  </div>
+                  <p className={styles.predictivePickSchool}>{player?.school}</p>
+                  {hint && (
+                    <p className={`${styles.predictiveHint} ${styles[`hint_${hint.level}`]}`}>
+                      {hint.message}
+                    </p>
+                  )}
+                </div>
+              </article>
+            )
+          })
+        )}
+      </section>
+
+      <footer className={styles.predictiveFooter}>nfldraftmock.com</footer>
+
+      {/* Hidden off-screen panel captured by html2canvas */}
+      <PredictiveSharePanel
+        team={team}
+        userPicks={userPicks}
+        tradeHistory={tradeHistory}
+        teams={teams}
+        panelRef={sharePanelRef}
+      />
+    </div>
+  )
+}
 
 function PosPill({ position }) {
   const color = POSITION_COLORS[position] ?? '#4a4d66'
@@ -261,6 +501,22 @@ export default function ResultsScreen({ onResim, onNewSession }) {
     () => allCompletedPicks.filter(p => userTeamIds.includes(p.teamId)),
     [allCompletedPicks, userTeamIds]
   )
+
+  // Predictive mode → render the dedicated vertical team-logo layout
+  const isPredictiveMode = state.session?.mode === 'predictive'
+  if (isPredictiveMode) {
+    const userTeam = teams[userTeamIds[0]]
+    return (
+      <PredictiveResults
+        team={userTeam}
+        userPicks={userPicks}
+        tradeHistory={tradeHistory}
+        teams={teams}
+        onNewSession={onNewSession}
+        onResim={handleResim}
+      />
+    )
+  }
 
   const filteredAllPicks = useMemo(() => allCompletedPicks.filter(p => {
     if (filterTeam !== 'ALL' && p.teamId !== filterTeam) return false

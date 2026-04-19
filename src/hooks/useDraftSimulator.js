@@ -103,6 +103,51 @@ function reducer(state, action) {
       }
     }
 
+    case 'UNDO_PICK': {
+      const { overall } = action.payload
+      const filled = state.selectedPlayers?.[overall]
+      if (!filled) return state
+
+      // Remove the pick entry
+      const newSelected = { ...state.selectedPlayers }
+      delete newSelected[overall]
+
+      // Return the player to the available pool, re-sorted by rank
+      const newAvailable = [...state.availablePlayers, filled.player]
+        .sort((a, b) => a.rank - b.rank)
+
+      // Reverse the needWeight reduction that MAKE_PICK applied
+      const newTeams = { ...state.teams }
+      const pick = state.picks?.find(p => p.overall === overall)
+      const teamId = filled.teamId
+      const round = pick?.round ?? Math.min(7, Math.ceil(overall / 37))
+      let reduction
+      if (round <= 2) reduction = 1.5
+      else if (round <= 4) reduction = 1.0
+      else reduction = 0.5
+
+      if (newTeams[teamId]) {
+        const updatedWeights = { ...newTeams[teamId].needWeights }
+        if (updatedWeights[filled.player.position] != null) {
+          updatedWeights[filled.player.position] += reduction
+        }
+        newTeams[teamId] = { ...newTeams[teamId], needWeights: updatedWeights }
+      }
+
+      // Clear lastPick if it was this one
+      const newLastPick = state.lastPick?.overall === overall ? null : state.lastPick
+
+      return {
+        ...state,
+        selectedPlayers: newSelected,
+        availablePlayers: newAvailable,
+        teams: newTeams,
+        currentPickIndex: Math.max(0, state.currentPickIndex - 1),
+        lastPick: newLastPick,
+        phase: 'drafting', // resume if we were complete
+      }
+    }
+
     case 'START_TIMER':
       return { ...state, timerActive: true }
 
@@ -216,11 +261,21 @@ export function useDraftSimulator(sessionConfig) {
     }
   }, [sessionConfig])
 
+  // Predictive mode: no AI picks happen. currentPick always points to the
+  // next unfilled pick owned by the user's team.
+  const isPredictiveMode = state.session?.mode === 'predictive'
+
   // Current pick
-  const currentPick = useMemo(
-    () => state.picks?.[state.currentPickIndex] ?? null,
-    [state.picks, state.currentPickIndex]
-  )
+  const currentPick = useMemo(() => {
+    if (!state.picks) return null
+    if (isPredictiveMode) {
+      const userTeamIds = state.session?.userTeamIds ?? []
+      return state.picks.find(
+        p => !state.selectedPlayers?.[p.overall] && userTeamIds.includes(p.teamId)
+      ) ?? null
+    }
+    return state.picks[state.currentPickIndex] ?? null
+  }, [state.picks, state.currentPickIndex, state.selectedPlayers, state.session, isPredictiveMode])
 
   // Is the current pick controlled by the user?
   const isUserTurn = useMemo(
@@ -231,10 +286,15 @@ export function useDraftSimulator(sessionConfig) {
   )
 
   // Draft complete check
-  const isDraftComplete = useMemo(
-    () => state.picks && state.currentPickIndex >= state.picks.length,
-    [state.picks, state.currentPickIndex]
-  )
+  const isDraftComplete = useMemo(() => {
+    if (!state.picks) return false
+    if (isPredictiveMode) {
+      const userTeamIds = state.session?.userTeamIds ?? []
+      const userPicks = state.picks.filter(p => userTeamIds.includes(p.teamId))
+      return userPicks.length > 0 && userPicks.every(p => state.selectedPlayers?.[p.overall])
+    }
+    return state.currentPickIndex >= state.picks.length
+  }, [state.picks, state.currentPickIndex, state.selectedPlayers, state.session, isPredictiveMode])
 
   // Auto-stop skip mode the moment it becomes the user's turn
   useEffect(() => {
@@ -247,6 +307,11 @@ export function useDraftSimulator(sessionConfig) {
   useEffect(() => {
     if (state.phase !== 'drafting') return
     if (state.isPaused) return
+    if (isPredictiveMode) {
+      // In predictive mode, no AI picks ever fire — only user picks move the draft.
+      if (isDraftComplete) dispatch({ type: 'COMPLETE_DRAFT' })
+      return
+    }
     if (isUserTurn) return
     if (isDraftComplete) {
       dispatch({ type: 'COMPLETE_DRAFT' })
@@ -288,20 +353,32 @@ export function useDraftSimulator(sessionConfig) {
     }
   }, [state.currentPickIndex, state.phase, state.isPaused, isUserTurn, isDraftComplete, state.fastSim, state.skipToUserPick, state.tradeModal?.isOpen])
 
-  // User makes a pick
-  const makeUserPick = useCallback((player) => {
-    if (!isUserTurn || !currentPick) return
+  // User makes a pick.
+  // In predictive mode, `targetPick` can be passed to pick at a specific pick
+  // slot (any order). In other modes, `targetPick` is ignored and currentPick
+  // is used.
+  const makeUserPick = useCallback((player, targetPick = null) => {
+    const pick = (isPredictiveMode && targetPick) ? targetPick : currentPick
+    if (!pick) return
+    if (!isPredictiveMode && !isUserTurn) return
+    const userTeamIds = state.session?.userTeamIds ?? []
+    if (!userTeamIds.includes(pick.teamId)) return
     dispatch({
       type: 'MAKE_PICK',
       payload: {
-        overall: currentPick.overall,
-        teamId: currentPick.teamId,
+        overall: pick.overall,
+        teamId: pick.teamId,
         player,
         reasoning: null, // user picks don't get AI reasoning
         scoredBoard: null,
       },
     })
-  }, [isUserTurn, currentPick])
+  }, [isUserTurn, currentPick, isPredictiveMode, state.session])
+
+  // Undo a previously-made user pick (clears selection, returns player to pool)
+  const undoUserPick = useCallback((overall) => {
+    dispatch({ type: 'UNDO_PICK', payload: { overall } })
+  }, [])
 
   const openTradeModal = useCallback((direction, targetPickOverall) => {
     if (aiPickTimeoutRef.current) clearTimeout(aiPickTimeoutRef.current)
@@ -341,6 +418,7 @@ export function useDraftSimulator(sessionConfig) {
     isUserTurn,
     isDraftComplete,
     makeUserPick,
+    undoUserPick,
     openTradeModal,
     closeTradeModal,
     executeTrade,

@@ -71,6 +71,12 @@ const MODES = [
     description: 'Sit back and watch the AI run the entire draft. Fast-forward anytime.',
     badge: 'OBSERVE',
   },
+  {
+    id: 'predictive',
+    label: "Predict Your Team's Draft",
+    description: "Map out who you think your team will take across all 7 rounds. Search and select every pick yourself — all players stay available.",
+    badge: 'PREDICTIVE',
+  },
 ]
 
 function getSortedTeams(sortBy) {
@@ -123,7 +129,7 @@ export default function SessionSetup({ onStart, onPrivacy, onAbout }) {
   const toggleTeam = (id) => {
     setSelectedIds((prev) => {
       if (prev.includes(id)) return prev.filter((x) => x !== id)
-      if (mode === 'single') return [id]
+      if (mode === 'single' || mode === 'predictive') return [id]
       return [...prev, id]
     })
   }
@@ -132,7 +138,7 @@ export default function SessionSetup({ onStart, onPrivacy, onAbout }) {
   const clearAll  = () => setSelectedIds([])
 
   const canProceedFromTeams = () => {
-    if (mode === 'single') return selectedIds.length === 1
+    if (mode === 'single' || mode === 'predictive') return selectedIds.length === 1
     if (mode === 'multi')  return selectedIds.length >= 2
     return true
   }
@@ -238,10 +244,10 @@ export default function SessionSetup({ onStart, onPrivacy, onAbout }) {
           <div className={styles.screen}>
             <div className={styles.pageHeader}>
               <p className={styles.sectionEyebrow}>
-                {mode === 'single' ? 'SELECT YOUR FRANCHISE' : `SELECT TEAMS · ${selectedIds.length} OF 32 CHOSEN`}
+                {(mode === 'single' || mode === 'predictive') ? 'SELECT YOUR FRANCHISE' : `SELECT TEAMS · ${selectedIds.length} OF 32 CHOSEN`}
               </p>
               <h2 className={styles.sectionTitle}>
-                {mode === 'single' ? 'YOUR TEAM' : 'YOUR FRANCHISES'}
+                {(mode === 'single' || mode === 'predictive') ? 'YOUR TEAM' : 'YOUR FRANCHISES'}
               </h2>
               <div className={styles.sectionBar} />
             </div>
@@ -350,14 +356,17 @@ export default function SessionSetup({ onStart, onPrivacy, onAbout }) {
               <div className={styles.confirmRow}>
                 <span className={styles.confirmLabel}>MODE</span>
                 <span className={styles.confirmValue}>
-                  {mode === 'single' ? 'Single Team Control' : mode === 'multi' ? 'Multi-Team Control' : 'Full Auto-Sim (Observe)'}
+                  {mode === 'single' ? 'Single Team Control'
+                    : mode === 'multi' ? 'Multi-Team Control'
+                    : mode === 'predictive' ? "Predictive Mock — Plan Your Team's Draft"
+                    : 'Full Auto-Sim (Observe)'}
                 </span>
               </div>
 
               {selectedTeams.length > 0 && (
                 <div className={styles.confirmRow}>
                   <span className={styles.confirmLabel}>
-                    {mode === 'single' ? 'YOUR TEAM' : 'YOUR TEAMS'}
+                    {(mode === 'single' || mode === 'predictive') ? 'YOUR TEAM' : 'YOUR TEAMS'}
                   </span>
                   <div className={styles.confirmTeams}>
                     {selectedTeams.map((team) => (
