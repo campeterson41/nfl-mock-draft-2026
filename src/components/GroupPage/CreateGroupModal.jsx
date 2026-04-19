@@ -37,12 +37,13 @@ export default function CreateGroupModal({
     setError(null)
     setSubmitting(true)
     try {
-      const group = await createGroup({
+      const payload = {
         name: groupName.trim(),
         teamId: team?.id,
         commissionerName: memberName.trim(),
-      })
-      setCreatedGroup(group)
+      }
+      const group = await createGroup(payload)
+      setCreatedGroup({ ...payload, ...group })
     } catch (err) {
       setError(err?.message ?? 'Could not create group. Please try again.')
     } finally {
