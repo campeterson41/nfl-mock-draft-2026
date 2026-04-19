@@ -72,6 +72,12 @@ function sanitizeActuals(body) {
   }
 }
 
+// Bind this function directly to /api/actuals. More reliable than
+// netlify.toml redirects (which can 405 POSTs in some configs).
+export const config = {
+  path: '/api/actuals',
+}
+
 export default async (request) => {
   if (request.method === 'OPTIONS') {
     return new Response(null, { status: 204, headers: CORS_HEADERS })

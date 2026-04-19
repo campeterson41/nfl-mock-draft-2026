@@ -11,23 +11,9 @@
   targetPort = 5181
   port = 5180
 
-# API routes — order matters; actuals is a single resource so match it first.
-[[redirects]]
-  from = "/api/actuals"
-  to = "/.netlify/functions/actuals"
-  status = 200
-
-[[redirects]]
-  from = "/api/groups/*"
-  to = "/.netlify/functions/groups/:splat"
-  status = 200
-
-[[redirects]]
-  from = "/api/groups"
-  to = "/.netlify/functions/groups"
-  status = 200
-
-# SPA fallback — must come AFTER the /api redirect so API calls match first
+# API functions bind themselves via `export const config = { path: ... }` in
+# each function file, so no /api/* redirects needed here. The SPA fallback
+# only catches non-API paths.
 [[redirects]]
   from = "/*"
   to = "/index.html"

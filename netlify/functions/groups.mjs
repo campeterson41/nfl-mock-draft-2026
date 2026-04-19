@@ -35,6 +35,12 @@ function sanitizeString(s, maxLen = 60) {
   return s.trim().slice(0, maxLen)
 }
 
+// Bind this function directly to the /api/groups* paths. More reliable than
+// relying on netlify.toml redirects (which can 405 POSTs in some configs).
+export const config = {
+  path: ['/api/groups', '/api/groups/*'],
+}
+
 export default async (request) => {
   if (request.method === 'OPTIONS') {
     return new Response(null, { status: 204, headers: CORS_HEADERS })
