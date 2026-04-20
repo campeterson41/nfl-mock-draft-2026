@@ -73,10 +73,52 @@ export async function kvSet(key, value) {
   return await redisBodyCommand(['SET', key, str])
 }
 
+export async function kvDel(key) {
+  return await redisBodyCommand(['DEL', key])
+}
+
+// Scan all keys matching a glob pattern. Safe to call with modest pattern
+// cardinality (app-scale: expect <200 groups). Uses SCAN in a cursor loop
+// rather than KEYS to avoid blocking the Redis instance.
+async function kvScanAll(pattern) {
+  const keys = []
+  let cursor = '0'
+  do {
+    const result = await redisBodyCommand(['SCAN', cursor, 'MATCH', pattern, 'COUNT', '200'])
+    if (!Array.isArray(result) || result.length < 2) break
+    cursor = String(result[0])
+    const batch = result[1] ?? []
+    for (const k of batch) keys.push(k)
+  } while (cursor !== '0')
+  return keys
+}
+
 // ── Domain helpers ───────────────────────────────────────────────────
 
 export async function getGroup(id)          { return await kvGet(`group:${id}`) }
 export async function setGroup(id, group)   { return await kvSet(`group:${id}`, group) }
+export async function deleteGroup(id)       { return await kvDel(`group:${id}`) }
+
+// Returns lightweight summaries so the admin UI doesn't pull every submission.
+export async function listGroupSummaries() {
+  const keys = await kvScanAll('group:*')
+  const groups = await Promise.all(keys.map(k => kvGet(k)))
+  return groups
+    .filter(Boolean)
+    .map(g => ({
+      id: g.id,
+      name: g.name,
+      teamId: g.teamId,
+      commissionerName: g.commissionerName,
+      createdAt: g.createdAt,
+      submissionCount: (g.submissions ?? []).length,
+      submissions: (g.submissions ?? []).map(s => ({
+        name: s.name,
+        submittedAt: s.submittedAt,
+      })),
+    }))
+    .sort((a, b) => (b.createdAt ?? '').localeCompare(a.createdAt ?? ''))
+}
 
 export async function getActuals() {
   const saved = await kvGet('actuals')

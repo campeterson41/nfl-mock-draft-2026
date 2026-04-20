@@ -515,3 +515,181 @@
   border-color: #27272e;
   cursor: default;
 }
+
+/* ── Groups management ── */
+
+.groupsControls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.groupSearch {
+  min-width: 260px;
+  padding: 8px 10px;
+  background: #15181f;
+  color: #fafafa;
+  border: 1px solid #27272e;
+  border-radius: 3px;
+  font-size: 13px;
+  outline: none;
+  font-family: inherit;
+}
+.groupSearch:focus { border-color: #d4a843; }
+
+.groupList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.groupCard {
+  background: #0d0f14;
+  border: 1px solid #1a1d27;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.groupHeader {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+}
+
+.groupHeaderBtn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  background: transparent;
+  color: inherit;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  font-family: inherit;
+}
+.groupHeaderBtn:hover { background: #11141a; }
+
+.groupExpandArrow {
+  color: #71717a;
+  font-size: 12px;
+  width: 12px;
+  flex-shrink: 0;
+}
+
+.groupHeaderText {
+  flex: 1;
+  min-width: 0;
+}
+
+.groupTitleRow {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.groupName {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fafafa;
+}
+
+.groupId {
+  font-size: 11px;
+  color: #52525b;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  letter-spacing: 0.04em;
+}
+
+.groupMeta {
+  margin-top: 2px;
+  font-size: 11px;
+  color: #a1a1aa;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 6px;
+}
+
+.groupMetaDot {
+  color: #3f3f46;
+}
+
+.groupDeleteBtn {
+  padding: 0 14px;
+  background: transparent;
+  color: #ef4444;
+  border: none;
+  border-left: 1px solid #1a1d27;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  cursor: pointer;
+  font-family: inherit;
+  flex-shrink: 0;
+  transition: background 0.1s ease;
+}
+.groupDeleteBtn:hover:not(:disabled) { background: #1a0a0a; }
+.groupDeleteBtn:disabled { opacity: 0.5; cursor: default; }
+
+.submissionList {
+  border-top: 1px solid #1a1d27;
+  background: #0a0b0f;
+  padding: 4px 0;
+}
+
+.submissionEmpty {
+  margin: 0;
+  padding: 10px 38px;
+  font-size: 12px;
+  color: #52525b;
+  font-style: italic;
+}
+
+.submissionRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px 8px 38px;
+}
+.submissionRow:not(:last-child) { border-bottom: 1px solid #0f1219; }
+
+.submissionInfo {
+  flex: 1;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  min-width: 0;
+}
+
+.submissionName {
+  font-size: 13px;
+  font-weight: 600;
+  color: #e4e4e7;
+}
+
+.submissionDate {
+  font-size: 11px;
+  color: #71717a;
+}
+
+.submissionDeleteBtn {
+  padding: 4px 10px;
+  background: transparent;
+  color: #a1a1aa;
+  border: 1px solid #27272e;
+  border-radius: 2px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  cursor: pointer;
+  font-family: inherit;
+  flex-shrink: 0;
+  transition: all 0.1s ease;
+}
+.submissionDeleteBtn:hover:not(:disabled) {
+  color: #ef4444;
+  border-color: #7f1d1d;
+}
+.submissionDeleteBtn:disabled { opacity: 0.5; cursor: default; }

@@ -1,6 +1,12 @@
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useEffect, useMemo, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { getActuals, updateActuals } from '../../lib/groupApi.js'
+import {
+  getActuals,
+  updateActuals,
+  adminListGroups,
+  adminDeleteGroup,
+  adminDeleteSubmission,
+} from '../../lib/groupApi.js'
 import playersData from '../../data/players.json'
 import picksData from '../../data/picks.json'
 import teamsData from '../../data/teams.json'
@@ -150,6 +156,217 @@ function TradeRow({ idx, trade, onChange, onRemove }) {
         </label>
       </div>
     </div>
+  )
+}
+
+function teamLabel(teamId) {
+  const t = teamsData[teamId]
+  return t ? `${t.city} ${t.nickname}` : teamId
+}
+
+function formatDate(iso) {
+  if (!iso) return '—'
+  const d = new Date(iso)
+  if (Number.isNaN(d.getTime())) return iso
+  return d.toLocaleString()
+}
+
+/**
+ * Groups management section — admin-only list, search, delete whole groups,
+ * delete individual submissions. Reads from /api/admin/groups on mount; every
+ * destructive action refetches so the list stays truthy.
+ */
+function GroupsSection({ secret, onAuthFailure }) {
+  const [groups, setGroups] = useState([])
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState(null)
+  const [search, setSearch] = useState('')
+  const [expanded, setExpanded] = useState(() => new Set())
+  const [busy, setBusy] = useState(() => new Set())
+
+  const refresh = useCallback(async () => {
+    setLoading(true)
+    setError(null)
+    try {
+      const res = await adminListGroups(secret)
+      setGroups(res?.groups ?? [])
+    } catch (err) {
+      if (err.status === 401) {
+        onAuthFailure?.()
+        return
+      }
+      setError(err?.message ?? 'Failed to load groups')
+    } finally {
+      setLoading(false)
+    }
+  }, [secret, onAuthFailure])
+
+  useEffect(() => { refresh() }, [refresh])
+
+  const filtered = useMemo(() => {
+    const q = search.trim().toLowerCase()
+    if (!q) return groups
+    return groups.filter(g =>
+      (g.name ?? '').toLowerCase().includes(q) ||
+      (g.id ?? '').toLowerCase().includes(q) ||
+      (g.commissionerName ?? '').toLowerCase().includes(q) ||
+      (g.teamId ?? '').toLowerCase().includes(q) ||
+      teamLabel(g.teamId).toLowerCase().includes(q) ||
+      (g.submissions ?? []).some(s => (s.name ?? '').toLowerCase().includes(q))
+    )
+  }, [groups, search])
+
+  function toggleExpanded(id) {
+    setExpanded(prev => {
+      const next = new Set(prev)
+      if (next.has(id)) next.delete(id); else next.add(id)
+      return next
+    })
+  }
+
+  function markBusy(key, on) {
+    setBusy(prev => {
+      const next = new Set(prev)
+      if (on) next.add(key); else next.delete(key)
+      return next
+    })
+  }
+
+  async function handleDeleteGroup(group) {
+    const confirmMsg = `Permanently delete group "${group.name}" (${group.id})?\n\n${group.submissionCount} submission${group.submissionCount === 1 ? '' : 's'} will also be lost. This cannot be undone.`
+    if (!window.confirm(confirmMsg)) return
+    const key = `g:${group.id}`
+    markBusy(key, true)
+    try {
+      await adminDeleteGroup(secret, group.id)
+      await refresh()
+    } catch (err) {
+      if (err.status === 401) { onAuthFailure?.(); return }
+      alert(err?.message ?? 'Delete failed')
+    } finally {
+      markBusy(key, false)
+    }
+  }
+
+  async function handleDeleteSubmission(groupId, name) {
+    if (!window.confirm(`Delete submission by "${name}"? This cannot be undone.`)) return
+    const key = `s:${groupId}:${name}`
+    markBusy(key, true)
+    try {
+      await adminDeleteSubmission(secret, groupId, name)
+      await refresh()
+    } catch (err) {
+      if (err.status === 401) { onAuthFailure?.(); return }
+      alert(err?.message ?? 'Delete failed')
+    } finally {
+      markBusy(key, false)
+    }
+  }
+
+  return (
+    <section className={styles.section}>
+      <div className={styles.sectionHead}>
+        <h2 className={styles.sectionTitle}>GROUPS ({groups.length})</h2>
+        <div className={styles.groupsControls}>
+          <input
+            type="text"
+            className={styles.groupSearch}
+            placeholder="Search by name, id, team, member…"
+            value={search}
+            onChange={e => setSearch(e.target.value)}
+          />
+          <button type="button" className={styles.secondaryBtn} onClick={refresh} disabled={loading}>
+            {loading ? 'LOADING…' : 'REFRESH'}
+          </button>
+        </div>
+      </div>
+
+      {error && <p className={styles.saveErr}>{error}</p>}
+
+      {loading && groups.length === 0 ? (
+        <p className={styles.empty}>Loading groups…</p>
+      ) : filtered.length === 0 ? (
+        <p className={styles.empty}>
+          {groups.length === 0 ? 'No groups yet.' : 'No groups match that search.'}
+        </p>
+      ) : (
+        <div className={styles.groupList}>
+          {filtered.map(g => {
+            const isExpanded = expanded.has(g.id)
+            const groupKey = `g:${g.id}`
+            const isDeleting = busy.has(groupKey)
+            return (
+              <div key={g.id} className={styles.groupCard}>
+                <div className={styles.groupHeader}>
+                  <button
+                    type="button"
+                    className={styles.groupHeaderBtn}
+                    onClick={() => toggleExpanded(g.id)}
+                    title={isExpanded ? 'Collapse' : 'Expand submissions'}
+                  >
+                    <span className={styles.groupExpandArrow}>{isExpanded ? '▾' : '▸'}</span>
+                    <div className={styles.groupHeaderText}>
+                      <div className={styles.groupTitleRow}>
+                        <span className={styles.groupName}>{g.name || '(unnamed)'}</span>
+                        <span className={styles.groupId}>/{g.id}</span>
+                      </div>
+                      <div className={styles.groupMeta}>
+                        <span>{teamLabel(g.teamId)}</span>
+                        <span className={styles.groupMetaDot}>·</span>
+                        <span>Commish: {g.commissionerName || '—'}</span>
+                        <span className={styles.groupMetaDot}>·</span>
+                        <span>{g.submissionCount} submission{g.submissionCount === 1 ? '' : 's'}</span>
+                        <span className={styles.groupMetaDot}>·</span>
+                        <span>Created {formatDate(g.createdAt)}</span>
+                      </div>
+                    </div>
+                  </button>
+                  <button
+                    type="button"
+                    className={styles.groupDeleteBtn}
+                    onClick={() => handleDeleteGroup(g)}
+                    disabled={isDeleting}
+                    title="Delete this entire group"
+                  >
+                    {isDeleting ? 'DELETING…' : 'DELETE GROUP'}
+                  </button>
+                </div>
+
+                {isExpanded && (
+                  <div className={styles.submissionList}>
+                    {(g.submissions ?? []).length === 0 ? (
+                      <p className={styles.submissionEmpty}>No submissions yet.</p>
+                    ) : (
+                      g.submissions.map(s => {
+                        const subKey = `s:${g.id}:${s.name}`
+                        const subBusy = busy.has(subKey)
+                        return (
+                          <div key={s.name} className={styles.submissionRow}>
+                            <div className={styles.submissionInfo}>
+                              <span className={styles.submissionName}>{s.name}</span>
+                              <span className={styles.submissionDate}>{formatDate(s.submittedAt)}</span>
+                            </div>
+                            <button
+                              type="button"
+                              className={styles.submissionDeleteBtn}
+                              onClick={() => handleDeleteSubmission(g.id, s.name)}
+                              disabled={subBusy}
+                              title={`Delete submission by ${s.name}`}
+                            >
+                              {subBusy ? '…' : '× Remove'}
+                            </button>
+                          </div>
+                        )
+                      })
+                    )}
+                  </div>
+                )}
+              </div>
+            )
+          })}
+        </div>
+      )}
+    </section>
   )
 }
 
@@ -363,6 +580,16 @@ export default function AdminPage() {
         {saveMsg && (
           <p className={saveMsg.kind === 'ok' ? styles.saveOk : styles.saveErr}>{saveMsg.text}</p>
         )}
+
+        {/* ── Groups ── */}
+        <GroupsSection
+          secret={secret}
+          onAuthFailure={() => {
+            setAuthError('That password is not correct. Try again.')
+            setSecret('')
+            localStorage.removeItem(SECRET_STORAGE_KEY)
+          }}
+        />
 
         {/* ── Picks ── */}
         <section className={styles.section}>

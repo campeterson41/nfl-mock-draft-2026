@@ -58,3 +58,29 @@ export async function updateActuals(secret, { picks, trades }) {
   })
   return handle(res)
 }
+
+// ── Admin group management (all require ADMIN_SECRET) ────────────────
+
+export async function adminListGroups(secret) {
+  const res = await fetch('/api/admin/groups', {
+    headers: { 'X-Admin-Secret': secret },
+  })
+  return handle(res)
+}
+
+export async function adminDeleteGroup(secret, id) {
+  const res = await fetch(`${BASE}/${encodeURIComponent(id)}`, {
+    method: 'DELETE',
+    headers: { 'X-Admin-Secret': secret },
+  })
+  return handle(res)
+}
+
+export async function adminDeleteSubmission(secret, id, name) {
+  const url = `${BASE}/${encodeURIComponent(id)}/submissions?name=${encodeURIComponent(name)}`
+  const res = await fetch(url, {
+    method: 'DELETE',
+    headers: { 'X-Admin-Secret': secret },
+  })
+  return handle(res)
+}

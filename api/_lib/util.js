@@ -18,6 +18,22 @@ export function sanitizeString(s, maxLen = 60) {
 
 export function cors(res) {
   res.setHeader('Access-Control-Allow-Origin', '*')
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS')
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, DELETE, OPTIONS')
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type, X-Admin-Secret')
+}
+
+export function requireAdmin(req, res) {
+  const expected = process.env.ADMIN_SECRET
+  if (!expected) {
+    res.status(500).json({
+      error: 'ADMIN_SECRET is not configured on the server. Set it in Vercel env vars.',
+    })
+    return false
+  }
+  const provided = req.headers['x-admin-secret']
+  if (provided !== expected) {
+    res.status(401).json({ error: 'Unauthorized' })
+    return false
+  }
+  return true
 }
