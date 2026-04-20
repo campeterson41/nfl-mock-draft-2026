@@ -1,6 +1,8 @@
 import { useState, useMemo, useRef } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { POSITIONS, POSITION_COLORS, POSITION_LABELS } from '../../constants/positions.js'
 import { useDraft } from '../../context/DraftContext.jsx'
+import { useGroup } from '../../context/GroupContext.jsx'
 import { getPickHint } from '../../engine/pickHints.js'
 import styles from './ResultsScreen.module.css'
 
@@ -113,6 +115,8 @@ function PredictiveSharePanel({ team, userPicks, tradeHistory, teams, panelRef }
  * and their predicted picks laid out vertically.
  */
 function PredictiveResults({ team, userPicks, tradeHistory, teams, onNewSession, onResim }) {
+  const navigate = useNavigate()
+  const { group: groupCtx } = useGroup()
   const logoUrl = getEspnLogoUrl(team?.id)
   const teamColor = team?.colors?.primary ?? '#d4a843'
 
@@ -156,7 +160,16 @@ function PredictiveResults({ team, userPicks, tradeHistory, teams, onNewSession,
               {sharing ? 'GENERATING...' : 'SHARE PICKS'}
             </button>
           )}
-          <button className={styles.btnGold} onClick={onResim}>RESTART</button>
+          {groupCtx ? (
+            <button
+              className={styles.btnGold}
+              onClick={() => navigate(`/group/${groupCtx.groupId}`)}
+            >
+              VIEW YOUR GROUP
+            </button>
+          ) : (
+            <button className={styles.btnGold} onClick={onResim}>RESTART</button>
+          )}
         </div>
       </header>
 

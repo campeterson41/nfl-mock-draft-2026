@@ -5,9 +5,7 @@ import { getPickHint } from '../../../engine/pickHints.js'
 import PlayerProfile from '../PlayerProfile/PlayerProfile.jsx'
 import beastProfilesData from '../../../data/beastProfiles.json'
 import { useGroup } from '../../../context/GroupContext.jsx'
-import CreateGroupModal from '../../GroupPage/CreateGroupModal.jsx'
 import SubmitPromptModal from '../../GroupPage/SubmitPromptModal.jsx'
-import { submitPrediction } from '../../../lib/groupApi.js'
 import styles from './PredictiveMockPage.module.css'
 
 const POSITIONS = ['QB', 'EDGE', 'OT', 'WR', 'CB', 'S', 'LB', 'DT', 'RB', 'TE', 'IOL']
@@ -406,12 +404,12 @@ export default function PredictiveMockPage({
   onPick,
   onUndoPick,
   onOpenTrade,
+  onSubmitted,
 }) {
   const navigate = useNavigate()
   const { group: groupCtx } = useGroup()
 
   const [profilePlayer, setProfilePlayer] = useState(null)
-  const [createOpen, setCreateOpen] = useState(false)
   const [submitOpen, setSubmitOpen] = useState(false)
 
   const sortedPicks = useMemo(
@@ -464,10 +462,13 @@ export default function PredictiveMockPage({
                 </button>
               ) : (
                 <button
-                  className={styles.groupBtn}
-                  onClick={() => setCreateOpen(true)}
+                  className={styles.groupBtnPrimary}
+                  onClick={() => onSubmitted?.()}
+                  disabled={!isComplete}
+                  title={isComplete ? 'Finish your mock and share it' : 'Fill every pick to finish'}
+                  style={{ opacity: isComplete ? 1 : 0.5, cursor: isComplete ? 'pointer' : 'not-allowed' }}
                 >
-                  CREATE A GROUP
+                  COMPLETE MOCK
                 </button>
               )}
             </div>
@@ -512,44 +513,6 @@ export default function PredictiveMockPage({
         playerDrafted={!profileStillAvailable && !!profilePlayer}
       />
 
-      <CreateGroupModal
-        isOpen={createOpen}
-        team={team}
-        onClose={() => setCreateOpen(false)}
-        onSubmitSelf={async (newGroup, memberName) => {
-          // Build the submission from the user's current picks + trades
-          const picks = {}
-          for (const [overall, sp] of Object.entries(selectedPlayers ?? {})) {
-            if (sp?.player?.id) picks[overall] = sp.player.id
-          }
-          const trades = (tradeHistory ?? [])
-            .filter(t => t.userTeamId === newGroup.teamId)
-            .map(t => ({
-              partnerId: t.targetTeamId,
-              gave: {
-                pickOveralls: t.gave?.pickOveralls ?? [],
-                futurePickIds: t.gave?.futurePickIds ?? [],
-              },
-              received: {
-                pickOveralls: t.received?.pickOveralls ?? [],
-                futurePickIds: t.received?.futurePickIds ?? [],
-              },
-            }))
-          try {
-            await submitPrediction(newGroup.id, {
-              name: memberName,
-              picks,
-              trades,
-            })
-          } catch (err) {
-            // Silent: the group was still created, so user can submit later
-            console.warn('Initial submission failed (group still created):', err)
-          }
-          setCreateOpen(false)
-          navigate(`/group/${newGroup.id}`)
-        }}
-      />
-
       <SubmitPromptModal
         isOpen={submitOpen}
         group={groupCtx ? {
@@ -563,7 +526,8 @@ export default function PredictiveMockPage({
         onClose={() => setSubmitOpen(false)}
         onSubmitted={() => {
           setSubmitOpen(false)
-          if (groupCtx) navigate(`/group/${groupCtx.groupId}`)
+          if (onSubmitted) onSubmitted()
+          else if (groupCtx) navigate(`/group/${groupCtx.groupId}`)
         }}
       />
     </div>

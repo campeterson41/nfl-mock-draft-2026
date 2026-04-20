@@ -191,6 +191,7 @@ export default function DraftRoom({ onComplete, scraperOpen: scraperOpenProp = f
             if (firstPick) openTradeModal('DOWN', firstPick.overall)
           }}
           currentPick={currentPick}
+          onSubmitted={onComplete}
         />
         {state.tradeModal?.isOpen && (
           <TradeModal
