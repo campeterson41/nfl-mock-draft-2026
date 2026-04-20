@@ -111,8 +111,10 @@ export default function DraftRoom({ onComplete, scraperOpen: scraperOpenProp = f
   }, [])
 
   useEffect(() => {
-    if (isDraftComplete) onComplete?.()
-  }, [isDraftComplete])
+    // In predictive mode, stay on the page so the user can submit to their
+    // group (or create one) instead of being yanked to the results screen.
+    if (isDraftComplete && state.session?.mode !== 'predictive') onComplete?.()
+  }, [isDraftComplete, state.session?.mode])
 
   // On desktop, auto-show the latest pick (clear any inspected pick).
   // On mobile, leave it alone — user dismisses manually.
