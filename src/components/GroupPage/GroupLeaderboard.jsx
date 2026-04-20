@@ -16,7 +16,9 @@ function summaryOf(breakdown) {
 export default function GroupLeaderboard({ ranked, actuals }) {
   const [openName, setOpenName] = useState(null)
 
-  const actualPickCount  = Object.keys(actuals?.picks ?? {}).length
+  // Count only picks with a real playerId — empty teamId-only skeletons
+  // from the admin UI's R1 pre-seed don't count as "official picks".
+  const actualPickCount  = Object.values(actuals?.picks ?? {}).filter(p => p?.playerId).length
   const actualTradeCount = (actuals?.trades ?? []).length
 
   const openEntry = openName

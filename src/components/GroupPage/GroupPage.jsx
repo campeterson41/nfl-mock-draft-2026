@@ -56,11 +56,13 @@ export default function GroupPage() {
   const logoUrl = group ? getEspnLogoUrl(group.teamId) : null
   const teamColor = team?.colors?.primary ?? '#d4a843'
 
-  // Draft is "live" (post-draft scoring) when actuals has any picks/trades entered
+  // Draft is "live" (post-draft scoring) when actuals has real picks/trades.
+  // Empty pick skeletons (teamId only, no playerId) don't count — the admin
+  // UI seeds them as placeholders before the draft actually starts.
   const draftStarted = useMemo(() => {
-    const pickCount = Object.keys(actuals?.picks ?? {}).length
+    const hasRealPick = Object.values(actuals?.picks ?? {}).some(p => p?.playerId)
     const tradeCount = (actuals?.trades ?? []).length
-    return pickCount > 0 || tradeCount > 0
+    return hasRealPick || tradeCount > 0
   }, [actuals])
 
   const ranked = useMemo(() => {

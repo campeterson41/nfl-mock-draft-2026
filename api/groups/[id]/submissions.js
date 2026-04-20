@@ -18,10 +18,13 @@ export default async function handler(req, res) {
     if (!group) return res.status(404).json({ error: 'Group not found' })
 
     if (req.method === 'POST') {
-      // Lock once actuals exist — no submissions after the draft starts
+      // Lock once the draft has real results — any pick with a playerId, or
+      // any trade. Empty pick skeletons (teamId only, no playerId) don't count
+      // because the admin UI pre-seeds Round 1 slots as a convenience.
       const actuals = await getActuals()
       const draftStarted =
-        Object.keys(actuals?.picks ?? {}).length > 0 || (actuals?.trades ?? []).length > 0
+        Object.values(actuals?.picks ?? {}).some(p => p?.playerId) ||
+        (actuals?.trades ?? []).length > 0
       if (draftStarted) {
         return res.status(423).json({ error: 'Submissions are locked — the draft has started.' })
       }
