@@ -249,6 +249,14 @@
       "strength": 50,
       "isInsiderLanguage": false,
       "quote": "To me, Arvell Reese is the best player in the draft, and I think a part of that is the hybrid nature"
+    },
+    {
+      "playerId": "makai-lemon",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "Jets use pick 16 (from IND) on Lemon. (Brugler 7-round mock, 2026-04-22)"
     }
   ],
   "ARI": [
@@ -387,6 +395,14 @@
       "strength": 45,
       "isInsiderLanguage": false,
       "quote": "the Cardinals could just take Love"
+    },
+    {
+      "playerId": "francis-mauigoa",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "It won't be surprising if the Cardinals use this pick on a pass rusher such as Bailey, but securing their right tackle position for the foreseeable future will be an appealing option. (Brugler 7-round mock, 2026-04-22)"
     }
   ],
   "TEN": [
@@ -533,6 +549,14 @@
       "strength": 50,
       "isInsiderLanguage": true,
       "quote": "Tate is secure as a top-10 pick, and could go as high as No. 4 to the Titans"
+    },
+    {
+      "playerId": "david-bailey",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic",
+      "strength": 45,
+      "isInsiderLanguage": false,
+      "quote": "HC Robert Saleh wants to collect pass rushers and have a healthy defensive line rotation. It's not a hard sell on why Bailey makes sense for Tennessee. (Brugler 7-round mock, 2026-04-22)"
     }
   ],
   "NYG": [
@@ -881,6 +905,30 @@
       "strength": 45,
       "isInsiderLanguage": false,
       "quote": "The belief is that, barring a trade down, the Browns will select Carnell Tate at No. 6."
+    },
+    {
+      "playerId": "spencer-fano",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "Browns trade back to 12 and grab Fano. (Brugler 7-round mock, 2026-04-22)"
+    },
+    {
+      "playerId": "kc-concepcion",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic",
+      "strength": 40,
+      "isInsiderLanguage": false,
+      "quote": "Browns take Concepcion at 20 (from DAL). (Brugler 7-round mock, 2026-04-22)"
+    },
+    {
+      "playerId": "emmanuel-mcneil-warren",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic",
+      "strength": 40,
+      "isInsiderLanguage": false,
+      "quote": "Browns take McNeil-Warren at 24 (from JAX). (Brugler 7-round mock, 2026-04-22)"
     }
   ],
   "WAS": [
@@ -963,6 +1011,14 @@
       "strength": 42,
       "isInsiderLanguage": false,
       "quote": "Washington could pair Tate with Terry McLaurin"
+    },
+    {
+      "playerId": "jeremiyah-love",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "Though the price tag is high for the position, Love has the talent to become a top-five running back before the end of his rookie contract. (Brugler 7-round mock, 2026-04-22)"
     }
   ],
   "NO": [
@@ -1093,6 +1149,14 @@
       "strength": 42,
       "isInsiderLanguage": false,
       "quote": "Downs can be the face of a franchise and could immediately become the smartest player for an NFL defense"
+    },
+    {
+      "playerId": "carnell-tate",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic",
+      "strength": 45,
+      "isInsiderLanguage": false,
+      "quote": "Saints urgently need upgrades at wide receiver, especially as they figure out whether Tyler Shough is a stopgap or long-term answer. (Brugler 7-round mock, 2026-04-22)"
     }
   ],
   "KC": [
@@ -1215,6 +1279,22 @@
       "strength": 30,
       "isInsiderLanguage": false,
       "quote": "Chiefs need more mismatch weapons for Mahomes; Sadiq is a unique talent with rare skill set."
+    },
+    {
+      "playerId": "rueben-bain-jr",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic",
+      "strength": 45,
+      "isInsiderLanguage": false,
+      "quote": "Bain is one of the more polarizing prospects. His profile fits Kansas City and would give Spagnuolo an inside-outside disruptor on the D-line. (Brugler 7-round mock, 2026-04-22)"
+    },
+    {
+      "playerId": "denzel-boston",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic",
+      "strength": 40,
+      "isInsiderLanguage": false,
+      "quote": "Chiefs take Boston at 29 (from LAR). (Brugler 7-round mock, 2026-04-22)"
     }
   ],
   "CIN": [
@@ -1265,6 +1345,14 @@
       "strength": 38,
       "isInsiderLanguage": false,
       "quote": "Schrager mock #10 to Bengals. Delane \"viewed as the top corner in this class.\" Passive voice = sourced. Allowed 31.3 passer rating when targeted."
+    },
+    {
+      "playerId": "mansoor-delane",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic",
+      "strength": 45,
+      "isInsiderLanguage": false,
+      "quote": "With Styles and the top-tier pass rushers off the board, Delane would be one helluva consolation prize. (Brugler 7-round mock, 2026-04-22)"
     }
   ],
   "MIA": [
@@ -1363,6 +1451,22 @@
       "strength": 45,
       "isInsiderLanguage": true,
       "quote": "I don't think he falls out of the first round"
+    },
+    {
+      "playerId": "keldric-faulk",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "Miami takes Faulk at 11 in Brugler's Athletic mock. (2026-04-22)"
+    },
+    {
+      "playerId": "chris-johnson",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic",
+      "strength": 40,
+      "isInsiderLanguage": false,
+      "quote": "Dolphins take Johnson at 30 (from DEN). (Brugler 7-round mock, 2026-04-22)"
     }
   ],
   "DAL": [
@@ -1567,6 +1671,14 @@
       "strength": 55,
       "isInsiderLanguage": true,
       "quote": "There's a lot of Sadiq intrigue in the Rams' building"
+    },
+    {
+      "playerId": "jordyn-tyson",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "Rams take Tyson at 13 (from ATL). (Brugler 7-round mock, 2026-04-22)"
     }
   ],
   "BAL": [
@@ -1649,6 +1761,14 @@
       "strength": 42,
       "isInsiderLanguage": false,
       "quote": "The Ravens are high on Reuben Bain."
+    },
+    {
+      "playerId": "kenyon-sadiq",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "Ravens grab Sadiq at 14. (Brugler 7-round mock, 2026-04-22)"
     }
   ],
   "TB": [
@@ -1699,6 +1819,14 @@
       "strength": 42,
       "isInsiderLanguage": false,
       "quote": "Kenyon Sadiq is a real possibility for the Buccaneers."
+    },
+    {
+      "playerId": "olaivavega-ioane",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic",
+      "strength": 40,
+      "isInsiderLanguage": false,
+      "quote": "Bucs take Vega Ioane at 15. (Brugler 7-round mock, 2026-04-22)"
     }
   ],
   "DET": [
@@ -1789,6 +1917,14 @@
       "strength": 40,
       "isInsiderLanguage": false,
       "quote": "If the Lions miss out on Proctor, Jermod McCoy is among their top targets."
+    },
+    {
+      "playerId": "monroe-freeling",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "Lions take Freeling at 17. (Brugler 7-round mock, 2026-04-22)"
     }
   ],
   "MIN": [
@@ -1977,6 +2113,14 @@
       "strength": 50,
       "isInsiderLanguage": true,
       "quote": "Had top-30 visit to Pittsburgh; Steelers evaluating quarterback options"
+    },
+    {
+      "playerId": "omar-cooper-jr",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "Steelers take Cooper at 21. (Brugler 7-round mock, 2026-04-22)"
     }
   ],
   "CHI": [
@@ -2019,6 +2163,14 @@
       "strength": 30,
       "isInsiderLanguage": false,
       "quote": "Schrager mock #25 to Bears: Kadyn Proctor OT. \"Mass of humanity\" at 358 lbs with surprising mobility."
+    },
+    {
+      "playerId": "tj-parker",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "Bears take Parker at 25. (Brugler 7-round mock, 2026-04-22)"
     }
   ],
   "SF": [
@@ -2077,6 +2229,14 @@
       "strength": 25,
       "isInsiderLanguage": true,
       "quote": "DJ: \"Malachi Lawrence from Central Florida...he's my 46th player...if you were asking me candidates to go late first round, I would put him in that mix.\" Part II, 2026-04-17."
+    },
+    {
+      "playerId": "caleb-lomu",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "49ers take Lomu at 27. (Brugler 7-round mock, 2026-04-22)"
     }
   ],
   "PHI": [
@@ -2135,6 +2295,14 @@
       "strength": 35,
       "isInsiderLanguage": true,
       "quote": "Jordyn Tyson a name to watch for the Eagles. (Underdog NFL, 2026-04-09)"
+    },
+    {
+      "playerId": "kadyn-proctor",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "Eagles take Proctor at 23. (Brugler 7-round mock, 2026-04-22)"
     }
   ],
   "LAC": [
@@ -2185,6 +2353,14 @@
       "strength": 30,
       "isInsiderLanguage": true,
       "quote": "Chadiha: Chargers' left guard situation critical \u2014 \"Zion Johnson starter last year, left in free agency. Need to find somebody who's younger.\" (Insiders, 2026-04-17)"
+    },
+    {
+      "playerId": "akheem-mesidor",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "Chargers take Mesidor at 22. (Brugler 7-round mock, 2026-04-22)"
     }
   ],
   "HOU": [
@@ -2227,6 +2403,14 @@
       "strength": 35,
       "isInsiderLanguage": false,
       "quote": "Schrager mock #28: Iheanachor to Texans."
+    },
+    {
+      "playerId": "chase-bisontis",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "Texans take Bisontis at 28. (Brugler 7-round mock, 2026-04-22)"
     }
   ],
   "CAR": [
@@ -2277,6 +2461,14 @@
       "strength": 45,
       "isInsiderLanguage": true,
       "quote": "ESPN buzz: Panthers \"reportedly high on Oscar Delp\" \u2014 could be option as early as second round. CONFIRMED via NFLDraftScout/Jordan Reid: Panthers reportedly high on TE Oscar Delp. (Underdog NFL, 2026-04-09)"
+    },
+    {
+      "playerId": "dillon-thieneman",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic",
+      "strength": 40,
+      "isInsiderLanguage": false,
+      "quote": "Panthers take Thieneman at 19. (Brugler 7-round mock, 2026-04-22)"
     }
   ],
   "BUF": [
@@ -2385,6 +2577,14 @@
       "strength": 30,
       "isInsiderLanguage": true,
       "quote": "Dugar: Seahawks \"will probably use one of their first three picks on a running back.\" Confirms RB priority after losing Walker market (2026-04-18)."
+    },
+    {
+      "playerId": "colton-hood",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "Seahawks take Hood at 32. (Brugler 7-round mock, 2026-04-22)"
     }
   ],
   "NE": [
@@ -2451,6 +2651,14 @@
       "strength": 45,
       "isInsiderLanguage": true,
       "quote": "In the week leading up to the draft, Miami's Akheem Mesidor has become the new favorite to land in New England."
+    },
+    {
+      "playerId": "blake-miller",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "Patriots take Miller at 31. (Brugler 7-round mock, 2026-04-22)"
     }
   ],
   "DEN": [
