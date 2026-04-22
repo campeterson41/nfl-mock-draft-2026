@@ -39,6 +39,38 @@
       "strength": 22,
       "isInsiderLanguage": true,
       "quote": "\"Duke defensive tackle Josiah Green is a name to monitor for the Raiders.\" Day 2/3 DT signal (2026-04-18)."
+    },
+    {
+      "playerId": "fernando-mendoza",
+      "analyst": "The Insiders",
+      "outlet": "NFL The Insiders",
+      "strength": 50,
+      "isInsiderLanguage": false,
+      "quote": "Expected first overall pick to the Raiders. Described as having excellent process-oriented play style and strong leadership qualities. (Ep. 2026-04-22)"
+    },
+    {
+      "playerId": "fernando-mendoza",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Move the Sticks",
+      "strength": 52,
+      "isInsiderLanguage": false,
+      "quote": "Daniel Jeremiah's final top-50 ranking shows Fernando Mendoza at No. 1. (Ep. 2026-04-21)"
+    },
+    {
+      "playerId": "josiah-green",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 40,
+      "isInsiderLanguage": false,
+      "quote": "The Raiders were reportedly all over Josiah Green at Duke's pro day."
+    },
+    {
+      "playerId": "fernando-mendoza",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 32,
+      "isInsiderLanguage": false,
+      "quote": "Raiders grab their QB of the future; Mendoza learns behind Kirk Cousins before taking over."
     }
   ],
   "NYJ": [
@@ -177,6 +209,46 @@
       "strength": 30,
       "isInsiderLanguage": true,
       "quote": "\"They have an opportunity to get the best wide receiver potentially with all their draft capital.\" DJ Conference Call Part I, 2026-04-16."
+    },
+    {
+      "playerId": "david-bailey",
+      "analyst": "The Insiders",
+      "outlet": "NFL The Insiders",
+      "strength": 50,
+      "isInsiderLanguage": false,
+      "quote": "Projected second overall to the Jets. 'An incredibly clean prospect, a smart guy' with positive interview feedback. (Ep. 2026-04-22)"
+    },
+    {
+      "playerId": "david-bailey",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 58,
+      "isInsiderLanguage": true,
+      "quote": "I've had Bailey going to the Jets for the past month, and I have no further intel telling me any differently"
+    },
+    {
+      "playerId": "makai-lemon",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 38,
+      "isInsiderLanguage": false,
+      "quote": "he could definitely still be here when the Jets are on the clock"
+    },
+    {
+      "playerId": "david-bailey",
+      "analyst": "Albert Breer",
+      "outlet": "SI.com",
+      "strength": 55,
+      "isInsiderLanguage": true,
+      "quote": "There's a reason a consensus seems to be crystallizing that Texas Tech edge rusher David Bailey will be the second pick in the draft"
+    },
+    {
+      "playerId": "arvell-reese",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic",
+      "strength": 50,
+      "isInsiderLanguage": false,
+      "quote": "To me, Arvell Reese is the best player in the draft, and I think a part of that is the hybrid nature"
     }
   ],
   "ARI": [
@@ -283,6 +355,38 @@
       "strength": 20,
       "isInsiderLanguage": true,
       "quote": "\"He's got a real shot of going off in the second round. There's a lot of teams that really like him.\" DJ flagging Treydan Stukes as a riser (Part I, 2026-04-16)."
+    },
+    {
+      "playerId": "ty-simpson",
+      "analyst": "Daniel Jeremiah",
+      "outlet": "NFL Move the Sticks",
+      "strength": 48,
+      "isInsiderLanguage": false,
+      "quote": "Arizona emerges as the likely Ty Simpson team in Jeremiah's assessment. (Ep. 2026-04-21)"
+    },
+    {
+      "playerId": "ty-simpson",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 45,
+      "isInsiderLanguage": false,
+      "quote": "Some Cardinals staff really likes Ty Simpson."
+    },
+    {
+      "playerId": "spencer-fano",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "The Cardinals are high on Spencer Fano."
+    },
+    {
+      "playerId": "jeremiyah-love",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 45,
+      "isInsiderLanguage": false,
+      "quote": "the Cardinals could just take Love"
     }
   ],
   "TEN": [
@@ -405,6 +509,30 @@
       "strength": 28,
       "isInsiderLanguage": true,
       "quote": "\"If one of the edge rushers, David Bailey or Rueben Bain Jr., is there, that might complete the front four.\" Insiders, 2026-04-16."
+    },
+    {
+      "playerId": "arvell-reese",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 30,
+      "isInsiderLanguage": false,
+      "quote": "Titans use Reese as a nice fit in Robert Saleh's defense at edge rusher."
+    },
+    {
+      "playerId": "sonny-styles",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 38,
+      "isInsiderLanguage": false,
+      "quote": "it'd also be hard for coach Robert Saleh to leave Styles on the board"
+    },
+    {
+      "playerId": "carnell-tate",
+      "analyst": "Albert Breer",
+      "outlet": "SI.com",
+      "strength": 50,
+      "isInsiderLanguage": true,
+      "quote": "Tate is secure as a top-10 pick, and could go as high as No. 4 to the Titans"
     }
   ],
   "NYG": [
@@ -511,6 +639,102 @@
       "strength": 28,
       "isInsiderLanguage": true,
       "quote": "Campbell rumor roundup: Giants \"very high on\" Caleb Downs, Jeremiyah Love, and Arvell Reese as the top cluster at 5 (2026-04-18)."
+    },
+    {
+      "playerId": "jeremiyah-love",
+      "analyst": "The Insiders",
+      "outlet": "NFL The Insiders",
+      "strength": 45,
+      "isInsiderLanguage": false,
+      "quote": "Window opens at #3; some believe he's the top overall player regardless of position. (Ep. 2026-04-21)"
+    },
+    {
+      "playerId": "caleb-downs",
+      "analyst": "Lance Zierlein",
+      "outlet": "NFL Move the Sticks",
+      "strength": 45,
+      "isInsiderLanguage": false,
+      "quote": "The team should consider Caleb Downs or Sonny Styles at pick five, as 'it's easier to find wide receiver' later. (Ep. 2026-04-21)"
+    },
+    {
+      "playerId": "sonny-styles",
+      "analyst": "Lance Zierlein",
+      "outlet": "NFL Move the Sticks",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "Giants at pick five should consider Caleb Downs or Sonny Styles. (Ep. 2026-04-21)"
+    },
+    {
+      "playerId": "sonny-styles",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 50,
+      "isInsiderLanguage": true,
+      "quote": "All I'm hearing is that the Giants don't want Sonny Styles."
+    },
+    {
+      "playerId": "carnell-tate",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 44,
+      "isInsiderLanguage": false,
+      "quote": "Carnell Tate and Jordyn Tyson are very much on the Giants' radar."
+    },
+    {
+      "playerId": "jordyn-tyson",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 44,
+      "isInsiderLanguage": false,
+      "quote": "Carnell Tate and Jordyn Tyson are very much on the Giants' radar."
+    },
+    {
+      "playerId": "jeremiyah-love",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 44,
+      "isInsiderLanguage": false,
+      "quote": "Giants are very high on Jeremiyah Love; John Harbaugh would prefer to draft him."
+    },
+    {
+      "playerId": "arvell-reese",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "The Giants are very high on Jeremiyah Love, Caleb Downs, and Arvell Reese."
+    },
+    {
+      "playerId": "mike-washington-jr",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "Cardinals, Bills, Saints, and Giants sent scouts specifically to watch Mike Washington at his pro day."
+    },
+    {
+      "playerId": "arvell-reese",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 52,
+      "isInsiderLanguage": true,
+      "quote": "If the Giants can get Reese, I think they'd take him"
+    },
+    {
+      "playerId": "jordyn-tyson",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 48,
+      "isInsiderLanguage": true,
+      "quote": "I believe there's a chance the Giants take him at No. 5"
+    },
+    {
+      "playerId": "caleb-downs",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic",
+      "strength": 45,
+      "isInsiderLanguage": false,
+      "quote": "though using a top-five pick for that position is uncommon, Downs has rare football intelligence"
     }
   ],
   "CLE": [
@@ -641,6 +865,22 @@
       "strength": 35,
       "isInsiderLanguage": true,
       "quote": "Berry on Tyson: \"Jordan is an excellent creator with the ball in his hands.\" Organizational endorsement amid WR-at-6 deliberation (Insiders, 2026-04-16)."
+    },
+    {
+      "playerId": "carnell-tate",
+      "analyst": "The Insiders",
+      "outlet": "NFL The Insiders",
+      "strength": 38,
+      "isInsiderLanguage": false,
+      "quote": "Potential target for Browns at pick 6 to upgrade receiver room. (Ep. 2026-04-22)"
+    },
+    {
+      "playerId": "carnell-tate",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 45,
+      "isInsiderLanguage": false,
+      "quote": "The belief is that, barring a trade down, the Browns will select Carnell Tate at No. 6."
     }
   ],
   "WAS": [
@@ -707,6 +947,22 @@
       "strength": 22,
       "isInsiderLanguage": true,
       "quote": "Pauline: Commanders \"showing Jalon Kilgore a lot of love\" \u2014 Day 2 safety signal (2026-04-18)."
+    },
+    {
+      "playerId": "mansoor-delane",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 44,
+      "isInsiderLanguage": false,
+      "quote": "The Commanders are looking to trade down to select Mansoor Delane."
+    },
+    {
+      "playerId": "carnell-tate",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "Washington could pair Tate with Terry McLaurin"
     }
   ],
   "NO": [
@@ -821,6 +1077,22 @@
       "strength": 22,
       "isInsiderLanguage": true,
       "quote": "Campbell: Saints \"very high on Caleb Downs and like Jeremiyah Love\" \u2014 first-round fallback menu (2026-04-18)."
+    },
+    {
+      "playerId": "carnell-tate",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 45,
+      "isInsiderLanguage": false,
+      "quote": "The Saints are believed to be the floor for Carnell Tate."
+    },
+    {
+      "playerId": "caleb-downs",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "Downs can be the face of a franchise and could immediately become the smartest player for an NFL defense"
     }
   ],
   "KC": [
@@ -919,6 +1191,30 @@
       "strength": 22,
       "isInsiderLanguage": true,
       "quote": "\"Don't be surprised that that pick happens for them at forty one or even twenty nine.\" Chadiha on Chiefs edge/interior DL day-two focus (2026-04-17)."
+    },
+    {
+      "playerId": "rueben-bain-jr",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 48,
+      "isInsiderLanguage": true,
+      "quote": "Sources say Kansas City's potential pick candidates would be Rueben Bain and Kadyn Proctor."
+    },
+    {
+      "playerId": "kadyn-proctor",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 48,
+      "isInsiderLanguage": true,
+      "quote": "Sources say Kansas City's potential pick candidates would be Rueben Bain and Kadyn Proctor."
+    },
+    {
+      "playerId": "kenyon-sadiq",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 30,
+      "isInsiderLanguage": false,
+      "quote": "Chiefs need more mismatch weapons for Mahomes; Sadiq is a unique talent with rare skill set."
     }
   ],
   "CIN": [
@@ -1051,6 +1347,22 @@
       "strength": 28,
       "isInsiderLanguage": true,
       "quote": "\"Jason Taylor has done a great job with those dudes. They were really buttoned up.\" AFC scout on Bain/Mesidor \u2014 Miami's Canes pipeline still a factor (2026-04-18)."
+    },
+    {
+      "playerId": "ty-simpson",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 42,
+      "isInsiderLanguage": true,
+      "quote": "Miami sorely needs a QB, but don't expect that QB to be Ty Simpson at No. 11."
+    },
+    {
+      "playerId": "jermod-mccoy",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 45,
+      "isInsiderLanguage": true,
+      "quote": "I don't think he falls out of the first round"
     }
   ],
   "DAL": [
@@ -1189,6 +1501,22 @@
       "strength": 22,
       "isInsiderLanguage": true,
       "quote": "Slater: Tennessee CB Jermod McCoy in the mix at 12 if Dallas stays put (Insiders, 2026-04-16)."
+    },
+    {
+      "playerId": "sonny-styles",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic Football Show",
+      "strength": 38,
+      "isInsiderLanguage": false,
+      "quote": "Favorite fit: Cowboys trading up for LB Sonny Styles."
+    },
+    {
+      "playerId": "mansoor-delane",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 38,
+      "isInsiderLanguage": false,
+      "quote": "Dallas has to get one of the top defensive prospects"
     }
   ],
   "LAR": [
@@ -1223,6 +1551,22 @@
       "strength": 35,
       "isInsiderLanguage": false,
       "quote": "Schrager mock #13 to Rams (via ATL). Rams \"truly all-in to win in 2026\" \u2014 stated as insider knowledge of team's internal posture. Lemon (Biletnikoff winner) with aging Stafford and Adams."
+    },
+    {
+      "playerId": "makai-lemon",
+      "analyst": "Brian Baldinger",
+      "outlet": "NFL The Insiders",
+      "strength": 40,
+      "isInsiderLanguage": false,
+      "quote": "Discussed for Rams at pick 13. 'His hands are basically just vice grips. He's had three drops in the last two years.' (Ep. 2026-04-22)"
+    },
+    {
+      "playerId": "kenyon-sadiq",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 55,
+      "isInsiderLanguage": true,
+      "quote": "There's a lot of Sadiq intrigue in the Rams' building"
     }
   ],
   "BAL": [
@@ -1297,6 +1641,14 @@
       "strength": 38,
       "isInsiderLanguage": true,
       "quote": "\"I can't imagine that he would get past the Ravens at fourteen.\" DJ on Bain's Round 1 floor (Conference Call Part I, 2026-04-16)."
+    },
+    {
+      "playerId": "rueben-bain-jr",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "The Ravens are high on Reuben Bain."
     }
   ],
   "TB": [
@@ -1339,6 +1691,14 @@
       "strength": 38,
       "isInsiderLanguage": false,
       "quote": "Schrager mock #15 to Buccaneers. McCoy \"viewed as one of the top two CBs in this class\" \u2014 passive sourcing despite knee injury in 2025. \"A legit No. 1 corner when healthy.\""
+    },
+    {
+      "playerId": "kenyon-sadiq",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "Kenyon Sadiq is a real possibility for the Buccaneers."
     }
   ],
   "DET": [
@@ -1405,6 +1765,30 @@
       "strength": 22,
       "isInsiderLanguage": true,
       "quote": "Campbell: Lions \"really like Keldric Faulk\" \u2014 Day 2 edge pivot if Mesidor/Parker gone (2026-04-18)."
+    },
+    {
+      "playerId": "kadyn-proctor",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "If the Lions miss out on Kadyn Proctor, their top targets are Faulk, Freeling, and McCoy."
+    },
+    {
+      "playerId": "monroe-freeling",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 40,
+      "isInsiderLanguage": false,
+      "quote": "If the Lions miss out on Proctor, Monroe Freeling is among their top targets."
+    },
+    {
+      "playerId": "jermod-mccoy",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 40,
+      "isInsiderLanguage": false,
+      "quote": "If the Lions miss out on Proctor, Jermod McCoy is among their top targets."
     }
   ],
   "MIN": [
@@ -1423,6 +1807,38 @@
       "strength": 22,
       "isInsiderLanguage": false,
       "quote": "Emmanuel McNeil-Warren mocked to Vikings in some projections."
+    },
+    {
+      "playerId": "kenyon-sadiq",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "The Vikings are connected to Kenyon Sadiq and Dillon Thieneman."
+    },
+    {
+      "playerId": "dillon-thieneman",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "The Vikings are connected to Kenyon Sadiq and Dillon Thieneman."
+    },
+    {
+      "playerId": "jermod-mccoy",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic Football Show",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "Brugler lists CB Jermod McCoy to the Minnesota Vikings as one of his favorite player-team fits."
+    },
+    {
+      "playerId": "dillon-thieneman",
+      "analyst": "Peter Schrager",
+      "outlet": "ESPN",
+      "strength": 55,
+      "isInsiderLanguage": true,
+      "quote": "The whole industry has been putting Thieneman with Minnesota at No. 18 for weeks"
     }
   ],
   "PIT": [
@@ -1529,6 +1945,38 @@
       "strength": 25,
       "isInsiderLanguage": true,
       "quote": "Kaboly: \"You have to strongly consider Terrell if he's available at 21.\" Clemson CB on Kaboly's can't-pass-up list (2026-04-18)."
+    },
+    {
+      "playerId": "olaivavega-ioane",
+      "analyst": "The Insiders",
+      "outlet": "NFL The Insiders",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "Suggested for Steelers at pick 21 as replacement for Isaac Seumalo, who left in free agency. (Ep. 2026-04-22)"
+    },
+    {
+      "playerId": "ty-simpson",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 42,
+      "isInsiderLanguage": true,
+      "quote": "Don't slot Ty Simpson to the Steelers in your mock drafts."
+    },
+    {
+      "playerId": "carson-beck",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 40,
+      "isInsiderLanguage": false,
+      "quote": "The Steelers likely favor Carson Beck in the middle rounds."
+    },
+    {
+      "playerId": "carson-beck",
+      "analyst": "Adam Schefter",
+      "outlet": "ESPN",
+      "strength": 50,
+      "isInsiderLanguage": true,
+      "quote": "Had top-30 visit to Pittsburgh; Steelers evaluating quarterback options"
     }
   ],
   "CHI": [
@@ -1879,6 +2327,22 @@
       "strength": 20,
       "isInsiderLanguage": true,
       "quote": "Talbot: Bills have \"shown lots of interest in Skyler Bell.\" Day 3 WR signal (2026-04-18)."
+    },
+    {
+      "playerId": "skyler-bell",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "The Bills have shown lots of interest in Skyler Bell."
+    },
+    {
+      "playerId": "malachi-lawrence",
+      "analyst": "Dane Brugler",
+      "outlet": "The Athletic Football Show",
+      "strength": 38,
+      "isInsiderLanguage": false,
+      "quote": "Favorite fit: EDGE Malachi Lawrence to the Buffalo Bills."
     }
   ],
   "SEA": [
@@ -1971,6 +2435,22 @@
       "strength": 38,
       "isInsiderLanguage": false,
       "quote": "Schrager mock #31 to Patriots: Keylan Rutledge G/C, Georgia Tech. \"Might not be the same level of surprise as the Cole Strange pick\" \u2014 Patriots-style under-the-radar interior OL. Schrager comparing to Cole Strange signals he's heard this is a legitimate Patriots target."
+    },
+    {
+      "playerId": "zion-young",
+      "analyst": "Albert Breer",
+      "outlet": "Next Pats Podcast",
+      "strength": 38,
+      "isInsiderLanguage": false,
+      "quote": "Zion Young has been the consensus mock-draft pick for the Patriots at 31 for much of the offseason."
+    },
+    {
+      "playerId": "akheem-mesidor",
+      "analyst": "Albert Breer",
+      "outlet": "Next Pats Podcast",
+      "strength": 45,
+      "isInsiderLanguage": true,
+      "quote": "In the week leading up to the draft, Miami's Akheem Mesidor has become the new favorite to land in New England."
     }
   ],
   "DEN": [
@@ -2013,6 +2493,14 @@
       "strength": 18,
       "isInsiderLanguage": true,
       "quote": "DJ: Marlin Klein \"my fifth tight end...he's got a chance of going in the third round.\" Broncos TE depth at 62 (Part II, 2026-04-17)."
+    },
+    {
+      "playerId": "omar-cooper-jr",
+      "analyst": "Charlie Campbell",
+      "outlet": "WalterFootball",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "There looks to be good interest between the Broncos and Omar Cooper."
     }
   ],
   "IND": [
@@ -2023,6 +2511,14 @@
       "strength": 32,
       "isInsiderLanguage": true,
       "quote": "\"There's no chance he gets out of the second round.\" DJ on Jacob Rodriguez \u2014 Colts a natural Day 2 LB fit (Part I, 2026-04-16)."
+    },
+    {
+      "playerId": "chris-bell",
+      "analyst": "The Insiders",
+      "outlet": "NFL The Insiders",
+      "strength": 30,
+      "isInsiderLanguage": false,
+      "quote": "Chris Bell (WR, Louisville): Discussed for Colts. (Ep. 2026-04-21)"
     }
   ],
   "JAX": [],
