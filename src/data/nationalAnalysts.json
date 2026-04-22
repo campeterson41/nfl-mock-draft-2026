@@ -71,6 +71,14 @@
       "strength": 32,
       "isInsiderLanguage": false,
       "quote": "Raiders grab their QB of the future; Mendoza learns behind Kirk Cousins before taking over."
+    },
+    {
+      "playerId": "fernando-mendoza",
+      "analyst": "Sam Warren",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 50,
+      "isInsiderLanguage": true,
+      "quote": "I fielded minimal offers for the top selection. Our staff knows what the rest of the league knows: the Raiders aren't trading the pick, and Las Vegas is set on taking Mendoza first overall."
     }
   ],
   "NYJ": [
@@ -257,6 +265,22 @@
       "strength": 42,
       "isInsiderLanguage": false,
       "quote": "Jets use pick 16 (from IND) on Lemon. (Brugler 7-round mock, 2026-04-22)"
+    },
+    {
+      "playerId": "arvell-reese",
+      "analyst": "Zack Rosenblatt",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 55,
+      "isInsiderLanguage": true,
+      "quote": "Even as all the smoke has been around David Bailey leading up to the draft, I've remained steadfast in my belief that the Jets will, and should, pick Reese. Reese might have the highest ceiling of anyone in this draft."
+    },
+    {
+      "playerId": "jordyn-tyson",
+      "analyst": "Zack Rosenblatt",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 50,
+      "isInsiderLanguage": true,
+      "quote": "Jets trade up from 16 to 8 \u2014 the way the wind is blowing, it feels increasingly unlikely one of the top two receivers (Tate or Tyson) makes it that far. Perfect spot to grab Tyson ahead of the Chiefs, Giants and Dolphins, who all might be targeting a wideout."
     }
   ],
   "ARI": [
@@ -403,6 +427,22 @@
       "strength": 42,
       "isInsiderLanguage": false,
       "quote": "It won't be surprising if the Cardinals use this pick on a pass rusher such as Bailey, but securing their right tackle position for the foreseeable future will be an appealing option. (Brugler 7-round mock, 2026-04-22)"
+    },
+    {
+      "playerId": "francis-mauigoa",
+      "analyst": "Doug Haller",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 50,
+      "isInsiderLanguage": false,
+      "quote": "Love is a popular option here, but the Cardinals need to do the right thing and take the best offensive lineman in the draft. They could not run last season and struggled to protect the QB."
+    },
+    {
+      "playerId": "ty-simpson",
+      "analyst": "Doug Haller",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 48,
+      "isInsiderLanguage": false,
+      "quote": "Cardinals trade back into Round 1 (28) for Simpson. Risky but worth it this late in the first. Mike LaFleur doesn't have to rush \u2014 can lean on Brissett and Minshew for half the season or longer."
     }
   ],
   "TEN": [
@@ -557,6 +597,14 @@
       "strength": 45,
       "isInsiderLanguage": false,
       "quote": "HC Robert Saleh wants to collect pass rushers and have a healthy defensive line rotation. It's not a hard sell on why Bailey makes sense for Tennessee. (Brugler 7-round mock, 2026-04-22)"
+    },
+    {
+      "playerId": "david-bailey",
+      "analyst": "Joe Rexrode",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 50,
+      "isInsiderLanguage": false,
+      "quote": "How many elite edges are ever available in free agency? This is the place, the top of the first round, to get them. Bailey should be a consistent double-digit sack-getter for years in Nashville."
     }
   ],
   "NYG": [
@@ -759,6 +807,22 @@
       "strength": 45,
       "isInsiderLanguage": false,
       "quote": "though using a top-five pick for that position is uncommon, Downs has rare football intelligence"
+    },
+    {
+      "playerId": "jeremiyah-love",
+      "analyst": "Charlotte Carroll",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 52,
+      "isInsiderLanguage": false,
+      "quote": "We know the Giants view Love as more than just a running back. He can help Jaxson Dart as he enters his second season and form a strong offense with Malik Nabers and Cam Skattebo."
+    },
+    {
+      "playerId": "caleb-downs",
+      "analyst": "Charlotte Carroll",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 48,
+      "isInsiderLanguage": false,
+      "quote": "Giants get Downs at #10 (from CIN). Surefire NFL starter per Brugler, who will help make the Giants' defense stronger."
     }
   ],
   "CLE": [
@@ -929,6 +993,22 @@
       "strength": 40,
       "isInsiderLanguage": false,
       "quote": "Browns take McNeil-Warren at 24 (from JAX). (Brugler 7-round mock, 2026-04-22)"
+    },
+    {
+      "playerId": "kadyn-proctor",
+      "analyst": "Zac Jackson",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 48,
+      "isInsiderLanguage": false,
+      "quote": "Browns trade down to 13 and grab Proctor \u2014 left tackle ability with the athleticism and power to play inside while adjusting to the NFL game. Berry has a track record of acquiring future fifth-round picks for trades, so the deal fits real-life parameters."
+    },
+    {
+      "playerId": "max-iheanachor",
+      "analyst": "Zac Jackson",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 45,
+      "isInsiderLanguage": true,
+      "quote": "Browns are absolutely going to draft at least two offensive linemen \u2014 realistic possibility Thursday night. Iheanachor still relatively new to the game but has athleticism and upside. Both he and Proctor are still developing."
     }
   ],
   "WAS": [
@@ -1019,6 +1099,14 @@
       "strength": 42,
       "isInsiderLanguage": false,
       "quote": "Though the price tag is high for the position, Love has the talent to become a top-five running back before the end of his rookie contract. (Brugler 7-round mock, 2026-04-22)"
+    },
+    {
+      "playerId": "sonny-styles",
+      "analyst": "Nicki Jhabvala",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 52,
+      "isInsiderLanguage": false,
+      "quote": "The Commanders have devoted much of the offseason to rebuilding their defense, and now they get their centerpiece: the draft's top linebacker and one of its finest players overall. After moving on from Bobby Wagner, the Commanders needed a defensive leader."
     }
   ],
   "NO": [
@@ -1157,6 +1245,14 @@
       "strength": 45,
       "isInsiderLanguage": false,
       "quote": "Saints urgently need upgrades at wide receiver, especially as they figure out whether Tyler Shough is a stopgap or long-term answer. (Brugler 7-round mock, 2026-04-22)"
+    },
+    {
+      "playerId": "makai-lemon",
+      "analyst": "Larry Holder",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 48,
+      "isInsiderLanguage": false,
+      "quote": "Saints trade back from 8 to 16 \u2014 never trade back in Round 1, but worth the gamble for extra picks plus reliable Lemon. Hard to ignore the Amon-Ra St. Brown comparisons. Adding Lemon with Tyler Shough to complement Chris Olave could be good."
     }
   ],
   "KC": [
@@ -1295,6 +1391,22 @@
       "strength": 40,
       "isInsiderLanguage": false,
       "quote": "Chiefs take Boston at 29 (from LAR). (Brugler 7-round mock, 2026-04-22)"
+    },
+    {
+      "playerId": "rueben-bain-jr",
+      "analyst": "Jesse Newell",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 48,
+      "isInsiderLanguage": false,
+      "quote": "Chiefs should be shopping for a pass rusher or receiver. Bain doesn't fit the normal size profile for Spagnuolo's edge rushers with shorter arms, but his high football IQ and inside-outside versatility overcome that."
+    },
+    {
+      "playerId": "denzel-boston",
+      "analyst": "Jesse Newell",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 48,
+      "isInsiderLanguage": false,
+      "quote": "Chiefs move to second-biggest need at receiver. Could use diversity at WR after years of speedy guys \u2014 Boston gives them a true outside threat at 6-3, 212. Same Bain/Boston combo Brugler gave Chiefs at 9 and 29 in his mock."
     }
   ],
   "CIN": [
@@ -1353,6 +1465,14 @@
       "strength": 45,
       "isInsiderLanguage": false,
       "quote": "With Styles and the top-tier pass rushers off the board, Delane would be one helluva consolation prize. (Brugler 7-round mock, 2026-04-22)"
+    },
+    {
+      "playerId": "jacob-rodriguez",
+      "analyst": "Paul Dehner Jr.",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 48,
+      "isInsiderLanguage": true,
+      "quote": "Bengals desperately need competition for 2025 fourth-rounder Barrett Carter and depth at LB \u2014 surprisingly wasn't added to in free agency. Rodriguez would thrust into the middle of the competition with one of the most productive seasons by a LB in college football history."
     }
   ],
   "MIA": [
@@ -1467,6 +1587,22 @@
       "strength": 40,
       "isInsiderLanguage": false,
       "quote": "Dolphins take Johnson at 30 (from DEN). (Brugler 7-round mock, 2026-04-22)"
+    },
+    {
+      "playerId": "mansoor-delane",
+      "analyst": "Jeff Howe",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 48,
+      "isInsiderLanguage": false,
+      "quote": "Dolphins should take the best player available, and Brugler's sixth-ranked prospect fits. Coaches don't seem overly concerned about his length because of his fluid movement, instincts and vision. He'll start immediately for Hafley's defense."
+    },
+    {
+      "playerId": "caleb-lomu",
+      "analyst": "Jeff Howe",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 45,
+      "isInsiderLanguage": false,
+      "quote": "Lomu has to improve his playing strength but could be a long-time starting LT. Dolphins are desperate for help up front with the inexperienced Malik Willis taking over at QB. Worth the shot at development."
     }
   ],
   "DAL": [
@@ -1621,6 +1757,22 @@
       "strength": 38,
       "isInsiderLanguage": false,
       "quote": "Dallas has to get one of the top defensive prospects"
+    },
+    {
+      "playerId": "keldric-faulk",
+      "analyst": "Jon Machota",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 45,
+      "isInsiderLanguage": false,
+      "quote": "With the top defenders gone, Faulk is a solid option with upside. Would give new DC Christian Parker a versatile pass-rushing option to work into the mix with Rashan Gary and Donovan Ezeiruaku."
+    },
+    {
+      "playerId": "emmanuel-mcneil-warren",
+      "analyst": "Jon Machota",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 45,
+      "isInsiderLanguage": true,
+      "quote": "Cowboys trade back from 20 to 23 (with PHI) for extra capital. Eagles drafted Toledo CB Quinyon Mitchell in 2024 when Parker was Philadelphia's DBs coach \u2014 connection to McNeil-Warren's pedigree. High-upside versatile DB for Parker to move around."
     }
   ],
   "LAR": [
@@ -1679,6 +1831,14 @@
       "strength": 42,
       "isInsiderLanguage": false,
       "quote": "Rams take Tyson at 13 (from ATL). (Brugler 7-round mock, 2026-04-22)"
+    },
+    {
+      "playerId": "carnell-tate",
+      "analyst": "Nate Atkins",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 50,
+      "isInsiderLanguage": true,
+      "quote": "Rams trade up from 13 to 6 to get ahead of a potential receiver run. Tate is the one option in this draft who projects as a future No. 1 without injury concerns. That matters if the Rams are unsure about paying Puka Nacua."
     }
   ],
   "BAL": [
@@ -1769,6 +1929,14 @@
       "strength": 42,
       "isInsiderLanguage": false,
       "quote": "Ravens grab Sadiq at 14. (Brugler 7-round mock, 2026-04-22)"
+    },
+    {
+      "playerId": "olaivavega-ioane",
+      "analyst": "Jeff Zrebiec",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 50,
+      "isInsiderLanguage": false,
+      "quote": "The Ravens' priority should be adding a bigger receiver, but they've consistently found quality TEs in the middle rounds. Their O-line remains under construction, and adding Ioane \u2014 whose size, athleticism and nasty demeanor fit the Ravens really well \u2014 is a huge step."
     }
   ],
   "TB": [
@@ -1827,6 +1995,14 @@
       "strength": 40,
       "isInsiderLanguage": false,
       "quote": "Bucs take Vega Ioane at 15. (Brugler 7-round mock, 2026-04-22)"
+    },
+    {
+      "playerId": "kenyon-sadiq",
+      "analyst": "Dan Pompei",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 50,
+      "isInsiderLanguage": true,
+      "quote": "When Jason Licht says he will be true to his board, he means it. Sadiq looks like a great value at 15. They had offensive issues last year, before the departure of Mike Evans. Sadiq is a unique weapon who can help Baker Mayfield, the WRs, and the run game."
     }
   ],
   "DET": [
@@ -1925,6 +2101,14 @@
       "strength": 42,
       "isInsiderLanguage": false,
       "quote": "Lions take Freeling at 17. (Brugler 7-round mock, 2026-04-22)"
+    },
+    {
+      "playerId": "spencer-fano",
+      "analyst": "Colton Pouncy",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 50,
+      "isInsiderLanguage": false,
+      "quote": "Athletic, polished OL with tackle/guard flexibility \u2014 Lions wouldn't be scared by Fano's arm length. Weakest links are LG and RT. Could start him over Mahogany or Borom and create competition Campbell desires. Almost felt too good to be true."
     }
   ],
   "MIN": [
@@ -1975,6 +2159,14 @@
       "strength": 55,
       "isInsiderLanguage": true,
       "quote": "The whole industry has been putting Thieneman with Minnesota at No. 18 for weeks"
+    },
+    {
+      "playerId": "dillon-thieneman",
+      "analyst": "Alec Lewis",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 48,
+      "isInsiderLanguage": false,
+      "quote": "Vikings need a safety whether Harrison Smith returns or not. Thieneman's versatility offers intrigue and he tore it up athletically at the combine. Oregon coaches rave about his work habits. Struggles to find a trade partner forced this selection."
     }
   ],
   "PIT": [
@@ -2121,6 +2313,14 @@
       "strength": 42,
       "isInsiderLanguage": false,
       "quote": "Steelers take Cooper at 21. (Brugler 7-round mock, 2026-04-22)"
+    },
+    {
+      "playerId": "omar-cooper-jr",
+      "analyst": "Mike DeFabo",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 50,
+      "isInsiderLanguage": true,
+      "quote": "Of the six pre-draft visitors the Steelers hosted with grades touching the first round, two were receivers. Cooper didn't visit, but the Steelers' new WR coach Adam Henry worked with him at Indiana in 2022. YAC potential fits McCarthy's scheme."
     }
   ],
   "CHI": [
@@ -2171,6 +2371,14 @@
       "strength": 42,
       "isInsiderLanguage": false,
       "quote": "Bears take Parker at 25. (Brugler 7-round mock, 2026-04-22)"
+    },
+    {
+      "playerId": "akheem-mesidor",
+      "analyst": "Kevin Fishbain",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 50,
+      "isInsiderLanguage": false,
+      "quote": "Bears in win-now mode \u2014 not concerned about Mesidor's age (25) given prolific production: 12.5 sacks last season, 35.5 career. With Odeyingbo (Achilles) and Turner (ACL) recovering, Bears could use a force off the edge. Plays with hair on fire."
     }
   ],
   "SF": [
@@ -2237,6 +2445,14 @@
       "strength": 42,
       "isInsiderLanguage": false,
       "quote": "49ers take Lomu at 27. (Brugler 7-round mock, 2026-04-22)"
+    },
+    {
+      "playerId": "cashius-howell",
+      "analyst": "Matt Barrows",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 50,
+      "isInsiderLanguage": true,
+      "quote": "49ers did a lot of pre-draft work on 250-pound edge rushers who can drop into coverage \u2014 they don't have that on the roster. Howell fits to a tee \u2014 11 sacks in the SEC, comfortable in coverage. Could serve in their 'turbo' pass-rush package and as a fifth D-lineman."
     }
   ],
   "PHI": [
@@ -2303,6 +2519,14 @@
       "strength": 42,
       "isInsiderLanguage": false,
       "quote": "Eagles take Proctor at 23. (Brugler 7-round mock, 2026-04-22)"
+    },
+    {
+      "playerId": "monroe-freeling",
+      "analyst": "Zach Berman",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 48,
+      "isInsiderLanguage": true,
+      "quote": "Eagles trade up from 23 to 20 for Freeling. Roseman views the first round as his chance to land a Pro Bowl-caliber player. Almost Lane Johnson-ish movement skills at 6-7, 315. They feel comfortable with the intel they get from Georgia coaches."
     }
   ],
   "LAC": [
@@ -2361,6 +2585,14 @@
       "strength": 42,
       "isInsiderLanguage": false,
       "quote": "Chargers take Mesidor at 22. (Brugler 7-round mock, 2026-04-22)"
+    },
+    {
+      "playerId": "jermod-mccoy",
+      "analyst": "Daniel Popper",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 50,
+      "isInsiderLanguage": false,
+      "quote": "McCoy missed all of 2025 with a torn ACL, causing him to fall here. Value too much to pass up. Chargers don't have a true difference-maker outside; based on his 2024 tape, McCoy could be that as a press-man defender."
     }
   ],
   "HOU": [
@@ -2411,6 +2643,14 @@
       "strength": 42,
       "isInsiderLanguage": false,
       "quote": "Texans take Bisontis at 28. (Brugler 7-round mock, 2026-04-22)"
+    },
+    {
+      "playerId": "christen-miller",
+      "analyst": "Mike Jones",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 48,
+      "isInsiderLanguage": false,
+      "quote": "Texans met OL needs in free agency (Teller, Smith). Could improve in trenches on defense. Have bookends in Anderson and Hunter, plus Sheldon Rankins. Pairing 6-4, 305 Miller with him would fortify the front."
     }
   ],
   "CAR": [
@@ -2469,6 +2709,62 @@
       "strength": 40,
       "isInsiderLanguage": false,
       "quote": "Panthers take Thieneman at 19. (Brugler 7-round mock, 2026-04-22)"
+    },
+    {
+      "playerId": "kc-concepcion",
+      "analyst": "Joseph Person",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 48,
+      "isInsiderLanguage": true,
+      "quote": "Dan Morgan has been emphasizing the need for playmakers, which created a Concepcion-Cooper dilemma. Concepcion's experience in the run and return games gave the Charlotte native a slight edge, although his drops could lead to the safer choice in Cooper."
+    },
+    {
+      "playerId": "spencer-fano",
+      "analyst": "Ian Rapoport",
+      "outlet": "NFL Network",
+      "strength": 55,
+      "isInsiderLanguage": true,
+      "quote": "Panthers (and other teams) have done a lot of work on the top tackles. Do they try to jump in front of the Lions? (Don't be shocked Thursday night if it happens.)"
+    },
+    {
+      "playerId": "spencer-fano",
+      "analyst": "Albert Breer",
+      "outlet": "SI.com",
+      "strength": 52,
+      "isInsiderLanguage": true,
+      "quote": "Panthers (among others) as a team that might need tackle help. And with a run looming, do they try to jump the line?"
+    },
+    {
+      "playerId": "monroe-freeling",
+      "analyst": "Ian Rapoport",
+      "outlet": "NFL Network",
+      "strength": 50,
+      "isInsiderLanguage": true,
+      "quote": "Panthers (and other teams) have done a lot of work on the top tackles. Do they try to jump in front of the Lions?"
+    },
+    {
+      "playerId": "monroe-freeling",
+      "analyst": "Dan Graziano",
+      "outlet": "ESPN",
+      "strength": 48,
+      "isInsiderLanguage": true,
+      "quote": "Teams that would love to come out of Thursday night with a new offensive lineman \u2014 Panthers (among others)."
+    },
+    {
+      "playerId": "kadyn-proctor",
+      "analyst": "Ian Rapoport",
+      "outlet": "NFL Network",
+      "strength": 48,
+      "isInsiderLanguage": true,
+      "quote": "Panthers (and other teams) have done a lot of work on the top tackles. Would require larger trade-up."
+    },
+    {
+      "playerId": "francis-mauigoa",
+      "analyst": "Ian Rapoport",
+      "outlet": "NFL Network",
+      "strength": 45,
+      "isInsiderLanguage": true,
+      "quote": "Panthers have done a lot of work on the top tackles. (Mauigoa is the highest-ranked available.)"
     }
   ],
   "BUF": [
@@ -2535,6 +2831,14 @@
       "strength": 38,
       "isInsiderLanguage": false,
       "quote": "Favorite fit: EDGE Malachi Lawrence to the Buffalo Bills."
+    },
+    {
+      "playerId": "tj-parker",
+      "analyst": "Joe Buscaglia",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 48,
+      "isInsiderLanguage": false,
+      "quote": "Bills need depth at OLB and a young player who can become their starter. Parker has skills to eventually become a three-down player while immediately offering rotational and passing-down upside."
     }
   ],
   "SEA": [
@@ -2585,6 +2889,14 @@
       "strength": 42,
       "isInsiderLanguage": false,
       "quote": "Seahawks take Hood at 32. (Brugler 7-round mock, 2026-04-22)"
+    },
+    {
+      "playerId": "kayden-mcdonald",
+      "analyst": "Michael-Shawn Dugar",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 48,
+      "isInsiderLanguage": false,
+      "quote": "Seahawks won the Super Bowl behind one of the league's best D-fronts. No harm in making a strong group stronger. McDonald \u2014 stout run defender with pass-rush upside \u2014 can learn from Leonard Williams and Jarran Reed before stepping into a bigger role."
     }
   ],
   "NE": [
@@ -2659,6 +2971,14 @@
       "strength": 42,
       "isInsiderLanguage": false,
       "quote": "Patriots take Miller at 31. (Brugler 7-round mock, 2026-04-22)"
+    },
+    {
+      "playerId": "malachi-lawrence",
+      "analyst": "Chad Graff",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 48,
+      "isInsiderLanguage": false,
+      "quote": "Patriots had a few options for an edge rusher \u2014 go with Lawrence because of how different he is from what they have. They signed Dre'Mont Jones, but he's bulked up and plays well vs the rush. Lawrence is more of a pure pass rusher with quickest 10-yard split of any edge in the top two days."
     }
   ],
   "DEN": [
@@ -2709,6 +3029,14 @@
       "strength": 42,
       "isInsiderLanguage": false,
       "quote": "There looks to be good interest between the Broncos and Omar Cooper."
+    },
+    {
+      "playerId": "eli-stowers",
+      "analyst": "Nick Kosmider",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 45,
+      "isInsiderLanguage": false,
+      "quote": "45.5-inch combine vert (TE record). Better described as a jumbo slot than a true TE. Broncos could use more weapons around Bo Nix, especially with Engram entering last year of his deal."
     }
   ],
   "IND": [
@@ -2727,9 +3055,26 @@
       "strength": 30,
       "isInsiderLanguage": false,
       "quote": "Chris Bell (WR, Louisville): Discussed for Colts. (Ep. 2026-04-21)"
+    },
+    {
+      "playerId": "zion-young",
+      "analyst": "James Boyd",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 45,
+      "isInsiderLanguage": false,
+      "quote": "Colts need to upgrade pass rush opposite Latu. Young's 6-6, 257 with 16.5 TFL, 6.5 sacks last year, first-team All-SEC. Will need to improve his pass-rush plans, but solid run-stopper with all the physical tools."
     }
   ],
-  "JAX": [],
+  "JAX": [
+    {
+      "playerId": "r-mason-thomas",
+      "analyst": "Jeff Howe",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 42,
+      "isInsiderLanguage": false,
+      "quote": "Jags well-stocked with Hines-Allen and Walker but need more juice to close games. Thomas undersized at 6-2, 241 but strong, compact, leverage. Should help immediately as a rotational rusher."
+    }
+  ],
   "ATL": [
     {
       "playerId": "carnell-tate",
@@ -2738,6 +3083,14 @@
       "strength": 30,
       "isInsiderLanguage": true,
       "quote": "Falcons want a field-stretching WR on Day 2. Tate fits profile as vertical threat. (Underdog NFL, 2026-04-09)"
+    },
+    {
+      "playerId": "blake-miller",
+      "analyst": "Josh Kendall",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 45,
+      "isInsiderLanguage": false,
+      "quote": "Not an immediate-need position \u2014 Matthews on left, Taylor signed on right. But Miller too good to pass up. Brugler's #29 overall, #6 OT. Four-year starter with 84-inch wingspan. High-character pick for Cunningham's first."
     }
   ],
   "GB": [
@@ -2748,6 +3101,14 @@
       "strength": 38,
       "isInsiderLanguage": true,
       "quote": "CB Chris Johnson has fans in Packers scouting department. (Underdog NFL, 2026-04-09)"
+    },
+    {
+      "playerId": "chris-johnson",
+      "analyst": "Matt Schneidman",
+      "outlet": "The Athletic Beat Writer Mock 3.0",
+      "strength": 48,
+      "isInsiderLanguage": true,
+      "quote": "Packers need CB help now and in the future. Nixon and Valentine don't look like a top-two fit for a Super Bowl contender, both entering contract years. Gutekunst on a lie detector would say that room could do better. Johnson is Brugler's third-best CB."
     }
   ]
 }
