@@ -40,6 +40,20 @@ export function calculateDesireScore({ player, team, regime, beatWriterLinks, cu
     injuryMult = 1.0 - (player.injuryRisk * riskRoll)
   }
 
+  // Step 1c: Concern score — severe red flags beyond ordinary injury risk
+  // (failed medicals, character concerns, scouting-combine fallout, off-field
+  // news). Scored 0–100; every 10 points ≈ one round of expected slide.
+  // Randomized 0.6–1.0 roll so some teams "are comfortable with the concerns"
+  // while most pass — e.g. Jermod McCoy's 2026 medicals recently dropped him
+  // out of round 1. At concernScore=70 the player's expected value drops
+  // ~49% at the harsh end and ~42% on average.
+  let concernMult = 1.0
+  if (player.concernScore > 0) {
+    const concern = player.concernScore / 100
+    const concernRoll = 0.6 + Math.random() * 0.4  // 0.6 to 1.0
+    concernMult = Math.max(0.2, 1.0 - concern * concernRoll)
+  }
+
   // Step 1b: "Fallen too far" urgency boost.
   //
   // When a top prospect is still available well past their consensus pick,
@@ -154,9 +168,9 @@ export function calculateDesireScore({ player, team, regime, beatWriterLinks, cu
   //   freakScore 1.0 (4+ elite traits) → 1.06x
   const freakMultiplier = 1.0 + (player.freakScore ?? 0) * 0.06
 
-  // Step 6: Pre-noise score — penalty, urgency, regime, and injury all applied
+  // Step 6: Pre-noise score — penalty, urgency, regime, and risk factors applied
   const preNoiseScore =
-    (baseScore * needMultiplier + beatWriterBonus + insiderBonus) * regimeMultiplier * mockRangePenalty * urgencyMultiplier * freakMultiplier * injuryMult
+    (baseScore * needMultiplier + beatWriterBonus + insiderBonus) * regimeMultiplier * mockRangePenalty * urgencyMultiplier * freakMultiplier * injuryMult * concernMult
 
   // Step 7: Gaussian noise — two components, amplified by polarization.
   //
@@ -182,6 +196,7 @@ export function calculateDesireScore({ player, team, regime, beatWriterLinks, cu
     baseScore,
     positionalMult,
     injuryMult,
+    concernMult,
     needMultiplier,
     beatWriterBonus,
     insiderBonus,

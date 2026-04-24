@@ -242,17 +242,19 @@
     "school": "Tennessee",
     "consensusScore": 75,
     "athleticism": 87,
-    "notes": "Competitive SEC corner who excels in press-man coverage. Quick-twitch athlete with the physicality to match up with big receivers.",
+    "concernScore": 70,
+    "notes": "Competitive SEC corner who excels in press-man coverage. Quick-twitch athlete with the physicality to match up with big receivers. Recent pre-draft medicals raised significant concerns around teams, dropping him out of round 1.",
     "mockRange": {
-      "floor": 6,
-      "ceiling": 20,
-      "consensus": 15
+      "floor": 35,
+      "ceiling": 75,
+      "consensus": 55
     },
     "tags": [
       "press-coverage",
       "SEC-tested",
       "scheme-fit:man-coverage",
-      "physicality"
+      "physicality",
+      "medical-concerns"
     ]
   },
   {
