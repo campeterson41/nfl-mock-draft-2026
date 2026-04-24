@@ -12,13 +12,13 @@
 // Gentle upward curve — later rounds are harder to predict, so they're
 // worth a bit more. But not dramatically: a R7 hit is ~2x a R1 hit, not 6x.
 const ROUND_BASE_POINTS = {
-  1: 10,
-  2: 12,
-  3: 14,
-  4: 16,
-  5: 18,
-  6: 20,
-  7: 22,
+  1: 13,
+  2: 15,
+  3: 17,
+  4: 19,
+  5: 21,
+  6: 23,
+  7: 25,
 }
 
 function roundFromOverall(overall) {
@@ -138,6 +138,8 @@ export function scoreSubmission(submission, actuals, players = [], teamId = null
 
     actualTrades.forEach((actual, idx) => {
       if (claimedActualIdxs.has(idx)) return
+      // Predictive mode: only score trades the user's team was actually party to.
+      if (teamId && actual.teamAId !== teamId && actual.teamBId !== teamId) return
       const tradeResult = scoreTradeMatch(predicted, actual)
       if (tradeResult.points > bestScore) {
         bestScore = tradeResult.points
