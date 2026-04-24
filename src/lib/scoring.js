@@ -12,13 +12,13 @@
 // Gentle upward curve — later rounds are harder to predict, so they're
 // worth a bit more. But not dramatically: a R7 hit is ~2x a R1 hit, not 6x.
 const ROUND_BASE_POINTS = {
-  1: 13,
-  2: 15,
-  3: 17,
-  4: 19,
-  5: 21,
-  6: 23,
-  7: 25,
+  1: 12,
+  2: 14,
+  3: 16,
+  4: 18,
+  5: 20,
+  6: 22,
+  7: 24,
 }
 
 function roundFromOverall(overall) {
@@ -110,14 +110,14 @@ export function scoreSubmission(submission, actuals, players = [], teamId = null
     const predictedPlayer = playerMap[predictedPlayerId]
     const actualPlayer   = playerMap[actualPick.playerId]
     if (predictedPlayer && actualPlayer && predictedPlayer.position === actualPlayer.position) {
-      total += 3
+      total += 5
       breakdown.push({
         type: 'position',
         overall,
         predictedPlayerId,
         actualPlayerId: actualPick.playerId,
         position: predictedPlayer.position,
-        points: 3,
+        points: 5,
       })
     }
   }
