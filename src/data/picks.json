@@ -589,7 +589,7 @@
       "overall": 66,
       "round": 3,
       "roundPick": 2,
-      "teamId": "TEN",
+      "teamId": "BUF",
       "originalTeamId": "TEN",
       "isCompensatory": false,
       "isFuturePick": false
@@ -616,7 +616,7 @@
       "overall": 69,
       "round": 3,
       "roundPick": 5,
-      "teamId": "HOU",
+      "teamId": "TEN",
       "originalTeamId": "NYG",
       "isCompensatory": false,
       "isFuturePick": false
@@ -661,7 +661,7 @@
       "overall": 74,
       "round": 3,
       "roundPick": 10,
-      "teamId": "KC",
+      "teamId": "CLE",
       "originalTeamId": "KC",
       "isCompensatory": false,
       "isFuturePick": false
@@ -805,7 +805,7 @@
       "overall": 90,
       "round": 3,
       "roundPick": 26,
-      "teamId": "MIA",
+      "teamId": "SF",
       "originalTeamId": "HOU",
       "isCompensatory": false,
       "isFuturePick": false
@@ -814,7 +814,7 @@
       "overall": 91,
       "round": 3,
       "roundPick": 27,
-      "teamId": "BUF",
+      "teamId": "HOU",
       "originalTeamId": "BUF",
       "isCompensatory": false,
       "isFuturePick": false
@@ -904,7 +904,7 @@
       "overall": 101,
       "round": 4,
       "roundPick": 1,
-      "teamId": "TEN",
+      "teamId": "BUF",
       "originalTeamId": "TEN",
       "isCompensatory": false,
       "isFuturePick": false
@@ -1021,7 +1021,7 @@
       "overall": 114,
       "round": 4,
       "roundPick": 14,
-      "teamId": "PHI",
+      "teamId": "DAL",
       "originalTeamId": "ATL",
       "isCompensatory": false,
       "isFuturePick": false
@@ -1120,7 +1120,7 @@
       "overall": 125,
       "round": 4,
       "roundPick": 25,
-      "teamId": "NE",
+      "teamId": "BUF",
       "originalTeamId": "CHI",
       "isCompensatory": false,
       "isFuturePick": false
@@ -1228,7 +1228,7 @@
       "overall": 137,
       "round": 4,
       "roundPick": 37,
-      "teamId": "PHI",
+      "teamId": "DAL",
       "originalTeamId": "PHI",
       "isCompensatory": true,
       "isFuturePick": false
@@ -1237,7 +1237,7 @@
       "overall": 138,
       "round": 4,
       "roundPick": 38,
-      "teamId": "SF",
+      "teamId": "MIA",
       "originalTeamId": "SF",
       "isCompensatory": true,
       "isFuturePick": false
@@ -1327,7 +1327,7 @@
       "overall": 148,
       "round": 5,
       "roundPick": 8,
-      "teamId": "KC",
+      "teamId": "CLE",
       "originalTeamId": "KC",
       "isCompensatory": false,
       "isFuturePick": false
@@ -1480,7 +1480,7 @@
       "overall": 165,
       "round": 5,
       "roundPick": 25,
-      "teamId": "BUF",
+      "teamId": "TEN",
       "originalTeamId": "CHI",
       "isCompensatory": false,
       "isFuturePick": false
@@ -1498,7 +1498,7 @@
       "overall": 167,
       "round": 5,
       "roundPick": 27,
-      "teamId": "HOU",
+      "teamId": "BUF",
       "originalTeamId": "HOU",
       "isCompensatory": false,
       "isFuturePick": false
@@ -1588,7 +1588,7 @@
       "overall": 177,
       "round": 5,
       "roundPick": 37,
-      "teamId": "DAL",
+      "teamId": "MIA",
       "originalTeamId": "DAL",
       "isCompensatory": true,
       "isFuturePick": false
@@ -1606,7 +1606,7 @@
       "overall": 179,
       "round": 5,
       "roundPick": 39,
-      "teamId": "NYJ",
+      "teamId": "SF",
       "originalTeamId": "NYJ",
       "isCompensatory": true,
       "isFuturePick": false
@@ -1615,7 +1615,7 @@
       "overall": 180,
       "round": 5,
       "roundPick": 40,
-      "teamId": "DAL",
+      "teamId": "MIA",
       "originalTeamId": "DAL",
       "isCompensatory": true,
       "isFuturePick": false
