@@ -14,17 +14,77 @@ function buildInitialState(sessionConfig) {
   // Keep ALL picks in state (needed for trades), but only sim through numRounds
   const numRounds = sessionConfig.numRounds ?? 7
   const allPicks = JSON.parse(JSON.stringify(picksData.picks))
-  const activePicks = allPicks.filter(p => p.round <= numRounds)
   const futurePicks = JSON.parse(JSON.stringify(picksData.futurePicks))
+  const teams = JSON.parse(JSON.stringify(teamsData))
 
-  // Build team pick inventory — includes ALL picks for trade purposes
+  // If resuming from the live draft, apply seeded picks: override pick
+  // ownership (to reflect live trades), fill selectedPlayers, reduce team
+  // need weights so AI picks beyond the seed stay in character, and advance
+  // the cursor past the already-drafted slots.
+  const seedPicks = sessionConfig.seedPicks ?? {}
+  const seededOveralls = Object.keys(seedPicks)
+    .map(n => Number(n))
+    .filter(n => seedPicks[n]?.playerId && seedPicks[n]?.teamId)
+
+  // 1. Override pick ownership for seeded slots so trades are reflected.
+  for (const overall of seededOveralls) {
+    const seed = seedPicks[overall]
+    const pick = allPicks.find(p => p.overall === overall)
+    if (pick) pick.teamId = seed.teamId
+  }
+
+  const activePicks = allPicks.filter(p => p.round <= numRounds)
+
+  // 2. Build selectedPlayers map + track drafted player ids to remove from pool.
+  const selectedPlayers = {}
+  const draftedIds = new Set()
+  const playerById = Object.fromEntries(playersData.map(p => [p.id, p]))
+  for (const overall of seededOveralls) {
+    const seed = seedPicks[overall]
+    const player = playerById[seed.playerId]
+    if (!player) continue
+    selectedPlayers[overall] = {
+      player,
+      teamId: seed.teamId,
+      reasoning: { summary: 'Actual 2026 NFL Draft pick.' },
+    }
+    draftedIds.add(player.id)
+
+    // Apply the same needWeight reduction MAKE_PICK uses, so AI logic
+    // downstream doesn't double-up on positions the team already addressed.
+    const team = teams[seed.teamId]
+    if (team) {
+      const pick = allPicks.find(p => p.overall === overall)
+      const round = pick?.round ?? Math.min(7, Math.ceil(overall / 37))
+      const reduction = round <= 2 ? 1.5 : round <= 4 ? 1.0 : 0.5
+      if (team.needWeights?.[player.position] != null) {
+        team.needWeights[player.position] = Math.max(
+          0.5,
+          team.needWeights[player.position] - reduction
+        )
+      }
+    }
+  }
+
+  // 3. Build team pick inventory — includes ALL picks for trade purposes.
   const teamPickInventory = {}
-  for (const team of Object.values(teamsData)) {
+  for (const team of Object.values(teams)) {
     teamPickInventory[team.id] = {
       currentPicks: allPicks.filter(p => p.teamId === team.id),
       futurePicks: futurePicks.filter(fp => fp.ownerTeamId === team.id),
     }
   }
+
+  const availablePlayers = [...playersData]
+    .filter(p => !draftedIds.has(p.id))
+    .sort((a, b) => a.rank - b.rank)
+
+  // 4. Advance the cursor past any seeded slots that fall within activePicks.
+  // Seeded picks always fill slots 1..N in order, so currentPickIndex is the
+  // count of seeded picks whose overall is <= the last active pick.
+  const currentPickIndex = activePicks.filter(
+    p => seededOveralls.includes(p.overall)
+  ).length
 
   return {
     phase: 'drafting',
@@ -33,11 +93,11 @@ function buildInitialState(sessionConfig) {
     allPicks,                 // all 257 picks (for trade modal)
     futurePicks,
     teamPickInventory,
-    teams: JSON.parse(JSON.stringify(teamsData)),
+    teams,
     regimes: regimesData,
-    availablePlayers: [...playersData].sort((a, b) => a.rank - b.rank),
-    selectedPlayers: {}, // overall -> { player, teamId, reasoning }
-    currentPickIndex: 0,
+    availablePlayers,
+    selectedPlayers,
+    currentPickIndex,
     timerActive: false,
     fastSim: false,
     isPaused: false,

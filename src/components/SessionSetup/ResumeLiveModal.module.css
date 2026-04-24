@@ -1,0 +1,119 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.78);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+  animation: overlayIn 0.2s ease;
+}
+
+@keyframes overlayIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.modal {
+  width: 100%;
+  max-width: 520px;
+  background: #0d0f14;
+  border: 1px solid #1a1d27;
+  border-left: 3px solid #d4a843;
+  border-radius: 4px;
+  color: #fafafa;
+  animation: modalIn 0.25s ease;
+}
+
+@keyframes modalIn {
+  from { transform: translateY(10px); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px 22px 12px;
+  border-bottom: 1px solid #1a1d27;
+}
+
+.eyebrow {
+  margin: 0 0 6px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.22em;
+  color: #d4a843;
+}
+
+.title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: #fafafa;
+}
+
+.closeBtn {
+  background: transparent;
+  border: none;
+  color: #71717a;
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 300;
+  cursor: pointer;
+  padding: 2px 8px;
+  margin-left: 12px;
+}
+.closeBtn:hover { color: #fafafa; }
+
+.body {
+  margin: 16px 22px 0;
+  font-size: 13px;
+  line-height: 1.55;
+  color: #a1a1aa;
+}
+
+.body strong {
+  color: #fafafa;
+  font-weight: 700;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  padding: 20px 22px 22px;
+  flex-wrap: wrap;
+}
+
+.btnPrimary,
+.btnSecondary {
+  flex: 1 1 180px;
+  padding: 12px 18px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  border-radius: 2px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.btnPrimary {
+  background: #d4a843;
+  color: #000;
+}
+.btnPrimary:hover {
+  background: #e2b855;
+}
+
+.btnSecondary {
+  background: transparent;
+  color: #d4d4d8;
+  border-color: #27272a;
+}
+.btnSecondary:hover {
+  border-color: #3f3f46;
+  color: #fafafa;
+}

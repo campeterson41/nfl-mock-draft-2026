@@ -1,0 +1,539 @@
+/* PredictiveResults — reuses ResultsScreen patterns */
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  background: #09090b;
+  overflow: hidden;
+}
+
+/* ── Header ── */
+
+.header {
+  flex-shrink: 0;
+  padding: 28px 40px 24px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  background: #0f0f12;
+}
+
+.headerInner {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.headerLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.eyebrow {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  color: #d4a843;
+  text-transform: uppercase;
+}
+
+.headline {
+  font-size: 38px;
+  font-weight: 900;
+  color: #fafafa;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+.subline {
+  font-size: 13px;
+  color: #52525b;
+  font-weight: 500;
+}
+
+.headerActions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  padding-bottom: 4px;
+}
+
+.btnOutline {
+  padding: 10px 20px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.12);
+  color: #a1a1aa;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: border-color 150ms, color 150ms;
+}
+.btnOutline:hover { border-color: rgba(255,255,255,0.25); color: #fafafa; }
+
+.btnShare {
+  padding: 10px 20px;
+  background: transparent;
+  border: 1px solid rgba(212, 168, 67, 0.4);
+  color: #d4a843;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: background 150ms, border-color 150ms;
+}
+.btnShare:hover:not(:disabled) {
+  background: rgba(212, 168, 67, 0.08);
+  border-color: #d4a843;
+}
+.btnShare:disabled { opacity: 0.5; cursor: default; }
+
+/* ── Content ── */
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 32px 40px 48px;
+}
+.content::-webkit-scrollbar { width: 4px; }
+.content::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.08); border-radius: 2px; }
+
+/* ── Pick cards ── */
+
+.pickGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.pickCard {
+  position: relative;
+  background: #18181b;
+  border: 1px solid rgba(255,255,255,0.07);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: cardIn 320ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  transition: border-color 150ms, transform 150ms;
+}
+.pickCard:hover {
+  border-color: rgba(255,255,255,0.14);
+  transform: translateY(-2px);
+}
+
+@keyframes cardIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.pickCardStripe {
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 3px;
+  background: var(--team-color, #d4a843);
+}
+
+.pickCardTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 14px 6px 18px;
+}
+
+.pickMeta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.pickRound {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #52525b;
+  text-transform: uppercase;
+}
+
+.pickDot {
+  width: 3px; height: 3px;
+  border-radius: 50%;
+  background: #3f3f46;
+}
+
+.pickOverall {
+  font-size: 11px;
+  font-weight: 700;
+  color: #71717a;
+  font-variant-numeric: tabular-nums;
+}
+
+.pickTeam {
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.pickCardBody {
+  padding: 8px 14px 10px 18px;
+  flex: 1;
+}
+
+.pickName {
+  font-size: 22px;
+  font-weight: 900;
+  color: #fafafa;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin-bottom: 3px;
+}
+
+.pickSchool {
+  font-size: 12px;
+  color: #71717a;
+  font-weight: 400;
+}
+
+.pickCardFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 9px 14px 9px 18px;
+  border-top: 1px solid rgba(255,255,255,0.05);
+  background: rgba(0,0,0,0.2);
+}
+
+.posPill {
+  display: inline-block;
+  padding: 2px 7px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.pickRank {
+  font-size: 10px;
+  font-weight: 600;
+  color: #52525b;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Trades ── */
+
+.tradeSection { margin-bottom: 24px; }
+
+.tradeSectionTitle {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  color: #52525b;
+  margin-bottom: 10px;
+}
+
+.tradeGrid {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.tradeCard {
+  background: #18181b;
+  border: 1px solid rgba(212, 168, 67, 0.2);
+  border-left: 3px solid #d4a843;
+  padding: 14px 16px;
+  min-width: 240px;
+  animation: cardIn 320ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.tradeCardHeader {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.tradeLabel {
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  color: #d4a843;
+  background: rgba(212, 168, 67, 0.1);
+  padding: 2px 7px;
+  border-radius: 2px;
+}
+
+.tradePartner {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.tradeCardBody {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.tradeSide {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.tradeSideLabel {
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #3f3f46;
+}
+
+.tradePick {
+  font-size: 13px;
+  font-weight: 700;
+  color: #fafafa;
+  font-variant-numeric: tabular-nums;
+}
+
+.tradeArrow {
+  font-size: 14px;
+  color: #52525b;
+  font-weight: 700;
+  padding: 0 4px;
+}
+
+/* ── Share panel ── */
+
+.sharePanel {
+  position: fixed;
+  left: -9999px;
+  top: 0;
+  width: 1080px;
+  background: #09090b;
+  padding: 48px;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.sharePanelHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 36px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.sharePanelEyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  color: #d4a843;
+  text-transform: uppercase;
+}
+
+.sharePanelTitle {
+  font-size: 44px;
+  font-weight: 900;
+  color: #fafafa;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+.sharePanelCount {
+  font-size: 13px;
+  color: #52525b;
+  font-weight: 500;
+}
+
+.shareTradeRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+.shareTradeItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(212, 168, 67, 0.06);
+  border: 1px solid rgba(212, 168, 67, 0.15);
+  border-left: 3px solid #d4a843;
+  padding: 8px 14px;
+}
+
+.shareTradeLabel {
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  color: #d4a843;
+}
+
+.shareTradeSummary {
+  font-size: 12px;
+  color: #a1a1aa;
+  font-weight: 500;
+}
+
+.sharePanelGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.shareCard {
+  position: relative;
+  background: #18181b;
+  border: 1px solid rgba(255,255,255,0.07);
+  padding: 14px 14px 12px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.shareCardStripe {
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 3px;
+  background: var(--team-color, #d4a843);
+}
+
+.shareCardTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shareCardMeta {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #52525b;
+  text-transform: uppercase;
+}
+
+.shareCardTeam {
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.shareCardName {
+  font-size: 18px;
+  font-weight: 900;
+  color: #fafafa;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.shareCardBottom {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 2px;
+}
+
+.shareCardPos {
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.shareCardSchool {
+  font-size: 11px;
+  color: #71717a;
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.shareCardRank {
+  font-size: 10px;
+  color: #3f3f46;
+  font-variant-numeric: tabular-nums;
+  flex-shrink: 0;
+}
+
+.sharePanelFooter {
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255,255,255,0.05);
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: #3f3f46;
+  text-transform: lowercase;
+}
+
+/* ── Mobile responsive ── */
+
+@media (max-width: 767px) {
+  .header { padding: 20px 16px 16px; }
+
+  .headerInner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+  }
+
+  .headline { font-size: 26px; }
+
+  .headerActions {
+    flex-wrap: wrap;
+    gap: 8px;
+    padding-bottom: 0;
+  }
+
+  .btnOutline, .btnShare {
+    flex: 1;
+    min-width: 0;
+    text-align: center;
+    padding: 10px 12px;
+    font-size: 10px;
+  }
+
+  .btnShare {
+    flex-basis: 100%;
+    order: -1;
+    background: rgba(212, 168, 67, 0.1);
+    border-color: #d4a843;
+    font-size: 12px;
+    padding: 12px;
+  }
+
+  .content { padding: 16px 16px 32px; }
+
+  .pickGrid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .pickName { font-size: 18px; }
+
+  .tradeGrid { flex-direction: column; }
+  .tradeCard { min-width: 0; width: 100%; }
+}

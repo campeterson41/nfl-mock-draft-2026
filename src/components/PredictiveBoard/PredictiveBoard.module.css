@@ -1,0 +1,473 @@
+/* PredictiveBoard — prediction mode layout */
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  background: #09090b;
+  overflow: hidden;
+}
+
+/* ── Header ── */
+
+.header {
+  flex-shrink: 0;
+  padding: 28px 40px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  background: #0f0f12;
+}
+
+.headerInner {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.headerLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.eyebrow {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  color: #d4a843;
+  text-transform: uppercase;
+}
+
+.headline {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 32px;
+  font-weight: 900;
+  color: #fafafa;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+.teamDot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.subline {
+  font-size: 13px;
+  color: #52525b;
+  font-weight: 500;
+}
+
+.headerActions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  padding-bottom: 4px;
+}
+
+.btnOutline {
+  padding: 10px 20px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.12);
+  color: #a1a1aa;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: border-color 150ms, color 150ms;
+}
+.btnOutline:hover { border-color: rgba(255,255,255,0.25); color: #fafafa; }
+
+.btnTrade {
+  padding: 10px 20px;
+  background: transparent;
+  border: 1px solid rgba(212, 168, 67, 0.4);
+  color: #d4a843;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: background 150ms, border-color 150ms;
+}
+.btnTrade:hover {
+  background: rgba(212, 168, 67, 0.08);
+  border-color: #d4a843;
+}
+
+.btnGold {
+  padding: 10px 24px;
+  background: #d4a843;
+  border: none;
+  color: #09090b;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: opacity 150ms;
+}
+.btnGold:hover:not(:disabled) { opacity: 0.88; }
+.btnGold:disabled { cursor: default; }
+
+/* Progress bar */
+.progressBar {
+  height: 3px;
+  background: rgba(255,255,255,0.06);
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.progressFill {
+  height: 100%;
+  transition: width 300ms ease;
+}
+
+/* ── Content ── */
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 32px 40px 80px;
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+}
+.content::-webkit-scrollbar { width: 4px; }
+.content::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.08); border-radius: 2px; }
+
+/* ── Round groups ── */
+
+.roundGroup {
+  margin-bottom: 28px;
+}
+
+.roundLabel {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  color: #52525b;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+/* ── Slot ── */
+
+.slot {
+  background: #18181b;
+  border: 1px solid rgba(255,255,255,0.07);
+  margin-bottom: 8px;
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  transition: border-color 150ms;
+}
+
+.slotEmpty {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.slotMeta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.slotRound {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  color: #52525b;
+  text-transform: uppercase;
+}
+
+.slotDot {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #3f3f46;
+}
+
+.slotOverall {
+  font-size: 13px;
+  font-weight: 800;
+  color: #fafafa;
+  font-variant-numeric: tabular-nums;
+}
+
+.slotRoundPick {
+  font-size: 11px;
+  color: #3f3f46;
+  font-weight: 500;
+}
+
+/* Assigned state */
+.slotAssigned {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  min-width: 0;
+}
+
+.slotPlayerName {
+  font-size: 16px;
+  font-weight: 800;
+  color: #fafafa;
+  letter-spacing: -0.01em;
+}
+
+.slotPlayerSchool {
+  font-size: 12px;
+  color: #71717a;
+}
+
+.slotPlayerRank {
+  font-size: 11px;
+  color: #52525b;
+  font-variant-numeric: tabular-nums;
+  margin-left: auto;
+}
+
+.slotClearBtn {
+  padding: 5px 12px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.08);
+  color: #71717a;
+  font-family: inherit;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  border-radius: 2px;
+  flex-shrink: 0;
+  transition: color 150ms, border-color 150ms;
+}
+.slotClearBtn:hover { color: #ef4444; border-color: rgba(239, 68, 68, 0.3); }
+
+/* Empty slot button */
+.slotSelectBtn {
+  padding: 12px;
+  background: rgba(255,255,255,0.03);
+  border: 1px dashed rgba(255,255,255,0.1);
+  color: #52525b;
+  font-family: inherit;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: color 150ms, border-color 150ms, background 150ms;
+}
+.slotSelectBtn:hover {
+  color: #d4a843;
+  border-color: rgba(212, 168, 67, 0.3);
+  background: rgba(212, 168, 67, 0.04);
+}
+
+/* ── Dropdown ── */
+
+.dropdown {
+  border: 1px solid rgba(212, 168, 67, 0.2);
+  border-radius: 2px;
+  background: #141417;
+  overflow: hidden;
+}
+
+.dropdownSearch {
+  width: 100%;
+  padding: 10px 14px;
+  background: #0f0f12;
+  border: none;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  color: #fafafa;
+  font-family: inherit;
+  font-size: 13px;
+  outline: none;
+}
+.dropdownSearch::placeholder { color: #3f3f46; }
+
+.dropdownFilters {
+  display: flex;
+  gap: 2px;
+  padding: 6px 8px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+
+.dropdownPosBtn {
+  padding: 3px 8px;
+  background: transparent;
+  border: none;
+  color: #52525b;
+  font-family: inherit;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: color 150ms, background 150ms;
+}
+.dropdownPosBtn:hover { color: #a1a1aa; }
+.dropdownPosBtnActive {
+  color: #d4a843;
+  background: rgba(212, 168, 67, 0.1);
+}
+
+.dropdownList {
+  max-height: 280px;
+  overflow-y: auto;
+}
+.dropdownList::-webkit-scrollbar { width: 4px; }
+.dropdownList::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.08); border-radius: 2px; }
+
+.dropdownEmpty {
+  padding: 20px;
+  text-align: center;
+  color: #3f3f46;
+  font-size: 12px;
+}
+
+.dropdownRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+  cursor: pointer;
+  text-align: left;
+  font-family: inherit;
+  transition: background 100ms;
+}
+.dropdownRow:hover { background: rgba(255,255,255,0.04); }
+.dropdownRow:last-child { border-bottom: none; }
+
+.dropdownRowSuggested {
+  background: rgba(212, 168, 67, 0.03);
+}
+.dropdownRowSuggested:hover {
+  background: rgba(212, 168, 67, 0.07);
+}
+
+.dropdownRank {
+  font-size: 11px;
+  font-weight: 700;
+  color: #52525b;
+  min-width: 28px;
+  font-variant-numeric: tabular-nums;
+}
+
+.dropdownName {
+  font-size: 13px;
+  font-weight: 700;
+  color: #fafafa;
+  flex: 1;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.dropdownSchool {
+  font-size: 11px;
+  color: #52525b;
+  white-space: nowrap;
+}
+
+.suggestedBadge {
+  font-size: 8px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  color: #d4a843;
+  background: rgba(212, 168, 67, 0.12);
+  padding: 2px 6px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.dropdownRange {
+  font-size: 10px;
+  color: #3f3f46;
+  font-variant-numeric: tabular-nums;
+  flex-shrink: 0;
+}
+
+/* ── Position pill ── */
+
+.posPill {
+  display: inline-block;
+  padding: 2px 7px;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+/* ── Mobile responsive ── */
+
+@media (max-width: 767px) {
+  .header { padding: 20px 16px 0; }
+
+  .headerInner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+    padding-bottom: 16px;
+  }
+
+  .headline { font-size: 22px; }
+
+  .headerActions {
+    flex-wrap: wrap;
+    gap: 8px;
+    padding-bottom: 0;
+  }
+
+  .btnOutline, .btnTrade, .btnGold {
+    flex: 1;
+    min-width: 0;
+    text-align: center;
+    padding: 10px 12px;
+    font-size: 10px;
+  }
+
+  .content { padding: 16px 16px 60px; }
+
+  .slot { padding: 12px 14px; gap: 10px; }
+
+  .slotAssigned { flex-wrap: wrap; gap: 6px; }
+  .slotPlayerName { font-size: 14px; }
+  .slotPlayerRank { margin-left: 0; }
+
+  .dropdownFilters { gap: 1px; padding: 4px 6px; }
+  .dropdownPosBtn { font-size: 8px; padding: 3px 5px; }
+}

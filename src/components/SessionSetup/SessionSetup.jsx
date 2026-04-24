@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import CreateGroupModal from '../GroupPage/CreateGroupModal.jsx'
+import ResumeLiveModal from './ResumeLiveModal.jsx'
+import { getActuals } from '../../lib/groupApi.js'
 import styles from './SessionSetup.module.css'
 
 const SORT_OPTIONS = [
@@ -111,6 +113,8 @@ export default function SessionSetup({ onStart, onPrivacy, onAbout }) {
   const [numRounds, setNumRounds]     = useState(7)
   const [teamSort, setTeamSort]       = useState('pick')
   const [groupModalOpen, setGroupModalOpen] = useState(false)
+  const [resumeModal, setResumeModal] = useState({ open: false, seedPicks: null, livePickCount: 0 })
+  const [checkingLive, setCheckingLive] = useState(false)
 
   const transition = (nextScreen) => {
     setLeaving(true)
@@ -147,7 +151,26 @@ export default function SessionSetup({ onStart, onPrivacy, onAbout }) {
     return true
   }
 
-  const handleStart = () => {
+  const handleStart = async () => {
+    // In "Control Your Team" mode, if the live draft has started, offer the
+    // user a choice between resuming from the live state or simulating fresh.
+    if (mode === 'single') {
+      setCheckingLive(true)
+      try {
+        const actuals = await getActuals()
+        const filled = Object.entries(actuals?.picks ?? {})
+          .filter(([, v]) => v?.playerId && v?.teamId)
+        if (filled.length > 0) {
+          const seedPicks = Object.fromEntries(filled)
+          setResumeModal({ open: true, seedPicks, livePickCount: filled.length })
+          setCheckingLive(false)
+          return
+        }
+      } catch {
+        // If the actuals fetch fails, fall through to a fresh sim.
+      }
+      setCheckingLive(false)
+    }
     onStart({ mode, userTeamIds: selectedIds, numRounds })
   }
 
@@ -407,8 +430,8 @@ export default function SessionSetup({ onStart, onPrivacy, onAbout }) {
               >
                 ← BACK
               </button>
-              <button className={styles.startBtn} onClick={handleStart}>
-                <span className={styles.startBtnLabel}>START DRAFT</span>
+              <button className={styles.startBtn} onClick={handleStart} disabled={checkingLive}>
+                <span className={styles.startBtnLabel}>{checkingLive ? 'CHECKING…' : 'START DRAFT'}</span>
                 <span className={styles.startBtnSub}>GO ON THE CLOCK</span>
               </button>
             </div>
@@ -439,6 +462,22 @@ export default function SessionSetup({ onStart, onPrivacy, onAbout }) {
         <span className={styles.footerDot} />
         <button className={styles.footerLink} onClick={onPrivacy}>Privacy Policy</button>
       </div>
+
+      {/* Resume-from-live modal (single-team mode only, when actuals has picks) */}
+      <ResumeLiveModal
+        isOpen={resumeModal.open}
+        livePickCount={resumeModal.livePickCount}
+        onClose={() => setResumeModal({ open: false, seedPicks: null, livePickCount: 0 })}
+        onFresh={() => {
+          setResumeModal({ open: false, seedPicks: null, livePickCount: 0 })
+          onStart({ mode, userTeamIds: selectedIds, numRounds })
+        }}
+        onResume={() => {
+          const seed = resumeModal.seedPicks
+          setResumeModal({ open: false, seedPicks: null, livePickCount: 0 })
+          onStart({ mode, userTeamIds: selectedIds, numRounds, seedPicks: seed })
+        }}
+      />
 
       {/* Create-group modal (only reachable when mode === 'predictive' with a team selected) */}
       <CreateGroupModal
