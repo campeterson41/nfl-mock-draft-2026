@@ -209,31 +209,37 @@ function scoreOriented(predicted, oriented) {
     return { points: 0, detail: {} }
   }
 
-  let points = 8  // you correctly called that this pick would be traded
-  const detail = { pickMoved: 8 }
+  // pickMoved base: nailing the exact pick number is more credit than
+  // "you said pick 50, pick 53 actually moved." 6 / 3 split.
+  const pickMovedPts = givenExact > 0 ? 6 : 3
+  let points = pickMovedPts
+  const detail = { pickMoved: pickMovedPts }
 
-  // Correct partner team
+  // Correct partner team — this is the "you knew WHO they'd trade with"
+  // signal, hardest to fake. Weighted equally with direction.
   if (predicted.partnerId && predicted.partnerId === oriented.partnerId) {
-    points += 4
-    detail.partner = 4
+    points += 6
+    detail.partner = 6
   }
 
-  // Correct direction (trade up vs back). Rough proxy based on pick counts.
+  // Correct direction (trade up vs back) — the "called the move" signal.
   const predictedDir = directionOf(predicted.gave, predicted.received)
   const actualDir    = directionOf(oriented.userSent, oriented.partnerSent)
   if (predictedDir && actualDir && predictedDir === actualDir) {
-    points += 3
-    detail.direction = 3
+    points += 6
+    detail.direction = 6
   }
 
   // Received side: the user correctly called which picks came back.
-  // Exact match = full credit; near-miss (within 5) = partial credit.
+  // Exact match = full credit; near-miss (within 5) = small consolation.
+  // recvNear deliberately small — being "in the neighborhood" of a real
+  // received pick shouldn't be worth nearly as much as nailing it.
   const recvExact = countExactMatches(predicted.received?.pickOveralls, oriented.partnerSent?.pickOveralls)
   const recvNearAll = countNearMatches(predicted.received?.pickOveralls, oriented.partnerSent?.pickOveralls, 5)
   const recvNear = Math.max(0, recvNearAll - recvExact)  // avoid double-counting
-  points += recvExact * 8 + recvNear * 3
+  points += recvExact * 8 + recvNear * 2
   if (recvExact) detail.recvExact = recvExact * 8
-  if (recvNear > 0) detail.recvNear = recvNear * 3
+  if (recvNear > 0) detail.recvNear = recvNear * 2
 
   return { points, detail }
 }
