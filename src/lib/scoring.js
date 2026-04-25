@@ -234,10 +234,17 @@ function scoreTradeMatch(predicted, actual) {
 }
 
 function scoreOriented(predicted, oriented) {
+  // Hard gate: predicting a trade means predicting WHO you'd trade with.
+  // If the predicted partner doesn't match this orientation's partner,
+  // the user didn't call this trade — coincidental pick-number overlap
+  // shouldn't earn credit.
+  if (!predicted.partnerId || predicted.partnerId !== oriented.partnerId) {
+    return { points: 0, detail: {} }
+  }
+
   // "Pick moved" base only fires when at least one of the picks the user
   // said they'd GIVE actually shows up in this trade's given picks (exact
-  // or within 5 picks). Without that overlap, this prediction simply
-  // doesn't apply to this trade — return 0.
+  // or within 5 picks).
   const givenExact = countExactMatches(
     predicted.gave?.pickOveralls ?? [],
     oriented.userSent?.pickOveralls ?? []
@@ -254,15 +261,8 @@ function scoreOriented(predicted, oriented) {
   // pickMoved base: nailing the exact pick number is more credit than
   // "you said pick 50, pick 53 actually moved." 6 / 3 split.
   const pickMovedPts = givenExact > 0 ? 6 : 3
-  let points = pickMovedPts
-  const detail = { pickMoved: pickMovedPts }
-
-  // Correct partner team — this is the "you knew WHO they'd trade with"
-  // signal, hardest to fake. Weighted equally with direction.
-  if (predicted.partnerId && predicted.partnerId === oriented.partnerId) {
-    points += 6
-    detail.partner = 6
-  }
+  let points = pickMovedPts + 6  // +6 for the partner match (already gated)
+  const detail = { pickMoved: pickMovedPts, partner: 6 }
 
   // Correct direction (trade up vs back) — the "called the move" signal.
   const predictedDir = directionOf(predicted.gave, predicted.received)
