@@ -13,7 +13,7 @@ function summaryOf(breakdown) {
   return { exact, near, position, trade }
 }
 
-export default function GroupLeaderboard({ ranked, actuals }) {
+export default function GroupLeaderboard({ ranked, actuals, team }) {
   const [openName, setOpenName] = useState(null)
 
   // Count only picks with a real playerId — empty teamId-only skeletons
@@ -78,6 +78,7 @@ export default function GroupLeaderboard({ ranked, actuals }) {
         score={openEntry?.score}
         rank={openRank}
         actuals={actuals}
+        teamId={team?.id}
         draftStarted
       />
     </>

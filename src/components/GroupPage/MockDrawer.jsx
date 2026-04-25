@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useMemo } from 'react'
 import { createPortal } from 'react-dom'
 import playersData from '../../data/players.json'
 import teamsData from '../../data/teams.json'
@@ -6,14 +6,18 @@ import styles from './MockDrawer.module.css'
 
 const PLAYER_MAP = Object.fromEntries(playersData.map(p => [p.id, p]))
 
+function roundOf(overall) {
+  if (overall <= 32)  return 1
+  if (overall <= 64)  return 2
+  if (overall <= 102) return 3
+  if (overall <= 138) return 4
+  if (overall <= 176) return 5
+  if (overall <= 221) return 6
+  return 7
+}
+
 function roundLabel(overall) {
-  if (overall <= 32)  return 'R1'
-  if (overall <= 64)  return 'R2'
-  if (overall <= 102) return 'R3'
-  if (overall <= 138) return 'R4'
-  if (overall <= 176) return 'R5'
-  if (overall <= 221) return 'R6'
-  return 'R7'
+  return 'R' + roundOf(overall)
 }
 
 function playerLine(id) {
@@ -82,7 +86,22 @@ function BreakdownLine({ line }) {
   return null
 }
 
-export default function MockDrawer({ submission, score, rank, open, onClose, actuals, draftStarted }) {
+export default function MockDrawer({ submission, score, rank, open, onClose, actuals, teamId, draftStarted }) {
+  // Index user-team's actual picks by round so we can show "what your team
+  // really did this round" when the predicted slot ended up belonging to
+  // someone else (e.g. user predicted a trade-back that didn't happen).
+  const userTeamPicksByRound = useMemo(() => {
+    if (!actuals?.picks || !teamId) return {}
+    const byRound = {}
+    for (const [overallStr, pick] of Object.entries(actuals.picks)) {
+      if (!pick?.playerId || pick?.teamId !== teamId) continue
+      const r = roundOf(Number(overallStr))
+      if (!byRound[r]) byRound[r] = []
+      byRound[r].push({ overall: Number(overallStr), playerId: pick.playerId })
+    }
+    return byRound
+  }, [actuals, teamId])
+
   // Close on Escape
   useEffect(() => {
     if (!open) return
@@ -175,12 +194,32 @@ export default function MockDrawer({ submission, score, rank, open, onClose, act
               </div>
               <div className={styles.pickList}>
                 {pickEntries.map(({ overall, playerId }) => {
-                  const actual = actuals?.picks?.[String(overall)]
-                  const isExact = actual && actual.playerId === playerId
-                  // Check for same-team near-hit in breakdown
+                  const slotPick = actuals?.picks?.[String(overall)]
+                  const slotIsUserTeam = !teamId || slotPick?.teamId === teamId
+                  const isExact = slotPick?.playerId === playerId && slotIsUserTeam
                   const isNear = breakdown.some(
                     l => l.type === 'near' && l.overall === overall
                   )
+
+                  // What to show as "ACTUAL":
+                  // 1) Predicted slot was actually made by user's team → show it.
+                  // 2) Otherwise pick the user's team's actual pick in the same
+                  //    round as the prediction, closest by overall slot.
+                  // 3) If the team has no pick that round, show "no pick this round".
+                  let actualDisplay = null
+                  if (slotPick?.playerId && slotIsUserTeam) {
+                    actualDisplay = { playerId: slotPick.playerId, overall, sameSlot: true }
+                  } else if (teamId) {
+                    const r = roundOf(overall)
+                    const teamPicks = userTeamPicksByRound[r] ?? []
+                    if (teamPicks.length > 0) {
+                      const closest = [...teamPicks].sort(
+                        (a, b) => Math.abs(a.overall - overall) - Math.abs(b.overall - overall)
+                      )[0]
+                      actualDisplay = { playerId: closest.playerId, overall: closest.overall, sameSlot: false }
+                    }
+                  }
+
                   return (
                     <div
                       key={overall}
@@ -196,12 +235,16 @@ export default function MockDrawer({ submission, score, rank, open, onClose, act
                       </div>
                       {draftStarted && (
                         <div className={`${styles.pickActual} ${isExact ? styles.pickActualHit : ''}`}>
-                          {actual
+                          {actualDisplay
                             ? <>
-                                <span className={styles.pickActualLabel}>ACTUAL</span>
-                                {playerLine(actual.playerId)}
+                                <span className={styles.pickActualLabel}>
+                                  {actualDisplay.sameSlot ? 'ACTUAL' : `ACTUAL · #${actualDisplay.overall}`}
+                                </span>
+                                {playerLine(actualDisplay.playerId)}
                               </>
-                            : <span className={styles.pickPending}>—</span>
+                            : <span className={styles.pickPending}>
+                                {teamId ? 'no pick this round' : '—'}
+                              </span>
                           }
                         </div>
                       )}
