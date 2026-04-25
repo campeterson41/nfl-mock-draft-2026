@@ -182,7 +182,7 @@ export function scoreSubmission(submission, actuals, players = [], teamId = null
       if (claimedActualIdxs.has(idx)) return
       // Predictive mode: only score trades the user's team was actually party to.
       if (teamId && actual.teamAId !== teamId && actual.teamBId !== teamId) return
-      const tradeResult = scoreTradeMatch(predicted, actual)
+      const tradeResult = scoreTradeMatch(predicted, actual, teamId)
       if (tradeResult.points > bestScore) {
         bestScore = tradeResult.points
         bestMatch = tradeResult
@@ -219,7 +219,24 @@ export function scoreSubmission(submission, actuals, players = [], teamId = null
  * We don't know here which team was the user's, so we try both orientations
  * and take the higher score.
  */
-function scoreTradeMatch(predicted, actual) {
+function scoreTradeMatch(predicted, actual, teamId) {
+  // Pin orientation to the user's team if known — scoring "from MIN's
+  // perspective" when the user is CAR doesn't make sense.
+  if (teamId && actual.teamAId === teamId) {
+    return scoreOriented(predicted, {
+      partnerId: actual.teamBId,
+      partnerSent: actual.bSent ?? {},
+      userSent: actual.aSent ?? {},
+    })
+  }
+  if (teamId && actual.teamBId === teamId) {
+    return scoreOriented(predicted, {
+      partnerId: actual.teamAId,
+      partnerSent: actual.aSent ?? {},
+      userSent: actual.bSent ?? {},
+    })
+  }
+  // No teamId context — fall back to trying both and taking the better.
   const optionA = scoreOriented(predicted, {
     partnerId: actual.teamBId,
     partnerSent: actual.bSent ?? {},
@@ -234,14 +251,6 @@ function scoreTradeMatch(predicted, actual) {
 }
 
 function scoreOriented(predicted, oriented) {
-  // Hard gate: predicting a trade means predicting WHO you'd trade with.
-  // If the predicted partner doesn't match this orientation's partner,
-  // the user didn't call this trade — coincidental pick-number overlap
-  // shouldn't earn credit.
-  if (!predicted.partnerId || predicted.partnerId !== oriented.partnerId) {
-    return { points: 0, detail: {} }
-  }
-
   // "Pick moved" base only fires when at least one of the picks the user
   // said they'd GIVE actually shows up in this trade's given picks (exact
   // or within 5 picks).
@@ -258,18 +267,27 @@ function scoreOriented(predicted, oriented) {
     return { points: 0, detail: {} }
   }
 
-  // pickMoved base: nailing the exact pick number is more credit than
-  // "you said pick 50, pick 53 actually moved." 6 / 3 split.
-  const pickMovedPts = givenExact > 0 ? 6 : 3
-  let points = pickMovedPts + 6  // +6 for the partner match (already gated)
-  const detail = { pickMoved: pickMovedPts, partner: 6 }
-
-  // Correct direction (trade up vs back) — the "called the move" signal.
+  // Hard gate: predicting a trade means calling the DIRECTION — did you
+  // see your team moving up or back? If the predicted direction doesn't
+  // match the actual direction, the prediction missed the move itself,
+  // so coincidental pick-number overlap shouldn't earn credit.
   const predictedDir = directionOf(predicted.gave, predicted.received)
   const actualDir    = directionOf(oriented.userSent, oriented.partnerSent)
-  if (predictedDir && actualDir && predictedDir === actualDir) {
+  if (!predictedDir || !actualDir || predictedDir !== actualDir) {
+    return { points: 0, detail: {} }
+  }
+
+  // pickMoved base: nailing the exact pick number is more credit than
+  // "you said pick 50, pick 53 actually moved." 6 / 3 split.
+  // +6 baked in for direction match (already gated).
+  const pickMovedPts = givenExact > 0 ? 6 : 3
+  let points = pickMovedPts + 6
+  const detail = { pickMoved: pickMovedPts, direction: 6 }
+
+  // Correct partner team — bonus, not required.
+  if (predicted.partnerId && predicted.partnerId === oriented.partnerId) {
     points += 6
-    detail.direction = 6
+    detail.partner = 6
   }
 
   // Received side: the user correctly called which picks came back.
@@ -304,11 +322,17 @@ function countNearMatches(a = [], b = [], maxDistance = 5) {
 }
 
 function directionOf(gave = {}, received = {}) {
-  const gaveCount = (gave.pickOveralls?.length ?? 0) + (gave.futurePickIds?.length ?? 0)
-  const recvCount = (received.pickOveralls?.length ?? 0) + (received.futurePickIds?.length ?? 0)
-  if (gaveCount < recvCount) return 'up'       // gave fewer (but earlier) picks
-  if (gaveCount > recvCount) return 'back'     // gave more (later) picks for one earlier
-  return null
+  // Compare the EARLIEST pick on each side. Lower overall = earlier = better.
+  // Trading "up" = you gave a later pick, got an earlier one back.
+  // Trading "back" = you gave an earlier pick, got a later one (+ extras) back.
+  const gavePicks = gave.pickOveralls ?? []
+  const recvPicks = received.pickOveralls ?? []
+  if (gavePicks.length === 0 || recvPicks.length === 0) return null
+  const gaveBest = Math.min(...gavePicks)
+  const recvBest = Math.min(...recvPicks)
+  if (gaveBest > recvBest) return 'up'    // got earlier pick than I sent
+  if (gaveBest < recvBest) return 'back'  // sent earlier pick than I got
+  return null  // best picks match — pure swap, no clear direction
 }
 
 /**
