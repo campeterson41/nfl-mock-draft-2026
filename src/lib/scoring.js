@@ -13,12 +13,12 @@
 // worth a bit more. But not dramatically: a R7 hit is ~2x a R1 hit, not 6x.
 const ROUND_BASE_POINTS = {
   1: 12,
-  2: 14,
-  3: 16,
-  4: 18,
-  5: 20,
-  6: 22,
-  7: 24,
+  2: 13,
+  3: 14,
+  4: 15,
+  5: 16,
+  6: 17,
+  7: 18,
 }
 
 function roundFromOverall(overall) {
@@ -298,9 +298,9 @@ function scoreOriented(predicted, oriented) {
   const recvExact = countExactMatches(predicted.received?.pickOveralls, oriented.partnerSent?.pickOveralls)
   const recvNearAll = countNearMatches(predicted.received?.pickOveralls, oriented.partnerSent?.pickOveralls, 5)
   const recvNear = Math.max(0, recvNearAll - recvExact)  // avoid double-counting
-  points += recvExact * 6 + recvNear * 1
+  points += recvExact * 6 + recvNear * 2
   if (recvExact) detail.recvExact = recvExact * 6
-  if (recvNear > 0) detail.recvNear = recvNear * 1
+  if (recvNear > 0) detail.recvNear = recvNear * 2
 
   return { points, detail }
 }
