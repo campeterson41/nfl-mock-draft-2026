@@ -172,8 +172,8 @@
   display: grid;
   grid-template-columns: 52px 52px 1fr auto;
   gap: 8px;
-  align-items: center;
-  padding: 6px 10px;
+  align-items: start;
+  padding: 8px 10px;
   font-size: 12px;
   border-left: 2px solid #27272e;
   border-radius: 2px;
@@ -197,10 +197,10 @@
 
 .btext {
   color: #e4e4e7;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
   font-size: 11px;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .bpts {
