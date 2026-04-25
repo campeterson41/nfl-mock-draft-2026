@@ -57,11 +57,14 @@ function BreakdownLine({ line }) {
     )
   }
   if (line.type === 'position') {
+    const text = line.sameSlot === false && line.actualOverall
+      ? `Right position (${line.position}) — team took ${line.position} in same round (#${line.actualOverall})`
+      : `Right position (${line.position}), wrong player`
     return (
       <div className={`${styles.bline} ${styles.bline_pos}`}>
         <span className={styles.btag}>POS</span>
         <span className={styles.bmeta}>#{line.overall}</span>
-        <span className={styles.btext}>Right position ({line.position}), wrong player</span>
+        <span className={styles.btext}>{text}</span>
         <span className={styles.bpts}>+{line.points}</span>
       </div>
     )

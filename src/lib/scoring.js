@@ -48,24 +48,27 @@ export function scoreSubmission(submission, actuals, players = [], teamId = null
   const breakdown = []
   let total = 0
 
+  // Track user-team actual picks that have already been "matched" by a
+  // prediction so two predictions don't both claim the same actual pick
+  // (e.g. predicting two OTs in R1 when your team took one OT).
+  const claimedActualOveralls = new Set()
+
   // ── Score PICKS ────────────────────────────────────────────────────
   for (const [overallStr, predictedPlayerId] of Object.entries(submission.picks ?? {})) {
     const overall = Number(overallStr)
     const actualPick = actuals.picks?.[overallStr]
-    if (!actualPick) continue  // Actual not yet entered for this slot — skip
 
     const round = roundFromOverall(overall)
     const basePoints = ROUND_BASE_POINTS[round] ?? 10
 
-    // Predictive mode is about YOUR team. Exact hits and position-match
-    // consolation only fire when the actual pick at this slot was made
-    // by the user's team. Otherwise the prediction at this slot was
-    // contingent on a trade that didn't happen — another team's pick
-    // shouldn't earn the predictor any credit.
-    const slotIsUserTeam = !teamId || actualPick.teamId === teamId
+    // Predictive mode is about YOUR team. Exact hits and slot position
+    // match only fire when the actual pick at this slot was made by the
+    // user's team — another team's pick at that slot shouldn't earn credit.
+    const slotIsUserTeam = actualPick ? (!teamId || actualPick.teamId === teamId) : false
 
-    // Exact hit: right player, right pick slot — and your team made it
-    if (slotIsUserTeam && actualPick.playerId === predictedPlayerId) {
+    // 1. Exact hit: right player, right pick slot — and your team made it
+    if (actualPick && slotIsUserTeam && actualPick.playerId === predictedPlayerId) {
+      claimedActualOveralls.add(overall)
       total += basePoints
       breakdown.push({
         type: 'exact',
@@ -77,12 +80,14 @@ export function scoreSubmission(submission, actuals, players = [], teamId = null
       continue
     }
 
-    // Same-team near-hit: the predicted player WAS picked by the user's team,
-    // just at a different slot (e.g. they traded back a few spots).
-    // Only scores if we know the team and the team actually picked that player.
+    // 2. Same-team near-hit: predicted player WAS picked by user's team,
+    // just at a different slot. Only fires if the team actually drafted
+    // that player and we haven't already claimed that actual pick.
     if (teamId) {
       const teamEntry = Object.entries(actuals.picks ?? {}).find(
-        ([, pick]) => pick?.teamId === teamId && pick?.playerId === predictedPlayerId
+        ([ovStr, pick]) => pick?.teamId === teamId &&
+          pick?.playerId === predictedPlayerId &&
+          !claimedActualOveralls.has(Number(ovStr))
       )
       if (teamEntry) {
         const actualOverall = Number(teamEntry[0])
@@ -97,12 +102,13 @@ export function scoreSubmission(submission, actuals, players = [], teamId = null
           reason = 'adjacent-round'
         }
         if (nearPoints > 0) {
+          claimedActualOveralls.add(actualOverall)
           total += nearPoints
           breakdown.push({
             type: 'near',
             overall,
             predictedPlayerId,
-            actualPlayerId: actualPick.playerId,
+            actualPlayerId: actualPick?.playerId ?? null,
             actualOverall,
             actualRound,
             points: nearPoints,
@@ -113,22 +119,48 @@ export function scoreSubmission(submission, actuals, players = [], teamId = null
       }
     }
 
-    // Position consolation: right position at this slot, wrong player —
-    // only when your team actually made the pick at that slot.
-    if (slotIsUserTeam) {
-      const predictedPlayer = playerMap[predictedPlayerId]
-      const actualPlayer   = playerMap[actualPick.playerId]
-      if (predictedPlayer && actualPlayer && predictedPlayer.position === actualPlayer.position) {
-        total += 5
-        breakdown.push({
-          type: 'position',
-          overall,
-          predictedPlayerId,
-          actualPlayerId: actualPick.playerId,
-          position: predictedPlayer.position,
-          points: 5,
-        })
+    // 3. Position match: you called the right position for the round.
+    //    Fires either when your team made the pick at the predicted slot
+    //    (right position, wrong player), OR when your team made any other
+    //    pick in the same round of the matching position. This covers the
+    //    common case of predicting "OT in R1" when the trade-up didn't
+    //    happen but your team still took OT in R1 at a different slot.
+    const predictedPlayer = playerMap[predictedPlayerId]
+    if (!predictedPlayer) continue
+
+    let positionMatch = null
+    if (actualPick && slotIsUserTeam && !claimedActualOveralls.has(overall)) {
+      const actualPlayer = playerMap[actualPick.playerId]
+      if (actualPlayer?.position === predictedPlayer.position) {
+        positionMatch = { overall, playerId: actualPick.playerId, sameSlot: true }
       }
+    }
+    if (!positionMatch && teamId) {
+      for (const [ovStr, pick] of Object.entries(actuals.picks ?? {})) {
+        const actualOverall = Number(ovStr)
+        if (claimedActualOveralls.has(actualOverall)) continue
+        if (pick?.teamId !== teamId || !pick?.playerId) continue
+        if (roundFromOverall(actualOverall) !== round) continue
+        const ap = playerMap[pick.playerId]
+        if (ap?.position === predictedPlayer.position) {
+          positionMatch = { overall: actualOverall, playerId: pick.playerId, sameSlot: false }
+          break
+        }
+      }
+    }
+    if (positionMatch) {
+      claimedActualOveralls.add(positionMatch.overall)
+      total += 5
+      breakdown.push({
+        type: 'position',
+        overall,
+        predictedPlayerId,
+        actualPlayerId: positionMatch.playerId,
+        actualOverall: positionMatch.overall,
+        position: predictedPlayer.position,
+        sameSlot: positionMatch.sameSlot,
+        points: 5,
+      })
     }
   }
 
