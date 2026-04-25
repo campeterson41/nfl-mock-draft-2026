@@ -278,13 +278,14 @@ function scoreOriented(predicted, oriented) {
   }
 
   // pickMoved base: nailing the exact pick number is more credit than
-  // "you said pick 50, pick 53 actually moved." 6 / 3 split.
-  // +6 baked in for direction match (already gated).
-  const pickMovedPts = givenExact > 0 ? 6 : 3
-  let points = pickMovedPts + 6
-  const detail = { pickMoved: pickMovedPts, direction: 6 }
+  // "you said pick 50, pick 53 actually moved." 4 / 2 split.
+  // Direction match is a pure qualifier — no points, just a gate above.
+  const pickMovedPts = givenExact > 0 ? 4 : 2
+  let points = pickMovedPts
+  const detail = { pickMoved: pickMovedPts, direction: true }
 
-  // Correct partner team — bonus, not required.
+  // Correct partner team — bonus, not required. Worth more than direction
+  // because guessing the partner is much harder than guessing the move.
   if (predicted.partnerId && predicted.partnerId === oriented.partnerId) {
     points += 6
     detail.partner = 6
@@ -297,9 +298,9 @@ function scoreOriented(predicted, oriented) {
   const recvExact = countExactMatches(predicted.received?.pickOveralls, oriented.partnerSent?.pickOveralls)
   const recvNearAll = countNearMatches(predicted.received?.pickOveralls, oriented.partnerSent?.pickOveralls, 5)
   const recvNear = Math.max(0, recvNearAll - recvExact)  // avoid double-counting
-  points += recvExact * 8 + recvNear * 2
-  if (recvExact) detail.recvExact = recvExact * 8
-  if (recvNear > 0) detail.recvNear = recvNear * 2
+  points += recvExact * 6 + recvNear * 1
+  if (recvExact) detail.recvExact = recvExact * 6
+  if (recvNear > 0) detail.recvNear = recvNear * 1
 
   return { points, detail }
 }
