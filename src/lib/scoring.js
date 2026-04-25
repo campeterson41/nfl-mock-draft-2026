@@ -57,8 +57,15 @@ export function scoreSubmission(submission, actuals, players = [], teamId = null
     const round = roundFromOverall(overall)
     const basePoints = ROUND_BASE_POINTS[round] ?? 10
 
-    // Exact hit: right player, right pick slot
-    if (actualPick.playerId === predictedPlayerId) {
+    // Predictive mode is about YOUR team. Exact hits and position-match
+    // consolation only fire when the actual pick at this slot was made
+    // by the user's team. Otherwise the prediction at this slot was
+    // contingent on a trade that didn't happen — another team's pick
+    // shouldn't earn the predictor any credit.
+    const slotIsUserTeam = !teamId || actualPick.teamId === teamId
+
+    // Exact hit: right player, right pick slot — and your team made it
+    if (slotIsUserTeam && actualPick.playerId === predictedPlayerId) {
       total += basePoints
       breakdown.push({
         type: 'exact',
@@ -106,19 +113,22 @@ export function scoreSubmission(submission, actuals, players = [], teamId = null
       }
     }
 
-    // Position consolation: right position at this slot, wrong player
-    const predictedPlayer = playerMap[predictedPlayerId]
-    const actualPlayer   = playerMap[actualPick.playerId]
-    if (predictedPlayer && actualPlayer && predictedPlayer.position === actualPlayer.position) {
-      total += 5
-      breakdown.push({
-        type: 'position',
-        overall,
-        predictedPlayerId,
-        actualPlayerId: actualPick.playerId,
-        position: predictedPlayer.position,
-        points: 5,
-      })
+    // Position consolation: right position at this slot, wrong player —
+    // only when your team actually made the pick at that slot.
+    if (slotIsUserTeam) {
+      const predictedPlayer = playerMap[predictedPlayerId]
+      const actualPlayer   = playerMap[actualPick.playerId]
+      if (predictedPlayer && actualPlayer && predictedPlayer.position === actualPlayer.position) {
+        total += 5
+        breakdown.push({
+          type: 'position',
+          overall,
+          predictedPlayerId,
+          actualPlayerId: actualPick.playerId,
+          position: predictedPlayer.position,
+          points: 5,
+        })
+      }
     }
   }
 
