@@ -127,6 +127,51 @@ export default function MockDrawer({ submission, score, rank, open, onClose, act
     .map(([o, pid]) => ({ overall: Number(o), playerId: pid }))
     .sort((a, b) => a.overall - b.overall)
 
+  // Pair each prediction with one of the user team's same-round actual
+  // picks. Same-slot matches lock first; remaining predictions pair with
+  // remaining team picks in order (earliest pred ↔ earliest actual). If
+  // there are more predictions than team picks in the round, extras get
+  // "no pick this round."
+  const actualByPrediction = {}
+  if (actuals?.picks && pickEntries.length > 0) {
+    const predsByRound = {}
+    for (const { overall } of pickEntries) {
+      const r = roundOf(overall)
+      if (!predsByRound[r]) predsByRound[r] = []
+      predsByRound[r].push(overall)
+    }
+    for (const r of Object.keys(predsByRound)) {
+      const preds = predsByRound[r].slice().sort((a, b) => a - b)
+      const teamPicks = (userTeamPicksByRound[r] ?? [])
+        .slice()
+        .sort((a, b) => a.overall - b.overall)
+      const claimed = new Set()
+      for (const predOverall of preds) {
+        const slotPick = actuals.picks[String(predOverall)]
+        if (slotPick?.playerId && slotPick?.teamId === teamId) {
+          actualByPrediction[predOverall] = {
+            actualOverall: predOverall,
+            playerId: slotPick.playerId,
+            sameSlot: true,
+          }
+          claimed.add(predOverall)
+        }
+      }
+      const remainingPreds = preds.filter(p => !actualByPrediction[p])
+      const remainingTeamPicks = teamPicks.filter(tp => !claimed.has(tp.overall))
+      for (let i = 0; i < remainingPreds.length; i++) {
+        const tp = remainingTeamPicks[i]
+        if (tp) {
+          actualByPrediction[remainingPreds[i]] = {
+            actualOverall: tp.overall,
+            playerId: tp.playerId,
+            sameSlot: false,
+          }
+        }
+      }
+    }
+  }
+
   const breakdown = score?.breakdown ?? []
   const hasScore = draftStarted && breakdown.length > 0
 
@@ -203,25 +248,11 @@ export default function MockDrawer({ submission, score, rank, open, onClose, act
                   const isNear = breakdown.some(
                     l => l.type === 'near' && l.overall === overall
                   )
-
-                  // What to show as "ACTUAL":
-                  // 1) Predicted slot was actually made by user's team → show it.
-                  // 2) Otherwise pick the user's team's actual pick in the same
-                  //    round as the prediction, closest by overall slot.
-                  // 3) If the team has no pick that round, show "no pick this round".
-                  let actualDisplay = null
-                  if (slotPick?.playerId && slotIsUserTeam) {
-                    actualDisplay = { playerId: slotPick.playerId, overall, sameSlot: true }
-                  } else if (teamId) {
-                    const r = roundOf(overall)
-                    const teamPicks = userTeamPicksByRound[r] ?? []
-                    if (teamPicks.length > 0) {
-                      const closest = [...teamPicks].sort(
-                        (a, b) => Math.abs(a.overall - overall) - Math.abs(b.overall - overall)
-                      )[0]
-                      actualDisplay = { playerId: closest.playerId, overall: closest.overall, sameSlot: false }
-                    }
-                  }
+                  const actualDisplay = actualByPrediction[overall]
+                    ? { playerId: actualByPrediction[overall].playerId,
+                        overall:  actualByPrediction[overall].actualOverall,
+                        sameSlot: actualByPrediction[overall].sameSlot }
+                    : null
 
                   return (
                     <div
