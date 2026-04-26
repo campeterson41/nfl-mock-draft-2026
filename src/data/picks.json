@@ -319,7 +319,7 @@
       "overall": 36,
       "round": 2,
       "roundPick": 4,
-      "teamId": "LV",
+      "teamId": "HOU",
       "originalTeamId": "LV",
       "isCompensatory": false,
       "isFuturePick": false
@@ -337,7 +337,7 @@
       "overall": 38,
       "round": 2,
       "roundPick": 6,
-      "teamId": "HOU",
+      "teamId": "LV",
       "originalTeamId": "WAS",
       "isCompensatory": false,
       "isFuturePick": false
@@ -391,7 +391,7 @@
       "overall": 44,
       "round": 2,
       "roundPick": 12,
-      "teamId": "NYJ",
+      "teamId": "DET",
       "originalTeamId": "DAL",
       "isCompensatory": false,
       "isFuturePick": false
@@ -418,7 +418,7 @@
       "overall": 47,
       "round": 2,
       "roundPick": 15,
-      "teamId": "IND",
+      "teamId": "PIT",
       "originalTeamId": "IND",
       "isCompensatory": false,
       "isFuturePick": false
@@ -436,7 +436,7 @@
       "overall": 49,
       "round": 2,
       "roundPick": 17,
-      "teamId": "MIN",
+      "teamId": "CAR",
       "originalTeamId": "MIN",
       "isCompensatory": false,
       "isFuturePick": false
@@ -445,7 +445,7 @@
       "overall": 50,
       "round": 2,
       "roundPick": 18,
-      "teamId": "DET",
+      "teamId": "NYJ",
       "originalTeamId": "DET",
       "isCompensatory": false,
       "isFuturePick": false
@@ -454,7 +454,7 @@
       "overall": 51,
       "round": 2,
       "roundPick": 19,
-      "teamId": "CAR",
+      "teamId": "MIN",
       "originalTeamId": "CAR",
       "isCompensatory": false,
       "isFuturePick": false
@@ -472,7 +472,7 @@
       "overall": 53,
       "round": 2,
       "roundPick": 21,
-      "teamId": "PIT",
+      "teamId": "IND",
       "originalTeamId": "PIT",
       "isCompensatory": false,
       "isFuturePick": false
@@ -490,7 +490,7 @@
       "overall": 55,
       "round": 2,
       "roundPick": 23,
-      "teamId": "LAC",
+      "teamId": "NE",
       "originalTeamId": "LAC",
       "isCompensatory": false,
       "isFuturePick": false
@@ -517,7 +517,7 @@
       "overall": 58,
       "round": 2,
       "roundPick": 26,
-      "teamId": "SF",
+      "teamId": "CLE",
       "originalTeamId": "SF",
       "isCompensatory": false,
       "isFuturePick": false
@@ -535,7 +535,7 @@
       "overall": 60,
       "round": 2,
       "roundPick": 28,
-      "teamId": "CHI",
+      "teamId": "TEN",
       "originalTeamId": "BUF",
       "isCompensatory": false,
       "isFuturePick": false
@@ -553,7 +553,7 @@
       "overall": 62,
       "round": 2,
       "roundPick": 30,
-      "teamId": "DEN",
+      "teamId": "BUF",
       "originalTeamId": "DEN",
       "isCompensatory": false,
       "isFuturePick": false
@@ -562,7 +562,7 @@
       "overall": 63,
       "round": 2,
       "roundPick": 31,
-      "teamId": "NE",
+      "teamId": "LAC",
       "originalTeamId": "NE",
       "isCompensatory": false,
       "isFuturePick": false
@@ -1102,7 +1102,7 @@
       "overall": 123,
       "round": 4,
       "roundPick": 23,
-      "teamId": "LAC",
+      "teamId": "HOU",
       "originalTeamId": "LAC",
       "isCompensatory": false,
       "isFuturePick": false
@@ -1255,7 +1255,7 @@
       "overall": 140,
       "round": 4,
       "roundPick": 40,
-      "teamId": "NYJ",
+      "teamId": "CIN",
       "originalTeamId": "NYJ",
       "isCompensatory": true,
       "isFuturePick": false
@@ -1624,7 +1624,7 @@
       "overall": 181,
       "round": 5,
       "roundPick": 41,
-      "teamId": "DET",
+      "teamId": "BUF",
       "originalTeamId": "DET",
       "isCompensatory": true,
       "isFuturePick": false
@@ -1633,7 +1633,7 @@
       "overall": 182,
       "round": 6,
       "roundPick": 1,
-      "teamId": "DEN",
+      "teamId": "CLE",
       "originalTeamId": "NYJ",
       "isCompensatory": false,
       "isFuturePick": false
@@ -1660,7 +1660,7 @@
       "overall": 185,
       "round": 6,
       "roundPick": 4,
-      "teamId": "LV",
+      "teamId": "TB",
       "originalTeamId": "LV",
       "isCompensatory": false,
       "isFuturePick": false
@@ -1687,7 +1687,7 @@
       "overall": 188,
       "round": 6,
       "roundPick": 7,
-      "teamId": "SEA",
+      "teamId": "NYJ",
       "originalTeamId": "CLE",
       "isCompensatory": false,
       "isFuturePick": false
@@ -1714,7 +1714,7 @@
       "overall": 191,
       "round": 6,
       "roundPick": 10,
-      "teamId": "NE",
+      "teamId": "JAX",
       "originalTeamId": "KC",
       "isCompensatory": false,
       "isFuturePick": false
@@ -1750,7 +1750,7 @@
       "overall": 195,
       "round": 6,
       "roundPick": 14,
-      "teamId": "TB",
+      "teamId": "LV",
       "originalTeamId": "TB",
       "isCompensatory": false,
       "isFuturePick": false
@@ -1759,7 +1759,7 @@
       "overall": 196,
       "round": 6,
       "roundPick": 15,
-      "teamId": "JAX",
+      "teamId": "NE",
       "originalTeamId": "IND",
       "isCompensatory": false,
       "isFuturePick": false
@@ -1768,7 +1768,7 @@
       "overall": 197,
       "round": 6,
       "roundPick": 16,
-      "teamId": "PHI",
+      "teamId": "LAR",
       "originalTeamId": "ATL",
       "isCompensatory": false,
       "isFuturePick": false
@@ -1777,7 +1777,7 @@
       "overall": 198,
       "round": 6,
       "roundPick": 17,
-      "teamId": "NE",
+      "teamId": "MIN",
       "originalTeamId": "MIN",
       "isCompensatory": false,
       "isFuturePick": false
@@ -1786,7 +1786,7 @@
       "overall": 199,
       "round": 6,
       "roundPick": 18,
-      "teamId": "NYJ",
+      "teamId": "SEA",
       "originalTeamId": "DET",
       "isCompensatory": false,
       "isFuturePick": false
@@ -1858,7 +1858,7 @@
       "overall": 207,
       "round": 6,
       "roundPick": 26,
-      "teamId": "LAR",
+      "teamId": "PHI",
       "originalTeamId": "HOU",
       "isCompensatory": false,
       "isFuturePick": false
@@ -1912,7 +1912,7 @@
       "overall": 213,
       "round": 6,
       "roundPick": 32,
-      "teamId": "DET",
+      "teamId": "CHI",
       "originalTeamId": "SEA",
       "isCompensatory": false,
       "isFuturePick": false
@@ -1939,7 +1939,7 @@
       "overall": 216,
       "round": 6,
       "roundPick": 35,
-      "teamId": "SEA",
+      "teamId": "GB",
       "originalTeamId": "PIT",
       "isCompensatory": true,
       "isFuturePick": false
@@ -1966,7 +1966,7 @@
       "overall": 219,
       "round": 7,
       "roundPick": 3,
-      "teamId": "LV",
+      "teamId": "NO",
       "originalTeamId": "LV",
       "isCompensatory": false,
       "isFuturePick": false
@@ -2056,7 +2056,7 @@
       "overall": 229,
       "round": 7,
       "roundPick": 13,
-      "teamId": "TB",
+      "teamId": "LV",
       "originalTeamId": "TB",
       "isCompensatory": false,
       "isFuturePick": false
@@ -2101,7 +2101,7 @@
       "overall": 234,
       "round": 7,
       "roundPick": 18,
-      "teamId": "MIN",
+      "teamId": "NE",
       "originalTeamId": "MIN",
       "isCompensatory": false,
       "isFuturePick": false
@@ -2119,7 +2119,7 @@
       "overall": 236,
       "round": 7,
       "roundPick": 20,
-      "teamId": "GB",
+      "teamId": "SEA",
       "originalTeamId": "GB",
       "isCompensatory": false,
       "isFuturePick": false
@@ -2146,7 +2146,7 @@
       "overall": 239,
       "round": 7,
       "roundPick": 23,
-      "teamId": "CHI",
+      "teamId": "BUF",
       "originalTeamId": "PHI",
       "isCompensatory": false,
       "isFuturePick": false
@@ -2164,7 +2164,7 @@
       "overall": 241,
       "round": 7,
       "roundPick": 25,
-      "teamId": "CHI",
+      "teamId": "BUF",
       "originalTeamId": "CHI",
       "isCompensatory": false,
       "isFuturePick": false
@@ -2173,7 +2173,7 @@
       "overall": 242,
       "round": 7,
       "roundPick": 26,
-      "teamId": "NYJ",
+      "teamId": "SEA",
       "originalTeamId": "BUF",
       "isCompensatory": false,
       "isFuturePick": false
@@ -2200,7 +2200,7 @@
       "overall": 245,
       "round": 7,
       "roundPick": 29,
-      "teamId": "JAX",
+      "teamId": "NE",
       "originalTeamId": "LAR",
       "isCompensatory": false,
       "isFuturePick": false
@@ -2236,7 +2236,7 @@
       "overall": 249,
       "round": 7,
       "roundPick": 33,
-      "teamId": "PIT",
+      "teamId": "KC",
       "originalTeamId": "IND",
       "isCompensatory": true,
       "isFuturePick": false
@@ -2254,7 +2254,7 @@
       "overall": 251,
       "round": 7,
       "roundPick": 35,
-      "teamId": "LAR",
+      "teamId": "PHI",
       "originalTeamId": "LAR",
       "isCompensatory": true,
       "isFuturePick": false
@@ -2263,7 +2263,7 @@
       "overall": 252,
       "round": 7,
       "roundPick": 36,
-      "teamId": "LAR",
+      "teamId": "PHI",
       "originalTeamId": "LAR",
       "isCompensatory": true,
       "isFuturePick": false
@@ -2290,7 +2290,7 @@
       "overall": 255,
       "round": 7,
       "roundPick": 39,
-      "teamId": "GB",
+      "teamId": "SEA",
       "originalTeamId": "GB",
       "isCompensatory": true,
       "isFuturePick": false

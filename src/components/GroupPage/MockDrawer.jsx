@@ -277,7 +277,11 @@ export default function MockDrawer({ submission, score, rank, open, onClose, act
                                 {playerLine(actualDisplay.playerId)}
                               </>
                             : <span className={styles.pickPending}>
-                                {teamId ? 'no pick this round' : '—'}
+                                {teamId
+                                  ? ((userTeamPicksByRound[roundOf(overall)] ?? []).length > 0
+                                      ? 'no other picks this round'
+                                      : 'no pick this round')
+                                  : '—'}
                               </span>
                           }
                         </div>
